@@ -70,17 +70,37 @@ def jira_get(path, params=None):
         return json.loads(resp.read().decode())
 
 
+def jira_post(path, body):
+    url = f"{JIRA_SITE}{path}"
+    auth = base64.b64encode(f"{EMAIL}:{API_TOKEN}".encode()).decode()
+    data = json.dumps(body).encode()
+    req = urllib.request.Request(url, data=data, method="POST", headers={
+        "Authorization": f"Basic {auth}",
+        "Accept": "application/json",
+        "Content-Type": "application/json",
+    })
+    with urllib.request.urlopen(req) as resp:
+        return json.loads(resp.read().decode())
+
+
 def get_child_issues(epic_key):
-    issues, start_at = [], 0
+    # NOTE: GET /rest/api/3/search was deprecated/removed by Atlassian
+    # (returns 410 Gone). The replacement is POST /rest/api/3/search/jql,
+    # which uses nextPageToken-based pagination instead of startAt/total.
+    issues = []
+    next_token = None
     while True:
-        data = jira_get("/rest/api/3/search", {
+        body = {
             "jql": f"parent = {epic_key} ORDER BY created ASC",
-            "fields": "summary,status,issuetype",
-            "startAt": start_at, "maxResults": 100,
-        })
-        issues.extend(data["issues"])
-        start_at += len(data["issues"])
-        if start_at >= data["total"] or not data["issues"]:
+            "fields": ["summary", "status", "issuetype"],
+            "maxResults": 100,
+        }
+        if next_token:
+            body["nextPageToken"] = next_token
+        data = jira_post("/rest/api/3/search/jql", body)
+        issues.extend(data.get("issues", []))
+        next_token = data.get("nextPageToken")
+        if not next_token or data.get("isLast", True):
             break
     return issues
 
