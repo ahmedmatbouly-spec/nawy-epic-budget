@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Epic Budget Monitor — Nawy</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap');
+
+  :root {
+    --ink: #16211c;
+    --paper: #f6f4ee;
+    --card: #ffffff;
+    --line: #dcd8cc;
+    --moss: #2f5233;
+    --moss-dim: #6f8a72;
+    --clay: #b5502f;
+    --amber: #c48a2e;
+    --muted: #7c7568;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--paper); font-family: 'IBM Plex Sans', sans-serif; color: var(--ink); }
+  #root { padding: 28px 20px 60px; max-width: 1080px; margin: 0 auto; }
+
+  .eyebrow { font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--moss); margin-bottom: 6px; }
+  h1 { font-size: 28px; margin: 0 0 4px; font-weight: 700; letter-spacing: -0.01em; }
+  .subhead { color: var(--muted); font-size: 14px; margin-bottom: 24px; max-width: 680px; }
+
+  .toolbar { display: flex; gap: 16px; flex-wrap: wrap; align-items: center; margin-bottom: 22px; background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 16px; }
+  .field { display: flex; flex-direction: column; gap: 4px; }
+  .field label { font-size: 11px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); font-weight: 600; }
+  .field input { font-family: 'IBM Plex Mono', monospace; font-size: 13px; padding: 7px 9px; border: 1px solid var(--line); border-radius: 6px; background: var(--paper); color: var(--ink); width: 140px; }
+  .field input:focus { outline: none; border-color: var(--moss); }
+  button { font-family: 'IBM Plex Sans', sans-serif; font-weight: 600; font-size: 13px; padding: 9px 16px; border-radius: 6px; border: 1px solid var(--moss); background: var(--moss); color: white; cursor: pointer; }
+  button:hover { background: #24402a; }
+  button.ghost { background: transparent; color: var(--moss); }
+  button.ghost:hover { background: rgba(47,82,51,0.08); }
+  button.danger { border-color: var(--clay); color: var(--clay); background: transparent; }
+  button.danger:hover { background: rgba(181,80,47,0.08); }
+
+  textarea { width: 100%; min-height: 90px; font-family: 'IBM Plex Mono', monospace; font-size: 12px; padding: 10px; border-radius: 8px; border: 1px solid var(--line); background: var(--card); color: var(--ink); resize: vertical; }
+
+  .kpi-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 12px; margin-bottom: 22px; }
+  .kpi { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 16px 18px; }
+  .kpi .label { font-size: 11px; text-transform: uppercase; letter-spacing: 0.07em; color: var(--muted); font-weight: 600; margin-bottom: 6px; }
+  .kpi .value { font-family: 'IBM Plex Mono', monospace; font-size: 26px; font-weight: 600; line-height: 1.1; }
+  .kpi .sub { font-size: 12px; color: var(--moss-dim); margin-top: 4px; }
+  .kpi.highlight { border-color: var(--moss); }
+  .kpi.highlight .value { color: var(--moss); }
+  .kpi.spend .value { color: var(--clay); }
+
+  .progress-bar { height: 8px; border-radius: 4px; background: var(--line); overflow: hidden; margin-top: 8px; }
+  .progress-bar > div { height: 100%; background: var(--moss); }
+
+  table { width: 100%; border-collapse: collapse; background: var(--card); border: 1px solid var(--line); border-radius: 10px; overflow: hidden; }
+  thead th { text-align: left; font-size: 11px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); font-weight: 600; padding: 10px 12px; border-bottom: 1px solid var(--line); background: #f0eee5; cursor: pointer; user-select: none; }
+  thead th:hover { color: var(--ink); }
+  tbody td { padding: 9px 12px; font-size: 13px; border-bottom: 1px solid #ece9df; vertical-align: top; }
+  tbody tr:last-child td { border-bottom: none; }
+  tbody tr:hover { background: #faf9f5; }
+  .mono { font-family: 'IBM Plex Mono', monospace; }
+  .num { text-align: right; }
+  .badge { display: inline-block; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.04em; padding: 2px 7px; border-radius: 100px; }
+  .badge.done { background: rgba(47,82,51,0.12); color: var(--moss); }
+  .badge.progress { background: rgba(196,138,46,0.15); color: var(--amber); }
+
+  .section-title { font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; color: var(--ink); margin: 26px 0 10px; display: flex; align-items: center; gap: 8px; }
+  .section-title::after { content: ''; flex: 1; height: 1px; background: var(--line); }
+
+  .epic-pills { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 16px; }
+  .epic-pill { font-family: 'IBM Plex Mono', monospace; font-size: 12px; padding: 6px 12px; border-radius: 100px; border: 1px solid var(--line); background: var(--card); cursor: pointer; }
+  .epic-pill.active { background: var(--moss); border-color: var(--moss); color: white; }
+
+  .empty { text-align: center; padding: 50px 20px; color: var(--muted); font-size: 14px; background: var(--card); border: 1px dashed var(--line); border-radius: 10px; }
+  .helptext { font-size: 12px; color: var(--muted); margin-top: 6px; line-height: 1.5; }
+  .helptext code, .subhead code { background: #efece1; padding: 1px 5px; border-radius: 4px; font-family: 'IBM Plex Mono', monospace; }
+  .error-msg { color: var(--clay); font-size: 12px; margin-top: 6px; }
+</style>
+</head>
+<body>
+<div id="root"></div>
+
+<script>
+// ---------------------------------------------------------------------------
+// Data loading: this page is served from the same repo/site as data/*.json
+// (written automatically by the GitHub Action), so it fetches those files
+// directly - no manual paste needed in normal operation. localStorage is
+// kept only as an offline/manual-override fallback.
+// ---------------------------------------------------------------------------
+const STORE_KEY = 'nawy_epic_budget_data_v1';
+
+function loadAllEpics() {
+  try {
+    const raw = localStorage.getItem(STORE_KEY);
+    return raw ? JSON.parse(raw) : {};
+  } catch (e) { return {}; }
+}
+function saveAllEpics(epics) {
+  localStorage.setItem(STORE_KEY, JSON.stringify(epics));
+}
+
+async function fetchLiveEpics() {
+  // data/index.json is written by scripts/jira_epic_budget.py on each run.
+  try {
+    const idxResp = await fetch('../data/index.json', { cache: 'no-store' });
+    if (!idxResp.ok) return {};
+    const idx = await idxResp.json();
+    const results = {};
+    await Promise.all((idx.epics || []).map(async (e) => {
+      try {
+        const r = await fetch(`../data/${e.epic_key}.json`, { cache: 'no-store' });
+        if (r.ok) results[e.epic_key] = await r.json();
+      } catch (err) { /* skip */ }
+    }));
+    return results;
+  } catch (e) {
+    return {};
+  }
+}
+
+function formatEGP(n) {
+  return new Intl.NumberFormat('en-US', { maximumFractionDigits: 0 }).format(n) + ' EGP';
+}
+function escapeHtml(s) {
+  const div = document.createElement('div');
+  div.textContent = s == null ? '' : String(s);
+  return div.innerHTML;
+}
+
+// ---------------------------------------------------------------------------
+// State
+// ---------------------------------------------------------------------------
+let epics = loadAllEpics();
+let activeEpic = Object.keys(epics)[0] || null;
+let rate = activeEpic ? (epics[activeEpic].rate_per_day_egp || 3500) : 3500;
+let sortCol = 'net_days';
+let sortDir = -1;
+let liveDataStatus = 'loading'; // 'loading' | 'live' | 'none'
+
+async function initLiveData() {
+  const live = await fetchLiveEpics();
+  if (Object.keys(live).length > 0) {
+    epics = { ...epics, ...live }; // live pipeline data wins over stale local copies
+    liveDataStatus = 'live';
+    if (!activeEpic || live[activeEpic]) {
+      activeEpic = Object.keys(live)[0];
+      rate = live[activeEpic].rate_per_day_egp || rate;
+    }
+  } else {
+    liveDataStatus = 'none';
+  }
+  render();
+}
+
+function render() {
+  const root = document.getElementById('root');
+  const current = activeEpic ? epics[activeEpic] : null;
+  const tickets = current ? (current.tickets || []) : [];
+
+  const totalDays = tickets.reduce((s, t) => s + (t.net_days || 0), 0);
+  const totalCost = totalDays * rate;
+  const complete = tickets.filter(t => t.is_complete).length;
+  const inProgress = tickets.length - complete;
+  const avgDays = tickets.length ? totalDays / tickets.length : 0;
+
+  const pills = Object.keys(epics).map(k =>
+    `<div class="epic-pill${k === activeEpic ? ' active' : ''}" data-epic="${escapeHtml(k)}">${escapeHtml(k)}</div>`
+  ).join('');
+
+  let tableRows = '';
+  if (current) {
+    const sorted = tickets.slice().sort((a, b) => {
+      let av = a[sortCol], bv = b[sortCol];
+      if (typeof av === 'string') { av = (av || '').toLowerCase(); bv = (bv || '').toLowerCase(); }
+      if (av < bv) return -1 * sortDir;
+      if (av > bv) return 1 * sortDir;
+      return 0;
+    });
+    tableRows = sorted.map(t => `
+      <tr>
+        <td class="mono">${escapeHtml(t.key)}</td>
+        <td>${escapeHtml(t.summary)}</td>
+        <td>${escapeHtml(t.status)}</td>
+        <td class="mono num">${(t.net_days || 0).toFixed(2)}</td>
+        <td class="mono num">${formatEGP((t.net_days || 0) * rate)}</td>
+        <td><span class="badge ${t.is_complete ? 'done' : 'progress'}">${t.is_complete ? 'Done' : 'In progress'}</span></td>
+      </tr>
+    `).join('');
+  }
+
+  root.innerHTML = `
+    <div class="eyebrow">Nawy · Engineering Operations</div>
+    <h1>Epic Budget Monitor</h1>
+    <div class="subhead">Auto-updated daily by a GitHub Action that pulls straight from Jira — no manual steps. ${liveDataStatus === 'live' ? '<span style="color:var(--moss); font-weight:600;">● Live data connected</span>' : liveDataStatus === 'loading' ? '<span style="color:var(--muted);">Checking for live data...</span>' : '<span style="color:var(--amber); font-weight:600;">⚠ No live data found yet — run the Action once, or paste JSON manually below</span>'}</div>
+
+    <div class="toolbar">
+      <div class="field">
+        <label>Cost / business day</label>
+        <input type="number" id="rateInput" value="${rate}">
+      </div>
+      <div class="helptext" style="flex:1; align-self:center;">
+        Default 3,500 EGP/day. Changing this recalculates cost live for the epic shown below (does not affect saved data).
+      </div>
+    </div>
+
+    ${Object.keys(epics).length > 0 ? `<div class="epic-pills">${pills}</div>` : ''}
+
+    ${current ? `
+      <div class="kpi-row">
+        <div class="kpi highlight">
+          <div class="label">Business days consumed</div>
+          <div class="value">${totalDays.toFixed(1)}</div>
+          <div class="sub">across ${tickets.length} tickets</div>
+        </div>
+        <div class="kpi spend">
+          <div class="label">Budget consumed so far</div>
+          <div class="value">${formatEGP(totalCost)}</div>
+          <div class="sub">@ ${formatEGP(rate)}/day</div>
+        </div>
+        <div class="kpi">
+          <div class="label">Tickets complete</div>
+          <div class="value">${complete}/${tickets.length}</div>
+          <div class="progress-bar"><div style="width:${tickets.length ? (complete/tickets.length*100) : 0}%"></div></div>
+        </div>
+        <div class="kpi">
+          <div class="label">Avg days / ticket</div>
+          <div class="value">${avgDays.toFixed(1)}</div>
+          <div class="sub">${inProgress} still in progress</div>
+        </div>
+      </div>
+
+      <div class="section-title">Ticket breakdown — ${escapeHtml(current.epic_key)}</div>
+      <table>
+        <thead>
+          <tr>
+            <th data-col="key">Key</th>
+            <th data-col="summary">Summary</th>
+            <th data-col="status">Status</th>
+            <th data-col="net_days" class="num">Net days</th>
+            <th class="num">Cost</th>
+            <th data-col="is_complete">State</th>
+          </tr>
+        </thead>
+        <tbody>${tableRows}</tbody>
+      </table>
+
+      <div style="margin-top:14px; display:flex; justify-content:space-between; align-items:center;">
+        <div class="helptext">Generated ${current.generated_at ? new Date(current.generated_at).toLocaleString() : 'unknown'}</div>
+        <button class="danger" id="removeEpicBtn">Remove this epic</button>
+      </div>
+    ` : `<div class="empty">No epic data loaded yet. Run <code>jira_epic_budget.py &lt;EPIC_KEY&gt;</code> and paste the generated JSON below.</div>`}
+
+    <div class="section-title">Load / refresh an epic</div>
+    <textarea id="pasteArea" placeholder="Paste the contents of epic_budget_&lt;EPIC_KEY&gt;.json here..."></textarea>
+    <div id="errorMsg" class="error-msg"></div>
+    <div style="margin-top:10px; display:flex; gap:8px;">
+      <button id="loadBtn">Load epic data</button>
+      <button class="ghost" id="clearBtn">Clear</button>
+    </div>
+    <div class="helptext">
+      Data persists in this browser between visits (localStorage). Re-run the script and re-paste anytime to refresh an epic's numbers — it overwrites the previous snapshot for that Epic key. Note: this storage is local to this browser only, so it won't sync across devices or browsers.
+    </div>
+  `;
+
+  attachHandlers();
+}
+
+function attachHandlers() {
+  const rateInput = document.getElementById('rateInput');
+  if (rateInput) {
+    rateInput.addEventListener('input', () => {
+      rate = parseFloat(rateInput.value) || 0;
+      render();
+      document.getElementById('rateInput').focus();
+    });
+  }
+
+  document.querySelectorAll('.epic-pill').forEach(el => {
+    el.addEventListener('click', () => {
+      activeEpic = el.getAttribute('data-epic');
+      rate = epics[activeEpic].rate_per_day_egp || rate;
+      render();
+    });
+  });
+
+  document.querySelectorAll('thead th[data-col]').forEach(el => {
+    el.addEventListener('click', () => {
+      const col = el.getAttribute('data-col');
+      if (sortCol === col) sortDir *= -1; else { sortCol = col; sortDir = -1; }
+      render();
+    });
+  });
+
+  const loadBtn = document.getElementById('loadBtn');
+  if (loadBtn) {
+    loadBtn.addEventListener('click', () => {
+      const val = document.getElementById('pasteArea').value;
+      const errEl = document.getElementById('errorMsg');
+      errEl.textContent = '';
+      try {
+        const parsed = JSON.parse(val);
+        if (!parsed.epic_key || !parsed.tickets) {
+          errEl.textContent = 'JSON must contain "epic_key" and "tickets" fields (output of jira_epic_budget.py)';
+          return;
+        }
+        epics[parsed.epic_key] = parsed;
+        saveAllEpics(epics);
+        activeEpic = parsed.epic_key;
+        rate = parsed.rate_per_day_egp || rate;
+        render();
+      } catch (e) {
+        errEl.textContent = 'Could not parse JSON: ' + e.message;
+      }
+    });
+  }
+
+  const clearBtn = document.getElementById('clearBtn');
+  if (clearBtn) {
+    clearBtn.addEventListener('click', () => {
+      document.getElementById('pasteArea').value = '';
+    });
+  }
+
+  const removeBtn = document.getElementById('removeEpicBtn');
+  if (removeBtn) {
+    removeBtn.addEventListener('click', () => {
+      delete epics[activeEpic];
+      saveAllEpics(epics);
+      activeEpic = Object.keys(epics)[0] || null;
+      render();
+    });
+  }
+}
+
+render();
+initLiveData();
+</script>
+</body>
+</html>
