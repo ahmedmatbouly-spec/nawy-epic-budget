@@ -1,0 +1,56 @@
+Fetching SC-377 ...
+  SC-350: 2.53d
+  SC-351: 8.0d
+  SC-352: 22.0d
+  SC-355: 0.0d
+  SC-356: 0.0d
+  SC-358: 3.0d
+  SC-359: 15.54d
+  SC-360: 0.0d
+  SC-437: 9.72d
+  SC-442: 13.31d
+  SC-518: 7.26d
+  SC-545: 0.0d
+  SC-549: 0.0d
+  SC-555: 2.44d
+  SC-557: 8.09d
+  SC-558: 22.3d
+  SC-562: 7.78d
+  SC-567: 1.35d
+  SC-569: 0.19d
+  SC-570: 0.0d
+  SC-571: 1.0d
+  SC-572: 0.0d
+  SC-583: 8.99d
+  SC-607: 1.68d
+  SC-608: 0.18d
+  SC-609: 0.0d
+  SC-610: 1.89d
+  SC-611: 11.42d
+  SC-612: 6.54d
+  SC-613: 4.91d
+  SC-616: 5.86d
+  SC-617: 0.0d
+  SC-698: 3.78d
+  SC-766: 2.49d
+  SC-891: 0.0d
+  SC-945: 9.19d
+  SC-1209: 2.57d
+  SC-1338: 3.39d
+  SC-1397: 10.82d
+  SC-1486: 2.31d
+  SC-1584: 0.95d
+  SC-1588: 13.56d
+  SC-1589: 5.19d
+  SC-1590: 0.0d
+  SC-1591: 3.59d
+  SC-1748: 4.32d
+  SC-1749: 3.34d
+  SC-1802: 1.73d
+  SC-1820: 3.44d
+  SC-1822: 0.0d
+  SC-1828: 1.06d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/SC-377.json: 237.71 days, 831,985 EGP
+
+Done. Processed 1 epic(s).
+SCRIPT_EXIT_CODE=0

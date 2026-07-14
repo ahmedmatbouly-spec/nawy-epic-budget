@@ -1,0 +1,13 @@
+{
+  "epics": [
+    {
+      "epic_key": "SC-377",
+      "total_net_days": 237.71,
+      "total_cost_egp": 831985.0,
+      "total_tickets": 51,
+      "complete_tickets": 43,
+      "generated_at": "2026-07-14T08:45:35.662736"
+    }
+  ],
+  "updated_at": "2026-07-14T08:45:35.663670"
+}
