@@ -100,14 +100,18 @@ function saveAllEpics(epics) {
 
 async function fetchLiveEpics() {
   // data/index.json is written by scripts/jira_epic_budget.py on each run.
+  // NOTE: GitHub Pages only publishes the docs/ folder, so data/ (a sibling
+  // folder) isn't reachable via a relative path from here - we fetch it
+  // straight from the repo's raw content instead.
+  const RAW_BASE = 'https://raw.githubusercontent.com/ahmedmatbouly-spec/nawy-epic-budget/main/data';
   try {
-    const idxResp = await fetch('../data/index.json', { cache: 'no-store' });
+    const idxResp = await fetch(`${RAW_BASE}/index.json`, { cache: 'no-store' });
     if (!idxResp.ok) return {};
     const idx = await idxResp.json();
     const results = {};
     await Promise.all((idx.epics || []).map(async (e) => {
       try {
-        const r = await fetch(`../data/${e.epic_key}.json`, { cache: 'no-store' });
+        const r = await fetch(`${RAW_BASE}/${e.epic_key}.json`, { cache: 'no-store' });
         if (r.ok) results[e.epic_key] = await r.json();
       } catch (err) { /* skip */ }
     }));
