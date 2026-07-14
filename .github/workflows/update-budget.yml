@@ -27,12 +27,17 @@ jobs:
           JIRA_EMAIL: ${{ secrets.JIRA_EMAIL }}
           JIRA_API_TOKEN: ${{ secrets.JIRA_API_TOKEN }}
           RATE_PER_DAY_EGP: ${{ vars.RATE_PER_DAY_EGP || '3500' }}
-        run: python scripts/jira_epic_budget.py
+        run: |
+          mkdir -p debug
+          python scripts/jira_epic_budget.py > debug/last_run.log 2>&1
+          echo "SCRIPT_EXIT_CODE=$?" >> debug/last_run.log
+          cat debug/last_run.log
 
-      - name: Commit updated data
+      - name: Commit debug log (always, even on failure)
+        if: always()
         run: |
           git config user.name "epic-budget-bot"
           git config user.email "actions@github.com"
-          git add data/
-          git diff --quiet --cached || git commit -m "Update epic budget data [automated]"
-          git push
+          git add debug/ data/ 2>/dev/null || true
+          git diff --quiet --cached || git commit -m "Update budget data + debug log [automated]"
+          git push || true
