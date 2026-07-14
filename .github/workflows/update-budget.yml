@@ -29,9 +29,17 @@ jobs:
           RATE_PER_DAY_EGP: ${{ vars.RATE_PER_DAY_EGP || '3500' }}
         run: |
           mkdir -p debug
+          set +e
           python scripts/jira_epic_budget.py > debug/last_run.log 2>&1
-          echo "SCRIPT_EXIT_CODE=$?" >> debug/last_run.log
+          CODE=$?
+          set -e
+          echo "SCRIPT_EXIT_CODE=$CODE" >> debug/last_run.log
           cat debug/last_run.log
+          if [ $CODE -ne 0 ]; then
+            ERRMSG=$(tail -c 800 debug/last_run.log | tr '\n' ' ' | tr '"' "'")
+            echo "::error::Script failed (exit $CODE): $ERRMSG"
+          fi
+          exit $CODE
 
       - name: Commit debug log (always, even on failure)
         if: always()
@@ -39,5 +47,11 @@ jobs:
           git config user.name "epic-budget-bot"
           git config user.email "actions@github.com"
           git add debug/ data/ 2>/dev/null || true
-          git diff --quiet --cached || git commit -m "Update budget data + debug log [automated]"
-          git push || true
+          if git diff --quiet --cached; then
+            echo "::warning::Nothing to commit (debug/data unchanged)"
+          else
+            git commit -m "Update budget data + debug log [automated]"
+            if ! git push; then
+              echo "::error::git push failed - check repo permissions (Settings > Actions > General > Workflow permissions)"
+            fi
+          fi
