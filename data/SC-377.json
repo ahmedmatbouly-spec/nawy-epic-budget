@@ -1,10 +1,10 @@
 {
   "epic_key": "SC-377",
-  "generated_at": "2026-07-14T08:45:35.662736",
+  "generated_at": "2026-07-15T11:18:01.847586",
   "rate_per_day_egp": 3500.0,
-  "total_tickets": 51,
+  "total_tickets": 52,
   "complete_tickets": 43,
-  "in_progress_tickets": 8,
+  "in_progress_tickets": 9,
   "total_net_days": 237.71,
   "total_cost_egp": 831985.0,
   "tickets": [
@@ -486,8 +486,8 @@
       "summary": "[Lead Profile] WhatsApp Flow",
       "status": "On-hold",
       "net_days": 0.0,
-      "gross_days": 14.29,
-      "excluded_days": 14.29,
+      "gross_days": 15.58,
+      "excluded_days": 15.57,
       "cost_egp": 0.0,
       "is_complete": false,
       "num_spans": 1
@@ -567,6 +567,17 @@
       "excluded_days": 0.91,
       "cost_egp": 3710.0,
       "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "SC-1866",
+      "summary": "[Lead Profile] Activity Timeline Design Enhancement",
+      "status": "On-hold",
+      "net_days": 0.0,
+      "gross_days": 10.86,
+      "excluded_days": 10.86,
+      "cost_egp": 0.0,
+      "is_complete": false,
       "num_spans": 1
     }
   ]
