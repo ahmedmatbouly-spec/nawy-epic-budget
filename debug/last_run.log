@@ -1,12 +1,12 @@
-=== INCREMENTAL SYNC since 2026-07-16T22:27:03.395591 ===
+=== INCREMENTAL SYNC since 2026-07-16T22:29:11.942217 ===
 Found 9 issue(s) updated since last sync.
 Epics needing an update this run: 4
-    NLP-2069: refetching 1 changed/new ticket(s)
-  NLP-2069: patched (813.25d, 2,846,375 EGP)
-    NLP-3559: refetching 1 changed/new ticket(s)
-  NLP-3559: patched (116.85d, 408,975 EGP)
     SC-878: refetching 1 changed/new ticket(s)
   SC-878: patched (32.17d, 112,595 EGP)
+    NLP-3559: refetching 1 changed/new ticket(s)
+  NLP-3559: patched (116.85d, 408,975 EGP)
+    NLP-2069: refetching 1 changed/new ticket(s)
+  NLP-2069: patched (813.25d, 2,846,375 EGP)
   CM-866: patched (0d, 0 EGP)
 
 Done. Incremental sync touched 4 epic(s), 313 epic(s) total tracked.
