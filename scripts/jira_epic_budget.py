@@ -40,7 +40,8 @@ DONE_PATTERN = re.compile(
     r"ready\s*for\s*production)\b", re.I
 )
 EXCLUDED_PATTERN = re.compile(
-    r"\b(on[\s-]*hold|product\s*uat|read?y?\s*for\s*uat|\buat\b)\b", re.I
+    r"\b(on[\s-]*hold|product\s*uat|read?y?\s*for\s*uat|\buat\b|"
+    r"to\s*do|backlog)\b", re.I
 )
 
 WEEKEND_DAYS = {4, 5}  # Friday, Saturday
