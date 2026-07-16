@@ -1,4 +1,4 @@
 {
-  "projects": ["SC", "NCRM"],
+  "projects": ["SC", "NCRM", "PAR", "PSQ", "IMS", "NLP", "CM", "SP", "ER"],
   "epics": []
 }
