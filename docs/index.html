@@ -171,45 +171,41 @@ async function fetchLiveEpics() {
 // ---------------------------------------------------------------------------
 // Live "Refresh from Jira" button.
 //
-// Per explicit decision: this token is hardcoded directly in this public
-// page so the Refresh button works instantly for anyone, no per-person setup.
-// It is scoped to ONLY "Actions: Read and write" on this one repo (verified:
-// cannot read secrets, cannot write code/contents) - worst case if abused is
-// extra workflow runs. Rotate via GitHub -> Settings -> Developer settings ->
-// Fine-grained tokens if it's ever suspected of broader misuse.
+// This calls a small Cloudflare Worker proxy instead of GitHub directly - the
+// Worker holds the real GitHub token server-side (as a Cloudflare secret),
+// so NOTHING sensitive is ever present in this page or the repo. See
+// cloudflare-worker/worker.js for the proxy source and setup steps.
+//
+// Fill in WORKER_URL once you've deployed the Worker (see README).
 // ---------------------------------------------------------------------------
-const GH_OWNER = 'ahmedmatbouly-spec';
-const GH_REPO = 'nawy-epic-budget';
-const GH_WORKFLOW = 'update-budget.yml';
-const GH_API = 'https://api.github.com';
-const GH_REFRESH_TOKEN = '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';
+const WORKER_URL = 'https://YOUR-WORKER-SUBDOMAIN.workers.dev'; // <-- replace after deploying
 
-async function ghApi(path, opts) {
-  return fetch(`${GH_API}${path}`, {
-    ...opts,
-    headers: {
-      'Authorization': `Bearer ${GH_REFRESH_TOKEN}`,
-      'Accept': 'application/vnd.github+json',
-      ...(opts && opts.headers ? opts.headers : {}),
-    },
-  });
+function sleep(ms) { return new Promise(res => setTimeout(res, ms)); }
+
+async function workerApi(path, opts) {
+  return fetch(`${WORKER_URL}${path}`, opts);
 }
 
 async function getLatestRunId() {
   try {
-    const resp = await ghApi(`/repos/${GH_OWNER}/${GH_REPO}/actions/workflows/${GH_WORKFLOW}/runs?per_page=1`);
+    const resp = await workerApi('/latest-run');
     if (!resp.ok) return null;
     const data = await resp.json();
-    return (data.workflow_runs && data.workflow_runs[0]) ? data.workflow_runs[0].id : null;
+    return data.id || null;
   } catch (e) {
     return null;
   }
 }
 
-function sleep(ms) { return new Promise(res => setTimeout(res, ms)); }
-
 async function triggerJiraRefresh() {
   if (refreshState === 'running') return;
+
+  if (!WORKER_URL || WORKER_URL.includes('YOUR-WORKER-SUBDOMAIN')) {
+    refreshState = 'error';
+    refreshStatusText = '✗ Refresh isn\'t set up yet — deploy the Cloudflare Worker and set WORKER_URL (see README)';
+    render();
+    return;
+  }
 
   refreshState = 'running';
   refreshStatusText = 'Starting refresh…';
@@ -218,20 +214,11 @@ async function triggerJiraRefresh() {
   try {
     const baselineId = await getLatestRunId();
 
-    const dispatchResp = await ghApi(`/repos/${GH_OWNER}/${GH_REPO}/actions/workflows/${GH_WORKFLOW}/dispatches`, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ ref: 'main' }),
-    });
+    const dispatchResp = await workerApi('/dispatch', { method: 'POST' });
 
-    if (!dispatchResp.ok && dispatchResp.status !== 204) {
-      if (dispatchResp.status === 401 || dispatchResp.status === 403) {
-        refreshState = 'error';
-        refreshStatusText = '✗ Token invalid or expired — ask an admin to rotate it';
-      } else {
-        refreshState = 'error';
-        refreshStatusText = '✗ Could not start refresh (check the Actions tab)';
-      }
+    if (!dispatchResp.ok) {
+      refreshState = 'error';
+      refreshStatusText = '✗ Could not start refresh (check the Worker & Actions tab)';
       render();
       return;
     }
@@ -261,7 +248,7 @@ async function triggerJiraRefresh() {
     for (let i = 0; i < 60; i++) {
       await sleep(3000);
       try {
-        const runResp = await ghApi(`/repos/${GH_OWNER}/${GH_REPO}/actions/runs/${newRunId}`);
+        const runResp = await workerApi(`/run/${newRunId}`);
         if (runResp.ok) {
           const run = await runResp.json();
           if (run.status === 'completed') { finalConclusion = run.conclusion; break; }

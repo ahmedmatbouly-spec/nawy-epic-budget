@@ -73,6 +73,48 @@ To use it, each person needs their own **Fine-grained personal access token**:
 That scope means the token can only start/cancel workflow runs on this one
 repo — it cannot read code, secrets, or anything else, even if it leaked.
 
+## "Refresh from Jira" button (on-demand refresh)
+The dashboard has a Refresh button that triggers the same GitHub Action
+on demand, instead of waiting for the daily schedule — works instantly for
+anyone who opens the page, no login or setup required on their end.
+
+**Why this needs a Cloudflare Worker:** the button needs a GitHub token to
+trigger a workflow run. Putting that token directly in the dashboard's HTML
+doesn't work — this is a public repo, and GitHub's secret scanning **automatically
+revokes any real GitHub token it detects there**, even if you manually approve
+the push past push-protection. It keeps working right up until the commit
+lands in the public repo, then dies. (Learned this the hard way — see git
+history for the two dead-end attempts.)
+
+The fix: a tiny serverless proxy (Cloudflare Workers, free tier) holds the
+token server-side, where GitHub's public-repo scanning can't see it at all.
+The dashboard calls the Worker; the Worker calls GitHub.
+
+### One-time setup (~5 minutes, no CLI needed)
+1. Go to https://workers.cloudflare.com and sign up / log in (free tier is enough)
+2. **Create Worker** → give it any name (e.g. `nawy-budget-refresh`)
+3. Open the online code editor, delete the default code, paste in the
+   contents of `cloudflare-worker/worker.js` from this repo
+4. **Deploy**
+5. Worker → **Settings → Variables and Secrets** → **Add** →
+   - Type: **Secret**
+   - Name: `GITHUB_TOKEN`
+   - Value: a Fine-grained PAT — https://github.com/settings/personal-access-tokens/new
+     → Repository access: only this repo → Permissions → Actions: **Read and write**
+     → generate, paste the value here
+   - Save (this deploys the secret — the token is never visible again in the UI or anywhere else)
+6. Copy the Worker's URL (shown on its overview page, looks like
+   `https://nawy-budget-refresh.<your-subdomain>.workers.dev`)
+7. Edit `docs/index.html`, find the line:
+   ```js
+   const WORKER_URL = 'https://YOUR-WORKER-SUBDOMAIN.workers.dev';
+   ```
+   replace with your actual Worker URL, commit, push.
+
+That's it — the Refresh button will work for anyone, and the only place the
+real token exists is that one Cloudflare secret field, which nobody (including
+this repo, GitHub, or any browser) can read back out.
+
 ## Files
 - `scripts/jira_epic_budget.py` — the fetch + calculation engine
 - `scripts/epics.json` — list of epic keys to track
