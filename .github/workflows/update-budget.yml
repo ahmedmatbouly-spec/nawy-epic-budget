@@ -2,9 +2,18 @@ name: Update Epic Budget Data
 
 on:
   schedule:
-    # Runs daily at 06:00 UTC (08:00 Cairo time). Adjust as needed.
+    # Daily incremental sync at 06:00 UTC (08:00 Cairo) - fast, only pulls what changed.
     - cron: '0 6 * * *'
-  workflow_dispatch: {}   # lets you trigger it manually from the Actions tab
+    # Weekly FULL rebuild, Sunday 03:00 UTC - safety net to catch anything an
+    # incremental sync can miss (e.g. a ticket moved to a totally different
+    # epic without either epic showing up as "updated" in a way we scoped for).
+    - cron: '0 3 * * 0'
+  workflow_dispatch:
+    inputs:
+      full:
+        description: 'Force a full rebuild instead of incremental sync'
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -22,6 +31,20 @@ jobs:
         with:
           python-version: '3.11'
 
+      - name: Determine sync mode
+        id: mode
+        run: |
+          if [ "${{ github.event.inputs.full }}" == "true" ]; then
+            echo "flag=--full" >> "$GITHUB_OUTPUT"
+            echo "Mode: FULL (manually requested)"
+          elif [ "${{ github.event.schedule }}" == "0 3 * * 0" ]; then
+            echo "flag=--full" >> "$GITHUB_OUTPUT"
+            echo "Mode: FULL (weekly scheduled rebuild)"
+          else
+            echo "flag=" >> "$GITHUB_OUTPUT"
+            echo "Mode: INCREMENTAL"
+          fi
+
       - name: Run Jira budget fetch
         env:
           JIRA_SITE: ${{ secrets.JIRA_SITE }}
@@ -31,7 +54,7 @@ jobs:
         run: |
           mkdir -p debug
           set +e
-          python scripts/jira_epic_budget.py > debug/last_run.log 2>&1
+          python scripts/jira_epic_budget.py ${{ steps.mode.outputs.flag }} > debug/last_run.log 2>&1
           CODE=$?
           set -e
           echo "SCRIPT_EXIT_CODE=$CODE" >> debug/last_run.log

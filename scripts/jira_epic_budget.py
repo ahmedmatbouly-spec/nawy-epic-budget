@@ -33,6 +33,11 @@ RATE_PER_DAY = float(os.environ.get("RATE_PER_DAY_EGP", "3500"))
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = os.path.join(SCRIPT_DIR, "..", "data")
 EPICS_FILE = os.path.join(SCRIPT_DIR, "epics.json")
+SYNC_STATE_FILE = os.path.join(DATA_DIR, "sync_state.json")
+
+# Safety overlap subtracted from "now" before each sync, to guard against
+# clock skew / issues updated mid-run being missed by the next incremental pass.
+SYNC_OVERLAP_MINUTES = 5
 
 START_PATTERN = re.compile(r"in\s*progress", re.I)
 DONE_PATTERN = re.compile(
@@ -132,6 +137,119 @@ def get_epic_name(epic_key):
     is listed explicitly in epics.json rather than discovered via a project scan)."""
     data = jira_get(f"/rest/api/3/issue/{epic_key}", {"fields": "summary,created"})
     return data["fields"]["summary"], data["fields"].get("created")
+
+
+def get_changed_issues_since(project_keys, since_dt):
+    """Find every issue (Epic or otherwise) updated since `since_dt` within the
+    given projects. Returns raw issue dicts with summary/status/issuetype/
+    created/parent fields - used to drive incremental sync."""
+    if not project_keys:
+        return []
+    # JQL date literal format: "yyyy-MM-dd HH:mm"
+    since_str = since_dt.strftime("%Y-%m-%d %H:%M")
+    project_list = ", ".join(project_keys)
+    issues = []
+    next_token = None
+    while True:
+        body = {
+            "jql": f'project in ({project_list}) AND updated >= "{since_str}" ORDER BY updated ASC',
+            "fields": ["summary", "status", "issuetype", "created", "parent", "project"],
+            "maxResults": 100,
+        }
+        if next_token:
+            body["nextPageToken"] = next_token
+        data = jira_post("/rest/api/3/search/jql", body)
+        issues.extend(data.get("issues", []))
+        next_token = data.get("nextPageToken")
+        if not next_token or data.get("isLast", True):
+            break
+    return issues
+
+
+def compute_ticket_entry(issue):
+    """Fetch changelog + compute the net-days/cost entry for a single ticket issue dict."""
+    key = issue["key"]
+    summary = issue["fields"]["summary"]
+    status_name = issue["fields"]["status"]["name"]
+    try:
+        histories, cur_status = get_changelog(key)
+        transitions = extract_status_transitions(histories)
+        result = compute_net_days(transitions, cur_status)
+        cost = round(result["net_days"] * RATE_PER_DAY, 2)
+        return {
+            "key": key, "summary": summary, "status": status_name,
+            "net_days": result["net_days"], "gross_days": result["gross_days"],
+            "excluded_days": result["excluded_days"], "cost_egp": cost,
+            "is_complete": result["is_complete"], "num_spans": result["num_spans"],
+        }
+    except Exception as e:
+        return {"key": key, "summary": summary, "status": status_name,
+                "net_days": 0, "cost_egp": 0, "error": str(e)}
+
+
+def load_epic_file(epic_key):
+    path = os.path.join(DATA_DIR, f"{epic_key}.json")
+    if os.path.exists(path):
+        with open(path) as f:
+            return json.load(f)
+    return None
+
+
+def recompute_epic_totals(output):
+    tickets = output["tickets"]
+    output["total_net_days"] = round(sum(t.get("net_days", 0) for t in tickets), 2)
+    output["total_cost_egp"] = round(sum(t.get("cost_egp", 0) for t in tickets), 2)
+    output["total_tickets"] = len(tickets)
+    output["complete_tickets"] = sum(1 for t in tickets if t.get("is_complete"))
+    output["in_progress_tickets"] = output["total_tickets"] - output["complete_tickets"]
+    output["generated_at"] = datetime.now().isoformat()
+    return output
+
+
+def sync_epic_incremental(epic_key, changed_ticket_keys, epic_meta_update=None):
+    """
+    Patch a single epic's stored data using only the tickets that actually
+    changed, instead of re-walking every child from scratch:
+      1. Ask Jira for the epic's CURRENT full child list (one cheap call).
+      2. Diff against what's stored: figure out additions, removals, and
+         which of the "changed" tickets are still actually children here.
+      3. Only fetch changelogs (the expensive part) for tickets that are
+         new or were flagged as changed. Untouched tickets keep their
+         cached values.
+    """
+    existing = load_epic_file(epic_key)
+    if existing is None:
+        return None  # caller should do a full process_epic() instead
+
+    if epic_meta_update:
+        existing["epic_name"] = epic_meta_update.get("epic_name", existing.get("epic_name"))
+        existing["epic_created"] = epic_meta_update.get("epic_created", existing.get("epic_created"))
+
+    current_children = get_child_issues(epic_key)
+    current_keys = {i["key"] for i in current_children}
+    current_by_key = {i["key"]: i for i in current_children}
+
+    existing_tickets_by_key = {t["key"]: t for t in existing.get("tickets", [])}
+    existing_keys = set(existing_tickets_by_key.keys())
+
+    to_remove = existing_keys - current_keys
+    new_keys = current_keys - existing_keys
+    to_refetch = (changed_ticket_keys & current_keys) | new_keys
+
+    if to_remove:
+        print(f"    {epic_key}: removing {len(to_remove)} ticket(s) no longer children here")
+    if to_refetch:
+        print(f"    {epic_key}: refetching {len(to_refetch)} changed/new ticket(s)")
+
+    new_tickets = []
+    for key in current_keys:
+        if key in to_refetch:
+            new_tickets.append(compute_ticket_entry(current_by_key[key]))
+        else:
+            new_tickets.append(existing_tickets_by_key[key])  # unchanged - reuse cached value
+
+    existing["tickets"] = new_tickets
+    return recompute_epic_totals(existing)
 
 
 def get_child_issues(epic_key):
@@ -300,22 +418,20 @@ def process_epic(epic_key, epic_name=None, project_key=None, project_name=None, 
     return output
 
 
-def main():
-    if not (JIRA_SITE and EMAIL and API_TOKEN):
-        print("ERROR: JIRA_SITE, JIRA_EMAIL, JIRA_API_TOKEN must be set (as env vars / secrets).")
-        sys.exit(1)
-
+def load_config():
     if not os.path.exists(EPICS_FILE):
         print(f"ERROR: {EPICS_FILE} not found.")
         sys.exit(1)
-
     with open(EPICS_FILE) as f:
         config = json.load(f)
-
     if isinstance(config, list):
         config = {"projects": [], "epics": config}
+    return config
 
-    # epic_key -> {"epic_name":..., "project_key":..., "project_name":..., "epic_created":...}
+
+def discover_all_epics(config):
+    """Returns epic_key -> {epic_name, project_key, project_name, epic_created}
+    for every epic currently reachable via configured projects/explicit keys."""
     epics_to_process = {}
     project_name_cache = {}
 
@@ -350,28 +466,161 @@ def main():
                 "epic_created": created,
             }
 
-    summaries = []
-    for epic_key, meta in epics_to_process.items():
-        result = process_epic(epic_key, meta["epic_name"], meta["project_key"],
-                               meta["project_name"], meta["epic_created"])
-        summaries.append({
-            "epic_key": result["epic_key"],
-            "epic_name": result["epic_name"],
-            "project_key": result["project_key"],
-            "project_name": result["project_name"],
-            "epic_created": result["epic_created"],
-            "total_net_days": result["total_net_days"],
-            "total_cost_egp": result["total_cost_egp"],
-            "total_tickets": result["total_tickets"],
-            "complete_tickets": result["complete_tickets"],
-            "generated_at": result["generated_at"],
-        })
+    return epics_to_process
 
-    os.makedirs(DATA_DIR, exist_ok=True)
+
+def summary_from_output(result):
+    return {
+        "epic_key": result["epic_key"],
+        "epic_name": result["epic_name"],
+        "project_key": result["project_key"],
+        "project_name": result["project_name"],
+        "epic_created": result["epic_created"],
+        "total_net_days": result["total_net_days"],
+        "total_cost_egp": result["total_cost_egp"],
+        "total_tickets": result["total_tickets"],
+        "complete_tickets": result["complete_tickets"],
+        "generated_at": result["generated_at"],
+    }
+
+
+def write_index_from_all_files():
+    """Rebuild data/index.json by scanning every data/<EPIC>.json on disk -
+    used after incremental syncs so epics we didn't touch this run still
+    show up correctly."""
+    summaries = []
+    if os.path.isdir(DATA_DIR):
+        for fname in sorted(os.listdir(DATA_DIR)):
+            if fname.endswith(".json") and fname not in ("index.json", "sync_state.json"):
+                with open(os.path.join(DATA_DIR, fname)) as f:
+                    try:
+                        data = json.load(f)
+                        summaries.append(summary_from_output(data))
+                    except Exception:
+                        continue
     with open(os.path.join(DATA_DIR, "index.json"), "w") as f:
         json.dump({"epics": summaries, "updated_at": datetime.now().isoformat()}, f, indent=2)
+    return summaries
 
-    print(f"\nDone. Processed {len(epics_to_process)} epic(s).")
+
+def full_sync(config):
+    print("=== FULL SYNC (rebuilding every tracked epic from scratch) ===")
+    epics_to_process = discover_all_epics(config)
+
+    for epic_key, meta in epics_to_process.items():
+        process_epic(epic_key, meta["epic_name"], meta["project_key"],
+                     meta["project_name"], meta["epic_created"])
+
+    summaries = write_index_from_all_files()
+    print(f"\nDone. Processed {len(epics_to_process)} epic(s) (full sync).")
+    return summaries
+
+
+def incremental_sync(config):
+    if not os.path.exists(SYNC_STATE_FILE):
+        print("No previous sync_state.json found - falling back to full sync.")
+        summaries = full_sync(config)
+        with open(SYNC_STATE_FILE, "w") as f:
+            json.dump({"last_sync_at": datetime.now().isoformat()}, f, indent=2)
+        return summaries
+
+    with open(SYNC_STATE_FILE) as f:
+        state = json.load(f)
+    last_sync_at = datetime.fromisoformat(state["last_sync_at"])
+    sync_started_at = datetime.now()
+
+    project_keys = config.get("projects", [])
+    print(f"=== INCREMENTAL SYNC since {last_sync_at.isoformat()} ===")
+
+    changed_issues = get_changed_issues_since(project_keys, last_sync_at)
+    print(f"Found {len(changed_issues)} issue(s) updated since last sync.")
+
+    changed_epics = {}          # epic_key -> {epic_name, epic_created, project_key, project_name}
+    changed_children = {}       # parent_epic_key -> set(ticket_keys)
+
+    for issue in changed_issues:
+        fields = issue["fields"]
+        issuetype = fields.get("issuetype", {}).get("name", "")
+        proj = fields.get("project", {})
+        proj_key = proj.get("key", issue["key"].split("-")[0])
+
+        if issuetype == "Epic":
+            changed_epics[issue["key"]] = {
+                "epic_name": fields.get("summary"),
+                "epic_created": fields.get("created"),
+                "project_key": proj_key,
+                "project_name": proj.get("name", proj_key),
+            }
+        else:
+            parent = fields.get("parent")
+            if parent and parent.get("key"):
+                changed_children.setdefault(parent["key"], set()).add(issue["key"])
+
+    epics_to_touch = set(changed_epics.keys()) | set(changed_children.keys())
+    print(f"Epics needing an update this run: {len(epics_to_touch)}")
+
+    for epic_key in epics_to_touch:
+        meta_update = changed_epics.get(epic_key)
+        existing = load_epic_file(epic_key)
+
+        if existing is None:
+            # Brand new epic (or one we've never generated before) - no
+            # baseline to patch, so do a normal full fetch for this one epic.
+            if meta_update:
+                epic_name = meta_update["epic_name"]
+                epic_created = meta_update["epic_created"]
+                project_key = meta_update["project_key"]
+                project_name = meta_update["project_name"]
+            else:
+                proj_key = epic_key.split("-")[0]
+                try:
+                    epic_name, epic_created = get_epic_name(epic_key)
+                except Exception as e:
+                    print(f"  Could not fetch name for new epic {epic_key}: {e}")
+                    epic_name, epic_created = epic_key, None
+                project_key = proj_key
+                project_name = get_project_name(proj_key)
+            print(f"  {epic_key}: new epic, full fetch")
+            process_epic(epic_key, epic_name, project_key, project_name, epic_created)
+        else:
+            updated = sync_epic_incremental(epic_key, changed_children.get(epic_key, set()), meta_update)
+            if updated:
+                os.makedirs(DATA_DIR, exist_ok=True)
+                with open(os.path.join(DATA_DIR, f"{epic_key}.json"), "w") as f:
+                    json.dump(updated, f, indent=2)
+                print(f"  {epic_key}: patched ({updated['total_net_days']}d, {updated['total_cost_egp']:,.0f} EGP)")
+
+    summaries = write_index_from_all_files()
+
+    # Move the sync watermark back by a small overlap to guard clock skew /
+    # issues updated mid-run, rather than using "now" exactly.
+    new_last_sync = sync_started_at - timedelta(minutes=SYNC_OVERLAP_MINUTES)
+    with open(SYNC_STATE_FILE, "w") as f:
+        json.dump({"last_sync_at": new_last_sync.isoformat()}, f, indent=2)
+
+    print(f"\nDone. Incremental sync touched {len(epics_to_touch)} epic(s), "
+          f"{len(summaries)} epic(s) total tracked.")
+    return summaries
+
+
+def main():
+    if not (JIRA_SITE and EMAIL and API_TOKEN):
+        print("ERROR: JIRA_SITE, JIRA_EMAIL, JIRA_API_TOKEN must be set (as env vars / secrets).")
+        sys.exit(1)
+
+    force_full = "--full" in sys.argv
+    config = load_config()
+
+    if force_full:
+        summaries = full_sync(config)
+        with open(SYNC_STATE_FILE, "w") as f:
+            json.dump({"last_sync_at": datetime.now().isoformat()}, f, indent=2)
+    else:
+        summaries = incremental_sync(config)
+
+    total_days = sum(s["total_net_days"] for s in summaries)
+    total_cost = sum(s["total_cost_egp"] for s in summaries)
+    print(f"Portfolio: {total_days:.1f} days, {total_cost:,.0f} EGP across {len(summaries)} epics")
 
 
 if __name__ == "__main__":
