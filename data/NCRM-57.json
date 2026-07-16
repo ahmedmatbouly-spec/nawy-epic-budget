@@ -3,13 +3,13 @@
   "epic_name": "Duplicate lead visibility",
   "project_key": "NCRM",
   "project_name": "NawyCRM",
-  "generated_at": "2026-07-16T12:43:40.227415",
+  "generated_at": "2026-07-16T13:26:09.921144",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 8,
   "complete_tickets": 8,
   "in_progress_tickets": 0,
-  "total_net_days": 128.76,
-  "total_cost_egp": 450660.0,
+  "total_net_days": 116.42,
+  "total_cost_egp": 407470.0,
   "tickets": [
     {
       "key": "NCRM-51",
@@ -92,10 +92,10 @@
       "key": "NCRM-73",
       "summary": "Lead Viewership Tests",
       "status": "Done",
-      "net_days": 19.3,
+      "net_days": 6.96,
       "gross_days": 19.3,
-      "excluded_days": 0.0,
-      "cost_egp": 67550.0,
+      "excluded_days": 12.34,
+      "cost_egp": 24360.0,
       "is_complete": true,
       "num_spans": 1
     }
