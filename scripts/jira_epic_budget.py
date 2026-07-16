@@ -22,6 +22,7 @@ import json
 import base64
 import urllib.request
 import urllib.parse
+import urllib.error
 from datetime import datetime, date, timedelta
 
 JIRA_SITE = os.environ.get("JIRA_SITE", "")
@@ -58,6 +59,22 @@ EGYPT_HOLIDAYS = {
 EGYPT_HOLIDAY_DATES = {datetime.strptime(d, "%Y-%m-%d").date() for d in EGYPT_HOLIDAYS}
 
 
+def _request_with_retry(req, max_retries=5):
+    import time
+    for attempt in range(max_retries):
+        try:
+            with urllib.request.urlopen(req) as resp:
+                return json.loads(resp.read().decode())
+        except urllib.error.HTTPError as e:
+            if e.code == 429:
+                wait = int(e.headers.get("Retry-After", 5)) if e.headers else 5
+                print(f"  Rate limited (429), waiting {wait}s...")
+                time.sleep(wait + 1)
+                continue
+            raise
+    raise Exception(f"Gave up after {max_retries} retries (rate limited)")
+
+
 def jira_get(path, params=None):
     url = f"{JIRA_SITE}{path}"
     if params:
@@ -66,8 +83,7 @@ def jira_get(path, params=None):
     req = urllib.request.Request(url, headers={
         "Authorization": f"Basic {auth}", "Accept": "application/json",
     })
-    with urllib.request.urlopen(req) as resp:
-        return json.loads(resp.read().decode())
+    return _request_with_retry(req)
 
 
 def jira_post(path, body):
@@ -79,8 +95,7 @@ def jira_post(path, body):
         "Accept": "application/json",
         "Content-Type": "application/json",
     })
-    with urllib.request.urlopen(req) as resp:
-        return json.loads(resp.read().decode())
+    return _request_with_retry(req)
 
 
 def get_project_name(project_key):
