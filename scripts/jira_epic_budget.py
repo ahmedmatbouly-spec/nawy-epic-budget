@@ -23,7 +23,8 @@ import base64
 import urllib.request
 import urllib.parse
 import urllib.error
-from datetime import datetime, date, timedelta
+from datetime import datetime, date, timedelta, timezone
+from zoneinfo import ZoneInfo
 
 JIRA_SITE = os.environ.get("JIRA_SITE", "")
 EMAIL = os.environ.get("JIRA_EMAIL", "")
@@ -50,6 +51,13 @@ EXCLUDED_PATTERN = re.compile(
 )
 
 WEEKEND_DAYS = {4, 5}  # Friday, Saturday
+
+# Used to get an accurate "now" in Cairo wall-clock time (DST-aware via the
+# system tz database) - needed because Jira's own timestamps come back in
+# Cairo local time with the offset stripped (see parse_jira_ts), so "now" for
+# still-open tickets needs to be in the same frame of reference, not the
+# GitHub Actions runner's raw UTC clock.
+CAIRO_TZ = ZoneInfo("Africa/Cairo")
 
 EGYPT_HOLIDAYS = {
     "2024-01-07", "2024-01-25", "2024-04-10", "2024-04-11", "2024-04-25",
@@ -202,7 +210,7 @@ def recompute_epic_totals(output):
     output["total_tickets"] = len(tickets)
     output["complete_tickets"] = sum(1 for t in tickets if t.get("is_complete"))
     output["in_progress_tickets"] = output["total_tickets"] - output["complete_tickets"]
-    output["generated_at"] = datetime.now().isoformat()
+    output["generated_at"] = datetime.now(timezone.utc).isoformat()
     return output
 
 
@@ -320,7 +328,7 @@ def extract_status_transitions(histories):
 
 
 def compute_net_days(transitions, current_status_name, now=None):
-    now = now or datetime.now()
+    now = now or datetime.now(CAIRO_TZ).replace(tzinfo=None)
     spans, current_start = [], None
 
     for ts, frm, to in transitions:
@@ -400,7 +408,7 @@ def process_epic(epic_key, epic_name=None, project_key=None, project_name=None, 
         "project_key": project_key,
         "project_name": project_name,
         "epic_created": epic_created,
-        "generated_at": datetime.now().isoformat(),
+        "generated_at": datetime.now(timezone.utc).isoformat(),
         "rate_per_day_egp": RATE_PER_DAY,
         "total_tickets": len(tickets),
         "complete_tickets": complete_count,
@@ -499,7 +507,7 @@ def write_index_from_all_files():
                     except Exception:
                         continue
     with open(os.path.join(DATA_DIR, "index.json"), "w") as f:
-        json.dump({"epics": summaries, "updated_at": datetime.now().isoformat()}, f, indent=2)
+        json.dump({"epics": summaries, "updated_at": datetime.now(timezone.utc).isoformat()}, f, indent=2)
     return summaries
 
 
