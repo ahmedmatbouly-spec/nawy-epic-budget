@@ -1,9 +1,13 @@
-=== INCREMENTAL SYNC since 2026-07-16T20:52:27.573144 ===
-Found 6 issue(s) updated since last sync.
-Epics needing an update this run: 1
+=== INCREMENTAL SYNC since 2026-07-16T22:05:53.758065 ===
+Found 7 issue(s) updated since last sync.
+Epics needing an update this run: 3
+    NLP-2069: refetching 1 changed/new ticket(s)
+  NLP-2069: patched (813.25d, 2,846,375 EGP)
     SC-878: refetching 1 changed/new ticket(s)
   SC-878: patched (32.17d, 112,595 EGP)
+    NLP-3559: refetching 1 changed/new ticket(s)
+  NLP-3559: patched (116.85d, 408,975 EGP)
 
-Done. Incremental sync touched 1 epic(s), 312 epic(s) total tracked.
+Done. Incremental sync touched 3 epic(s), 312 epic(s) total tracked.
 Portfolio: 31453.3 days, 110,086,480 EGP across 312 epics
 SCRIPT_EXIT_CODE=0
