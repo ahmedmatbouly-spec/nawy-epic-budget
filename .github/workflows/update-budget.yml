@@ -18,6 +18,13 @@ on:
 permissions:
   contents: write
 
+# Prevents the race condition that was silently dropping data: if a new run
+# starts while a previous one is still in progress (e.g. rapid refresh-button
+# clicks), queue it instead of running both at once and racing on the git push.
+concurrency:
+  group: update-budget-data
+  cancel-in-progress: false
+
 jobs:
   update-budget-data:
     runs-on: ubuntu-latest
@@ -73,9 +80,24 @@ jobs:
           git add debug/ data/ 2>/dev/null || true
           if git diff --quiet --cached; then
             echo "::warning::Nothing to commit (debug/data unchanged)"
-          else
-            git commit -m "Update budget data + debug log [automated]"
-            if ! git push; then
-              echo "::error::git push failed - check repo permissions (Settings > Actions > General > Workflow permissions)"
-            fi
+            exit 0
           fi
+          git commit -m "Update budget data + debug log [automated]"
+
+          # Retry-with-rebase in case another run's push landed in between
+          # (concurrency: group above should prevent this, but this is defense
+          # in depth). Fails the job for real if it still can't push, rather
+          # than silently swallowing it - this is what was previously masking
+          # data loss during a push race.
+          for attempt in 1 2 3 4 5; do
+            if git push; then
+              echo "Pushed successfully (attempt $attempt)."
+              exit 0
+            fi
+            echo "Push failed (attempt $attempt), pulling + rebasing and retrying..."
+            git pull --rebase origin main
+            sleep $((attempt * 3))
+          done
+
+          echo "::error::git push failed after 5 attempts - data from this run was NOT saved. Check repo permissions or investigate concurrent-run conflicts."
+          exit 1
