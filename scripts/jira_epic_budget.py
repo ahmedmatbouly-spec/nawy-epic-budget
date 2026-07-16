@@ -83,6 +83,14 @@ def jira_post(path, body):
         return json.loads(resp.read().decode())
 
 
+def get_project_name(project_key):
+    try:
+        data = jira_get(f"/rest/api/3/project/{project_key}")
+        return data.get("name", project_key)
+    except Exception:
+        return project_key
+
+
 def get_epics_in_project(project_key):
     """Find every Epic-type issue in a project via JQL."""
     epics = []
@@ -221,7 +229,9 @@ def compute_net_days(transitions, current_status_name, now=None):
     }
 
 
-def process_epic(epic_key, epic_name=None):
+def process_epic(epic_key, epic_name=None, project_key=None, project_name=None):
+    project_key = project_key or epic_key.split("-")[0]
+    project_name = project_name or project_key
     print(f"Fetching {epic_key} ({epic_name or 'name unknown'}) ...")
     issues = get_child_issues(epic_key)
     tickets = []
@@ -253,6 +263,8 @@ def process_epic(epic_key, epic_name=None):
     output = {
         "epic_key": epic_key,
         "epic_name": epic_name or epic_key,
+        "project_key": project_key,
+        "project_name": project_name,
         "generated_at": datetime.now().isoformat(),
         "rate_per_day_egp": RATE_PER_DAY,
         "total_tickets": len(tickets),
@@ -276,10 +288,6 @@ def main():
         print("ERROR: JIRA_SITE, JIRA_EMAIL, JIRA_API_TOKEN must be set (as env vars / secrets).")
         sys.exit(1)
 
-    # epics.json can contain either/both:
-    #   {"projects": ["SC"], "epics": ["NCRM-520"]}
-    # "projects" auto-discovers every Epic-type issue in that project.
-    # "epics" lets you add specific epics from anywhere else too.
     if not os.path.exists(EPICS_FILE):
         print(f"ERROR: {EPICS_FILE} not found.")
         sys.exit(1)
@@ -287,33 +295,50 @@ def main():
     with open(EPICS_FILE) as f:
         config = json.load(f)
 
-    # Back-compat: allow the old format (a plain list of epic keys)
     if isinstance(config, list):
         config = {"projects": [], "epics": config}
 
-    epics_to_process = {}  # epic_key -> epic_name
+    # epic_key -> {"epic_name":..., "project_key":..., "project_name":...}
+    epics_to_process = {}
+    project_name_cache = {}
 
     for project_key in config.get("projects", []):
         print(f"Discovering epics in project {project_key} ...")
+        if project_key not in project_name_cache:
+            project_name_cache[project_key] = get_project_name(project_key)
         found = get_epics_in_project(project_key)
         print(f"  found {len(found)} epics")
         for key, name in found:
-            epics_to_process[key] = name
+            epics_to_process[key] = {
+                "epic_name": name,
+                "project_key": project_key,
+                "project_name": project_name_cache[project_key],
+            }
 
     for epic_key in config.get("epics", []):
         if epic_key not in epics_to_process:
+            proj_key = epic_key.split("-")[0]
+            if proj_key not in project_name_cache:
+                project_name_cache[proj_key] = get_project_name(proj_key)
             try:
-                epics_to_process[epic_key] = get_epic_name(epic_key)
+                name = get_epic_name(epic_key)
             except Exception as e:
                 print(f"  Could not fetch name for {epic_key}: {e}")
-                epics_to_process[epic_key] = epic_key
+                name = epic_key
+            epics_to_process[epic_key] = {
+                "epic_name": name,
+                "project_key": proj_key,
+                "project_name": project_name_cache[proj_key],
+            }
 
     summaries = []
-    for epic_key, epic_name in epics_to_process.items():
-        result = process_epic(epic_key, epic_name)
+    for epic_key, meta in epics_to_process.items():
+        result = process_epic(epic_key, meta["epic_name"], meta["project_key"], meta["project_name"])
         summaries.append({
             "epic_key": result["epic_key"],
             "epic_name": result["epic_name"],
+            "project_key": result["project_key"],
+            "project_name": result["project_name"],
             "total_net_days": result["total_net_days"],
             "total_cost_egp": result["total_cost_egp"],
             "total_tickets": result["total_tickets"],

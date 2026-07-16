@@ -66,9 +66,14 @@
   .section-title { font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; color: var(--ink); margin: 26px 0 10px; display: flex; align-items: center; gap: 8px; }
   .section-title::after { content: ''; flex: 1; height: 1px; background: var(--line); }
 
-  .epic-pills { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 16px; }
-  .epic-pill { font-family: 'IBM Plex Mono', monospace; font-size: 12px; padding: 6px 12px; border-radius: 100px; border: 1px solid var(--line); background: var(--card); cursor: pointer; }
-  .epic-pill.active { background: var(--moss); border-color: var(--moss); color: white; }
+  .project-tabs { display: flex; gap: 4px; flex-wrap: wrap; margin-bottom: 14px; border-bottom: 2px solid var(--line); }
+  .project-tab { font-family: 'IBM Plex Sans', sans-serif; font-size: 13px; font-weight: 600; padding: 9px 16px; cursor: pointer; color: var(--muted); border-bottom: 2px solid transparent; margin-bottom: -2px; }
+  .project-tab:hover { color: var(--ink); }
+  .project-tab.active { color: var(--moss); border-bottom-color: var(--moss); }
+  .epic-select-row { display: flex; align-items: center; gap: 10px; margin-bottom: 18px; }
+  .epic-select-row label { font-size: 11px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); font-weight: 600; }
+  select.epic-select { font-family: 'IBM Plex Sans', sans-serif; font-size: 14px; font-weight: 600; padding: 8px 12px; border: 1px solid var(--line); border-radius: 6px; background: var(--card); color: var(--ink); min-width: 320px; cursor: pointer; }
+  select.epic-select:focus { outline: none; border-color: var(--moss); }
 
   .empty { text-align: center; padding: 50px 20px; color: var(--muted); font-size: 14px; background: var(--card); border: 1px dashed var(--line); border-radius: 10px; }
   .helptext { font-size: 12px; color: var(--muted); margin-top: 6px; line-height: 1.5; }
@@ -135,6 +140,7 @@ function escapeHtml(s) {
 // ---------------------------------------------------------------------------
 let epics = loadAllEpics();
 let activeEpic = Object.keys(epics)[0] || null;
+let activeProject = activeEpic ? (epics[activeEpic].project_name || epics[activeEpic].project_key) : null;
 let rate = activeEpic ? (epics[activeEpic].rate_per_day_egp || 3500) : 3500;
 let sortCol = 'net_days';
 let sortDir = -1;
@@ -149,6 +155,7 @@ async function initLiveData() {
       activeEpic = Object.keys(live)[0];
       rate = live[activeEpic].rate_per_day_egp || rate;
     }
+    activeProject = epics[activeEpic] ? (epics[activeEpic].project_name || epics[activeEpic].project_key) : null;
   } else {
     liveDataStatus = 'none';
   }
@@ -166,11 +173,26 @@ function render() {
   const inProgress = tickets.length - complete;
   const avgDays = tickets.length ? totalDays / tickets.length : 0;
 
-  const pills = Object.keys(epics).map(k =>
-    `<div class="epic-pill${k === activeEpic ? ' active' : ''}" data-epic="${escapeHtml(k)}">
-       <span class="mono">${escapeHtml(k)}</span>${epics[k].epic_name && epics[k].epic_name !== k ? ' · ' + escapeHtml(epics[k].epic_name) : ''}
-     </div>`
+  // Group epics by project (falls back to deriving from key prefix if project fields are absent)
+  const projectsMap = {}; // project_name -> [ {key, epic_name}, ... ]
+  Object.keys(epics).forEach(k => {
+    const e = epics[k];
+    const pName = e.project_name || e.project_key || k.split('-')[0];
+    if (!projectsMap[pName]) projectsMap[pName] = [];
+    projectsMap[pName].push({ key: k, name: e.epic_name || k });
+  });
+  const projectNames = Object.keys(projectsMap).sort();
+  if (!activeProject || !projectsMap[activeProject]) activeProject = projectNames[0] || null;
+
+  const tabs = projectNames.map(p =>
+    `<div class="project-tab${p === activeProject ? ' active' : ''}" data-project="${escapeHtml(p)}">${escapeHtml(p)} <span style="opacity:0.6; font-weight:500;">(${projectsMap[p].length})</span></div>`
   ).join('');
+
+  const epicOptions = activeProject ? projectsMap[activeProject]
+    .slice()
+    .sort((a, b) => (epics[b.key].total_cost_egp || 0) - (epics[a.key].total_cost_egp || 0))
+    .map(e => `<option value="${escapeHtml(e.key)}" ${e.key === activeEpic ? 'selected' : ''}>${escapeHtml(e.key)} — ${escapeHtml(e.name)}</option>`)
+    .join('') : '';
 
   let tableRows = '';
   if (current) {
@@ -208,7 +230,13 @@ function render() {
       </div>
     </div>
 
-    ${Object.keys(epics).length > 0 ? `<div class="epic-pills">${pills}</div>` : ''}
+    ${projectNames.length > 0 ? `<div class="project-tabs">${tabs}</div>` : ''}
+    ${activeProject ? `
+      <div class="epic-select-row">
+        <label>Epic</label>
+        <select class="epic-select" id="epicSelect">${epicOptions}</select>
+      </div>
+    ` : ''}
 
     ${current ? `
       <h2 style="font-size:18px; margin: 4px 0 12px; font-weight:700;">
@@ -284,13 +312,28 @@ function attachHandlers() {
     });
   }
 
-  document.querySelectorAll('.epic-pill').forEach(el => {
+  document.querySelectorAll('.project-tab').forEach(el => {
     el.addEventListener('click', () => {
-      activeEpic = el.getAttribute('data-epic');
-      rate = epics[activeEpic].rate_per_day_egp || rate;
+      activeProject = el.getAttribute('data-project');
+      // pick the highest-cost epic in this project by default
+      const inProject = Object.keys(epics).filter(k => (epics[k].project_name || epics[k].project_key || k.split('-')[0]) === activeProject);
+      if (inProject.length) {
+        inProject.sort((a, b) => (epics[b].total_cost_egp || 0) - (epics[a].total_cost_egp || 0));
+        activeEpic = inProject[0];
+        rate = epics[activeEpic].rate_per_day_egp || rate;
+      }
       render();
     });
   });
+
+  const epicSelect = document.getElementById('epicSelect');
+  if (epicSelect) {
+    epicSelect.addEventListener('change', () => {
+      activeEpic = epicSelect.value;
+      rate = epics[activeEpic].rate_per_day_egp || rate;
+      render();
+    });
+  }
 
   document.querySelectorAll('thead th[data-col]').forEach(el => {
     el.addEventListener('click', () => {
