@@ -1,0 +1,37 @@
+{
+  "epic_key": "NCRM-2942",
+  "epic_name": "Clients Re-engagement",
+  "project_key": "NCRM",
+  "project_name": "NawyCRM",
+  "generated_at": "2026-07-16T12:02:06.501863",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 2,
+  "complete_tickets": 2,
+  "in_progress_tickets": 0,
+  "total_net_days": 8.84,
+  "total_cost_egp": 30940.0,
+  "tickets": [
+    {
+      "key": "NCRM-2862",
+      "summary": "[DEV] AI-Driven App Journey Integration & Lead Protection",
+      "status": "Done",
+      "net_days": 6.62,
+      "gross_days": 8.53,
+      "excluded_days": 1.91,
+      "cost_egp": 23170.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NCRM-2976",
+      "summary": "[Prod] AI-Driven App Journey",
+      "status": "Done",
+      "net_days": 2.22,
+      "gross_days": 2.99,
+      "excluded_days": 0.76,
+      "cost_egp": 7770.0,
+      "is_complete": true,
+      "num_spans": 1
+    }
+  ]
+}

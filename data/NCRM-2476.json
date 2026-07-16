@@ -1,0 +1,37 @@
+{
+  "epic_key": "NCRM-2476",
+  "epic_name": "Agent Profiling",
+  "project_key": "NCRM",
+  "project_name": "NawyCRM",
+  "generated_at": "2026-07-16T12:01:30.126072",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 2,
+  "complete_tickets": 2,
+  "in_progress_tickets": 0,
+  "total_net_days": 5.68,
+  "total_cost_egp": 19880.0,
+  "tickets": [
+    {
+      "key": "NCRM-2347",
+      "summary": "[DEV] Ratings & Feedback Page (Admins & Managers) part 1",
+      "status": "Done",
+      "net_days": 2.28,
+      "gross_days": 2.28,
+      "excluded_days": 0.0,
+      "cost_egp": 7980.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NCRM-2424",
+      "summary": "Ratings & Feedback Page (Admins & Managers) ",
+      "status": "Done",
+      "net_days": 3.4,
+      "gross_days": 4.32,
+      "excluded_days": 0.93,
+      "cost_egp": 11900.0,
+      "is_complete": true,
+      "num_spans": 1
+    }
+  ]
+}

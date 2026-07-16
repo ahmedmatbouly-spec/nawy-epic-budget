@@ -1,0 +1,59 @@
+{
+  "epic_key": "NCRM-1",
+  "epic_name": "Help increase Financing Sales Transactions",
+  "project_key": "NCRM",
+  "project_name": "NawyCRM",
+  "generated_at": "2026-07-16T11:58:54.207093",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 4,
+  "complete_tickets": 4,
+  "in_progress_tickets": 0,
+  "total_net_days": 129.87,
+  "total_cost_egp": 454545.0,
+  "tickets": [
+    {
+      "key": "NCRM-3",
+      "summary": "Custom payments",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "NCRM-4",
+      "summary": "Cash reverse calculation",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "NCRM-22",
+      "summary": "Exporting Payment plan",
+      "status": "Done",
+      "net_days": 129.87,
+      "gross_days": 129.87,
+      "excluded_days": 0.0,
+      "cost_egp": 454545.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NCRM-24",
+      "summary": "New financing and resale Funnel",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    }
+  ]
+}

@@ -1,0 +1,202 @@
+{
+  "epic_key": "NCRM-333",
+  "epic_name": "Owners Launch enhancements",
+  "project_key": "NCRM",
+  "project_name": "NawyCRM",
+  "generated_at": "2026-07-16T11:59:18.418313",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 17,
+  "complete_tickets": 16,
+  "in_progress_tickets": 1,
+  "total_net_days": 697.52,
+  "total_cost_egp": 2441320.0,
+  "tickets": [
+    {
+      "key": "NCRM-329",
+      "summary": "Listings assignments to lead auto assignment issue",
+      "status": "Done",
+      "net_days": 44.71,
+      "gross_days": 44.71,
+      "excluded_days": 0.0,
+      "cost_egp": 156485.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NCRM-330",
+      "summary": "Current listings Migration from sheets",
+      "status": "Done",
+      "net_days": 30.49,
+      "gross_days": 30.49,
+      "excluded_days": 0.0,
+      "cost_egp": 106715.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NCRM-334",
+      "summary": "inside the owner's page, Existing Unit ID to be dropdown or create new When creating a new unit from an owner",
+      "status": "Done",
+      "net_days": 44.73,
+      "gross_days": 44.73,
+      "excluded_days": 0.0,
+      "cost_egp": 156555.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NCRM-335",
+      "summary": "If there is only one nunmber in the owner automatically set as default",
+      "status": "Done",
+      "net_days": 44.61,
+      "gross_days": 44.61,
+      "excluded_days": 0.0,
+      "cost_egp": 156135.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NCRM-336",
+      "summary": "Compounds unification from listing",
+      "status": "Done",
+      "net_days": 28.68,
+      "gross_days": 28.68,
+      "excluded_days": 0.0,
+      "cost_egp": 100380.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NCRM-337",
+      "summary": "Assigned agent must be changable from inside the owner page",
+      "status": "Done",
+      "net_days": 44.44,
+      "gross_days": 44.44,
+      "excluded_days": 0.0,
+      "cost_egp": 155540.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NCRM-339",
+      "summary": "Owner's page to Open in new tab from owners home page",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "NCRM-340",
+      "summary": "Filters on all columns in tables for listing on list and owner level",
+      "status": "Done",
+      "net_days": 43.57,
+      "gross_days": 43.57,
+      "excluded_days": 0.0,
+      "cost_egp": 152495.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NCRM-341",
+      "summary": "Filtering by users",
+      "status": "Done",
+      "net_days": 44.44,
+      "gross_days": 44.44,
+      "excluded_days": 0.0,
+      "cost_egp": 155540.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NCRM-342",
+      "summary": "Automatically creating a listing when a new lead (Seller) is added ",
+      "status": "In Progress",
+      "net_days": 135.37,
+      "gross_days": 135.37,
+      "excluded_days": 0.0,
+      "cost_egp": 473795.0,
+      "is_complete": false,
+      "num_spans": 1
+    },
+    {
+      "key": "NCRM-356",
+      "summary": "Assignment at owners level",
+      "status": "Done",
+      "net_days": 39.36,
+      "gross_days": 39.36,
+      "excluded_days": 0.0,
+      "cost_egp": 137760.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NCRM-357",
+      "summary": "Grant access based on owner's assignment",
+      "status": "Done",
+      "net_days": 39.36,
+      "gross_days": 39.36,
+      "excluded_days": 0.0,
+      "cost_egp": 137760.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NCRM-358",
+      "summary": "Create API to create a new owner",
+      "status": "Done",
+      "net_days": 40.29,
+      "gross_days": 40.29,
+      "excluded_days": 0.0,
+      "cost_egp": 141015.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NCRM-359",
+      "summary": "Fields to assign on owner's view",
+      "status": "Done",
+      "net_days": 39.32,
+      "gross_days": 39.32,
+      "excluded_days": 0.0,
+      "cost_egp": 137620.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NCRM-360",
+      "summary": "Field to assign inside owners page",
+      "status": "Done",
+      "net_days": 37.86,
+      "gross_days": 37.86,
+      "excluded_days": 0.0,
+      "cost_egp": 132510.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NCRM-361",
+      "summary": "Differentiate owners and crm leads creating owners by color coding",
+      "status": "Done",
+      "net_days": 40.29,
+      "gross_days": 40.29,
+      "excluded_days": 0.0,
+      "cost_egp": 141015.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NCRM-432",
+      "summary": "Filter by status and unit id",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    }
+  ]
+}

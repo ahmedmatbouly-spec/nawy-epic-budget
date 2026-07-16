@@ -1,0 +1,37 @@
+{
+  "epic_key": "NCRM-2727",
+  "epic_name": "Ithmar Integration",
+  "project_key": "NCRM",
+  "project_name": "NawyCRM",
+  "generated_at": "2026-07-16T12:02:02.861251",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 2,
+  "complete_tickets": 2,
+  "in_progress_tickets": 0,
+  "total_net_days": 6.45,
+  "total_cost_egp": 22575.0,
+  "tickets": [
+    {
+      "key": "NCRM-2484",
+      "summary": "Expose Agnostic API for Ithmar Integration",
+      "status": "Done",
+      "net_days": 6.44,
+      "gross_days": 7.55,
+      "excluded_days": 1.11,
+      "cost_egp": 22540.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NCRM-2741",
+      "summary": "Integration Test for Ithmaar Financing Flow",
+      "status": "Done",
+      "net_days": 0.01,
+      "gross_days": 10.17,
+      "excluded_days": 10.17,
+      "cost_egp": 35.0,
+      "is_complete": true,
+      "num_spans": 1
+    }
+  ]
+}

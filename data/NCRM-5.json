@@ -1,0 +1,103 @@
+{
+  "epic_key": "NCRM-5",
+  "epic_name": "Increase CRM User Effectiveness",
+  "project_key": "NCRM",
+  "project_name": "NawyCRM",
+  "generated_at": "2026-07-16T11:58:59.793290",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 8,
+  "complete_tickets": 8,
+  "in_progress_tickets": 0,
+  "total_net_days": 151.24,
+  "total_cost_egp": 529340.0,
+  "tickets": [
+    {
+      "key": "NCRM-6",
+      "summary": "Maintenance of filters, search terms and locations",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "NCRM-9",
+      "summary": "Web based notification system",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "NCRM-11",
+      "summary": "Building moving statuses between orgs",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "NCRM-12",
+      "summary": "Phone numbers DB maintenance",
+      "status": "Done",
+      "net_days": 151.24,
+      "gross_days": 151.24,
+      "excluded_days": 0.0,
+      "cost_egp": 529340.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NCRM-13",
+      "summary": "Revisiting and optimizing automatic assignment",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "NCRM-17",
+      "summary": "Revamping new statuses and categories hierarchy",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "NCRM-21",
+      "summary": "Leads home page queries optimization",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "NCRM-32",
+      "summary": "Extending auto-assignment to skip offline managers layer",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    }
+  ]
+}

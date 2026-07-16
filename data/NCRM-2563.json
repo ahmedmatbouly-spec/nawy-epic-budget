@@ -1,0 +1,158 @@
+{
+  "epic_key": "NCRM-2563",
+  "epic_name": "New Primary Team Experience",
+  "project_key": "NCRM",
+  "project_name": "NawyCRM",
+  "generated_at": "2026-07-16T12:01:43.811742",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 13,
+  "complete_tickets": 12,
+  "in_progress_tickets": 1,
+  "total_net_days": 36.73,
+  "total_cost_egp": 128555.0,
+  "tickets": [
+    {
+      "key": "NCRM-2564",
+      "summary": "Priority Lead Assignment to New Primary Team (Rule-Based + Weighted)",
+      "status": "Done",
+      "net_days": 0.6,
+      "gross_days": 2.16,
+      "excluded_days": 1.57,
+      "cost_egp": 2100.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NCRM-2565",
+      "summary": "Conditional Funnel Statuses for New Primary Team",
+      "status": "Released",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NCRM-2566",
+      "summary": "[BE][Dev Only] Developer Presentation Status + Client Request & Track Creation",
+      "status": "Released",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NCRM-2567",
+      "summary": "Developer Tracks Tab & Track Lifecycle Management",
+      "status": "Done",
+      "net_days": 0.33,
+      "gross_days": 2.33,
+      "excluded_days": 2.0,
+      "cost_egp": 1155.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NCRM-2568",
+      "summary": "Developer Agent Acceptance Flow via WhatsApp",
+      "status": "Open",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "NCRM-2569",
+      "summary": "Referral & Reassignment Permission from New Primary Team",
+      "status": "Done",
+      "net_days": 1.92,
+      "gross_days": 7.46,
+      "excluded_days": 5.54,
+      "cost_egp": 6720.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NCRM-2570",
+      "summary": "Developer Pool & Developer Agents as System Users",
+      "status": "Done",
+      "net_days": 0.61,
+      "gross_days": 1.86,
+      "excluded_days": 1.24,
+      "cost_egp": 2135.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NCRM-2574",
+      "summary": "Create Lead Tracks Infrastructure",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NCRM-2599",
+      "summary": "[FE] Developer Presentation form",
+      "status": "Done",
+      "net_days": 7.06,
+      "gross_days": 9.11,
+      "excluded_days": 2.05,
+      "cost_egp": 24710.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NCRM-2602",
+      "summary": "Username permission handling",
+      "status": "Done",
+      "net_days": 3.81,
+      "gross_days": 7.11,
+      "excluded_days": 3.31,
+      "cost_egp": 13335.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NCRM-2603",
+      "summary": "Developer Track Overview - Backend  ",
+      "status": "Done",
+      "net_days": 5.46,
+      "gross_days": 7.46,
+      "excluded_days": 2.0,
+      "cost_egp": 19110.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NCRM-2815",
+      "summary": "Reflect Developer Track Status Priority in Overall Lead Page",
+      "status": "Done",
+      "net_days": 1.65,
+      "gross_days": 12.0,
+      "excluded_days": 10.35,
+      "cost_egp": 5775.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NCRM-2823",
+      "summary": "Developer Tracks Configuration Page",
+      "status": "Done",
+      "net_days": 15.29,
+      "gross_days": 19.29,
+      "excluded_days": 4.0,
+      "cost_egp": 53515.0,
+      "is_complete": true,
+      "num_spans": 1
+    }
+  ]
+}

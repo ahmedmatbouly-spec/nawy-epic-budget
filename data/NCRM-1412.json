@@ -1,0 +1,26 @@
+{
+  "epic_key": "NCRM-1412",
+  "epic_name": "System design",
+  "project_key": "NCRM",
+  "project_name": "NawyCRM",
+  "generated_at": "2026-07-16T12:00:01.202710",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 1,
+  "complete_tickets": 1,
+  "in_progress_tickets": 0,
+  "total_net_days": 0.61,
+  "total_cost_egp": 2135.0,
+  "tickets": [
+    {
+      "key": "NCRM-1413",
+      "summary": "Add Shared Ui component ( Label - Icon button - Icon pill )",
+      "status": "Done",
+      "net_days": 0.61,
+      "gross_days": 0.61,
+      "excluded_days": 0.0,
+      "cost_egp": 2135.0,
+      "is_complete": true,
+      "num_spans": 1
+    }
+  ]
+}

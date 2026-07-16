@@ -1,0 +1,70 @@
+{
+  "epic_key": "NCRM-2675",
+  "epic_name": "Taskeen",
+  "project_key": "NCRM",
+  "project_name": "NawyCRM",
+  "generated_at": "2026-07-16T12:01:59.676737",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 5,
+  "complete_tickets": 5,
+  "in_progress_tickets": 0,
+  "total_net_days": 11.18,
+  "total_cost_egp": 39130.0,
+  "tickets": [
+    {
+      "key": "NCRM-2594",
+      "summary": "Rotation is not working for ALL taskeen entites",
+      "status": "Done",
+      "net_days": 3.51,
+      "gross_days": 4.85,
+      "excluded_days": 1.33,
+      "cost_egp": 12285.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NCRM-2673",
+      "summary": "Exclude Specific Methods of Contact from Taskeen Get Leads Pool",
+      "status": "Done",
+      "net_days": 2.3,
+      "gross_days": 8.46,
+      "excluded_days": 6.17,
+      "cost_egp": 8050.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NCRM-2735",
+      "summary": "[Taskeen] block fresh and manual assignment leads",
+      "status": "Done",
+      "net_days": 1.87,
+      "gross_days": 4.42,
+      "excluded_days": 2.55,
+      "cost_egp": 6545.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NCRM-2796",
+      "summary": "[Taskeen] Implement Agent Performance Governance Framework (Time-Based Escalation Model)",
+      "status": "Done",
+      "net_days": 2.12,
+      "gross_days": 2.12,
+      "excluded_days": 0.0,
+      "cost_egp": 7420.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NCRM-2809",
+      "summary": "Update Browser Tab Logo for Taskeen CRM",
+      "status": "Done",
+      "net_days": 1.38,
+      "gross_days": 11.0,
+      "excluded_days": 9.62,
+      "cost_egp": 4830.0,
+      "is_complete": true,
+      "num_spans": 1
+    }
+  ]
+}

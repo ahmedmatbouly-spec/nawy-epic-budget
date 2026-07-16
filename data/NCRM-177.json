@@ -1,0 +1,169 @@
+{
+  "epic_key": "NCRM-177",
+  "epic_name": "Inventory management system creation and Iframe",
+  "project_key": "NCRM",
+  "project_name": "NawyCRM",
+  "generated_at": "2026-07-16T11:59:11.172938",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 14,
+  "complete_tickets": 14,
+  "in_progress_tickets": 0,
+  "total_net_days": 209.68,
+  "total_cost_egp": 733880.0,
+  "tickets": [
+    {
+      "key": "NCRM-197",
+      "summary": "Unit CRUD Operations",
+      "status": "Done",
+      "net_days": 22.17,
+      "gross_days": 22.17,
+      "excluded_days": 0.0,
+      "cost_egp": 77595.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NCRM-198",
+      "summary": "Unit Value Tracking",
+      "status": "Done",
+      "net_days": 22.17,
+      "gross_days": 22.17,
+      "excluded_days": 0.0,
+      "cost_egp": 77595.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NCRM-199",
+      "summary": "Unit Value Correction Logic",
+      "status": "Done",
+      "net_days": 22.17,
+      "gross_days": 22.17,
+      "excluded_days": 0.0,
+      "cost_egp": 77595.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NCRM-200",
+      "summary": "Unit Version Tracking",
+      "status": "Done",
+      "net_days": 22.17,
+      "gross_days": 22.17,
+      "excluded_days": 0.0,
+      "cost_egp": 77595.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NCRM-201",
+      "summary": "Bulk Unit Upload",
+      "status": "Done",
+      "net_days": 22.17,
+      "gross_days": 22.17,
+      "excluded_days": 0.0,
+      "cost_egp": 77595.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NCRM-202",
+      "summary": "User Model Creation",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "NCRM-204",
+      "summary": "Add Security Groups Decorator",
+      "status": "Done",
+      "net_days": 15.71,
+      "gross_days": 15.71,
+      "excluded_days": 0.0,
+      "cost_egp": 54985.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NCRM-207",
+      "summary": "Add Pagination Endpoints Where required",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "NCRM-215",
+      "summary": "Reconfigure Routes Allowed Audience",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "NCRM-216",
+      "summary": "Update Unit Export",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "NCRM-219",
+      "summary": "Fix IMS Search",
+      "status": "Done",
+      "net_days": 4.04,
+      "gross_days": 4.04,
+      "excluded_days": 0.0,
+      "cost_egp": 14140.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NCRM-231",
+      "summary": "Update Unit Listing Table View",
+      "status": "Done",
+      "net_days": 29.3,
+      "gross_days": 29.3,
+      "excluded_days": 0.0,
+      "cost_egp": 102550.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NCRM-236",
+      "summary": "Fix XLSX format Upload",
+      "status": "Done",
+      "net_days": 28.09,
+      "gross_days": 28.09,
+      "excluded_days": 0.0,
+      "cost_egp": 98315.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NCRM-237",
+      "summary": "Fix Price Updates on bulk upload",
+      "status": "Done",
+      "net_days": 21.69,
+      "gross_days": 21.69,
+      "excluded_days": 0.0,
+      "cost_egp": 75915.0,
+      "is_complete": true,
+      "num_spans": 1
+    }
+  ]
+}

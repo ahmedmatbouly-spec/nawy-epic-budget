@@ -1,0 +1,37 @@
+{
+  "epic_key": "NCRM-1354",
+  "epic_name": "Add lead/Bulk",
+  "project_key": "NCRM",
+  "project_name": "NawyCRM",
+  "generated_at": "2026-07-16T11:59:58.666148",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 2,
+  "complete_tickets": 2,
+  "in_progress_tickets": 0,
+  "total_net_days": 7.34,
+  "total_cost_egp": 25690.0,
+  "tickets": [
+    {
+      "key": "NCRM-1280",
+      "summary": "Bulk upload comment in lead page (Trex)",
+      "status": "Done",
+      "net_days": 1.54,
+      "gross_days": 1.54,
+      "excluded_days": 0.0,
+      "cost_egp": 5390.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NCRM-1285",
+      "summary": "Error when manually adding a lead (phone number exist as deleted in another lead)",
+      "status": "Done",
+      "net_days": 5.8,
+      "gross_days": 5.8,
+      "excluded_days": 0.0,
+      "cost_egp": 20300.0,
+      "is_complete": true,
+      "num_spans": 1
+    }
+  ]
+}
