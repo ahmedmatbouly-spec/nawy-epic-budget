@@ -151,14 +151,15 @@ async function fetchLiveEpics() {
   // folder) isn't reachable via a relative path from here - we fetch it
   // straight from the repo's raw content instead.
   const RAW_BASE = 'https://raw.githubusercontent.com/ahmedmatbouly-spec/nawy-epic-budget/main/data';
+  const cacheBust = `?_=${Date.now()}`;
   try {
-    const idxResp = await fetch(`${RAW_BASE}/index.json`, { cache: 'no-store' });
+    const idxResp = await fetch(`${RAW_BASE}/index.json${cacheBust}`, { cache: 'no-store' });
     if (!idxResp.ok) return { epics: {}, updatedAt: null };
     const idx = await idxResp.json();
     const results = {};
     await Promise.all((idx.epics || []).map(async (e) => {
       try {
-        const r = await fetch(`${RAW_BASE}/${e.epic_key}.json`, { cache: 'no-store' });
+        const r = await fetch(`${RAW_BASE}/${e.epic_key}.json${cacheBust}`, { cache: 'no-store' });
         if (r.ok) results[e.epic_key] = await r.json();
       } catch (err) { /* skip */ }
     }));
@@ -260,7 +261,20 @@ async function triggerJiraRefresh() {
       refreshState = 'done';
       refreshStatusText = '✓ Refreshed — reloading data…';
       render();
-      const { epics: live, updatedAt } = await fetchLiveEpics();
+
+      // The CDN in front of raw.githubusercontent.com can lag a few seconds
+      // behind the push that just happened, even with cache-busting - retry
+      // briefly until the timestamp actually advances past what we had before.
+      const previousTimestamp = lastUpdatedAt;
+      let live = {}, updatedAt = null;
+      for (let i = 0; i < 6; i++) {
+        const result = await fetchLiveEpics();
+        live = result.epics;
+        updatedAt = result.updatedAt;
+        if (updatedAt && updatedAt !== previousTimestamp) break;
+        await sleep(2000);
+      }
+
       if (Object.keys(live).length > 0) {
         epics = { ...epics, ...live };
         lastUpdatedAt = updatedAt;
