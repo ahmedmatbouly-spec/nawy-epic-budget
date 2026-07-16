@@ -171,40 +171,24 @@ async function fetchLiveEpics() {
 // ---------------------------------------------------------------------------
 // Live "Refresh from Jira" button.
 //
-// IMPORTANT: no token is stored in this file or committed to the repo -
-// GitHub's push protection actively blocks that (as it should, since this is
-// a public repo). Instead, each person enters their own token once; it's
-// saved only in that browser's localStorage and sent directly from that
-// browser to GitHub's API - it never touches this repo or any server of ours.
-//
-// The token should be a Fine-grained PAT scoped to ONLY this repo with
-// "Actions: Read and write" and nothing else - see the README for the exact
-// steps. That scope means even if someone's local copy leaked, the worst
-// case is someone can trigger extra workflow runs; they can't read secrets,
-// code, or anything else.
+// Per explicit decision: this token is hardcoded directly in this public
+// page so the Refresh button works instantly for anyone, no per-person setup.
+// It is scoped to ONLY "Actions: Read and write" on this one repo (verified:
+// cannot read secrets, cannot write code/contents) - worst case if abused is
+// extra workflow runs. Rotate via GitHub -> Settings -> Developer settings ->
+// Fine-grained tokens if it's ever suspected of broader misuse.
 // ---------------------------------------------------------------------------
 const GH_OWNER = 'ahmedmatbouly-spec';
 const GH_REPO = 'nawy-epic-budget';
 const GH_WORKFLOW = 'update-budget.yml';
 const GH_API = 'https://api.github.com';
-const GH_TOKEN_STORE_KEY = 'nawy_gh_refresh_token_v1';
-
-function getRefreshToken() {
-  try { return localStorage.getItem(GH_TOKEN_STORE_KEY) || null; } catch (e) { return null; }
-}
-function setRefreshToken(token) {
-  try { localStorage.setItem(GH_TOKEN_STORE_KEY, token); } catch (e) { /* ignore */ }
-}
-function clearRefreshToken() {
-  try { localStorage.removeItem(GH_TOKEN_STORE_KEY); } catch (e) { /* ignore */ }
-}
+const GH_REFRESH_TOKEN = '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';
 
 async function ghApi(path, opts) {
-  const token = getRefreshToken();
   return fetch(`${GH_API}${path}`, {
     ...opts,
     headers: {
-      'Authorization': `Bearer ${token}`,
+      'Authorization': `Bearer ${GH_REFRESH_TOKEN}`,
       'Accept': 'application/vnd.github+json',
       ...(opts && opts.headers ? opts.headers : {}),
     },
@@ -227,18 +211,6 @@ function sleep(ms) { return new Promise(res => setTimeout(res, ms)); }
 async function triggerJiraRefresh() {
   if (refreshState === 'running') return;
 
-  let token = getRefreshToken();
-  if (!token) {
-    token = (window.prompt(
-      'One-time setup: paste a GitHub Fine-grained token scoped to ONLY this repo,\n' +
-      'with "Actions: Read and write" permission (see README for exact steps).\n\n' +
-      'This is saved only in your browser - it is never sent anywhere except\n' +
-      'directly from your browser to GitHub, and never stored in the repo.'
-    ) || '').trim();
-    if (!token) return; // user cancelled
-    setRefreshToken(token);
-  }
-
   refreshState = 'running';
   refreshStatusText = 'Starting refresh…';
   render();
@@ -254,9 +226,8 @@ async function triggerJiraRefresh() {
 
     if (!dispatchResp.ok && dispatchResp.status !== 204) {
       if (dispatchResp.status === 401 || dispatchResp.status === 403) {
-        clearRefreshToken();
         refreshState = 'error';
-        refreshStatusText = '✗ Token invalid/expired — click Refresh again to re-enter it';
+        refreshStatusText = '✗ Token invalid or expired — ask an admin to rotate it';
       } else {
         refreshState = 'error';
         refreshStatusText = '✗ Could not start refresh (check the Actions tab)';
@@ -492,7 +463,6 @@ function render() {
       <button class="ghost" id="refreshBtn" style="padding:7px 14px; font-size:12px;" ${refreshState === 'running' ? 'disabled' : ''}>
         ${refreshState === 'running' ? '⏳ Refreshing…' : '↻ Refresh from Jira'}
       </button>
-      ${getRefreshToken() ? `<button class="ghost" id="changeTokenBtn" style="padding:7px 10px; font-size:11px; opacity:0.6;">reset token</button>` : ''}
       <span id="refreshStatusMsg" style="font-size:12px; color:${refreshState === 'error' ? '#f0653c' : 'var(--accent)'};">${refreshStatusText}</span>
     </div>
 
@@ -605,14 +575,6 @@ function attachHandlers() {
   if (refreshBtn) {
     refreshBtn.addEventListener('click', () => {
       triggerJiraRefresh();
-    });
-  }
-
-  const changeTokenBtn = document.getElementById('changeTokenBtn');
-  if (changeTokenBtn) {
-    changeTokenBtn.addEventListener('click', () => {
-      clearRefreshToken();
-      render();
     });
   }
 
