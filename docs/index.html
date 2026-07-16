@@ -262,17 +262,18 @@ async function triggerJiraRefresh() {
       refreshStatusText = '✓ Refreshed — reloading data…';
       render();
 
-      // The CDN in front of raw.githubusercontent.com can lag a few seconds
-      // behind the push that just happened, even with cache-busting - retry
-      // briefly until the timestamp actually advances past what we had before.
+      // The CDN in front of raw.githubusercontent.com can lag behind the push
+      // that just happened, even with cache-busting - retry until the
+      // timestamp actually advances past what we had before, or give up
+      // and say so honestly rather than falsely claiming success.
       const previousTimestamp = lastUpdatedAt;
-      let live = {}, updatedAt = null;
-      for (let i = 0; i < 6; i++) {
+      let live = {}, updatedAt = null, advanced = false;
+      for (let i = 0; i < 10; i++) {
         const result = await fetchLiveEpics();
         live = result.epics;
         updatedAt = result.updatedAt;
-        if (updatedAt && updatedAt !== previousTimestamp) break;
-        await sleep(2000);
+        if (updatedAt && updatedAt !== previousTimestamp) { advanced = true; break; }
+        await sleep(3000);
       }
 
       if (Object.keys(live).length > 0) {
@@ -280,7 +281,13 @@ async function triggerJiraRefresh() {
         lastUpdatedAt = updatedAt;
         liveDataStatus = 'live';
       }
-      refreshStatusText = '✓ Refreshed successfully';
+
+      if (advanced) {
+        refreshStatusText = '✓ Refreshed successfully';
+      } else {
+        refreshState = 'error';
+        refreshStatusText = '⚠ Workflow completed, but data didn\'t change in time - GitHub may be lagging, try again shortly';
+      }
       render();
       setTimeout(() => { refreshState = 'idle'; refreshStatusText = ''; render(); }, 6000);
     } else if (finalConclusion) {
