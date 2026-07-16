@@ -1918,7 +1918,7 @@
       "total_cost_egp": 2846375.0,
       "total_tickets": 47,
       "complete_tickets": 26,
-      "generated_at": "2026-07-16T22:21:42.741868"
+      "generated_at": "2026-07-16T22:25:23.578897+00:00"
     },
     {
       "epic_key": "NLP-2073",
@@ -2074,7 +2074,7 @@
       "total_cost_egp": 408975.0,
       "total_tickets": 23,
       "complete_tickets": 13,
-      "generated_at": "2026-07-16T22:21:40.526508"
+      "generated_at": "2026-07-16T22:25:24.840836+00:00"
     },
     {
       "epic_key": "NLP-3881",
@@ -3262,7 +3262,7 @@
       "total_cost_egp": 112595.0,
       "total_tickets": 14,
       "complete_tickets": 7,
-      "generated_at": "2026-07-16T22:21:41.273966"
+      "generated_at": "2026-07-16T22:25:26.035608+00:00"
     },
     {
       "epic_key": "SC-892",
@@ -3745,5 +3745,5 @@
       "generated_at": "2026-07-16T20:51:47.450886"
     }
   ],
-  "updated_at": "2026-07-16T22:21:42.757133"
+  "updated_at": "2026-07-16T22:25:26.049914+00:00"
 }
