@@ -168,6 +168,165 @@ async function fetchLiveEpics() {
   }
 }
 
+// ---------------------------------------------------------------------------
+// Live "Refresh from Jira" button.
+//
+// IMPORTANT: no token is stored in this file or committed to the repo -
+// GitHub's push protection actively blocks that (as it should, since this is
+// a public repo). Instead, each person enters their own token once; it's
+// saved only in that browser's localStorage and sent directly from that
+// browser to GitHub's API - it never touches this repo or any server of ours.
+//
+// The token should be a Fine-grained PAT scoped to ONLY this repo with
+// "Actions: Read and write" and nothing else - see the README for the exact
+// steps. That scope means even if someone's local copy leaked, the worst
+// case is someone can trigger extra workflow runs; they can't read secrets,
+// code, or anything else.
+// ---------------------------------------------------------------------------
+const GH_OWNER = 'ahmedmatbouly-spec';
+const GH_REPO = 'nawy-epic-budget';
+const GH_WORKFLOW = 'update-budget.yml';
+const GH_API = 'https://api.github.com';
+const GH_TOKEN_STORE_KEY = 'nawy_gh_refresh_token_v1';
+
+function getRefreshToken() {
+  try { return localStorage.getItem(GH_TOKEN_STORE_KEY) || null; } catch (e) { return null; }
+}
+function setRefreshToken(token) {
+  try { localStorage.setItem(GH_TOKEN_STORE_KEY, token); } catch (e) { /* ignore */ }
+}
+function clearRefreshToken() {
+  try { localStorage.removeItem(GH_TOKEN_STORE_KEY); } catch (e) { /* ignore */ }
+}
+
+async function ghApi(path, opts) {
+  const token = getRefreshToken();
+  return fetch(`${GH_API}${path}`, {
+    ...opts,
+    headers: {
+      'Authorization': `Bearer ${token}`,
+      'Accept': 'application/vnd.github+json',
+      ...(opts && opts.headers ? opts.headers : {}),
+    },
+  });
+}
+
+async function getLatestRunId() {
+  try {
+    const resp = await ghApi(`/repos/${GH_OWNER}/${GH_REPO}/actions/workflows/${GH_WORKFLOW}/runs?per_page=1`);
+    if (!resp.ok) return null;
+    const data = await resp.json();
+    return (data.workflow_runs && data.workflow_runs[0]) ? data.workflow_runs[0].id : null;
+  } catch (e) {
+    return null;
+  }
+}
+
+function sleep(ms) { return new Promise(res => setTimeout(res, ms)); }
+
+async function triggerJiraRefresh() {
+  if (refreshState === 'running') return;
+
+  let token = getRefreshToken();
+  if (!token) {
+    token = (window.prompt(
+      'One-time setup: paste a GitHub Fine-grained token scoped to ONLY this repo,\n' +
+      'with "Actions: Read and write" permission (see README for exact steps).\n\n' +
+      'This is saved only in your browser - it is never sent anywhere except\n' +
+      'directly from your browser to GitHub, and never stored in the repo.'
+    ) || '').trim();
+    if (!token) return; // user cancelled
+    setRefreshToken(token);
+  }
+
+  refreshState = 'running';
+  refreshStatusText = 'Starting refresh…';
+  render();
+
+  try {
+    const baselineId = await getLatestRunId();
+
+    const dispatchResp = await ghApi(`/repos/${GH_OWNER}/${GH_REPO}/actions/workflows/${GH_WORKFLOW}/dispatches`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ ref: 'main' }),
+    });
+
+    if (!dispatchResp.ok && dispatchResp.status !== 204) {
+      if (dispatchResp.status === 401 || dispatchResp.status === 403) {
+        clearRefreshToken();
+        refreshState = 'error';
+        refreshStatusText = '✗ Token invalid/expired — click Refresh again to re-enter it';
+      } else {
+        refreshState = 'error';
+        refreshStatusText = '✗ Could not start refresh (check the Actions tab)';
+      }
+      render();
+      return;
+    }
+
+    refreshStatusText = 'Refresh queued, waiting for it to start…';
+    render();
+
+    // Poll for a NEW run to appear (GitHub takes a few seconds to register a dispatch)
+    let newRunId = null;
+    for (let i = 0; i < 15; i++) {
+      await sleep(2000);
+      const latest = await getLatestRunId();
+      if (latest && latest !== baselineId) { newRunId = latest; break; }
+    }
+
+    if (!newRunId) {
+      refreshState = 'error';
+      refreshStatusText = '✗ Refresh didn\'t start in time — check the Actions tab';
+      render();
+      return;
+    }
+
+    // Poll the new run until it completes (typical incremental run: 15-60s)
+    refreshStatusText = 'Refreshing from Jira…';
+    render();
+    let finalConclusion = null;
+    for (let i = 0; i < 60; i++) {
+      await sleep(3000);
+      try {
+        const runResp = await ghApi(`/repos/${GH_OWNER}/${GH_REPO}/actions/runs/${newRunId}`);
+        if (runResp.ok) {
+          const run = await runResp.json();
+          if (run.status === 'completed') { finalConclusion = run.conclusion; break; }
+        }
+      } catch (e) { /* keep polling */ }
+    }
+
+    if (finalConclusion === 'success') {
+      refreshState = 'done';
+      refreshStatusText = '✓ Refreshed — reloading data…';
+      render();
+      const { epics: live, updatedAt } = await fetchLiveEpics();
+      if (Object.keys(live).length > 0) {
+        epics = { ...epics, ...live };
+        lastUpdatedAt = updatedAt;
+        liveDataStatus = 'live';
+      }
+      refreshStatusText = '✓ Refreshed successfully';
+      render();
+      setTimeout(() => { refreshState = 'idle'; refreshStatusText = ''; render(); }, 6000);
+    } else if (finalConclusion) {
+      refreshState = 'error';
+      refreshStatusText = `✗ Refresh run finished with: ${finalConclusion}`;
+      render();
+    } else {
+      refreshState = 'error';
+      refreshStatusText = '✗ Refresh is taking longer than expected — check the Actions tab';
+      render();
+    }
+  } catch (e) {
+    refreshState = 'error';
+    refreshStatusText = '✗ Refresh failed: ' + e.message;
+    render();
+  }
+}
+
 function formatEGP(n) {
   return new Intl.NumberFormat('en-US', { maximumFractionDigits: 0 }).format(n) + ' EGP';
 }
@@ -190,6 +349,8 @@ let sortCol = 'net_days';
 let sortDir = -1;
 let liveDataStatus = 'loading'; // 'loading' | 'live' | 'none'
 let lastUpdatedAt = null;
+let refreshState = 'idle'; // 'idle' | 'running' | 'done' | 'error'
+let refreshStatusText = '';
 
 async function initLiveData() {
   const { epics: live, updatedAt } = await fetchLiveEpics();
@@ -328,6 +489,11 @@ function render() {
           ? `<span class="status-dot warn"></span> Checking for live data...`
           : `<span class="status-dot warn"></span> No live data found yet — run the Action once, or paste JSON manually below`
       }
+      <button class="ghost" id="refreshBtn" style="padding:7px 14px; font-size:12px;" ${refreshState === 'running' ? 'disabled' : ''}>
+        ${refreshState === 'running' ? '⏳ Refreshing…' : '↻ Refresh from Jira'}
+      </button>
+      ${getRefreshToken() ? `<button class="ghost" id="changeTokenBtn" style="padding:7px 10px; font-size:11px; opacity:0.6;">reset token</button>` : ''}
+      <span id="refreshStatusMsg" style="font-size:12px; color:${refreshState === 'error' ? '#f0653c' : 'var(--accent)'};">${refreshStatusText}</span>
     </div>
 
     <div class="toolbar">
@@ -435,6 +601,21 @@ function render() {
 }
 
 function attachHandlers() {
+  const refreshBtn = document.getElementById('refreshBtn');
+  if (refreshBtn) {
+    refreshBtn.addEventListener('click', () => {
+      triggerJiraRefresh();
+    });
+  }
+
+  const changeTokenBtn = document.getElementById('changeTokenBtn');
+  if (changeTokenBtn) {
+    changeTokenBtn.addEventListener('click', () => {
+      clearRefreshToken();
+      render();
+    });
+  }
+
   const rateInput = document.getElementById('rateInput');
   if (rateInput) {
     rateInput.addEventListener('input', () => {
