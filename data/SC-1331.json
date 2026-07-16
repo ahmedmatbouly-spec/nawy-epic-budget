@@ -1,7 +1,9 @@
 {
   "epic_key": "SC-1331",
   "epic_name": "Conversation History Dashboard",
-  "generated_at": "2026-07-16T10:23:54.860437",
+  "project_key": "SC",
+  "project_name": "Suite Control ",
+  "generated_at": "2026-07-16T10:43:40.306064",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 1,
   "complete_tickets": 0,

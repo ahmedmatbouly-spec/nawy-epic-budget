@@ -1,7 +1,9 @@
 {
   "epic_key": "SC-15",
   "epic_name": "Suite Control - Zoom Integration for Phone Number Management",
-  "generated_at": "2026-07-16T10:21:51.301406",
+  "project_key": "SC",
+  "project_name": "Suite Control ",
+  "generated_at": "2026-07-16T10:41:59.357349",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 6,
   "complete_tickets": 4,

@@ -1,7 +1,9 @@
 {
   "epic_key": "SC-1335",
   "epic_name": "Dashboard",
-  "generated_at": "2026-07-16T10:24:01.420093",
+  "project_key": "SC",
+  "project_name": "Suite Control ",
+  "generated_at": "2026-07-16T10:43:45.650781",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 7,
   "complete_tickets": 1,

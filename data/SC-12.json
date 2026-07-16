@@ -1,7 +1,9 @@
 {
   "epic_key": "SC-12",
   "epic_name": "Implement Single Sign-On",
-  "generated_at": "2026-07-16T10:21:45.856475",
+  "project_key": "SC",
+  "project_name": "Suite Control ",
+  "generated_at": "2026-07-16T10:41:55.699152",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 4,
   "complete_tickets": 3,

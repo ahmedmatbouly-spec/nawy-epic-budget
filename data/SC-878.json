@@ -1,7 +1,9 @@
 {
   "epic_key": "SC-878",
   "epic_name": "AI Chatbot",
-  "generated_at": "2026-07-16T10:23:40.648332",
+  "project_key": "SC",
+  "project_name": "Suite Control ",
+  "generated_at": "2026-07-16T10:43:28.630573",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 14,
   "complete_tickets": 7,

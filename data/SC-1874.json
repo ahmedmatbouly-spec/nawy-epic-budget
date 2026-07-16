@@ -1,7 +1,9 @@
 {
   "epic_key": "SC-1874",
   "epic_name": "[Commissions Visibility] v1 \u2014 Native Internal commissions (replace WebView)",
-  "generated_at": "2026-07-16T10:24:38.405606",
+  "project_key": "SC",
+  "project_name": "Suite Control ",
+  "generated_at": "2026-07-16T10:44:18.222845",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 15,
   "complete_tickets": 10,

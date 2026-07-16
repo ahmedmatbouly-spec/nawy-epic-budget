@@ -1,7 +1,9 @@
 {
   "epic_key": "SC-377",
   "epic_name": "Lead Profile",
-  "generated_at": "2026-07-16T10:23:03.187688",
+  "project_key": "SC",
+  "project_name": "Suite Control ",
+  "generated_at": "2026-07-16T10:42:58.921796",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 52,
   "complete_tickets": 43,
@@ -487,8 +489,8 @@
       "summary": "[Lead Profile] WhatsApp Flow",
       "status": "On-hold",
       "net_days": 0.0,
-      "gross_days": 16.46,
-      "excluded_days": 16.46,
+      "gross_days": 16.5,
+      "excluded_days": 16.5,
       "cost_egp": 0.0,
       "is_complete": false,
       "num_spans": 1
@@ -575,8 +577,8 @@
       "summary": "[Lead Profile] Activity Timeline Design Enhancement",
       "status": "On-hold",
       "net_days": 0.0,
-      "gross_days": 11.75,
-      "excluded_days": 11.74,
+      "gross_days": 11.79,
+      "excluded_days": 11.79,
       "cost_egp": 0.0,
       "is_complete": false,
       "num_spans": 1

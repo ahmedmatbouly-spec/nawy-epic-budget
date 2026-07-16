@@ -1,7 +1,9 @@
 {
   "epic_key": "SC-1325",
   "epic_name": "Resale Listing Discovery",
-  "generated_at": "2026-07-16T10:23:48.408356",
+  "project_key": "SC",
+  "project_name": "Suite Control ",
+  "generated_at": "2026-07-16T10:43:35.399749",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 7,
   "complete_tickets": 5,

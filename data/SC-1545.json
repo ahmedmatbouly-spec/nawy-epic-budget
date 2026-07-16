@@ -1,7 +1,9 @@
 {
   "epic_key": "SC-1545",
   "epic_name": "Zoom Integration",
-  "generated_at": "2026-07-16T10:24:32.549984",
+  "project_key": "SC",
+  "project_name": "Suite Control ",
+  "generated_at": "2026-07-16T10:44:12.876405",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 7,
   "complete_tickets": 6,
@@ -25,8 +27,8 @@
       "summary": "In-call indicator on lead profile \u2014 real-time",
       "status": "On-hold",
       "net_days": 0.62,
-      "gross_days": 42.24,
-      "excluded_days": 41.62,
+      "gross_days": 42.28,
+      "excluded_days": 41.66,
       "cost_egp": 2170.0,
       "is_complete": false,
       "num_spans": 1

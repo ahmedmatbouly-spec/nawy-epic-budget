@@ -1,7 +1,9 @@
 {
   "epic_key": "SC-65",
   "epic_name": "Tiers Management module",
-  "generated_at": "2026-07-16T10:22:37.971682",
+  "project_key": "SC",
+  "project_name": "Suite Control ",
+  "generated_at": "2026-07-16T10:42:38.729254",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 0,
   "complete_tickets": 0,

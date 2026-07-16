@@ -1,7 +1,9 @@
 {
   "epic_key": "SC-1384",
   "epic_name": "New Primary Team Experience",
-  "generated_at": "2026-07-16T10:24:10.606603",
+  "project_key": "SC",
+  "project_name": "Suite Control ",
+  "generated_at": "2026-07-16T10:43:53.431034",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 5,
   "complete_tickets": 4,

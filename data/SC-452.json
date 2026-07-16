@@ -1,7 +1,9 @@
 {
   "epic_key": "SC-452",
   "epic_name": "Features with Permissions",
-  "generated_at": "2026-07-16T10:23:22.246542",
+  "project_key": "SC",
+  "project_name": "Suite Control ",
+  "generated_at": "2026-07-16T10:43:15.038171",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 0,
   "complete_tickets": 0,
