@@ -3,13 +3,14 @@
   "epic_name": "Receivables tracking system",
   "project_key": "SP",
   "project_name": "Sales Portal",
-  "generated_at": "2026-07-16T13:42:32.617231",
+  "epic_created": "2023-08-15T15:26:17.378+0300",
+  "generated_at": "2026-07-16T16:35:35.611907",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 12,
   "complete_tickets": 9,
   "in_progress_tickets": 3,
-  "total_net_days": 156.19,
-  "total_cost_egp": 546665.0,
+  "total_net_days": 156.55,
+  "total_cost_egp": 547925.0,
   "tickets": [
     {
       "key": "SP-30",
@@ -136,10 +137,10 @@
       "key": "SP-1832",
       "summary": "[Receivables] Separate Basic and Slab Percentages in Invoice Creation",
       "status": "In Progress",
-      "net_days": 64.59,
-      "gross_days": 70.26,
+      "net_days": 64.95,
+      "gross_days": 70.62,
       "excluded_days": 5.67,
-      "cost_egp": 226065.0,
+      "cost_egp": 227325.0,
       "is_complete": false,
       "num_spans": 1
     }

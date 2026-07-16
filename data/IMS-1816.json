@@ -3,13 +3,14 @@
   "epic_name": "Render Images",
   "project_key": "IMS",
   "project_name": "Inventory Management System ",
-  "generated_at": "2026-07-16T13:37:05.485093",
+  "epic_created": "2026-07-11T20:07:44.216+0300",
+  "generated_at": "2026-07-16T16:31:07.096175",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 2,
   "complete_tickets": 0,
   "in_progress_tickets": 2,
-  "total_net_days": 4.38,
-  "total_cost_egp": 15330.0,
+  "total_net_days": 4.75,
+  "total_cost_egp": 16625.0,
   "tickets": [
     {
       "key": "IMS-1611",
@@ -26,10 +27,10 @@
       "key": "IMS-1669",
       "summary": "Render Images Global Page",
       "status": "Ready for Re-test",
-      "net_days": 4.38,
-      "gross_days": 4.38,
+      "net_days": 4.75,
+      "gross_days": 4.75,
       "excluded_days": 0.0,
-      "cost_egp": 15330.0,
+      "cost_egp": 16625.0,
       "is_complete": false,
       "num_spans": 1
     }
