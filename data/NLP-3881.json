@@ -4,13 +4,13 @@
   "project_key": "NLP",
   "project_name": "Nawy Listing Platform ",
   "epic_created": "2025-07-01T10:33:08.066+0300",
-  "generated_at": "2026-07-16T16:34:44.680336",
+  "generated_at": "2026-07-16T20:50:45.417421",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 24,
   "complete_tickets": 23,
   "in_progress_tickets": 1,
-  "total_net_days": 772.93,
-  "total_cost_egp": 2705255.0,
+  "total_net_days": 772.98,
+  "total_cost_egp": 2705430.0,
   "tickets": [
     {
       "key": "NLP-3625",
@@ -269,10 +269,10 @@
       "key": "NLP-4877",
       "summary": "[App] BE Migration Tasks [Submit Form] [Testing only]",
       "status": "Ready for Re-test",
-      "net_days": 19.41,
-      "gross_days": 22.1,
+      "net_days": 19.46,
+      "gross_days": 22.16,
       "excluded_days": 2.69,
-      "cost_egp": 67935.0,
+      "cost_egp": 68110.0,
       "is_complete": false,
       "num_spans": 1
     }
