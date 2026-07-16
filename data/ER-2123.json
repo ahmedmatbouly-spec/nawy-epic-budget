@@ -1,0 +1,136 @@
+{
+  "epic_key": "ER-2123",
+  "epic_name": "Construction Updates",
+  "project_key": "ER",
+  "project_name": "eRealty",
+  "generated_at": "2026-07-16T13:04:26.613030",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 11,
+  "complete_tickets": 11,
+  "in_progress_tickets": 0,
+  "total_net_days": 37.39,
+  "total_cost_egp": 130865.0,
+  "tickets": [
+    {
+      "key": "ER-1924",
+      "summary": "Construction Updates [BE]",
+      "status": "Released",
+      "net_days": 2.61,
+      "gross_days": 6.92,
+      "excluded_days": 4.31,
+      "cost_egp": 9135.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-1986",
+      "summary": "Construction Updates [FE]",
+      "status": "Released",
+      "net_days": 2.3,
+      "gross_days": 6.61,
+      "excluded_days": 4.31,
+      "cost_egp": 8050.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-2061",
+      "summary": "Construction Updates Separate Page [FE] [Dev Only]",
+      "status": "Released",
+      "net_days": 3.67,
+      "gross_days": 3.67,
+      "excluded_days": 0.0,
+      "cost_egp": 12845.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-2141",
+      "summary": "Construction Updates [BE] [UAT]",
+      "status": "Released",
+      "net_days": 0.0,
+      "gross_days": 0.68,
+      "excluded_days": 0.68,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-2142",
+      "summary": "Construction Updates [FE] [UAT]",
+      "status": "Released",
+      "net_days": 0.0,
+      "gross_days": 0.68,
+      "excluded_days": 0.68,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-2249",
+      "summary": "Construction Updates Separate Page [BE] [Dev Only]",
+      "status": "Ready for Deployment",
+      "net_days": 8.76,
+      "gross_days": 8.76,
+      "excluded_days": 0.0,
+      "cost_egp": 30660.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-2352",
+      "summary": "Construction Updates Mixpanel",
+      "status": "Released",
+      "net_days": 3.61,
+      "gross_days": 8.14,
+      "excluded_days": 4.53,
+      "cost_egp": 12635.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-2360",
+      "summary": "Construction Updates Separate Page [BE] [Testing Only]",
+      "status": "Ready for Deployment",
+      "net_days": 6.69,
+      "gross_days": 11.41,
+      "excluded_days": 4.72,
+      "cost_egp": 23415.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-2366",
+      "summary": "Construction Updates Separate Page [FE] [Testing Only]",
+      "status": "Released",
+      "net_days": 6.61,
+      "gross_days": 11.34,
+      "excluded_days": 4.72,
+      "cost_egp": 23135.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-2396",
+      "summary": "Construction Updates Filter (Dev only)",
+      "status": "Done",
+      "net_days": 3.14,
+      "gross_days": 3.14,
+      "excluded_days": 0.0,
+      "cost_egp": 10990.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-2798",
+      "summary": "Construction Updates Filter (Testing only)",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    }
+  ]
+}

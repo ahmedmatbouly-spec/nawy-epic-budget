@@ -1,0 +1,92 @@
+{
+  "epic_key": "IMS-1426",
+  "epic_name": "Floor Plans Management",
+  "project_key": "IMS",
+  "project_name": "Inventory Management System ",
+  "generated_at": "2026-07-16T12:54:59.701538",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 7,
+  "complete_tickets": 0,
+  "in_progress_tickets": 7,
+  "total_net_days": 0.0,
+  "total_cost_egp": 0.0,
+  "tickets": [
+    {
+      "key": "IMS-1427",
+      "summary": "Floor Plans Multiple Metadata per Image/Images",
+      "status": "Open",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "IMS-1428",
+      "summary": "Brochures Extraction Floor Plans New UI",
+      "status": "Open",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "IMS-1429",
+      "summary": "Floor Plans Matching (Multiple Metadata) (Sheets)",
+      "status": "Open",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "IMS-1430",
+      "summary": "Floor Plans Matching Logic (Multiple Metadata) (Manual)",
+      "status": "Open",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "IMS-1431",
+      "summary": "Floor Plans Suggestion in Single Unit Creation",
+      "status": "Open",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "IMS-1432",
+      "summary": "Projects Floor Plans Global Page",
+      "status": "Open",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "IMS-1610",
+      "summary": "Endpoint for Floor plans Metadata extraction",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    }
+  ]
+}

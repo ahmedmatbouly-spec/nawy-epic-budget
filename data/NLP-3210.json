@@ -1,0 +1,103 @@
+{
+  "epic_key": "NLP-3210",
+  "epic_name": "Expo",
+  "project_key": "NLP",
+  "project_name": "Nawy Listing Platform ",
+  "generated_at": "2026-07-16T12:59:12.271534",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 8,
+  "complete_tickets": 6,
+  "in_progress_tickets": 2,
+  "total_net_days": 30.56,
+  "total_cost_egp": 106960.0,
+  "tickets": [
+    {
+      "key": "NLP-3206",
+      "summary": "[App][Expo] Main page",
+      "status": "Done",
+      "net_days": 6.74,
+      "gross_days": 6.74,
+      "excluded_days": 0.0,
+      "cost_egp": 23590.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NLP-3207",
+      "summary": "[App][Expo] Get QR code",
+      "status": "Done",
+      "net_days": 7.55,
+      "gross_days": 8.0,
+      "excluded_days": 0.45,
+      "cost_egp": 26425.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NLP-3657",
+      "summary": "[BE][Expo] Expo Journey",
+      "status": "Done",
+      "net_days": 8.0,
+      "gross_days": 8.0,
+      "excluded_days": 0.0,
+      "cost_egp": 28000.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NLP-3660",
+      "summary": "[App][Expo] View QR Code",
+      "status": "Done",
+      "net_days": 0.78,
+      "gross_days": 1.22,
+      "excluded_days": 0.45,
+      "cost_egp": 2730.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NLP-3661",
+      "summary": "[BE][Expo] Homepage Banner",
+      "status": "Done",
+      "net_days": 5.74,
+      "gross_days": 8.5,
+      "excluded_days": 2.76,
+      "cost_egp": 20090.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NLP-3707",
+      "summary": "[Web] Expo Experience that Pushes to the App",
+      "status": "Done",
+      "net_days": 1.75,
+      "gross_days": 3.75,
+      "excluded_days": 2.0,
+      "cost_egp": 6125.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NLP-3830",
+      "summary": "[BE] Do not create expo lead if already created on CRM",
+      "status": "Open",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "NLP-3839",
+      "summary": "[App] Do not create expo lead if already created on CRM",
+      "status": "Open",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    }
+  ]
+}

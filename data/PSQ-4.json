@@ -1,0 +1,70 @@
+{
+  "epic_key": "PSQ-4",
+  "epic_name": "Unified Login Experience",
+  "project_key": "PSQ",
+  "project_name": "Platform Squad",
+  "generated_at": "2026-07-16T12:49:34.553559",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 5,
+  "complete_tickets": 4,
+  "in_progress_tickets": 1,
+  "total_net_days": 168.98,
+  "total_cost_egp": 591430.0,
+  "tickets": [
+    {
+      "key": "PSQ-5",
+      "summary": "[UMS]: Login State Persistency",
+      "status": "Done",
+      "net_days": 4.92,
+      "gross_days": 13.54,
+      "excluded_days": 8.62,
+      "cost_egp": 17220.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "PSQ-9",
+      "summary": "[UMS]: Support 2 factor authentication using OTP for external users",
+      "status": "Done",
+      "net_days": 10.98,
+      "gross_days": 19.6,
+      "excluded_days": 8.62,
+      "cost_egp": 38430.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "PSQ-25",
+      "summary": "[MFA] Mobile Login Support",
+      "status": "Discarded",
+      "net_days": 150.08,
+      "gross_days": 150.08,
+      "excluded_days": 0.0,
+      "cost_egp": 525280.0,
+      "is_complete": false,
+      "num_spans": 1
+    },
+    {
+      "key": "PSQ-59",
+      "summary": "[MFA] International Phone Numbers Whatsapp OTP",
+      "status": "Done",
+      "net_days": 1.5,
+      "gross_days": 2.04,
+      "excluded_days": 0.54,
+      "cost_egp": 5250.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "PSQ-60",
+      "summary": "[MFA] Domestic Phone Numbers SMS OTP",
+      "status": "Done",
+      "net_days": 1.5,
+      "gross_days": 2.04,
+      "excluded_days": 0.54,
+      "cost_egp": 5250.0,
+      "is_complete": true,
+      "num_spans": 1
+    }
+  ]
+}

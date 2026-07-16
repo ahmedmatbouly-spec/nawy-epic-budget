@@ -1,0 +1,26 @@
+{
+  "epic_key": "PAR-65",
+  "epic_name": "Self SignUp",
+  "project_key": "PAR",
+  "project_name": "Partners",
+  "generated_at": "2026-07-16T12:47:23.858883",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 1,
+  "complete_tickets": 1,
+  "in_progress_tickets": 0,
+  "total_net_days": 0.0,
+  "total_cost_egp": 0.0,
+  "tickets": [
+    {
+      "key": "PAR-2026",
+      "summary": "[Web] [Self Sign-up] - The sign-in hyperlink button isn't clickable ",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    }
+  ]
+}

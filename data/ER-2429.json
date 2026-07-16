@@ -1,0 +1,92 @@
+{
+  "epic_key": "ER-2429",
+  "epic_name": "Projects Comparison",
+  "project_key": "ER",
+  "project_name": "eRealty",
+  "generated_at": "2026-07-16T13:05:01.233650",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 7,
+  "complete_tickets": 7,
+  "in_progress_tickets": 0,
+  "total_net_days": 24.92,
+  "total_cost_egp": 87220.0,
+  "tickets": [
+    {
+      "key": "ER-2422",
+      "summary": "Projects Comparison BE [Dev Only]",
+      "status": "Done",
+      "net_days": 11.25,
+      "gross_days": 11.25,
+      "excluded_days": 0.0,
+      "cost_egp": 39375.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-2423",
+      "summary": "Projects Comparison FE (Dev Only)",
+      "status": "Done",
+      "net_days": 8.66,
+      "gross_days": 8.66,
+      "excluded_days": 0.0,
+      "cost_egp": 30310.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-2484",
+      "summary": "Projects Comparison BE",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "ER-2795",
+      "summary": "Projects Comparison FE (Testing & UAT)",
+      "status": "Released",
+      "net_days": 1.98,
+      "gross_days": 6.51,
+      "excluded_days": 4.53,
+      "cost_egp": 6930.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-2796",
+      "summary": "Projects Comparison BE [Testing & UAT]",
+      "status": "Ready for Deployment",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "ER-2806",
+      "summary": "Search endpoint to return dev logos and names with compounds in project comparison",
+      "status": "Done",
+      "net_days": 2.19,
+      "gross_days": 2.19,
+      "excluded_days": 0.0,
+      "cost_egp": 7665.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-2827",
+      "summary": "Fetch Project summary from inventory",
+      "status": "Done",
+      "net_days": 0.84,
+      "gross_days": 0.84,
+      "excluded_days": 0.0,
+      "cost_egp": 2940.0,
+      "is_complete": true,
+      "num_spans": 1
+    }
+  ]
+}

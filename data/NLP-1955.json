@@ -1,0 +1,103 @@
+{
+  "epic_key": "NLP-1955",
+  "epic_name": "Sahel Map",
+  "project_key": "NLP",
+  "project_name": "Nawy Listing Platform ",
+  "generated_at": "2026-07-16T12:55:54.630762",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 8,
+  "complete_tickets": 7,
+  "in_progress_tickets": 1,
+  "total_net_days": 62.45,
+  "total_cost_egp": 218575.0,
+  "tickets": [
+    {
+      "key": "NLP-1958",
+      "summary": "[Web] Nawy Now units displayed as resale in Sahel Map",
+      "status": "Done",
+      "net_days": 0.08,
+      "gross_days": 0.08,
+      "excluded_days": 0.0,
+      "cost_egp": 280.0,
+      "is_complete": true,
+      "num_spans": 2
+    },
+    {
+      "key": "NLP-3691",
+      "summary": "[App][Map] Sahel Map - Calculate Distance from Sea to Unit",
+      "status": "Open",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "NLP-3696",
+      "summary": "[App][Map] Modon Developments - Sahel Map",
+      "status": "Done",
+      "net_days": 24.87,
+      "gross_days": 33.44,
+      "excluded_days": 8.56,
+      "cost_egp": 87045.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NLP-3697",
+      "summary": "[BE][Map] Sahel Map - Lock the Map",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "NLP-3702",
+      "summary": "[BE][Map] Sahel Map - Calculate Distance from Sea to Unit",
+      "status": "Done",
+      "net_days": 24.1,
+      "gross_days": 24.1,
+      "excluded_days": 0.0,
+      "cost_egp": 84350.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NLP-3706",
+      "summary": "[BE][Web][Map] Sahel Map - PDF Enhancements",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "NLP-3715",
+      "summary": "[App][Map] Sahel Map - Lock the Map",
+      "status": "Done",
+      "net_days": 8.61,
+      "gross_days": 30.31,
+      "excluded_days": 21.7,
+      "cost_egp": 30135.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NLP-3716",
+      "summary": "[Web][Map] Sahel Map - Lock the Map",
+      "status": "Done",
+      "net_days": 4.79,
+      "gross_days": 26.45,
+      "excluded_days": 21.66,
+      "cost_egp": 16765.0,
+      "is_complete": true,
+      "num_spans": 1
+    }
+  ]
+}

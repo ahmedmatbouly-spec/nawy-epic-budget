@@ -1,0 +1,81 @@
+{
+  "epic_key": "IMS-740",
+  "epic_name": "Look up tables management",
+  "project_key": "IMS",
+  "project_name": "Inventory Management System ",
+  "generated_at": "2026-07-16T12:53:24.381719",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 6,
+  "complete_tickets": 6,
+  "in_progress_tickets": 0,
+  "total_net_days": 132.13,
+  "total_cost_egp": 462455.0,
+  "tickets": [
+    {
+      "key": "IMS-741",
+      "summary": "Districts , Areas , Subareas management with Pollygons - Coordinates bulk Upload",
+      "status": "Done",
+      "net_days": 17.65,
+      "gross_days": 30.0,
+      "excluded_days": 12.35,
+      "cost_egp": 61775.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "IMS-742",
+      "summary": "Property lookup tables management",
+      "status": "Done",
+      "net_days": 44.24,
+      "gross_days": 44.94,
+      "excluded_days": 0.7,
+      "cost_egp": 154840.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "IMS-743",
+      "summary": "Projects lookup tables management",
+      "status": "Done",
+      "net_days": 44.24,
+      "gross_days": 44.94,
+      "excluded_days": 0.7,
+      "cost_egp": 154840.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "IMS-1050",
+      "summary": "Property Lookups Status Reflection",
+      "status": "Done",
+      "net_days": 13.0,
+      "gross_days": 15.0,
+      "excluded_days": 2.0,
+      "cost_egp": 45500.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "IMS-1051",
+      "summary": "Project Lookups Status Reflection",
+      "status": "Done",
+      "net_days": 13.0,
+      "gross_days": 15.0,
+      "excluded_days": 2.0,
+      "cost_egp": 45500.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "IMS-1465",
+      "summary": "Areas SEO content Fix",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 1
+    }
+  ]
+}

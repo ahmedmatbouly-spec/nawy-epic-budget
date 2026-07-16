@@ -1,0 +1,37 @@
+{
+  "epic_key": "IMS-1816",
+  "epic_name": "Render Images",
+  "project_key": "IMS",
+  "project_name": "Inventory Management System ",
+  "generated_at": "2026-07-16T12:55:03.838381",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 2,
+  "complete_tickets": 0,
+  "in_progress_tickets": 2,
+  "total_net_days": 4.3,
+  "total_cost_egp": 15050.0,
+  "tickets": [
+    {
+      "key": "IMS-1611",
+      "summary": "Endpoint for Render images Captioning",
+      "status": "Open",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "IMS-1669",
+      "summary": "Render Images Global Page",
+      "status": "Ready for Re-test",
+      "net_days": 4.3,
+      "gross_days": 4.3,
+      "excluded_days": 0.0,
+      "cost_egp": 15050.0,
+      "is_complete": false,
+      "num_spans": 1
+    }
+  ]
+}

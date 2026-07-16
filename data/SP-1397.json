@@ -1,0 +1,70 @@
+{
+  "epic_key": "SP-1397",
+  "epic_name": "Users Roles and Permissions ",
+  "project_key": "SP",
+  "project_name": "Sales Portal",
+  "generated_at": "2026-07-16T13:01:27.120627",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 5,
+  "complete_tickets": 5,
+  "in_progress_tickets": 0,
+  "total_net_days": 50.63,
+  "total_cost_egp": 177205.0,
+  "tickets": [
+    {
+      "key": "SP-1221",
+      "summary": "Get Sale documents from partners",
+      "status": "Done",
+      "net_days": 20.52,
+      "gross_days": 20.52,
+      "excluded_days": 0.0,
+      "cost_egp": 71820.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "SP-1295",
+      "summary": "Create New User to access sale documents only",
+      "status": "Done",
+      "net_days": 12.16,
+      "gross_days": 19.16,
+      "excluded_days": 7.0,
+      "cost_egp": 42560.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "SP-1394",
+      "summary": "User Roles and Views Documentation ",
+      "status": "Done",
+      "net_days": 11.0,
+      "gross_days": 18.0,
+      "excluded_days": 7.0,
+      "cost_egp": 38500.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "SP-1403",
+      "summary": "[Spike] Custom groups to jobs",
+      "status": "Done",
+      "net_days": 6.71,
+      "gross_days": 6.71,
+      "excluded_days": 0.0,
+      "cost_egp": 23485.0,
+      "is_complete": true,
+      "num_spans": 2
+    },
+    {
+      "key": "SP-1585",
+      "summary": "New Custom Group Creation || Taskeen Commissions",
+      "status": "Done",
+      "net_days": 0.24,
+      "gross_days": 0.24,
+      "excluded_days": 0.0,
+      "cost_egp": 840.0,
+      "is_complete": true,
+      "num_spans": 1
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "epic_key": "SP-1963",
+  "epic_name": "Commissions Disputes Management ",
+  "project_key": "SP",
+  "project_name": "Sales Portal",
+  "generated_at": "2026-07-16T13:02:05.878957",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 1,
+  "complete_tickets": 1,
+  "in_progress_tickets": 0,
+  "total_net_days": 11.66,
+  "total_cost_egp": 40810.0,
+  "tickets": [
+    {
+      "key": "SP-1951",
+      "summary": "Commissions Disputes Management",
+      "status": "Done",
+      "net_days": 11.66,
+      "gross_days": 11.66,
+      "excluded_days": 0.0,
+      "cost_egp": 40810.0,
+      "is_complete": true,
+      "num_spans": 1
+    }
+  ]
+}

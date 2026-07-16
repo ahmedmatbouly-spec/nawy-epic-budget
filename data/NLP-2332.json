@@ -1,0 +1,37 @@
+{
+  "epic_key": "NLP-2332",
+  "epic_name": "Customer Support",
+  "project_key": "NLP",
+  "project_name": "Nawy Listing Platform ",
+  "generated_at": "2026-07-16T12:57:32.978873",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 2,
+  "complete_tickets": 2,
+  "in_progress_tickets": 0,
+  "total_net_days": 3.82,
+  "total_cost_egp": 13370.0,
+  "tickets": [
+    {
+      "key": "NLP-2331",
+      "summary": "[Web] FAQs - Compound",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "NLP-3735",
+      "summary": "[Web] Update Contact page Information",
+      "status": "Done",
+      "net_days": 3.82,
+      "gross_days": 4.94,
+      "excluded_days": 1.12,
+      "cost_egp": 13370.0,
+      "is_complete": true,
+      "num_spans": 1
+    }
+  ]
+}

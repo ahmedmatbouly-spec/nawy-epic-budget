@@ -1,0 +1,70 @@
+{
+  "epic_key": "PAR-54",
+  "epic_name": "UX Revamp",
+  "project_key": "PAR",
+  "project_name": "Partners",
+  "generated_at": "2026-07-16T12:47:22.991096",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 5,
+  "complete_tickets": 5,
+  "in_progress_tickets": 0,
+  "total_net_days": 46.86,
+  "total_cost_egp": 164010.0,
+  "tickets": [
+    {
+      "key": "PAR-75",
+      "summary": "Invitations view",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "PAR-76",
+      "summary": "Terms & Condition View",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "PAR-77",
+      "summary": "Sale Claim View",
+      "status": "Done",
+      "net_days": 15.62,
+      "gross_days": 15.62,
+      "excluded_days": 0.0,
+      "cost_egp": 54670.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "PAR-78",
+      "summary": "CIL View",
+      "status": "Done",
+      "net_days": 15.62,
+      "gross_days": 15.62,
+      "excluded_days": 0.0,
+      "cost_egp": 54670.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "PAR-81",
+      "summary": "Invitations page",
+      "status": "Done",
+      "net_days": 15.62,
+      "gross_days": 15.62,
+      "excluded_days": 0.0,
+      "cost_egp": 54670.0,
+      "is_complete": true,
+      "num_spans": 1
+    }
+  ]
+}

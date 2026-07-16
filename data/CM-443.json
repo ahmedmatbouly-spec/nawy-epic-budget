@@ -1,0 +1,70 @@
+{
+  "epic_key": "CM-443",
+  "epic_name": "Qualification Scoring",
+  "project_key": "CM",
+  "project_name": "Campaigns Management",
+  "generated_at": "2026-07-16T13:00:28.084963",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 5,
+  "complete_tickets": 5,
+  "in_progress_tickets": 0,
+  "total_net_days": 202.09,
+  "total_cost_egp": 707315.0,
+  "tickets": [
+    {
+      "key": "CM-444",
+      "summary": "GetContact Reverse engineered API",
+      "status": "Done",
+      "net_days": 24.64,
+      "gross_days": 24.64,
+      "excluded_days": 0.0,
+      "cost_egp": 86240.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "CM-446",
+      "summary": "Rooting and hosting devices",
+      "status": "Done",
+      "net_days": 6.01,
+      "gross_days": 6.01,
+      "excluded_days": 0.0,
+      "cost_egp": 21035.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "CM-447",
+      "summary": "Tags and Scores storage",
+      "status": "Done",
+      "net_days": 93.0,
+      "gross_days": 93.0,
+      "excluded_days": 0.0,
+      "cost_egp": 325500.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "CM-462",
+      "summary": "[Spike] Get contact Web vs Mobile",
+      "status": "Done",
+      "net_days": 1.62,
+      "gross_days": 1.62,
+      "excluded_days": 0.0,
+      "cost_egp": 5670.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "CM-493",
+      "summary": "PDL integration - Data base (tags)",
+      "status": "Done",
+      "net_days": 76.82,
+      "gross_days": 76.82,
+      "excluded_days": 0.0,
+      "cost_egp": 268870.0,
+      "is_complete": true,
+      "num_spans": 1
+    }
+  ]
+}

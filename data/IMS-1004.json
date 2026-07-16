@@ -1,0 +1,26 @@
+{
+  "epic_key": "IMS-1004",
+  "epic_name": "Inventory Ai chat agent",
+  "project_key": "IMS",
+  "project_name": "Inventory Management System ",
+  "generated_at": "2026-07-16T12:54:13.592845",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 1,
+  "complete_tickets": 1,
+  "in_progress_tickets": 0,
+  "total_net_days": 12.0,
+  "total_cost_egp": 42000.0,
+  "tickets": [
+    {
+      "key": "IMS-976",
+      "summary": "Tech Suite Chatbot Data Structure and Logic changes",
+      "status": "Done",
+      "net_days": 12.0,
+      "gross_days": 12.0,
+      "excluded_days": 0.0,
+      "cost_egp": 42000.0,
+      "is_complete": true,
+      "num_spans": 1
+    }
+  ]
+}

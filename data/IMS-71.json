@@ -1,0 +1,70 @@
+{
+  "epic_key": "IMS-71",
+  "epic_name": "Panacea fixes and enhancements",
+  "project_key": "IMS",
+  "project_name": "Inventory Management System ",
+  "generated_at": "2026-07-16T12:52:04.305517",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 5,
+  "complete_tickets": 5,
+  "in_progress_tickets": 0,
+  "total_net_days": 32.98,
+  "total_cost_egp": 115430.0,
+  "tickets": [
+    {
+      "key": "IMS-34",
+      "summary": "Inability to Remove a Payment Plan from a Payment Preset",
+      "status": "Done",
+      "net_days": 16.49,
+      "gross_days": 16.49,
+      "excluded_days": 0.0,
+      "cost_egp": 57715.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "IMS-35",
+      "summary": "Payment Plan Presets Do Not Apply After Sheet Order or Tab Changes",
+      "status": "Done",
+      "net_days": 16.49,
+      "gross_days": 16.49,
+      "excluded_days": 0.0,
+      "cost_egp": 57715.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "IMS-38",
+      "summary": "Incorrect Handling of Filterof  Null Values in Mandatory Columns",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "IMS-40",
+      "summary": "Add Data for Multiple Columns with Single Filter Criteria",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "IMS-95",
+      "summary": "Saving Panacea Entries",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    }
+  ]
+}

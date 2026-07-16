@@ -1,0 +1,136 @@
+{
+  "epic_key": "ER-2125",
+  "epic_name": "Map Enhancements",
+  "project_key": "ER",
+  "project_name": "eRealty",
+  "generated_at": "2026-07-16T13:04:33.968755",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 11,
+  "complete_tickets": 11,
+  "in_progress_tickets": 0,
+  "total_net_days": 123.86,
+  "total_cost_egp": 433510.0,
+  "tickets": [
+    {
+      "key": "ER-1858",
+      "summary": "Landmarks new layer",
+      "status": "Done",
+      "net_days": 3.77,
+      "gross_days": 3.77,
+      "excluded_days": 0.0,
+      "cost_egp": 13195.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-2179",
+      "summary": "Nearby Layer On Map",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-2211",
+      "summary": "Research Hover On Map for Roads",
+      "status": "Done",
+      "net_days": 8.64,
+      "gross_days": 8.64,
+      "excluded_days": 0.0,
+      "cost_egp": 30240.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NLP-4307",
+      "summary": "[Web] Search Experience Amendments",
+      "status": "Ready for Deployment",
+      "net_days": 81.81,
+      "gross_days": 86.81,
+      "excluded_days": 5.0,
+      "cost_egp": 286335.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-2339",
+      "summary": "Nearby Layer On Map [FE] [Dev only]",
+      "status": "Released",
+      "net_days": 3.28,
+      "gross_days": 3.28,
+      "excluded_days": 0.0,
+      "cost_egp": 11480.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-2340",
+      "summary": "Toggle To View Layer without Masterplans",
+      "status": "Done",
+      "net_days": 0.61,
+      "gross_days": 3.37,
+      "excluded_days": 2.76,
+      "cost_egp": 2135.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-2341",
+      "summary": "Toggle ON/OFF To view Phases pins optionally FE",
+      "status": "Done",
+      "net_days": 8.0,
+      "gross_days": 8.0,
+      "excluded_days": 0.0,
+      "cost_egp": 28000.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-2418",
+      "summary": "Nearby Layer On Map [BE] [Dev only]",
+      "status": "Released",
+      "net_days": 1.14,
+      "gross_days": 1.15,
+      "excluded_days": 0.0,
+      "cost_egp": 3990.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-2433",
+      "summary": "Nearby Layer On Map [BE] [Testing only]",
+      "status": "Released",
+      "net_days": 6.97,
+      "gross_days": 14.82,
+      "excluded_days": 7.85,
+      "cost_egp": 24395.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-2434",
+      "summary": "Nearby Layer On Map [FE] [Testing only]",
+      "status": "Released",
+      "net_days": 6.97,
+      "gross_days": 14.82,
+      "excluded_days": 7.85,
+      "cost_egp": 24395.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-2805",
+      "summary": "Enhancement: Toggle ON/OFF To view Phases pins optionally BE",
+      "status": "Done",
+      "net_days": 2.67,
+      "gross_days": 2.86,
+      "excluded_days": 0.19,
+      "cost_egp": 9345.0,
+      "is_complete": true,
+      "num_spans": 1
+    }
+  ]
+}

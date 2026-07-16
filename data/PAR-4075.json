@@ -1,0 +1,81 @@
+{
+  "epic_key": "PAR-4075",
+  "epic_name": "[Automation][API][Sales Pipeline] Create -> Sale claim, EOI, Reservation, Primary & Financing CIL",
+  "project_key": "PAR",
+  "project_name": "Partners",
+  "generated_at": "2026-07-16T12:48:26.262388",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 6,
+  "complete_tickets": 1,
+  "in_progress_tickets": 5,
+  "total_net_days": 4.81,
+  "total_cost_egp": 16835.0,
+  "tickets": [
+    {
+      "key": "PAR-4076",
+      "summary": "[Automation][API][Sales Pipeline] Create -> Sale claim",
+      "status": "Open",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "PAR-4077",
+      "summary": "[Automation][API][Sales Pipeline] Create -> EOI ",
+      "status": "Open",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "PAR-4078",
+      "summary": "[Automation][API][Sales Pipeline] Create -> Reservaion",
+      "status": "Open",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "PAR-4079",
+      "summary": "[Automation][API][Sales Pipeline] Create -> Primary CIL",
+      "status": "Open",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "PAR-4080",
+      "summary": "[Automation][API][Sales Pipeline] Create -> Financing CIL",
+      "status": "Open",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "PAR-4235",
+      "summary": "[Testing] [Automation] - Sales Pipeline APIs",
+      "status": "Done",
+      "net_days": 4.81,
+      "gross_days": 4.81,
+      "excluded_days": 0.0,
+      "cost_egp": 16835.0,
+      "is_complete": true,
+      "num_spans": 1
+    }
+  ]
+}

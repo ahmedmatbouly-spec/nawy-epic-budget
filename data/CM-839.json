@@ -1,0 +1,59 @@
+{
+  "epic_key": "CM-839",
+  "epic_name": "Campaign WhatsApp Notifications",
+  "project_key": "CM",
+  "project_name": "Campaigns Management",
+  "generated_at": "2026-07-16T13:00:32.798942",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 4,
+  "complete_tickets": 0,
+  "in_progress_tickets": 4,
+  "total_net_days": 0.0,
+  "total_cost_egp": 0.0,
+  "tickets": [
+    {
+      "key": "CM-844",
+      "summary": "Status-change campaign notifications (manual)",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "CM-845",
+      "summary": "Campaign submission & approval notifications",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "CM-847",
+      "summary": "Campaign rejection notification",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "CM-848",
+      "summary": "Automatic campaign lifecycle notifications",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    }
+  ]
+}

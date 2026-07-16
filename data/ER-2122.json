@@ -1,0 +1,103 @@
+{
+  "epic_key": "ER-2122",
+  "epic_name": "Dynamic Projects Data Based on Filter",
+  "project_key": "ER",
+  "project_name": "eRealty",
+  "generated_at": "2026-07-16T13:04:20.974495",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 8,
+  "complete_tickets": 8,
+  "in_progress_tickets": 0,
+  "total_net_days": 16.34,
+  "total_cost_egp": 57190.0,
+  "tickets": [
+    {
+      "key": "ER-2051",
+      "summary": "Dynamic Projects Data: Table BE",
+      "status": "Done",
+      "net_days": 3.79,
+      "gross_days": 6.29,
+      "excluded_days": 2.5,
+      "cost_egp": 13265.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-2059",
+      "summary": "Dynamic Projects Data: Drawer [BE]",
+      "status": "Done",
+      "net_days": 5.41,
+      "gross_days": 9.72,
+      "excluded_days": 4.31,
+      "cost_egp": 18935.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-2062",
+      "summary": "Dynamic Projects Data: Drawer [FE]",
+      "status": "Done",
+      "net_days": 3.51,
+      "gross_days": 7.83,
+      "excluded_days": 4.31,
+      "cost_egp": 12285.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-2063",
+      "summary": "Dynamic Projects Data: Table FE",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 2.5,
+      "excluded_days": 2.5,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-2119",
+      "summary": "Max & Min Price On Cards (Dynamic Filters Apply on it)",
+      "status": "Done",
+      "net_days": 3.47,
+      "gross_days": 3.51,
+      "excluded_days": 0.04,
+      "cost_egp": 12145.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-2144",
+      "summary": "Dynamic Projects Data: Drawer [BE] [UAT]",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.68,
+      "excluded_days": 0.67,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-2145",
+      "summary": "Dynamic Projects Data: Drawer [FE] [UAT]",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.68,
+      "excluded_days": 0.67,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-2184",
+      "summary": "Fix offers count in the compounds table view",
+      "status": "Done",
+      "net_days": 0.16,
+      "gross_days": 0.16,
+      "excluded_days": 0.0,
+      "cost_egp": 560.0,
+      "is_complete": true,
+      "num_spans": 1
+    }
+  ]
+}

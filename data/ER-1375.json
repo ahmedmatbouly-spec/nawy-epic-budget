@@ -1,0 +1,92 @@
+{
+  "epic_key": "ER-1375",
+  "epic_name": "Units Table View",
+  "project_key": "ER",
+  "project_name": "eRealty",
+  "generated_at": "2026-07-16T13:03:54.893863",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 7,
+  "complete_tickets": 5,
+  "in_progress_tickets": 2,
+  "total_net_days": 70.34,
+  "total_cost_egp": 246190.0,
+  "tickets": [
+    {
+      "key": "ER-1326",
+      "summary": "Filter by Nawy ID in Unit table page (Need Listing Migration)",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "ER-1371",
+      "summary": "Add Unit Model Column and allow to for searching by it",
+      "status": "Done",
+      "net_days": 22.1,
+      "gross_days": 22.1,
+      "excluded_days": 0.0,
+      "cost_egp": 77350.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-1376",
+      "summary": "Fetch Full Unit Codes not the generic ID but dont show it in generated offer",
+      "status": "Done",
+      "net_days": 36.51,
+      "gross_days": 37.98,
+      "excluded_days": 1.46,
+      "cost_egp": 127785.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-1427",
+      "summary": "Show only Units Cards View not Table view when directed to view units",
+      "status": "Open",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "ER-1480",
+      "summary": "Add View Column for units table Modon [Front end]",
+      "status": "Open",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "ER-1484",
+      "summary": "Fix actions column and add view action in units table",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "ER-1496",
+      "summary": "Filter by view in all filters",
+      "status": "Done",
+      "net_days": 11.73,
+      "gross_days": 11.73,
+      "excluded_days": 0.0,
+      "cost_egp": 41055.0,
+      "is_complete": true,
+      "num_spans": 1
+    }
+  ]
+}

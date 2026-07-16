@@ -1,0 +1,70 @@
+{
+  "epic_key": "PAR-4137",
+  "epic_name": "[Segmentation] Engagement Data Accuracy",
+  "project_key": "PAR",
+  "project_name": "Partners",
+  "generated_at": "2026-07-16T12:48:28.973180",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 5,
+  "complete_tickets": 3,
+  "in_progress_tickets": 2,
+  "total_net_days": 29.49,
+  "total_cost_egp": 103215.0,
+  "tickets": [
+    {
+      "key": "PAR-3813",
+      "summary": "[Spike][Technical Debt] Mixpanel set up enhancements",
+      "status": "Done",
+      "net_days": 0.01,
+      "gross_days": 0.01,
+      "excluded_days": 0.0,
+      "cost_egp": 35.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "PAR-3891",
+      "summary": "[Dev only][Tech debt][Web] Enhance Mixpanel integration set up",
+      "status": "Ready for Deployment",
+      "net_days": 8.66,
+      "gross_days": 8.94,
+      "excluded_days": 0.28,
+      "cost_egp": 30310.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "PAR-4128",
+      "summary": "[Tech debt][App] Enhance Mixpanel integration set up",
+      "status": "Discarded",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "PAR-4138",
+      "summary": "Re-visit Moengage with Ymir Integration",
+      "status": "Open",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "PAR-4218",
+      "summary": "[Tech debt][Web] Enhance Mixpanel integration set up",
+      "status": "Done",
+      "net_days": 20.82,
+      "gross_days": 25.36,
+      "excluded_days": 4.55,
+      "cost_egp": 72870.0,
+      "is_complete": true,
+      "num_spans": 1
+    }
+  ]
+}

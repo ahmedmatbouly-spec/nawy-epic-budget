@@ -1,0 +1,191 @@
+{
+  "epic_key": "SP-308",
+  "epic_name": "Developers Contracts Revamp",
+  "project_key": "SP",
+  "project_name": "Sales Portal",
+  "generated_at": "2026-07-16T13:00:54.509867",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 16,
+  "complete_tickets": 16,
+  "in_progress_tickets": 0,
+  "total_net_days": 96.45,
+  "total_cost_egp": 337575.0,
+  "tickets": [
+    {
+      "key": "SP-297",
+      "summary": "[Backend] Developers Contracts Revamp",
+      "status": "Done",
+      "net_days": 5.51,
+      "gross_days": 5.51,
+      "excluded_days": 0.0,
+      "cost_egp": 19285.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "SP-323",
+      "summary": "[Frontend] Developers Contracts Revamp ",
+      "status": "Done",
+      "net_days": 6.78,
+      "gross_days": 6.78,
+      "excluded_days": 0.0,
+      "cost_egp": 23730.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "SP-342",
+      "summary": "[Backend] Contracts Revenue Module",
+      "status": "Done",
+      "net_days": 2.56,
+      "gross_days": 2.56,
+      "excluded_days": 0.0,
+      "cost_egp": 8960.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "SP-350",
+      "summary": "Developer Contracts Revamp Phase 3",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "SP-379",
+      "summary": "[Testing] Developer Contracts Revamp",
+      "status": "Done",
+      "net_days": 9.25,
+      "gross_days": 9.25,
+      "excluded_days": 0.0,
+      "cost_egp": 32375.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "SP-1001",
+      "summary": "[Developers Contracts] Taskeen Handling",
+      "status": "Done",
+      "net_days": 2.74,
+      "gross_days": 2.74,
+      "excluded_days": 0.0,
+      "cost_egp": 9590.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "SP-1143",
+      "summary": "Applied Projects in Slabs for Developer Contracts",
+      "status": "Done",
+      "net_days": 13.06,
+      "gross_days": 16.06,
+      "excluded_days": 3.0,
+      "cost_egp": 45710.0,
+      "is_complete": true,
+      "num_spans": 2
+    },
+    {
+      "key": "SP-1183",
+      "summary": "[Developers Contracts] Nawy Handling",
+      "status": "Done",
+      "net_days": 6.47,
+      "gross_days": 16.08,
+      "excluded_days": 9.61,
+      "cost_egp": 22645.0,
+      "is_complete": true,
+      "num_spans": 2
+    },
+    {
+      "key": "SP-1190",
+      "summary": "Developers Contracts Slabs Dependency",
+      "status": "Done",
+      "net_days": 18.0,
+      "gross_days": 26.54,
+      "excluded_days": 8.54,
+      "cost_egp": 63000.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "SP-1191",
+      "summary": "Developers Contracts Basic Revenue Upgrade",
+      "status": "Done",
+      "net_days": 8.6,
+      "gross_days": 16.47,
+      "excluded_days": 7.87,
+      "cost_egp": 30100.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "SP-1440",
+      "summary": "Adding extra details for the sub-contract \"External View\"",
+      "status": "Done",
+      "net_days": 6.99,
+      "gross_days": 13.86,
+      "excluded_days": 6.87,
+      "cost_egp": 24465.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "SP-1482",
+      "summary": "Developer Contracts VS Entity Migration",
+      "status": "Done",
+      "net_days": 8.24,
+      "gross_days": 8.24,
+      "excluded_days": 0.0,
+      "cost_egp": 28840.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "SP-1529",
+      "summary": "Developers Contracts Dates Criteria Enhancement",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "SP-1616",
+      "summary": "Contract Upsert Breakdown",
+      "status": "Done",
+      "net_days": 8.25,
+      "gross_days": 8.25,
+      "excluded_days": 0.0,
+      "cost_egp": 28875.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "SP-1688",
+      "summary": "Delete Contracts / Subcontract Function",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "SP-1779",
+      "summary": "Developers Contracts Property Types Handling",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    }
+  ]
+}

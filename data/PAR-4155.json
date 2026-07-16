@@ -1,0 +1,92 @@
+{
+  "epic_key": "PAR-4155",
+  "epic_name": "[Activation] Inventory experience to E-reality",
+  "project_key": "PAR",
+  "project_name": "Partners",
+  "generated_at": "2026-07-16T12:49:06.156643",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 7,
+  "complete_tickets": 6,
+  "in_progress_tickets": 1,
+  "total_net_days": 33.86,
+  "total_cost_egp": 118510.0,
+  "tickets": [
+    {
+      "key": "PAR-2862",
+      "summary": "[Spike] Inventory to e-reality technical solution",
+      "status": "Done",
+      "net_days": 5.12,
+      "gross_days": 5.12,
+      "excluded_days": 0.0,
+      "cost_egp": 17920.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "PAR-3902",
+      "summary": "[App] Partners x E-reality sdk",
+      "status": "Ready for Deployment",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "PAR-4055",
+      "summary": "[Mobile][Ereality-SDK]Freelancer update job script",
+      "status": "Done",
+      "net_days": 8.87,
+      "gross_days": 11.2,
+      "excluded_days": 2.33,
+      "cost_egp": 31045.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "PAR-4058",
+      "summary": "[App] Partners x E-reality sdk",
+      "status": "Ready for Deployment",
+      "net_days": 9.1,
+      "gross_days": 14.96,
+      "excluded_days": 5.85,
+      "cost_egp": 31850.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "PAR-4107",
+      "summary": "[BE] E-reality web APIs",
+      "status": "Open",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "PAR-4129",
+      "summary": "[Mobile][Ereality-SDK]Freelancer update job script",
+      "status": "Ready for Deployment",
+      "net_days": 8.03,
+      "gross_days": 8.37,
+      "excluded_days": 0.34,
+      "cost_egp": 28105.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "PAR-4156",
+      "summary": "[Web] Inventory to E-reality I-frame",
+      "status": "Done",
+      "net_days": 2.74,
+      "gross_days": 4.55,
+      "excluded_days": 1.82,
+      "cost_egp": 9590.0,
+      "is_complete": true,
+      "num_spans": 1
+    }
+  ]
+}

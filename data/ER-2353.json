@@ -1,0 +1,26 @@
+{
+  "epic_key": "ER-2353",
+  "epic_name": "CRM Integration",
+  "project_key": "ER",
+  "project_name": "eRealty",
+  "generated_at": "2026-07-16T13:04:55.415661",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 1,
+  "complete_tickets": 1,
+  "in_progress_tickets": 0,
+  "total_net_days": 1.13,
+  "total_cost_egp": 3955.0,
+  "tickets": [
+    {
+      "key": "ER-2350",
+      "summary": "Authentication with CRM & User Data",
+      "status": "Released",
+      "net_days": 1.13,
+      "gross_days": 1.13,
+      "excluded_days": 0.0,
+      "cost_egp": 3955.0,
+      "is_complete": true,
+      "num_spans": 1
+    }
+  ]
+}

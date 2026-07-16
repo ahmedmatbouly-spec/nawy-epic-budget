@@ -1,0 +1,48 @@
+{
+  "epic_key": "ER-2487",
+  "epic_name": "Developers Page",
+  "project_key": "ER",
+  "project_name": "eRealty",
+  "generated_at": "2026-07-16T13:05:03.845158",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 3,
+  "complete_tickets": 3,
+  "in_progress_tickets": 0,
+  "total_net_days": 13.06,
+  "total_cost_egp": 45710.0,
+  "tickets": [
+    {
+      "key": "ER-2440",
+      "summary": "Dev Info Page BE (Dev only)",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "ER-2488",
+      "summary": "Dev Info Page FE",
+      "status": "Released",
+      "net_days": 4.77,
+      "gross_days": 4.78,
+      "excluded_days": 0.01,
+      "cost_egp": 16695.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-2792",
+      "summary": "Dev Info Page BE CONT.",
+      "status": "Ready for Deployment",
+      "net_days": 8.29,
+      "gross_days": 8.62,
+      "excluded_days": 0.33,
+      "cost_egp": 29015.0,
+      "is_complete": true,
+      "num_spans": 1
+    }
+  ]
+}

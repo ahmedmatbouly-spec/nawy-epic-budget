@@ -1,0 +1,37 @@
+{
+  "epic_key": "NLP-2571",
+  "epic_name": "Agents Verifications ",
+  "project_key": "NLP",
+  "project_name": "Nawy Listing Platform ",
+  "generated_at": "2026-07-16T12:57:34.286960",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 2,
+  "complete_tickets": 2,
+  "in_progress_tickets": 0,
+  "total_net_days": 13.73,
+  "total_cost_egp": 48055.0,
+  "tickets": [
+    {
+      "key": "NLP-2531",
+      "summary": "[Web] Agents Verification",
+      "status": "Done",
+      "net_days": 9.13,
+      "gross_days": 9.13,
+      "excluded_days": 0.0,
+      "cost_egp": 31955.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NLP-3556",
+      "summary": "[App] Agents Verification",
+      "status": "Done",
+      "net_days": 4.6,
+      "gross_days": 6.92,
+      "excluded_days": 2.32,
+      "cost_egp": 16100.0,
+      "is_complete": true,
+      "num_spans": 1
+    }
+  ]
+}

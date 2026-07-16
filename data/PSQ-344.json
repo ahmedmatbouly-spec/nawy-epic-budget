@@ -1,0 +1,59 @@
+{
+  "epic_key": "PSQ-344",
+  "epic_name": "UAE Real Estate Scraper Platform",
+  "project_key": "PSQ",
+  "project_name": "Platform Squad",
+  "generated_at": "2026-07-16T12:49:48.313990",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 4,
+  "complete_tickets": 4,
+  "in_progress_tickets": 0,
+  "total_net_days": 7.63,
+  "total_cost_egp": 26705.0,
+  "tickets": [
+    {
+      "key": "PSQ-338",
+      "summary": "[Web Scraper]: Complete Scraping of Propertyfinder and bayut",
+      "status": "Done",
+      "net_days": 0.97,
+      "gross_days": 0.97,
+      "excluded_days": 0.0,
+      "cost_egp": 3395.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "PSQ-343",
+      "summary": "[Web Scraper]: CRON Deployment & Persistence Strategy",
+      "status": "Ready for Deployment",
+      "net_days": 3.08,
+      "gross_days": 11.26,
+      "excluded_days": 8.18,
+      "cost_egp": 10780.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "PSQ-386",
+      "summary": "Bypass Cloudflare bot protection on Bayut",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.1,
+      "excluded_days": 0.09,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "PSQ-387",
+      "summary": "Integrate a rotating proxy provider to unblock scraping on restricted targets",
+      "status": "Released",
+      "net_days": 3.58,
+      "gross_days": 5.78,
+      "excluded_days": 2.2,
+      "cost_egp": 12530.0,
+      "is_complete": true,
+      "num_spans": 1
+    }
+  ]
+}

@@ -1,0 +1,191 @@
+{
+  "epic_key": "ER-939",
+  "epic_name": "3D Master Plan",
+  "project_key": "ER",
+  "project_name": "eRealty",
+  "generated_at": "2026-07-16T13:03:34.542041",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 16,
+  "complete_tickets": 16,
+  "in_progress_tickets": 0,
+  "total_net_days": 97.52,
+  "total_cost_egp": 341320.0,
+  "tickets": [
+    {
+      "key": "ER-966",
+      "summary": "3D Experience - BE - Search units, differentiate between units colors",
+      "status": "Done",
+      "net_days": 9.12,
+      "gross_days": 18.47,
+      "excluded_days": 9.35,
+      "cost_egp": 31920.0,
+      "is_complete": true,
+      "num_spans": 2
+    },
+    {
+      "key": "ER-967",
+      "summary": "3D Experience - BE - Allow all API Needed for 3D front-end",
+      "status": "Done",
+      "net_days": 2.58,
+      "gross_days": 3.52,
+      "excluded_days": 0.93,
+      "cost_egp": 9030.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-969",
+      "summary": "3D Experience - FE Desktop - Implement the UI/UX for desktop flow (Building -> 3d View)",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "ER-970",
+      "summary": "3D Experience - FE Mobile - Implement the UI/UX for mobile flow (Building -> 3d View)",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "ER-971",
+      "summary": "3D Experience - FE Desktop - Implement the UI/UX for mobile flow (Building -> sidebar)",
+      "status": "Done",
+      "net_days": 22.44,
+      "gross_days": 25.46,
+      "excluded_days": 3.01,
+      "cost_egp": 78540.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-972",
+      "summary": "3D Experience - FE Desktop - Implement the UI/UX for desktop flow (Building -> unit details)",
+      "status": "Done",
+      "net_days": 22.91,
+      "gross_days": 22.91,
+      "excluded_days": 0.0,
+      "cost_egp": 80185.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-973",
+      "summary": "FE- Filter out Units Experience Internal + External",
+      "status": "Done",
+      "net_days": 17.47,
+      "gross_days": 17.47,
+      "excluded_days": 0.0,
+      "cost_egp": 61145.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-974",
+      "summary": "3D Experience - Uploading tool - Detect North directions",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "ER-975",
+      "summary": "3D Experience - FE Desktop - Full screen view",
+      "status": "Done",
+      "net_days": 5.11,
+      "gross_days": 15.36,
+      "excluded_days": 10.25,
+      "cost_egp": 17885.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-980",
+      "summary": "3D Experience - FE Desktop - Implement the UI/UX for mobile flow (Building -> unit details)",
+      "status": "Done",
+      "net_days": 3.39,
+      "gross_days": 13.91,
+      "excluded_days": 10.52,
+      "cost_egp": 11865.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-981",
+      "summary": "3D Experience - FE Desktop - Implement the UI/UX for mobile flow (Building -> sidebar)",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "ER-982",
+      "summary": "3D Experience - FE handover",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "ER-1047",
+      "summary": "Change Page Layout ",
+      "status": "Done",
+      "net_days": 11.01,
+      "gross_days": 13.4,
+      "excluded_days": 2.39,
+      "cost_egp": 38535.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-1060",
+      "summary": "Cropping image for Floor plan in 3D units",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "ER-1110",
+      "summary": "BE - Filter out Units Experience API ",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "ER-1350",
+      "summary": "[Frontend][mobile]Handle mobile interaction for 3d phase/building",
+      "status": "Done",
+      "net_days": 3.49,
+      "gross_days": 3.49,
+      "excluded_days": 0.0,
+      "cost_egp": 12215.0,
+      "is_complete": true,
+      "num_spans": 1
+    }
+  ]
+}

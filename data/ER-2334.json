@@ -1,0 +1,92 @@
+{
+  "epic_key": "ER-2334",
+  "epic_name": "Notifications Center",
+  "project_key": "ER",
+  "project_name": "eRealty",
+  "generated_at": "2026-07-16T13:04:46.816582",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 7,
+  "complete_tickets": 7,
+  "in_progress_tickets": 0,
+  "total_net_days": 132.42,
+  "total_cost_egp": 463470.0,
+  "tickets": [
+    {
+      "key": "ER-1612",
+      "summary": "Favourited Units Price Change [Research]",
+      "status": "Done",
+      "net_days": 99.48,
+      "gross_days": 99.48,
+      "excluded_days": 0.0,
+      "cost_egp": 348180.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-2345",
+      "summary": "Notifications Center - Favorite Units Price Change - FE",
+      "status": "Done",
+      "net_days": 6.89,
+      "gross_days": 20.04,
+      "excluded_days": 13.15,
+      "cost_egp": 24115.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-2346",
+      "summary": "Notifications Center - Favorite Units Price Change [BE] [Dev only]",
+      "status": "Released",
+      "net_days": 8.32,
+      "gross_days": 8.32,
+      "excluded_days": 0.0,
+      "cost_egp": 29120.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-2425",
+      "summary": "Sold Off Notifications BE",
+      "status": "Done",
+      "net_days": 3.5,
+      "gross_days": 4.26,
+      "excluded_days": 0.76,
+      "cost_egp": 12250.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-2438",
+      "summary": "Notifications Center - Favorite Units Price Change [BE] [Testing only]",
+      "status": "Done",
+      "net_days": 14.23,
+      "gross_days": 14.99,
+      "excluded_days": 0.76,
+      "cost_egp": 49805.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-2482",
+      "summary": "Sold Off Notifications BE [UAT Only]",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "ER-2483",
+      "summary": "Notifications Center - Favorite Units Price Change [BE] [UAT only]",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    }
+  ]
+}

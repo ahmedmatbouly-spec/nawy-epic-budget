@@ -1,0 +1,103 @@
+{
+  "epic_key": "CM-162",
+  "epic_name": "Marketing Daily activities page",
+  "project_key": "CM",
+  "project_name": "Campaigns Management",
+  "generated_at": "2026-07-16T13:00:18.836722",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 8,
+  "complete_tickets": 8,
+  "in_progress_tickets": 0,
+  "total_net_days": 145.69,
+  "total_cost_egp": 509915.0,
+  "tickets": [
+    {
+      "key": "CM-315",
+      "summary": "FE",
+      "status": "Done",
+      "net_days": 32.06,
+      "gross_days": 32.06,
+      "excluded_days": 0.0,
+      "cost_egp": 112210.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "CM-316",
+      "summary": "BE",
+      "status": "Done",
+      "net_days": 36.17,
+      "gross_days": 36.17,
+      "excluded_days": 0.0,
+      "cost_egp": 126595.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "CM-317",
+      "summary": "Date picker",
+      "status": "Done",
+      "net_days": 25.0,
+      "gross_days": 27.62,
+      "excluded_days": 2.62,
+      "cost_egp": 87500.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "CM-319",
+      "summary": "Tier replication",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "CM-320",
+      "summary": "Export button",
+      "status": "Done",
+      "net_days": 36.17,
+      "gross_days": 36.17,
+      "excluded_days": 0.0,
+      "cost_egp": 126595.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "CM-424",
+      "summary": "Marketing Daily activities UI comments",
+      "status": "Done",
+      "net_days": 7.54,
+      "gross_days": 7.54,
+      "excluded_days": 0.0,
+      "cost_egp": 26390.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "CM-425",
+      "summary": "Marketing Daily Activities mobile comments",
+      "status": "Done",
+      "net_days": 1.73,
+      "gross_days": 1.73,
+      "excluded_days": 0.0,
+      "cost_egp": 6055.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "CM-432",
+      "summary": "Clicking on go to campaign should filter by tier type",
+      "status": "Done",
+      "net_days": 7.02,
+      "gross_days": 8.31,
+      "excluded_days": 1.29,
+      "cost_egp": 24570.0,
+      "is_complete": true,
+      "num_spans": 1
+    }
+  ]
+}

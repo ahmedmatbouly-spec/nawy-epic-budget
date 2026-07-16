@@ -1,0 +1,158 @@
+{
+  "epic_key": "ER-28",
+  "epic_name": "Assets Distribution ",
+  "project_key": "ER",
+  "project_name": "eRealty",
+  "generated_at": "2026-07-16T13:02:35.428393",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 13,
+  "complete_tickets": 13,
+  "in_progress_tickets": 0,
+  "total_net_days": 490.29,
+  "total_cost_egp": 1716015.0,
+  "tickets": [
+    {
+      "key": "ER-29",
+      "summary": "Buildings Distribution ",
+      "status": "Done",
+      "net_days": 0.34,
+      "gross_days": 0.34,
+      "excluded_days": 0.0,
+      "cost_egp": 1190.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-30",
+      "summary": "Cars on streets Distribution",
+      "status": "Done",
+      "net_days": 1.27,
+      "gross_days": 1.27,
+      "excluded_days": 0.0,
+      "cost_egp": 4445.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-31",
+      "summary": "Cars on public areas",
+      "status": "Done",
+      "net_days": 1.27,
+      "gross_days": 1.27,
+      "excluded_days": 0.0,
+      "cost_egp": 4445.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-32",
+      "summary": "Cars and furniture building Areas",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-33",
+      "summary": "Street details (Lines - ramps)",
+      "status": "Done",
+      "net_days": 0.97,
+      "gross_days": 0.97,
+      "excluded_days": 0.0,
+      "cost_egp": 3395.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-34",
+      "summary": "Greens areas (Grass LOD)",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "ER-35",
+      "summary": "Green Fences",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "ER-36",
+      "summary": "Shrubs",
+      "status": "Done",
+      "net_days": 10.67,
+      "gross_days": 10.67,
+      "excluded_days": 0.0,
+      "cost_egp": 37345.0,
+      "is_complete": true,
+      "num_spans": 2
+    },
+    {
+      "key": "ER-37",
+      "summary": "Palm and Trees",
+      "status": "Done",
+      "net_days": 469.63,
+      "gross_days": 469.63,
+      "excluded_days": 0.0,
+      "cost_egp": 1643705.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-38",
+      "summary": "Surrounding (Site and master plan plan)",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "ER-48",
+      "summary": "Landscape details (Sitting areas - lighting units - Kids area)",
+      "status": "Done",
+      "net_days": 5.84,
+      "gross_days": 5.84,
+      "excluded_days": 0.0,
+      "cost_egp": 20440.0,
+      "is_complete": true,
+      "num_spans": 2
+    },
+    {
+      "key": "ER-105",
+      "summary": "Flower Boxes ",
+      "status": "Done",
+      "net_days": 0.3,
+      "gross_days": 0.3,
+      "excluded_days": 0.0,
+      "cost_egp": 1050.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-106",
+      "summary": "Green Fence (Length and Thickness)",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 1
+    }
+  ]
+}

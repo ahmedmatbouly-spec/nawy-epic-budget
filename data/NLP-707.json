@@ -1,0 +1,70 @@
+{
+  "epic_key": "NLP-707",
+  "epic_name": "Launches",
+  "project_key": "NLP",
+  "project_name": "Nawy Listing Platform ",
+  "generated_at": "2026-07-16T12:55:17.994309",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 5,
+  "complete_tickets": 5,
+  "in_progress_tickets": 0,
+  "total_net_days": 126.95,
+  "total_cost_egp": 444325.0,
+  "tickets": [
+    {
+      "key": "NLP-736",
+      "summary": " As a user, I want to have visibility of the latest launches and actively perform necessary actions as needed.",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NLP-1796",
+      "summary": "[App] Handle NEW LAUNCHES experience card",
+      "status": "Done",
+      "net_days": 81.41,
+      "gross_days": 82.72,
+      "excluded_days": 1.32,
+      "cost_egp": 284935.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NLP-2224",
+      "summary": "[BE] Launches shouldn't appear in search results page",
+      "status": "Done",
+      "net_days": 23.9,
+      "gross_days": 23.9,
+      "excluded_days": 0.0,
+      "cost_egp": 83650.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NLP-2510",
+      "summary": "[Web][FE] Launches - Links wrong re-direction",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "NLP-3772",
+      "summary": "[BE][Web] Display developer name for launches",
+      "status": "Done",
+      "net_days": 21.64,
+      "gross_days": 32.84,
+      "excluded_days": 11.2,
+      "cost_egp": 75740.0,
+      "is_complete": true,
+      "num_spans": 1
+    }
+  ]
+}

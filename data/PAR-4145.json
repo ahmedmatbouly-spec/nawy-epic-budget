@@ -1,0 +1,81 @@
+{
+  "epic_key": "PAR-4145",
+  "epic_name": "[Activation] Partners support",
+  "project_key": "PAR",
+  "project_name": "Partners",
+  "generated_at": "2026-07-16T12:48:47.613708",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 6,
+  "complete_tickets": 1,
+  "in_progress_tickets": 5,
+  "total_net_days": 215.06,
+  "total_cost_egp": 752710.0,
+  "tickets": [
+    {
+      "key": "PAR-3191",
+      "summary": "[App][Integration] In-app partners support flow - Chatbot",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "PAR-3344",
+      "summary": "[release][Web] In-web partners support flow",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "PAR-3524",
+      "summary": "[Web] In-web partners support flow",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "PAR-3666",
+      "summary": "[App] In-app partners support flow",
+      "status": "Discarded",
+      "net_days": 101.19,
+      "gross_days": 113.54,
+      "excluded_days": 12.35,
+      "cost_egp": 354165.0,
+      "is_complete": false,
+      "num_spans": 1
+    },
+    {
+      "key": "PAR-3701",
+      "summary": "[App][Spike] Notification from Freshchat",
+      "status": "In Progress",
+      "net_days": 109.12,
+      "gross_days": 109.12,
+      "excluded_days": 0.0,
+      "cost_egp": 381920.0,
+      "is_complete": false,
+      "num_spans": 1
+    },
+    {
+      "key": "PAR-4305",
+      "summary": "[Release - App] In-app partners support flow",
+      "status": "Ready for Deployment",
+      "net_days": 4.75,
+      "gross_days": 11.14,
+      "excluded_days": 6.39,
+      "cost_egp": 16625.0,
+      "is_complete": true,
+      "num_spans": 1
+    }
+  ]
+}

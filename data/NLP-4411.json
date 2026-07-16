@@ -1,0 +1,37 @@
+{
+  "epic_key": "NLP-4411",
+  "epic_name": "Technical Debt 26.1",
+  "project_key": "NLP",
+  "project_name": "Nawy Listing Platform ",
+  "generated_at": "2026-07-16T13:00:09.353577",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 2,
+  "complete_tickets": 2,
+  "in_progress_tickets": 0,
+  "total_net_days": 40.32,
+  "total_cost_egp": 141120.0,
+  "tickets": [
+    {
+      "key": "NLP-4366",
+      "summary": "Search page & Nawy now page statistics ",
+      "status": "Done",
+      "net_days": 38.2,
+      "gross_days": 38.2,
+      "excluded_days": 0.0,
+      "cost_egp": 133700.0,
+      "is_complete": true,
+      "num_spans": 2
+    },
+    {
+      "key": "NLP-4409",
+      "summary": "[BE] Site map remove spaces from urls",
+      "status": "Done",
+      "net_days": 2.12,
+      "gross_days": 2.12,
+      "excluded_days": 0.0,
+      "cost_egp": 7420.0,
+      "is_complete": true,
+      "num_spans": 2
+    }
+  ]
+}

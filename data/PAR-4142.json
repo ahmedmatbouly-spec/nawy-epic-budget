@@ -1,0 +1,70 @@
+{
+  "epic_key": "PAR-4142",
+  "epic_name": "[Growth] Error Handling and User Support Experience",
+  "project_key": "PAR",
+  "project_name": "Partners",
+  "generated_at": "2026-07-16T12:48:44.499163",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 5,
+  "complete_tickets": 2,
+  "in_progress_tickets": 3,
+  "total_net_days": 28.54,
+  "total_cost_egp": 99890.0,
+  "tickets": [
+    {
+      "key": "PAR-2124",
+      "summary": "[BE] Sentry integration",
+      "status": "Done",
+      "net_days": 0.33,
+      "gross_days": 0.33,
+      "excluded_days": 0.0,
+      "cost_egp": 1155.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "PAR-2400",
+      "summary": "[App] Sentry integration",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "PAR-2401",
+      "summary": "[BE] Sentry integration enhancement",
+      "status": "Done",
+      "net_days": 28.21,
+      "gross_days": 29.03,
+      "excluded_days": 0.82,
+      "cost_egp": 98735.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "PAR-4146",
+      "summary": "[BE] Sales pipeline error messages",
+      "status": "Open",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "PAR-4147",
+      "summary": "Signe up & log in error messages",
+      "status": "Open",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    }
+  ]
+}

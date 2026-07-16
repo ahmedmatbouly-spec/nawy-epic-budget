@@ -1,0 +1,103 @@
+{
+  "epic_key": "ER-39",
+  "epic_name": "Cameras and Rendering",
+  "project_key": "ER",
+  "project_name": "eRealty",
+  "generated_at": "2026-07-16T13:02:38.825931",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 8,
+  "complete_tickets": 8,
+  "in_progress_tickets": 0,
+  "total_net_days": 50.48,
+  "total_cost_egp": 176680.0,
+  "tickets": [
+    {
+      "key": "ER-40",
+      "summary": "Cameras Distribution as building Name",
+      "status": "Done",
+      "net_days": 8.96,
+      "gross_days": 8.96,
+      "excluded_days": 0.0,
+      "cost_egp": 31360.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-41",
+      "summary": "Boxes Distribution and naming",
+      "status": "Done",
+      "net_days": 5.89,
+      "gross_days": 5.89,
+      "excluded_days": 0.0,
+      "cost_egp": 20615.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-42",
+      "summary": "Boxes for buildings",
+      "status": "Done",
+      "net_days": 5.89,
+      "gross_days": 5.89,
+      "excluded_days": 0.0,
+      "cost_egp": 20615.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-43",
+      "summary": "360 circles (for phase and each building)",
+      "status": "Done",
+      "net_days": 8.96,
+      "gross_days": 8.96,
+      "excluded_days": 0.0,
+      "cost_egp": 31360.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-44",
+      "summary": "Rendering (file structures and Vms)",
+      "status": "Done",
+      "net_days": 10.25,
+      "gross_days": 10.25,
+      "excluded_days": 0.0,
+      "cost_egp": 35875.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-45",
+      "summary": "Folder delivery structure",
+      "status": "Done",
+      "net_days": 10.25,
+      "gross_days": 10.25,
+      "excluded_days": 0.0,
+      "cost_egp": 35875.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-108",
+      "summary": "Sun Direction",
+      "status": "Done",
+      "net_days": 0.28,
+      "gross_days": 0.28,
+      "excluded_days": 0.0,
+      "cost_egp": 980.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-109",
+      "summary": "Tree (remove trees on the selected frame)",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 1
+    }
+  ]
+}

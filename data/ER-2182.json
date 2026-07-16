@@ -1,0 +1,92 @@
+{
+  "epic_key": "ER-2182",
+  "epic_name": "Client Presentation",
+  "project_key": "ER",
+  "project_name": "eRealty",
+  "generated_at": "2026-07-16T13:04:43.323367",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 7,
+  "complete_tickets": 7,
+  "in_progress_tickets": 0,
+  "total_net_days": 78.26,
+  "total_cost_egp": 273910.0,
+  "tickets": [
+    {
+      "key": "ER-2178",
+      "summary": "Unit Offer Live Link [BE] [Dev only]",
+      "status": "Released",
+      "net_days": 7.06,
+      "gross_days": 7.06,
+      "excluded_days": 0.0,
+      "cost_egp": 24710.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-2247",
+      "summary": "Unit Offer Live Link [FE]",
+      "status": "Released",
+      "net_days": 11.71,
+      "gross_days": 14.0,
+      "excluded_days": 2.29,
+      "cost_egp": 40985.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-2342",
+      "summary": "Unit Details PDF Customization",
+      "status": "Released",
+      "net_days": 20.4,
+      "gross_days": 27.07,
+      "excluded_days": 6.66,
+      "cost_egp": 71400.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-2343",
+      "summary": "Sharing Experience - PDF & Link",
+      "status": "Done",
+      "net_days": 22.3,
+      "gross_days": 25.0,
+      "excluded_days": 2.7,
+      "cost_egp": 78050.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-2344",
+      "summary": "Sharing PDF Via Whatsapp & Mail",
+      "status": "Done",
+      "net_days": 3.42,
+      "gross_days": 3.42,
+      "excluded_days": 0.0,
+      "cost_egp": 11970.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-2349",
+      "summary": "Projects Interests [BE] [Dev only]",
+      "status": "Released",
+      "net_days": 5.27,
+      "gross_days": 5.27,
+      "excluded_days": 0.0,
+      "cost_egp": 18445.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-2361",
+      "summary": "Unit Offer Live Link [BE] [Testing only]",
+      "status": "Released",
+      "net_days": 8.1,
+      "gross_days": 10.39,
+      "excluded_days": 2.29,
+      "cost_egp": 28350.0,
+      "is_complete": true,
+      "num_spans": 1
+    }
+  ]
+}

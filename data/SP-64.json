@@ -1,0 +1,59 @@
+{
+  "epic_key": "SP-64",
+  "epic_name": "Automated E2E Testing",
+  "project_key": "SP",
+  "project_name": "Sales Portal",
+  "generated_at": "2026-07-16T13:00:44.959229",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 4,
+  "complete_tickets": 4,
+  "in_progress_tickets": 0,
+  "total_net_days": 61.41,
+  "total_cost_egp": 214935.0,
+  "tickets": [
+    {
+      "key": "SP-7",
+      "summary": "sales portal testing setup",
+      "status": "Done",
+      "net_days": 5.54,
+      "gross_days": 5.54,
+      "excluded_days": 0.0,
+      "cost_egp": 19390.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "SP-65",
+      "summary": "[Developer,Sale] Collection Agents e2e Tests.",
+      "status": "Done",
+      "net_days": 4.87,
+      "gross_days": 4.87,
+      "excluded_days": 0.0,
+      "cost_egp": 17045.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "SP-77",
+      "summary": "Contracts,Sections,Slabs Tests",
+      "status": "Done",
+      "net_days": 51.0,
+      "gross_days": 51.0,
+      "excluded_days": 0.0,
+      "cost_egp": 178500.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "SP-80",
+      "summary": "Compounds-Areas-Developers Tests",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    }
+  ]
+}

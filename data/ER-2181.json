@@ -1,0 +1,70 @@
+{
+  "epic_key": "ER-2181",
+  "epic_name": "Commissions",
+  "project_key": "ER",
+  "project_name": "eRealty",
+  "generated_at": "2026-07-16T13:04:39.496093",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 5,
+  "complete_tickets": 5,
+  "in_progress_tickets": 0,
+  "total_net_days": 26.4,
+  "total_cost_egp": 92400.0,
+  "tickets": [
+    {
+      "key": "ER-2175",
+      "summary": "Commissions On Project - Card",
+      "status": "Released",
+      "net_days": 8.42,
+      "gross_days": 12.11,
+      "excluded_days": 3.69,
+      "cost_egp": 29470.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-2176",
+      "summary": "Commissions On Project - Table",
+      "status": "Released",
+      "net_days": 8.42,
+      "gross_days": 12.11,
+      "excluded_days": 3.69,
+      "cost_egp": 29470.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-2177",
+      "summary": "Commissions On Project - drawer",
+      "status": "Released",
+      "net_days": 5.31,
+      "gross_days": 9.0,
+      "excluded_days": 3.69,
+      "cost_egp": 18585.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-2180",
+      "summary": "Commissions Toggle View",
+      "status": "Released",
+      "net_days": 4.25,
+      "gross_days": 8.99,
+      "excluded_days": 4.74,
+      "cost_egp": 14875.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-2248",
+      "summary": "Commissions BE",
+      "status": "Ready for Deployment",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    }
+  ]
+}

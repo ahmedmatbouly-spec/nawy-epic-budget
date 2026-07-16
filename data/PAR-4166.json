@@ -1,0 +1,48 @@
+{
+  "epic_key": "PAR-4166",
+  "epic_name": "[Growth] Commission cycle visibility",
+  "project_key": "PAR",
+  "project_name": "Partners",
+  "generated_at": "2026-07-16T12:49:20.181975",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 3,
+  "complete_tickets": 0,
+  "in_progress_tickets": 3,
+  "total_net_days": 0.0,
+  "total_cost_egp": 0.0,
+  "tickets": [
+    {
+      "key": "PAR-4167",
+      "summary": "[App] SDK from sales portal for partners commissions",
+      "status": "Open",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "PAR-4168",
+      "summary": "[Web][External view] Iframe from commissions module ",
+      "status": "Open",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "PAR-4169",
+      "summary": "[Web][Internal view] Iframe from commissions module ",
+      "status": "Open",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    }
+  ]
+}

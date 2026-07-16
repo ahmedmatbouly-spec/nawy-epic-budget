@@ -1,0 +1,48 @@
+{
+  "epic_key": "SP-40",
+  "epic_name": "Acasa Mia Phase 1",
+  "project_key": "SP",
+  "project_name": "Sales Portal",
+  "generated_at": "2026-07-16T13:00:42.898620",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 3,
+  "complete_tickets": 3,
+  "in_progress_tickets": 0,
+  "total_net_days": 19.0,
+  "total_cost_egp": 66500.0,
+  "tickets": [
+    {
+      "key": "SP-41",
+      "summary": "Partner sale claims integration",
+      "status": "Done",
+      "net_days": 19.0,
+      "gross_days": 19.0,
+      "excluded_days": 0.0,
+      "cost_egp": 66500.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "SP-42",
+      "summary": "Entity Type creation (acasa mia)",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "SP-43",
+      "summary": "Read external b2b cognito user pool",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "epic_key": "NLP-133",
+  "epic_name": "Old Technical Debt",
+  "project_key": "NLP",
+  "project_name": "Nawy Listing Platform ",
+  "generated_at": "2026-07-16T12:55:14.343646",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 7,
+  "complete_tickets": 7,
+  "in_progress_tickets": 0,
+  "total_net_days": 132.88,
+  "total_cost_egp": 465080.0,
+  "tickets": [
+    {
+      "key": "NLP-155",
+      "summary": "Technical page load time, code review for compound page",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "NLP-168",
+      "summary": "Multi Renders of search body component in search page",
+      "status": "Done",
+      "net_days": 8.52,
+      "gross_days": 8.52,
+      "excluded_days": 0.0,
+      "cost_egp": 29820.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NLP-174",
+      "summary": "Review and fix code test cases Phase one ",
+      "status": "Done",
+      "net_days": 104.61,
+      "gross_days": 104.61,
+      "excluded_days": 0.0,
+      "cost_egp": 366135.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NLP-178",
+      "summary": "Review and fix code test cases Phase two",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "NLP-188",
+      "summary": "Migration / upgrade to null safety, Critical ",
+      "status": "Done",
+      "net_days": 12.21,
+      "gross_days": 12.21,
+      "excluded_days": 0.0,
+      "cost_egp": 42735.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NLP-189",
+      "summary": "Enhance Property page for mobile",
+      "status": "Done",
+      "net_days": 7.54,
+      "gross_days": 7.54,
+      "excluded_days": 0.0,
+      "cost_egp": 26390.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NLP-489",
+      "summary": "Website Test cases",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 1
+    }
+  ]
+}

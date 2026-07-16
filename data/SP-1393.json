@@ -1,0 +1,81 @@
+{
+  "epic_key": "SP-1393",
+  "epic_name": "Dynamic Commissions Calculations ",
+  "project_key": "SP",
+  "project_name": "Sales Portal",
+  "generated_at": "2026-07-16T13:01:15.159352",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 6,
+  "complete_tickets": 6,
+  "in_progress_tickets": 0,
+  "total_net_days": 159.24,
+  "total_cost_egp": 557340.0,
+  "tickets": [
+    {
+      "key": "SP-1301",
+      "summary": "[Spike] Bonuses Module",
+      "status": "Done",
+      "net_days": 5.2,
+      "gross_days": 5.2,
+      "excluded_days": 0.0,
+      "cost_egp": 18200.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "SP-1392",
+      "summary": "[BE] [FE]Dynamic Commission Calculation Module Deployment",
+      "status": "Done",
+      "net_days": 53.27,
+      "gross_days": 53.27,
+      "excluded_days": 0.0,
+      "cost_egp": 186445.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "SP-1536",
+      "summary": "Resale Commissions Calculations",
+      "status": "Done",
+      "net_days": 5.0,
+      "gross_days": 16.0,
+      "excluded_days": 11.0,
+      "cost_egp": 17500.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "SP-1622",
+      "summary": "Commissions Information Table",
+      "status": "Done",
+      "net_days": 2.0,
+      "gross_days": 3.0,
+      "excluded_days": 1.0,
+      "cost_egp": 7000.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "SP-1777",
+      "summary": "Primary Commissions Automation",
+      "status": "Done",
+      "net_days": 32.33,
+      "gross_days": 47.0,
+      "excluded_days": 14.67,
+      "cost_egp": 113155.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "SP-1830",
+      "summary": "Bonuses Module",
+      "status": "Done",
+      "net_days": 61.44,
+      "gross_days": 68.27,
+      "excluded_days": 6.82,
+      "cost_egp": 215040.0,
+      "is_complete": true,
+      "num_spans": 1
+    }
+  ]
+}
