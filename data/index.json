@@ -3262,7 +3262,7 @@
       "total_cost_egp": 112595.0,
       "total_tickets": 14,
       "complete_tickets": 7,
-      "generated_at": "2026-07-16T20:57:29.764304"
+      "generated_at": "2026-07-16T21:09:03.358668"
     },
     {
       "epic_key": "SC-892",
@@ -3745,5 +3745,5 @@
       "generated_at": "2026-07-16T20:51:47.450886"
     }
   ],
-  "updated_at": "2026-07-16T20:57:29.773611"
+  "updated_at": "2026-07-16T21:09:03.369956"
 }
