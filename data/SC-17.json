@@ -1,0 +1,35 @@
+{
+  "epic_key": "SC-17",
+  "epic_name": "Enable Backend Permission Registration in Suite Control",
+  "generated_at": "2026-07-16T10:21:53.560545",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 2,
+  "complete_tickets": 2,
+  "in_progress_tickets": 0,
+  "total_net_days": 8.05,
+  "total_cost_egp": 28175.0,
+  "tickets": [
+    {
+      "key": "SC-18",
+      "summary": "Develop API for Registering Permissions via Backend",
+      "status": "Done",
+      "net_days": 8.05,
+      "gross_days": 8.05,
+      "excluded_days": 0.0,
+      "cost_egp": 28175.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "SC-19",
+      "summary": "Implement Auth 2.0",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    }
+  ]
+}

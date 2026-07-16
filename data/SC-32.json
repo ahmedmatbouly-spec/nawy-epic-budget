@@ -1,0 +1,68 @@
+{
+  "epic_key": "SC-32",
+  "epic_name": "Unified Homepage and Header Enhancements",
+  "generated_at": "2026-07-16T10:22:20.118749",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 5,
+  "complete_tickets": 5,
+  "in_progress_tickets": 0,
+  "total_net_days": 24.45,
+  "total_cost_egp": 85575.0,
+  "tickets": [
+    {
+      "key": "SC-33",
+      "summary": "Hyper-Personalized Homepage",
+      "status": "Done",
+      "net_days": 4.89,
+      "gross_days": 4.89,
+      "excluded_days": 0.0,
+      "cost_egp": 17115.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "SC-34",
+      "summary": "Guidance Center Integration",
+      "status": "Done",
+      "net_days": 4.89,
+      "gross_days": 4.89,
+      "excluded_days": 0.0,
+      "cost_egp": 17115.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "SC-35",
+      "summary": " Quick Find Search Bar",
+      "status": "Done",
+      "net_days": 4.89,
+      "gross_days": 4.89,
+      "excluded_days": 0.0,
+      "cost_egp": 17115.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "SC-36",
+      "summary": "Settings Icon",
+      "status": "Done",
+      "net_days": 4.89,
+      "gross_days": 4.89,
+      "excluded_days": 0.0,
+      "cost_egp": 17115.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "SC-37",
+      "summary": "Smart Agent Assistant Chatbot ",
+      "status": "Done",
+      "net_days": 4.89,
+      "gross_days": 4.89,
+      "excluded_days": 0.0,
+      "cost_egp": 17115.0,
+      "is_complete": true,
+      "num_spans": 1
+    }
+  ]
+}

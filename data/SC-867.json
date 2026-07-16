@@ -1,0 +1,222 @@
+{
+  "epic_key": "SC-867",
+  "epic_name": "Suite Homepage",
+  "generated_at": "2026-07-16T10:23:31.655054",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 19,
+  "complete_tickets": 12,
+  "in_progress_tickets": 7,
+  "total_net_days": 87.0,
+  "total_cost_egp": 304500.0,
+  "tickets": [
+    {
+      "key": "SC-859",
+      "summary": "Implement Notification Center in Homepage",
+      "status": "Ready for Deployment",
+      "net_days": 16.49,
+      "gross_days": 20.92,
+      "excluded_days": 4.43,
+      "cost_egp": 57715.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "SC-860",
+      "summary": "Implement the header of the homepage",
+      "status": "Done",
+      "net_days": 4.73,
+      "gross_days": 6.23,
+      "excluded_days": 1.51,
+      "cost_egp": 16555.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "SC-877",
+      "summary": "Homepage Task Entry Point",
+      "status": "Ready for Deployment",
+      "net_days": 5.49,
+      "gross_days": 13.24,
+      "excluded_days": 7.75,
+      "cost_egp": 19215.0,
+      "is_complete": true,
+      "num_spans": 2
+    },
+    {
+      "key": "SC-880",
+      "summary": "Displaying Monthly & Quarterly Targets with Priority Logic and Personal/Team Toggle",
+      "status": "Ready for Deployment",
+      "net_days": 12.22,
+      "gross_days": 18.92,
+      "excluded_days": 6.69,
+      "cost_egp": 42770.0,
+      "is_complete": true,
+      "num_spans": 3
+    },
+    {
+      "key": "SC-883",
+      "summary": "View Sales Pipelines Summary & Detailed Lists",
+      "status": "Done",
+      "net_days": 7.11,
+      "gross_days": 8.58,
+      "excluded_days": 1.47,
+      "cost_egp": 24885.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "SC-887",
+      "summary": "Overview Cards on Homepage",
+      "status": "Done",
+      "net_days": 3.38,
+      "gross_days": 4.87,
+      "excluded_days": 1.49,
+      "cost_egp": 11830.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "SC-888",
+      "summary": "Navigate From Overview Cards to Leads Table With Pre-Applied Filters",
+      "status": "Done",
+      "net_days": 3.35,
+      "gross_days": 4.35,
+      "excluded_days": 1.0,
+      "cost_egp": 11725.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "SC-889",
+      "summary": "Display New Launches Section on Homepage",
+      "status": "Done",
+      "net_days": 4.26,
+      "gross_days": 4.26,
+      "excluded_days": 0.0,
+      "cost_egp": 14910.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "SC-894",
+      "summary": "Link icon to template ID",
+      "status": "Done",
+      "net_days": 9.66,
+      "gross_days": 9.69,
+      "excluded_days": 0.03,
+      "cost_egp": 33810.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "SC-937",
+      "summary": "[Performance] Implement the new sales performance list layout ",
+      "status": "Released",
+      "net_days": 7.79,
+      "gross_days": 9.28,
+      "excluded_days": 1.49,
+      "cost_egp": 27265.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "SC-938",
+      "summary": "Implement the performance empty state for sales",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "SC-939",
+      "summary": "Implement the performance empty state for EOI",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "SC-940",
+      "summary": "Implement the performance empty state for Blocked units",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "SC-941",
+      "summary": "Implement the performance empty state for Reserved units",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "SC-942",
+      "summary": "Search Behavior in Performance Page",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "SC-943",
+      "summary": "Implement the new sales performance list layout for the sales agent",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "SC-974",
+      "summary": "[Homepage] Implement the homepage enhancements",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "SC-992",
+      "summary": "[Homepage] Task Manager should open a bottom sheet with the task details",
+      "status": "Ready for Deployment",
+      "net_days": 4.39,
+      "gross_days": 7.86,
+      "excluded_days": 3.47,
+      "cost_egp": 15365.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "SC-1003",
+      "summary": "Hide the targets wheels in the homepage if the user is not eligible for targets",
+      "status": "Ready for Deployment",
+      "net_days": 8.13,
+      "gross_days": 8.14,
+      "excluded_days": 0.01,
+      "cost_egp": 28455.0,
+      "is_complete": true,
+      "num_spans": 1
+    }
+  ]
+}

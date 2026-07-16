@@ -1,0 +1,112 @@
+{
+  "epic_key": "SC-892",
+  "epic_name": "Suite Enhancements",
+  "generated_at": "2026-07-16T10:23:44.678502",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 9,
+  "complete_tickets": 3,
+  "in_progress_tickets": 6,
+  "total_net_days": 184.96,
+  "total_cost_egp": 647360.0,
+  "tickets": [
+    {
+      "key": "SC-693",
+      "summary": "Issue communicating with CRM gateway on PRODUCTION",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "SC-862",
+      "summary": "[Suite App][Upload File][IOS] Page flickers when click on choose file.",
+      "status": "To Do",
+      "net_days": 165.51,
+      "gross_days": 165.51,
+      "excluded_days": 0.0,
+      "cost_egp": 579285.0,
+      "is_complete": false,
+      "num_spans": 1
+    },
+    {
+      "key": "SC-873",
+      "summary": "[Suite App][Leads] Need to add time beside date of last request & last contact",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "SC-989",
+      "summary": "Error messages handling",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "SC-1016",
+      "summary": "Log all exceptions in controllers",
+      "status": "Ready for Deployment",
+      "net_days": 6.68,
+      "gross_days": 6.68,
+      "excluded_days": 0.0,
+      "cost_egp": 23380.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "SC-1017",
+      "summary": "Refactor findByNanoId endpoint response to be fully nullable",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "SC-1020",
+      "summary": "Log any missing routing to firebase breadcrumbs",
+      "status": "Ready for Deployment",
+      "net_days": 4.13,
+      "gross_days": 4.13,
+      "excluded_days": 0.0,
+      "cost_egp": 14455.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "SC-1299",
+      "summary": "Zoom call CTA",
+      "status": "Open",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "SC-1339",
+      "summary": "Update Logo and app name",
+      "status": "Released",
+      "net_days": 8.64,
+      "gross_days": 9.91,
+      "excluded_days": 1.26,
+      "cost_egp": 30240.0,
+      "is_complete": true,
+      "num_spans": 1
+    }
+  ]
+}

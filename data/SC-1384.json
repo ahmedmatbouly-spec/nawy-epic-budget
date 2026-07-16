@@ -1,0 +1,68 @@
+{
+  "epic_key": "SC-1384",
+  "epic_name": "New Primary Team Experience",
+  "generated_at": "2026-07-16T10:24:10.606603",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 5,
+  "complete_tickets": 4,
+  "in_progress_tickets": 1,
+  "total_net_days": 17.71,
+  "total_cost_egp": 61985.0,
+  "tickets": [
+    {
+      "key": "SC-1385",
+      "summary": "Enable Navigation to the lead activity of new primary leads",
+      "status": "Open",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "SC-1386",
+      "summary": "Developer tracks tab should not appear if the lead type is not a primary developer lead",
+      "status": "Released",
+      "net_days": 4.0,
+      "gross_days": 6.0,
+      "excluded_days": 2.0,
+      "cost_egp": 14000.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "SC-1519",
+      "summary": "Primary developer track presentation form",
+      "status": "Released",
+      "net_days": 6.27,
+      "gross_days": 8.76,
+      "excluded_days": 2.48,
+      "cost_egp": 21945.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "SC-1520",
+      "summary": "Developer track tab",
+      "status": "Released",
+      "net_days": 6.0,
+      "gross_days": 8.0,
+      "excluded_days": 2.0,
+      "cost_egp": 21000.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "SC-1522",
+      "summary": "Blur the sales agent name in the lead activity ",
+      "status": "Released",
+      "net_days": 1.44,
+      "gross_days": 3.93,
+      "excluded_days": 2.48,
+      "cost_egp": 5040.0,
+      "is_complete": true,
+      "num_spans": 1
+    }
+  ]
+}

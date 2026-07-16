@@ -1,0 +1,123 @@
+{
+  "epic_key": "SC-1525",
+  "epic_name": "Engineering",
+  "generated_at": "2026-07-16T10:24:29.405939",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 10,
+  "complete_tickets": 10,
+  "in_progress_tickets": 0,
+  "total_net_days": 12.65,
+  "total_cost_egp": 44275.0,
+  "tickets": [
+    {
+      "key": "SC-1550",
+      "summary": "CRM integration tests: codebase discovery",
+      "status": "Ready for Deployment",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "SC-1551",
+      "summary": "CRM integration tests: harness",
+      "status": "Ready for Deployment",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "SC-1552",
+      "summary": "CRM integration tests: seven flow tests",
+      "status": "Ready for Deployment",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "SC-1553",
+      "summary": "CRM integration tests: CI workflow and cleanup",
+      "status": "Ready for Deployment",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "SC-1654",
+      "summary": "Phase 0: Platform Foundations \u2014 Module, EventBus, Capabilities & Adapters in suite_core",
+      "status": "Ready for Deployment",
+      "net_days": 4.84,
+      "gross_days": 4.85,
+      "excluded_days": 0.0,
+      "cost_egp": 16940.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "SC-1681",
+      "summary": "e_realty PR4 \u2014 Phase 1: Foundation (Scaffold + Data Layer + Domain)",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "SC-1682",
+      "summary": "e_realty PR4 \u2014 Phase 2: Code Migration (Controllers + Screens + Widgets)",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "SC-1683",
+      "summary": "e_realty PR4 \u2014 Phase 3: Integration & Polish (Barrel + Events + Guard + Verification)",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "SC-1710",
+      "summary": "Testing: e_realty PR4 (Inventory Capsule) + PR5 (Map Wrap-up) \u2014 manual QA pass",
+      "status": "Ready for Deployment",
+      "net_days": 4.13,
+      "gross_days": 8.13,
+      "excluded_days": 4.0,
+      "cost_egp": 14455.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "SC-1894",
+      "summary": "enhance observability",
+      "status": "Ready for Deployment",
+      "net_days": 3.68,
+      "gross_days": 3.68,
+      "excluded_days": 0.0,
+      "cost_egp": 12880.0,
+      "is_complete": true,
+      "num_spans": 1
+    }
+  ]
+}
