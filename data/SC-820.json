@@ -1,0 +1,24 @@
+{
+  "epic_key": "SC-820",
+  "epic_name": "Test Coverage",
+  "generated_at": "2026-07-16T10:23:23.003557",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 1,
+  "complete_tickets": 0,
+  "in_progress_tickets": 1,
+  "total_net_days": 0.0,
+  "total_cost_egp": 0.0,
+  "tickets": [
+    {
+      "key": "SC-822",
+      "summary": "[E2E] Increase Coverage for Hierarchy Management",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    }
+  ]
+}

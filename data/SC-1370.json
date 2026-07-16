@@ -1,0 +1,134 @@
+{
+  "epic_key": "SC-1370",
+  "epic_name": "Expo Experience",
+  "generated_at": "2026-07-16T10:24:08.088370",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 11,
+  "complete_tickets": 9,
+  "in_progress_tickets": 2,
+  "total_net_days": 52.23,
+  "total_cost_egp": 182805.0,
+  "tickets": [
+    {
+      "key": "SC-1205",
+      "summary": "Change Expo Lead status",
+      "status": "Ready for Deployment",
+      "net_days": 5.13,
+      "gross_days": 8.4,
+      "excluded_days": 3.27,
+      "cost_egp": 17955.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "SC-1221",
+      "summary": "Expo Lead Voicenote",
+      "status": "Ready for Deployment",
+      "net_days": 9.0,
+      "gross_days": 9.0,
+      "excluded_days": 0.0,
+      "cost_egp": 31500.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "SC-1236",
+      "summary": "Unassigned agents can update expo lead status ",
+      "status": "Ready for Deployment",
+      "net_days": 3.61,
+      "gross_days": 3.61,
+      "excluded_days": 0.0,
+      "cost_egp": 12635.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "SC-1282",
+      "summary": "Expo Lead Notification Routing",
+      "status": "Ready for Deployment",
+      "net_days": 0.92,
+      "gross_days": 1.02,
+      "excluded_days": 0.1,
+      "cost_egp": 3220.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "SC-1298",
+      "summary": "Preview QR code",
+      "status": "Released",
+      "net_days": 9.18,
+      "gross_days": 10.97,
+      "excluded_days": 1.79,
+      "cost_egp": 32130.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "SC-1311",
+      "summary": "User cannot listen to voicenote on mute",
+      "status": "Ready for Deployment",
+      "net_days": 7.97,
+      "gross_days": 7.97,
+      "excluded_days": 0.0,
+      "cost_egp": 27895.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "SC-1317",
+      "summary": "[Expo Experience] Speech to Text transcription",
+      "status": "Open",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "SC-1340",
+      "summary": "Return Voice Note Duration in Lead Activity Recordings",
+      "status": "Released",
+      "net_days": 13.59,
+      "gross_days": 15.31,
+      "excluded_days": 1.73,
+      "cost_egp": 47565.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "SC-1410",
+      "summary": "Failed : [Lead Profile][Lead Activity][Expo]Verify that voice notes are played correctly as they used to before this fix",
+      "status": "Done",
+      "net_days": 1.76,
+      "gross_days": 1.76,
+      "excluded_days": 0.0,
+      "cost_egp": 6160.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "SC-1424",
+      "summary": "Failed on [Android] : [Lead Profile][Lead Activity][Expo] Verify voice note recordings display correct & exact duration after playing multiple voice notes",
+      "status": "Done",
+      "net_days": 1.07,
+      "gross_days": 1.07,
+      "excluded_days": 0.0,
+      "cost_egp": 3745.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "SC-1503",
+      "summary": "[Voice Note Recording \u2013 Update Status (Meeting Happened)] Pause Error.",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    }
+  ]
+}

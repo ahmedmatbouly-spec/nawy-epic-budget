@@ -1,13 +1,338 @@
 {
   "epics": [
     {
+      "epic_key": "SC-12",
+      "epic_name": "Implement Single Sign-On",
+      "total_net_days": 9.82,
+      "total_cost_egp": 34370.0,
+      "total_tickets": 4,
+      "complete_tickets": 3,
+      "generated_at": "2026-07-16T10:21:45.856475"
+    },
+    {
+      "epic_key": "SC-15",
+      "epic_name": "Suite Control - Zoom Integration for Phone Number Management",
+      "total_net_days": 8.18,
+      "total_cost_egp": 28630.0,
+      "total_tickets": 6,
+      "complete_tickets": 4,
+      "generated_at": "2026-07-16T10:21:51.301406"
+    },
+    {
+      "epic_key": "SC-17",
+      "epic_name": "Enable Backend Permission Registration in Suite Control",
+      "total_net_days": 8.05,
+      "total_cost_egp": 28175.0,
+      "total_tickets": 2,
+      "complete_tickets": 2,
+      "generated_at": "2026-07-16T10:21:53.560545"
+    },
+    {
+      "epic_key": "SC-23",
+      "epic_name": "Odoo Integration",
+      "total_net_days": 46.08,
+      "total_cost_egp": 161280.0,
+      "total_tickets": 19,
+      "complete_tickets": 12,
+      "generated_at": "2026-07-16T10:22:03.998459"
+    },
+    {
+      "epic_key": "SC-28",
+      "epic_name": "Organization-to-Organization User Transfer Management",
+      "total_net_days": 29.39,
+      "total_cost_egp": 102865.0,
+      "total_tickets": 7,
+      "complete_tickets": 6,
+      "generated_at": "2026-07-16T10:22:07.825359"
+    },
+    {
+      "epic_key": "SC-30",
+      "epic_name": "Enhance User Experience",
+      "total_net_days": 477.82,
+      "total_cost_egp": 1672370.0,
+      "total_tickets": 19,
+      "complete_tickets": 16,
+      "generated_at": "2026-07-16T10:22:16.983604"
+    },
+    {
+      "epic_key": "SC-32",
+      "epic_name": "Unified Homepage and Header Enhancements",
+      "total_net_days": 24.45,
+      "total_cost_egp": 85575.0,
+      "total_tickets": 5,
+      "complete_tickets": 5,
+      "generated_at": "2026-07-16T10:22:20.118749"
+    },
+    {
+      "epic_key": "SC-58",
+      "epic_name": "Partners Integration",
+      "total_net_days": 460.92,
+      "total_cost_egp": 1613220.0,
+      "total_tickets": 38,
+      "complete_tickets": 35,
+      "generated_at": "2026-07-16T10:22:37.603327"
+    },
+    {
+      "epic_key": "SC-65",
+      "epic_name": "Tiers Management module",
+      "total_net_days": 0,
+      "total_cost_egp": 0,
+      "total_tickets": 0,
+      "complete_tickets": 0,
+      "generated_at": "2026-07-16T10:22:37.971682"
+    },
+    {
       "epic_key": "SC-377",
+      "epic_name": "Lead Profile",
       "total_net_days": 237.71,
       "total_cost_egp": 831985.0,
       "total_tickets": 52,
       "complete_tickets": 43,
-      "generated_at": "2026-07-15T11:18:01.847586"
+      "generated_at": "2026-07-16T10:23:03.187688"
+    },
+    {
+      "epic_key": "SC-386",
+      "epic_name": "Leads Page",
+      "total_net_days": 205.84,
+      "total_cost_egp": 720440.0,
+      "total_tickets": 31,
+      "complete_tickets": 26,
+      "generated_at": "2026-07-16T10:23:17.554664"
+    },
+    {
+      "epic_key": "SC-438",
+      "epic_name": "More Screen",
+      "total_net_days": 75.27,
+      "total_cost_egp": 263445.0,
+      "total_tickets": 9,
+      "complete_tickets": 9,
+      "generated_at": "2026-07-16T10:23:21.860742"
+    },
+    {
+      "epic_key": "SC-452",
+      "epic_name": "Features with Permissions",
+      "total_net_days": 0,
+      "total_cost_egp": 0,
+      "total_tickets": 0,
+      "complete_tickets": 0,
+      "generated_at": "2026-07-16T10:23:22.246542"
+    },
+    {
+      "epic_key": "SC-820",
+      "epic_name": "Test Coverage",
+      "total_net_days": 0.0,
+      "total_cost_egp": 0.0,
+      "total_tickets": 1,
+      "complete_tickets": 0,
+      "generated_at": "2026-07-16T10:23:23.003557"
+    },
+    {
+      "epic_key": "SC-867",
+      "epic_name": "Suite Homepage",
+      "total_net_days": 87.0,
+      "total_cost_egp": 304500.0,
+      "total_tickets": 19,
+      "complete_tickets": 12,
+      "generated_at": "2026-07-16T10:23:31.655054"
+    },
+    {
+      "epic_key": "SC-874",
+      "epic_name": "Task Manager",
+      "total_net_days": 28.33,
+      "total_cost_egp": 99155.0,
+      "total_tickets": 4,
+      "complete_tickets": 3,
+      "generated_at": "2026-07-16T10:23:34.829292"
+    },
+    {
+      "epic_key": "SC-878",
+      "epic_name": "AI Chatbot",
+      "total_net_days": 32.17,
+      "total_cost_egp": 112595.0,
+      "total_tickets": 14,
+      "complete_tickets": 7,
+      "generated_at": "2026-07-16T10:23:40.648332"
+    },
+    {
+      "epic_key": "SC-892",
+      "epic_name": "Suite Enhancements",
+      "total_net_days": 184.96,
+      "total_cost_egp": 647360.0,
+      "total_tickets": 9,
+      "complete_tickets": 3,
+      "generated_at": "2026-07-16T10:23:44.678502"
+    },
+    {
+      "epic_key": "SC-1325",
+      "epic_name": "Resale Listing Discovery",
+      "total_net_days": 103.23,
+      "total_cost_egp": 361305.0,
+      "total_tickets": 7,
+      "complete_tickets": 5,
+      "generated_at": "2026-07-16T10:23:48.408356"
+    },
+    {
+      "epic_key": "SC-1326",
+      "epic_name": "Nawy Now Calculator ",
+      "total_net_days": 28.9,
+      "total_cost_egp": 101150.0,
+      "total_tickets": 4,
+      "complete_tickets": 4,
+      "generated_at": "2026-07-16T10:23:50.757882"
+    },
+    {
+      "epic_key": "SC-1327",
+      "epic_name": "E-reality Presentation Form",
+      "total_net_days": 0.0,
+      "total_cost_egp": 0.0,
+      "total_tickets": 1,
+      "complete_tickets": 0,
+      "generated_at": "2026-07-16T10:23:51.608394"
+    },
+    {
+      "epic_key": "SC-1328",
+      "epic_name": "Deep Linking Support",
+      "total_net_days": 8.87,
+      "total_cost_egp": 31045.0,
+      "total_tickets": 2,
+      "complete_tickets": 1,
+      "generated_at": "2026-07-16T10:23:52.802226"
+    },
+    {
+      "epic_key": "SC-1329",
+      "epic_name": "Agent Commissions SDK",
+      "total_net_days": 11.7,
+      "total_cost_egp": 40950.0,
+      "total_tickets": 2,
+      "complete_tickets": 2,
+      "generated_at": "2026-07-16T10:23:54.067964"
+    },
+    {
+      "epic_key": "SC-1331",
+      "epic_name": "Conversation History Dashboard",
+      "total_net_days": 0.0,
+      "total_cost_egp": 0.0,
+      "total_tickets": 1,
+      "complete_tickets": 0,
+      "generated_at": "2026-07-16T10:23:54.860437"
+    },
+    {
+      "epic_key": "SC-1332",
+      "epic_name": "Client Interests",
+      "total_net_days": 0.0,
+      "total_cost_egp": 0.0,
+      "total_tickets": 1,
+      "complete_tickets": 0,
+      "generated_at": "2026-07-16T10:23:55.623429"
+    },
+    {
+      "epic_key": "SC-1333",
+      "epic_name": "Agents tree",
+      "total_net_days": 0.0,
+      "total_cost_egp": 0.0,
+      "total_tickets": 1,
+      "complete_tickets": 0,
+      "generated_at": "2026-07-16T10:23:56.885097"
+    },
+    {
+      "epic_key": "SC-1334",
+      "epic_name": "Onboarding Simulator",
+      "total_net_days": 3.66,
+      "total_cost_egp": 12810.0,
+      "total_tickets": 3,
+      "complete_tickets": 1,
+      "generated_at": "2026-07-16T10:23:58.427181"
+    },
+    {
+      "epic_key": "SC-1335",
+      "epic_name": "Dashboard",
+      "total_net_days": 25.97,
+      "total_cost_egp": 90895.0,
+      "total_tickets": 7,
+      "complete_tickets": 1,
+      "generated_at": "2026-07-16T10:24:01.420093"
+    },
+    {
+      "epic_key": "SC-1336",
+      "epic_name": "Personalization",
+      "total_net_days": 0.0,
+      "total_cost_egp": 0.0,
+      "total_tickets": 2,
+      "complete_tickets": 0,
+      "generated_at": "2026-07-16T10:24:02.621270"
+    },
+    {
+      "epic_key": "SC-1337",
+      "epic_name": "Inventory Enhancements",
+      "total_net_days": 0,
+      "total_cost_egp": 0,
+      "total_tickets": 0,
+      "complete_tickets": 0,
+      "generated_at": "2026-07-16T10:24:03.014108"
+    },
+    {
+      "epic_key": "SC-1370",
+      "epic_name": "Expo Experience",
+      "total_net_days": 52.23,
+      "total_cost_egp": 182805.0,
+      "total_tickets": 11,
+      "complete_tickets": 9,
+      "generated_at": "2026-07-16T10:24:08.088370"
+    },
+    {
+      "epic_key": "SC-1384",
+      "epic_name": "New Primary Team Experience",
+      "total_net_days": 17.71,
+      "total_cost_egp": 61985.0,
+      "total_tickets": 5,
+      "complete_tickets": 4,
+      "generated_at": "2026-07-16T10:24:10.606603"
+    },
+    {
+      "epic_key": "SC-1479",
+      "epic_name": "Erealty",
+      "total_net_days": 547.1,
+      "total_cost_egp": 1914850.0,
+      "total_tickets": 35,
+      "complete_tickets": 22,
+      "generated_at": "2026-07-16T10:24:25.051131"
+    },
+    {
+      "epic_key": "SC-1525",
+      "epic_name": "Engineering",
+      "total_net_days": 12.65,
+      "total_cost_egp": 44275.0,
+      "total_tickets": 10,
+      "complete_tickets": 10,
+      "generated_at": "2026-07-16T10:24:29.405939"
+    },
+    {
+      "epic_key": "SC-1545",
+      "epic_name": "Zoom Integration",
+      "total_net_days": 13.45,
+      "total_cost_egp": 47075.0,
+      "total_tickets": 7,
+      "complete_tickets": 6,
+      "generated_at": "2026-07-16T10:24:32.549984"
+    },
+    {
+      "epic_key": "SC-1874",
+      "epic_name": "[Commissions Visibility] v1 \u2014 Native Internal commissions (replace WebView)",
+      "total_net_days": 21.1,
+      "total_cost_egp": 73850.0,
+      "total_tickets": 15,
+      "complete_tickets": 10,
+      "generated_at": "2026-07-16T10:24:38.405606"
+    },
+    {
+      "epic_key": "SC-1946",
+      "epic_name": "[Mystique] Personalized Views service \u2014 layered view personalization with UMS replication",
+      "total_net_days": 0.0,
+      "total_cost_egp": 0.0,
+      "total_tickets": 17,
+      "complete_tickets": 0,
+      "generated_at": "2026-07-16T10:24:44.647425"
     }
   ],
-  "updated_at": "2026-07-15T11:18:01.848321"
+  "updated_at": "2026-07-16T10:24:44.647910"
 }

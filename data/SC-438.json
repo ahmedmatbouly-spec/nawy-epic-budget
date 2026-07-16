@@ -1,0 +1,112 @@
+{
+  "epic_key": "SC-438",
+  "epic_name": "More Screen",
+  "generated_at": "2026-07-16T10:23:21.860742",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 9,
+  "complete_tickets": 9,
+  "in_progress_tickets": 0,
+  "total_net_days": 75.27,
+  "total_cost_egp": 263445.0,
+  "tickets": [
+    {
+      "key": "SC-827",
+      "summary": "More page UI",
+      "status": "Done",
+      "net_days": 4.5,
+      "gross_days": 21.38,
+      "excluded_days": 16.88,
+      "cost_egp": 15750.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "SC-828",
+      "summary": "About app in more section",
+      "status": "Done",
+      "net_days": 19.45,
+      "gross_days": 21.44,
+      "excluded_days": 1.99,
+      "cost_egp": 68075.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "SC-857",
+      "summary": "Account Information in More Section",
+      "status": "Done",
+      "net_days": 8.43,
+      "gross_days": 10.25,
+      "excluded_days": 1.82,
+      "cost_egp": 29505.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "SC-858",
+      "summary": "General Settings in More Page",
+      "status": "Done",
+      "net_days": 13.37,
+      "gross_days": 13.88,
+      "excluded_days": 0.51,
+      "cost_egp": 46795.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "SC-863",
+      "summary": "Implement the logout in the more page",
+      "status": "Done",
+      "net_days": 19.05,
+      "gross_days": 20.93,
+      "excluded_days": 1.88,
+      "cost_egp": 66675.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "SC-865",
+      "summary": "Integrate Commissions via iFrame in More Screen",
+      "status": "Done",
+      "net_days": 4.31,
+      "gross_days": 11.0,
+      "excluded_days": 6.69,
+      "cost_egp": 15085.0,
+      "is_complete": true,
+      "num_spans": 2
+    },
+    {
+      "key": "SC-970",
+      "summary": "[More] Implement the more screen Enhancements",
+      "status": "Released",
+      "net_days": 4.61,
+      "gross_days": 11.52,
+      "excluded_days": 6.91,
+      "cost_egp": 16135.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "SC-1023",
+      "summary": "General Settings in More Page",
+      "status": "Ready for Deployment",
+      "net_days": 0.0,
+      "gross_days": 3.0,
+      "excluded_days": 3.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "SC-1587",
+      "summary": "[More Screen] Change the entry point of Erealty for NN & Resale",
+      "status": "Released",
+      "net_days": 1.55,
+      "gross_days": 4.94,
+      "excluded_days": 3.4,
+      "cost_egp": 5425.0,
+      "is_complete": true,
+      "num_spans": 1
+    }
+  ]
+}

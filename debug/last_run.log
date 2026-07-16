@@ -1,4 +1,124 @@
-Fetching SC-377 ...
+Discovering epics in project SC ...
+  found 37 epics
+Fetching SC-12 (Implement Single Sign-On) ...
+  SC-13: 2.47d
+  SC-14: 4.45d
+  SC-44: 2.9d
+  SC-53: 0.0d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/SC-12.json: 9.82 days, 34,370 EGP
+Fetching SC-15 (Suite Control - Zoom Integration for Phone Number Management) ...
+  SC-46: 1.61d
+  SC-402: 4.0d
+  SC-405: 0.0d
+  SC-434: 2.57d
+  SC-449: 0.0d
+  SC-483: 0.0d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/SC-15.json: 8.18 days, 28,630 EGP
+Fetching SC-17 (Enable Backend Permission Registration in Suite Control) ...
+  SC-18: 8.05d
+  SC-19: 0.0d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/SC-17.json: 8.05 days, 28,175 EGP
+Fetching SC-23 (Odoo Integration) ...
+  SC-86: 0.0d
+  SC-414: 34.17d
+  SC-421: 0.69d
+  SC-422: 0.0d
+  SC-423: 0.0d
+  SC-425: 0.0d
+  SC-445: 0.0d
+  SC-480: 0.0d
+  SC-646: 0.0d
+  SC-665: 1.75d
+  SC-666: 0.0d
+  SC-667: 0.15d
+  SC-668: 0.0d
+  SC-669: 0.0d
+  SC-670: 3.35d
+  SC-672: 5.53d
+  SC-773: 0.0d
+  SC-780: 0.44d
+  SC-848: 0.0d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/SC-23.json: 46.08 days, 161,280 EGP
+Fetching SC-28 (Organization-to-Organization User Transfer Management) ...
+  SC-21: 10.56d
+  SC-39: 0.0d
+  SC-43: 18.83d
+  SC-52: 0.0d
+  SC-188: 0.0d
+  SC-273: 0.0d
+  SC-333: 0.0d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/SC-28.json: 29.39 days, 102,865 EGP
+Fetching SC-30 (Enhance User Experience) ...
+  SC-22: 12.68d
+  SC-27: 0.0d
+  SC-29: 10.59d
+  SC-45: 0.0d
+  SC-47: 0.88d
+  SC-50: 0.0d
+  SC-55: 3.31d
+  SC-59: 3.21d
+  SC-60: 1.83d
+  SC-67: 2.82d
+  SC-416: 0.96d
+  SC-419: 0.72d
+  SC-420: 0.0d
+  SC-436: 0.41d
+  SC-439: 0.13d
+  SC-441: 0.89d
+  SC-446: 0.0d
+  SC-456: 220.17d
+  SC-460: 219.22d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/SC-30.json: 477.82 days, 1,672,370 EGP
+Fetching SC-32 (Unified Homepage and Header Enhancements) ...
+  SC-33: 4.89d
+  SC-34: 4.89d
+  SC-35: 4.89d
+  SC-36: 4.89d
+  SC-37: 4.89d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/SC-32.json: 24.45 days, 85,575 EGP
+Fetching SC-58 (Partners Integration) ...
+  SC-41: 0.0d
+  SC-48: 36.41d
+  SC-49: 36.41d
+  SC-56: 10.62d
+  SC-57: 0.0d
+  SC-238: 25.17d
+  SC-286: 6.64d
+  SC-307: 2.61d
+  SC-308: 2.11d
+  SC-325: 8.13d
+  SC-335: 17.67d
+  SC-339: 3.16d
+  SC-344: 3.99d
+  SC-345: 4.7d
+  SC-382: 2.59d
+  SC-384: 0.0d
+  SC-385: 5.0d
+  SC-387: 0.0d
+  SC-399: 13.06d
+  SC-400: 4.44d
+  SC-401: 4.44d
+  SC-412: 227.17d
+  SC-413: 1.0d
+  SC-424: 0.0d
+  SC-431: 2.35d
+  SC-447: 0.0d
+  SC-448: 0.0d
+  SC-517: 0.92d
+  SC-521: 3.61d
+  SC-533: 10.54d
+  SC-546: 1.66d
+  SC-575: 4.24d
+  SC-594: 1.04d
+  SC-595: 3.36d
+  SC-638: 12.43d
+  SC-639: 2.27d
+  SC-640: 2.18d
+  SC-641: 1.0d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/SC-58.json: 460.92 days, 1,613,220 EGP
+Fetching SC-65 (Tiers Management module) ...
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/SC-65.json: 0 days, 0 EGP
+Fetching SC-377 (Lead Profile) ...
   SC-350: 2.53d
   SC-351: 8.0d
   SC-352: 22.0d
@@ -52,6 +172,278 @@ Fetching SC-377 ...
   SC-1828: 1.06d
   SC-1866: 0.0d
 Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/SC-377.json: 237.71 days, 831,985 EGP
+Fetching SC-386 (Leads Page) ...
+  SC-380: 19.43d
+  SC-383: 50.39d
+  SC-388: 8.05d
+  SC-389: 0.0d
+  SC-443: 6.2d
+  SC-444: 17.85d
+  SC-496: 1.62d
+  SC-497: 6.52d
+  SC-502: 5.16d
+  SC-532: 7.19d
+  SC-560: 0.0d
+  SC-561: 0.0d
+  SC-577: 0.0d
+  SC-588: 8.53d
+  SC-596: 0.0d
+  SC-597: 0.0d
+  SC-606: 1.7d
+  SC-648: 10.43d
+  SC-656: 9.0d
+  SC-771: 0.91d
+  SC-944: 5.55d
+  SC-1024: 4.09d
+  SC-1025: 10.37d
+  SC-1272: 17.37d
+  SC-1279: 1.0d
+  SC-1310: 5.82d
+  SC-1318: 3.44d
+  SC-1351: 0.0d
+  SC-1582: 5.22d
+  SC-1720: 0.0d
+  SC-1917: 0.0d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/SC-386.json: 205.84 days, 720,440 EGP
+Fetching SC-438 (More Screen) ...
+  SC-827: 4.5d
+  SC-828: 19.45d
+  SC-857: 8.43d
+  SC-858: 13.37d
+  SC-863: 19.05d
+  SC-865: 4.31d
+  SC-970: 4.61d
+  SC-1023: 0.0d
+  SC-1587: 1.55d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/SC-438.json: 75.27 days, 263,445 EGP
+Fetching SC-452 (Features with Permissions) ...
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/SC-452.json: 0 days, 0 EGP
+Fetching SC-820 (Test Coverage) ...
+  SC-822: 0.0d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/SC-820.json: 0.0 days, 0 EGP
+Fetching SC-867 (Suite Homepage) ...
+  SC-859: 16.49d
+  SC-860: 4.73d
+  SC-877: 5.49d
+  SC-880: 12.22d
+  SC-883: 7.11d
+  SC-887: 3.38d
+  SC-888: 3.35d
+  SC-889: 4.26d
+  SC-894: 9.66d
+  SC-937: 7.79d
+  SC-938: 0.0d
+  SC-939: 0.0d
+  SC-940: 0.0d
+  SC-941: 0.0d
+  SC-942: 0.0d
+  SC-943: 0.0d
+  SC-974: 0.0d
+  SC-992: 4.39d
+  SC-1003: 8.13d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/SC-867.json: 87.0 days, 304,500 EGP
+Fetching SC-874 (Task Manager) ...
+  SC-353: 6.73d
+  SC-875: 0.0d
+  SC-876: 12.06d
+  SC-1002: 9.54d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/SC-874.json: 28.33 days, 99,155 EGP
+Fetching SC-878 (AI Chatbot) ...
+  SC-884: 5.26d
+  SC-1278: 0.0d
+  SC-1389: 0.0d
+  SC-1390: 0.0d
+  SC-1391: 0.0d
+  SC-1392: 0.0d
+  SC-1395: 0.0d
+  SC-1403: 7.89d
+  SC-1517: 8.01d
+  SC-1518: 6.4d
+  SC-1736: 0.55d
+  SC-1814: 2.24d
+  SC-1826: 1.82d
+  SC-1944: 0.0d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/SC-878.json: 32.17 days, 112,595 EGP
+Fetching SC-892 (Suite Enhancements) ...
+  SC-693: 0.0d
+  SC-862: 165.51d
+  SC-873: 0.0d
+  SC-989: 0.0d
+  SC-1016: 6.68d
+  SC-1017: 0.0d
+  SC-1020: 4.13d
+  SC-1299: 0.0d
+  SC-1339: 8.64d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/SC-892.json: 184.96 days, 647,360 EGP
+Fetching SC-1325 (Resale Listing Discovery) ...
+  SC-1091: 14.0d
+  SC-1111: 58.55d
+  SC-1195: 9.33d
+  SC-1237: 6.33d
+  SC-1402: 0.0d
+  SC-1490: 15.02d
+  SC-1722: 0.0d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/SC-1325.json: 103.23 days, 361,305 EGP
+Fetching SC-1326 (Nawy Now Calculator ) ...
+  SC-1083: 17.15d
+  SC-1116: 5.63d
+  SC-1350: 4.47d
+  SC-1399: 1.65d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/SC-1326.json: 28.9 days, 101,150 EGP
+Fetching SC-1327 (E-reality Presentation Form) ...
+  SC-1242: 0.0d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/SC-1327.json: 0.0 days, 0 EGP
+Fetching SC-1328 (Deep Linking Support) ...
+  SC-1211: 8.87d
+  SC-1394: 0.0d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/SC-1328.json: 8.87 days, 31,045 EGP
+Fetching SC-1329 (Agent Commissions SDK) ...
+  SC-1352: 0.0d
+  SC-1353: 11.7d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/SC-1329.json: 11.7 days, 40,950 EGP
+Fetching SC-1331 (Conversation History Dashboard) ...
+  SC-1393: 0.0d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/SC-1331.json: 0.0 days, 0 EGP
+Fetching SC-1332 (Client Interests) ...
+  SC-1371: 0.0d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/SC-1332.json: 0.0 days, 0 EGP
+Fetching SC-1333 (Agents tree) ...
+  SC-1372: 0.0d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/SC-1333.json: 0.0 days, 0 EGP
+Fetching SC-1334 (Onboarding Simulator) ...
+  SC-1019: 3.66d
+  SC-1367: 0.0d
+  SC-1368: 0.0d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/SC-1334.json: 3.66 days, 12,810 EGP
+Fetching SC-1335 (Dashboard) ...
+  SC-1223: 25.97d
+  SC-1373: 0.0d
+  SC-1374: 0.0d
+  SC-1375: 0.0d
+  SC-1376: 0.0d
+  SC-1377: 0.0d
+  SC-1516: 0.0d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/SC-1335.json: 25.97 days, 90,895 EGP
+Fetching SC-1336 (Personalization) ...
+  SC-1883: 0.0d
+  SC-1884: 0.0d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/SC-1336.json: 0.0 days, 0 EGP
+Fetching SC-1337 (Inventory Enhancements) ...
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/SC-1337.json: 0 days, 0 EGP
+Fetching SC-1370 (Expo Experience) ...
+  SC-1205: 5.13d
+  SC-1221: 9.0d
+  SC-1236: 3.61d
+  SC-1282: 0.92d
+  SC-1298: 9.18d
+  SC-1311: 7.97d
+  SC-1317: 0.0d
+  SC-1340: 13.59d
+  SC-1410: 1.76d
+  SC-1424: 1.07d
+  SC-1503: 0.0d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/SC-1370.json: 52.23 days, 182,805 EGP
+Fetching SC-1384 (New Primary Team Experience) ...
+  SC-1385: 0.0d
+  SC-1386: 4.0d
+  SC-1519: 6.27d
+  SC-1520: 6.0d
+  SC-1522: 1.44d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/SC-1384.json: 17.71 days, 61,985 EGP
+Fetching SC-1479 (Erealty) ...
+  SC-1639: 0.45d
+  SC-1636: 45.6d
+  SC-1637: 1.26d
+  SC-1647: 102.44d
+  SC-1640: 93.79d
+  SC-1635: 47.63d
+  SC-1634: 1.59d
+  SC-1638: 102.18d
+  SC-1633: 3.38d
+  SC-1632: 4.61d
+  SC-1478: 2.28d
+  SC-1480: 4.39d
+  SC-1481: 2.46d
+  SC-1485: 0.0d
+  SC-1521: 3.71d
+  SC-1523: 8.85d
+  SC-1593: 1.21d
+  SC-1594: 1.0d
+  SC-1596: 0.0d
+  SC-1630: 1.27d
+  SC-1629: 0.0d
+  SC-1628: 4.09d
+  SC-1627: 4.09d
+  SC-1626: 4.09d
+  SC-1625: 4.1d
+  SC-1624: 4.1d
+  SC-1623: 1.85d
+  SC-1622: 47.65d
+  SC-1621: 45.44d
+  SC-1620: 0.0d
+  SC-1619: 0.0d
+  SC-1618: 0.0d
+  SC-1617: 0.0d
+  SC-1606: 1.67d
+  SC-1607: 1.92d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/SC-1479.json: 547.1 days, 1,914,850 EGP
+Fetching SC-1525 (Engineering) ...
+  SC-1550: 0.0d
+  SC-1551: 0.0d
+  SC-1552: 0.0d
+  SC-1553: 0.0d
+  SC-1654: 4.84d
+  SC-1681: 0.0d
+  SC-1682: 0.0d
+  SC-1683: 0.0d
+  SC-1710: 4.13d
+  SC-1894: 3.68d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/SC-1525.json: 12.65 days, 44,275 EGP
+Fetching SC-1545 (Zoom Integration) ...
+  SC-1543: 3.07d
+  SC-1544: 0.62d
+  SC-1585: 4.07d
+  SC-1718: 4.87d
+  SC-1801: 0.71d
+  SC-1817: 0.11d
+  SC-1824: 0.0d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/SC-1545.json: 13.45 days, 47,075 EGP
+Fetching SC-1874 ([Commissions Visibility] v1 — Native Internal commissions (replace WebView)) ...
+  SC-1875: 3.48d
+  SC-1876: 3.48d
+  SC-1877: 3.48d
+  SC-1878: 3.48d
+  SC-1879: 3.47d
+  SC-1880: 0.0d
+  SC-1881: 3.47d
+  SC-1901: 0.24d
+  SC-1902: 0.0d
+  SC-1903: 0.0d
+  SC-1904: 0.0d
+  SC-1905: 0.0d
+  SC-1906: 0.0d
+  SC-1919: 0.0d
+  SC-1920: 0.0d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/SC-1874.json: 21.1 days, 73,850 EGP
+Fetching SC-1946 ([Mystique] Personalized Views service — layered view personalization with UMS replication) ...
+  SC-1947: 0.0d
+  SC-1948: 0.0d
+  SC-1949: 0.0d
+  SC-1950: 0.0d
+  SC-1951: 0.0d
+  SC-1952: 0.0d
+  SC-1953: 0.0d
+  SC-1954: 0.0d
+  SC-1955: 0.0d
+  SC-1956: 0.0d
+  SC-1957: 0.0d
+  SC-1958: 0.0d
+  SC-1959: 0.0d
+  SC-1960: 0.0d
+  SC-1961: 0.0d
+  SC-1962: 0.0d
+  SC-1963: 0.0d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/SC-1946.json: 0.0 days, 0 EGP
 
-Done. Processed 1 epic(s).
+Done. Processed 37 epic(s).
 SCRIPT_EXIT_CODE=0

@@ -1,0 +1,200 @@
+{
+  "epic_key": "SC-1946",
+  "epic_name": "[Mystique] Personalized Views service \u2014 layered view personalization with UMS replication",
+  "generated_at": "2026-07-16T10:24:44.647425",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 17,
+  "complete_tickets": 0,
+  "in_progress_tickets": 17,
+  "total_net_days": 0.0,
+  "total_cost_egp": 0.0,
+  "tickets": [
+    {
+      "key": "SC-1947",
+      "summary": "[UMS] Replication contract for Mystique \u2014 enrich user/rank events, add job/group/system/job-group topics",
+      "status": "Open",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "SC-1948",
+      "summary": "[Mystique] PR #1 \u2014 view enums + base replicated entity",
+      "status": "Open",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "SC-1949",
+      "summary": "[Mystique] PR #2 \u2014 replicated read-model entities, repositories, migration",
+      "status": "Open",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "SC-1950",
+      "summary": "[Mystique] PR #3 \u2014 replication env vars + UMS event types",
+      "status": "Open",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "SC-1951",
+      "summary": "[Mystique] PR #4 \u2014 atomic upsert util + replication handlers",
+      "status": "Open",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "SC-1952",
+      "summary": "[Mystique] PR #5 \u2014 SQS consumer, envelope util, replication module + backfill runbook",
+      "status": "Open",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "SC-1953",
+      "summary": "[Mystique] PR #6 \u2014 personalization entities, repositories, migration",
+      "status": "Open",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "SC-1954",
+      "summary": "[Mystique] PR #7 \u2014 registry seed migration + view-personalization permission resource",
+      "status": "Open",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "SC-1955",
+      "summary": "[Mystique] PR #8 \u2014 config-version store (cache invalidation backbone)",
+      "status": "Open",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "SC-1956",
+      "summary": "[Mystique] PR #9 \u2014 admin element registry CRUD (permission binding, validations)",
+      "status": "Open",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "SC-1957",
+      "summary": "[Mystique] PR #10 \u2014 admin layer-config CRUD (target validation, partial override)",
+      "status": "Open",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "SC-1958",
+      "summary": "[Mystique] PR #11 \u2014 resolved-view types, merge utils + persona-view store",
+      "status": "Open",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "SC-1959",
+      "summary": "[Mystique] PR #12 \u2014 permission gate + persona composition (pure core)",
+      "status": "Open",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "SC-1960",
+      "summary": "[Mystique] PR #13 \u2014 view resolution service with persona caching",
+      "status": "Open",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "SC-1961",
+      "summary": "[Mystique] PR #14 \u2014 user endpoints: GET /me/view + PUT /me/view/order",
+      "status": "Open",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "SC-1962",
+      "summary": "[Mystique] PR #15 \u2014 persona cache invalidation on permission-catalog replication",
+      "status": "Open",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "SC-1963",
+      "summary": "[Mystique] PR #16 \u2014 e2e suites: resolution, reorder, cache-bust, replication reliability",
+      "status": "Open",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    }
+  ]
+}

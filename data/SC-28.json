@@ -1,0 +1,90 @@
+{
+  "epic_key": "SC-28",
+  "epic_name": "Organization-to-Organization User Transfer Management",
+  "generated_at": "2026-07-16T10:22:07.825359",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 7,
+  "complete_tickets": 6,
+  "in_progress_tickets": 1,
+  "total_net_days": 29.39,
+  "total_cost_egp": 102865.0,
+  "tickets": [
+    {
+      "key": "SC-21",
+      "summary": " Enable Seamless Organization Transfer for Users in \"Taskeen\" Tier Organizations",
+      "status": "Done",
+      "net_days": 10.56,
+      "gross_days": 10.56,
+      "excluded_days": 0.0,
+      "cost_egp": 36960.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "SC-39",
+      "summary": "Seamless Organization Movement: PDF Report",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "SC-43",
+      "summary": "Integrating Sales Portal End Point for organization transfer",
+      "status": "Done",
+      "net_days": 18.83,
+      "gross_days": 18.83,
+      "excluded_days": 0.0,
+      "cost_egp": 65905.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "SC-52",
+      "summary": "Phone Number Validation Fails When creating a new user for a moving user between organizations of Different Tier Types",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "SC-188",
+      "summary": "Enable Seamless Organization Transfer for Users in \"Taskeen\" Tier Organizations",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "SC-273",
+      "summary": "[Integration] Enable Seamless Organization Transfer for Users in \"Taskeen\" Tier Organizations",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 3.9,
+      "excluded_days": 3.9,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "SC-333",
+      "summary": "[Integration] Enable Seamless Organization Transfer for Users in \"Taskeen\" Tier Organizations",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    }
+  ]
+}

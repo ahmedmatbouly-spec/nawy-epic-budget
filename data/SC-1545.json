@@ -1,0 +1,90 @@
+{
+  "epic_key": "SC-1545",
+  "epic_name": "Zoom Integration",
+  "generated_at": "2026-07-16T10:24:32.549984",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 7,
+  "complete_tickets": 6,
+  "in_progress_tickets": 1,
+  "total_net_days": 13.45,
+  "total_cost_egp": 47075.0,
+  "tickets": [
+    {
+      "key": "SC-1543",
+      "summary": "[Dev Only] Click-to-call button on lead profile",
+      "status": "Done",
+      "net_days": 3.07,
+      "gross_days": 11.56,
+      "excluded_days": 8.5,
+      "cost_egp": 10745.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "SC-1544",
+      "summary": "In-call indicator on lead profile \u2014 real-time",
+      "status": "On-hold",
+      "net_days": 0.62,
+      "gross_days": 42.24,
+      "excluded_days": 41.62,
+      "cost_egp": 2170.0,
+      "is_complete": false,
+      "num_spans": 1
+    },
+    {
+      "key": "SC-1585",
+      "summary": "Zoom SDK Integration",
+      "status": "Done",
+      "net_days": 4.07,
+      "gross_days": 4.07,
+      "excluded_days": 0.0,
+      "cost_egp": 14245.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "SC-1718",
+      "summary": "WhatsApp SDK Integration",
+      "status": "Done",
+      "net_days": 4.87,
+      "gross_days": 4.87,
+      "excluded_days": 0.0,
+      "cost_egp": 17045.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "SC-1801",
+      "summary": "Adjust the bottom sheet for the zoom call flow to match the existing design system",
+      "status": "Released",
+      "net_days": 0.71,
+      "gross_days": 1.15,
+      "excluded_days": 0.44,
+      "cost_egp": 2485.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "SC-1817",
+      "summary": "WhatsApp Sync Banner",
+      "status": "Ready for Deployment",
+      "net_days": 0.11,
+      "gross_days": 16.61,
+      "excluded_days": 16.49,
+      "cost_egp": 385.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "SC-1824",
+      "summary": "Analysis tab in the zoom call details ",
+      "status": "Released",
+      "net_days": 0.0,
+      "gross_days": 1.75,
+      "excluded_days": 1.75,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 1
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "epic_key": "SC-15",
+  "epic_name": "Suite Control - Zoom Integration for Phone Number Management",
+  "generated_at": "2026-07-16T10:21:51.301406",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 6,
+  "complete_tickets": 4,
+  "in_progress_tickets": 2,
+  "total_net_days": 8.18,
+  "total_cost_egp": 28630.0,
+  "tickets": [
+    {
+      "key": "SC-46",
+      "summary": "Zoom Invitation Button Visible",
+      "status": "Done",
+      "net_days": 1.61,
+      "gross_days": 1.61,
+      "excluded_days": 0.0,
+      "cost_egp": 5635.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "SC-402",
+      "summary": "Zoom not handled flows",
+      "status": "Done",
+      "net_days": 4.0,
+      "gross_days": 4.0,
+      "excluded_days": 0.0,
+      "cost_egp": 14000.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "SC-405",
+      "summary": "Zoom Enhancements",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "SC-434",
+      "summary": "Refactor and create TDD for Zoom feature",
+      "status": "Done",
+      "net_days": 2.57,
+      "gross_days": 2.57,
+      "excluded_days": 0.0,
+      "cost_egp": 8995.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "SC-449",
+      "summary": "Zoom not handled flows",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "SC-483",
+      "summary": "[Zoom Integration]: Zoom Queue Processing Failing",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    }
+  ]
+}

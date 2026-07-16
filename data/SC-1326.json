@@ -1,0 +1,57 @@
+{
+  "epic_key": "SC-1326",
+  "epic_name": "Nawy Now Calculator ",
+  "generated_at": "2026-07-16T10:23:50.757882",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 4,
+  "complete_tickets": 4,
+  "in_progress_tickets": 0,
+  "total_net_days": 28.9,
+  "total_cost_egp": 101150.0,
+  "tickets": [
+    {
+      "key": "SC-1083",
+      "summary": "Nawy now calculator for nawy now users ",
+      "status": "Ready for Deployment",
+      "net_days": 17.15,
+      "gross_days": 19.44,
+      "excluded_days": 2.29,
+      "cost_egp": 60025.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "SC-1116",
+      "summary": "Nawy now calculator PDF",
+      "status": "Ready for Deployment",
+      "net_days": 5.63,
+      "gross_days": 7.69,
+      "excluded_days": 2.06,
+      "cost_egp": 19705.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "SC-1350",
+      "summary": "Update Nawy now calculator fields",
+      "status": "Released",
+      "net_days": 4.47,
+      "gross_days": 6.64,
+      "excluded_days": 2.17,
+      "cost_egp": 15645.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "SC-1399",
+      "summary": "Update Nawy now cash price downpayment %",
+      "status": "Released",
+      "net_days": 1.65,
+      "gross_days": 2.2,
+      "excluded_days": 0.54,
+      "cost_egp": 5775.0,
+      "is_complete": true,
+      "num_spans": 1
+    }
+  ]
+}

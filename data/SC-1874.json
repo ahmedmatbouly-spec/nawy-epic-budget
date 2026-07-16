@@ -1,0 +1,178 @@
+{
+  "epic_key": "SC-1874",
+  "epic_name": "[Commissions Visibility] v1 \u2014 Native Internal commissions (replace WebView)",
+  "generated_at": "2026-07-16T10:24:38.405606",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 15,
+  "complete_tickets": 10,
+  "in_progress_tickets": 5,
+  "total_net_days": 21.1,
+  "total_cost_egp": 73850.0,
+  "tickets": [
+    {
+      "key": "SC-1875",
+      "summary": "[Commissions Visibility] 1/7 \u2014 Scaffold sales_sdk package + module/capabilities",
+      "status": "Ready for Deployment",
+      "net_days": 3.48,
+      "gross_days": 3.49,
+      "excluded_days": 0.0,
+      "cost_egp": 12180.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "SC-1876",
+      "summary": "[Commissions Visibility] 2/7 \u2014 Foundational: domain models + data layer",
+      "status": "Ready for Deployment",
+      "net_days": 3.48,
+      "gross_days": 3.49,
+      "excluded_days": 0.01,
+      "cost_egp": 12180.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "SC-1877",
+      "summary": "[Commissions Visibility] 3/7 \u2014 US1: list + detail UI (Figma-driven)",
+      "status": "Ready for Deployment",
+      "net_days": 3.48,
+      "gross_days": 3.49,
+      "excluded_days": 0.01,
+      "cost_egp": 12180.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "SC-1878",
+      "summary": "[Commissions Visibility] 4/7 \u2014 Route flip: native goes live (replace WebView) [MVP]",
+      "status": "Ready for Deployment",
+      "net_days": 3.48,
+      "gross_days": 3.49,
+      "excluded_days": 0.01,
+      "cost_egp": 12180.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "SC-1879",
+      "summary": "[Commissions Visibility] 5/7 \u2014 US5: Completed state display",
+      "status": "Ready for Deployment",
+      "net_days": 3.47,
+      "gross_days": 3.48,
+      "excluded_days": 0.01,
+      "cost_egp": 12145.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "SC-1880",
+      "summary": "[Commissions Visibility] 6/7 \u2014 US4: Dispute a commission (internal)",
+      "status": "Open",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "SC-1881",
+      "summary": "[Commissions Visibility] 7/7 \u2014 Polish: RTL, performance, edge tests, verify",
+      "status": "Ready for Deployment",
+      "net_days": 3.47,
+      "gross_days": 3.47,
+      "excluded_days": 0.01,
+      "cost_egp": 12145.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "SC-1901",
+      "summary": "[Commissions Visibility] \u2014 Payment schedule (payout calendar)",
+      "status": "Ready for Deployment",
+      "net_days": 0.24,
+      "gross_days": 0.24,
+      "excluded_days": 0.0,
+      "cost_egp": 840.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "SC-1902",
+      "summary": "[Commissions Visibility] \u2014 Payment analytics (upcoming vs past)",
+      "status": "Open",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "SC-1903",
+      "summary": "[Commissions Visibility] \u2014 Commission payouts hub / entry-point screen",
+      "status": "Ready for Deployment",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "SC-1904",
+      "summary": "[midas] Add client name & phone to express-eligibility response (EligibleExpressSaleDto)",
+      "status": "Ready for Deployment",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "SC-1905",
+      "summary": "[midas] Partner express endpoints: eligibility (eligibleSales) + express-request create",
+      "status": "Open",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "SC-1906",
+      "summary": "[midas] Expose payment proof + per-leg payout date/invoice on commissions endpoints",
+      "status": "Open",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "SC-1919",
+      "summary": "[Partners] Integrate sales_sdk commissions into partners-mobile (visibility)",
+      "status": "Ready for Deployment",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "SC-1920",
+      "summary": "[Partners] Pending invoice-ID flow on commissions (badge + add button + alert)",
+      "status": "Open",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    }
+  ]
+}
