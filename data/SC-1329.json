@@ -3,13 +3,13 @@
   "epic_name": "Agent Commissions SDK",
   "project_key": "SC",
   "project_name": "Suite Control ",
-  "generated_at": "2026-07-16T12:42:34.820527",
+  "generated_at": "2026-07-16T13:25:05.611063",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 2,
   "complete_tickets": 2,
   "in_progress_tickets": 0,
-  "total_net_days": 11.7,
-  "total_cost_egp": 40950.0,
+  "total_net_days": 0.0,
+  "total_cost_egp": 0.0,
   "tickets": [
     {
       "key": "SC-1352",
@@ -26,10 +26,10 @@
       "key": "SC-1353",
       "summary": "Investigate Sales Portal Designs and APIs",
       "status": "Done",
-      "net_days": 11.7,
+      "net_days": 0.0,
       "gross_days": 11.7,
-      "excluded_days": 0.0,
-      "cost_egp": 40950.0,
+      "excluded_days": 11.7,
+      "cost_egp": 0.0,
       "is_complete": true,
       "num_spans": 1
     }

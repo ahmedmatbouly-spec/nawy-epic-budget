@@ -3,13 +3,13 @@
   "epic_name": "Better Data Accessibility",
   "project_key": "NCRM",
   "project_name": "NawyCRM",
-  "generated_at": "2026-07-16T12:43:32.232837",
+  "generated_at": "2026-07-16T13:26:01.969846",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 7,
   "complete_tickets": 7,
   "in_progress_tickets": 0,
-  "total_net_days": 336.78,
-  "total_cost_egp": 1178730.0,
+  "total_net_days": 288.64,
+  "total_cost_egp": 1010240.0,
   "tickets": [
     {
       "key": "NCRM-7",
@@ -81,10 +81,10 @@
       "key": "NCRM-31",
       "summary": "Sales Agents' Dashboard design and implementation",
       "status": "Done",
-      "net_days": 184.83,
+      "net_days": 136.69,
       "gross_days": 184.83,
-      "excluded_days": 0.0,
-      "cost_egp": 646905.0,
+      "excluded_days": 48.14,
+      "cost_egp": 478415.0,
       "is_complete": true,
       "num_spans": 1
     }
