@@ -1,15 +1,13 @@
-=== INCREMENTAL SYNC since 2026-07-16T22:23:32.448364 ===
+=== INCREMENTAL SYNC since 2026-07-16T22:27:03.395591 ===
 Found 9 issue(s) updated since last sync.
 Epics needing an update this run: 4
-  CM-866: new epic, full fetch
-Fetching CM-866 (Tech Debt) ...
-Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/CM-866.json: 0 days, 0 EGP
-    SC-878: refetching 1 changed/new ticket(s)
-  SC-878: patched (32.17d, 112,595 EGP)
     NLP-2069: refetching 1 changed/new ticket(s)
   NLP-2069: patched (813.25d, 2,846,375 EGP)
     NLP-3559: refetching 1 changed/new ticket(s)
   NLP-3559: patched (116.85d, 408,975 EGP)
+    SC-878: refetching 1 changed/new ticket(s)
+  SC-878: patched (32.17d, 112,595 EGP)
+  CM-866: patched (0d, 0 EGP)
 
 Done. Incremental sync touched 4 epic(s), 313 epic(s) total tracked.
 Portfolio: 31453.3 days, 110,086,480 EGP across 313 epics
