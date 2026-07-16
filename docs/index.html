@@ -167,7 +167,9 @@ function render() {
   const avgDays = tickets.length ? totalDays / tickets.length : 0;
 
   const pills = Object.keys(epics).map(k =>
-    `<div class="epic-pill${k === activeEpic ? ' active' : ''}" data-epic="${escapeHtml(k)}">${escapeHtml(k)}</div>`
+    `<div class="epic-pill${k === activeEpic ? ' active' : ''}" data-epic="${escapeHtml(k)}">
+       <span class="mono">${escapeHtml(k)}</span>${epics[k].epic_name && epics[k].epic_name !== k ? ' · ' + escapeHtml(epics[k].epic_name) : ''}
+     </div>`
   ).join('');
 
   let tableRows = '';
@@ -209,6 +211,10 @@ function render() {
     ${Object.keys(epics).length > 0 ? `<div class="epic-pills">${pills}</div>` : ''}
 
     ${current ? `
+      <h2 style="font-size:18px; margin: 4px 0 12px; font-weight:700;">
+        ${escapeHtml(current.epic_name && current.epic_name !== current.epic_key ? current.epic_name : current.epic_key)}
+        <span class="mono" style="font-size:13px; color:var(--muted); font-weight:500;">(${escapeHtml(current.epic_key)})</span>
+      </h2>
       <div class="kpi-row">
         <div class="kpi highlight">
           <div class="label">Business days consumed</div>
@@ -232,7 +238,7 @@ function render() {
         </div>
       </div>
 
-      <div class="section-title">Ticket breakdown — ${escapeHtml(current.epic_key)}</div>
+      <div class="section-title">Ticket breakdown — ${escapeHtml(current.epic_key)}${current.epic_name && current.epic_name !== current.epic_key ? ' · ' + escapeHtml(current.epic_name) : ''}</div>
       <table>
         <thead>
           <tr>

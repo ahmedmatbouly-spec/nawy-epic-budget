@@ -83,6 +83,33 @@ def jira_post(path, body):
         return json.loads(resp.read().decode())
 
 
+def get_epics_in_project(project_key):
+    """Find every Epic-type issue in a project via JQL."""
+    epics = []
+    next_token = None
+    while True:
+        body = {
+            "jql": f"project = {project_key} AND issuetype = Epic ORDER BY created ASC",
+            "fields": ["summary", "status"],
+            "maxResults": 100,
+        }
+        if next_token:
+            body["nextPageToken"] = next_token
+        data = jira_post("/rest/api/3/search/jql", body)
+        epics.extend(data.get("issues", []))
+        next_token = data.get("nextPageToken")
+        if not next_token or data.get("isLast", True):
+            break
+    return [(e["key"], e["fields"]["summary"]) for e in epics]
+
+
+def get_epic_name(epic_key):
+    """Fetch a single epic's summary/name (used when an epic key is listed
+    explicitly in epics.json rather than discovered via a project scan)."""
+    data = jira_get(f"/rest/api/3/issue/{epic_key}", {"fields": "summary"})
+    return data["fields"]["summary"]
+
+
 def get_child_issues(epic_key):
     # NOTE: GET /rest/api/3/search was deprecated/removed by Atlassian
     # (returns 410 Gone). The replacement is POST /rest/api/3/search/jql,
@@ -194,8 +221,8 @@ def compute_net_days(transitions, current_status_name, now=None):
     }
 
 
-def process_epic(epic_key):
-    print(f"Fetching {epic_key} ...")
+def process_epic(epic_key, epic_name=None):
+    print(f"Fetching {epic_key} ({epic_name or 'name unknown'}) ...")
     issues = get_child_issues(epic_key)
     tickets = []
     for issue in issues:
@@ -225,6 +252,7 @@ def process_epic(epic_key):
 
     output = {
         "epic_key": epic_key,
+        "epic_name": epic_name or epic_key,
         "generated_at": datetime.now().isoformat(),
         "rate_per_day_egp": RATE_PER_DAY,
         "total_tickets": len(tickets),
@@ -248,18 +276,44 @@ def main():
         print("ERROR: JIRA_SITE, JIRA_EMAIL, JIRA_API_TOKEN must be set (as env vars / secrets).")
         sys.exit(1)
 
+    # epics.json can contain either/both:
+    #   {"projects": ["SC"], "epics": ["NCRM-520"]}
+    # "projects" auto-discovers every Epic-type issue in that project.
+    # "epics" lets you add specific epics from anywhere else too.
     if not os.path.exists(EPICS_FILE):
-        print(f"ERROR: {EPICS_FILE} not found. Create it with a JSON array of epic keys.")
+        print(f"ERROR: {EPICS_FILE} not found.")
         sys.exit(1)
 
     with open(EPICS_FILE) as f:
-        epic_keys = json.load(f)
+        config = json.load(f)
+
+    # Back-compat: allow the old format (a plain list of epic keys)
+    if isinstance(config, list):
+        config = {"projects": [], "epics": config}
+
+    epics_to_process = {}  # epic_key -> epic_name
+
+    for project_key in config.get("projects", []):
+        print(f"Discovering epics in project {project_key} ...")
+        found = get_epics_in_project(project_key)
+        print(f"  found {len(found)} epics")
+        for key, name in found:
+            epics_to_process[key] = name
+
+    for epic_key in config.get("epics", []):
+        if epic_key not in epics_to_process:
+            try:
+                epics_to_process[epic_key] = get_epic_name(epic_key)
+            except Exception as e:
+                print(f"  Could not fetch name for {epic_key}: {e}")
+                epics_to_process[epic_key] = epic_key
 
     summaries = []
-    for epic_key in epic_keys:
-        result = process_epic(epic_key)
+    for epic_key, epic_name in epics_to_process.items():
+        result = process_epic(epic_key, epic_name)
         summaries.append({
             "epic_key": result["epic_key"],
+            "epic_name": result["epic_name"],
             "total_net_days": result["total_net_days"],
             "total_cost_egp": result["total_cost_egp"],
             "total_tickets": result["total_tickets"],
@@ -271,7 +325,7 @@ def main():
     with open(os.path.join(DATA_DIR, "index.json"), "w") as f:
         json.dump({"epics": summaries, "updated_at": datetime.now().isoformat()}, f, indent=2)
 
-    print(f"\nDone. Processed {len(epic_keys)} epic(s).")
+    print(f"\nDone. Processed {len(epics_to_process)} epic(s).")
 
 
 if __name__ == "__main__":
