@@ -1,0 +1,92 @@
+{
+  "epic_key": "NCRM-2",
+  "epic_name": "Better Data Accessibility",
+  "project_key": "NCRM",
+  "project_name": "NawyCRM",
+  "generated_at": "2026-07-16T11:20:25.022429",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 7,
+  "complete_tickets": 7,
+  "in_progress_tickets": 0,
+  "total_net_days": 336.78,
+  "total_cost_egp": 1178730.0,
+  "tickets": [
+    {
+      "key": "NCRM-7",
+      "summary": "New meetings counting logic and status changes",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "NCRM-14",
+      "summary": "Build CRM analytics dashboard and events",
+      "status": "Done",
+      "net_days": 151.95,
+      "gross_days": 151.95,
+      "excluded_days": 0.0,
+      "cost_egp": 531825.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NCRM-19",
+      "summary": "Overhauling company expected values from agents and managers",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "NCRM-25",
+      "summary": "Managers' dashboards updates",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "NCRM-26",
+      "summary": "Building New meetings counting logic",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "NCRM-28",
+      "summary": "Comparative Dashboards Design and Implementation",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "NCRM-31",
+      "summary": "Sales Agents' Dashboard design and implementation",
+      "status": "Done",
+      "net_days": 184.83,
+      "gross_days": 184.83,
+      "excluded_days": 0.0,
+      "cost_egp": 646905.0,
+      "is_complete": true,
+      "num_spans": 1
+    }
+  ]
+}

@@ -1,5 +1,7 @@
 Discovering epics in project SC ...
   found 37 epics
+Discovering epics in project NCRM ...
+  found 60 epics
 Fetching SC-12 (Implement Single Sign-On) ...
   SC-13: 2.47d
   SC-14: 4.45d
@@ -66,9 +68,9 @@ Fetching SC-30 (Enhance User Experience) ...
   SC-439: 0.13d
   SC-441: 0.89d
   SC-446: 0.0d
-  SC-456: 220.21d
-  SC-460: 219.26d
-Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/SC-30.json: 477.9 days, 1,672,650 EGP
+  SC-456: 220.29d
+  SC-460: 219.33d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/SC-30.json: 478.05 days, 1,673,175 EGP
 Fetching SC-32 (Unified Homepage and Header Enhancements) ...
   SC-33: 4.89d
   SC-34: 4.89d
@@ -98,7 +100,7 @@ Fetching SC-58 (Partners Integration) ...
   SC-399: 13.06d
   SC-400: 4.44d
   SC-401: 4.44d
-  SC-412: 227.21d
+  SC-412: 227.29d
   SC-413: 1.0d
   SC-424: 0.0d
   SC-431: 2.35d
@@ -115,7 +117,7 @@ Fetching SC-58 (Partners Integration) ...
   SC-639: 2.27d
   SC-640: 2.18d
   SC-641: 1.0d
-Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/SC-58.json: 460.96 days, 1,613,360 EGP
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/SC-58.json: 461.04 days, 1,613,640 EGP
 Fetching SC-65 (Tiers Management module) ...
 Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/SC-65.json: 0 days, 0 EGP
 Fetching SC-377 (Lead Profile) ...
@@ -266,7 +268,7 @@ Fetching SC-878 (AI Chatbot) ...
 Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/SC-878.json: 32.17 days, 112,595 EGP
 Fetching SC-892 (Suite Enhancements) ...
   SC-693: 0.0d
-  SC-862: 165.55d
+  SC-862: 165.63d
   SC-873: 0.0d
   SC-989: 0.0d
   SC-1016: 6.68d
@@ -274,7 +276,7 @@ Fetching SC-892 (Suite Enhancements) ...
   SC-1020: 4.13d
   SC-1299: 0.0d
   SC-1339: 8.64d
-Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/SC-892.json: 185.0 days, 647,500 EGP
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/SC-892.json: 185.08 days, 647,780 EGP
 Fetching SC-1325 (Resale Listing Discovery) ...
   SC-1091: 14.0d
   SC-1111: 58.55d
@@ -352,13 +354,13 @@ Fetching SC-1384 (New Primary Team Experience) ...
 Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/SC-1384.json: 17.71 days, 61,985 EGP
 Fetching SC-1479 (Erealty) ...
   SC-1639: 0.45d
-  SC-1636: 45.64d
+  SC-1636: 45.72d
   SC-1637: 1.26d
-  SC-1647: 102.48d
-  SC-1640: 93.83d
-  SC-1635: 47.67d
+  SC-1647: 102.55d
+  SC-1640: 93.91d
+  SC-1635: 47.75d
   SC-1634: 1.59d
-  SC-1638: 102.22d
+  SC-1638: 102.29d
   SC-1633: 3.38d
   SC-1632: 4.61d
   SC-1478: 2.28d
@@ -378,15 +380,15 @@ Fetching SC-1479 (Erealty) ...
   SC-1625: 4.1d
   SC-1624: 4.1d
   SC-1623: 1.85d
-  SC-1622: 47.69d
-  SC-1621: 45.48d
+  SC-1622: 47.77d
+  SC-1621: 45.56d
   SC-1620: 0.0d
   SC-1619: 0.0d
   SC-1618: 0.0d
   SC-1617: 0.0d
   SC-1606: 1.67d
   SC-1607: 1.92d
-Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/SC-1479.json: 547.38 days, 1,915,830 EGP
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/SC-1479.json: 547.92 days, 1,917,720 EGP
 Fetching SC-1525 (Engineering) ...
   SC-1550: 0.0d
   SC-1551: 0.0d
@@ -444,6 +446,592 @@ Fetching SC-1946 ([Mystique] Personalized Views service — layered view persona
   SC-1962: 0.0d
   SC-1963: 0.0d
 Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/SC-1946.json: 0.0 days, 0 EGP
+Fetching NCRM-1 (Help increase Financing Sales Transactions) ...
+  NCRM-3: 0.0d
+  NCRM-4: 0.0d
+  NCRM-22: 129.87d
+  NCRM-24: 0.0d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/NCRM-1.json: 129.87 days, 454,545 EGP
+Fetching NCRM-2 (Better Data Accessibility) ...
+  NCRM-7: 0.0d
+  NCRM-14: 151.95d
+  NCRM-19: 0.0d
+  NCRM-25: 0.0d
+  NCRM-26: 0.0d
+  NCRM-28: 0.0d
+  NCRM-31: 184.83d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/NCRM-2.json: 336.78 days, 1,178,730 EGP
+Fetching NCRM-5 (Increase CRM User Effectiveness) ...
+  NCRM-6: 0.0d
+  NCRM-9: 0.0d
+  NCRM-11: 0.0d
+  NCRM-12: 151.24d
+  NCRM-13: 0.0d
+  NCRM-17: 0.0d
+  NCRM-21: 0.0d
+  NCRM-32: 0.0d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/NCRM-5.json: 151.24 days, 529,340 EGP
+Fetching NCRM-18 (CRM Integrations and Partners) ...
+  NCRM-33: 142.91d
+  NCRM-34: 129.87d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/NCRM-18.json: 272.78 days, 954,730 EGP
+Fetching NCRM-57 (Duplicate lead visibility) ...
+  NCRM-51: 10.32d
+  NCRM-59: 22.84d
+  NCRM-60: 22.84d
+  NCRM-61: 23.19d
+  NCRM-63: 19.94d
+  NCRM-64: 10.33d
+  NCRM-65: 0.0d
+  NCRM-73: 19.3d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/NCRM-57.json: 128.76 days, 450,660 EGP
+Fetching NCRM-173 (Acasa mia Phase 1) ...
+  NCRM-174: 10.48d
+  NCRM-175: 0.0d
+  NCRM-176: 0.0d
+  NCRM-180: 0.0d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/NCRM-173.json: 10.48 days, 36,680 EGP
+Fetching NCRM-177 (Inventory management system creation and Iframe) ...
+  NCRM-197: 22.17d
+  NCRM-198: 22.17d
+  NCRM-199: 22.17d
+  NCRM-200: 22.17d
+  NCRM-201: 22.17d
+  NCRM-202: 0.0d
+  NCRM-204: 15.71d
+  NCRM-207: 0.0d
+  NCRM-215: 0.0d
+  NCRM-216: 0.0d
+  NCRM-219: 4.04d
+  NCRM-231: 29.3d
+  NCRM-236: 28.09d
+  NCRM-237: 21.69d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/NCRM-177.json: 209.68 days, 733,880 EGP
+Fetching NCRM-333 (Owners Launch enhancements) ...
+  NCRM-329: 44.71d
+  NCRM-330: 30.49d
+  NCRM-334: 44.73d
+  NCRM-335: 44.61d
+  NCRM-336: 28.68d
+  NCRM-337: 44.44d
+  NCRM-339: 0.0d
+  NCRM-340: 43.57d
+  NCRM-341: 44.44d
+  NCRM-342: 135.29d
+  NCRM-356: 39.36d
+  NCRM-357: 39.36d
+  NCRM-358: 40.29d
+  NCRM-359: 39.32d
+  NCRM-360: 37.86d
+  NCRM-361: 40.29d
+  NCRM-432: 0.0d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/NCRM-333.json: 697.44 days, 2,441,040 EGP
+Fetching NCRM-374 (Owners amendments) ...
+  NCRM-376: 28.61d
+  NCRM-377: 28.61d
+  NCRM-378: 27.86d
+  NCRM-379: 27.86d
+  NCRM-380: 28.49d
+  NCRM-381: 25.19d
+  NCRM-382: 0.0d
+  NCRM-387: 6.65d
+  NCRM-388: 0.0d
+  NCRM-389: 7.15d
+  NCRM-390: 3.53d
+  NCRM-395: 0.0d
+  NCRM-396: 0.0d
+  NCRM-397: 0.0d
+  NCRM-398: 0.0d
+  NCRM-399: 0.0d
+  NCRM-400: 0.0d
+  NCRM-401: 23.86d
+  NCRM-411: 12.07d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/NCRM-374.json: 219.88 days, 769,580 EGP
+Fetching NCRM-416 (Owner fixes) ...
+  NCRM-417: 0.0d
+  NCRM-418: 0.0d
+  NCRM-419: 0.0d
+  NCRM-420: 14.32d
+  NCRM-421: 0.0d
+  NCRM-422: 22.29d
+  NCRM-423: 0.28d
+  NCRM-424: 0.0d
+  NCRM-425: 0.0d
+  NCRM-426: 19.25d
+  NCRM-427: 0.0d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/NCRM-416.json: 56.14 days, 196,490 EGP
+Fetching NCRM-503 (Search revamp) ...
+  NCRM-511: 9.33d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/NCRM-503.json: 9.33 days, 32,655 EGP
+Fetching NCRM-520 (Owners) ...
+  NCRM-462: 20.8d
+  NCRM-463: 15.58d
+  NCRM-488: 2.1d
+  NCRM-489: 6.25d
+  NCRM-497: 0.4d
+  NCRM-504: 0.0d
+  NCRM-505: 10.01d
+  NCRM-506: 0.0d
+  NCRM-507: 12.33d
+  NCRM-521: 10.01d
+  NCRM-2884: 4.14d
+  NCRM-2885: 0.0d
+  NCRM-2886: 18.61d
+  NCRM-2888: 0.0d
+  NCRM-2966: 3.69d
+  NCRM-2967: 18.93d
+  NCRM-2968: 5.07d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/NCRM-520.json: 127.92 days, 447,720 EGP
+Fetching NCRM-529 (CRM Backend Revamp) ...
+  NCRM-530: 0.0d
+  NCRM-743: 0.0d
+  NCRM-744: 0.0d
+  NCRM-746: 0.0d
+  NCRM-747: 0.0d
+  NCRM-748: 0.0d
+  NCRM-749: 0.0d
+  NCRM-750: 0.0d
+  NCRM-751: 0.0d
+  NCRM-754: 0.0d
+  NCRM-755: 0.0d
+  NCRM-756: 0.0d
+  NCRM-757: 0.0d
+  NCRM-758: 0.0d
+  NCRM-759: 0.0d
+  NCRM-760: 0.0d
+  NCRM-762: 0.0d
+  NCRM-763: 0.0d
+  NCRM-764: 0.0d
+  NCRM-765: 0.0d
+  NCRM-766: 0.0d
+  NCRM-767: 0.0d
+  NCRM-768: 0.0d
+  NCRM-769: 0.0d
+  NCRM-770: 0.0d
+  NCRM-771: 0.0d
+  NCRM-772: 0.0d
+  NCRM-773: 0.0d
+  NCRM-776: 0.0d
+  NCRM-777: 0.0d
+  NCRM-778: 0.0d
+  NCRM-779: 0.0d
+  NCRM-780: 0.0d
+  NCRM-781: 0.0d
+  NCRM-783: 0.0d
+  NCRM-784: 0.0d
+  NCRM-785: 0.0d
+  NCRM-786: 0.0d
+  NCRM-787: 0.0d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/NCRM-529.json: 0.0 days, 0 EGP
+Fetching NCRM-531 (Auto-assignment Revamp) ...
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/NCRM-531.json: 0 days, 0 EGP
+Fetching NCRM-537 (Leads module [BACKEND REVAMP]) ...
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/NCRM-537.json: 0 days, 0 EGP
+Fetching NCRM-538 (comments module [BACKEND REVAMP]) ...
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/NCRM-538.json: 0 days, 0 EGP
+Fetching NCRM-539 (Users module [BACKEND REVAMP]) ...
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/NCRM-539.json: 0 days, 0 EGP
+Fetching NCRM-540 (Target module [BACKEND REVAMP]) ...
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/NCRM-540.json: 0 days, 0 EGP
+Fetching NCRM-541 (Statuses / categories / funnels modules [BACKEND REVAMP]) ...
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/NCRM-541.json: 0 days, 0 EGP
+Fetching NCRM-542 (Status forms module [BACKEND REVAMP] ) ...
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/NCRM-542.json: 0 days, 0 EGP
+Fetching NCRM-543 (Schedules / Next Actions / Reminders module [BACKEND REVAMP] ) ...
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/NCRM-543.json: 0 days, 0 EGP
+Fetching NCRM-544 (Actions Module [BACKEND REVAMP] ) ...
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/NCRM-544.json: 0 days, 0 EGP
+Fetching NCRM-545 (Locations Module [BACKEND REVAMP]) ...
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/NCRM-545.json: 0 days, 0 EGP
+Fetching NCRM-550 (Customers Module [BACKEND REVAMP]) ...
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/NCRM-550.json: 0 days, 0 EGP
+Fetching NCRM-714 (Organizations module [BACKEND REVAMP]) ...
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/NCRM-714.json: 0 days, 0 EGP
+Fetching NCRM-715 (CMS Modules [BACKEND REVAMP] ) ...
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/NCRM-715.json: 0 days, 0 EGP
+Fetching NCRM-1349 (Lead referral bugs) ...
+  NCRM-1348: 0.11d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/NCRM-1349.json: 0.11 days, 385 EGP
+Fetching NCRM-1350 (Lead assignment bugs) ...
+  NCRM-1346: 0.0d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/NCRM-1350.json: 0.0 days, 0 EGP
+Fetching NCRM-1351 (Targets) ...
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/NCRM-1351.json: 0 days, 0 EGP
+Fetching NCRM-1352 (Owners/CRM) ...
+  NCRM-1283: 1.56d
+  NCRM-1330: 8.14d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/NCRM-1352.json: 9.7 days, 33,950 EGP
+Fetching NCRM-1353 (Filtering) ...
+  NCRM-1303: 0.0d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/NCRM-1353.json: 0.0 days, 0 EGP
+Fetching NCRM-1354 (Add lead/Bulk) ...
+  NCRM-1280: 1.54d
+  NCRM-1285: 5.8d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/NCRM-1354.json: 7.34 days, 25,690 EGP
+Fetching NCRM-1355 (Notifications) ...
+  NCRM-1282: 6.09d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/NCRM-1355.json: 6.09 days, 21,315 EGP
+Fetching NCRM-1357 (UMS) ...
+  NCRM-1336: 0.0d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/NCRM-1357.json: 0.0 days, 0 EGP
+Fetching NCRM-1364 (Lead location) ...
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/NCRM-1364.json: 0 days, 0 EGP
+Fetching NCRM-1412 (System design) ...
+  NCRM-1413: 0.61d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/NCRM-1412.json: 0.61 days, 2,135 EGP
+Fetching NCRM-1864 (CRM Technical Tasks) ...
+  NCRM-1885: 0.0d
+  NCRM-1886: 0.0d
+  NCRM-1887: 0.28d
+  NCRM-1925: 0.0d
+  NCRM-1945: 0.0d
+  NCRM-2003: 0.0d
+  NCRM-2007: 0.0d
+  NCRM-2036: 0.0d
+  NCRM-2046: 0.0d
+  NCRM-2058: 3.53d
+  NCRM-2085: 191.71d
+  NCRM-2129: 118.53d
+  NCRM-2198: 0.0d
+  NCRM-2208: 1.46d
+  NCRM-2229: 0.0d
+  NCRM-2260: 0.0d
+  NCRM-2261: 0.0d
+  NCRM-2281: 0.24d
+  NCRM-2291: 0.0d
+  NCRM-2292: 0.0d
+  NCRM-2293: 0.0d
+  NCRM-2294: 0.0d
+  NCRM-2295: 0.0d
+  NCRM-2296: 0.0d
+  NCRM-2297: 0.0d
+  NCRM-2303: 0.0d
+  NCRM-2306: 1.75d
+  NCRM-2307: 1.15d
+  NCRM-2330: 6.25d
+  NCRM-2332: 1.03d
+  NCRM-2338: 0.0d
+  NCRM-2351: 0.0d
+  NCRM-2358: 22.83d
+  NCRM-2416: 0.0d
+  NCRM-2486: 6.77d
+  NCRM-2488: 0.0d
+  NCRM-2511: 0.0d
+  NCRM-2512: 0.0d
+  NCRM-2595: 3.15d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/NCRM-1864.json: 358.68 days, 1,255,380 EGP
+Fetching NCRM-1974 (Production Support) ...
+  NCRM-1284: 265.3d
+  NCRM-1540: 39.68d
+  NCRM-1667: 41.03d
+  NCRM-1723: 0.0d
+  NCRM-1890: 0.0d
+  NCRM-1901: 2.75d
+  NCRM-1904: 10.56d
+  NCRM-1922: 0.55d
+  NCRM-1955: 2.26d
+  NCRM-1956: 0.48d
+  NCRM-1976: 0.0d
+  NCRM-1978: 1.46d
+  NCRM-1979: 0.0d
+  NCRM-1981: 0.0d
+  NCRM-1987: 0.0d
+  NCRM-1988: 0.0d
+  NCRM-1991: 0.0d
+  NCRM-1995: 0.0d
+  NCRM-1996: 0.0d
+  NCRM-2000: 0.0d
+  NCRM-2001: 0.0d
+  NCRM-2004: 0.0d
+  NCRM-2010: 0.0d
+  NCRM-2011: 0.0d
+  NCRM-2012: 1.82d
+  NCRM-2013: 1.71d
+  NCRM-2014: 0.04d
+  NCRM-2015: 7.23d
+  NCRM-2021: 0.0d
+  NCRM-2024: 0.0d
+  NCRM-2025: 0.0d
+  NCRM-2035: 1.63d
+  NCRM-2059: 0.0d
+  NCRM-2074: 5.33d
+  NCRM-2091: 0.0d
+  NCRM-2092: 0.0d
+  NCRM-2094: 0.0d
+  NCRM-2095: 2.0d
+  NCRM-2096: 1.82d
+  NCRM-2100: 4.0d
+  NCRM-2101: 0.0d
+  NCRM-2102: 0.0d
+  NCRM-2134: 1.47d
+  NCRM-2148: 29.12d
+  NCRM-2151: 0.0d
+  NCRM-2153: 0.0d
+  NCRM-2166: 0.0d
+  NCRM-2178: 0.0d
+  NCRM-2189: 0.0d
+  NCRM-2190: 0.0d
+  NCRM-2194: 0.0d
+  NCRM-2257: 0.0d
+  NCRM-2259: 0.0d
+  NCRM-2264: 1.33d
+  NCRM-2266: 175.04d
+  NCRM-2267: 0.21d
+  NCRM-2273: 0.1d
+  NCRM-2275: 0.12d
+  NCRM-2287: 0.0d
+  NCRM-2290: 0.0d
+  NCRM-2323: 0.53d
+  NCRM-2324: 0.0d
+  NCRM-2325: 0.0d
+  NCRM-2359: 0.0d
+  NCRM-2369: 0.0d
+  NCRM-2370: 0.0d
+  NCRM-2371: 0.0d
+  NCRM-2374: 0.0d
+  NCRM-2375: 0.0d
+  NCRM-2400: 0.0d
+  NCRM-2402: 13.45d
+  NCRM-2450: 0.0d
+  NCRM-2549: 0.0d
+  NCRM-2551: 0.0d
+  NCRM-2577: 0.0d
+  NCRM-2579: 0.0d
+  NCRM-2584: 0.47d
+  NCRM-2609: 4.1d
+  NCRM-2647: 0.0d
+  NCRM-2652: 4.09d
+  NCRM-2684: 0.0d
+  NCRM-2716: 0.0d
+  NCRM-2732: 0.0d
+  NCRM-2752: 22.7d
+  NCRM-2767: 4.13d
+  NCRM-2769: 0.0d
+  NCRM-2771: 4.43d
+  NCRM-2773: 0.0d
+  NCRM-2777: 3.96d
+  NCRM-2779: 0.0d
+  NCRM-2804: 91.55d
+  NCRM-2838: 0.0d
+  NCRM-3076: 0.0d
+  NCRM-3111: 1.75d
+  NCRM-3129: 0.0d
+  NCRM-3134: 1.77d
+  NCRM-3150: 0.0d
+  NCRM-3181: 3.4d
+  NCRM-3183: 0.0d
+  NCRM-3185: 4.04d
+  NCRM-3204: 0.0d
+  NCRM-3206: 0.1d
+  NCRM-3211: 0.0d
+  NCRM-3216: 0.0d
+  NCRM-3230: 5.57d
+  NCRM-3261: 0.01d
+  NCRM-3274: 11.3d
+  NCRM-3293: 3.73d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/NCRM-1974.json: 778.12 days, 2,723,420 EGP
+Fetching NCRM-1975 (Production Enhancement) ...
+  NCRM-1439: 256.3d
+  NCRM-1598: 0.0d
+  NCRM-1605: 0.0d
+  NCRM-1609: 0.0d
+  NCRM-1623: 0.0d
+  NCRM-1682: 217.79d
+  NCRM-1729: 227.3d
+  NCRM-1738: 0.0d
+  NCRM-1896: 33.49d
+  NCRM-1898: 0.0d
+  NCRM-1899: 0.0d
+  NCRM-1969: 0.0d
+  NCRM-1977: 0.0d
+  NCRM-2037: 2.12d
+  NCRM-2076: 0.23d
+  NCRM-2163: 0.0d
+  NCRM-2250: 0.0d
+  NCRM-2258: 0.0d
+  NCRM-2268: 0.0d
+  NCRM-2288: 0.0d
+  NCRM-2301: 0.0d
+  NCRM-2326: 0.0d
+  NCRM-2329: 0.0d
+  NCRM-2373: 0.0d
+  NCRM-2376: 11.25d
+  NCRM-2401: 0.0d
+  NCRM-2493: 0.0d
+  NCRM-2550: 0.0d
+  NCRM-2607: 0.0d
+  NCRM-2657: 0.89d
+  NCRM-2706: 4.97d
+  NCRM-2713: 1.21d
+  NCRM-2756: 0.25d
+  NCRM-2799: 0.0d
+  NCRM-2805: 0.01d
+  NCRM-2825: 2.21d
+  NCRM-2851: 0.0d
+  NCRM-2865: 3.0d
+  NCRM-2868: 3.23d
+  NCRM-2873: 0.0d
+  NCRM-2943: 2.02d
+  NCRM-3025: 0.0d
+  NCRM-3032: 4.13d
+  NCRM-3033: 1.44d
+  NCRM-3038: 0.76d
+  NCRM-3067: 2.06d
+  NCRM-3135: 0.0d
+  NCRM-3136: 0.0d
+  NCRM-3151: 6.0d
+  NCRM-3156: 0.0d
+  NCRM-3200: 0.0d
+  NCRM-3214: 0.0d
+  NCRM-3286: 0.0d
+  NCRM-3289: 0.0d
+  NCRM-3296: 0.0d
+  NCRM-3297: 0.0d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/NCRM-1975.json: 780.66 days, 2,732,310 EGP
+Fetching NCRM-2392 (This epic include all changes related to the lead page) ...
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/NCRM-2392.json: 0 days, 0 EGP
+Fetching NCRM-2393 (Lead Page) ...
+  NCRM-2336: 0.0d
+  NCRM-2391: 2.22d
+  NCRM-2399: 6.86d
+  NCRM-2414: 3.55d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/NCRM-2393.json: 12.63 days, 44,205 EGP
+Fetching NCRM-2394 (Homepage) ...
+  NCRM-2339: 0.0d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/NCRM-2394.json: 0.0 days, 0 EGP
+Fetching NCRM-2398 (Task Manager) ...
+  NCRM-2397: 0.0d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/NCRM-2398.json: 0.0 days, 0 EGP
+Fetching NCRM-2418 (Localization) ...
+  NCRM-2344: 1.45d
+  NCRM-2458: 3.71d
+  NCRM-2487: 3.08d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/NCRM-2418.json: 8.24 days, 28,840 EGP
+Fetching NCRM-2420 (Experimentation Framework) ...
+  NCRM-2411: 0.0d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/NCRM-2420.json: 0.0 days, 0 EGP
+Fetching NCRM-2475 (Platform Enablement & Automation) ...
+  NCRM-2409: 5.04d
+  NCRM-2534: 5.0d
+  NCRM-2598: 17.88d
+  NCRM-2726: 0.0d
+  NCRM-2749: 0.0d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/NCRM-2475.json: 27.92 days, 97,720 EGP
+Fetching NCRM-2476 (Agent Profiling) ...
+  NCRM-2347: 2.28d
+  NCRM-2424: 3.4d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/NCRM-2476.json: 5.68 days, 19,880 EGP
+Fetching NCRM-2477 (Platform Usability Enhancements) ...
+  NCRM-1722: 0.0d
+  NCRM-1916: 0.0d
+  NCRM-2212: 12.49d
+  NCRM-2337: 0.0d
+  NCRM-2410: 1.52d
+  NCRM-2471: 2.32d
+  NCRM-2473: 0.77d
+  NCRM-2482: 6.22d
+  NCRM-2485: 0.0d
+  NCRM-2526: 0.0d
+  NCRM-2722: 3.54d
+  NCRM-2723: 7.84d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/NCRM-2477.json: 34.7 days, 121,450 EGP
+Fetching NCRM-2478 (Sales Cycle Enablement & Experience Enhancement) ...
+  NCRM-2457: 3.88d
+  NCRM-2481: 7.4d
+  NCRM-2729: 0.0d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/NCRM-2478.json: 11.28 days, 39,480 EGP
+Fetching NCRM-2480 (Sales Performance Intelligence & Team Governance) ...
+  NCRM-2479: 0.0d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/NCRM-2480.json: 0.0 days, 0 EGP
+Fetching NCRM-2563 (New Primary Team Experience) ...
+  NCRM-2564: 0.6d
+  NCRM-2565: 0.0d
+  NCRM-2566: 0.0d
+  NCRM-2567: 0.33d
+  NCRM-2568: 0.0d
+  NCRM-2569: 1.92d
+  NCRM-2570: 0.61d
+  NCRM-2574: 0.0d
+  NCRM-2599: 7.06d
+  NCRM-2602: 3.81d
+  NCRM-2603: 5.46d
+  NCRM-2815: 1.65d
+  NCRM-2823: 15.29d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/NCRM-2563.json: 36.73 days, 128,555 EGP
+Fetching NCRM-2667 (Zoom Integration) ...
+  NCRM-2661: 13.57d
+  NCRM-2724: 0.04d
+  NCRM-3000: 8.73d
+  NCRM-3001: 10.34d
+  NCRM-3002: 0.0d
+  NCRM-3003: 0.0d
+  NCRM-3004: 0.0d
+  NCRM-3005: 0.0d
+  NCRM-3006: 0.0d
+  NCRM-3008: 0.0d
+  NCRM-3009: 0.0d
+  NCRM-3016: 18.53d
+  NCRM-3017: 0.0d
+  NCRM-3018: 0.0d
+  NCRM-3020: 0.0d
+  NCRM-3021: 0.0d
+  NCRM-3238: 0.0d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/NCRM-2667.json: 51.21 days, 179,235 EGP
+Fetching NCRM-2668 (Expo Experience) ...
+  NCRM-2520: 7.06d
+  NCRM-2521: 2.87d
+  NCRM-2522: 2.95d
+  NCRM-2523: 2.61d
+  NCRM-2554: 8.5d
+  NCRM-2580: 3.15d
+  NCRM-2622: 3.15d
+  NCRM-2641: 1.23d
+  NCRM-2643: 0.0d
+  NCRM-2663: 1.08d
+  NCRM-2665: 2.04d
+  NCRM-2728: 1.2d
+  NCRM-2730: 0.0d
+  NCRM-2856: 2.93d
+  NCRM-2973: 13.1d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/NCRM-2668.json: 51.87 days, 181,545 EGP
+Fetching NCRM-2669 (AI Chatbot) ...
+  NCRM-2662: 0.0d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/NCRM-2669.json: 0.0 days, 0 EGP
+Fetching NCRM-2675 (Taskeen) ...
+  NCRM-2594: 3.51d
+  NCRM-2673: 2.3d
+  NCRM-2735: 1.87d
+  NCRM-2796: 2.12d
+  NCRM-2809: 1.38d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/NCRM-2675.json: 11.18 days, 39,130 EGP
+Fetching NCRM-2707 ([Automation][API] Lead Journey Flow) ...
+  NCRM-2708: 0.0d
+  NCRM-2709: 0.0d
+  NCRM-2710: 0.0d
+  NCRM-2711: 0.0d
+  NCRM-2712: 0.0d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/NCRM-2707.json: 0.0 days, 0 EGP
+Fetching NCRM-2727 (Ithmar Integration) ...
+  NCRM-2484: 6.44d
+  NCRM-2741: 0.01d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/NCRM-2727.json: 6.45 days, 22,575 EGP
+Fetching NCRM-2816 (Automation of Resale Seller Status Updates) ...
+  NCRM-2817: 0.0d
+  NCRM-2818: 8.66d
+  NCRM-2819: 0.0d
+  NCRM-2820: 0.0d
+  NCRM-2891: 9.09d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/NCRM-2816.json: 17.75 days, 62,125 EGP
+Fetching NCRM-2942 (Clients Re-engagement) ...
+  NCRM-2862: 6.62d
+  NCRM-2976: 2.22d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/NCRM-2942.json: 8.84 days, 30,940 EGP
+Fetching NCRM-3011 (Whatsapp Integration) ...
+  NCRM-3010: 0.0d
+  NCRM-3012: 0.0d
+  NCRM-3013: 0.0d
+  NCRM-3014: 0.0d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/NCRM-3011.json: 0.0 days, 0 EGP
 
-Done. Processed 37 epic(s).
+Done. Processed 97 epic(s).
 SCRIPT_EXIT_CODE=0

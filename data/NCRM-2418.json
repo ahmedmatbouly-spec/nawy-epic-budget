@@ -1,0 +1,48 @@
+{
+  "epic_key": "NCRM-2418",
+  "epic_name": "Localization",
+  "project_key": "NCRM",
+  "project_name": "NawyCRM",
+  "generated_at": "2026-07-16T11:23:04.394430",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 3,
+  "complete_tickets": 3,
+  "in_progress_tickets": 0,
+  "total_net_days": 8.24,
+  "total_cost_egp": 28840.0,
+  "tickets": [
+    {
+      "key": "NCRM-2344",
+      "summary": "localization implementation",
+      "status": "Done",
+      "net_days": 1.45,
+      "gross_days": 1.45,
+      "excluded_days": 0.0,
+      "cost_egp": 5075.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NCRM-2458",
+      "summary": "Backend-Driven Localization Support for Suite App (CRM APIs)",
+      "status": "Released",
+      "net_days": 3.71,
+      "gross_days": 8.0,
+      "excluded_days": 4.29,
+      "cost_egp": 12985.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NCRM-2487",
+      "summary": "Localization Translation AI Creation API",
+      "status": "Released",
+      "net_days": 3.08,
+      "gross_days": 9.49,
+      "excluded_days": 6.42,
+      "cost_egp": 10780.0,
+      "is_complete": true,
+      "num_spans": 1
+    }
+  ]
+}

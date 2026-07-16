@@ -1,0 +1,147 @@
+{
+  "epic_key": "NCRM-2477",
+  "epic_name": "Platform Usability Enhancements",
+  "project_key": "NCRM",
+  "project_name": "NawyCRM",
+  "generated_at": "2026-07-16T11:23:14.468415",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 12,
+  "complete_tickets": 8,
+  "in_progress_tickets": 4,
+  "total_net_days": 34.7,
+  "total_cost_egp": 121450.0,
+  "tickets": [
+    {
+      "key": "NCRM-1722",
+      "summary": "Remove help and replace it Market updates",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "NCRM-1916",
+      "summary": "Promise sale form updates",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "NCRM-2212",
+      "summary": "Add Admin Configuration Module to Task Manager",
+      "status": "Done",
+      "net_days": 12.49,
+      "gross_days": 21.78,
+      "excluded_days": 9.29,
+      "cost_egp": 43715.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NCRM-2337",
+      "summary": "Dynamic Status Filter in Leads Table Based on User Pools",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "NCRM-2410",
+      "summary": "Conditional Requirement for Pools Field in User Creation",
+      "status": "Released",
+      "net_days": 1.52,
+      "gross_days": 1.52,
+      "excluded_days": 0.0,
+      "cost_egp": 5320.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NCRM-2471",
+      "summary": "Dynamic Status Filter in Overview Cards",
+      "status": "Released",
+      "net_days": 2.32,
+      "gross_days": 3.81,
+      "excluded_days": 1.49,
+      "cost_egp": 8120.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NCRM-2473",
+      "summary": "Round Weighted Sales Values to Integers on Homepage",
+      "status": "Done",
+      "net_days": 0.77,
+      "gross_days": 0.82,
+      "excluded_days": 0.05,
+      "cost_egp": 2695.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NCRM-2482",
+      "summary": "Dynamic Status, Lead Type & Status Stage Filters in Leads Table",
+      "status": "Released",
+      "net_days": 6.22,
+      "gross_days": 7.54,
+      "excluded_days": 1.32,
+      "cost_egp": 21770.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NCRM-2485",
+      "summary": "Hierarchical Compound Search in Listing Dashboard",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "NCRM-2526",
+      "summary": "Conditional Requirement for Pools Field in User Creation",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 1.6,
+      "excluded_days": 1.6,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NCRM-2722",
+      "summary": "[Spike] Integrate Next Actions into Task Manager and Deprecate New Next Action Creation",
+      "status": "Done",
+      "net_days": 3.54,
+      "gross_days": 3.54,
+      "excluded_days": 0.0,
+      "cost_egp": 12390.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NCRM-2723",
+      "summary": "Rollout New Lead Page Design to Partners Plus",
+      "status": "Done",
+      "net_days": 7.84,
+      "gross_days": 12.42,
+      "excluded_days": 4.58,
+      "cost_egp": 27440.0,
+      "is_complete": true,
+      "num_spans": 1
+    }
+  ]
+}

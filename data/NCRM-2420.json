@@ -1,0 +1,26 @@
+{
+  "epic_key": "NCRM-2420",
+  "epic_name": "Experimentation Framework",
+  "project_key": "NCRM",
+  "project_name": "NawyCRM",
+  "generated_at": "2026-07-16T11:23:05.244774",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 1,
+  "complete_tickets": 0,
+  "in_progress_tickets": 1,
+  "total_net_days": 0.0,
+  "total_cost_egp": 0.0,
+  "tickets": [
+    {
+      "key": "NCRM-2411",
+      "summary": "Phase 1: Experimentation Framework Implementation for handling different views",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    }
+  ]
+}

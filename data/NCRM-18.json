@@ -1,0 +1,37 @@
+{
+  "epic_key": "NCRM-18",
+  "epic_name": "CRM Integrations and Partners",
+  "project_key": "NCRM",
+  "project_name": "NawyCRM",
+  "generated_at": "2026-07-16T11:20:29.757648",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 2,
+  "complete_tickets": 2,
+  "in_progress_tickets": 0,
+  "total_net_days": 272.78,
+  "total_cost_egp": 954730.0,
+  "tickets": [
+    {
+      "key": "NCRM-33",
+      "summary": "Nawy Partners instances",
+      "status": "Done",
+      "net_days": 142.91,
+      "gross_days": 142.91,
+      "excluded_days": 0.0,
+      "cost_egp": 500185.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NCRM-34",
+      "summary": "Move Now units service requests",
+      "status": "Done",
+      "net_days": 129.87,
+      "gross_days": 129.87,
+      "excluded_days": 0.0,
+      "cost_egp": 454545.0,
+      "is_complete": true,
+      "num_spans": 1
+    }
+  ]
+}

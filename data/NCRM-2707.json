@@ -1,0 +1,70 @@
+{
+  "epic_key": "NCRM-2707",
+  "epic_name": "[Automation][API] Lead Journey Flow",
+  "project_key": "NCRM",
+  "project_name": "NawyCRM",
+  "generated_at": "2026-07-16T11:23:41.326702",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 5,
+  "complete_tickets": 0,
+  "in_progress_tickets": 5,
+  "total_net_days": 0.0,
+  "total_cost_egp": 0.0,
+  "tickets": [
+    {
+      "key": "NCRM-2708",
+      "summary": "[Automation][API] Add lead",
+      "status": "Open",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "NCRM-2709",
+      "summary": "[Automation][API] Get lead by nano id",
+      "status": "Open",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "NCRM-2710",
+      "summary": "[Automation][API] Update lead status",
+      "status": "Open",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "NCRM-2711",
+      "summary": "[Automation][API] Add Comment",
+      "status": "Open",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "NCRM-2712",
+      "summary": "[Automation][API] Lead Journey all Flow",
+      "status": "Open",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    }
+  ]
+}

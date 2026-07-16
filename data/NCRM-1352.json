@@ -1,0 +1,37 @@
+{
+  "epic_key": "NCRM-1352",
+  "epic_name": "Owners/CRM",
+  "project_key": "NCRM",
+  "project_name": "NawyCRM",
+  "generated_at": "2026-07-16T11:21:31.961213",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 2,
+  "complete_tickets": 2,
+  "in_progress_tickets": 0,
+  "total_net_days": 9.7,
+  "total_cost_egp": 33950.0,
+  "tickets": [
+    {
+      "key": "NCRM-1283",
+      "summary": "Unit details and sales agent comments are not reflected in owners portal",
+      "status": "Done",
+      "net_days": 1.56,
+      "gross_days": 1.56,
+      "excluded_days": 0.0,
+      "cost_egp": 5460.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NCRM-1330",
+      "summary": "Seller lead with no listing in CRM",
+      "status": "Done",
+      "net_days": 8.14,
+      "gross_days": 8.14,
+      "excluded_days": 0.0,
+      "cost_egp": 28490.0,
+      "is_complete": true,
+      "num_spans": 1
+    }
+  ]
+}

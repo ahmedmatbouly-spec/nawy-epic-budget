@@ -1,0 +1,180 @@
+{
+  "epic_key": "NCRM-2668",
+  "epic_name": "Expo Experience",
+  "project_key": "NCRM",
+  "project_name": "NawyCRM",
+  "generated_at": "2026-07-16T11:23:35.813948",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 15,
+  "complete_tickets": 14,
+  "in_progress_tickets": 1,
+  "total_net_days": 51.87,
+  "total_cost_egp": 181545.0,
+  "tickets": [
+    {
+      "key": "NCRM-2520",
+      "summary": "Generate & Send Expo QR Code from Lead Page (On-Demand)",
+      "status": "Done",
+      "net_days": 7.06,
+      "gross_days": 7.38,
+      "excluded_days": 0.32,
+      "cost_egp": 24710.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NCRM-2521",
+      "summary": "Expo Arrival Scan & Attendee Tracking (Admin Scan)",
+      "status": "Done",
+      "net_days": 2.87,
+      "gross_days": 3.87,
+      "excluded_days": 1.0,
+      "cost_egp": 10045.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NCRM-2522",
+      "summary": "Agent Scan Experience (Quick Lead Access)",
+      "status": "Done",
+      "net_days": 2.95,
+      "gross_days": 10.0,
+      "excluded_days": 7.05,
+      "cost_egp": 10325.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NCRM-2523",
+      "summary": "Expo Meeting Completion with Mandatory Capture part 1",
+      "status": "Done",
+      "net_days": 2.61,
+      "gross_days": 7.46,
+      "excluded_days": 4.85,
+      "cost_egp": 9135.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NCRM-2554",
+      "summary": "Speech to text transcription",
+      "status": "Ready for Deployment",
+      "net_days": 8.5,
+      "gross_days": 8.5,
+      "excluded_days": 0.0,
+      "cost_egp": 29750.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NCRM-2580",
+      "summary": "Expo lead Access for un-assigned agent",
+      "status": "Done",
+      "net_days": 3.15,
+      "gross_days": 8.0,
+      "excluded_days": 4.85,
+      "cost_egp": 11025.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NCRM-2622",
+      "summary": "Expo Meeting Completion with Mandatory Capture part 2",
+      "status": "Done",
+      "net_days": 3.15,
+      "gross_days": 8.0,
+      "excluded_days": 4.85,
+      "cost_egp": 11025.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NCRM-2641",
+      "summary": "Preview, Regenerate & Send Expo QR Code from Lead Page",
+      "status": "Released",
+      "net_days": 1.23,
+      "gross_days": 10.62,
+      "excluded_days": 9.4,
+      "cost_egp": 4305.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NCRM-2643",
+      "summary": "Expo Dashboard",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NCRM-2663",
+      "summary": "Return Voice Note Duration in Lead Activity Recordings",
+      "status": "Done",
+      "net_days": 1.08,
+      "gross_days": 7.49,
+      "excluded_days": 6.4,
+      "cost_egp": 3780.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NCRM-2665",
+      "summary": "Expo Dashboard",
+      "status": "Done",
+      "net_days": 2.04,
+      "gross_days": 2.04,
+      "excluded_days": 0.01,
+      "cost_egp": 7140.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NCRM-2728",
+      "summary": "Enable Hierarchy-Scoped Access to Expo Dashboard for Managers",
+      "status": "Done",
+      "net_days": 1.2,
+      "gross_days": 3.38,
+      "excluded_days": 2.18,
+      "cost_egp": 4200.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NCRM-2730",
+      "summary": "Enable Column Sorting and Drill-Down on Expo Dashboard Table",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "NCRM-2856",
+      "summary": "Auto-Send Expo Access Link via WhatsApp to Tagged Users",
+      "status": "Done",
+      "net_days": 2.93,
+      "gross_days": 5.42,
+      "excluded_days": 2.49,
+      "cost_egp": 10255.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NCRM-2973",
+      "summary": "Bulk Send Expo QR Codes via the bulk action in leads table",
+      "status": "Released",
+      "net_days": 13.1,
+      "gross_days": 22.21,
+      "excluded_days": 9.11,
+      "cost_egp": 45850.0,
+      "is_complete": true,
+      "num_spans": 1
+    }
+  ]
+}

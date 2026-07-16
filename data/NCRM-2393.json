@@ -1,0 +1,59 @@
+{
+  "epic_key": "NCRM-2393",
+  "epic_name": "Lead Page",
+  "project_key": "NCRM",
+  "project_name": "NawyCRM",
+  "generated_at": "2026-07-16T11:23:00.852154",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 4,
+  "complete_tickets": 3,
+  "in_progress_tickets": 1,
+  "total_net_days": 12.63,
+  "total_cost_egp": 44205.0,
+  "tickets": [
+    {
+      "key": "NCRM-2336",
+      "summary": "tabs in lead page to be removed when empty",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "NCRM-2391",
+      "summary": "Include Lead ID in Task Creation Prompt",
+      "status": "Done",
+      "net_days": 2.22,
+      "gross_days": 4.37,
+      "excluded_days": 2.15,
+      "cost_egp": 7770.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NCRM-2399",
+      "summary": "Implementation is not matching the design",
+      "status": "Done",
+      "net_days": 6.86,
+      "gross_days": 6.86,
+      "excluded_days": 0.0,
+      "cost_egp": 24010.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NCRM-2414",
+      "summary": "Pre-select Property Track When Adding Property from Lead Page",
+      "status": "Done",
+      "net_days": 3.55,
+      "gross_days": 5.67,
+      "excluded_days": 2.11,
+      "cost_egp": 12425.0,
+      "is_complete": true,
+      "num_spans": 1
+    }
+  ]
+}

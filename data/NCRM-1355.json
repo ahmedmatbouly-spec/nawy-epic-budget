@@ -1,0 +1,26 @@
+{
+  "epic_key": "NCRM-1355",
+  "epic_name": "Notifications",
+  "project_key": "NCRM",
+  "project_name": "NawyCRM",
+  "generated_at": "2026-07-16T11:21:35.004958",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 1,
+  "complete_tickets": 1,
+  "in_progress_tickets": 0,
+  "total_net_days": 6.09,
+  "total_cost_egp": 21315.0,
+  "tickets": [
+    {
+      "key": "NCRM-1282",
+      "summary": "Lead Rotation emails are not sent (NAWY)",
+      "status": "Done",
+      "net_days": 6.09,
+      "gross_days": 6.09,
+      "excluded_days": 0.0,
+      "cost_egp": 21315.0,
+      "is_complete": true,
+      "num_spans": 1
+    }
+  ]
+}

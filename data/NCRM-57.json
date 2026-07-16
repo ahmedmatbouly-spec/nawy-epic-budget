@@ -1,0 +1,103 @@
+{
+  "epic_key": "NCRM-57",
+  "epic_name": "Duplicate lead visibility",
+  "project_key": "NCRM",
+  "project_name": "NawyCRM",
+  "generated_at": "2026-07-16T11:20:33.537131",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 8,
+  "complete_tickets": 8,
+  "in_progress_tickets": 0,
+  "total_net_days": 128.76,
+  "total_cost_egp": 450660.0,
+  "tickets": [
+    {
+      "key": "NCRM-51",
+      "summary": "[FE] Add Viewers button for lead",
+      "status": "Done",
+      "net_days": 10.32,
+      "gross_days": 10.32,
+      "excluded_days": 0.0,
+      "cost_egp": 36120.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NCRM-59",
+      "summary": "When adding the lead manually, confirm this lead/leads exists in other types and list them (for all users\u2019 roles)",
+      "status": "Done",
+      "net_days": 22.84,
+      "gross_days": 22.84,
+      "excluded_days": 0.0,
+      "cost_egp": 79940.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NCRM-60",
+      "summary": "When adding the lead manually, users should see a null lead type that they have to select one manually",
+      "status": "Done",
+      "net_days": 22.84,
+      "gross_days": 22.84,
+      "excluded_days": 0.0,
+      "cost_egp": 79940.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NCRM-61",
+      "summary": "If the lead type already exists, please send an error message that this lead already exists with the same type (To sales manager only)",
+      "status": "Done",
+      "net_days": 23.19,
+      "gross_days": 23.19,
+      "excluded_days": 0.0,
+      "cost_egp": 81165.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NCRM-63",
+      "summary": "Admins can add viewers on the lead. It will append the user and its management chain to the users who can view the lead (view only access)",
+      "status": "Done",
+      "net_days": 19.94,
+      "gross_days": 19.94,
+      "excluded_days": 0.0,
+      "cost_egp": 69790.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NCRM-64",
+      "summary": "We should have a filter to show leads with viewership access only in the home page",
+      "status": "Done",
+      "net_days": 10.33,
+      "gross_days": 10.33,
+      "excluded_days": 0.0,
+      "cost_egp": 36155.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NCRM-65",
+      "summary": "[BE] [FE] We should have a filter in more options on the home page, to see leads existing with multiple lead types (checkbox)",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "NCRM-73",
+      "summary": "Lead Viewership Tests",
+      "status": "Done",
+      "net_days": 19.3,
+      "gross_days": 19.3,
+      "excluded_days": 0.0,
+      "cost_egp": 67550.0,
+      "is_complete": true,
+      "num_spans": 1
+    }
+  ]
+}

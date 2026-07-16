@@ -1,0 +1,48 @@
+{
+  "epic_key": "NCRM-2478",
+  "epic_name": "Sales Cycle Enablement & Experience Enhancement",
+  "project_key": "NCRM",
+  "project_name": "NawyCRM",
+  "generated_at": "2026-07-16T11:23:16.055437",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 3,
+  "complete_tickets": 3,
+  "in_progress_tickets": 0,
+  "total_net_days": 11.28,
+  "total_cost_egp": 39480.0,
+  "tickets": [
+    {
+      "key": "NCRM-2457",
+      "summary": "Integrate E-Realty Presentation Form (iFrame) + Submit Event Handling",
+      "status": "Done",
+      "net_days": 3.88,
+      "gross_days": 3.88,
+      "excluded_days": 0.0,
+      "cost_egp": 13580.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NCRM-2481",
+      "summary": "Implement AI Conversation Summary & Comment Design (Non-Deletable)",
+      "status": "Released",
+      "net_days": 7.4,
+      "gross_days": 9.24,
+      "excluded_days": 1.85,
+      "cost_egp": 25900.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NCRM-2729",
+      "summary": "Show Eid Promo Eligibility Indicator on Lead Page",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 1
+    }
+  ]
+}

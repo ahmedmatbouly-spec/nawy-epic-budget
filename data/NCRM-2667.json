@@ -1,0 +1,202 @@
+{
+  "epic_key": "NCRM-2667",
+  "epic_name": "Zoom Integration",
+  "project_key": "NCRM",
+  "project_name": "NawyCRM",
+  "generated_at": "2026-07-16T11:23:29.384196",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 17,
+  "complete_tickets": 3,
+  "in_progress_tickets": 14,
+  "total_net_days": 51.21,
+  "total_cost_egp": 179235.0,
+  "tickets": [
+    {
+      "key": "NCRM-2661",
+      "summary": "Add \u201cCall with Zoom\u201d Option to Lead Call CTA",
+      "status": "Done",
+      "net_days": 13.57,
+      "gross_days": 14.57,
+      "excluded_days": 1.0,
+      "cost_egp": 47495.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NCRM-2724",
+      "summary": "[Spike] Zoom Call Status Integration to Auto-Update CRM Lead Status",
+      "status": "Done",
+      "net_days": 0.04,
+      "gross_days": 0.04,
+      "excluded_days": 0.0,
+      "cost_egp": 140.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NCRM-3000",
+      "summary": "In-call indicator on lead profile \u2014 real-time",
+      "status": "On-hold",
+      "net_days": 8.73,
+      "gross_days": 38.3,
+      "excluded_days": 29.57,
+      "cost_egp": 30555.0,
+      "is_complete": false,
+      "num_spans": 1
+    },
+    {
+      "key": "NCRM-3001",
+      "summary": "Automatic lead status update \u2014 non-answered calls",
+      "status": "Ready for Deployment",
+      "net_days": 10.34,
+      "gross_days": 10.35,
+      "excluded_days": 0.0,
+      "cost_egp": 36190.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NCRM-3002",
+      "summary": "Manager hop-in \u2014 Silent, Whisper, Takeover modes",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "NCRM-3003",
+      "summary": "Trigger AI pipeline after call ends",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "NCRM-3004",
+      "summary": "AI analysis activity on lead profile",
+      "status": "Discarded",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "NCRM-3005",
+      "summary": "Call quality flag \u2014 missing data points",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "NCRM-3006",
+      "summary": "Hot Lead / Cold Lead flag from AI potentiality score",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "NCRM-3008",
+      "summary": "Meeting/Presentation modal \u2014 post-call status confirmation",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "NCRM-3009",
+      "summary": "Agent summary validation on AI analysis card",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "NCRM-3016",
+      "summary": "Chats & Calls tab on lead profile",
+      "status": "In Testing",
+      "net_days": 18.53,
+      "gross_days": 18.53,
+      "excluded_days": 0.0,
+      "cost_egp": 64855.0,
+      "is_complete": false,
+      "num_spans": 1
+    },
+    {
+      "key": "NCRM-3017",
+      "summary": "WhatsApp thread read-only view in Communications tab",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "NCRM-3018",
+      "summary": "Inbound callback routing \u2014 agent offline fallback",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "NCRM-3020",
+      "summary": "AI pipeline failure handling \u2014 graceful degradation",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "NCRM-3021",
+      "summary": "Shadow mode \u2014 AI status proposals for answered call outcomes",
+      "status": "Discarded",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "NCRM-3238",
+      "summary": "in call indicator sse optimization",
+      "status": "Open",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    }
+  ]
+}

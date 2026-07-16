@@ -1,0 +1,136 @@
+{
+  "epic_key": "NCRM-416",
+  "epic_name": "Owner fixes",
+  "project_key": "NCRM",
+  "project_name": "NawyCRM",
+  "generated_at": "2026-07-16T11:20:59.835926",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 11,
+  "complete_tickets": 11,
+  "in_progress_tickets": 0,
+  "total_net_days": 56.14,
+  "total_cost_egp": 196490.0,
+  "tickets": [
+    {
+      "key": "NCRM-417",
+      "summary": "[OBE] Compounds to be read as names not IDs",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "NCRM-418",
+      "summary": "Notifacations activation",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "NCRM-419",
+      "summary": "Notifications for assignment of owner or listing",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "NCRM-420",
+      "summary": "Default status to be no action yet",
+      "status": "Done",
+      "net_days": 14.32,
+      "gross_days": 14.32,
+      "excluded_days": 0.0,
+      "cost_egp": 50120.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NCRM-421",
+      "summary": "Re-migration to fix date issues",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "NCRM-422",
+      "summary": "[OBE][OFE] Owner Comments",
+      "status": "Done",
+      "net_days": 22.29,
+      "gross_days": 22.29,
+      "excluded_days": 0.0,
+      "cost_egp": 78015.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NCRM-423",
+      "summary": "Listings statuses to be colored",
+      "status": "Done",
+      "net_days": 0.28,
+      "gross_days": 0.28,
+      "excluded_days": 0.0,
+      "cost_egp": 980.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NCRM-424",
+      "summary": "Sending porperty ID with signups on website",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "NCRM-425",
+      "summary": "direct URL from unit to website",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NCRM-426",
+      "summary": "Fields from owners",
+      "status": "Done",
+      "net_days": 19.25,
+      "gross_days": 19.25,
+      "excluded_days": 0.0,
+      "cost_egp": 67375.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NCRM-427",
+      "summary": "Prevent the agent who doesn't own the listing from editing its price",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 1
+    }
+  ]
+}

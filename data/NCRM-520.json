@@ -1,0 +1,202 @@
+{
+  "epic_key": "NCRM-520",
+  "epic_name": "Owners",
+  "project_key": "NCRM",
+  "project_name": "NawyCRM",
+  "generated_at": "2026-07-16T11:21:08.462700",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 17,
+  "complete_tickets": 15,
+  "in_progress_tickets": 2,
+  "total_net_days": 127.92,
+  "total_cost_egp": 447720.0,
+  "tickets": [
+    {
+      "key": "NCRM-462",
+      "summary": "[BE] Triggering comments to send comment on owners and notification",
+      "status": "Done",
+      "net_days": 20.8,
+      "gross_days": 20.8,
+      "excluded_days": 0.0,
+      "cost_egp": 72800.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NCRM-463",
+      "summary": "[OBE] Triggering comments from owners to send comments on CRM leads and notification",
+      "status": "Done",
+      "net_days": 15.58,
+      "gross_days": 15.58,
+      "excluded_days": 0.0,
+      "cost_egp": 54530.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NCRM-488",
+      "summary": "[OFE] Triggering comments from owners to send comments on CRM leads and notification",
+      "status": "Done",
+      "net_days": 2.1,
+      "gross_days": 2.1,
+      "excluded_days": 0.0,
+      "cost_egp": 7350.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NCRM-489",
+      "summary": "[FE] Triggering comments to send comment on owners and notification",
+      "status": "Done",
+      "net_days": 6.25,
+      "gross_days": 6.25,
+      "excluded_days": 0.0,
+      "cost_egp": 21875.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NCRM-497",
+      "summary": "Listing isn't synced to the CRM even though the lead exists, is a seller and synced the owner to owners' portal",
+      "status": "Done",
+      "net_days": 0.4,
+      "gross_days": 0.4,
+      "excluded_days": 0.0,
+      "cost_egp": 1400.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NCRM-504",
+      "summary": "Owners delivery date is ready to move for old units (even the new ones)",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NCRM-505",
+      "summary": "issue of Images not appearing",
+      "status": "Done",
+      "net_days": 10.01,
+      "gross_days": 10.01,
+      "excluded_days": 0.0,
+      "cost_egp": 35035.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NCRM-506",
+      "summary": "Zero bedrooms and zero bathrooms option",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NCRM-507",
+      "summary": "Filter by unpriced units on CRM",
+      "status": "Done",
+      "net_days": 12.33,
+      "gross_days": 12.33,
+      "excluded_days": 0.0,
+      "cost_egp": 43155.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NCRM-521",
+      "summary": "Editing downpayment and installements and well as Total price",
+      "status": "Done",
+      "net_days": 10.01,
+      "gross_days": 10.01,
+      "excluded_days": 0.0,
+      "cost_egp": 35035.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NCRM-2884",
+      "summary": "Log Listing Activity Comment for Resale Seller Leads",
+      "status": "Done",
+      "net_days": 4.14,
+      "gross_days": 5.18,
+      "excluded_days": 1.04,
+      "cost_egp": 14490.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NCRM-2885",
+      "summary": "Enable Bulk Actions in Property tracks",
+      "status": "Open",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "NCRM-2886",
+      "summary": "Allow Agents to Edit Resale Seller Personal Units",
+      "status": "Released",
+      "net_days": 18.61,
+      "gross_days": 18.8,
+      "excluded_days": 0.19,
+      "cost_egp": 65135.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NCRM-2888",
+      "summary": "Support Long Description for Resale Listing",
+      "status": "Open",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "NCRM-2966",
+      "summary": "Notify Assigned Admin on Unit Update (Resale Track)",
+      "status": "Ready for Deployment",
+      "net_days": 3.69,
+      "gross_days": 8.12,
+      "excluded_days": 4.43,
+      "cost_egp": 12915.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NCRM-2967",
+      "summary": "Auto De-list Unit from Inventory on Lead Sold Status",
+      "status": "Released",
+      "net_days": 18.93,
+      "gross_days": 22.74,
+      "excluded_days": 3.8,
+      "cost_egp": 66255.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NCRM-2968",
+      "summary": "Isolate Hold and Sold Track Status Updates to the Track Level When a Lead Has Multiple Tracks",
+      "status": "Done",
+      "net_days": 5.07,
+      "gross_days": 6.17,
+      "excluded_days": 1.1,
+      "cost_egp": 17745.0,
+      "is_complete": true,
+      "num_spans": 1
+    }
+  ]
+}
