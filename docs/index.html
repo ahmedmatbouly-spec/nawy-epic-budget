@@ -142,6 +142,8 @@ let epics = loadAllEpics();
 let activeEpic = Object.keys(epics)[0] || null;
 let activeProject = activeEpic ? (epics[activeEpic].project_name || epics[activeEpic].project_key) : null;
 let rate = activeEpic ? (epics[activeEpic].rate_per_day_egp || 3500) : 3500;
+let filterYear = 'all';
+let filterQuarter = 'all';
 let sortCol = 'net_days';
 let sortDir = -1;
 let liveDataStatus = 'loading'; // 'loading' | 'live' | 'none'
@@ -162,8 +164,49 @@ async function initLiveData() {
   render();
 }
 
+function epicMatchesFilter(epic) {
+  if (filterYear === 'all' && filterQuarter === 'all') return true;
+  if (!epic.epic_created) return false; // no date on record - exclude when a filter is active
+  const d = new Date(epic.epic_created);
+  if (isNaN(d.getTime())) return false;
+  const y = d.getFullYear();
+  const month = d.getMonth(); // 0-11
+  if (filterYear !== 'all' && String(y) !== filterYear) return false;
+  if (filterQuarter !== 'all') {
+    const q = Math.floor(month / 3) + 1; // 1-4
+    if (`Q${q}` !== filterQuarter) return false;
+  }
+  return true;
+}
+
 function render() {
   const root = document.getElementById('root');
+  // Apply the year/quarter filter first - everything downstream (tabs, dropdown,
+  // portfolio totals) only considers epics that pass it.
+  const filteredKeys = Object.keys(epics).filter(k => epicMatchesFilter(epics[k]));
+
+  const portfolioDays = filteredKeys.reduce((s, k) => s + (epics[k].total_net_days || 0), 0);
+  const portfolioCost = portfolioDays * rate;
+
+  // Group (filtered) epics by project
+  const projectsMap = {}; // project_name -> [ {key, epic_name}, ... ]
+  filteredKeys.forEach(k => {
+    const e = epics[k];
+    const pName = e.project_name || e.project_key || k.split('-')[0];
+    if (!projectsMap[pName]) projectsMap[pName] = [];
+    projectsMap[pName].push({ key: k, name: e.epic_name || k });
+  });
+  const projectNames = Object.keys(projectsMap).sort();
+  if (!activeProject || !projectsMap[activeProject]) activeProject = projectNames[0] || null;
+  if (!activeProject) {
+    activeEpic = null;
+  } else if (!activeEpic || !projectsMap[activeProject].some(e => e.key === activeEpic)) {
+    // If the active epic got filtered out, fall back to the top epic in the active project
+    const opts = projectsMap[activeProject].slice().sort((a, b) => (epics[b.key].total_cost_egp || 0) - (epics[a.key].total_cost_egp || 0));
+    activeEpic = opts.length ? opts[0].key : null;
+    if (activeEpic) rate = epics[activeEpic].rate_per_day_egp || rate;
+  }
+
   const current = activeEpic ? epics[activeEpic] : null;
   const tickets = current ? (current.tickets || []) : [];
 
@@ -173,22 +216,11 @@ function render() {
   const inProgress = tickets.length - complete;
   const avgDays = tickets.length ? totalDays / tickets.length : 0;
 
-  // Group epics by project (falls back to deriving from key prefix if project fields are absent)
-  const projectsMap = {}; // project_name -> [ {key, epic_name}, ... ]
-  Object.keys(epics).forEach(k => {
-    const e = epics[k];
-    const pName = e.project_name || e.project_key || k.split('-')[0];
-    if (!projectsMap[pName]) projectsMap[pName] = [];
-    projectsMap[pName].push({ key: k, name: e.epic_name || k });
-  });
-  const projectNames = Object.keys(projectsMap).sort();
-  if (!activeProject || !projectsMap[activeProject]) activeProject = projectNames[0] || null;
-
   const tabs = projectNames.map(p =>
     `<div class="project-tab${p === activeProject ? ' active' : ''}" data-project="${escapeHtml(p)}">${escapeHtml(p)} <span style="opacity:0.6; font-weight:500;">(${projectsMap[p].length})</span></div>`
   ).join('');
 
-  const epicOptions = activeProject ? projectsMap[activeProject]
+  const epicOptions = activeProject && projectsMap[activeProject] ? projectsMap[activeProject]
     .slice()
     .sort((a, b) => (epics[b.key].total_cost_egp || 0) - (epics[a.key].total_cost_egp || 0))
     .map(e => `<option value="${escapeHtml(e.key)}" ${e.key === activeEpic ? 'selected' : ''}>${escapeHtml(e.key)} — ${escapeHtml(e.name)}</option>`)
@@ -225,10 +257,32 @@ function render() {
         <label>Cost / business day</label>
         <input type="number" id="rateInput" value="${rate}">
       </div>
+      <div class="field">
+        <label>Year</label>
+        <select id="yearFilter"></select>
+      </div>
+      <div class="field">
+        <label>Quarter</label>
+        <select id="quarterFilter">
+          <option value="all">All</option>
+          <option value="Q1">Q1 (Jan–Mar)</option>
+          <option value="Q2">Q2 (Apr–Jun)</option>
+          <option value="Q3">Q3 (Jul–Sep)</option>
+          <option value="Q4">Q4 (Oct–Dec)</option>
+        </select>
+      </div>
       <div class="helptext" style="flex:1; align-self:center;">
-        Default 3,500 EGP/day. Changing this recalculates cost live for the epic shown below (does not affect saved data).
+        Rate defaults to 3,500 EGP/day. Year/Quarter filters by each epic's creation date — pick both for a specific quarter (e.g. Year=2026, Quarter=Q1), or either alone.
       </div>
     </div>
+
+    ${(filterYear !== 'all' || filterQuarter !== 'all') ? `
+      <div class="kpi highlight" style="margin-bottom:18px;">
+        <div class="label">Portfolio total for ${escapeHtml(filterYear === 'all' ? 'all years' : filterYear)}${filterQuarter !== 'all' ? ' · ' + escapeHtml(filterQuarter) : ''}</div>
+        <div class="value">${formatEGP(portfolioCost)}</div>
+        <div class="sub">${portfolioDays.toFixed(1)} business days across ${filteredKeys.length} epic${filteredKeys.length === 1 ? '' : 's'}</div>
+      </div>
+    ` : ''}
 
     ${projectNames.length > 0 ? `<div class="project-tabs">${tabs}</div>` : ''}
     ${activeProject ? `
@@ -236,7 +290,7 @@ function render() {
         <label>Epic</label>
         <select class="epic-select" id="epicSelect">${epicOptions}</select>
       </div>
-    ` : ''}
+    ` : (filteredKeys.length === 0 ? `<div class="empty">No epics match this time filter.</div>` : '')}
 
     ${current ? `
       <h2 style="font-size:18px; margin: 4px 0 12px; font-weight:700;">
@@ -312,11 +366,43 @@ function attachHandlers() {
     });
   }
 
+  const yearFilter = document.getElementById('yearFilter');
+  if (yearFilter) {
+    // Populate available years from the data (once per render is cheap enough here)
+    const years = new Set();
+    Object.values(epics).forEach(e => {
+      if (e.epic_created) {
+        const d = new Date(e.epic_created);
+        if (!isNaN(d.getTime())) years.add(d.getFullYear());
+      }
+    });
+    const sortedYears = Array.from(years).sort((a, b) => b - a);
+    yearFilter.innerHTML = `<option value="all">All</option>` +
+      sortedYears.map(y => `<option value="${y}" ${String(y) === filterYear ? 'selected' : ''}>${y}</option>`).join('');
+    yearFilter.value = filterYear;
+    yearFilter.addEventListener('change', () => {
+      filterYear = yearFilter.value;
+      render();
+    });
+  }
+
+  const quarterFilter = document.getElementById('quarterFilter');
+  if (quarterFilter) {
+    quarterFilter.value = filterQuarter;
+    quarterFilter.addEventListener('change', () => {
+      filterQuarter = quarterFilter.value;
+      render();
+    });
+  }
+
   document.querySelectorAll('.project-tab').forEach(el => {
     el.addEventListener('click', () => {
       activeProject = el.getAttribute('data-project');
-      // pick the highest-cost epic in this project by default
-      const inProject = Object.keys(epics).filter(k => (epics[k].project_name || epics[k].project_key || k.split('-')[0]) === activeProject);
+      // pick the highest-cost epic in this project (respecting the active time filter) by default
+      const inProject = Object.keys(epics).filter(k =>
+        epicMatchesFilter(epics[k]) &&
+        (epics[k].project_name || epics[k].project_key || k.split('-')[0]) === activeProject
+      );
       if (inProject.length) {
         inProject.sort((a, b) => (epics[b].total_cost_egp || 0) - (epics[a].total_cost_egp || 0));
         activeEpic = inProject[0];

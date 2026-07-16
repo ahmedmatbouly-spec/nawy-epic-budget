@@ -114,7 +114,7 @@ def get_epics_in_project(project_key):
     while True:
         body = {
             "jql": f"project = {project_key} AND issuetype = Epic ORDER BY created ASC",
-            "fields": ["summary", "status"],
+            "fields": ["summary", "status", "created"],
             "maxResults": 100,
         }
         if next_token:
@@ -124,14 +124,14 @@ def get_epics_in_project(project_key):
         next_token = data.get("nextPageToken")
         if not next_token or data.get("isLast", True):
             break
-    return [(e["key"], e["fields"]["summary"]) for e in epics]
+    return [(e["key"], e["fields"]["summary"], e["fields"].get("created")) for e in epics]
 
 
 def get_epic_name(epic_key):
-    """Fetch a single epic's summary/name (used when an epic key is listed
-    explicitly in epics.json rather than discovered via a project scan)."""
-    data = jira_get(f"/rest/api/3/issue/{epic_key}", {"fields": "summary"})
-    return data["fields"]["summary"]
+    """Fetch a single epic's summary/name/created date (used when an epic key
+    is listed explicitly in epics.json rather than discovered via a project scan)."""
+    data = jira_get(f"/rest/api/3/issue/{epic_key}", {"fields": "summary,created"})
+    return data["fields"]["summary"], data["fields"].get("created")
 
 
 def get_child_issues(epic_key):
@@ -245,7 +245,7 @@ def compute_net_days(transitions, current_status_name, now=None):
     }
 
 
-def process_epic(epic_key, epic_name=None, project_key=None, project_name=None):
+def process_epic(epic_key, epic_name=None, project_key=None, project_name=None, epic_created=None):
     project_key = project_key or epic_key.split("-")[0]
     project_name = project_name or project_key
     print(f"Fetching {epic_key} ({epic_name or 'name unknown'}) ...")
@@ -281,6 +281,7 @@ def process_epic(epic_key, epic_name=None, project_key=None, project_name=None):
         "epic_name": epic_name or epic_key,
         "project_key": project_key,
         "project_name": project_name,
+        "epic_created": epic_created,
         "generated_at": datetime.now().isoformat(),
         "rate_per_day_egp": RATE_PER_DAY,
         "total_tickets": len(tickets),
@@ -314,7 +315,7 @@ def main():
     if isinstance(config, list):
         config = {"projects": [], "epics": config}
 
-    # epic_key -> {"epic_name":..., "project_key":..., "project_name":...}
+    # epic_key -> {"epic_name":..., "project_key":..., "project_name":..., "epic_created":...}
     epics_to_process = {}
     project_name_cache = {}
 
@@ -324,11 +325,12 @@ def main():
             project_name_cache[project_key] = get_project_name(project_key)
         found = get_epics_in_project(project_key)
         print(f"  found {len(found)} epics")
-        for key, name in found:
+        for key, name, created in found:
             epics_to_process[key] = {
                 "epic_name": name,
                 "project_key": project_key,
                 "project_name": project_name_cache[project_key],
+                "epic_created": created,
             }
 
     for epic_key in config.get("epics", []):
@@ -337,24 +339,27 @@ def main():
             if proj_key not in project_name_cache:
                 project_name_cache[proj_key] = get_project_name(proj_key)
             try:
-                name = get_epic_name(epic_key)
+                name, created = get_epic_name(epic_key)
             except Exception as e:
                 print(f"  Could not fetch name for {epic_key}: {e}")
-                name = epic_key
+                name, created = epic_key, None
             epics_to_process[epic_key] = {
                 "epic_name": name,
                 "project_key": proj_key,
                 "project_name": project_name_cache[proj_key],
+                "epic_created": created,
             }
 
     summaries = []
     for epic_key, meta in epics_to_process.items():
-        result = process_epic(epic_key, meta["epic_name"], meta["project_key"], meta["project_name"])
+        result = process_epic(epic_key, meta["epic_name"], meta["project_key"],
+                               meta["project_name"], meta["epic_created"])
         summaries.append({
             "epic_key": result["epic_key"],
             "epic_name": result["epic_name"],
             "project_key": result["project_key"],
             "project_name": result["project_name"],
+            "epic_created": result["epic_created"],
             "total_net_days": result["total_net_days"],
             "total_cost_egp": result["total_cost_egp"],
             "total_tickets": result["total_tickets"],
