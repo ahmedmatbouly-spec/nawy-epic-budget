@@ -1,7 +1,9 @@
 {
   "epic_key": "SC-874",
   "epic_name": "Task Manager",
-  "generated_at": "2026-07-16T10:23:34.829292",
+  "project_key": "SC",
+  "project_name": "Suite Control ",
+  "generated_at": "2026-07-16T10:43:24.040426",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 4,
   "complete_tickets": 3,

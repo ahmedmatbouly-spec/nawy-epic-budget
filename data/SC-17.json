@@ -1,7 +1,9 @@
 {
   "epic_key": "SC-17",
   "epic_name": "Enable Backend Permission Registration in Suite Control",
-  "generated_at": "2026-07-16T10:21:53.560545",
+  "project_key": "SC",
+  "project_name": "Suite Control ",
+  "generated_at": "2026-07-16T10:42:00.919834",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 2,
   "complete_tickets": 2,

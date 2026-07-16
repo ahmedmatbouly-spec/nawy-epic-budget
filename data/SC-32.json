@@ -1,7 +1,9 @@
 {
   "epic_key": "SC-32",
   "epic_name": "Unified Homepage and Header Enhancements",
-  "generated_at": "2026-07-16T10:22:20.118749",
+  "project_key": "SC",
+  "project_name": "Suite Control ",
+  "generated_at": "2026-07-16T10:42:24.745600",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 5,
   "complete_tickets": 5,

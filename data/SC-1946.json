@@ -1,7 +1,9 @@
 {
   "epic_key": "SC-1946",
   "epic_name": "[Mystique] Personalized Views service \u2014 layered view personalization with UMS replication",
-  "generated_at": "2026-07-16T10:24:44.647425",
+  "project_key": "SC",
+  "project_name": "Suite Control ",
+  "generated_at": "2026-07-16T10:44:23.952120",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 17,
   "complete_tickets": 0,

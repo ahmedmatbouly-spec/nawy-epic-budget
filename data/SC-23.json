@@ -1,7 +1,9 @@
 {
   "epic_key": "SC-23",
   "epic_name": "Odoo Integration",
-  "generated_at": "2026-07-16T10:22:03.998459",
+  "project_key": "SC",
+  "project_name": "Suite Control ",
+  "generated_at": "2026-07-16T10:42:10.780328",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 19,
   "complete_tickets": 12,
