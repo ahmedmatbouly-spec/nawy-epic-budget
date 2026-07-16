@@ -1,0 +1,114 @@
+{
+  "epic_key": "IMS-1001",
+  "epic_name": "SEO , FAQS content",
+  "project_key": "IMS",
+  "project_name": "Inventory Management System ",
+  "generated_at": "2026-07-16T12:54:09.811525",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 9,
+  "complete_tickets": 6,
+  "in_progress_tickets": 3,
+  "total_net_days": 74.79,
+  "total_cost_egp": 261765.0,
+  "tickets": [
+    {
+      "key": "IMS-963",
+      "summary": "Ai SEO Content Generation for Areas",
+      "status": "Done",
+      "net_days": 22.66,
+      "gross_days": 22.66,
+      "excluded_days": 0.0,
+      "cost_egp": 79310.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "IMS-964",
+      "summary": "Ai SEO Content Generation for Compounds",
+      "status": "Done",
+      "net_days": 22.66,
+      "gross_days": 22.66,
+      "excluded_days": 0.0,
+      "cost_egp": 79310.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "IMS-965",
+      "summary": "Ai SEO Content Generation for Developers",
+      "status": "Done",
+      "net_days": 13.32,
+      "gross_days": 13.32,
+      "excluded_days": 0.0,
+      "cost_egp": 46620.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "IMS-966",
+      "summary": "Ai FAQs Content Generation for Areas",
+      "status": "Open",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "IMS-967",
+      "summary": "Ai FAQs Content Generation for Developers",
+      "status": "Open",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "IMS-968",
+      "summary": "Ai FAQs Content Generation for Compounds",
+      "status": "Open",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "IMS-1049",
+      "summary": "Areas FAQs",
+      "status": "Done",
+      "net_days": 7.18,
+      "gross_days": 13.58,
+      "excluded_days": 6.4,
+      "cost_egp": 25130.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "IMS-1188",
+      "summary": "SEO Editor Fixes",
+      "status": "Done",
+      "net_days": 3.64,
+      "gross_days": 6.72,
+      "excluded_days": 3.08,
+      "cost_egp": 12740.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "IMS-1189",
+      "summary": "FAQs Language Separation and Migration",
+      "status": "Done",
+      "net_days": 5.33,
+      "gross_days": 6.0,
+      "excluded_days": 0.67,
+      "cost_egp": 18655.0,
+      "is_complete": true,
+      "num_spans": 1
+    }
+  ]
+}

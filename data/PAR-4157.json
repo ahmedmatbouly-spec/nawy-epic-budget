@@ -1,0 +1,136 @@
+{
+  "epic_key": "PAR-4157",
+  "epic_name": "[Activation] Partners onboarding & homepage revamp ",
+  "project_key": "PAR",
+  "project_name": "Partners",
+  "generated_at": "2026-07-16T12:49:12.487489",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 11,
+  "complete_tickets": 11,
+  "in_progress_tickets": 0,
+  "total_net_days": 97.89,
+  "total_cost_egp": 342615.0,
+  "tickets": [
+    {
+      "key": "PAR-3655",
+      "summary": "[App][Homepage] Quick access menu & Navigation Bar",
+      "status": "Done",
+      "net_days": 5.34,
+      "gross_days": 6.0,
+      "excluded_days": 0.66,
+      "cost_egp": 18690.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "PAR-3656",
+      "summary": "[App][Homepage] Spotlights onboarding & New tags",
+      "status": "Done",
+      "net_days": 3.94,
+      "gross_days": 4.83,
+      "excluded_days": 0.89,
+      "cost_egp": 13790.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "PAR-3657",
+      "summary": "[App][Homepage] Developer contacts list",
+      "status": "Done",
+      "net_days": 6.25,
+      "gross_days": 6.35,
+      "excluded_days": 0.1,
+      "cost_egp": 21875.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "PAR-3658",
+      "summary": "[App][Homepage] Earnings calculator",
+      "status": "Done",
+      "net_days": 2.95,
+      "gross_days": 3.88,
+      "excluded_days": 0.93,
+      "cost_egp": 10325.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "PAR-3659",
+      "summary": "[App][Homepage] Sales pipeline component revamp",
+      "status": "Done",
+      "net_days": 8.35,
+      "gross_days": 8.35,
+      "excluded_days": 0.0,
+      "cost_egp": 29225.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "PAR-3709",
+      "summary": "[BE] Freelancers NIDs OCR & status migration",
+      "status": "Ready for Deployment",
+      "net_days": 56.52,
+      "gross_days": 59.3,
+      "excluded_days": 2.78,
+      "cost_egp": 197820.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "PAR-3894",
+      "summary": "[App][Release] Homepage revamp & events",
+      "status": "Done",
+      "net_days": 4.06,
+      "gross_days": 4.06,
+      "excluded_days": 0.0,
+      "cost_egp": 14210.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "PAR-4038",
+      "summary": "[App] Update partners contracts",
+      "status": "Done",
+      "net_days": 3.08,
+      "gross_days": 4.1,
+      "excluded_days": 1.02,
+      "cost_egp": 10780.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "PAR-4133",
+      "summary": "[Spike][BE] Freelancers NIDs OCR & status migration",
+      "status": "Done",
+      "net_days": 2.47,
+      "gross_days": 2.47,
+      "excluded_days": 0.0,
+      "cost_egp": 8645.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "PAR-4144",
+      "summary": "[BE] update sales pipeline onboarding videos",
+      "status": "Done",
+      "net_days": 2.64,
+      "gross_days": 6.91,
+      "excluded_days": 4.27,
+      "cost_egp": 9240.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "PAR-4312",
+      "summary": "[BE] [Discovery] Freelancers NIDs OCR & status migration ",
+      "status": "Done",
+      "net_days": 2.29,
+      "gross_days": 2.31,
+      "excluded_days": 0.02,
+      "cost_egp": 8015.0,
+      "is_complete": true,
+      "num_spans": 1
+    }
+  ]
+}

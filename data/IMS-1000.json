@@ -1,0 +1,114 @@
+{
+  "epic_key": "IMS-1000",
+  "epic_name": "Audit Logs",
+  "project_key": "IMS",
+  "project_name": "Inventory Management System ",
+  "generated_at": "2026-07-16T12:54:05.348333",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 9,
+  "complete_tickets": 2,
+  "in_progress_tickets": 7,
+  "total_net_days": 176.98,
+  "total_cost_egp": 619430.0,
+  "tickets": [
+    {
+      "key": "IMS-839",
+      "summary": "IMS Audit Service",
+      "status": "Cancelled",
+      "net_days": 147.68,
+      "gross_days": 147.68,
+      "excluded_days": 0.0,
+      "cost_egp": 516880.0,
+      "is_complete": false,
+      "num_spans": 1
+    },
+    {
+      "key": "IMS-1210",
+      "summary": "Audit logs UI (Properties)",
+      "status": "Open",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "IMS-1211",
+      "summary": "Audit logs UI (Projects)",
+      "status": "Open",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "IMS-1216",
+      "summary": "Audit Logs (Property Lookups)",
+      "status": "Open",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "IMS-1217",
+      "summary": "Audit Logs (Project Lookups)",
+      "status": "Open",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "IMS-1218",
+      "summary": "Audit Logs (Areas)",
+      "status": "Open",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "IMS-1232",
+      "summary": "IMS Audit service [Dev only]",
+      "status": "Done",
+      "net_days": 24.65,
+      "gross_days": 24.65,
+      "excluded_days": 0.0,
+      "cost_egp": 86275.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "IMS-1351",
+      "summary": "Audit logs (Global Page) [Dev Only]",
+      "status": "Done",
+      "net_days": 4.65,
+      "gross_days": 4.65,
+      "excluded_days": 0.0,
+      "cost_egp": 16275.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "IMS-1408",
+      "summary": "Audit Logs (Developers)",
+      "status": "Open",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    }
+  ]
+}

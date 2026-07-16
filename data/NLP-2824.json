@@ -1,0 +1,37 @@
+{
+  "epic_key": "NLP-2824",
+  "epic_name": "Affordability Calculator",
+  "project_key": "NLP",
+  "project_name": "Nawy Listing Platform ",
+  "generated_at": "2026-07-16T12:59:08.679116",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 2,
+  "complete_tickets": 2,
+  "in_progress_tickets": 0,
+  "total_net_days": 22.06,
+  "total_cost_egp": 77210.0,
+  "tickets": [
+    {
+      "key": "NLP-2680",
+      "summary": "[MV] Affordability Calculator Banner",
+      "status": "Done",
+      "net_days": 9.6,
+      "gross_days": 9.6,
+      "excluded_days": 0.0,
+      "cost_egp": 33600.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NLP-2702",
+      "summary": "[MV] Affordability Calculator Stepper",
+      "status": "Done",
+      "net_days": 12.46,
+      "gross_days": 12.46,
+      "excluded_days": 0.0,
+      "cost_egp": 43610.0,
+      "is_complete": true,
+      "num_spans": 1
+    }
+  ]
+}

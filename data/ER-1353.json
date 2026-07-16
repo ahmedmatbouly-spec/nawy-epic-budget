@@ -1,0 +1,59 @@
+{
+  "epic_key": "ER-1353",
+  "epic_name": "Projects View",
+  "project_key": "ER",
+  "project_name": "eRealty",
+  "generated_at": "2026-07-16T13:03:37.693891",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 4,
+  "complete_tickets": 4,
+  "in_progress_tickets": 0,
+  "total_net_days": 44.43,
+  "total_cost_egp": 155505.0,
+  "tickets": [
+    {
+      "key": "ER-1382",
+      "summary": "Aggregated Projects Table View [Backend]",
+      "status": "Done",
+      "net_days": 12.42,
+      "gross_days": 12.42,
+      "excluded_days": 0.0,
+      "cost_egp": 43470.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-1425",
+      "summary": "Projects Cards changes for End-Consumer tool [Desktop ]",
+      "status": "Done",
+      "net_days": 20.66,
+      "gross_days": 28.58,
+      "excluded_days": 7.92,
+      "cost_egp": 72310.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-1495",
+      "summary": "Aggregated Projects Table View [Frontend]",
+      "status": "Done",
+      "net_days": 7.62,
+      "gross_days": 12.79,
+      "excluded_days": 5.17,
+      "cost_egp": 26670.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-1560",
+      "summary": "Projects Cards & Unit Cards changes for End-Consumer tool [Mobile view ]",
+      "status": "Done",
+      "net_days": 3.73,
+      "gross_days": 4.08,
+      "excluded_days": 0.35,
+      "cost_egp": 13055.0,
+      "is_complete": true,
+      "num_spans": 1
+    }
+  ]
+}

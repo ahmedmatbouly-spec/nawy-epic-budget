@@ -1,0 +1,136 @@
+{
+  "epic_key": "ER-65",
+  "epic_name": "Manual Blocking process (Front-End)",
+  "project_key": "ER",
+  "project_name": "eRealty",
+  "generated_at": "2026-07-16T13:02:49.710579",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 11,
+  "complete_tickets": 11,
+  "in_progress_tickets": 0,
+  "total_net_days": 1420.69,
+  "total_cost_egp": 4972415.0,
+  "tickets": [
+    {
+      "key": "ER-67",
+      "summary": "Manual Blocking Button",
+      "status": "Done",
+      "net_days": 73.42,
+      "gross_days": 73.42,
+      "excluded_days": 0.0,
+      "cost_egp": 256970.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-68",
+      "summary": "Lead Validation Form",
+      "status": "Done",
+      "net_days": 73.42,
+      "gross_days": 73.42,
+      "excluded_days": 0.0,
+      "cost_egp": 256970.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-69",
+      "summary": "Manual Blocking Form",
+      "status": "Done",
+      "net_days": 70.39,
+      "gross_days": 70.39,
+      "excluded_days": 0.0,
+      "cost_egp": 246365.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-95",
+      "summary": "Payment Link Email",
+      "status": "Done",
+      "net_days": 314.51,
+      "gross_days": 314.51,
+      "excluded_days": 0.0,
+      "cost_egp": 1100785.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-103",
+      "summary": "Payment plan in the property Panel (Zed West)",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "ER-104",
+      "summary": "Blocking Button in the property Panel (Zed West)",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "ER-113",
+      "summary": "Payment form Page",
+      "status": "Done",
+      "net_days": 437.01,
+      "gross_days": 437.01,
+      "excluded_days": 0.0,
+      "cost_egp": 1529535.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-114",
+      "summary": "E realty Logo and New branding",
+      "status": "Done",
+      "net_days": 451.94,
+      "gross_days": 451.94,
+      "excluded_days": 0.0,
+      "cost_egp": 1581790.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-115",
+      "summary": "New Card Design",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "ER-117",
+      "summary": "Auto-Generative Blocking form",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "ER-119",
+      "summary": "Log Out menu Button",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    }
+  ]
+}

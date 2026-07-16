@@ -1,0 +1,70 @@
+{
+  "epic_key": "PSQ-362",
+  "epic_name": "[UMS] Sentry Production Issues",
+  "project_key": "PSQ",
+  "project_name": "Platform Squad",
+  "generated_at": "2026-07-16T12:49:50.781802",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 5,
+  "complete_tickets": 5,
+  "in_progress_tickets": 0,
+  "total_net_days": 9.17,
+  "total_cost_egp": 32095.0,
+  "tickets": [
+    {
+      "key": "PSQ-355",
+      "summary": "[UMS] UsernameExistsException not handled on POST /admin/internal-users/create",
+      "status": "Done",
+      "net_days": 1.69,
+      "gross_days": 1.69,
+      "excluded_days": 0.0,
+      "cost_egp": 5915.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "PSQ-358",
+      "summary": "[UMS] UserNotFoundException not handled on PUT /admin/internal-users/:cognitoId/disable",
+      "status": "Done",
+      "net_days": 1.63,
+      "gross_days": 1.63,
+      "excluded_days": 0.0,
+      "cost_egp": 5705.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "PSQ-359",
+      "summary": "[UMS] Phone number unverify fails on disable when user has no phone number",
+      "status": "Done",
+      "net_days": 1.93,
+      "gross_days": 1.93,
+      "excluded_days": 0.0,
+      "cost_egp": 6755.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "PSQ-360",
+      "summary": "[UMS] Invalid email not validated before Cognito on PUT /admin/internal-users/:cognitoId",
+      "status": "Done",
+      "net_days": 1.95,
+      "gross_days": 1.95,
+      "excluded_days": 0.0,
+      "cost_egp": 6825.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "PSQ-361",
+      "summary": "[UMS] AliasExistsException not handled on PUT /v1/users/:cognitoId",
+      "status": "Done",
+      "net_days": 1.97,
+      "gross_days": 1.97,
+      "excluded_days": 0.0,
+      "cost_egp": 6895.0,
+      "is_complete": true,
+      "num_spans": 1
+    }
+  ]
+}

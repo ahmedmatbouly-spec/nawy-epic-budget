@@ -1,0 +1,48 @@
+{
+  "epic_key": "ER-25",
+  "epic_name": "Materials assignment",
+  "project_key": "ER",
+  "project_name": "eRealty",
+  "generated_at": "2026-07-16T13:02:30.016158",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 3,
+  "complete_tickets": 3,
+  "in_progress_tickets": 0,
+  "total_net_days": 9.55,
+  "total_cost_egp": 33425.0,
+  "tickets": [
+    {
+      "key": "ER-26",
+      "summary": "Buildings Materials",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "ER-27",
+      "summary": "Landscape Materials",
+      "status": "Done",
+      "net_days": 9.54,
+      "gross_days": 9.54,
+      "excluded_days": 0.0,
+      "cost_egp": 33390.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-107",
+      "summary": "Concrete",
+      "status": "Done",
+      "net_days": 0.01,
+      "gross_days": 0.01,
+      "excluded_days": 0.0,
+      "cost_egp": 35.0,
+      "is_complete": true,
+      "num_spans": 1
+    }
+  ]
+}

@@ -1,0 +1,180 @@
+{
+  "epic_key": "CM-407",
+  "epic_name": "Marketing Optimization dashboard",
+  "project_key": "CM",
+  "project_name": "Campaigns Management",
+  "generated_at": "2026-07-16T13:00:25.616781",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 15,
+  "complete_tickets": 15,
+  "in_progress_tickets": 0,
+  "total_net_days": 443.03,
+  "total_cost_egp": 1550605.0,
+  "tickets": [
+    {
+      "key": "CM-371",
+      "summary": "Integration with Data team for CRM updates",
+      "status": "Done",
+      "net_days": 130.46,
+      "gross_days": 130.46,
+      "excluded_days": 0.0,
+      "cost_egp": 456610.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "CM-408",
+      "summary": "Marketing Operational dashboard FE",
+      "status": "Done",
+      "net_days": 35.11,
+      "gross_days": 35.11,
+      "excluded_days": 0.0,
+      "cost_egp": 122885.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "CM-414",
+      "summary": "Adset data from FB",
+      "status": "Done",
+      "net_days": 61.51,
+      "gross_days": 61.51,
+      "excluded_days": 0.0,
+      "cost_egp": 215285.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "CM-420",
+      "summary": "Marketing Operational dashboard BE API",
+      "status": "Done",
+      "net_days": 42.5,
+      "gross_days": 42.5,
+      "excluded_days": 0.0,
+      "cost_egp": 148750.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "CM-426",
+      "summary": "Optimization Actions Endpoints",
+      "status": "Done",
+      "net_days": 32.57,
+      "gross_days": 32.57,
+      "excluded_days": 0.0,
+      "cost_egp": 113995.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "CM-427",
+      "summary": "Optimization Bulk Actions popups",
+      "status": "Done",
+      "net_days": 36.67,
+      "gross_days": 36.93,
+      "excluded_days": 0.27,
+      "cost_egp": 128345.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "CM-456",
+      "summary": "Marketing Optimization Dashboard BE setup",
+      "status": "Done",
+      "net_days": 40.52,
+      "gross_days": 40.52,
+      "excluded_days": 0.0,
+      "cost_egp": 141820.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "CM-463",
+      "summary": "Marketing optimization dashboard FE & BE integration",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "CM-464",
+      "summary": "Optimization expansion for daily breakdown",
+      "status": "Done",
+      "net_days": 24.58,
+      "gross_days": 24.58,
+      "excluded_days": 0.0,
+      "cost_egp": 86030.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "CM-488",
+      "summary": "Table filter on Column level",
+      "status": "Done",
+      "net_days": 4.57,
+      "gross_days": 4.57,
+      "excluded_days": 0.0,
+      "cost_egp": 15995.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "CM-509",
+      "summary": "Marketing Operations Integration ",
+      "status": "Done",
+      "net_days": 17.19,
+      "gross_days": 17.19,
+      "excluded_days": 0.0,
+      "cost_egp": 60165.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "CM-517",
+      "summary": "Handling Table filter on marketing optimization",
+      "status": "Done",
+      "net_days": 4.11,
+      "gross_days": 15.55,
+      "excluded_days": 11.44,
+      "cost_egp": 14385.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "CM-537",
+      "summary": "Ad set data history -Setup infra structure",
+      "status": "Done",
+      "net_days": 13.24,
+      "gross_days": 13.24,
+      "excluded_days": 0.0,
+      "cost_egp": 46340.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "CM-539",
+      "summary": "FE & BE - Ad set History Table",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "CM-590",
+      "summary": "Refactor Marketing Optimization dashboard BE",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    }
+  ]
+}

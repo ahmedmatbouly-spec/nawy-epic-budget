@@ -1,0 +1,169 @@
+{
+  "epic_key": "IMS-1052",
+  "epic_name": "Payment Plans",
+  "project_key": "IMS",
+  "project_name": "Inventory Management System ",
+  "generated_at": "2026-07-16T12:54:25.177514",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 14,
+  "complete_tickets": 13,
+  "in_progress_tickets": 1,
+  "total_net_days": 67.07,
+  "total_cost_egp": 234745.0,
+  "tickets": [
+    {
+      "key": "IMS-1043",
+      "summary": "Payment Plans Bulk Installments [Dev only]",
+      "status": "Done",
+      "net_days": 2.32,
+      "gross_days": 2.32,
+      "excluded_days": 0.0,
+      "cost_egp": 8120.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "IMS-1048",
+      "summary": "Payment plan delete from side drawer in unit detailed view",
+      "status": "Done",
+      "net_days": 0.01,
+      "gross_days": 9.35,
+      "excluded_days": 9.34,
+      "cost_egp": 35.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "IMS-1158",
+      "summary": "Payment Plans installments calculation and validations",
+      "status": "Done",
+      "net_days": 8.72,
+      "gross_days": 10.72,
+      "excluded_days": 2.0,
+      "cost_egp": 30520.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "IMS-1382",
+      "summary": "Payment Plan Card, Expandable View and Side Drawer - New UI Implementation [Dev only]",
+      "status": "Done",
+      "net_days": 2.15,
+      "gross_days": 2.15,
+      "excluded_days": 0.0,
+      "cost_egp": 7525.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "IMS-1383",
+      "summary": "Prices and Payment Plans on Grouped Properties",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "IMS-1384",
+      "summary": "Prices and Payment Plans on Detailed Properties Table",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "IMS-1385",
+      "summary": "Payment Plan Creation / Edit form UI Enhancement [Dev only]",
+      "status": "Done",
+      "net_days": 2.51,
+      "gross_days": 2.51,
+      "excluded_days": 0.0,
+      "cost_egp": 8785.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "IMS-1414",
+      "summary": "Projects Payment Plans Global Page",
+      "status": "Done",
+      "net_days": 7.52,
+      "gross_days": 8.71,
+      "excluded_days": 1.2,
+      "cost_egp": 26320.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "IMS-1546",
+      "summary": "Edit Payment Plans",
+      "status": "Done",
+      "net_days": 9.82,
+      "gross_days": 12.05,
+      "excluded_days": 2.24,
+      "cost_egp": 34370.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "IMS-1548",
+      "summary": "Payment plans Ingestion status flag",
+      "status": "Done",
+      "net_days": 8.9,
+      "gross_days": 11.14,
+      "excluded_days": 2.24,
+      "cost_egp": 31150.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "IMS-1603",
+      "summary": "Payment Plans Bulk Installments [UAT Only]",
+      "status": "Done",
+      "net_days": 1.36,
+      "gross_days": 13.75,
+      "excluded_days": 12.39,
+      "cost_egp": 4760.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "IMS-1604",
+      "summary": "Payment Plan Creation / Edit form UI Enhancement [UAT only]",
+      "status": "Done",
+      "net_days": 11.39,
+      "gross_days": 13.6,
+      "excluded_days": 2.21,
+      "cost_egp": 39865.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "IMS-1605",
+      "summary": "Payment Plan Card, Expandable View and Side Drawer - New UI Implementation [Testing only]",
+      "status": "Done",
+      "net_days": 12.37,
+      "gross_days": 13.73,
+      "excluded_days": 1.36,
+      "cost_egp": 43295.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "IMS-1783",
+      "summary": "Payment Plans global page and tab enhancements",
+      "status": "Open",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    }
+  ]
+}

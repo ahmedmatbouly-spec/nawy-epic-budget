@@ -1,0 +1,158 @@
+{
+  "epic_key": "IMS-91",
+  "epic_name": "Primary Detailed Properties",
+  "project_key": "IMS",
+  "project_name": "Inventory Management System ",
+  "generated_at": "2026-07-16T12:52:28.043134",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 13,
+  "complete_tickets": 10,
+  "in_progress_tickets": 3,
+  "total_net_days": 303.97,
+  "total_cost_egp": 1063895.0,
+  "tickets": [
+    {
+      "key": "IMS-120",
+      "summary": "Detailed Properties Table",
+      "status": "Done",
+      "net_days": 65.6,
+      "gross_days": 65.6,
+      "excluded_days": 0.0,
+      "cost_egp": 229600.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "IMS-420",
+      "summary": "( Detailed Properties Table ) Headers not ordered according to story",
+      "status": "Done",
+      "net_days": 7.52,
+      "gross_days": 7.52,
+      "excluded_days": 0.0,
+      "cost_egp": 26320.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "IMS-422",
+      "summary": "(Detailed Properties Table) Property Category in missing in filter bar ",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "IMS-423",
+      "summary": "(Detailed Properties Table) Some table columns are not sortable",
+      "status": "Invalid",
+      "net_days": 195.69,
+      "gross_days": 197.48,
+      "excluded_days": 1.79,
+      "cost_egp": 684915.0,
+      "is_complete": false,
+      "num_spans": 1
+    },
+    {
+      "key": "IMS-424",
+      "summary": "((Detailed Properties Table) Delivery Date data is missing from the API response.",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "IMS-425",
+      "summary": "(Detailed Properties Table) Max monthly payment in advanced filter ",
+      "status": "Invalid",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "IMS-426",
+      "summary": "(Detailed Properties Table) Gross area and Net area have the same number",
+      "status": "Done",
+      "net_days": 7.4,
+      "gross_days": 7.4,
+      "excluded_days": 0.0,
+      "cost_egp": 25900.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "IMS-428",
+      "summary": "(Detailed Properties Table)Selecting +6 Bedrooms in the advanced filter gives an error ",
+      "status": "Done",
+      "net_days": 7.0,
+      "gross_days": 7.0,
+      "excluded_days": 0.0,
+      "cost_egp": 24500.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "IMS-429",
+      "summary": "(Detailed Properties Table) Selecting +6 Bathroom in the advanced filter gives an error",
+      "status": "Done",
+      "net_days": 7.0,
+      "gross_days": 7.0,
+      "excluded_days": 0.0,
+      "cost_egp": 24500.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "IMS-430",
+      "summary": "(Detailed Properties Table) Delivery data values in the table are incorrect",
+      "status": "Done",
+      "net_days": 5.72,
+      "gross_days": 5.72,
+      "excluded_days": 0.0,
+      "cost_egp": 20020.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "IMS-431",
+      "summary": "(Detailed Properties Table) Some of the filters in the row filter section are missing",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "IMS-464",
+      "summary": "(Primary Properties Creation flow) Storage Area and Outdoor Area placed in wrong section",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "IMS-1577",
+      "summary": "Developer Types Revamp",
+      "status": "Ready for Deployment",
+      "net_days": 8.04,
+      "gross_days": 10.12,
+      "excluded_days": 2.08,
+      "cost_egp": 28140.0,
+      "is_complete": true,
+      "num_spans": 1
+    }
+  ]
+}

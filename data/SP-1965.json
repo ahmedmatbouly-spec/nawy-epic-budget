@@ -1,0 +1,26 @@
+{
+  "epic_key": "SP-1965",
+  "epic_name": "New Launches EOIs Handling",
+  "project_key": "SP",
+  "project_name": "Sales Portal",
+  "generated_at": "2026-07-16T13:02:07.646501",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 1,
+  "complete_tickets": 1,
+  "in_progress_tickets": 0,
+  "total_net_days": 2.28,
+  "total_cost_egp": 7980.0,
+  "tickets": [
+    {
+      "key": "SP-1892",
+      "summary": "New Launches EOIs Endpoint",
+      "status": "Done",
+      "net_days": 2.28,
+      "gross_days": 2.28,
+      "excluded_days": 0.0,
+      "cost_egp": 7980.0,
+      "is_complete": true,
+      "num_spans": 1
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "epic_key": "PAR-345",
+  "epic_name": "multiple CRMs ",
+  "project_key": "PAR",
+  "project_name": "Partners",
+  "generated_at": "2026-07-16T12:47:36.006445",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 4,
+  "complete_tickets": 4,
+  "in_progress_tickets": 0,
+  "total_net_days": 70.61,
+  "total_cost_egp": 247135.0,
+  "tickets": [
+    {
+      "key": "PAR-346",
+      "summary": "CRM Configuration",
+      "status": "Done",
+      "net_days": 28.79,
+      "gross_days": 28.79,
+      "excluded_days": 0.0,
+      "cost_egp": 100765.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "PAR-360",
+      "summary": "CRM Task definition and architecture",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "PAR-363",
+      "summary": "User Management System CRM Handling",
+      "status": "Done",
+      "net_days": 20.91,
+      "gross_days": 20.91,
+      "excluded_days": 0.0,
+      "cost_egp": 73185.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "PAR-430",
+      "summary": "Dynamic CRMs Lead Request",
+      "status": "Done",
+      "net_days": 20.91,
+      "gross_days": 20.91,
+      "excluded_days": 0.0,
+      "cost_egp": 73185.0,
+      "is_complete": true,
+      "num_spans": 1
+    }
+  ]
+}

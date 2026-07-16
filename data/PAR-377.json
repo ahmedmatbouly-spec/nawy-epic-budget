@@ -1,0 +1,59 @@
+{
+  "epic_key": "PAR-377",
+  "epic_name": "Flutter Onboarding",
+  "project_key": "PAR",
+  "project_name": "Partners",
+  "generated_at": "2026-07-16T12:47:38.110363",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 4,
+  "complete_tickets": 4,
+  "in_progress_tickets": 0,
+  "total_net_days": 4.4,
+  "total_cost_egp": 15400.0,
+  "tickets": [
+    {
+      "key": "PAR-378",
+      "summary": "Flutter Session 1",
+      "status": "Done",
+      "net_days": 2.2,
+      "gross_days": 2.2,
+      "excluded_days": 0.0,
+      "cost_egp": 7700.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "PAR-379",
+      "summary": "Session 1",
+      "status": "Done",
+      "net_days": 2.2,
+      "gross_days": 2.2,
+      "excluded_days": 0.0,
+      "cost_egp": 7700.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "PAR-386",
+      "summary": "Flutter Session 2",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "PAR-390",
+      "summary": "Session 2",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    }
+  ]
+}

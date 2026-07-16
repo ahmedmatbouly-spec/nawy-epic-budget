@@ -1,0 +1,59 @@
+{
+  "epic_key": "IMS-1379",
+  "epic_name": "Workflows and Alerting Automation",
+  "project_key": "IMS",
+  "project_name": "Inventory Management System ",
+  "generated_at": "2026-07-16T12:54:35.684227",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 4,
+  "complete_tickets": 4,
+  "in_progress_tickets": 0,
+  "total_net_days": 29.13,
+  "total_cost_egp": 101955.0,
+  "tickets": [
+    {
+      "key": "IMS-1441",
+      "summary": "n8n Instance Linked to Listing Database",
+      "status": "Done",
+      "net_days": 1.04,
+      "gross_days": 1.04,
+      "excluded_days": 0.0,
+      "cost_egp": 3640.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "IMS-1489",
+      "summary": "Projects Data Coverage Report Daily Email [Dev Only]",
+      "status": "Done",
+      "net_days": 28.09,
+      "gross_days": 28.09,
+      "excluded_days": 0.0,
+      "cost_egp": 98315.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "IMS-1667",
+      "summary": "N8n listing Database connections (MySQL , Postgres , Mongo )",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "IMS-1735",
+      "summary": "Projects Data Coverage Report Daily Email [Testing Only]",
+      "status": "Released",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    }
+  ]
+}

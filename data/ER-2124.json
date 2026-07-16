@@ -1,0 +1,37 @@
+{
+  "epic_key": "ER-2124",
+  "epic_name": "PDF Revamp",
+  "project_key": "ER",
+  "project_name": "eRealty",
+  "generated_at": "2026-07-16T13:04:27.885832",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 2,
+  "complete_tickets": 2,
+  "in_progress_tickets": 0,
+  "total_net_days": 28.16,
+  "total_cost_egp": 98560.0,
+  "tickets": [
+    {
+      "key": "ER-1923",
+      "summary": "PDF Revamp",
+      "status": "Done",
+      "net_days": 15.8,
+      "gross_days": 17.21,
+      "excluded_days": 1.4,
+      "cost_egp": 55300.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-2050",
+      "summary": "Comparison PDF Revamp",
+      "status": "Done",
+      "net_days": 12.36,
+      "gross_days": 14.05,
+      "excluded_days": 1.69,
+      "cost_egp": 43260.0,
+      "is_complete": true,
+      "num_spans": 1
+    }
+  ]
+}

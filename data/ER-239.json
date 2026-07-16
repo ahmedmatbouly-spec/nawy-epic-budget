@@ -1,0 +1,147 @@
+{
+  "epic_key": "ER-239",
+  "epic_name": "Rewrite E-reality to be sperate component ",
+  "project_key": "ER",
+  "project_name": "eRealty",
+  "generated_at": "2026-07-16T13:03:27.211468",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 12,
+  "complete_tickets": 12,
+  "in_progress_tickets": 0,
+  "total_net_days": 835.02,
+  "total_cost_egp": 2922570.0,
+  "tickets": [
+    {
+      "key": "ER-242",
+      "summary": "Buildings controller",
+      "status": "Done",
+      "net_days": 208.76,
+      "gross_days": 208.76,
+      "excluded_days": 0.0,
+      "cost_egp": 730660.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-244",
+      "summary": "Compounds Controller",
+      "status": "Done",
+      "net_days": 208.76,
+      "gross_days": 208.76,
+      "excluded_days": 0.0,
+      "cost_egp": 730660.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-245",
+      "summary": "Detailed Properties Controller",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "ER-246",
+      "summary": "Favorites Controller",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "ER-247",
+      "summary": "Leads Controller",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "ER-248",
+      "summary": "Offers Controller",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "ER-249",
+      "summary": "Payments Controller",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "ER-250",
+      "summary": "Phases Controller",
+      "status": "Done",
+      "net_days": 208.75,
+      "gross_days": 208.75,
+      "excluded_days": 0.0,
+      "cost_egp": 730625.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-253",
+      "summary": "Floors Controller",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "ER-256",
+      "summary": "Floor Units Controller",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "ER-259",
+      "summary": "Authentication, Roles",
+      "status": "Done",
+      "net_days": 208.75,
+      "gross_days": 208.75,
+      "excluded_days": 0.0,
+      "cost_egp": 730625.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-265",
+      "summary": "Points Of Interests Controller",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    }
+  ]
+}

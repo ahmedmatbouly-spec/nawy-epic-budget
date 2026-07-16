@@ -1,0 +1,81 @@
+{
+  "epic_key": "SP-240",
+  "epic_name": "Handling different commissions categories and percentages per entity",
+  "project_key": "SP",
+  "project_name": "Sales Portal",
+  "generated_at": "2026-07-16T13:00:47.697533",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 6,
+  "complete_tickets": 6,
+  "in_progress_tickets": 0,
+  "total_net_days": 21.13,
+  "total_cost_egp": 73955.0,
+  "tickets": [
+    {
+      "key": "SP-218",
+      "summary": "[Frontend] Commissions categories by entity",
+      "status": "Done",
+      "net_days": 6.3,
+      "gross_days": 6.3,
+      "excluded_days": 0.0,
+      "cost_egp": 22050.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "SP-235",
+      "summary": "[Backend] Commissions categories by entity commissions tab",
+      "status": "Done",
+      "net_days": 2.29,
+      "gross_days": 2.29,
+      "excluded_days": 0.0,
+      "cost_egp": 8015.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "SP-236",
+      "summary": "[Frontend] Commissions categories by entity commission tab",
+      "status": "Done",
+      "net_days": 2.3,
+      "gross_days": 2.3,
+      "excluded_days": 0.0,
+      "cost_egp": 8050.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "SP-238",
+      "summary": "[Backend] Commissions categories by entity compounds tab",
+      "status": "Done",
+      "net_days": 6.62,
+      "gross_days": 6.62,
+      "excluded_days": 0.0,
+      "cost_egp": 23170.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "SP-239",
+      "summary": "[Frontend] Commissions categories by entity compounds tab",
+      "status": "Done",
+      "net_days": 3.62,
+      "gross_days": 3.62,
+      "excluded_days": 0.0,
+      "cost_egp": 12670.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "SP-245",
+      "summary": "First Two Tabs from Commission Categories by entity",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    }
+  ]
+}

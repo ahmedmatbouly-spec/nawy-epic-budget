@@ -1,0 +1,59 @@
+{
+  "epic_key": "ER-2426",
+  "epic_name": "Projects Interests",
+  "project_key": "ER",
+  "project_name": "eRealty",
+  "generated_at": "2026-07-16T13:04:57.855095",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 4,
+  "complete_tickets": 4,
+  "in_progress_tickets": 0,
+  "total_net_days": 44.4,
+  "total_cost_egp": 155400.0,
+  "tickets": [
+    {
+      "key": "ER-2355",
+      "summary": "Projects Favs View: FE",
+      "status": "Done",
+      "net_days": 14.62,
+      "gross_days": 15.0,
+      "excluded_days": 0.37,
+      "cost_egp": 51170.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-2369",
+      "summary": "Projects Interests - FE",
+      "status": "Done",
+      "net_days": 11.99,
+      "gross_days": 15.01,
+      "excluded_days": 3.03,
+      "cost_egp": 41965.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-2431",
+      "summary": "Projects Interests - BE [Testing Only]",
+      "status": "Done",
+      "net_days": 17.79,
+      "gross_days": 19.23,
+      "excluded_days": 1.44,
+      "cost_egp": 62265.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-2486",
+      "summary": "Projects Interests - FE [UAT Only]",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    }
+  ]
+}

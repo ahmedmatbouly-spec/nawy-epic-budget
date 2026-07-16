@@ -1,0 +1,202 @@
+{
+  "epic_key": "NLP-107",
+  "epic_name": "App design revamp",
+  "project_key": "NLP",
+  "project_name": "Nawy Listing Platform ",
+  "generated_at": "2026-07-16T12:55:11.173896",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 17,
+  "complete_tickets": 17,
+  "in_progress_tickets": 0,
+  "total_net_days": 751.27,
+  "total_cost_egp": 2629445.0,
+  "tickets": [
+    {
+      "key": "NLP-114",
+      "summary": "Splash screen mobile app",
+      "status": "Done",
+      "net_days": 19.0,
+      "gross_days": 19.0,
+      "excluded_days": 0.0,
+      "cost_egp": 66500.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NLP-115",
+      "summary": "Home page screen ",
+      "status": "Done",
+      "net_days": 17.0,
+      "gross_days": 17.0,
+      "excluded_days": 0.0,
+      "cost_egp": 59500.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NLP-116",
+      "summary": "Home page, user pressing on search bar",
+      "status": "Done",
+      "net_days": 9.0,
+      "gross_days": 9.0,
+      "excluded_days": 0.0,
+      "cost_egp": 31500.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NLP-117",
+      "summary": "Filter screen for the first time user open the app ",
+      "status": "Done",
+      "net_days": 64.83,
+      "gross_days": 64.83,
+      "excluded_days": 0.0,
+      "cost_egp": 226905.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NLP-118",
+      "summary": "List screen ",
+      "status": "Done",
+      "net_days": 17.85,
+      "gross_days": 17.85,
+      "excluded_days": 0.0,
+      "cost_egp": 62475.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NLP-119",
+      "summary": "Filter screen from list screen",
+      "status": "Done",
+      "net_days": 17.85,
+      "gross_days": 17.85,
+      "excluded_days": 0.0,
+      "cost_egp": 62475.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NLP-120",
+      "summary": "When user select filters that display ZERO results, new popup display to undo the last filter selected.",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "NLP-247",
+      "summary": "Splash screen mobile app - 2",
+      "status": "Done",
+      "net_days": 52.83,
+      "gross_days": 52.83,
+      "excluded_days": 0.0,
+      "cost_egp": 184905.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NLP-248",
+      "summary": "Home page screen  - 2",
+      "status": "Done",
+      "net_days": 52.83,
+      "gross_days": 52.83,
+      "excluded_days": 0.0,
+      "cost_egp": 184905.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NLP-249",
+      "summary": "Home page, user pressing on search bar - 2 ",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "NLP-291",
+      "summary": "Implement Property page",
+      "status": "Done",
+      "net_days": 40.04,
+      "gross_days": 40.04,
+      "excluded_days": 0.0,
+      "cost_egp": 140140.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NLP-292",
+      "summary": "Implement compound page",
+      "status": "Done",
+      "net_days": 40.04,
+      "gross_days": 40.04,
+      "excluded_days": 0.0,
+      "cost_egp": 140140.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NLP-293",
+      "summary": "Implement compound inner filter page",
+      "status": "Done",
+      "net_days": 420.0,
+      "gross_days": 420.0,
+      "excluded_days": 0.0,
+      "cost_egp": 1470000.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NLP-294",
+      "summary": "Implement Navigation bar",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "NLP-295",
+      "summary": "Implement Contact us page ",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "NLP-296",
+      "summary": "Implement Side menu.",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "NLP-297",
+      "summary": "Implement Explore Property page.",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    }
+  ]
+}

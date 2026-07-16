@@ -1,0 +1,70 @@
+{
+  "epic_key": "ER-2336",
+  "epic_name": "Manual Grouped Units Enhancements",
+  "project_key": "ER",
+  "project_name": "eRealty",
+  "generated_at": "2026-07-16T13:04:51.493936",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 5,
+  "complete_tickets": 5,
+  "in_progress_tickets": 0,
+  "total_net_days": 14.81,
+  "total_cost_egp": 51835.0,
+  "tickets": [
+    {
+      "key": "ER-2240",
+      "summary": "Comparison Views - Manual Grouped Properties [Testing Only]",
+      "status": "Done",
+      "net_days": 3.25,
+      "gross_days": 9.25,
+      "excluded_days": 6.0,
+      "cost_egp": 11375.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-2241",
+      "summary": "Comparison Views - Manual Grouped Properties BE [Testing Only]",
+      "status": "Done",
+      "net_days": 3.25,
+      "gross_days": 9.25,
+      "excluded_days": 6.0,
+      "cost_egp": 11375.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-2321",
+      "summary": "Update data on compare page [FE]",
+      "status": "Done",
+      "net_days": 0.98,
+      "gross_days": 2.67,
+      "excluded_days": 1.69,
+      "cost_egp": 3430.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-2356",
+      "summary": "Manual Properties Payment Plans Selection Comparison View - BE",
+      "status": "Ready for Deployment",
+      "net_days": 4.89,
+      "gross_days": 7.46,
+      "excluded_days": 2.56,
+      "cost_egp": 17115.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-2357",
+      "summary": "Manual Properties Payment Plans Selection Comparison View - FE",
+      "status": "Released",
+      "net_days": 2.44,
+      "gross_days": 5.0,
+      "excluded_days": 2.56,
+      "cost_egp": 8540.0,
+      "is_complete": true,
+      "num_spans": 1
+    }
+  ]
+}

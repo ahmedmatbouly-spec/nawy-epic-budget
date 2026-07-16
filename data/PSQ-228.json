@@ -1,0 +1,59 @@
+{
+  "epic_key": "PSQ-228",
+  "epic_name": "Invitations",
+  "project_key": "PSQ",
+  "project_name": "Platform Squad",
+  "generated_at": "2026-07-16T12:49:43.412675",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 4,
+  "complete_tickets": 4,
+  "in_progress_tickets": 0,
+  "total_net_days": 28.42,
+  "total_cost_egp": 99470.0,
+  "tickets": [
+    {
+      "key": "PSQ-227",
+      "summary": "[UMS] Invitation Type Configuration",
+      "status": "Released",
+      "net_days": 3.46,
+      "gross_days": 4.13,
+      "excluded_days": 0.67,
+      "cost_egp": 12110.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "PSQ-229",
+      "summary": "[UMS] Tier \u2194 Invitation Type Linking with Limits",
+      "status": "Released",
+      "net_days": 2.99,
+      "gross_days": 3.22,
+      "excluded_days": 0.23,
+      "cost_egp": 10465.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "PSQ-230",
+      "summary": "[UMS] Invite New Organization with User",
+      "status": "Released",
+      "net_days": 10.99,
+      "gross_days": 12.11,
+      "excluded_days": 1.12,
+      "cost_egp": 38465.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "PSQ-231",
+      "summary": "[UMS] Invite User to an Existing Organization",
+      "status": "Released",
+      "net_days": 10.98,
+      "gross_days": 12.11,
+      "excluded_days": 1.12,
+      "cost_egp": 38430.0,
+      "is_complete": true,
+      "num_spans": 1
+    }
+  ]
+}

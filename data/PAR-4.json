@@ -1,0 +1,37 @@
+{
+  "epic_key": "PAR-4",
+  "epic_name": "Payment",
+  "project_key": "PAR",
+  "project_name": "Partners",
+  "generated_at": "2026-07-16T12:47:14.216087",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 2,
+  "complete_tickets": 2,
+  "in_progress_tickets": 0,
+  "total_net_days": 170.32,
+  "total_cost_egp": 596120.0,
+  "tickets": [
+    {
+      "key": "PAR-85",
+      "summary": "[Sale Claim] Choose Payment Type ",
+      "status": "Done",
+      "net_days": 17.63,
+      "gross_days": 17.63,
+      "excluded_days": 0.0,
+      "cost_egp": 61705.0,
+      "is_complete": true,
+      "num_spans": 2
+    },
+    {
+      "key": "PAR-86",
+      "summary": "Sales Portal Integration",
+      "status": "Done",
+      "net_days": 152.69,
+      "gross_days": 152.69,
+      "excluded_days": 0.0,
+      "cost_egp": 534415.0,
+      "is_complete": true,
+      "num_spans": 1
+    }
+  ]
+}

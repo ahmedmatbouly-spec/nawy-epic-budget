@@ -1,0 +1,48 @@
+{
+  "epic_key": "ER-1436",
+  "epic_name": "Unit Details View",
+  "project_key": "ER",
+  "project_name": "eRealty",
+  "generated_at": "2026-07-16T13:04:04.653626",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 3,
+  "complete_tickets": 2,
+  "in_progress_tickets": 1,
+  "total_net_days": 7.44,
+  "total_cost_egp": 26040.0,
+  "tickets": [
+    {
+      "key": "ER-1420",
+      "summary": "Units Details Gallery tab",
+      "status": "Done",
+      "net_days": 2.8,
+      "gross_days": 2.8,
+      "excluded_days": 0.0,
+      "cost_egp": 9800.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-1485",
+      "summary": "Videos in Gallery tab in units details modal",
+      "status": "Open",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "ER-1489",
+      "summary": "See more for Units info in unit details Side drawer",
+      "status": "Done",
+      "net_days": 4.64,
+      "gross_days": 4.64,
+      "excluded_days": 0.0,
+      "cost_egp": 16240.0,
+      "is_complete": true,
+      "num_spans": 1
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "epic_key": "NLP-2295",
+  "epic_name": "Homepage",
+  "project_key": "NLP",
+  "project_name": "Nawy Listing Platform ",
+  "generated_at": "2026-07-16T12:57:31.727252",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 6,
+  "complete_tickets": 6,
+  "in_progress_tickets": 0,
+  "total_net_days": 119.48,
+  "total_cost_egp": 418180.0,
+  "tickets": [
+    {
+      "key": "NLP-1585",
+      "summary": "[App] Homepage pathways",
+      "status": "Done",
+      "net_days": 42.18,
+      "gross_days": 42.18,
+      "excluded_days": 0.0,
+      "cost_egp": 147630.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NLP-1755",
+      "summary": "[Web] Homepage pathways",
+      "status": "Done",
+      "net_days": 26.49,
+      "gross_days": 44.13,
+      "excluded_days": 17.64,
+      "cost_egp": 92715.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NLP-3177",
+      "summary": "[BE] Dynamic Banners [DEV]",
+      "status": "Done",
+      "net_days": 9.73,
+      "gross_days": 9.73,
+      "excluded_days": 0.0,
+      "cost_egp": 34055.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NLP-3178",
+      "summary": "[App] Dynamic Banners",
+      "status": "Done",
+      "net_days": 8.53,
+      "gross_days": 12.76,
+      "excluded_days": 4.23,
+      "cost_egp": 29855.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NLP-3197",
+      "summary": "[Web][Desktop] Hidden homepage pathways",
+      "status": "Done",
+      "net_days": 27.4,
+      "gross_days": 27.4,
+      "excluded_days": 0.0,
+      "cost_egp": 95900.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NLP-3217",
+      "summary": "[Web] Dynamic Banners",
+      "status": "Done",
+      "net_days": 5.15,
+      "gross_days": 11.12,
+      "excluded_days": 5.97,
+      "cost_egp": 18025.0,
+      "is_complete": true,
+      "num_spans": 2
+    }
+  ]
+}

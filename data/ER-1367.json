@@ -1,0 +1,59 @@
+{
+  "epic_key": "ER-1367",
+  "epic_name": "Unit Generated Offer",
+  "project_key": "ER",
+  "project_name": "eRealty",
+  "generated_at": "2026-07-16T13:03:50.721204",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 4,
+  "complete_tickets": 3,
+  "in_progress_tickets": 1,
+  "total_net_days": 262.21,
+  "total_cost_egp": 917735.0,
+  "tickets": [
+    {
+      "key": "ER-1369",
+      "summary": "Show Project Location as text and Image from Mapbox",
+      "status": "Done",
+      "net_days": 5.41,
+      "gross_days": 7.0,
+      "excluded_days": 1.59,
+      "cost_egp": 18935.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-1370",
+      "summary": "Remove the call center number at the end of the offer",
+      "status": "Done",
+      "net_days": 4.15,
+      "gross_days": 6.75,
+      "excluded_days": 2.6,
+      "cost_egp": 14525.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-1372",
+      "summary": "Add Final Page to Unit Offer Including Agen tinfo , Logo and Thank you message",
+      "status": "Open",
+      "net_days": 248.51,
+      "gross_days": 248.51,
+      "excluded_days": 0.0,
+      "cost_egp": 869785.0,
+      "is_complete": false,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-1377",
+      "summary": "Add Unit Render Images in the Generated Unit Offer",
+      "status": "Done",
+      "net_days": 4.14,
+      "gross_days": 6.73,
+      "excluded_days": 2.59,
+      "cost_egp": 14490.0,
+      "is_complete": true,
+      "num_spans": 1
+    }
+  ]
+}

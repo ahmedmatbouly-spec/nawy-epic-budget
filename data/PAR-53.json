@@ -1,0 +1,180 @@
+{
+  "epic_key": "PAR-53",
+  "epic_name": "Account Management Empowerment",
+  "project_key": "PAR",
+  "project_name": "Partners",
+  "generated_at": "2026-07-16T12:47:20.392917",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 15,
+  "complete_tickets": 15,
+  "in_progress_tickets": 0,
+  "total_net_days": 132.06,
+  "total_cost_egp": 462210.0,
+  "tickets": [
+    {
+      "key": "PAR-9",
+      "summary": "[Internal Account Managers] Create Teams Hierarchy",
+      "status": "Done",
+      "net_days": 6.18,
+      "gross_days": 6.18,
+      "excluded_days": 0.0,
+      "cost_egp": 21630.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "PAR-14",
+      "summary": "Fixing Dashboards",
+      "status": "Done",
+      "net_days": 3.34,
+      "gross_days": 3.34,
+      "excluded_days": 0.0,
+      "cost_egp": 11690.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "PAR-40",
+      "summary": "Active Broker Status",
+      "status": "Done",
+      "net_days": 7.86,
+      "gross_days": 7.86,
+      "excluded_days": 0.0,
+      "cost_egp": 27510.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "PAR-41",
+      "summary": "Brokerage Sale Type",
+      "status": "Done",
+      "net_days": 2.64,
+      "gross_days": 2.64,
+      "excluded_days": 0.0,
+      "cost_egp": 9240.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "PAR-42",
+      "summary": "Filters Enhancements",
+      "status": "Done",
+      "net_days": 15.61,
+      "gross_days": 15.61,
+      "excluded_days": 0.0,
+      "cost_egp": 54635.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "PAR-43",
+      "summary": "[For Internal Users Only] View CIL lead status",
+      "status": "Done",
+      "net_days": 11.0,
+      "gross_days": 11.0,
+      "excluded_days": 0.0,
+      "cost_egp": 38500.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "PAR-44",
+      "summary": "[Partners Tab] Show the Account Manager Name ",
+      "status": "Done",
+      "net_days": 10.35,
+      "gross_days": 10.35,
+      "excluded_days": 0.0,
+      "cost_egp": 36225.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "PAR-52",
+      "summary": "[Partners Tab] Global Search",
+      "status": "Done",
+      "net_days": 4.03,
+      "gross_days": 4.03,
+      "excluded_days": 0.0,
+      "cost_egp": 14105.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "PAR-83",
+      "summary": "[Partners view] Organization Created By name",
+      "status": "Done",
+      "net_days": 0.45,
+      "gross_days": 0.45,
+      "excluded_days": 0.0,
+      "cost_egp": 1575.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "PAR-84",
+      "summary": "Dashboard Fixes",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "PAR-89",
+      "summary": "Collect CR & TC",
+      "status": "Done",
+      "net_days": 13.0,
+      "gross_days": 13.0,
+      "excluded_days": 0.0,
+      "cost_egp": 45500.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "PAR-102",
+      "summary": "Search with TC & CR in Global Search",
+      "status": "Done",
+      "net_days": 0.39,
+      "gross_days": 0.39,
+      "excluded_days": 0.0,
+      "cost_egp": 1365.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "PAR-103",
+      "summary": "Account Manager adding Sale Claim",
+      "status": "Done",
+      "net_days": 1.45,
+      "gross_days": 1.45,
+      "excluded_days": 0.0,
+      "cost_egp": 5075.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "PAR-110",
+      "summary": "EOI & Reservation form",
+      "status": "Done",
+      "net_days": 55.76,
+      "gross_days": 55.76,
+      "excluded_days": 0.0,
+      "cost_egp": 195160.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "PAR-113",
+      "summary": "Account Managers Performance",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    }
+  ]
+}

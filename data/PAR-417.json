@@ -1,0 +1,81 @@
+{
+  "epic_key": "PAR-417",
+  "epic_name": "Sales Pipeline Tab",
+  "project_key": "PAR",
+  "project_name": "Partners",
+  "generated_at": "2026-07-16T12:47:41.671093",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 6,
+  "complete_tickets": 6,
+  "in_progress_tickets": 0,
+  "total_net_days": 44.04,
+  "total_cost_egp": 154140.0,
+  "tickets": [
+    {
+      "key": "PAR-418",
+      "summary": "Build the buyers module",
+      "status": "Done",
+      "net_days": 5.46,
+      "gross_days": 5.46,
+      "excluded_days": 0.0,
+      "cost_egp": 19110.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "PAR-419",
+      "summary": "Build the flow module",
+      "status": "Done",
+      "net_days": 5.46,
+      "gross_days": 5.46,
+      "excluded_days": 0.0,
+      "cost_egp": 19110.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "PAR-420",
+      "summary": "Build the comments module",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "PAR-421",
+      "summary": "Build document management  module ",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "PAR-422",
+      "summary": "Migration of old data to new structure ",
+      "status": "Done",
+      "net_days": 3.58,
+      "gross_days": 3.58,
+      "excluded_days": 0.0,
+      "cost_egp": 12530.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "PAR-423",
+      "summary": "Data testing and validation",
+      "status": "Done",
+      "net_days": 29.54,
+      "gross_days": 29.54,
+      "excluded_days": 0.0,
+      "cost_egp": 103390.0,
+      "is_complete": true,
+      "num_spans": 1
+    }
+  ]
+}

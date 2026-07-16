@@ -1,0 +1,92 @@
+{
+  "epic_key": "ER-1378",
+  "epic_name": "Backend and Deployments",
+  "project_key": "ER",
+  "project_name": "eRealty",
+  "generated_at": "2026-07-16T13:03:57.915837",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 7,
+  "complete_tickets": 6,
+  "in_progress_tickets": 1,
+  "total_net_days": 21.67,
+  "total_cost_egp": 75845.0,
+  "tickets": [
+    {
+      "key": "ER-1325",
+      "summary": "Modon Requirements Uploading tool",
+      "status": "Done",
+      "net_days": 9.06,
+      "gross_days": 9.06,
+      "excluded_days": 0.0,
+      "cost_egp": 31710.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-1334",
+      "summary": "Modon- Explore Adding SVG for the phase master plan image",
+      "status": "Done",
+      "net_days": 2.74,
+      "gross_days": 2.74,
+      "excluded_days": 0.0,
+      "cost_egp": 9590.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-1335",
+      "summary": "Modon  - Create Environment Prod/Staging",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "ER-1386",
+      "summary": "Payment Plans Module adjustments || Backend",
+      "status": "Done",
+      "net_days": 9.87,
+      "gross_days": 9.87,
+      "excluded_days": 0.0,
+      "cost_egp": 34545.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-1421",
+      "summary": "Modon Mixpanel Implementation",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "ER-1423",
+      "summary": "End Consumer E-realty Instance Deployment",
+      "status": "Open",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "ER-1501",
+      "summary": "Login Authentication for MODON integration",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    }
+  ]
+}

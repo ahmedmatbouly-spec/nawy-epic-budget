@@ -1,0 +1,70 @@
+{
+  "epic_key": "IMS-1331",
+  "epic_name": "Technical Debt 26.1",
+  "project_key": "IMS",
+  "project_name": "Inventory Management System ",
+  "generated_at": "2026-07-16T12:54:31.866043",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 5,
+  "complete_tickets": 5,
+  "in_progress_tickets": 0,
+  "total_net_days": 5.89,
+  "total_cost_egp": 20615.0,
+  "tickets": [
+    {
+      "key": "IMS-614",
+      "summary": "(Grouping)  Unit appears as \u201cModified\u201d in Sheets without any actual changes and is labeled \u201cNew\u201d in the header",
+      "status": "Done",
+      "net_days": 1.43,
+      "gross_days": 1.43,
+      "excluded_days": 0.0,
+      "cost_egp": 5005.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "IMS-1306",
+      "summary": "Failed to create construction update in project",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "IMS-1308",
+      "summary": "Failed to edit Area (district field ) from dropdown",
+      "status": "Done",
+      "net_days": 4.27,
+      "gross_days": 4.27,
+      "excluded_days": 0.0,
+      "cost_egp": 14945.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "IMS-1328",
+      "summary": "In Project Classifications, adding a Type does not work unless a Category is selected first. The same issue happens with Sub Type if Type is not selected.",
+      "status": "Done",
+      "net_days": 0.19,
+      "gross_days": 0.19,
+      "excluded_days": 0.0,
+      "cost_egp": 665.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "IMS-1330",
+      "summary": "Split action is not working",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 1
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "epic_key": "IMS-1005",
+  "epic_name": "Market Updates",
+  "project_key": "IMS",
+  "project_name": "Inventory Management System ",
+  "generated_at": "2026-07-16T12:54:18.441878",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 11,
+  "complete_tickets": 6,
+  "in_progress_tickets": 5,
+  "total_net_days": 36.97,
+  "total_cost_egp": 129395.0,
+  "tickets": [
+    {
+      "key": "IMS-972",
+      "summary": "Ai Construction Updates Whatsapp Detection and Structering",
+      "status": "Done",
+      "net_days": 2.42,
+      "gross_days": 8.42,
+      "excluded_days": 6.0,
+      "cost_egp": 8470.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "IMS-973",
+      "summary": "Ai Market Updates Posts Whatsapp Detection and Structering",
+      "status": "Open",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "IMS-1212",
+      "summary": "Ai extracted Project Construction Updates approval flow",
+      "status": "Done",
+      "net_days": 4.58,
+      "gross_days": 8.56,
+      "excluded_days": 3.98,
+      "cost_egp": 16030.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "IMS-1420",
+      "summary": "Construction Updates Global Page",
+      "status": "Done",
+      "net_days": 7.82,
+      "gross_days": 9.28,
+      "excluded_days": 1.46,
+      "cost_egp": 27370.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "IMS-1421",
+      "summary": "Market Updates Posts  Page",
+      "status": "Open",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "IMS-1422",
+      "summary": "Nawy Space Construction Updates (Free Images Archive) [Dev Only]",
+      "status": "Done",
+      "net_days": 6.75,
+      "gross_days": 6.75,
+      "excluded_days": 0.0,
+      "cost_egp": 23625.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "IMS-1591",
+      "summary": "Construction updates status , edit and delete",
+      "status": "Done",
+      "net_days": 3.08,
+      "gross_days": 3.08,
+      "excluded_days": 0.0,
+      "cost_egp": 10780.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "IMS-1671",
+      "summary": "Nawy Space Each Image Analysis vs Masterplan",
+      "status": "Open",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "IMS-1724",
+      "summary": "Construction updates enhancements",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "IMS-1736",
+      "summary": "Nawy Space Construction Updates (Free Images Archive) [Testing Only]",
+      "status": "Ready for Deployment",
+      "net_days": 12.32,
+      "gross_days": 12.32,
+      "excluded_days": 0.0,
+      "cost_egp": 43120.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "IMS-1765",
+      "summary": "[Nawy Space] Update page subtitle text to correctly describe the Sentinel satellite imagery feature",
+      "status": "Open",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    }
+  ]
+}

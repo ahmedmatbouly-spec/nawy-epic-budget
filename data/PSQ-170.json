@@ -1,0 +1,70 @@
+{
+  "epic_key": "PSQ-170",
+  "epic_name": "AI Management Chat Viewer Dashboard",
+  "project_key": "PSQ",
+  "project_name": "Platform Squad",
+  "generated_at": "2026-07-16T12:49:40.975342",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 5,
+  "complete_tickets": 5,
+  "in_progress_tickets": 0,
+  "total_net_days": 11.61,
+  "total_cost_egp": 40635.0,
+  "tickets": [
+    {
+      "key": "PSQ-171",
+      "summary": "US-001: View List of Agents",
+      "status": "Released",
+      "net_days": 0.14,
+      "gross_days": 2.27,
+      "excluded_days": 2.13,
+      "cost_egp": 490.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "PSQ-172",
+      "summary": "US-002: View Agent's Chat List",
+      "status": "Released",
+      "net_days": 6.18,
+      "gross_days": 6.7,
+      "excluded_days": 0.53,
+      "cost_egp": 21630.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "PSQ-173",
+      "summary": "US-003: View Chat Messages with Infinite Scroll",
+      "status": "Released",
+      "net_days": 1.74,
+      "gross_days": 2.27,
+      "excluded_days": 0.53,
+      "cost_egp": 6090.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "PSQ-174",
+      "summary": "US-004: Search and Filter Conversations",
+      "status": "Released",
+      "net_days": 1.78,
+      "gross_days": 2.27,
+      "excluded_days": 0.49,
+      "cost_egp": 6230.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "PSQ-175",
+      "summary": "US-005: Export Chat Transcript",
+      "status": "Released",
+      "net_days": 1.77,
+      "gross_days": 2.27,
+      "excluded_days": 0.51,
+      "cost_egp": 6195.0,
+      "is_complete": true,
+      "num_spans": 1
+    }
+  ]
+}

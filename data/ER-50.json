@@ -1,0 +1,169 @@
+{
+  "epic_key": "ER-50",
+  "epic_name": "Payment Integration",
+  "project_key": "ER",
+  "project_name": "eRealty",
+  "generated_at": "2026-07-16T13:02:44.864383",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 14,
+  "complete_tickets": 14,
+  "in_progress_tickets": 0,
+  "total_net_days": 184.57,
+  "total_cost_egp": 645995.0,
+  "tickets": [
+    {
+      "key": "ER-51",
+      "summary": "Log in via CRM accounts",
+      "status": "Done",
+      "net_days": 7.01,
+      "gross_days": 7.01,
+      "excluded_days": 0.0,
+      "cost_egp": 24535.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-52",
+      "summary": "CRM - E realty tab",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "ER-53",
+      "summary": "CRM lead validation",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "ER-54",
+      "summary": "CRM client status update",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "ER-55",
+      "summary": "Lead validation form(End point)",
+      "status": "Done",
+      "net_days": 49.99,
+      "gross_days": 49.99,
+      "excluded_days": 0.0,
+      "cost_egp": 174965.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-56",
+      "summary": "Manual Blocking form",
+      "status": "Done",
+      "net_days": 3.54,
+      "gross_days": 3.54,
+      "excluded_days": 0.0,
+      "cost_egp": 12390.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-57",
+      "summary": "Dynamic Terms and conditions",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-58",
+      "summary": "Payment Link Email",
+      "status": "Done",
+      "net_days": 25.52,
+      "gross_days": 25.52,
+      "excluded_days": 0.0,
+      "cost_egp": 89320.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-59",
+      "summary": "Agent payment status emails",
+      "status": "Done",
+      "net_days": 78.85,
+      "gross_days": 78.85,
+      "excluded_days": 0.0,
+      "cost_egp": 275975.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-60",
+      "summary": "Log in for developer sales agents",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "ER-61",
+      "summary": "Developer transactions dashboard",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "ER-71",
+      "summary": "Dynamic Developer Details",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "ER-112",
+      "summary": "Dynamic Blocking Amount (per developer)",
+      "status": "Done",
+      "net_days": 19.66,
+      "gross_days": 19.66,
+      "excluded_days": 0.0,
+      "cost_egp": 68810.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-121",
+      "summary": "2D Data Structure",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    }
+  ]
+}

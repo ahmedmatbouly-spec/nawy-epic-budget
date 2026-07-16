@@ -1,0 +1,70 @@
+{
+  "epic_key": "CM-669",
+  "epic_name": "[Automation][API]Lead Routing",
+  "project_key": "CM",
+  "project_name": "Campaigns Management",
+  "generated_at": "2026-07-16T13:00:30.699050",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 5,
+  "complete_tickets": 5,
+  "in_progress_tickets": 0,
+  "total_net_days": 0.0,
+  "total_cost_egp": 0.0,
+  "tickets": [
+    {
+      "key": "CM-670",
+      "summary": "[Automation][API]Social Media Fallback Using (Active Agents) Cover (Facebook,Snapcaht or Tiktok)",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "CM-672",
+      "summary": "[Automation][API]Social Media Fallback For weighted Pages (Facebook)",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "CM-673",
+      "summary": "[Automation][API]Queue management lead creation for WhatsApp and Phone",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "CM-674",
+      "summary": "[Automation][API]Update Queue management organization weights",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "CM-675",
+      "summary": "[Automation][API]Route Queue management leads",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "epic_key": "IMS-1002",
+  "epic_name": "Sales Portal",
+  "project_key": "IMS",
+  "project_name": "Inventory Management System ",
+  "generated_at": "2026-07-16T12:54:10.847090",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 1,
+  "complete_tickets": 1,
+  "in_progress_tickets": 0,
+  "total_net_days": 7.37,
+  "total_cost_egp": 25795.0,
+  "tickets": [
+    {
+      "key": "IMS-752",
+      "summary": "Sold units from sales portal matching",
+      "status": "Done",
+      "net_days": 7.37,
+      "gross_days": 8.0,
+      "excluded_days": 0.63,
+      "cost_egp": 25795.0,
+      "is_complete": true,
+      "num_spans": 1
+    }
+  ]
+}

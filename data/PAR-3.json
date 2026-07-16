@@ -1,0 +1,114 @@
+{
+  "epic_key": "PAR-3",
+  "epic_name": "Infrastructure & Enhancements",
+  "project_key": "PAR",
+  "project_name": "Partners",
+  "generated_at": "2026-07-16T12:47:13.095524",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 9,
+  "complete_tickets": 7,
+  "in_progress_tickets": 2,
+  "total_net_days": 171.7,
+  "total_cost_egp": 600950.0,
+  "tickets": [
+    {
+      "key": "PAR-15",
+      "summary": "Reverse Organization's Member \u0650Soft Delete (Return deleted user from organization to it)",
+      "status": "Done",
+      "net_days": 8.79,
+      "gross_days": 8.79,
+      "excluded_days": 0.0,
+      "cost_egp": 30765.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "PAR-39",
+      "summary": "[From Invitation] Create Organization With an Official Name Instead Of Partner Name",
+      "status": "Done",
+      "net_days": 10.35,
+      "gross_days": 10.35,
+      "excluded_days": 0.0,
+      "cost_egp": 36225.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "PAR-109",
+      "summary": "SALE CLAIM Downpayment Date",
+      "status": "Done",
+      "net_days": 11.64,
+      "gross_days": 11.64,
+      "excluded_days": 0.0,
+      "cost_egp": 40740.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "PAR-111",
+      "summary": "Link The Sale claim & Primary Cil & Reservation/EOI",
+      "status": "Done",
+      "net_days": 55.63,
+      "gross_days": 55.63,
+      "excluded_days": 0.0,
+      "cost_egp": 194705.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "PAR-117",
+      "summary": "Automatic Invitations For New Hirings",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "PAR-118",
+      "summary": "Collect User Email",
+      "status": "Done",
+      "net_days": 44.64,
+      "gross_days": 44.64,
+      "excluded_days": 0.0,
+      "cost_egp": 156240.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "PAR-138",
+      "summary": "Report Change EOI / Reservation Timestamps",
+      "status": "Done",
+      "net_days": 40.65,
+      "gross_days": 40.65,
+      "excluded_days": 0.0,
+      "cost_egp": 142275.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "SRE-1276",
+      "summary": "Revisit terragrunt setup to limit refactoring hardcoded values",
+      "status": "Canceled",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "SRE-1347",
+      "summary": "Explore setting up argocd dev env to avoid pushing directly to main when deploying a new app",
+      "status": "Canceled",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    }
+  ]
+}

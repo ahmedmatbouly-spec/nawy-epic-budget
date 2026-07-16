@@ -1,0 +1,70 @@
+{
+  "epic_key": "NLP-4041",
+  "epic_name": "Landing Pages",
+  "project_key": "NLP",
+  "project_name": "Nawy Listing Platform ",
+  "generated_at": "2026-07-16T12:59:56.544782",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 5,
+  "complete_tickets": 5,
+  "in_progress_tickets": 0,
+  "total_net_days": 131.48,
+  "total_cost_egp": 460180.0,
+  "tickets": [
+    {
+      "key": "NLP-4011",
+      "summary": "Taskeen - New Landing Page",
+      "status": "Done",
+      "net_days": 32.15,
+      "gross_days": 53.71,
+      "excluded_days": 21.56,
+      "cost_egp": 112525.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NLP-4012",
+      "summary": "Taskeen - New Landing Page (Prime Compound)",
+      "status": "Done",
+      "net_days": 27.66,
+      "gross_days": 33.58,
+      "excluded_days": 5.92,
+      "cost_egp": 96810.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NLP-4013",
+      "summary": "[FE] Add Lead Type field in Landing Page (Top Compounds)",
+      "status": "Done",
+      "net_days": 10.97,
+      "gross_days": 11.06,
+      "excluded_days": 0.08,
+      "cost_egp": 38395.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NLP-4046",
+      "summary": "[BE] Add Lead Type field in Landing Page (Top Compounds)",
+      "status": "Done",
+      "net_days": 6.27,
+      "gross_days": 11.33,
+      "excluded_days": 5.06,
+      "cost_egp": 21945.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NLP-4246",
+      "summary": "[BE][FE] Integrate custom locations upon creation of landing pages",
+      "status": "Done",
+      "net_days": 54.43,
+      "gross_days": 98.22,
+      "excluded_days": 43.79,
+      "cost_egp": 190505.0,
+      "is_complete": true,
+      "num_spans": 1
+    }
+  ]
+}

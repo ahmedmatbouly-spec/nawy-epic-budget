@@ -1,0 +1,136 @@
+{
+  "epic_key": "NLP-3473",
+  "epic_name": "Nawy Unlocked",
+  "project_key": "NLP",
+  "project_name": "Nawy Listing Platform ",
+  "generated_at": "2026-07-16T12:59:17.252707",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 11,
+  "complete_tickets": 11,
+  "in_progress_tickets": 0,
+  "total_net_days": 39.86,
+  "total_cost_egp": 139510.0,
+  "tickets": [
+    {
+      "key": "NLP-3470",
+      "summary": "[App][Unlocked] Qualification Process (Landing page)",
+      "status": "Done",
+      "net_days": 7.5,
+      "gross_days": 8.72,
+      "excluded_days": 1.23,
+      "cost_egp": 26250.0,
+      "is_complete": true,
+      "num_spans": 2
+    },
+    {
+      "key": "NLP-3475",
+      "summary": "[App][Unlocked] Interested Process (Unit details page)",
+      "status": "Done",
+      "net_days": 2.9,
+      "gross_days": 4.13,
+      "excluded_days": 1.23,
+      "cost_egp": 10150.0,
+      "is_complete": true,
+      "num_spans": 2
+    },
+    {
+      "key": "NLP-3535",
+      "summary": "[Nawy Unlocked][BE] Rental calculation",
+      "status": "Done",
+      "net_days": 4.27,
+      "gross_days": 4.37,
+      "excluded_days": 0.1,
+      "cost_egp": 14945.0,
+      "is_complete": true,
+      "num_spans": 2
+    },
+    {
+      "key": "NLP-3536",
+      "summary": "[Nawy Unlocked][BE] Estimated Cost Calculation",
+      "status": "Done",
+      "net_days": 2.98,
+      "gross_days": 2.98,
+      "excluded_days": 0.0,
+      "cost_egp": 10430.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NLP-3541",
+      "summary": "[Nawy Unlocked][App] Estimated Cost page",
+      "status": "Done",
+      "net_days": 8.37,
+      "gross_days": 16.74,
+      "excluded_days": 8.37,
+      "cost_egp": 29295.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NLP-3564",
+      "summary": "[App][Nawy Unlocked] Qualification & Form PR - testing",
+      "status": "Done",
+      "net_days": 1.0,
+      "gross_days": 1.0,
+      "excluded_days": 0.0,
+      "cost_egp": 3500.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NLP-3596",
+      "summary": "[BE] Nawy Unlocked form to CRM",
+      "status": "Done",
+      "net_days": 3.59,
+      "gross_days": 15.38,
+      "excluded_days": 11.79,
+      "cost_egp": 12565.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NLP-3630",
+      "summary": "[Nawy Unlocked][FE] Rental Yield Form",
+      "status": "Done",
+      "net_days": 6.56,
+      "gross_days": 8.09,
+      "excluded_days": 1.53,
+      "cost_egp": 22960.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NLP-3636",
+      "summary": "[Nawy Unlocked] Can't find my compounds",
+      "status": "Done",
+      "net_days": 1.29,
+      "gross_days": 2.52,
+      "excluded_days": 1.23,
+      "cost_egp": 4515.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NLP-3725",
+      "summary": "[App][Nawy Unlocked] Events",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "NLP-3941",
+      "summary": "[App] Skip Cost Calculation page for specific compounds",
+      "status": "Done",
+      "net_days": 1.4,
+      "gross_days": 2.51,
+      "excluded_days": 1.11,
+      "cost_egp": 4900.0,
+      "is_complete": true,
+      "num_spans": 1
+    }
+  ]
+}

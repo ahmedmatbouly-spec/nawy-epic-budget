@@ -1,0 +1,92 @@
+{
+  "epic_key": "PAR-91",
+  "epic_name": "Primary CIL",
+  "project_key": "PAR",
+  "project_name": "Partners",
+  "generated_at": "2026-07-16T12:47:27.528643",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 7,
+  "complete_tickets": 7,
+  "in_progress_tickets": 0,
+  "total_net_days": 64.66,
+  "total_cost_egp": 226310.0,
+  "tickets": [
+    {
+      "key": "PAR-92",
+      "summary": "Enable/Disable Sending Primary CIL on the Tier",
+      "status": "Done",
+      "net_days": 9.86,
+      "gross_days": 9.86,
+      "excluded_days": 0.0,
+      "cost_egp": 34510.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "PAR-93",
+      "summary": "Adding Developers Requiring CIL on the Organization Page",
+      "status": "Done",
+      "net_days": 9.86,
+      "gross_days": 9.86,
+      "excluded_days": 0.0,
+      "cost_egp": 34510.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "PAR-94",
+      "summary": "Creating \"Send CIL\" Button in the Inventory View",
+      "status": "Done",
+      "net_days": 9.86,
+      "gross_days": 9.86,
+      "excluded_days": 0.0,
+      "cost_egp": 34510.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "PAR-95",
+      "summary": "Create Primary CIL View",
+      "status": "Done",
+      "net_days": 9.86,
+      "gross_days": 9.86,
+      "excluded_days": 0.0,
+      "cost_egp": 34510.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "PAR-96",
+      "summary": "Updating CIL Status and Validity Days",
+      "status": "Done",
+      "net_days": 9.86,
+      "gross_days": 9.86,
+      "excluded_days": 0.0,
+      "cost_egp": 34510.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "PAR-97",
+      "summary": "Renewing CIL before Expiration",
+      "status": "Done",
+      "net_days": 9.86,
+      "gross_days": 9.86,
+      "excluded_days": 0.0,
+      "cost_egp": 34510.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "PAR-115",
+      "summary": "Primary CIL Enhancements",
+      "status": "Done",
+      "net_days": 5.5,
+      "gross_days": 5.5,
+      "excluded_days": 0.0,
+      "cost_egp": 19250.0,
+      "is_complete": true,
+      "num_spans": 1
+    }
+  ]
+}

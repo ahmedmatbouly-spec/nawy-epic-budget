@@ -1,0 +1,37 @@
+{
+  "epic_key": "ER-1437",
+  "epic_name": "Global Filter",
+  "project_key": "ER",
+  "project_name": "eRealty",
+  "generated_at": "2026-07-16T13:04:06.027537",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 2,
+  "complete_tickets": 2,
+  "in_progress_tickets": 0,
+  "total_net_days": 26.76,
+  "total_cost_egp": 93660.0,
+  "tickets": [
+    {
+      "key": "ER-1426",
+      "summary": "All Filters Changes for End-Consumer tool [Front end]",
+      "status": "Done",
+      "net_days": 26.76,
+      "gross_days": 28.58,
+      "excluded_days": 1.82,
+      "cost_egp": 93660.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-1559",
+      "summary": "Filtered Out Experience Projects Drawer [Front end] [Desktop]",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    }
+  ]
+}

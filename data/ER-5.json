@@ -1,0 +1,169 @@
+{
+  "epic_key": "ER-5",
+  "epic_name": "Modeling",
+  "project_key": "ER",
+  "project_name": "eRealty",
+  "generated_at": "2026-07-16T13:02:28.320929",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 14,
+  "complete_tickets": 14,
+  "in_progress_tickets": 0,
+  "total_net_days": 43.54,
+  "total_cost_egp": 152390.0,
+  "tickets": [
+    {
+      "key": "ER-6",
+      "summary": "Modeling Villa C",
+      "status": "Done",
+      "net_days": 0.14,
+      "gross_days": 0.14,
+      "excluded_days": 0.0,
+      "cost_egp": 490.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-7",
+      "summary": "Modeling Villa B",
+      "status": "Done",
+      "net_days": 0.14,
+      "gross_days": 0.14,
+      "excluded_days": 0.0,
+      "cost_egp": 490.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-8",
+      "summary": "Modeling Town House",
+      "status": "Done",
+      "net_days": 9.14,
+      "gross_days": 9.14,
+      "excluded_days": 0.0,
+      "cost_egp": 31990.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-9",
+      "summary": "Modeling Town house with Annex",
+      "status": "Done",
+      "net_days": 9.14,
+      "gross_days": 9.14,
+      "excluded_days": 0.0,
+      "cost_egp": 31990.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-10",
+      "summary": "Modeling Twin House",
+      "status": "Done",
+      "net_days": 0.14,
+      "gross_days": 0.14,
+      "excluded_days": 0.0,
+      "cost_egp": 490.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-11",
+      "summary": "Modeling Villa XL",
+      "status": "Done",
+      "net_days": 0.14,
+      "gross_days": 0.14,
+      "excluded_days": 0.0,
+      "cost_egp": 490.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-12",
+      "summary": "Modeling G+3 Duplex",
+      "status": "Done",
+      "net_days": 9.14,
+      "gross_days": 9.14,
+      "excluded_days": 0.0,
+      "cost_egp": 31990.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-13",
+      "summary": "Modeling Chalet",
+      "status": "Done",
+      "net_days": 2.63,
+      "gross_days": 2.63,
+      "excluded_days": 0.0,
+      "cost_egp": 9205.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-14",
+      "summary": "Modeling Landscape Cad",
+      "status": "Done",
+      "net_days": 3.12,
+      "gross_days": 3.12,
+      "excluded_days": 0.0,
+      "cost_egp": 10920.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-15",
+      "summary": "Modeling Landscape 3D",
+      "status": "Done",
+      "net_days": 3.27,
+      "gross_days": 3.27,
+      "excluded_days": 0.0,
+      "cost_egp": 11445.0,
+      "is_complete": true,
+      "num_spans": 2
+    },
+    {
+      "key": "ER-16",
+      "summary": "Preparing Hardscape Cad",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "ER-17",
+      "summary": "Modeling Hardscape 3d",
+      "status": "Done",
+      "net_days": 4.51,
+      "gross_days": 4.51,
+      "excluded_days": 0.0,
+      "cost_egp": 15785.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-24",
+      "summary": "Modeling Plot areas",
+      "status": "Done",
+      "net_days": 2.0,
+      "gross_days": 2.0,
+      "excluded_days": 0.0,
+      "cost_egp": 7000.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-49",
+      "summary": "Parking Lines",
+      "status": "Done",
+      "net_days": 0.03,
+      "gross_days": 0.03,
+      "excluded_days": 0.0,
+      "cost_egp": 105.0,
+      "is_complete": true,
+      "num_spans": 1
+    }
+  ]
+}

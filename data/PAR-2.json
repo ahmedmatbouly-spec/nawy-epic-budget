@@ -1,0 +1,26 @@
+{
+  "epic_key": "PAR-2",
+  "epic_name": "Inventory View Enhancements",
+  "project_key": "PAR",
+  "project_name": "Partners",
+  "generated_at": "2026-07-16T12:47:08.595990",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 1,
+  "complete_tickets": 1,
+  "in_progress_tickets": 0,
+  "total_net_days": 3.25,
+  "total_cost_egp": 11375.0,
+  "tickets": [
+    {
+      "key": "PAR-108",
+      "summary": "Inventory Call To action",
+      "status": "Done",
+      "net_days": 3.25,
+      "gross_days": 3.25,
+      "excluded_days": 0.0,
+      "cost_egp": 11375.0,
+      "is_complete": true,
+      "num_spans": 1
+    }
+  ]
+}

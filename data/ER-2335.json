@@ -1,0 +1,70 @@
+{
+  "epic_key": "ER-2335",
+  "epic_name": "Units Enhancements",
+  "project_key": "ER",
+  "project_name": "eRealty",
+  "generated_at": "2026-07-16T13:04:49.198293",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 5,
+  "complete_tickets": 4,
+  "in_progress_tickets": 1,
+  "total_net_days": 19.17,
+  "total_cost_egp": 67095.0,
+  "tickets": [
+    {
+      "key": "ER-1700",
+      "summary": "Units Table - Export selected results with already set columns (Selected rows) [BE] [Dev only]",
+      "status": "Ready for Deployment",
+      "net_days": 8.14,
+      "gross_days": 8.15,
+      "excluded_days": 0.01,
+      "cost_egp": 28490.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-1793",
+      "summary": "Units Table - Export selected results with already set columns (Selected rows) [FE]",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "ER-2362",
+      "summary": "Units Table - Export selected results with already set columns (Selected rows) [BE] [Testing only]",
+      "status": "Ready for Deployment",
+      "net_days": 9.88,
+      "gross_days": 11.37,
+      "excluded_days": 1.49,
+      "cost_egp": 34580.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-2432",
+      "summary": "Units Table - Export Fixes",
+      "status": "Done",
+      "net_days": 1.15,
+      "gross_days": 2.31,
+      "excluded_days": 1.16,
+      "cost_egp": 4025.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-2480",
+      "summary": "Units Table - Export Fixes [UAT Only]",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    }
+  ]
+}

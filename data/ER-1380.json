@@ -1,0 +1,48 @@
+{
+  "epic_key": "ER-1380",
+  "epic_name": "Map View",
+  "project_key": "ER",
+  "project_name": "eRealty",
+  "generated_at": "2026-07-16T13:04:01.369439",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 3,
+  "complete_tickets": 3,
+  "in_progress_tickets": 0,
+  "total_net_days": 27.65,
+  "total_cost_egp": 96775.0,
+  "tickets": [
+    {
+      "key": "ER-1383",
+      "summary": "Projects Nearest Landmarks",
+      "status": "Done",
+      "net_days": 20.68,
+      "gross_days": 20.68,
+      "excluded_days": 0.0,
+      "cost_egp": 72380.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-1491",
+      "summary": "Landmarks dynamic configurations per area",
+      "status": "Done",
+      "net_days": 6.97,
+      "gross_days": 6.97,
+      "excluded_days": 0.0,
+      "cost_egp": 24395.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-1502",
+      "summary": "Landmarks types icons and colors",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    }
+  ]
+}

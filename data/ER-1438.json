@@ -1,0 +1,37 @@
+{
+  "epic_key": "ER-1438",
+  "epic_name": "Home Page",
+  "project_key": "ER",
+  "project_name": "eRealty",
+  "generated_at": "2026-07-16T13:04:07.275054",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 2,
+  "complete_tickets": 2,
+  "in_progress_tickets": 0,
+  "total_net_days": 21.28,
+  "total_cost_egp": 74480.0,
+  "tickets": [
+    {
+      "key": "ER-1428",
+      "summary": "Landing Page with View Background [Front end] [Desktop]",
+      "status": "Done",
+      "net_days": 20.67,
+      "gross_days": 28.57,
+      "excluded_days": 7.89,
+      "cost_egp": 72345.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-1561",
+      "summary": "Landing Page with View Background [Front end] [Mobile]",
+      "status": "Done",
+      "net_days": 0.61,
+      "gross_days": 4.64,
+      "excluded_days": 4.03,
+      "cost_egp": 2135.0,
+      "is_complete": true,
+      "num_spans": 1
+    }
+  ]
+}
