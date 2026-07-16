@@ -48,6 +48,30 @@ of the workflow finishing.
 - Each run overwrites `data/<EPIC>.json` and `data/index.json` and commits
   the change — the dashboard picks it up on next page load, no rebuild step.
 - Adding a new epic to track = one line in `scripts/epics.json`, commit, done.
+- Sync is **incremental**: only tickets Jira reports as changed since the last
+  run get re-fetched (fast — usually under a minute). A full rebuild still
+  runs automatically every Sunday as a safety net, and can be forced anytime
+  via the Actions tab ("Run workflow" → check "Force a full rebuild").
+
+## "Refresh from Jira" button (on-demand refresh)
+The dashboard has a Refresh button that triggers the same GitHub Action
+on demand, instead of waiting for the daily schedule.
+
+**No token is stored in this repo** — GitHub's push protection actively
+blocks committing one (public repo), and that's the correct behavior. Instead,
+the first time anyone clicks Refresh, the page asks them to paste a token —
+it's saved only in *their own browser's* localStorage and sent directly from
+their browser to GitHub's API. It never touches this repo or any server.
+
+To use it, each person needs their own **Fine-grained personal access token**:
+1. https://github.com/settings/personal-access-tokens/new
+2. Repository access → **Only select repositories** → this repo
+3. Permissions → Repository permissions → **Actions: Read and write**
+4. Leave every other permission as **No access**
+5. Generate, copy, paste it into the browser prompt when clicking Refresh
+
+That scope means the token can only start/cancel workflow runs on this one
+repo — it cannot read code, secrets, or anything else, even if it leaked.
 
 ## Files
 - `scripts/jira_epic_budget.py` — the fetch + calculation engine
