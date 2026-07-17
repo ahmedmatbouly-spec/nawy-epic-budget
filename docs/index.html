@@ -187,12 +187,12 @@ async function workerApi(path, opts) {
   return fetch(`${WORKER_URL}${path}`, opts);
 }
 
-async function getLatestRunId() {
+async function getLatestRun() {
   try {
     const resp = await workerApi('/latest-run');
     if (!resp.ok) return null;
     const data = await resp.json();
-    return data.id || null;
+    return data.id ? { id: data.id, status: data.status, conclusion: data.conclusion } : null;
   } catch (e) {
     return null;
   }
@@ -213,26 +213,38 @@ async function triggerJiraRefresh() {
   render();
 
   try {
-    const baselineId = await getLatestRunId();
+    const existing = await getLatestRun();
+    const alreadyRunning = existing && (existing.status === 'queued' || existing.status === 'in_progress');
 
-    const dispatchResp = await workerApi('/dispatch', { method: 'POST' });
-
-    if (!dispatchResp.ok) {
-      refreshState = 'error';
-      refreshStatusText = '✗ Could not start refresh (check the Worker & Actions tab)';
+    let newRunId;
+    if (alreadyRunning) {
+      // Don't pile another dispatch onto the queue - a refresh is already
+      // in flight (possibly from someone else, or a very recent click) -
+      // just wait for that one instead of adding to the backlog.
+      newRunId = existing.id;
+      refreshStatusText = 'A refresh is already in progress — waiting for it…';
       render();
-      return;
-    }
+    } else {
+      const baselineId = existing ? existing.id : null;
+      const dispatchResp = await workerApi('/dispatch', { method: 'POST' });
 
-    refreshStatusText = 'Refresh queued, waiting for it to start…';
-    render();
+      if (!dispatchResp.ok) {
+        refreshState = 'error';
+        refreshStatusText = '✗ Could not start refresh (check the Worker & Actions tab)';
+        render();
+        return;
+      }
 
-    // Poll for a NEW run to appear (GitHub takes a few seconds to register a dispatch)
-    let newRunId = null;
-    for (let i = 0; i < 15; i++) {
-      await sleep(2000);
-      const latest = await getLatestRunId();
-      if (latest && latest !== baselineId) { newRunId = latest; break; }
+      refreshStatusText = 'Refresh queued, waiting for it to start…';
+      render();
+
+      // Poll for a NEW run to appear (GitHub takes a few seconds to register a dispatch)
+      newRunId = null;
+      for (let i = 0; i < 15; i++) {
+        await sleep(2000);
+        const latest = await getLatestRun();
+        if (latest && latest.id !== baselineId) { newRunId = latest.id; break; }
+      }
     }
 
     if (!newRunId) {
