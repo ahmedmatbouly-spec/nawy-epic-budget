@@ -1,21 +1,11 @@
-=== INCREMENTAL SYNC since 2026-07-16T22:31:37.734716 ===
-Found 11 issue(s) updated since last sync.
-Epics needing an update this run: 6
-    SC-878: refetching 1 changed/new ticket(s)
-  SC-878: patched (32.17d, 112,595 EGP)
-    NLP-2069: refetching 1 changed/new ticket(s)
-  NLP-2069: patched (813.25d, 2,846,375 EGP)
-  CM-866: patched (0d, 0 EGP)
-    NLP-3559: refetching 1 changed/new ticket(s)
-  NLP-3559: patched (116.85d, 408,975 EGP)
+=== INCREMENTAL SYNC since 2026-07-17T11:05:10.228349 ===
+Found 4 issue(s) updated since last sync.
+Epics needing an update this run: 2
+    PAR-4707: refetching 1 changed/new ticket(s)
+  PAR-4707: patched (0.0d, 0 EGP)
     PAR-4729: refetching 1 changed/new ticket(s)
   PAR-4729: patched (27.04d, 94,640 EGP)
-  PAR-4707: new epic, full fetch
-Fetching PAR-4707 ([Web][NN Agent Access] Requests management account manager flow - Rejection flow) ...
-  PAR-4993: 0.0d
-  PAR-5015: 0.0d
-Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/PAR-4707.json: 0.0 days, 0 EGP
 
-Done. Incremental sync touched 6 epic(s), 314 epic(s) total tracked.
+Done. Incremental sync touched 2 epic(s), 314 epic(s) total tracked.
 Portfolio: 31453.3 days, 110,086,480 EGP across 314 epics
 SCRIPT_EXIT_CODE=0

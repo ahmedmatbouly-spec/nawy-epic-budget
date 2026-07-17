@@ -2638,7 +2638,7 @@
       "total_cost_egp": 0.0,
       "total_tickets": 2,
       "complete_tickets": 0,
-      "generated_at": "2026-07-17T11:10:21.221022+00:00"
+      "generated_at": "2026-07-17T20:09:50.029178+00:00"
     },
     {
       "epic_key": "PAR-4729",
@@ -2650,7 +2650,7 @@
       "total_cost_egp": 94640.0,
       "total_tickets": 14,
       "complete_tickets": 4,
-      "generated_at": "2026-07-17T11:10:18.372703+00:00"
+      "generated_at": "2026-07-17T20:09:51.940527+00:00"
     },
     {
       "epic_key": "PAR-4956",
@@ -3769,5 +3769,5 @@
       "generated_at": "2026-07-16T20:51:47.450886"
     }
   ],
-  "updated_at": "2026-07-17T11:10:21.235325+00:00"
+  "updated_at": "2026-07-17T20:09:51.953725+00:00"
 }
