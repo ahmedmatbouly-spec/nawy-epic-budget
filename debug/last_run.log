@@ -1,11 +1,7 @@
-=== INCREMENTAL SYNC since 2026-07-17T11:05:10.228349 ===
-Found 4 issue(s) updated since last sync.
-Epics needing an update this run: 2
-    PAR-4707: refetching 1 changed/new ticket(s)
-  PAR-4707: patched (0.0d, 0 EGP)
-    PAR-4729: refetching 1 changed/new ticket(s)
-  PAR-4729: patched (27.04d, 94,640 EGP)
+=== INCREMENTAL SYNC since 2026-07-17T20:04:47.294780 ===
+Found 2 issue(s) updated since last sync.
+Epics needing an update this run: 0
 
-Done. Incremental sync touched 2 epic(s), 314 epic(s) total tracked.
+Done. Incremental sync touched 0 epic(s), 314 epic(s) total tracked.
 Portfolio: 31453.3 days, 110,086,480 EGP across 314 epics
 SCRIPT_EXIT_CODE=0
