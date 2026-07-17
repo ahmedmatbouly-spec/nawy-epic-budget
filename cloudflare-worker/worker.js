@@ -32,6 +32,7 @@ const CORS_HEADERS = {
   'Access-Control-Allow-Origin': '*',
   'Access-Control-Allow-Methods': 'GET, POST, OPTIONS',
   'Access-Control-Allow-Headers': 'Content-Type',
+  'Cache-Control': 'no-store',
 };
 
 function json(data, status = 200) {
@@ -50,6 +51,12 @@ async function githubFetch(env, path, opts = {}) {
       'User-Agent': 'nawy-epic-budget-worker',
       ...(opts.headers || {}),
     },
+    // IMPORTANT: GitHub's API responses for run-status endpoints come back
+    // with "cache-control: private, max-age=60" - without this override,
+    // Cloudflare's edge can cache that for up to 60 seconds, meaning the
+    // dashboard could see a stale "still running" status well after a run
+    // (which now typically finishes in ~15s) has actually completed.
+    cf: { cacheTtl: -1, cacheEverything: false },
   });
 }
 
