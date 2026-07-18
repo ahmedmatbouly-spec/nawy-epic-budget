@@ -27,6 +27,7 @@
 const GH_OWNER = 'ahmedmatbouly-spec';
 const GH_REPO = 'nawy-epic-budget';
 const GH_WORKFLOW = 'update-budget.yml';
+const WORKER_VERSION = 'v3-contents-api-2026-07-18';
 
 const CORS_HEADERS = {
   'Access-Control-Allow-Origin': '*',
@@ -81,6 +82,13 @@ export default {
     }
 
     try {
+      // Deployment sanity check: bump WORKER_VERSION on every code change.
+      // Visiting /version tells you exactly which build is live - no more
+      // guessing whether Cloudflare's Git integration actually deployed.
+      if (url.pathname === '/version') {
+        return json({ version: WORKER_VERSION, routes: ['POST /dispatch', 'GET /latest-run', 'GET /run/:id', 'GET /data/:file', 'GET /version'] });
+      }
+
       if (url.pathname === '/dispatch' && request.method === 'POST') {
         const resp = await githubFetch(
           env,
@@ -116,7 +124,32 @@ export default {
         return json({ ok: true, status: data.status, conclusion: data.conclusion });
       }
 
-      return json({ error: 'Not found. Routes: POST /dispatch, GET /latest-run, GET /run/:id' }, 404);
+      // Fetches a file from data/ via the Contents API instead of
+      // raw.githubusercontent.com. This matters: raw.githubusercontent.com is
+      // fronted by Fastly, which caches by URL PATH ONLY - confirmed via
+      // direct testing that appending a cache-busting query string has NO
+      // effect there (x-cache: HIT regardless). The Contents API requires
+      // auth and returns "cache-control: private", meaning shared CDNs like
+      // Fastly won't serve a cached copy to different requesters at all -
+      // this was the actual root cause of the dashboard showing stale
+      // timestamps shortly after a real, successful refresh.
+      const dataMatch = url.pathname.match(/^\/data\/(.+\.json)$/);
+      if (dataMatch && request.method === 'GET') {
+        const fileName = dataMatch[1];
+        const resp = await githubFetch(
+          env,
+          `/repos/${GH_OWNER}/${GH_REPO}/contents/data/${fileName}`,
+          { headers: { 'Accept': 'application/vnd.github.raw+json' } }
+        );
+        if (!resp.ok) return json({ ok: false, status: resp.status }, resp.status);
+        const text = await resp.text();
+        return new Response(text, {
+          status: 200,
+          headers: { 'Content-Type': 'application/json', ...CORS_HEADERS },
+        });
+      }
+
+      return json({ error: 'Not found. Routes: POST /dispatch, GET /latest-run, GET /run/:id, GET /data/:file' }, 404);
     } catch (e) {
       return json({ error: 'Worker error: ' + e.message }, 500);
     }
