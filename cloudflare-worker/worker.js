@@ -42,22 +42,29 @@ function json(data, status = 200) {
   });
 }
 
-// DEPLOY-CHECK-MARKER-v2 (cache-bypass fix included below)
 async function githubFetch(env, path, opts = {}) {
-  return fetch(`https://api.github.com${path}`, {
+  // Cache-bust GET requests with a unique query param on every call - this
+  // guarantees a fresh request regardless of any cache layer's specific TTL
+  // semantics, rather than relying on cf.cacheTtl alone (which needs 0, not
+  // -1, to actually disable caching - a bug in an earlier version of this
+  // file). Left off POST requests (dispatch) to avoid any risk of an
+  // unexpected extra query param affecting a write endpoint.
+  const method = (opts && opts.method) || 'GET';
+  let finalPath = path;
+  if (method === 'GET') {
+    const sep = path.includes('?') ? '&' : '?';
+    finalPath = `${path}${sep}_cb=${Date.now()}`;
+  }
+  return fetch(`https://api.github.com${finalPath}`, {
     ...opts,
     headers: {
       'Authorization': `Bearer ${env.GITHUB_TOKEN}`,
       'Accept': 'application/vnd.github+json',
       'User-Agent': 'nawy-epic-budget-worker',
+      'Cache-Control': 'no-cache',
       ...(opts.headers || {}),
     },
-    // IMPORTANT: GitHub's API responses for run-status endpoints come back
-    // with "cache-control: private, max-age=60" - without this override,
-    // Cloudflare's edge can cache that for up to 60 seconds, meaning the
-    // dashboard could see a stale "still running" status well after a run
-    // (which now typically finishes in ~15s) has actually completed.
-    cf: { cacheTtl: -1, cacheEverything: false },
+    cf: { cacheTtl: 0, cacheEverything: false },
   });
 }
 
