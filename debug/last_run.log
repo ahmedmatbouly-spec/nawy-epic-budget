@@ -1,12 +1,7 @@
-=== INCREMENTAL SYNC since 2026-07-17T20:22:23.598401 ===
-Found 6 issue(s) updated since last sync.
-Epics needing an update this run: 1
-  NCRM-3298: new epic, full fetch
-Fetching NCRM-3298 (Talaat mostafa integration) ...
-  NCRM-3310: 0.0d
-  NCRM-3321: 0.0d
-Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/NCRM-3298.json: 0.0 days, 0 EGP
+=== INCREMENTAL SYNC since 2026-07-18T10:41:54.854405 ===
+Found 3 issue(s) updated since last sync.
+Epics needing an update this run: 0
 
-Done. Incremental sync touched 1 epic(s), 315 epic(s) total tracked.
+Done. Incremental sync touched 0 epic(s), 315 epic(s) total tracked.
 Portfolio: 31453.3 days, 110,086,480 EGP across 315 epics
 SCRIPT_EXIT_CODE=0
