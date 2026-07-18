@@ -1585,6 +1585,18 @@
       "generated_at": "2026-07-16T20:39:14.318364"
     },
     {
+      "epic_key": "NCRM-3298",
+      "epic_name": "Talaat mostafa integration",
+      "project_key": "NCRM",
+      "project_name": "NawyCRM",
+      "epic_created": "2026-07-11T15:45:34.541+0300",
+      "total_net_days": 0.0,
+      "total_cost_egp": 0.0,
+      "total_tickets": 2,
+      "complete_tickets": 0,
+      "generated_at": "2026-07-18T10:46:59.246441+00:00"
+    },
+    {
       "epic_key": "NCRM-333",
       "epic_name": "Owners Launch enhancements",
       "project_key": "NCRM",
@@ -3769,5 +3781,5 @@
       "generated_at": "2026-07-16T20:51:47.450886"
     }
   ],
-  "updated_at": "2026-07-17T20:27:24.272256+00:00"
+  "updated_at": "2026-07-18T10:46:59.260993+00:00"
 }

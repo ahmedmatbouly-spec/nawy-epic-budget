@@ -1,0 +1,38 @@
+{
+  "epic_key": "NCRM-3298",
+  "epic_name": "Talaat mostafa integration",
+  "project_key": "NCRM",
+  "project_name": "NawyCRM",
+  "epic_created": "2026-07-11T15:45:34.541+0300",
+  "generated_at": "2026-07-18T10:46:59.246441+00:00",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 2,
+  "complete_tickets": 0,
+  "in_progress_tickets": 2,
+  "total_net_days": 0.0,
+  "total_cost_egp": 0.0,
+  "tickets": [
+    {
+      "key": "NCRM-3310",
+      "summary": "Testing: Talaat mostafa integration",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "NCRM-3321",
+      "summary": "Code Review: Talaat mostafa integration",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    }
+  ]
+}
