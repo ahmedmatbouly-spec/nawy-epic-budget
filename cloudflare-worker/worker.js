@@ -42,6 +42,7 @@ function json(data, status = 200) {
   });
 }
 
+// DEPLOY-CHECK-MARKER-v2 (cache-bypass fix included below)
 async function githubFetch(env, path, opts = {}) {
   return fetch(`https://api.github.com${path}`, {
     ...opts,
