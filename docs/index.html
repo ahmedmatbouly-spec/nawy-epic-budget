@@ -181,6 +181,31 @@ async function fetchLiveEpics() {
 // ---------------------------------------------------------------------------
 const WORKER_URL = 'https://nawy-epic-budget.ahmed-matbouly.workers.dev';
 
+async function fetchFreshIndexViaWorker() {
+  // Used specifically right after a refresh completes, where we need a
+  // genuinely fresh answer - raw.githubusercontent.com is unusable for this
+  // (confirmed: Fastly caches by path only, ignoring cache-busting query
+  // strings entirely), so this goes through the Worker's Contents-API proxy
+  // instead, which is immune to that.
+  try {
+    const resp = await fetch(`${WORKER_URL}/data/index.json`, { cache: 'no-store' });
+    if (!resp.ok) return null;
+    return await resp.json();
+  } catch (e) {
+    return null;
+  }
+}
+
+async function fetchFreshEpicViaWorker(epicKey) {
+  try {
+    const resp = await fetch(`${WORKER_URL}/data/${epicKey}.json`, { cache: 'no-store' });
+    if (!resp.ok) return null;
+    return await resp.json();
+  } catch (e) {
+    return null;
+  }
+}
+
 function sleep(ms) { return new Promise(res => setTimeout(res, ms)); }
 
 async function workerApi(path, opts) {
@@ -274,24 +299,42 @@ async function triggerJiraRefresh() {
       refreshStatusText = '✓ Refreshed — reloading data…';
       render();
 
-      // The CDN in front of raw.githubusercontent.com can lag behind the push
-      // that just happened, even with cache-busting - retry until the
-      // timestamp actually advances past what we had before, or give up
-      // and say so honestly rather than falsely claiming success.
+      // Use the Worker's Contents-API proxy here specifically, NOT
+      // raw.githubusercontent.com - that's fronted by Fastly, which caches
+      // by URL path only and ignores cache-busting query strings entirely
+      // (confirmed via direct testing: x-cache HIT regardless of query
+      // string). This was the actual root cause of timestamps appearing
+      // stale after a genuinely successful refresh.
       const previousTimestamp = lastUpdatedAt;
-      let live = {}, updatedAt = null, advanced = false;
+      let freshIndex = null, advanced = false;
       for (let i = 0; i < 10; i++) {
-        const result = await fetchLiveEpics();
-        live = result.epics;
-        updatedAt = result.updatedAt;
-        if (updatedAt && updatedAt !== previousTimestamp) { advanced = true; break; }
-        await sleep(3000);
+        freshIndex = await fetchFreshIndexViaWorker();
+        if (freshIndex && freshIndex.updated_at && freshIndex.updated_at !== previousTimestamp) {
+          advanced = true;
+          break;
+        }
+        await sleep(2000);
       }
 
-      if (Object.keys(live).length > 0) {
-        epics = { ...epics, ...live };
-        lastUpdatedAt = updatedAt;
+      if (freshIndex) {
+        // Merge fresh summary fields (cost/days/completion) into every epic
+        // immediately. Per-ticket ticket-level detail for the currently
+        // active epic gets a fully fresh fetch too; other epics' detailed
+        // ticket lists catch up via the normal (slightly-lagged, but
+        // eventually-consistent) raw.githubusercontent.com path on next load.
+        (freshIndex.epics || []).forEach(summary => {
+          const key = summary.epic_key;
+          epics[key] = { ...(epics[key] || {}), ...summary };
+        });
+        lastUpdatedAt = freshIndex.updated_at;
         liveDataStatus = 'live';
+
+        if (activeEpic) {
+          const freshActiveEpic = await fetchFreshEpicViaWorker(activeEpic);
+          if (freshActiveEpic) {
+            epics[activeEpic] = { ...epics[activeEpic], ...freshActiveEpic };
+          }
+        }
       }
 
       if (advanced) {
