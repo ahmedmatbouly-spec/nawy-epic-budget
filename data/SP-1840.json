@@ -4,11 +4,11 @@
   "project_key": "SP",
   "project_name": "Sales Portal",
   "epic_created": "2026-04-02T19:34:03.824+0200",
-  "generated_at": "2026-07-16T20:52:59.840210",
+  "generated_at": "2026-07-19T09:48:30.251902+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 34,
-  "complete_tickets": 11,
-  "in_progress_tickets": 23,
+  "complete_tickets": 12,
+  "in_progress_tickets": 22,
   "total_net_days": 13.08,
   "total_cost_egp": 45780.0,
   "tickets": [
@@ -268,12 +268,12 @@
     {
       "key": "SP-2058",
       "summary": "Setup a testing for testcases that run on demand and gets removed after tests are finished",
-      "status": "To Do",
+      "status": "Done",
       "net_days": 0.0,
       "gross_days": 0.0,
       "excluded_days": 0.0,
       "cost_egp": 0.0,
-      "is_complete": false,
+      "is_complete": true,
       "num_spans": 0
     },
     {
