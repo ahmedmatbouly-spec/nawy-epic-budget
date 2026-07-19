@@ -1,10 +1,10 @@
 {
-  "epic_key": "SC-1982",
-  "epic_name": "Map view in Erealty crashes",
-  "project_key": "SC",
-  "project_name": "Suite Control ",
-  "epic_created": "2026-07-19T12:34:05.098+0300",
-  "generated_at": "2026-07-19T14:55:34.617954+00:00",
+  "epic_key": "NCRM-3287",
+  "epic_name": "Log Activity for Hot Lead Tag Assignment",
+  "project_key": "NCRM",
+  "project_name": "NawyCRM",
+  "epic_created": "2026-07-04T23:01:52.480+0300",
+  "generated_at": "2026-07-19T14:55:44.382718+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 1,
   "complete_tickets": 1,
@@ -13,8 +13,8 @@
   "total_cost_egp": 0.0,
   "tickets": [
     {
-      "key": "SC-1983",
-      "summary": "Code Review: Map view in Erealty crashes",
+      "key": "NCRM-3305",
+      "summary": "Testing: Log Activity for Hot Lead Tag Assignment",
       "status": "Done",
       "net_days": 0.0,
       "gross_days": 0.0,

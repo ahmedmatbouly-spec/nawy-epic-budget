@@ -1,10 +1,10 @@
 {
-  "epic_key": "PSQ-776",
-  "epic_name": "[ZOOMKEEPER] Backend: Expose & harden Zoom Keeper API for Backoffice",
-  "project_key": "PSQ",
-  "project_name": "Platform Squad",
-  "epic_created": "2026-07-14T13:58:38.922+0300",
-  "generated_at": "2026-07-19T14:56:14.223821+00:00",
+  "epic_key": "NLP-3905",
+  "epic_name": "[App] Progress Tracker - Not Interested (Agent)",
+  "project_key": "NLP",
+  "project_name": "Nawy Listing Platform ",
+  "epic_created": "2025-07-16T12:02:38.977+0300",
+  "generated_at": "2026-07-19T14:56:08.623848+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 2,
   "complete_tickets": 0,
@@ -13,8 +13,8 @@
   "total_cost_egp": 0.0,
   "tickets": [
     {
-      "key": "PSQ-788",
-      "summary": "Testing: [ZOOMKEEPER] Backend: Expose & harden Zoom Keeper API for Backoffice",
+      "key": "NLP-3922",
+      "summary": "[Testing & Reviewing][App] Progress Tracker - Not Interested (Agent)",
       "status": "To Do",
       "net_days": 0.0,
       "gross_days": 0.0,
@@ -24,8 +24,8 @@
       "num_spans": 0
     },
     {
-      "key": "PSQ-790",
-      "summary": "Code Review: [ZOOMKEEPER] Backend: Expose & harden Zoom Keeper API for Backoffice",
+      "key": "NLP-5085",
+      "summary": "Code Review: [App] Progress Tracker - Not Interested (Agent)",
       "status": "To Do",
       "net_days": 0.0,
       "gross_days": 0.0,

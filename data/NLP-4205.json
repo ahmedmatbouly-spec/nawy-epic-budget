@@ -1,10 +1,10 @@
 {
-  "epic_key": "SC-1945",
-  "epic_name": "Mixpanel Events Setup",
-  "project_key": "SC",
-  "project_name": "Suite Control ",
-  "epic_created": "2026-07-14T13:54:25.853+0300",
-  "generated_at": "2026-07-19T14:55:11.381411+00:00",
+  "epic_key": "NLP-4205",
+  "epic_name": "[App] Bulk Payments - Payment Plans",
+  "project_key": "NLP",
+  "project_name": "Nawy Listing Platform ",
+  "epic_created": "2025-12-29T10:50:34.784+0200",
+  "generated_at": "2026-07-19T14:55:59.625178+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 1,
   "complete_tickets": 0,
@@ -13,8 +13,8 @@
   "total_cost_egp": 0.0,
   "tickets": [
     {
-      "key": "SC-1984",
-      "summary": "Code Review: Mixpanel Events Setup",
+      "key": "NLP-5083",
+      "summary": "Testing: [App] Bulk Payments - Payment Plans",
       "status": "To Do",
       "net_days": 0.0,
       "gross_days": 0.0,

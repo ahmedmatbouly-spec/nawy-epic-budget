@@ -4,61 +4,17 @@
   "project_key": "NLP",
   "project_name": "Nawy Listing Platform ",
   "epic_created": "2024-07-30T15:50:49.706+0300",
-  "generated_at": "2026-07-19T09:44:04.992165+00:00",
+  "generated_at": "2026-07-19T14:55:51.587586+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 30,
   "complete_tickets": 17,
   "in_progress_tickets": 13,
-  "total_net_days": 539.5,
-  "total_cost_egp": 1888250.0,
+  "total_net_days": 540.03,
+  "total_cost_egp": 1890105.0,
   "tickets": [
     {
-      "key": "NLP-1825",
-      "summary": "[BE] Installment notification update",
-      "status": "Done",
-      "net_days": 12.48,
-      "gross_days": 12.48,
-      "excluded_days": 0.0,
-      "cost_egp": 43680.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
-    {
-      "key": "NLP-1986",
-      "summary": "[App] Manage my property - Installment alerts in unit card",
-      "status": "Done",
-      "net_days": 17.63,
-      "gross_days": 19.25,
-      "excluded_days": 1.62,
-      "cost_egp": 61705.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
-    {
-      "key": "NLP-1991",
-      "summary": "[App] Manage my property - Installment alerts in homepage",
-      "status": "Done",
-      "net_days": 16.13,
-      "gross_days": 17.75,
-      "excluded_days": 1.62,
-      "cost_egp": 56455.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
-    {
-      "key": "NLP-2023",
-      "summary": "[BE] Manage my property - Contraction notification (Phase 1)",
-      "status": "Cancelled",
-      "net_days": 0.0,
-      "gross_days": 0.0,
-      "excluded_days": 0.0,
-      "cost_egp": 0.0,
-      "is_complete": false,
-      "num_spans": 0
-    },
-    {
-      "key": "NLP-2071",
-      "summary": "[BE] Manage my property - Property valuation update notification",
+      "key": "NLP-3643",
+      "summary": "[App][MMP] Unit Card Functions",
       "status": "Open",
       "net_days": 0.0,
       "gross_days": 0.0,
@@ -66,50 +22,6 @@
       "cost_egp": 0.0,
       "is_complete": false,
       "num_spans": 0
-    },
-    {
-      "key": "NLP-2108",
-      "summary": "[BE] Manage my property - Installments are sent for deleted units",
-      "status": "Done",
-      "net_days": 4.99,
-      "gross_days": 4.99,
-      "excluded_days": 0.0,
-      "cost_egp": 17465.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
-    {
-      "key": "NLP-2110",
-      "summary": "[BE] Manage my property - Installment reminders enhancements",
-      "status": "Done",
-      "net_days": 16.16,
-      "gross_days": 52.82,
-      "excluded_days": 36.67,
-      "cost_egp": 56560.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
-    {
-      "key": "NLP-2686",
-      "summary": "[App] Manage My Property - Installments Summary",
-      "status": "Done",
-      "net_days": 16.13,
-      "gross_days": 18.19,
-      "excluded_days": 2.07,
-      "cost_egp": 56455.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
-    {
-      "key": "NLP-2687",
-      "summary": "[App] Manage My Property - Name My Property",
-      "status": "Done",
-      "net_days": 16.13,
-      "gross_days": 18.19,
-      "excluded_days": 2.07,
-      "cost_egp": 56455.0,
-      "is_complete": true,
-      "num_spans": 1
     },
     {
       "key": "NLP-2791",
@@ -123,25 +35,25 @@
       "num_spans": 1
     },
     {
-      "key": "NLP-2908",
-      "summary": "[App] Manage My Property - Mark installments due Today as upcoming",
-      "status": "Done",
-      "net_days": 0.94,
-      "gross_days": 0.94,
-      "excluded_days": 0.0,
-      "cost_egp": 3290.0,
+      "key": "NLP-3638",
+      "summary": "[App][MMP] Installments Summary - Main Page",
+      "status": "Cancelled",
+      "net_days": 9.08,
+      "gross_days": 61.04,
+      "excluded_days": 51.97,
+      "cost_egp": 31780.0,
       "is_complete": true,
       "num_spans": 1
     },
     {
-      "key": "NLP-2925",
-      "summary": "[Testing] Revamped MMP Notifications Logic",
-      "status": "Done",
+      "key": "NLP-4508",
+      "summary": "[App][MMP] Installments Summary - Overdue Amounts [UAT]",
+      "status": "On-hold",
       "net_days": 0.0,
       "gross_days": 0.0,
       "excluded_days": 0.0,
       "cost_egp": 0.0,
-      "is_complete": true,
+      "is_complete": false,
       "num_spans": 0
     },
     {
@@ -154,39 +66,6 @@
       "cost_egp": 0.0,
       "is_complete": true,
       "num_spans": 0
-    },
-    {
-      "key": "NLP-3638",
-      "summary": "[App][MMP] Installments Summary - Main Page",
-      "status": "Cancelled",
-      "net_days": 9.08,
-      "gross_days": 61.04,
-      "excluded_days": 51.97,
-      "cost_egp": 31780.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
-    {
-      "key": "NLP-3643",
-      "summary": "[App][MMP] Unit Card Functions",
-      "status": "Open",
-      "net_days": 0.0,
-      "gross_days": 0.0,
-      "excluded_days": 0.0,
-      "cost_egp": 0.0,
-      "is_complete": false,
-      "num_spans": 0
-    },
-    {
-      "key": "NLP-3663",
-      "summary": "[App][MMP] Installments Summary - Timeline Details",
-      "status": "Cancelled",
-      "net_days": 7.89,
-      "gross_days": 28.2,
-      "excluded_days": 20.32,
-      "cost_egp": 27615.0,
-      "is_complete": true,
-      "num_spans": 1
     },
     {
       "key": "NLP-3664",
@@ -211,8 +90,19 @@
       "num_spans": 1
     },
     {
-      "key": "NLP-3666",
-      "summary": "[BE][MMP] MMP Installment Statuses",
+      "key": "NLP-4507",
+      "summary": "[App][MMP] Installments Summary - Timeline Details [UAT]",
+      "status": "On-hold",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "NLP-2071",
+      "summary": "[BE] Manage my property - Property valuation update notification",
       "status": "Open",
       "net_days": 0.0,
       "gross_days": 0.0,
@@ -222,8 +112,74 @@
       "num_spans": 0
     },
     {
-      "key": "NLP-3878",
-      "summary": "[MMP] Manage my Property Events",
+      "key": "NLP-4185",
+      "summary": "[BE][MMP] Installments Summary",
+      "status": "Done",
+      "net_days": 17.62,
+      "gross_days": 17.85,
+      "excluded_days": 0.22,
+      "cost_egp": 61670.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NLP-1825",
+      "summary": "[BE] Installment notification update",
+      "status": "Done",
+      "net_days": 12.48,
+      "gross_days": 12.48,
+      "excluded_days": 0.0,
+      "cost_egp": 43680.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NLP-2686",
+      "summary": "[App] Manage My Property - Installments Summary",
+      "status": "Done",
+      "net_days": 16.13,
+      "gross_days": 18.19,
+      "excluded_days": 2.07,
+      "cost_egp": 56455.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NLP-2023",
+      "summary": "[BE] Manage my property - Contraction notification (Phase 1)",
+      "status": "Cancelled",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "NLP-1991",
+      "summary": "[App] Manage my property - Installment alerts in homepage",
+      "status": "Done",
+      "net_days": 16.13,
+      "gross_days": 17.75,
+      "excluded_days": 1.62,
+      "cost_egp": 56455.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NLP-2108",
+      "summary": "[BE] Manage my property - Installments are sent for deleted units",
+      "status": "Done",
+      "net_days": 4.99,
+      "gross_days": 4.99,
+      "excluded_days": 0.0,
+      "cost_egp": 17465.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NLP-3666",
+      "summary": "[BE][MMP] MMP Installment Statuses",
       "status": "Open",
       "net_days": 0.0,
       "gross_days": 0.0,
@@ -244,6 +200,17 @@
       "num_spans": 0
     },
     {
+      "key": "NLP-4510",
+      "summary": "[App][MMP] Installments Summary - Main Page",
+      "status": "On-hold",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
       "key": "NLP-4127",
       "summary": "[BE] MMP - Installments Schedule AI Generator",
       "status": "Open",
@@ -255,24 +222,57 @@
       "num_spans": 0
     },
     {
+      "key": "NLP-3663",
+      "summary": "[App][MMP] Installments Summary - Timeline Details",
+      "status": "Cancelled",
+      "net_days": 7.89,
+      "gross_days": 28.2,
+      "excluded_days": 20.32,
+      "cost_egp": 27615.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NLP-2908",
+      "summary": "[App] Manage My Property - Mark installments due Today as upcoming",
+      "status": "Done",
+      "net_days": 0.94,
+      "gross_days": 0.94,
+      "excluded_days": 0.0,
+      "cost_egp": 3290.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
       "key": "NLP-4175",
       "summary": "[BE] MMP - Developer Price History (Threshold for Updates)",
-      "status": "Code Review",
-      "net_days": 78.3,
-      "gross_days": 120.74,
+      "status": "Ready for Testing",
+      "net_days": 78.83,
+      "gross_days": 121.27,
       "excluded_days": 42.45,
-      "cost_egp": 274050.0,
+      "cost_egp": 275905.0,
       "is_complete": false,
       "num_spans": 1
     },
     {
-      "key": "NLP-4185",
-      "summary": "[BE][MMP] Installments Summary",
+      "key": "NLP-4842",
+      "summary": "[App] Thumbnail for compound updates",
+      "status": "Released",
+      "net_days": 3.96,
+      "gross_days": 6.6,
+      "excluded_days": 2.64,
+      "cost_egp": 13860.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NLP-2687",
+      "summary": "[App] Manage My Property - Name My Property",
       "status": "Done",
-      "net_days": 17.62,
-      "gross_days": 17.85,
-      "excluded_days": 0.22,
-      "cost_egp": 61670.0,
+      "net_days": 16.13,
+      "gross_days": 18.19,
+      "excluded_days": 2.07,
+      "cost_egp": 56455.0,
       "is_complete": true,
       "num_spans": 1
     },
@@ -288,9 +288,20 @@
       "num_spans": 1
     },
     {
-      "key": "NLP-4507",
-      "summary": "[App][MMP] Installments Summary - Timeline Details [UAT]",
-      "status": "On-hold",
+      "key": "NLP-1986",
+      "summary": "[App] Manage my property - Installment alerts in unit card",
+      "status": "Done",
+      "net_days": 17.63,
+      "gross_days": 19.25,
+      "excluded_days": 1.62,
+      "cost_egp": 61705.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NLP-3878",
+      "summary": "[MMP] Manage my Property Events",
+      "status": "Open",
       "net_days": 0.0,
       "gross_days": 0.0,
       "excluded_days": 0.0,
@@ -299,15 +310,26 @@
       "num_spans": 0
     },
     {
-      "key": "NLP-4508",
-      "summary": "[App][MMP] Installments Summary - Overdue Amounts [UAT]",
-      "status": "On-hold",
+      "key": "NLP-2925",
+      "summary": "[Testing] Revamped MMP Notifications Logic",
+      "status": "Done",
       "net_days": 0.0,
       "gross_days": 0.0,
       "excluded_days": 0.0,
       "cost_egp": 0.0,
-      "is_complete": false,
+      "is_complete": true,
       "num_spans": 0
+    },
+    {
+      "key": "NLP-2110",
+      "summary": "[BE] Manage my property - Installment reminders enhancements",
+      "status": "Done",
+      "net_days": 16.16,
+      "gross_days": 52.82,
+      "excluded_days": 36.67,
+      "cost_egp": 56560.0,
+      "is_complete": true,
+      "num_spans": 1
     },
     {
       "key": "NLP-4509",
@@ -319,28 +341,6 @@
       "cost_egp": 0.0,
       "is_complete": false,
       "num_spans": 0
-    },
-    {
-      "key": "NLP-4510",
-      "summary": "[App][MMP] Installments Summary - Main Page",
-      "status": "On-hold",
-      "net_days": 0.0,
-      "gross_days": 0.0,
-      "excluded_days": 0.0,
-      "cost_egp": 0.0,
-      "is_complete": false,
-      "num_spans": 0
-    },
-    {
-      "key": "NLP-4842",
-      "summary": "[App] Thumbnail for compound updates",
-      "status": "Released",
-      "net_days": 3.96,
-      "gross_days": 6.6,
-      "excluded_days": 2.64,
-      "cost_egp": 13860.0,
-      "is_complete": true,
-      "num_spans": 1
     }
   ]
 }

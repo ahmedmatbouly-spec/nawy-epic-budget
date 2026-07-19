@@ -1,0 +1,38 @@
+{
+  "epic_key": "PAR-4715",
+  "epic_name": "[Web][NN Agent Access] Partners pool - Insights, Filters & Requests ",
+  "project_key": "PAR",
+  "project_name": "Partners",
+  "epic_created": "2026-05-19T13:07:17.819+0300",
+  "generated_at": "2026-07-19T14:55:54.616061+00:00",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 2,
+  "complete_tickets": 0,
+  "in_progress_tickets": 2,
+  "total_net_days": 0.34,
+  "total_cost_egp": 1190.0,
+  "tickets": [
+    {
+      "key": "PAR-4915",
+      "summary": "Testing: [Web][NN Agent Access] Partners pool - Insights, Filters & Requests ",
+      "status": "In Progress",
+      "net_days": 0.34,
+      "gross_days": 0.34,
+      "excluded_days": 0.0,
+      "cost_egp": 1190.0,
+      "is_complete": false,
+      "num_spans": 1
+    },
+    {
+      "key": "PAR-4961",
+      "summary": "Code Review: [Web][NN Agent Access] Partners pool - Insights, Filters & Requests ",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    }
+  ]
+}

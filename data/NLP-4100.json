@@ -1,0 +1,27 @@
+{
+  "epic_key": "NLP-4100",
+  "epic_name": "[App] Combine Nawy Now filter to \"Sale Type\"",
+  "project_key": "NLP",
+  "project_name": "Nawy Listing Platform ",
+  "epic_created": "2025-09-24T12:12:29.643+0300",
+  "generated_at": "2026-07-19T14:55:49.618639+00:00",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 1,
+  "complete_tickets": 0,
+  "in_progress_tickets": 1,
+  "total_net_days": 0.0,
+  "total_cost_egp": 0.0,
+  "tickets": [
+    {
+      "key": "NLP-5084",
+      "summary": "Testing: [App] Combine Nawy Now filter to \"Sale Type\"",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    }
+  ]
+}
