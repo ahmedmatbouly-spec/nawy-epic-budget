@@ -1,47 +1,65 @@
-=== INCREMENTAL SYNC since 2026-07-19T09:59:36.654919 ===
-Found 39 issue(s) updated since last sync.
-Epics needing an update this run: 20
-    PAR-4729: refetching 3 changed/new ticket(s)
-  PAR-4729: patched (28.51d, 99,785 EGP)
-    NLP-3957: refetching 1 changed/new ticket(s)
-  NLP-3957: patched (486.48d, 1,702,680 EGP)
-    NLP-3881: refetching 1 changed/new ticket(s)
-  NLP-3881: patched (773.5d, 2,707,250 EGP)
-    SP-1963: refetching 3 changed/new ticket(s)
-  SP-1963: patched (11.66d, 40,810 EGP)
-    NLP-2069: refetching 2 changed/new ticket(s)
-  NLP-2069: patched (817.35d, 2,860,725 EGP)
-    PAR-4707: refetching 1 changed/new ticket(s)
-  PAR-4707: patched (0.5d, 1,750 EGP)
+=== INCREMENTAL SYNC since 2026-07-19T10:02:55.343658 ===
+Found 55 issue(s) updated since last sync.
+Epics needing an update this run: 25
+    SC-386: refetching 1 changed/new ticket(s)
+  SC-386: patched (172.51d, 603,785 EGP)
     NLP-5066: refetching 1 changed/new ticket(s)
   NLP-5066: patched (0.0d, 0 EGP)
-    NLP-2823: refetching 1 changed/new ticket(s)
-  NLP-2823: patched (1400.59d, 4,902,065 EGP)
-    IMS-156: refetching 1 changed/new ticket(s)
-  IMS-156: patched (130.4d, 456,400 EGP)
+    IMS-1415: refetching 3 changed/new ticket(s)
+  IMS-1415: patched (78.47d, 274,645 EGP)
+    NLP-2069: refetching 2 changed/new ticket(s)
+  NLP-2069: patched (817.45d, 2,861,075 EGP)
+    NLP-2088: refetching 2 changed/new ticket(s)
+  NLP-2088: patched (2103.08d, 7,360,780 EGP)
     SC-1979: refetching 1 changed/new ticket(s)
   SC-1979: patched (0.0d, 0 EGP)
-    NLP-2822: refetching 1 changed/new ticket(s)
-  NLP-2822: patched (1565.73d, 5,480,055 EGP)
-    SC-1982: refetching 1 changed/new ticket(s)
-  SC-1982: patched (0.0d, 0 EGP)
-    PAR-4762: refetching 1 changed/new ticket(s)
-  PAR-4762: patched (0.55d, 1,925 EGP)
+    NLP-3957: refetching 1 changed/new ticket(s)
+  NLP-3957: patched (486.48d, 1,702,680 EGP)
     NLP-3559: refetching 2 changed/new ticket(s)
   NLP-3559: patched (116.85d, 408,975 EGP)
-    IMS-1415: refetching 1 changed/new ticket(s)
-  IMS-1415: patched (78.05d, 273,175 EGP)
-    IMS-1816: refetching 1 changed/new ticket(s)
-  IMS-1816: patched (5.32d, 18,620 EGP)
-    PSQ-756: refetching 1 changed/new ticket(s)
-  PSQ-756: patched (0.0d, 0 EGP)
+    PAR-4729: refetching 4 changed/new ticket(s)
+  PAR-4729: patched (28.98d, 101,430 EGP)
+  SC-1971: new epic, full fetch
+Fetching SC-1971 ([App] Freelancers Referrals changes - eligibility flag) ...
+  SC-1975: 0.0d
+  SC-1985: 0.0d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/SC-1971.json: 0.0 days, 0 EGP
+    NLP-2822: refetching 1 changed/new ticket(s)
+  NLP-2822: patched (1565.73d, 5,480,055 EGP)
+  SC-1945: new epic, full fetch
+Fetching SC-1945 (Mixpanel Events Setup) ...
+  SC-1984: 0.0d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/SC-1945.json: 0.0 days, 0 EGP
+    IMS-959: refetching 1 changed/new ticket(s)
+  IMS-959: patched (143.04d, 500,640 EGP)
+    SC-1982: refetching 1 changed/new ticket(s)
+  SC-1982: patched (0.0d, 0 EGP)
     SP-1840: refetching 1 changed/new ticket(s)
   SP-1840: patched (13.08d, 45,780 EGP)
+    NLP-2823: refetching 1 changed/new ticket(s)
+  NLP-2823: patched (1400.59d, 4,902,065 EGP)
+    PAR-4707: refetching 1 changed/new ticket(s)
+  PAR-4707: patched (0.5d, 1,750 EGP)
+  PSQ-776: new epic, full fetch
+Fetching PSQ-776 ([ZOOMKEEPER] Backend: Expose & harden Zoom Keeper API for Backoffice) ...
+  PSQ-788: 0.0d
+  PSQ-790: 0.0d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/PSQ-776.json: 0.0 days, 0 EGP
+    PAR-4762: refetching 1 changed/new ticket(s)
+  PAR-4762: patched (0.55d, 1,925 EGP)
     SC-1978: refetching 1 changed/new ticket(s)
   SC-1978: patched (0.0d, 0 EGP)
-    NLP-2088: refetching 2 changed/new ticket(s)
-  NLP-2088: patched (2102.97d, 7,360,395 EGP)
+    NLP-3881: refetching 1 changed/new ticket(s)
+  NLP-3881: patched (773.61d, 2,707,635 EGP)
+    PSQ-756: refetching 1 changed/new ticket(s)
+  PSQ-756: patched (0.0d, 0 EGP)
+    IMS-156: refetching 1 changed/new ticket(s)
+  IMS-156: patched (130.4d, 456,400 EGP)
+    IMS-1816: refetching 1 changed/new ticket(s)
+  IMS-1816: patched (5.43d, 19,005 EGP)
+    SP-1963: refetching 3 changed/new ticket(s)
+  SP-1963: patched (11.66d, 40,810 EGP)
 
-Done. Incremental sync touched 20 epic(s), 320 epic(s) total tracked.
-Portfolio: 31487.7 days, 110,206,880 EGP across 320 epics
+Done. Incremental sync touched 25 epic(s), 323 epic(s) total tracked.
+Portfolio: 31489.0 days, 110,211,500 EGP across 323 epics
 SCRIPT_EXIT_CODE=0
