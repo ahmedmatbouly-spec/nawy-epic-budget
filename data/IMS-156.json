@@ -4,7 +4,7 @@
   "project_key": "IMS",
   "project_name": "Inventory Management System ",
   "epic_created": "2025-06-01T13:39:52.533+0300",
-  "generated_at": "2026-07-19T10:04:55.642064+00:00",
+  "generated_at": "2026-07-19T10:08:13.155633+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 20,
   "complete_tickets": 15,
@@ -12,17 +12,6 @@
   "total_net_days": 130.4,
   "total_cost_egp": 456400.0,
   "tickets": [
-    {
-      "key": "IMS-467",
-      "summary": "(Resale Properties Creation) Full Name validation missing in Resale Contact Info",
-      "status": "To Do",
-      "net_days": 0.0,
-      "gross_days": 0.0,
-      "excluded_days": 0.0,
-      "cost_egp": 0.0,
-      "is_complete": false,
-      "num_spans": 0
-    },
     {
       "key": "IMS-465",
       "summary": "(Resale Properties Creation) Storage Area and Outdoor Area should not appear in Other Spaces",
@@ -35,14 +24,47 @@
       "num_spans": 0
     },
     {
-      "key": "IMS-471",
-      "summary": "(Resale Properties Creation) Remove Select Payment Plan from Project in Resale",
+      "key": "IMS-1058",
+      "summary": "Resale Property Management Ingestion and Edit APIs [Dev Only]",
       "status": "Done",
-      "net_days": 5.47,
-      "gross_days": 8.28,
+      "net_days": 13.11,
+      "gross_days": 15.92,
       "excluded_days": 2.81,
-      "cost_egp": 19145.0,
+      "cost_egp": 45885.0,
       "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "IMS-463",
+      "summary": "(Resale Properties Creation) Area Range should not appear in resale units",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "IMS-467",
+      "summary": "(Resale Properties Creation) Full Name validation missing in Resale Contact Info",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "IMS-1728",
+      "summary": "Resale units description",
+      "status": "On-hold",
+      "net_days": 2.43,
+      "gross_days": 2.54,
+      "excluded_days": 0.11,
+      "cost_egp": 8505.0,
+      "is_complete": false,
       "num_spans": 1
     },
     {
@@ -68,94 +90,6 @@
       "num_spans": 0
     },
     {
-      "key": "IMS-469",
-      "summary": "(Resale Properties Creation) Bought Price, Paid Amount, and Original Duration fields allow invalid input",
-      "status": "Done",
-      "net_days": 0.0,
-      "gross_days": 0.0,
-      "excluded_days": 0.0,
-      "cost_egp": 0.0,
-      "is_complete": true,
-      "num_spans": 0
-    },
-    {
-      "key": "IMS-470",
-      "summary": "(Resale Properties Creation) Bought Date validation allows future dates",
-      "status": "Done",
-      "net_days": 0.0,
-      "gross_days": 0.0,
-      "excluded_days": 0.0,
-      "cost_egp": 0.0,
-      "is_complete": true,
-      "num_spans": 0
-    },
-    {
-      "key": "IMS-466",
-      "summary": "(Resale Properties Creation) Last section on form does not match design name",
-      "status": "Done",
-      "net_days": 0.0,
-      "gross_days": 0.0,
-      "excluded_days": 0.0,
-      "cost_egp": 0.0,
-      "is_complete": true,
-      "num_spans": 0
-    },
-    {
-      "key": "IMS-605",
-      "summary": "(Resale Properties Creation)  Creating a new record with Source Owners is not working",
-      "status": "Done",
-      "net_days": 0.0,
-      "gross_days": 0.0,
-      "excluded_days": 0.0,
-      "cost_egp": 0.0,
-      "is_complete": true,
-      "num_spans": 0
-    },
-    {
-      "key": "IMS-1728",
-      "summary": "Resale units description",
-      "status": "On-hold",
-      "net_days": 2.43,
-      "gross_days": 2.54,
-      "excluded_days": 0.11,
-      "cost_egp": 8505.0,
-      "is_complete": false,
-      "num_spans": 1
-    },
-    {
-      "key": "IMS-462",
-      "summary": "(Resale Properties Creation) Phase field should be removed from resale forms",
-      "status": "Done",
-      "net_days": 0.0,
-      "gross_days": 0.0,
-      "excluded_days": 0.0,
-      "cost_egp": 0.0,
-      "is_complete": true,
-      "num_spans": 0
-    },
-    {
-      "key": "IMS-1059",
-      "summary": "Resale missing info property management migration",
-      "status": "Done",
-      "net_days": 8.3,
-      "gross_days": 9.53,
-      "excluded_days": 1.23,
-      "cost_egp": 29050.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
-    {
-      "key": "IMS-1058",
-      "summary": "Resale Property Management Ingestion and Edit APIs [Dev Only]",
-      "status": "Done",
-      "net_days": 13.11,
-      "gross_days": 15.92,
-      "excluded_days": 2.81,
-      "cost_egp": 45885.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
-    {
       "key": "IMS-468",
       "summary": "(Resale Properties Creation) Phone number validation missing in Resale Contact Info",
       "status": "To Do",
@@ -165,28 +99,6 @@
       "cost_egp": 60480.0,
       "is_complete": false,
       "num_spans": 1
-    },
-    {
-      "key": "IMS-1057",
-      "summary": "Nawy Now and Resale link and status change",
-      "status": "Done",
-      "net_days": 0.94,
-      "gross_days": 2.64,
-      "excluded_days": 1.7,
-      "cost_egp": 3290.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
-    {
-      "key": "IMS-463",
-      "summary": "(Resale Properties Creation) Area Range should not appear in resale units",
-      "status": "Done",
-      "net_days": 0.0,
-      "gross_days": 0.0,
-      "excluded_days": 0.0,
-      "cost_egp": 0.0,
-      "is_complete": true,
-      "num_spans": 0
     },
     {
       "key": "IMS-251",
@@ -211,6 +123,17 @@
       "num_spans": 1
     },
     {
+      "key": "IMS-605",
+      "summary": "(Resale Properties Creation)  Creating a new record with Source Owners is not working",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
       "key": "IMS-474",
       "summary": "(Resale Properties Creation) Error when creating new Payment Plan related to Resale Bought Date",
       "status": "Done",
@@ -222,6 +145,39 @@
       "num_spans": 0
     },
     {
+      "key": "IMS-470",
+      "summary": "(Resale Properties Creation) Bought Date validation allows future dates",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "IMS-469",
+      "summary": "(Resale Properties Creation) Bought Price, Paid Amount, and Original Duration fields allow invalid input",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "IMS-471",
+      "summary": "(Resale Properties Creation) Remove Select Payment Plan from Project in Resale",
+      "status": "Done",
+      "net_days": 5.47,
+      "gross_days": 8.28,
+      "excluded_days": 2.81,
+      "cost_egp": 19145.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
       "key": "IMS-1593",
       "summary": "Resale units, status, source, Entry type and payment plans and Media Migration",
       "status": "Done",
@@ -229,6 +185,50 @@
       "gross_days": 8.77,
       "excluded_days": 8.77,
       "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "IMS-466",
+      "summary": "(Resale Properties Creation) Last section on form does not match design name",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "IMS-1057",
+      "summary": "Nawy Now and Resale link and status change",
+      "status": "Done",
+      "net_days": 0.94,
+      "gross_days": 2.64,
+      "excluded_days": 1.7,
+      "cost_egp": 3290.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "IMS-462",
+      "summary": "(Resale Properties Creation) Phase field should be removed from resale forms",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "IMS-1059",
+      "summary": "Resale missing info property management migration",
+      "status": "Done",
+      "net_days": 8.3,
+      "gross_days": 9.53,
+      "excluded_days": 1.23,
+      "cost_egp": 29050.0,
       "is_complete": true,
       "num_spans": 1
     }

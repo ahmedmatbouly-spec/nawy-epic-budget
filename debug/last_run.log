@@ -1,59 +1,47 @@
-=== INCREMENTAL SYNC since 2026-07-19T09:50:47.118631 ===
-Found 38 issue(s) updated since last sync.
+=== INCREMENTAL SYNC since 2026-07-19T09:59:36.654919 ===
+Found 39 issue(s) updated since last sync.
 Epics needing an update this run: 20
-    NLP-2822: refetching 1 changed/new ticket(s)
-  NLP-2822: patched (1565.73d, 5,480,055 EGP)
-    NLP-2088: refetching 2 changed/new ticket(s)
-  NLP-2088: patched (2102.97d, 7,360,395 EGP)
-  SC-1982: new epic, full fetch
-Fetching SC-1982 (Map view in Erealty crashes) ...
-  SC-1983: 0.0d
-Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/SC-1982.json: 0.0 days, 0 EGP
-    NLP-2823: refetching 1 changed/new ticket(s)
-  NLP-2823: patched (1400.59d, 4,902,065 EGP)
-  SC-1979: new epic, full fetch
-Fetching SC-1979 (Bottom buttons are difficult or impossible to tap when using 3-button gesture navigation on Android) ...
-  SC-1980: 0.0d
-Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/SC-1979.json: 0.0 days, 0 EGP
-    NLP-5066: refetching 1 changed/new ticket(s)
-  NLP-5066: patched (0.0d, 0 EGP)
+    PAR-4729: refetching 3 changed/new ticket(s)
+  PAR-4729: patched (28.51d, 99,785 EGP)
     NLP-3957: refetching 1 changed/new ticket(s)
   NLP-3957: patched (486.48d, 1,702,680 EGP)
-    NLP-2069: refetching 2 changed/new ticket(s)
-  NLP-2069: patched (817.34d, 2,860,690 EGP)
-  PAR-4762: new epic, full fetch
-Fetching PAR-4762 ([Web][NN Agent Access] Requests management account manager flow - Approval flow) ...
-  PAR-4954: 0.55d
-  PAR-4991: 0.0d
-  PAR-5016: 0.0d
-Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/PAR-4762.json: 0.55 days, 1,925 EGP
-    PAR-4707: refetching 1 changed/new ticket(s)
-  PAR-4707: patched (0.5d, 1,750 EGP)
-    IMS-156: refetching 1 changed/new ticket(s)
-  IMS-156: patched (130.4d, 456,400 EGP)
-    IMS-1415: refetching 1 changed/new ticket(s)
-  IMS-1415: patched (78.04d, 273,140 EGP)
-  PSQ-756: new epic, full fetch
-Fetching PSQ-756 ([UMS] Wrong error message when updating a user to an already-existing preferred username (update flow)) ...
-  PSQ-789: 0.0d
-Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/PSQ-756.json: 0.0 days, 0 EGP
-    SP-1963: refetching 3 changed/new ticket(s)
-  SP-1963: patched (11.66d, 40,810 EGP)
-    NLP-3559: refetching 2 changed/new ticket(s)
-  NLP-3559: patched (116.85d, 408,975 EGP)
     NLP-3881: refetching 1 changed/new ticket(s)
   NLP-3881: patched (773.5d, 2,707,250 EGP)
-    SP-1840: refetching 1 changed/new ticket(s)
-  SP-1840: patched (13.08d, 45,780 EGP)
+    SP-1963: refetching 3 changed/new ticket(s)
+  SP-1963: patched (11.66d, 40,810 EGP)
+    NLP-2069: refetching 2 changed/new ticket(s)
+  NLP-2069: patched (817.35d, 2,860,725 EGP)
+    PAR-4707: refetching 1 changed/new ticket(s)
+  PAR-4707: patched (0.5d, 1,750 EGP)
+    NLP-5066: refetching 1 changed/new ticket(s)
+  NLP-5066: patched (0.0d, 0 EGP)
+    NLP-2823: refetching 1 changed/new ticket(s)
+  NLP-2823: patched (1400.59d, 4,902,065 EGP)
+    IMS-156: refetching 1 changed/new ticket(s)
+  IMS-156: patched (130.4d, 456,400 EGP)
+    SC-1979: refetching 1 changed/new ticket(s)
+  SC-1979: patched (0.0d, 0 EGP)
+    NLP-2822: refetching 1 changed/new ticket(s)
+  NLP-2822: patched (1565.73d, 5,480,055 EGP)
+    SC-1982: refetching 1 changed/new ticket(s)
+  SC-1982: patched (0.0d, 0 EGP)
+    PAR-4762: refetching 1 changed/new ticket(s)
+  PAR-4762: patched (0.55d, 1,925 EGP)
+    NLP-3559: refetching 2 changed/new ticket(s)
+  NLP-3559: patched (116.85d, 408,975 EGP)
+    IMS-1415: refetching 1 changed/new ticket(s)
+  IMS-1415: patched (78.05d, 273,175 EGP)
     IMS-1816: refetching 1 changed/new ticket(s)
   IMS-1816: patched (5.32d, 18,620 EGP)
-  SC-1978: new epic, full fetch
-Fetching SC-1978 (Bottom navigation bar disappears and app exits when user without resale-listing-dashboard permission navigates to Inventory via "All launches" on Home Screen) ...
-  SC-1981: 0.0d
-Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/SC-1978.json: 0.0 days, 0 EGP
-    PAR-4729: refetching 3 changed/new ticket(s)
-  PAR-4729: patched (28.48d, 99,680 EGP)
+    PSQ-756: refetching 1 changed/new ticket(s)
+  PSQ-756: patched (0.0d, 0 EGP)
+    SP-1840: refetching 1 changed/new ticket(s)
+  SP-1840: patched (13.08d, 45,780 EGP)
+    SC-1978: refetching 1 changed/new ticket(s)
+  SC-1978: patched (0.0d, 0 EGP)
+    NLP-2088: refetching 2 changed/new ticket(s)
+  NLP-2088: patched (2102.97d, 7,360,395 EGP)
 
 Done. Incremental sync touched 20 epic(s), 320 epic(s) total tracked.
-Portfolio: 31487.6 days, 110,206,705 EGP across 320 epics
+Portfolio: 31487.7 days, 110,206,880 EGP across 320 epics
 SCRIPT_EXIT_CODE=0

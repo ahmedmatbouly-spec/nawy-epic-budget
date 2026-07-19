@@ -4,7 +4,7 @@
   "project_key": "PAR",
   "project_name": "Partners",
   "epic_created": "2026-06-02T15:09:06.380+0300",
-  "generated_at": "2026-07-19T10:04:53.554288+00:00",
+  "generated_at": "2026-07-19T10:08:16.987843+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 3,
   "complete_tickets": 1,
@@ -13,15 +13,15 @@
   "total_cost_egp": 1925.0,
   "tickets": [
     {
-      "key": "PAR-4954",
-      "summary": "[Sonder] Nawy Now \u2014 request-task update notification (Ymir)",
-      "status": "Done",
-      "net_days": 0.55,
-      "gross_days": 0.55,
+      "key": "PAR-5016",
+      "summary": "Code Review: [Web][NN Agent Access] Requests management account manager flow - Approval flow",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
       "excluded_days": 0.0,
-      "cost_egp": 1925.0,
-      "is_complete": true,
-      "num_spans": 1
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
     },
     {
       "key": "PAR-4991",
@@ -35,15 +35,15 @@
       "num_spans": 0
     },
     {
-      "key": "PAR-5016",
-      "summary": "Code Review: [Web][NN Agent Access] Requests management account manager flow - Approval flow",
-      "status": "To Do",
-      "net_days": 0.0,
-      "gross_days": 0.0,
+      "key": "PAR-4954",
+      "summary": "[Sonder] Nawy Now \u2014 request-task update notification (Ymir)",
+      "status": "Done",
+      "net_days": 0.55,
+      "gross_days": 0.55,
       "excluded_days": 0.0,
-      "cost_egp": 0.0,
-      "is_complete": false,
-      "num_spans": 0
+      "cost_egp": 1925.0,
+      "is_complete": true,
+      "num_spans": 1
     }
   ]
 }
