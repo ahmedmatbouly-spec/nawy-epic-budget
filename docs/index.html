@@ -350,8 +350,25 @@ async function triggerJiraRefresh() {
       refreshStatusText = `✗ Refresh run finished with: ${finalConclusion}`;
       render();
     } else {
-      refreshState = 'error';
-      refreshStatusText = '✗ Refresh is taking longer than expected — check the Actions tab';
+      // Timed out after 3 minutes. Distinguish "genuinely stuck" from
+      // "queued behind a long run" (e.g. the weekly Sunday full rebuild
+      // re-scans all 300+ epics and takes ~20-30 minutes; a refresh clicked
+      // during that window queues behind it - by design, not a failure).
+      let stillGoing = false;
+      try {
+        const r = await workerApi(`/run/${newRunId}`);
+        if (r.ok) {
+          const run = await r.json();
+          stillGoing = run.status === 'in_progress' || run.status === 'queued';
+        }
+      } catch (e) { /* fall through */ }
+      if (stillGoing) {
+        refreshState = 'error';
+        refreshStatusText = '⏳ Still syncing — a full rebuild is likely running (~20-30 min). Your data will update automatically when it finishes; no need to click again.';
+      } else {
+        refreshState = 'error';
+        refreshStatusText = '✗ Refresh is taking longer than expected — check the Actions tab';
+      }
       render();
     }
   } catch (e) {
