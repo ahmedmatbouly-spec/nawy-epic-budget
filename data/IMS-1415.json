@@ -4,77 +4,22 @@
   "project_key": "IMS",
   "project_name": "Inventory Management System ",
   "epic_created": "2026-04-10T18:45:27.706+0200",
-  "generated_at": "2026-07-19T09:43:06.913105+00:00",
+  "generated_at": "2026-07-19T10:04:56.477569+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 21,
   "complete_tickets": 7,
   "in_progress_tickets": 14,
-  "total_net_days": 77.99,
-  "total_cost_egp": 272965.0,
+  "total_net_days": 78.04,
+  "total_cost_egp": 273140.0,
   "tickets": [
     {
-      "key": "IMS-1410",
-      "summary": "Detailed Properties Advanced View, and filters [Dev Only]",
+      "key": "IMS-1678",
+      "summary": "Grouped Properties Compound change [Dev Only]",
       "status": "Done",
-      "net_days": 12.2,
-      "gross_days": 12.2,
+      "net_days": 4.41,
+      "gross_days": 4.41,
       "excluded_days": 0.0,
-      "cost_egp": 42700.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
-    {
-      "key": "IMS-1423",
-      "summary": "Properties Amenities and Services Ingestion Sheets Flow (Grouping)",
-      "status": "Open",
-      "net_days": 0.0,
-      "gross_days": 0.0,
-      "excluded_days": 0.0,
-      "cost_egp": 0.0,
-      "is_complete": false,
-      "num_spans": 0
-    },
-    {
-      "key": "IMS-1424",
-      "summary": "Properties Amenities and Services Bulk Ingestion Manual Flow",
-      "status": "Open",
-      "net_days": 0.0,
-      "gross_days": 0.0,
-      "excluded_days": 0.0,
-      "cost_egp": 0.0,
-      "is_complete": false,
-      "num_spans": 0
-    },
-    {
-      "key": "IMS-1425",
-      "summary": "Properties Title and Description Generation Function and Cleanup",
-      "status": "To Do",
-      "net_days": 0.0,
-      "gross_days": 0.0,
-      "excluded_days": 0.0,
-      "cost_egp": 0.0,
-      "is_complete": false,
-      "num_spans": 0
-    },
-    {
-      "key": "IMS-1452",
-      "summary": "Exclude launch properties from project entry type conversion",
-      "status": "Done",
-      "net_days": 0.91,
-      "gross_days": 3.09,
-      "excluded_days": 2.17,
-      "cost_egp": 3185.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
-    {
-      "key": "IMS-1453",
-      "summary": "Manual Properties Creation Entry Type Check Pop Up",
-      "status": "Done",
-      "net_days": 4.44,
-      "gross_days": 6.44,
-      "excluded_days": 2.0,
-      "cost_egp": 15540.0,
+      "cost_egp": 15435.0,
       "is_complete": true,
       "num_spans": 1
     },
@@ -90,15 +35,37 @@
       "num_spans": 1
     },
     {
-      "key": "IMS-1645",
-      "summary": "Primary Manual Property Creation Form and edit flow enhancement",
-      "status": "In Testing",
-      "net_days": 1.46,
-      "gross_days": 1.46,
+      "key": "IMS-1737",
+      "summary": "Grouped Properties Page Details Page Enhancements - Payment Plans and Price History",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
       "excluded_days": 0.0,
-      "cost_egp": 5110.0,
+      "cost_egp": 0.0,
       "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "IMS-1453",
+      "summary": "Manual Properties Creation Entry Type Check Pop Up",
+      "status": "Done",
+      "net_days": 4.44,
+      "gross_days": 6.44,
+      "excluded_days": 2.0,
+      "cost_egp": 15540.0,
+      "is_complete": true,
       "num_spans": 1
+    },
+    {
+      "key": "IMS-1663",
+      "summary": "Grouped Properties Page Details Page Enhancements - Floor Plans and Images",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
     },
     {
       "key": "IMS-1646",
@@ -123,28 +90,6 @@
       "num_spans": 1
     },
     {
-      "key": "IMS-1648",
-      "summary": "Nawy Now Manual Property Creation Form and edit flow",
-      "status": "To Do",
-      "net_days": 0.0,
-      "gross_days": 0.0,
-      "excluded_days": 0.0,
-      "cost_egp": 0.0,
-      "is_complete": false,
-      "num_spans": 0
-    },
-    {
-      "key": "IMS-1663",
-      "summary": "Grouped Properties Page Details Page Enhancements - Floor Plans and Images",
-      "status": "To Do",
-      "net_days": 0.0,
-      "gross_days": 0.0,
-      "excluded_days": 0.0,
-      "cost_egp": 0.0,
-      "is_complete": false,
-      "num_spans": 0
-    },
-    {
       "key": "IMS-1664",
       "summary": "Grouped Properties Bulk actions (Export , Status)",
       "status": "To Do",
@@ -156,9 +101,9 @@
       "num_spans": 0
     },
     {
-      "key": "IMS-1665",
-      "summary": "Detailed Properties Bulk Export",
-      "status": "To Do",
+      "key": "IMS-1423",
+      "summary": "Properties Amenities and Services Ingestion Sheets Flow (Grouping)",
+      "status": "Open",
       "net_days": 0.0,
       "gross_days": 0.0,
       "excluded_days": 0.0,
@@ -167,35 +112,13 @@
       "num_spans": 0
     },
     {
-      "key": "IMS-1676",
-      "summary": "Detailed Properties Advanced View, and filters [Testing Only]",
-      "status": "Returned for Fix",
-      "net_days": 20.46,
-      "gross_days": 20.46,
-      "excluded_days": 0.0,
-      "cost_egp": 71610.0,
-      "is_complete": false,
-      "num_spans": 1
-    },
-    {
-      "key": "IMS-1678",
-      "summary": "Grouped Properties Compound change [Dev Only]",
+      "key": "IMS-1452",
+      "summary": "Exclude launch properties from project entry type conversion",
       "status": "Done",
-      "net_days": 4.41,
-      "gross_days": 4.41,
-      "excluded_days": 0.0,
-      "cost_egp": 15435.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
-    {
-      "key": "IMS-1679",
-      "summary": "Sheets Grouping Main compounds and phases unit ids duplication [Dev Only]",
-      "status": "Done",
-      "net_days": 6.34,
-      "gross_days": 6.34,
-      "excluded_days": 0.0,
-      "cost_egp": 22190.0,
+      "net_days": 0.91,
+      "gross_days": 3.09,
+      "excluded_days": 2.17,
+      "cost_egp": 3185.0,
       "is_complete": true,
       "num_spans": 1
     },
@@ -211,6 +134,61 @@
       "num_spans": 1
     },
     {
+      "key": "IMS-1665",
+      "summary": "Detailed Properties Bulk Export",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "IMS-1424",
+      "summary": "Properties Amenities and Services Bulk Ingestion Manual Flow",
+      "status": "Open",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "IMS-1679",
+      "summary": "Sheets Grouping Main compounds and phases unit ids duplication [Dev Only]",
+      "status": "Done",
+      "net_days": 6.34,
+      "gross_days": 6.34,
+      "excluded_days": 0.0,
+      "cost_egp": 22190.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "IMS-1645",
+      "summary": "Primary Manual Property Creation Form and edit flow enhancement",
+      "status": "In Testing",
+      "net_days": 1.51,
+      "gross_days": 1.51,
+      "excluded_days": 0.0,
+      "cost_egp": 5285.0,
+      "is_complete": false,
+      "num_spans": 1
+    },
+    {
+      "key": "IMS-1676",
+      "summary": "Detailed Properties Advanced View, and filters [Testing Only]",
+      "status": "Returned for Fix",
+      "net_days": 20.46,
+      "gross_days": 20.46,
+      "excluded_days": 0.0,
+      "cost_egp": 71610.0,
+      "is_complete": false,
+      "num_spans": 1
+    },
+    {
       "key": "IMS-1729",
       "summary": "Sheets Grouping Main compounds and phases unit ids duplication [Testing Only]",
       "status": "Product UAT",
@@ -220,6 +198,28 @@
       "cost_egp": 15960.0,
       "is_complete": false,
       "num_spans": 1
+    },
+    {
+      "key": "IMS-1410",
+      "summary": "Detailed Properties Advanced View, and filters [Dev Only]",
+      "status": "Done",
+      "net_days": 12.2,
+      "gross_days": 12.2,
+      "excluded_days": 0.0,
+      "cost_egp": 42700.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "IMS-1648",
+      "summary": "Nawy Now Manual Property Creation Form and edit flow",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
     },
     {
       "key": "IMS-1730",
@@ -233,8 +233,8 @@
       "num_spans": 1
     },
     {
-      "key": "IMS-1737",
-      "summary": "Grouped Properties Page Details Page Enhancements - Payment Plans and Price History",
+      "key": "IMS-1425",
+      "summary": "Properties Title and Description Generation Function and Cleanup",
       "status": "To Do",
       "net_days": 0.0,
       "gross_days": 0.0,
