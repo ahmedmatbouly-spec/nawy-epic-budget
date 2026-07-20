@@ -1,0 +1,38 @@
+{
+  "epic_key": "NLP-4502",
+  "epic_name": "[BE] Property type grouping (Compound page) [UAT]",
+  "project_key": "NLP",
+  "project_name": "Nawy Listing Platform ",
+  "epic_created": "2026-03-29T16:35:00.215+0200",
+  "generated_at": "2026-07-20T13:27:41.728527+00:00",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 2,
+  "complete_tickets": 2,
+  "in_progress_tickets": 0,
+  "total_net_days": 0.0,
+  "total_cost_egp": 0.0,
+  "tickets": [
+    {
+      "key": "NLP-4656",
+      "summary": "Testing: [BE] Property type grouping (Compound page) [UAT]",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "NLP-4679",
+      "summary": "Code Review: [BE] Property type grouping (Compound page) [UAT]",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    }
+  ]
+}

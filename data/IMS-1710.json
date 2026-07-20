@@ -1,0 +1,27 @@
+{
+  "epic_key": "IMS-1710",
+  "epic_name": "Sheets Enhancements - Finalized",
+  "project_key": "IMS",
+  "project_name": "Inventory Management System ",
+  "epic_created": "2026-06-23T15:44:14.811+0300",
+  "generated_at": "2026-07-20T13:27:15.742273+00:00",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 1,
+  "complete_tickets": 0,
+  "in_progress_tickets": 1,
+  "total_net_days": 0.0,
+  "total_cost_egp": 0.0,
+  "tickets": [
+    {
+      "key": "IMS-1824",
+      "summary": "Testing: Sheets Enhancements - Finalized",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    }
+  ]
+}

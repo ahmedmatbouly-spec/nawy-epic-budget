@@ -4,14 +4,25 @@
   "project_key": "IMS",
   "project_name": "Inventory Management System ",
   "epic_created": "2026-04-10T18:45:27.706+0200",
-  "generated_at": "2026-07-19T14:55:56.739127+00:00",
+  "generated_at": "2026-07-20T13:27:52.725666+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 21,
   "complete_tickets": 7,
   "in_progress_tickets": 14,
-  "total_net_days": 79.61,
-  "total_cost_egp": 278635.0,
+  "total_net_days": 82.4,
+  "total_cost_egp": 288400.0,
   "tickets": [
+    {
+      "key": "IMS-1737",
+      "summary": "Grouped Properties Page Details Page Enhancements - Payment Plans and Price History",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
     {
       "key": "IMS-1665",
       "summary": "Detailed Properties Bulk Export",
@@ -22,39 +33,6 @@
       "cost_egp": 0.0,
       "is_complete": false,
       "num_spans": 0
-    },
-    {
-      "key": "IMS-1664",
-      "summary": "Grouped Properties Bulk actions (Export , Status)",
-      "status": "To Do",
-      "net_days": 0.0,
-      "gross_days": 0.0,
-      "excluded_days": 0.0,
-      "cost_egp": 0.0,
-      "is_complete": false,
-      "num_spans": 0
-    },
-    {
-      "key": "IMS-1676",
-      "summary": "Detailed Properties Advanced View, and filters [Testing Only]",
-      "status": "Returned for Fix",
-      "net_days": 20.46,
-      "gross_days": 20.46,
-      "excluded_days": 0.0,
-      "cost_egp": 71610.0,
-      "is_complete": false,
-      "num_spans": 1
-    },
-    {
-      "key": "IMS-1706",
-      "summary": "Grouped Property Details Page Enhancements - Additional info and Detailed Properties tab",
-      "status": "Returned for Fix",
-      "net_days": 6.12,
-      "gross_days": 6.12,
-      "excluded_days": 0.0,
-      "cost_egp": 21420.0,
-      "is_complete": false,
-      "num_spans": 1
     },
     {
       "key": "IMS-1424",
@@ -68,61 +46,6 @@
       "num_spans": 0
     },
     {
-      "key": "IMS-1648",
-      "summary": "Nawy Now Manual Property Creation Form and edit flow",
-      "status": "To Do",
-      "net_days": 0.0,
-      "gross_days": 0.0,
-      "excluded_days": 0.0,
-      "cost_egp": 0.0,
-      "is_complete": false,
-      "num_spans": 0
-    },
-    {
-      "key": "IMS-1737",
-      "summary": "Grouped Properties Page Details Page Enhancements - Payment Plans and Price History",
-      "status": "To Do",
-      "net_days": 0.0,
-      "gross_days": 0.0,
-      "excluded_days": 0.0,
-      "cost_egp": 0.0,
-      "is_complete": false,
-      "num_spans": 0
-    },
-    {
-      "key": "IMS-1452",
-      "summary": "Exclude launch properties from project entry type conversion",
-      "status": "Done",
-      "net_days": 0.91,
-      "gross_days": 3.09,
-      "excluded_days": 2.17,
-      "cost_egp": 3185.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
-    {
-      "key": "IMS-1645",
-      "summary": "Primary Manual Property Creation Form and edit flow enhancement",
-      "status": "In Testing",
-      "net_days": 2.0,
-      "gross_days": 2.0,
-      "excluded_days": 0.0,
-      "cost_egp": 7000.0,
-      "is_complete": false,
-      "num_spans": 1
-    },
-    {
-      "key": "IMS-1647",
-      "summary": "Resale Manual Property Creation Form and edit flow enhancement",
-      "status": "In Testing",
-      "net_days": 2.0,
-      "gross_days": 2.0,
-      "excluded_days": 0.0,
-      "cost_egp": 7000.0,
-      "is_complete": false,
-      "num_spans": 1
-    },
-    {
       "key": "IMS-1453",
       "summary": "Manual Properties Creation Entry Type Check Pop Up",
       "status": "Done",
@@ -134,8 +57,8 @@
       "num_spans": 1
     },
     {
-      "key": "IMS-1425",
-      "summary": "Properties Title and Description Generation Function and Cleanup",
+      "key": "IMS-1648",
+      "summary": "Nawy Now Manual Property Creation Form and edit flow",
       "status": "To Do",
       "net_days": 0.0,
       "gross_days": 0.0,
@@ -143,6 +66,17 @@
       "cost_egp": 0.0,
       "is_complete": false,
       "num_spans": 0
+    },
+    {
+      "key": "IMS-1646",
+      "summary": "Primary Launch Property Creation Form and edit flow enhancement",
+      "status": "Returned for Fix",
+      "net_days": 2.93,
+      "gross_days": 2.93,
+      "excluded_days": 0.0,
+      "cost_egp": 10255.0,
+      "is_complete": false,
+      "num_spans": 1
     },
     {
       "key": "IMS-1410",
@@ -156,19 +90,8 @@
       "num_spans": 1
     },
     {
-      "key": "IMS-1508",
-      "summary": "Properties availability updated at",
-      "status": "Done",
-      "net_days": 6.8,
-      "gross_days": 14.2,
-      "excluded_days": 7.4,
-      "cost_egp": 23800.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
-    {
-      "key": "IMS-1663",
-      "summary": "Grouped Properties Page Details Page Enhancements - Floor Plans and Images",
+      "key": "IMS-1664",
+      "summary": "Grouped Properties Bulk actions (Export , Status)",
       "status": "To Do",
       "net_days": 0.0,
       "gross_days": 0.0,
@@ -189,13 +112,13 @@
       "num_spans": 0
     },
     {
-      "key": "IMS-1729",
-      "summary": "Sheets Grouping Main compounds and phases unit ids duplication [Testing Only]",
-      "status": "Product UAT",
-      "net_days": 4.56,
-      "gross_days": 13.83,
-      "excluded_days": 9.28,
-      "cost_egp": 15960.0,
+      "key": "IMS-1647",
+      "summary": "Resale Manual Property Creation Form and edit flow enhancement",
+      "status": "Returned for Fix",
+      "net_days": 2.93,
+      "gross_days": 2.93,
+      "excluded_days": 0.0,
+      "cost_egp": 10255.0,
       "is_complete": false,
       "num_spans": 1
     },
@@ -211,6 +134,61 @@
       "num_spans": 1
     },
     {
+      "key": "IMS-1425",
+      "summary": "Properties Title and Description Generation Function and Cleanup",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "IMS-1729",
+      "summary": "Sheets Grouping Main compounds and phases unit ids duplication [Testing Only]",
+      "status": "Product UAT",
+      "net_days": 4.56,
+      "gross_days": 15.3,
+      "excluded_days": 10.74,
+      "cost_egp": 15960.0,
+      "is_complete": false,
+      "num_spans": 1
+    },
+    {
+      "key": "IMS-1645",
+      "summary": "Primary Manual Property Creation Form and edit flow enhancement",
+      "status": "Returned for Fix",
+      "net_days": 2.93,
+      "gross_days": 2.93,
+      "excluded_days": 0.0,
+      "cost_egp": 10255.0,
+      "is_complete": false,
+      "num_spans": 1
+    },
+    {
+      "key": "IMS-1663",
+      "summary": "Grouped Properties Page Details Page Enhancements - Floor Plans and Images",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "IMS-1706",
+      "summary": "Grouped Property Details Page Enhancements - Additional info and Detailed Properties tab",
+      "status": "Returned for Fix",
+      "net_days": 6.12,
+      "gross_days": 6.12,
+      "excluded_days": 0.0,
+      "cost_egp": 21420.0,
+      "is_complete": false,
+      "num_spans": 1
+    },
+    {
       "key": "IMS-1730",
       "summary": "Grouped Properties Compound change [Testing Only]",
       "status": "Ready for Deployment",
@@ -222,17 +200,6 @@
       "num_spans": 1
     },
     {
-      "key": "IMS-1646",
-      "summary": "Primary Launch Property Creation Form and edit flow enhancement",
-      "status": "In Testing",
-      "net_days": 2.0,
-      "gross_days": 2.0,
-      "excluded_days": 0.0,
-      "cost_egp": 7000.0,
-      "is_complete": false,
-      "num_spans": 1
-    },
-    {
       "key": "IMS-1679",
       "summary": "Sheets Grouping Main compounds and phases unit ids duplication [Dev Only]",
       "status": "Done",
@@ -240,6 +207,39 @@
       "gross_days": 6.34,
       "excluded_days": 0.0,
       "cost_egp": 22190.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "IMS-1676",
+      "summary": "Detailed Properties Advanced View, and filters [Testing Only]",
+      "status": "Returned for Fix",
+      "net_days": 20.46,
+      "gross_days": 20.46,
+      "excluded_days": 0.0,
+      "cost_egp": 71610.0,
+      "is_complete": false,
+      "num_spans": 1
+    },
+    {
+      "key": "IMS-1452",
+      "summary": "Exclude launch properties from project entry type conversion",
+      "status": "Done",
+      "net_days": 0.91,
+      "gross_days": 3.09,
+      "excluded_days": 2.17,
+      "cost_egp": 3185.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "IMS-1508",
+      "summary": "Properties availability updated at",
+      "status": "Done",
+      "net_days": 6.8,
+      "gross_days": 14.2,
+      "excluded_days": 7.4,
+      "cost_egp": 23800.0,
       "is_complete": true,
       "num_spans": 1
     }

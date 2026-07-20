@@ -1,0 +1,27 @@
+{
+  "epic_key": "SC-1866",
+  "epic_name": "[Lead Profile] Activity Timeline Design Enhancement",
+  "project_key": "SC",
+  "project_name": "Suite Control ",
+  "epic_created": "2026-06-29T12:40:17.607+0300",
+  "generated_at": "2026-07-20T13:28:07.956885+00:00",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 1,
+  "complete_tickets": 0,
+  "in_progress_tickets": 1,
+  "total_net_days": 0.0,
+  "total_cost_egp": 0.0,
+  "tickets": [
+    {
+      "key": "SC-1885",
+      "summary": "Testing: [Lead Profile] Activity Timeline Design Enhancement",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    }
+  ]
+}

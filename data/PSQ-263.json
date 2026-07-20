@@ -1,0 +1,27 @@
+{
+  "epic_key": "PSQ-263",
+  "epic_name": "[YMIR] Notification Center Data Retention Cleanup (Daily scheduled Job)",
+  "project_key": "PSQ",
+  "project_name": "Platform Squad",
+  "epic_created": "2026-02-04T16:22:23.995+0200",
+  "generated_at": "2026-07-20T13:28:16.915789+00:00",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 1,
+  "complete_tickets": 0,
+  "in_progress_tickets": 1,
+  "total_net_days": 0.0,
+  "total_cost_egp": 0.0,
+  "tickets": [
+    {
+      "key": "PSQ-735",
+      "summary": "Testing: [YMIR] Notification Center Data Retention Cleanup (Daily scheduled Job)",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    }
+  ]
+}

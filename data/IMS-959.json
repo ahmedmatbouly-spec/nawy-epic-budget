@@ -4,7 +4,7 @@
   "project_key": "IMS",
   "project_name": "Inventory Management System ",
   "epic_created": "2026-01-05T19:25:02.564+0200",
-  "generated_at": "2026-07-19T14:55:32.942191+00:00",
+  "generated_at": "2026-07-20T13:27:11.024669+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 21,
   "complete_tickets": 19,
@@ -13,35 +13,46 @@
   "total_cost_egp": 500640.0,
   "tickets": [
     {
-      "key": "IMS-888",
-      "summary": "Projects Masterplan Management tab [Dev only]",
-      "status": "Done",
-      "net_days": 4.25,
-      "gross_days": 4.25,
-      "excluded_days": 0.0,
-      "cost_egp": 14875.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
-    {
-      "key": "IMS-1224",
-      "summary": "Projects Masterplan Buildings - Phasing [Testing only]",
-      "status": "Done",
-      "net_days": 7.42,
-      "gross_days": 7.42,
-      "excluded_days": 0.0,
-      "cost_egp": 25970.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
-    {
-      "key": "IMS-889",
-      "summary": "Projects Masterplan Buildings - Buildings Bulk Upload and view [Dev only]",
+      "key": "IMS-956",
+      "summary": "Projects Masterplan Buildings - Buildings Container and controls [Dev only]",
       "status": "Done",
       "net_days": 6.19,
       "gross_days": 6.19,
       "excluded_days": 0.0,
       "cost_egp": 21665.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "IMS-1169",
+      "summary": "E-realty To Listing Buildings Migration",
+      "status": "Done",
+      "net_days": 7.63,
+      "gross_days": 7.63,
+      "excluded_days": 0.0,
+      "cost_egp": 26705.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "IMS-1222",
+      "summary": "Brochures Masterplans link to project masterplan library",
+      "status": "Open",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "IMS-1228",
+      "summary": "Projects Masterplan Buildings - Units Matching Table [Testing only]",
+      "status": "Done",
+      "net_days": 7.42,
+      "gross_days": 7.42,
+      "excluded_days": 0.0,
+      "cost_egp": 25970.0,
       "is_complete": true,
       "num_spans": 1
     },
@@ -57,13 +68,123 @@
       "num_spans": 1
     },
     {
-      "key": "IMS-1228",
-      "summary": "Projects Masterplan Buildings - Units Matching Table [Testing only]",
+      "key": "IMS-1225",
+      "summary": "Projects Masterplan Buildings - Masterplan controls [Testing only]",
+      "status": "Done",
+      "net_days": 8.03,
+      "gross_days": 8.05,
+      "excluded_days": 0.02,
+      "cost_egp": 28105.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "IMS-890",
+      "summary": "Projects Masterplan Amenities tab",
+      "status": "Done",
+      "net_days": 9.23,
+      "gross_days": 9.48,
+      "excluded_days": 0.24,
+      "cost_egp": 32305.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "IMS-955",
+      "summary": "Projects Masterplan Buildings - Splitting Rules",
+      "status": "Done",
+      "net_days": 4.97,
+      "gross_days": 6.68,
+      "excluded_days": 1.7,
+      "cost_egp": 17395.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "IMS-889",
+      "summary": "Projects Masterplan Buildings - Buildings Bulk Upload and view [Dev only]",
+      "status": "Done",
+      "net_days": 6.19,
+      "gross_days": 6.19,
+      "excluded_days": 0.0,
+      "cost_egp": 21665.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "IMS-1224",
+      "summary": "Projects Masterplan Buildings - Phasing [Testing only]",
       "status": "Done",
       "net_days": 7.42,
       "gross_days": 7.42,
       "excluded_days": 0.0,
       "cost_egp": 25970.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "IMS-953",
+      "summary": "Projects Masterplan Buildings - Dots Ai Extraction",
+      "status": "Done",
+      "net_days": 3.23,
+      "gross_days": 11.68,
+      "excluded_days": 8.45,
+      "cost_egp": 11305.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "IMS-1167",
+      "summary": "Projects Masterplan Buildings - Masterplan controls [Dev only]",
+      "status": "Done",
+      "net_days": 1.96,
+      "gross_days": 1.96,
+      "excluded_days": 0.0,
+      "cost_egp": 6860.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "IMS-888",
+      "summary": "Projects Masterplan Management tab [Dev only]",
+      "status": "Done",
+      "net_days": 4.25,
+      "gross_days": 4.25,
+      "excluded_days": 0.0,
+      "cost_egp": 14875.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "IMS-951",
+      "summary": "Projects Masterplan Buildings - Phasing [Dev only]",
+      "status": "Done",
+      "net_days": 6.19,
+      "gross_days": 6.19,
+      "excluded_days": 0.0,
+      "cost_egp": 21665.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "IMS-954",
+      "summary": "Projects Masterplan Buildings - Units Matching Table [Dev only]",
+      "status": "Done",
+      "net_days": 6.19,
+      "gross_days": 6.19,
+      "excluded_days": 0.0,
+      "cost_egp": 21665.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "IMS-1231",
+      "summary": "Projects Masterplan library statuses (Geotiff Mapbox)",
+      "status": "Ready for Deployment",
+      "net_days": 31.63,
+      "gross_days": 58.26,
+      "excluded_days": 26.63,
+      "cost_egp": 110705.0,
       "is_complete": true,
       "num_spans": 1
     },
@@ -79,15 +200,26 @@
       "num_spans": 1
     },
     {
-      "key": "IMS-956",
-      "summary": "Projects Masterplan Buildings - Buildings Container and controls [Dev only]",
+      "key": "IMS-952",
+      "summary": "Projects Masterplan Buildings - Dots Controls Figma",
       "status": "Done",
-      "net_days": 6.19,
-      "gross_days": 6.19,
-      "excluded_days": 0.0,
-      "cost_egp": 21665.0,
+      "net_days": 4.64,
+      "gross_days": 4.89,
+      "excluded_days": 0.25,
+      "cost_egp": 16240.0,
       "is_complete": true,
       "num_spans": 1
+    },
+    {
+      "key": "IMS-1781",
+      "summary": "Masterplan Global Page",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
     },
     {
       "key": "IMS-1157",
@@ -110,138 +242,6 @@
       "cost_egp": 25970.0,
       "is_complete": true,
       "num_spans": 1
-    },
-    {
-      "key": "IMS-890",
-      "summary": "Projects Masterplan Amenities tab",
-      "status": "Done",
-      "net_days": 9.23,
-      "gross_days": 9.48,
-      "excluded_days": 0.24,
-      "cost_egp": 32305.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
-    {
-      "key": "IMS-1231",
-      "summary": "Projects Masterplan library statuses (Geotiff Mapbox)",
-      "status": "Ready for Deployment",
-      "net_days": 31.63,
-      "gross_days": 58.26,
-      "excluded_days": 26.63,
-      "cost_egp": 110705.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
-    {
-      "key": "IMS-954",
-      "summary": "Projects Masterplan Buildings - Units Matching Table [Dev only]",
-      "status": "Done",
-      "net_days": 6.19,
-      "gross_days": 6.19,
-      "excluded_days": 0.0,
-      "cost_egp": 21665.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
-    {
-      "key": "IMS-951",
-      "summary": "Projects Masterplan Buildings - Phasing [Dev only]",
-      "status": "Done",
-      "net_days": 6.19,
-      "gross_days": 6.19,
-      "excluded_days": 0.0,
-      "cost_egp": 21665.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
-    {
-      "key": "IMS-953",
-      "summary": "Projects Masterplan Buildings - Dots Ai Extraction",
-      "status": "Done",
-      "net_days": 3.23,
-      "gross_days": 11.68,
-      "excluded_days": 8.45,
-      "cost_egp": 11305.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
-    {
-      "key": "IMS-1225",
-      "summary": "Projects Masterplan Buildings - Masterplan controls [Testing only]",
-      "status": "Done",
-      "net_days": 8.03,
-      "gross_days": 8.05,
-      "excluded_days": 0.02,
-      "cost_egp": 28105.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
-    {
-      "key": "IMS-1167",
-      "summary": "Projects Masterplan Buildings - Masterplan controls [Dev only]",
-      "status": "Done",
-      "net_days": 1.96,
-      "gross_days": 1.96,
-      "excluded_days": 0.0,
-      "cost_egp": 6860.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
-    {
-      "key": "IMS-1169",
-      "summary": "E-realty To Listing Buildings Migration",
-      "status": "Done",
-      "net_days": 7.63,
-      "gross_days": 7.63,
-      "excluded_days": 0.0,
-      "cost_egp": 26705.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
-    {
-      "key": "IMS-952",
-      "summary": "Projects Masterplan Buildings - Dots Controls Figma",
-      "status": "Done",
-      "net_days": 4.64,
-      "gross_days": 4.89,
-      "excluded_days": 0.25,
-      "cost_egp": 16240.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
-    {
-      "key": "IMS-955",
-      "summary": "Projects Masterplan Buildings - Splitting Rules",
-      "status": "Done",
-      "net_days": 4.97,
-      "gross_days": 6.68,
-      "excluded_days": 1.7,
-      "cost_egp": 17395.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
-    {
-      "key": "IMS-1222",
-      "summary": "Brochures Masterplans link to project masterplan library",
-      "status": "Open",
-      "net_days": 0.0,
-      "gross_days": 0.0,
-      "excluded_days": 0.0,
-      "cost_egp": 0.0,
-      "is_complete": false,
-      "num_spans": 0
-    },
-    {
-      "key": "IMS-1781",
-      "summary": "Masterplan Global Page",
-      "status": "To Do",
-      "net_days": 0.0,
-      "gross_days": 0.0,
-      "excluded_days": 0.0,
-      "cost_egp": 0.0,
-      "is_complete": false,
-      "num_spans": 0
     }
   ]
 }
