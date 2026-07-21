@@ -1,0 +1,27 @@
+{
+  "epic_key": "CM-794",
+  "epic_name": "[FE][Lead Balancer] Action icons (edit/delete) have no spacing between them \u2014 icons are stuck together",
+  "project_key": "CM",
+  "project_name": "Campaigns Management",
+  "epic_created": "2026-05-04T06:02:13.407+0300",
+  "generated_at": "2026-07-21T12:11:22.649787+00:00",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 1,
+  "complete_tickets": 0,
+  "in_progress_tickets": 1,
+  "total_net_days": 0.0,
+  "total_cost_egp": 0.0,
+  "tickets": [
+    {
+      "key": "CM-874",
+      "summary": "Code Review: [FE][Lead Balancer] Action icons (edit/delete) have no spacing between them \u2014 icons are stuck together",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "epic_key": "PAR-4978",
+  "epic_name": "[Spike][Issues Reporting][Web][Freshworks] Commenting experience and comms",
+  "project_key": "PAR",
+  "project_name": "Partners",
+  "epic_created": "2026-07-14T14:37:33.721+0300",
+  "generated_at": "2026-07-21T12:11:17.000451+00:00",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 2,
+  "complete_tickets": 0,
+  "in_progress_tickets": 2,
+  "total_net_days": 0.0,
+  "total_cost_egp": 0.0,
+  "tickets": [
+    {
+      "key": "PAR-4988",
+      "summary": "Testing: [Spike][Issues Reporting][Web][Freshworks] Commenting experience and comms",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "PAR-5033",
+      "summary": "Code Review: [Spike][Issues Reporting][Web][Freshworks] Commenting experience and comms",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    }
+  ]
+}

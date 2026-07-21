@@ -4,13 +4,13 @@
   "project_key": "PAR",
   "project_name": "Partners",
   "epic_created": "2026-06-02T15:09:06.380+0300",
-  "generated_at": "2026-07-20T13:27:38.469972+00:00",
+  "generated_at": "2026-07-21T12:11:29.458853+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 3,
-  "complete_tickets": 2,
-  "in_progress_tickets": 1,
-  "total_net_days": 0.89,
-  "total_cost_egp": 3115.0,
+  "complete_tickets": 3,
+  "in_progress_tickets": 0,
+  "total_net_days": 1.89,
+  "total_cost_egp": 6615.0,
   "tickets": [
     {
       "key": "PAR-4954",
@@ -37,12 +37,12 @@
     {
       "key": "PAR-4991",
       "summary": "Testing: [Web][NN Agent Access] Requests management account manager flow - Approval flow",
-      "status": "In Progress",
-      "net_days": 0.34,
-      "gross_days": 0.34,
+      "status": "Done",
+      "net_days": 1.34,
+      "gross_days": 1.34,
       "excluded_days": 0.0,
-      "cost_egp": 1190.0,
-      "is_complete": false,
+      "cost_egp": 4690.0,
+      "is_complete": true,
       "num_spans": 1
     }
   ]

@@ -4,25 +4,14 @@
   "project_key": "IMS",
   "project_name": "Inventory Management System ",
   "epic_created": "2026-05-10T20:26:38.909+0300",
-  "generated_at": "2026-07-20T13:27:02.986459+00:00",
+  "generated_at": "2026-07-21T12:11:47.665037+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 6,
   "complete_tickets": 0,
   "in_progress_tickets": 6,
-  "total_net_days": 7.86,
-  "total_cost_egp": 27510.0,
+  "total_net_days": 8.7,
+  "total_cost_egp": 30450.0,
   "tickets": [
-    {
-      "key": "IMS-1722",
-      "summary": "Areas and districts calculate area from polygons",
-      "status": "Returned for Fix",
-      "net_days": 3.93,
-      "gross_days": 3.93,
-      "excluded_days": 0.0,
-      "cost_egp": 13755.0,
-      "is_complete": false,
-      "num_spans": 1
-    },
     {
       "key": "IMS-1586",
       "summary": "Draw on Map Per Area",
@@ -57,6 +46,17 @@
       "num_spans": 0
     },
     {
+      "key": "IMS-1722",
+      "summary": "Areas and districts calculate area from polygons",
+      "status": "Returned for Fix",
+      "net_days": 3.93,
+      "gross_days": 3.93,
+      "excluded_days": 0.0,
+      "cost_egp": 13755.0,
+      "is_complete": false,
+      "num_spans": 1
+    },
+    {
       "key": "IMS-1587",
       "summary": "Draw on Map for All Areas",
       "status": "To Do",
@@ -71,10 +71,10 @@
       "key": "IMS-1564",
       "summary": "New Areas Page",
       "status": "Code Review",
-      "net_days": 3.93,
-      "gross_days": 3.93,
+      "net_days": 4.77,
+      "gross_days": 4.77,
       "excluded_days": 0.0,
-      "cost_egp": 13755.0,
+      "cost_egp": 16695.0,
       "is_complete": false,
       "num_spans": 1
     }

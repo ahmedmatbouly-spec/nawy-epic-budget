@@ -1,0 +1,27 @@
+{
+  "epic_key": "CM-786",
+  "epic_name": "[FE][Edit Campaign] Page padding does not match design \u2014 should be 16px on all sides",
+  "project_key": "CM",
+  "project_name": "Campaigns Management",
+  "epic_created": "2026-05-04T05:23:24.347+0300",
+  "generated_at": "2026-07-21T12:10:11.882245+00:00",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 1,
+  "complete_tickets": 0,
+  "in_progress_tickets": 1,
+  "total_net_days": 0.77,
+  "total_cost_egp": 2695.0,
+  "tickets": [
+    {
+      "key": "CM-868",
+      "summary": "Code Review: [FE][Edit Campaign] Page padding does not match design \u2014 should be 16px on all sides",
+      "status": "In Progress",
+      "net_days": 0.77,
+      "gross_days": 0.77,
+      "excluded_days": 0.0,
+      "cost_egp": 2695.0,
+      "is_complete": false,
+      "num_spans": 1
+    }
+  ]
+}

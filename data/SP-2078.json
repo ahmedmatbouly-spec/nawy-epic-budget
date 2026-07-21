@@ -4,7 +4,7 @@
   "project_key": "SP",
   "project_name": "Sales Portal",
   "epic_created": "2026-07-20T14:29:32.024+0300",
-  "generated_at": "2026-07-20T13:28:15.323440+00:00",
+  "generated_at": "2026-07-21T12:11:09.611238+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 2,
   "complete_tickets": 0,
@@ -13,8 +13,8 @@
   "total_cost_egp": 0.0,
   "tickets": [
     {
-      "key": "SP-2075",
-      "summary": "IMS/CRM Sync for property types",
+      "key": "SP-2076",
+      "summary": "Add Villa Type D as a property type when configuring a Subcontract",
       "status": "To Do",
       "net_days": 0.0,
       "gross_days": 0.0,
@@ -24,8 +24,8 @@
       "num_spans": 0
     },
     {
-      "key": "SP-2076",
-      "summary": "Add Villa Type D as a property type when configuring a Subcontract",
+      "key": "SP-2075",
+      "summary": "IMS/CRM Sync for property types",
       "status": "To Do",
       "net_days": 0.0,
       "gross_days": 0.0,

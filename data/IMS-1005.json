@@ -4,14 +4,36 @@
   "project_key": "IMS",
   "project_name": "Inventory Management System ",
   "epic_created": "2026-01-14T13:24:36.473+0200",
-  "generated_at": "2026-07-20T13:27:28.566636+00:00",
+  "generated_at": "2026-07-21T12:11:58.056495+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 11,
   "complete_tickets": 6,
   "in_progress_tickets": 5,
-  "total_net_days": 37.9,
-  "total_cost_egp": 132650.0,
+  "total_net_days": 38.74,
+  "total_cost_egp": 135590.0,
   "tickets": [
+    {
+      "key": "IMS-1724",
+      "summary": "Construction updates enhancements",
+      "status": "Returned for Fix",
+      "net_days": 1.77,
+      "gross_days": 1.77,
+      "excluded_days": 0.0,
+      "cost_egp": 6195.0,
+      "is_complete": false,
+      "num_spans": 1
+    },
+    {
+      "key": "IMS-973",
+      "summary": "Ai Market Updates Posts Whatsapp Detection and Structering",
+      "status": "Open",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
     {
       "key": "IMS-1212",
       "summary": "Ai extracted Project Construction Updates approval flow",
@@ -20,61 +42,6 @@
       "gross_days": 8.56,
       "excluded_days": 3.98,
       "cost_egp": 16030.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
-    {
-      "key": "IMS-1591",
-      "summary": "Construction updates status , edit and delete",
-      "status": "Done",
-      "net_days": 3.08,
-      "gross_days": 3.08,
-      "excluded_days": 0.0,
-      "cost_egp": 10780.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
-    {
-      "key": "IMS-1671",
-      "summary": "Nawy Space Each Image Analysis vs Masterplan",
-      "status": "Open",
-      "net_days": 0.0,
-      "gross_days": 0.0,
-      "excluded_days": 0.0,
-      "cost_egp": 0.0,
-      "is_complete": false,
-      "num_spans": 0
-    },
-    {
-      "key": "IMS-1765",
-      "summary": "[Nawy Space] Update page subtitle text to correctly describe the Sentinel satellite imagery feature",
-      "status": "Open",
-      "net_days": 0.0,
-      "gross_days": 0.0,
-      "excluded_days": 0.0,
-      "cost_egp": 0.0,
-      "is_complete": false,
-      "num_spans": 0
-    },
-    {
-      "key": "IMS-1724",
-      "summary": "Construction updates enhancements",
-      "status": "In Testing",
-      "net_days": 0.93,
-      "gross_days": 0.93,
-      "excluded_days": 0.0,
-      "cost_egp": 3255.0,
-      "is_complete": false,
-      "num_spans": 1
-    },
-    {
-      "key": "IMS-1422",
-      "summary": "Nawy Space Construction Updates (Free Images Archive) [Dev Only]",
-      "status": "Done",
-      "net_days": 6.75,
-      "gross_days": 6.75,
-      "excluded_days": 0.0,
-      "cost_egp": 23625.0,
       "is_complete": true,
       "num_spans": 1
     },
@@ -88,17 +55,6 @@
       "cost_egp": 27370.0,
       "is_complete": true,
       "num_spans": 1
-    },
-    {
-      "key": "IMS-973",
-      "summary": "Ai Market Updates Posts Whatsapp Detection and Structering",
-      "status": "Open",
-      "net_days": 0.0,
-      "gross_days": 0.0,
-      "excluded_days": 0.0,
-      "cost_egp": 0.0,
-      "is_complete": false,
-      "num_spans": 0
     },
     {
       "key": "IMS-1421",
@@ -123,6 +79,28 @@
       "num_spans": 1
     },
     {
+      "key": "IMS-1591",
+      "summary": "Construction updates status , edit and delete",
+      "status": "Done",
+      "net_days": 3.08,
+      "gross_days": 3.08,
+      "excluded_days": 0.0,
+      "cost_egp": 10780.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "IMS-1765",
+      "summary": "[Nawy Space] Update page subtitle text to correctly describe the Sentinel satellite imagery feature",
+      "status": "Open",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
       "key": "IMS-972",
       "summary": "Ai Construction Updates Whatsapp Detection and Structering",
       "status": "Done",
@@ -132,6 +110,28 @@
       "cost_egp": 8470.0,
       "is_complete": true,
       "num_spans": 1
+    },
+    {
+      "key": "IMS-1422",
+      "summary": "Nawy Space Construction Updates (Free Images Archive) [Dev Only]",
+      "status": "Done",
+      "net_days": 6.75,
+      "gross_days": 6.75,
+      "excluded_days": 0.0,
+      "cost_egp": 23625.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "IMS-1671",
+      "summary": "Nawy Space Each Image Analysis vs Masterplan",
+      "status": "Open",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
     }
   ]
 }

@@ -1,0 +1,38 @@
+{
+  "epic_key": "ER-3036",
+  "epic_name": "Remove Resale Unit ID from Frontend",
+  "project_key": "ER",
+  "project_name": "eRealty",
+  "epic_created": "2026-06-15T00:27:35.410+0300",
+  "generated_at": "2026-07-21T12:11:24.546136+00:00",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 2,
+  "complete_tickets": 2,
+  "in_progress_tickets": 0,
+  "total_net_days": 0.0,
+  "total_cost_egp": 0.0,
+  "tickets": [
+    {
+      "key": "ER-3102",
+      "summary": "Testing: Remove Resale Unit ID from Frontend",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "ER-3179",
+      "summary": "Code Review: Remove Resale Unit ID from Frontend",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    }
+  ]
+}

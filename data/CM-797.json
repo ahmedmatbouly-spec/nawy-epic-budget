@@ -1,0 +1,27 @@
+{
+  "epic_key": "CM-797",
+  "epic_name": "[FE][Global] Table cell content is not left-aligned \u2014 should be left-aligned across all tables",
+  "project_key": "CM",
+  "project_name": "Campaigns Management",
+  "epic_created": "2026-05-04T06:15:37.205+0300",
+  "generated_at": "2026-07-21T12:10:33.247276+00:00",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 1,
+  "complete_tickets": 0,
+  "in_progress_tickets": 1,
+  "total_net_days": 0.0,
+  "total_cost_egp": 0.0,
+  "tickets": [
+    {
+      "key": "CM-877",
+      "summary": "Code Review: [FE][Global] Table cell content is not left-aligned \u2014 should be left-aligned across all tables",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    }
+  ]
+}
