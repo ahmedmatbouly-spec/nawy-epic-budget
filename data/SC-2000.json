@@ -1,0 +1,27 @@
+{
+  "epic_key": "SC-2000",
+  "epic_name": "Sorting in projects and units is not handled in returned results from bot",
+  "project_key": "SC",
+  "project_name": "Suite Control ",
+  "epic_created": "2026-07-22T12:51:36.888+0300",
+  "generated_at": "2026-07-22T12:14:38.492563+00:00",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 1,
+  "complete_tickets": 0,
+  "in_progress_tickets": 1,
+  "total_net_days": 0.0,
+  "total_cost_egp": 0.0,
+  "tickets": [
+    {
+      "key": "SC-2012",
+      "summary": "Code Review: Sorting in projects and units is not handled in returned results from bot",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    }
+  ]
+}

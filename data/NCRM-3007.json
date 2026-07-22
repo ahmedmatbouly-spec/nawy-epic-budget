@@ -1,0 +1,38 @@
+{
+  "epic_key": "NCRM-3007",
+  "epic_name": "Auto-VIP Lead Tagging via Customer Hub Integration",
+  "project_key": "NCRM",
+  "project_name": "NawyCRM",
+  "epic_created": "2026-04-19T10:36:25.702+0200",
+  "generated_at": "2026-07-22T12:16:22.612526+00:00",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 2,
+  "complete_tickets": 0,
+  "in_progress_tickets": 2,
+  "total_net_days": 0.0,
+  "total_cost_egp": 0.0,
+  "tickets": [
+    {
+      "key": "NCRM-3255",
+      "summary": "Testing: Integrate Customers Database for Auto Hot Lead Tagging, Task Creation & Tracking",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "NCRM-3341",
+      "summary": "Code Review: Auto-VIP Lead Tagging via Customer Hub Integration",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    }
+  ]
+}

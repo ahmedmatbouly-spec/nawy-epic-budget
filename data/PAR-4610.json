@@ -1,0 +1,38 @@
+{
+  "epic_key": "PAR-4610",
+  "epic_name": "[Issues Reporting][Web][Freshworks] Ticket creation \u2014 flow, access points & Freshworks sync",
+  "project_key": "PAR",
+  "project_name": "Partners",
+  "epic_created": "2026-05-04T16:45:52.080+0300",
+  "generated_at": "2026-07-22T12:14:59.363124+00:00",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 2,
+  "complete_tickets": 1,
+  "in_progress_tickets": 1,
+  "total_net_days": 6.78,
+  "total_cost_egp": 23730.0,
+  "tickets": [
+    {
+      "key": "PAR-4946",
+      "summary": "Testing: [Issues Reporting][Web][Freshworks] Ticket creation \u2014 flow, access points & Freshworks sync",
+      "status": "In Progress",
+      "net_days": 6.78,
+      "gross_days": 6.78,
+      "excluded_days": 0.0,
+      "cost_egp": 23730.0,
+      "is_complete": false,
+      "num_spans": 2
+    },
+    {
+      "key": "PAR-4947",
+      "summary": "Code Review: [Issues Reporting][Web][Freshworks] Ticket creation \u2014 flow, access points & Freshworks sync",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    }
+  ]
+}

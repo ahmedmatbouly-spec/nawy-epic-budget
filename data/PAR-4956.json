@@ -4,17 +4,39 @@
   "project_key": "PAR",
   "project_name": "Partners",
   "epic_created": "2026-07-13T13:01:38.924+0300",
-  "generated_at": "2026-07-19T09:38:59.678616+00:00",
+  "generated_at": "2026-07-22T12:14:33.065097+00:00",
   "rate_per_day_egp": 3500.0,
-  "total_tickets": 5,
+  "total_tickets": 6,
   "complete_tickets": 0,
-  "in_progress_tickets": 5,
+  "in_progress_tickets": 6,
   "total_net_days": 0.0,
   "total_cost_egp": 0.0,
   "tickets": [
     {
+      "key": "PAR-4958",
+      "summary": "Lock partner-AM relationship",
+      "status": "Open",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
       "key": "PAR-4777",
       "summary": "[BE] Rule engine for un-assignment",
+      "status": "Open",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "PAR-4960",
+      "summary": "[Partners pool][Team Leader/Managers Flow] Filtering, insights and un-assignment reasons surfacing",
       "status": "Open",
       "net_days": 0.0,
       "gross_days": 0.0,
@@ -35,8 +57,8 @@
       "num_spans": 0
     },
     {
-      "key": "PAR-4958",
-      "summary": "Lock partner-AM relationship",
+      "key": "PAR-5038",
+      "summary": "[Partners List][TL] Manual dropping block, un-assignment risk flagging & comms",
       "status": "Open",
       "net_days": 0.0,
       "gross_days": 0.0,
@@ -47,18 +69,7 @@
     },
     {
       "key": "PAR-4959",
-      "summary": "[Partners List] Manual dropping block, un-assignment risk flagging & comms",
-      "status": "Open",
-      "net_days": 0.0,
-      "gross_days": 0.0,
-      "excluded_days": 0.0,
-      "cost_egp": 0.0,
-      "is_complete": false,
-      "num_spans": 0
-    },
-    {
-      "key": "PAR-4960",
-      "summary": "[Partners pool][Team Leader/Managers Flow] Filtering, insights and un-assignment reasons surfacing",
+      "summary": "[Partners List][AM] Manual dropping block, un-assignment risk flagging & comms",
       "status": "Open",
       "net_days": 0.0,
       "gross_days": 0.0,

@@ -1,0 +1,93 @@
+{
+  "epic_key": "NCRM-3327",
+  "epic_name": "Primary Developer: Sales Lead Lifecycle Management",
+  "project_key": "NCRM",
+  "project_name": "NawyCRM",
+  "epic_created": "2026-07-21T15:30:20.205+0300",
+  "generated_at": "2026-07-22T12:15:36.119211+00:00",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 7,
+  "complete_tickets": 0,
+  "in_progress_tickets": 7,
+  "total_net_days": 0.0,
+  "total_cost_egp": 0.0,
+  "tickets": [
+    {
+      "key": "NCRM-3328",
+      "summary": "Phase 1: Initial Contact",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "NCRM-3329",
+      "summary": "Phase 1B: Didn't Reach Loop",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "NCRM-3330",
+      "summary": "Phase 2: Answered Leads Routing",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "NCRM-3331",
+      "summary": "Path A: Disqualified",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "NCRM-3332",
+      "summary": "Path B: Client Not Available",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "NCRM-3333",
+      "summary": "Path D1: Qualified (Presentation Stage)",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "NCRM-3334",
+      "summary": "Path D3: Meeting Happened",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "epic_key": "NCRM-3280",
+  "epic_name": "[Dev] Nawy Now Lead Page",
+  "project_key": "NCRM",
+  "project_name": "NawyCRM",
+  "epic_created": "2026-07-04T22:37:38.204+0300",
+  "generated_at": "2026-07-22T12:15:47.880407+00:00",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 2,
+  "complete_tickets": 2,
+  "in_progress_tickets": 0,
+  "total_net_days": 0.0,
+  "total_cost_egp": 0.0,
+  "tickets": [
+    {
+      "key": "NCRM-3312",
+      "summary": "Testing: Nawy Now Lead Page",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "NCRM-3343",
+      "summary": "Code Review: [Dev] Nawy Now Lead Page",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    }
+  ]
+}

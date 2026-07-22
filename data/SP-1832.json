@@ -1,0 +1,27 @@
+{
+  "epic_key": "SP-1832",
+  "epic_name": "[Receivables] Separate Basic and Slab Percentages in Invoice Creation",
+  "project_key": "SP",
+  "project_name": "Sales Portal",
+  "epic_created": "2026-03-31T16:36:30.035+0200",
+  "generated_at": "2026-07-22T12:15:23.860685+00:00",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 1,
+  "complete_tickets": 1,
+  "in_progress_tickets": 0,
+  "total_net_days": 5.39,
+  "total_cost_egp": 18865.0,
+  "tickets": [
+    {
+      "key": "SP-2002",
+      "summary": "[Testing] [Receivables] Separate Basic and Slab Percentages in Invoice Creation",
+      "status": "Done",
+      "net_days": 5.39,
+      "gross_days": 5.39,
+      "excluded_days": 0.0,
+      "cost_egp": 18865.0,
+      "is_complete": true,
+      "num_spans": 1
+    }
+  ]
+}

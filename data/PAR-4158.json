@@ -4,7 +4,7 @@
   "project_key": "PAR",
   "project_name": "Partners",
   "epic_created": "2026-02-26T10:41:05.623+0200",
-  "generated_at": "2026-07-19T09:38:49.206089+00:00",
+  "generated_at": "2026-07-22T12:15:28.868543+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 8,
   "complete_tickets": 0,
@@ -13,9 +13,31 @@
   "total_cost_egp": 0.0,
   "tickets": [
     {
+      "key": "PAR-3899",
+      "summary": "[App] Refer to Nawy Unlocked",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
       "key": "PAR-2720",
       "summary": "[App] Deferred links set up",
       "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "PAR-4448",
+      "summary": "[Web] Refer to Nawy Rentals",
+      "status": "Open",
       "net_days": 0.0,
       "gross_days": 0.0,
       "excluded_days": 0.0,
@@ -35,9 +57,20 @@
       "num_spans": 0
     },
     {
-      "key": "PAR-3899",
-      "summary": "[App] Refer to Nawy Unlocked",
-      "status": "To Do",
+      "key": "PAR-4447",
+      "summary": "[App] Refer to Nawy Rentals",
+      "status": "Open",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "PAR-4160",
+      "summary": "[Web] Referrals UI/UX revamp",
+      "status": "Open",
       "net_days": 0.0,
       "gross_days": 0.0,
       "excluded_days": 0.0,
@@ -59,39 +92,6 @@
     {
       "key": "PAR-4159",
       "summary": "[App] Referrals UI/UX revamp",
-      "status": "Open",
-      "net_days": 0.0,
-      "gross_days": 0.0,
-      "excluded_days": 0.0,
-      "cost_egp": 0.0,
-      "is_complete": false,
-      "num_spans": 0
-    },
-    {
-      "key": "PAR-4160",
-      "summary": "[Web] Referrals UI/UX revamp",
-      "status": "Open",
-      "net_days": 0.0,
-      "gross_days": 0.0,
-      "excluded_days": 0.0,
-      "cost_egp": 0.0,
-      "is_complete": false,
-      "num_spans": 0
-    },
-    {
-      "key": "PAR-4447",
-      "summary": "[App] Refer to Nawy Rentals",
-      "status": "Open",
-      "net_days": 0.0,
-      "gross_days": 0.0,
-      "excluded_days": 0.0,
-      "cost_egp": 0.0,
-      "is_complete": false,
-      "num_spans": 0
-    },
-    {
-      "key": "PAR-4448",
-      "summary": "[Web] Refer to Nawy Rentals",
       "status": "Open",
       "net_days": 0.0,
       "gross_days": 0.0,
