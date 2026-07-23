@@ -4,7 +4,7 @@
   "project_key": "NCRM",
   "project_name": "NawyCRM",
   "epic_created": "2026-06-21T06:35:00.863+0300",
-  "generated_at": "2026-07-22T12:15:30.948484+00:00",
+  "generated_at": "2026-07-23T12:12:23.487040+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 2,
   "complete_tickets": 2,
@@ -13,8 +13,8 @@
   "total_cost_egp": 0.0,
   "tickets": [
     {
-      "key": "NCRM-3250",
-      "summary": "Testing: Developer track settings",
+      "key": "NCRM-3256",
+      "summary": "Code Review: Developer track settings",
       "status": "Done",
       "net_days": 0.0,
       "gross_days": 0.0,
@@ -24,8 +24,8 @@
       "num_spans": 0
     },
     {
-      "key": "NCRM-3256",
-      "summary": "Code Review: Developer track settings",
+      "key": "NCRM-3250",
+      "summary": "Testing: Developer track settings",
       "status": "Done",
       "net_days": 0.0,
       "gross_days": 0.0,

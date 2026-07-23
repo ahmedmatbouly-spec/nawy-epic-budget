@@ -4,18 +4,51 @@
   "project_key": "SC",
   "project_name": "Suite Control ",
   "epic_created": "2025-11-24T19:24:06.118+0200",
-  "generated_at": "2026-07-22T12:16:00.675422+00:00",
+  "generated_at": "2026-07-23T12:11:35.211661+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 14,
   "complete_tickets": 7,
   "in_progress_tickets": 7,
-  "total_net_days": 35.95,
-  "total_cost_egp": 125825.0,
+  "total_net_days": 36.17,
+  "total_cost_egp": 126595.0,
   "tickets": [
     {
-      "key": "SC-1278",
-      "summary": "Chatbot response takes longer time than the duration mentioned in the dashboard ",
-      "status": "To Do",
+      "key": "SC-1392",
+      "summary": "Speech-to-text transcription",
+      "status": "Open",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "SC-1517",
+      "summary": "Inventory Chatbot production requirements",
+      "status": "Done",
+      "net_days": 8.01,
+      "gross_days": 8.01,
+      "excluded_days": 0.0,
+      "cost_egp": 28035.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "SC-1390",
+      "summary": "Topics classification ",
+      "status": "Open",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "SC-1391",
+      "summary": "Chatbot voice-to-text",
+      "status": "Open",
       "net_days": 0.0,
       "gross_days": 0.0,
       "excluded_days": 0.0,
@@ -35,8 +68,30 @@
       "num_spans": 1
     },
     {
-      "key": "SC-1390",
-      "summary": "Topics classification ",
+      "key": "SC-1518",
+      "summary": "Integrate artifacts in the inventory chatbot",
+      "status": "Released",
+      "net_days": 6.4,
+      "gross_days": 8.4,
+      "excluded_days": 2.0,
+      "cost_egp": 22400.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "SC-1944",
+      "summary": "Inventory Agent Bugs",
+      "status": "Ready for Testing",
+      "net_days": 4.0,
+      "gross_days": 4.0,
+      "excluded_days": 0.0,
+      "cost_egp": 14000.0,
+      "is_complete": false,
+      "num_spans": 1
+    },
+    {
+      "key": "SC-1389",
+      "summary": "Return Artifacts within chat",
       "status": "Open",
       "net_days": 0.0,
       "gross_days": 0.0,
@@ -57,6 +112,17 @@
       "num_spans": 1
     },
     {
+      "key": "SC-1395",
+      "summary": "Inventory Matching alerts based on lead interests ",
+      "status": "Open",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
       "key": "SC-1736",
       "summary": "Create a custom group for the inventory chatbot ",
       "status": "Released",
@@ -66,39 +132,6 @@
       "cost_egp": 1925.0,
       "is_complete": true,
       "num_spans": 1
-    },
-    {
-      "key": "SC-1391",
-      "summary": "Chatbot voice-to-text",
-      "status": "Open",
-      "net_days": 0.0,
-      "gross_days": 0.0,
-      "excluded_days": 0.0,
-      "cost_egp": 0.0,
-      "is_complete": false,
-      "num_spans": 0
-    },
-    {
-      "key": "SC-1518",
-      "summary": "Integrate artifacts in the inventory chatbot",
-      "status": "Released",
-      "net_days": 6.4,
-      "gross_days": 8.4,
-      "excluded_days": 2.0,
-      "cost_egp": 22400.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
-    {
-      "key": "SC-1389",
-      "summary": "Return Artifacts within chat",
-      "status": "Open",
-      "net_days": 0.0,
-      "gross_days": 0.0,
-      "excluded_days": 0.0,
-      "cost_egp": 0.0,
-      "is_complete": false,
-      "num_spans": 0
     },
     {
       "key": "SC-884",
@@ -112,28 +145,6 @@
       "num_spans": 1
     },
     {
-      "key": "SC-1392",
-      "summary": "Speech-to-text transcription",
-      "status": "Open",
-      "net_days": 0.0,
-      "gross_days": 0.0,
-      "excluded_days": 0.0,
-      "cost_egp": 0.0,
-      "is_complete": false,
-      "num_spans": 0
-    },
-    {
-      "key": "SC-1395",
-      "summary": "Inventory Matching alerts based on lead interests ",
-      "status": "Open",
-      "net_days": 0.0,
-      "gross_days": 0.0,
-      "excluded_days": 0.0,
-      "cost_egp": 0.0,
-      "is_complete": false,
-      "num_spans": 0
-    },
-    {
       "key": "SC-1826",
       "summary": "Integrate artifacts in the inventory chatbot",
       "status": "Released",
@@ -145,26 +156,15 @@
       "num_spans": 1
     },
     {
-      "key": "SC-1944",
-      "summary": "Inventory Agent Bugs",
-      "status": "Ready for Testing",
-      "net_days": 3.78,
-      "gross_days": 3.78,
+      "key": "SC-1278",
+      "summary": "Chatbot response takes longer time than the duration mentioned in the dashboard ",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
       "excluded_days": 0.0,
-      "cost_egp": 13230.0,
+      "cost_egp": 0.0,
       "is_complete": false,
-      "num_spans": 1
-    },
-    {
-      "key": "SC-1517",
-      "summary": "Inventory Chatbot production requirements",
-      "status": "Done",
-      "net_days": 8.01,
-      "gross_days": 8.01,
-      "excluded_days": 0.0,
-      "cost_egp": 28035.0,
-      "is_complete": true,
-      "num_spans": 1
+      "num_spans": 0
     }
   ]
 }

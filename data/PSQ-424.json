@@ -1,0 +1,27 @@
+{
+  "epic_key": "PSQ-424",
+  "epic_name": "[Self signup] updating invitations when clicking on save nothing happens",
+  "project_key": "PSQ",
+  "project_name": "Platform Squad",
+  "epic_created": "2026-04-07T12:26:42.627+0200",
+  "generated_at": "2026-07-23T12:11:30.184774+00:00",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 1,
+  "complete_tickets": 0,
+  "in_progress_tickets": 1,
+  "total_net_days": 0.0,
+  "total_cost_egp": 0.0,
+  "tickets": [
+    {
+      "key": "PSQ-809",
+      "summary": "Code Review: [Self signup] updating invitations when clicking on save nothing happens",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    }
+  ]
+}

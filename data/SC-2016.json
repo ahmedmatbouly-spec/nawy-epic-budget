@@ -1,10 +1,10 @@
 {
-  "epic_key": "SC-1327",
-  "epic_name": "E-reality Presentation Form",
+  "epic_key": "SC-2016",
+  "epic_name": "Agent monogram invisible on white background (leads list & profile)",
   "project_key": "SC",
   "project_name": "Suite Control ",
-  "epic_created": "2026-02-19T12:49:07.124+0200",
-  "generated_at": "2026-07-23T12:12:50.909340+00:00",
+  "epic_created": "2026-07-22T15:08:33.415+0300",
+  "generated_at": "2026-07-23T12:12:26.265470+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 1,
   "complete_tickets": 0,
@@ -13,8 +13,8 @@
   "total_cost_egp": 0.0,
   "tickets": [
     {
-      "key": "SC-1242",
-      "summary": "E-reality Presentation Form",
+      "key": "SC-2021",
+      "summary": "Code Review: Agent monogram invisible on white background (leads list & profile)",
       "status": "To Do",
       "net_days": 0.0,
       "gross_days": 0.0,

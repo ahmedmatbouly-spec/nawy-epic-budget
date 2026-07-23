@@ -4,7 +4,7 @@
   "project_key": "SP",
   "project_name": "Sales Portal",
   "epic_created": "2026-07-22T12:09:04.672+0300",
-  "generated_at": "2026-07-22T12:14:17.183095+00:00",
+  "generated_at": "2026-07-23T12:12:07.748333+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 2,
   "complete_tickets": 0,
@@ -13,8 +13,8 @@
   "total_cost_egp": 0.0,
   "tickets": [
     {
-      "key": "SP-2083",
-      "summary": "Bulk Upload Commercial Registration Name and Taxation number for compounds",
+      "key": "SP-2084",
+      "summary": "Bulk Generate Claims",
       "status": "To Do",
       "net_days": 0.0,
       "gross_days": 0.0,
@@ -24,8 +24,8 @@
       "num_spans": 0
     },
     {
-      "key": "SP-2084",
-      "summary": "Bulk Generate Claims",
+      "key": "SP-2083",
+      "summary": "Bulk Upload Commercial Registration Name and Taxation number for compounds",
       "status": "To Do",
       "net_days": 0.0,
       "gross_days": 0.0,

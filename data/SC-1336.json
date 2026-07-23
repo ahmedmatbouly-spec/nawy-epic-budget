@@ -4,7 +4,7 @@
   "project_key": "SC",
   "project_name": "Suite Control ",
   "epic_created": "2026-02-19T13:25:23.508+0200",
-  "generated_at": "2026-07-19T09:33:57.107591+00:00",
+  "generated_at": "2026-07-23T12:11:58.156724+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 2,
   "complete_tickets": 0,
@@ -13,8 +13,8 @@
   "total_cost_egp": 0.0,
   "tickets": [
     {
-      "key": "SC-1883",
-      "summary": "Admin Panel \u2014 Navigation Visibility Configuration",
+      "key": "SC-1884",
+      "summary": "Admin Panel navbar, homepage and more screen default configuration",
       "status": "Open",
       "net_days": 0.0,
       "gross_days": 0.0,
@@ -24,8 +24,8 @@
       "num_spans": 0
     },
     {
-      "key": "SC-1884",
-      "summary": "Admin Panel navbar, homepage and more screen default configuration",
+      "key": "SC-1883",
+      "summary": "Admin Panel \u2014 Navigation Visibility Configuration",
       "status": "Open",
       "net_days": 0.0,
       "gross_days": 0.0,

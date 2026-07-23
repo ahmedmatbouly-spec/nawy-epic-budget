@@ -1,0 +1,49 @@
+{
+  "epic_key": "SP-2050",
+  "epic_name": "Sprint Requests",
+  "project_key": "SP",
+  "project_name": "Sales Portal",
+  "epic_created": "2026-07-15T12:54:36.463+0300",
+  "generated_at": "2026-07-23T12:12:33.244332+00:00",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 3,
+  "complete_tickets": 3,
+  "in_progress_tickets": 0,
+  "total_net_days": 0.0,
+  "total_cost_egp": 0.0,
+  "tickets": [
+    {
+      "key": "SP-2059",
+      "summary": "finance can't export organization referral cycle ",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "SP-2087",
+      "summary": "Finance Team Cannot Export Partner Cycle",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "SP-2088",
+      "summary": "Team targets shown for a demoted member",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    }
+  ]
+}

@@ -4,7 +4,7 @@
   "project_key": "IMS",
   "project_name": "Inventory Management System ",
   "epic_created": "2025-12-03T12:28:47.821+0200",
-  "generated_at": "2026-07-22T12:16:02.577389+00:00",
+  "generated_at": "2026-07-23T12:11:24.450469+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 28,
   "complete_tickets": 22,
@@ -12,6 +12,28 @@
   "total_net_days": 254.24,
   "total_cost_egp": 889840.0,
   "tickets": [
+    {
+      "key": "IMS-826",
+      "summary": "Grouped Properties Processing - Extraction [Dev]",
+      "status": "Done",
+      "net_days": 22.13,
+      "gross_days": 22.13,
+      "excluded_days": 0.0,
+      "cost_egp": 77455.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "IMS-1066",
+      "summary": "Grouped Properties Processing - Initial Setup [Testing]",
+      "status": "Done",
+      "net_days": 15.25,
+      "gross_days": 19.15,
+      "excluded_days": 3.9,
+      "cost_egp": 53375.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
     {
       "key": "IMS-1067",
       "summary": "Grouped Properties Processing - Payment Plans attachments [Testing]",
@@ -24,39 +46,6 @@
       "num_spans": 1
     },
     {
-      "key": "IMS-981",
-      "summary": "Manual Flow Payment Plans Saving Presets",
-      "status": "Open",
-      "net_days": 0.0,
-      "gross_days": 0.0,
-      "excluded_days": 0.0,
-      "cost_egp": 0.0,
-      "is_complete": false,
-      "num_spans": 0
-    },
-    {
-      "key": "IMS-1061",
-      "summary": "Grouped Properties Processing - Extraction [Testing]",
-      "status": "Done",
-      "net_days": 15.31,
-      "gross_days": 19.24,
-      "excluded_days": 3.93,
-      "cost_egp": 53585.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
-    {
-      "key": "IMS-1703",
-      "summary": "Manual Flow Enhancements - Review",
-      "status": "Open",
-      "net_days": 0.0,
-      "gross_days": 0.0,
-      "excluded_days": 0.0,
-      "cost_egp": 0.0,
-      "is_complete": false,
-      "num_spans": 0
-    },
-    {
       "key": "IMS-828",
       "summary": "Grouped Properties Processing - Payment Plans attachments [Dev]",
       "status": "Done",
@@ -64,6 +53,72 @@
       "gross_days": 8.48,
       "excluded_days": 0.0,
       "cost_egp": 29680.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "IMS-1063",
+      "summary": "Grouped Properties Processing - Media attachments (Floor Plans + Images) [Testing]",
+      "status": "Done",
+      "net_days": 15.31,
+      "gross_days": 18.59,
+      "excluded_days": 3.28,
+      "cost_egp": 53585.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "IMS-948",
+      "summary": "Grouped Properties Processing - Final Check [Dev]",
+      "status": "Done",
+      "net_days": 5.23,
+      "gross_days": 5.23,
+      "excluded_days": 0.0,
+      "cost_egp": 18305.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "IMS-1705",
+      "summary": "Manual Flow Enhancements - Extraction",
+      "status": "Released",
+      "net_days": 7.0,
+      "gross_days": 9.9,
+      "excluded_days": 2.9,
+      "cost_egp": 24500.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "IMS-1702",
+      "summary": "Manual Flow Enhancements - Media",
+      "status": "Released",
+      "net_days": 2.82,
+      "gross_days": 9.82,
+      "excluded_days": 7.0,
+      "cost_egp": 9870.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "IMS-829",
+      "summary": "Grouped Properties Processing - Media attachments (Floor Plans + Images) [Dev]",
+      "status": "Done",
+      "net_days": 6.09,
+      "gross_days": 6.09,
+      "excluded_days": 0.0,
+      "cost_egp": 21315.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "IMS-1701",
+      "summary": "Manual Flow Enhancements - Payment Plans",
+      "status": "Released",
+      "net_days": 7.29,
+      "gross_days": 9.2,
+      "excluded_days": 1.91,
+      "cost_egp": 25515.0,
       "is_complete": true,
       "num_spans": 1
     },
@@ -79,8 +134,8 @@
       "num_spans": 1
     },
     {
-      "key": "IMS-1700",
-      "summary": "Manual Flow Enhancements - Comparison",
+      "key": "IMS-1699",
+      "summary": "Manual Flow Enhancements - Initial Setup",
       "status": "Open",
       "net_days": 0.0,
       "gross_days": 0.0,
@@ -90,19 +145,30 @@
       "num_spans": 0
     },
     {
-      "key": "IMS-1063",
-      "summary": "Grouped Properties Processing - Media attachments (Floor Plans + Images) [Testing]",
+      "key": "IMS-1071",
+      "summary": "Grouped Properties Processing - Final Check [Testing]",
       "status": "Done",
-      "net_days": 15.31,
-      "gross_days": 18.59,
-      "excluded_days": 3.28,
-      "cost_egp": 53585.0,
+      "net_days": 15.17,
+      "gross_days": 19.88,
+      "excluded_days": 4.71,
+      "cost_egp": 53095.0,
       "is_complete": true,
       "num_spans": 1
     },
     {
-      "key": "IMS-1704",
-      "summary": "Manual Flow Enhancements - Final Check",
+      "key": "IMS-1698",
+      "summary": "Manual Flow Enhancements - Table",
+      "status": "Returned for Fix",
+      "net_days": 9.46,
+      "gross_days": 9.46,
+      "excluded_days": 0.0,
+      "cost_egp": 33110.0,
+      "is_complete": false,
+      "num_spans": 1
+    },
+    {
+      "key": "IMS-1703",
+      "summary": "Manual Flow Enhancements - Review",
       "status": "Open",
       "net_days": 0.0,
       "gross_days": 0.0,
@@ -112,24 +178,13 @@
       "num_spans": 0
     },
     {
-      "key": "IMS-1702",
-      "summary": "Manual Flow Enhancements - Media",
-      "status": "Released",
-      "net_days": 2.82,
-      "gross_days": 9.82,
-      "excluded_days": 7.0,
-      "cost_egp": 9870.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
-    {
-      "key": "IMS-902",
-      "summary": "Grouped Properties Processing - Upload Text word limit",
+      "key": "IMS-1065",
+      "summary": "Grouped Properties Processing - Finalized [Testing]",
       "status": "Done",
-      "net_days": 0.11,
-      "gross_days": 0.11,
-      "excluded_days": 0.0,
-      "cost_egp": 385.0,
+      "net_days": 15.25,
+      "gross_days": 21.0,
+      "excluded_days": 5.74,
+      "cost_egp": 53375.0,
       "is_complete": true,
       "num_spans": 1
     },
@@ -156,13 +211,46 @@
       "num_spans": 1
     },
     {
-      "key": "IMS-831",
-      "summary": "Grouped Properties Processing - Finalized [Dev]",
+      "key": "IMS-825",
+      "summary": "Grouped Properties Processing - Initial Setup [Dev]",
       "status": "Done",
-      "net_days": 2.42,
-      "gross_days": 2.42,
+      "net_days": 20.48,
+      "gross_days": 20.58,
+      "excluded_days": 0.1,
+      "cost_egp": 71680.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "IMS-1061",
+      "summary": "Grouped Properties Processing - Extraction [Testing]",
+      "status": "Done",
+      "net_days": 15.31,
+      "gross_days": 19.24,
+      "excluded_days": 3.93,
+      "cost_egp": 53585.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "IMS-1700",
+      "summary": "Manual Flow Enhancements - Comparison",
+      "status": "Open",
+      "net_days": 0.0,
+      "gross_days": 0.0,
       "excluded_days": 0.0,
-      "cost_egp": 8470.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "IMS-902",
+      "summary": "Grouped Properties Processing - Upload Text word limit",
+      "status": "Done",
+      "net_days": 0.11,
+      "gross_days": 0.11,
+      "excluded_days": 0.0,
+      "cost_egp": 385.0,
       "is_complete": true,
       "num_spans": 1
     },
@@ -178,105 +266,6 @@
       "num_spans": 1
     },
     {
-      "key": "IMS-826",
-      "summary": "Grouped Properties Processing - Extraction [Dev]",
-      "status": "Done",
-      "net_days": 22.13,
-      "gross_days": 22.13,
-      "excluded_days": 0.0,
-      "cost_egp": 77455.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
-    {
-      "key": "IMS-1698",
-      "summary": "Manual Flow Enhancements - Table",
-      "status": "Returned for Fix",
-      "net_days": 9.46,
-      "gross_days": 9.46,
-      "excluded_days": 0.0,
-      "cost_egp": 33110.0,
-      "is_complete": false,
-      "num_spans": 1
-    },
-    {
-      "key": "IMS-1065",
-      "summary": "Grouped Properties Processing - Finalized [Testing]",
-      "status": "Done",
-      "net_days": 15.25,
-      "gross_days": 21.0,
-      "excluded_days": 5.74,
-      "cost_egp": 53375.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
-    {
-      "key": "IMS-1071",
-      "summary": "Grouped Properties Processing - Final Check [Testing]",
-      "status": "Done",
-      "net_days": 15.17,
-      "gross_days": 19.88,
-      "excluded_days": 4.71,
-      "cost_egp": 53095.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
-    {
-      "key": "IMS-830",
-      "summary": "Grouped Properties Processing - Review [Dev]",
-      "status": "Done",
-      "net_days": 8.42,
-      "gross_days": 8.42,
-      "excluded_days": 0.0,
-      "cost_egp": 29470.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
-    {
-      "key": "IMS-825",
-      "summary": "Grouped Properties Processing - Initial Setup [Dev]",
-      "status": "Done",
-      "net_days": 20.48,
-      "gross_days": 20.58,
-      "excluded_days": 0.1,
-      "cost_egp": 71680.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
-    {
-      "key": "IMS-829",
-      "summary": "Grouped Properties Processing - Media attachments (Floor Plans + Images) [Dev]",
-      "status": "Done",
-      "net_days": 6.09,
-      "gross_days": 6.09,
-      "excluded_days": 0.0,
-      "cost_egp": 21315.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
-    {
-      "key": "IMS-1699",
-      "summary": "Manual Flow Enhancements - Initial Setup",
-      "status": "Open",
-      "net_days": 0.0,
-      "gross_days": 0.0,
-      "excluded_days": 0.0,
-      "cost_egp": 0.0,
-      "is_complete": false,
-      "num_spans": 0
-    },
-    {
-      "key": "IMS-1066",
-      "summary": "Grouped Properties Processing - Initial Setup [Testing]",
-      "status": "Done",
-      "net_days": 15.25,
-      "gross_days": 19.15,
-      "excluded_days": 3.9,
-      "cost_egp": 53375.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
-    {
       "key": "IMS-827",
       "summary": "Grouped Properties Processing - Unit Comparison [Dev]",
       "status": "Done",
@@ -288,35 +277,46 @@
       "num_spans": 1
     },
     {
-      "key": "IMS-1701",
-      "summary": "Manual Flow Enhancements - Payment Plans",
-      "status": "Released",
-      "net_days": 7.29,
-      "gross_days": 9.2,
-      "excluded_days": 1.91,
-      "cost_egp": 25515.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
-    {
-      "key": "IMS-1705",
-      "summary": "Manual Flow Enhancements - Extraction",
-      "status": "Released",
-      "net_days": 7.0,
-      "gross_days": 9.9,
-      "excluded_days": 2.9,
-      "cost_egp": 24500.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
-    {
-      "key": "IMS-948",
-      "summary": "Grouped Properties Processing - Final Check [Dev]",
-      "status": "Done",
-      "net_days": 5.23,
-      "gross_days": 5.23,
+      "key": "IMS-981",
+      "summary": "Manual Flow Payment Plans Saving Presets",
+      "status": "Open",
+      "net_days": 0.0,
+      "gross_days": 0.0,
       "excluded_days": 0.0,
-      "cost_egp": 18305.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "IMS-1704",
+      "summary": "Manual Flow Enhancements - Final Check",
+      "status": "Open",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "IMS-831",
+      "summary": "Grouped Properties Processing - Finalized [Dev]",
+      "status": "Done",
+      "net_days": 2.42,
+      "gross_days": 2.42,
+      "excluded_days": 0.0,
+      "cost_egp": 8470.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "IMS-830",
+      "summary": "Grouped Properties Processing - Review [Dev]",
+      "status": "Done",
+      "net_days": 8.42,
+      "gross_days": 8.42,
+      "excluded_days": 0.0,
+      "cost_egp": 29470.0,
       "is_complete": true,
       "num_spans": 1
     }
