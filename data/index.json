@@ -4842,11 +4842,11 @@
       "project_key": "SP",
       "project_name": "Sales Portal",
       "epic_created": "2026-04-02T19:34:03.824+0200",
-      "total_net_days": 14.18,
-      "total_cost_egp": 49630.0,
+      "total_net_days": 16.25,
+      "total_cost_egp": 56875.0,
       "total_tickets": 34,
-      "complete_tickets": 12,
-      "generated_at": "2026-07-20T13:26:56.615779+00:00"
+      "complete_tickets": 13,
+      "generated_at": "2026-07-24T11:58:13.630343+00:00"
     },
     {
       "epic_key": "SP-1883",
@@ -5149,5 +5149,5 @@
       "generated_at": "2026-07-19T09:47:30.705400+00:00"
     }
   ],
-  "updated_at": "2026-07-23T12:12:52.477081+00:00"
+  "updated_at": "2026-07-24T11:58:13.649673+00:00"
 }
