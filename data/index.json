@@ -1042,7 +1042,7 @@
       "total_cost_egp": 1260245.0,
       "total_tickets": 62,
       "complete_tickets": 50,
-      "generated_at": "2026-07-21T12:11:59.060430+00:00"
+      "generated_at": "2026-07-25T10:53:44.791161+00:00"
     },
     {
       "epic_key": "IMS-1219",
@@ -1136,9 +1136,9 @@
       "epic_created": "2026-04-09T18:17:06.177+0200",
       "total_net_days": 108.51,
       "total_cost_egp": 379785.0,
-      "total_tickets": 29,
+      "total_tickets": 30,
       "complete_tickets": 15,
-      "generated_at": "2026-07-23T12:12:45.307838+00:00"
+      "generated_at": "2026-07-25T10:53:55.653242+00:00"
     },
     {
       "epic_key": "IMS-1415",
@@ -1198,7 +1198,7 @@
       "total_cost_egp": 31150.0,
       "total_tickets": 6,
       "complete_tickets": 0,
-      "generated_at": "2026-07-23T12:11:42.343764+00:00"
+      "generated_at": "2026-07-25T10:53:43.143667+00:00"
     },
     {
       "epic_key": "IMS-1702",
@@ -1268,9 +1268,9 @@
       "epic_created": "2025-02-18T12:45:41.822+0200",
       "total_net_days": 270.83,
       "total_cost_egp": 947905.0,
-      "total_tickets": 110,
+      "total_tickets": 119,
       "complete_tickets": 92,
-      "generated_at": "2026-07-23T12:12:38.908896+00:00"
+      "generated_at": "2026-07-25T10:53:51.581189+00:00"
     },
     {
       "epic_key": "IMS-305",
@@ -1292,9 +1292,9 @@
       "epic_created": "2025-09-16T15:49:00.235+0300",
       "total_net_days": 115.6,
       "total_cost_egp": 404600.0,
-      "total_tickets": 22,
+      "total_tickets": 24,
       "complete_tickets": 19,
-      "generated_at": "2026-07-23T12:12:37.174778+00:00"
+      "generated_at": "2026-07-25T10:53:41.819002+00:00"
     },
     {
       "epic_key": "IMS-71",
@@ -1352,9 +1352,9 @@
       "epic_created": "2025-03-09T11:49:50.586+0200",
       "total_net_days": 154.62,
       "total_cost_egp": 541170.0,
-      "total_tickets": 14,
+      "total_tickets": 16,
       "complete_tickets": 10,
-      "generated_at": "2026-07-19T09:41:02.207179+00:00"
+      "generated_at": "2026-07-25T10:53:39.251127+00:00"
     },
     {
       "epic_key": "IMS-797",
@@ -3071,6 +3071,18 @@
       "total_tickets": 2,
       "complete_tickets": 2,
       "generated_at": "2026-07-22T12:14:09.381035+00:00"
+    },
+    {
+      "epic_key": "NLP-5030",
+      "epic_name": "[App] Summer Promo",
+      "project_key": "NLP",
+      "project_name": "Nawy Listing Platform ",
+      "epic_created": "2026-07-13T14:36:30.439+0300",
+      "total_net_days": 0.0,
+      "total_cost_egp": 0.0,
+      "total_tickets": 1,
+      "complete_tickets": 1,
+      "generated_at": "2026-07-25T10:53:54.391298+00:00"
     },
     {
       "epic_key": "NLP-5041",
@@ -5149,5 +5161,5 @@
       "generated_at": "2026-07-19T09:47:30.705400+00:00"
     }
   ],
-  "updated_at": "2026-07-24T11:58:13.649673+00:00"
+  "updated_at": "2026-07-25T10:53:55.671738+00:00"
 }

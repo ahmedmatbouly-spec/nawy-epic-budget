@@ -1,9 +1,23 @@
-=== INCREMENTAL SYNC since 2026-07-23T12:06:17.848544 ===
-Found 1 issue(s) updated since last sync.
-Epics needing an update this run: 1
-    SP-1840: refetching 1 changed/new ticket(s)
-  SP-1840: patched (16.25d, 56,875 EGP)
+=== INCREMENTAL SYNC since 2026-07-24T11:53:10.815498 ===
+Found 21 issue(s) updated since last sync.
+Epics needing an update this run: 7
+    IMS-78: refetching 2 changed/new ticket(s)
+  IMS-78: patched (154.62d, 541,170 EGP)
+    IMS-397: refetching 2 changed/new ticket(s)
+  IMS-397: patched (115.6d, 404,600 EGP)
+    IMS-1588: refetching 1 changed/new ticket(s)
+  IMS-1588: patched (8.9d, 31,150 EGP)
+    IMS-111: refetching 1 changed/new ticket(s)
+  IMS-111: patched (360.07d, 1,260,245 EGP)
+    IMS-25: refetching 9 changed/new ticket(s)
+  IMS-25: patched (270.83d, 947,905 EGP)
+  NLP-5030: new epic, full fetch
+Fetching NLP-5030 ([App] Summer Promo) ...
+  NLP-5033: 0.0d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/NLP-5030.json: 0.0 days, 0 EGP
+    IMS-1386: refetching 1 changed/new ticket(s)
+  IMS-1386: patched (108.51d, 379,785 EGP)
 
-Done. Incremental sync touched 1 epic(s), 429 epic(s) total tracked.
-Portfolio: 31603.4 days, 110,611,970 EGP across 429 epics
+Done. Incremental sync touched 7 epic(s), 430 epic(s) total tracked.
+Portfolio: 31603.4 days, 110,611,970 EGP across 430 epics
 SCRIPT_EXIT_CODE=0
