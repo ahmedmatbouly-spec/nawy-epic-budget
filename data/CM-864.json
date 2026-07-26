@@ -1,10 +1,10 @@
 {
-  "epic_key": "NLP-5091",
-  "epic_name": "[App] Go to map with compound pin only",
-  "project_key": "NLP",
-  "project_name": "Nawy Listing Platform ",
-  "epic_created": "2026-07-22T11:20:02.189+0300",
-  "generated_at": "2026-07-26T11:10:18.749003+00:00",
+  "epic_key": "CM-864",
+  "epic_name": "[FE] Security fixes",
+  "project_key": "CM",
+  "project_name": "Campaigns Management",
+  "epic_created": "2026-07-15T13:20:15.686+0300",
+  "generated_at": "2026-07-26T11:10:33.331661+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 1,
   "complete_tickets": 1,
@@ -13,8 +13,8 @@
   "total_cost_egp": 0.0,
   "tickets": [
     {
-      "key": "NLP-5092",
-      "summary": "Testing: [App] Go to map with compound pin only",
+      "key": "CM-889",
+      "summary": "Code Review: [FE] Security fixes",
       "status": "Done",
       "net_days": 0.0,
       "gross_days": 0.0,

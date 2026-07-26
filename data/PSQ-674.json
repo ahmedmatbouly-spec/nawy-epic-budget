@@ -1,10 +1,10 @@
 {
-  "epic_key": "CM-863",
-  "epic_name": "change filter button of the date filter to apply",
-  "project_key": "CM",
-  "project_name": "Campaigns Management",
-  "epic_created": "2026-07-14T13:55:07.704+0300",
-  "generated_at": "2026-07-26T11:10:39.018565+00:00",
+  "epic_key": "PSQ-674",
+  "epic_name": "[New Service] Back Office: Set up dashboard + Fatoura invoice UI",
+  "project_key": "PSQ",
+  "project_name": "Platform Squad",
+  "epic_created": "2026-06-24T12:26:21.695+0300",
+  "generated_at": "2026-07-26T11:10:23.025378+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 2,
   "complete_tickets": 0,
@@ -13,8 +13,8 @@
   "total_cost_egp": 0.0,
   "tickets": [
     {
-      "key": "CM-890",
-      "summary": "Code Review: change filter button of the date filter to apply",
+      "key": "PSQ-732",
+      "summary": "Testing: [New Service] Back Office: Set up dashboard + Fatoura invoice UI",
       "status": "To Do",
       "net_days": 0.0,
       "gross_days": 0.0,
@@ -24,8 +24,8 @@
       "num_spans": 0
     },
     {
-      "key": "CM-886",
-      "summary": "Testing: change filter button of the date filter to apply",
+      "key": "PSQ-810",
+      "summary": "Code Review: [New Service] Back Office: Set up dashboard + Fatoura invoice UI",
       "status": "To Do",
       "net_days": 0.0,
       "gross_days": 0.0,
