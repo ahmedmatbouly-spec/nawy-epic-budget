@@ -4,121 +4,33 @@
   "project_key": "NLP",
   "project_name": "Nawy Listing Platform ",
   "epic_created": "2025-02-25T16:50:54.072+0200",
-  "generated_at": "2026-07-23T12:11:33.847990+00:00",
+  "generated_at": "2026-07-26T10:32:13.662183+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 23,
   "complete_tickets": 13,
   "in_progress_tickets": 10,
-  "total_net_days": 120.29,
-  "total_cost_egp": 421015.0,
+  "total_net_days": 123.49,
+  "total_cost_egp": 432215.0,
   "tickets": [
-    {
-      "key": "NLP-4221",
-      "summary": "[Web] Cash discounts - Payment plans",
-      "status": "To Do",
-      "net_days": 0.0,
-      "gross_days": 0.0,
-      "excluded_days": 0.0,
-      "cost_egp": 0.0,
-      "is_complete": false,
-      "num_spans": 0
-    },
-    {
-      "key": "NLP-4227",
-      "summary": "[App] Dynamic downpayments for payment plans",
-      "status": "Released",
-      "net_days": 0.09,
-      "gross_days": 0.74,
-      "excluded_days": 0.65,
-      "cost_egp": 315.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
-    {
-      "key": "ER-2245",
-      "summary": "Filter Displayed Payment Plans and hence offers count [Testing Only]",
-      "status": "Ready for Deployment",
-      "net_days": 15.82,
-      "gross_days": 20.46,
-      "excluded_days": 4.64,
-      "cost_egp": 55370.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
-    {
-      "key": "NLP-4223",
-      "summary": "[Web][UI Enhancement] Handle resale units payment plans (with no monthly installments)",
-      "status": "To Do",
-      "net_days": 0.0,
-      "gross_days": 0.0,
-      "excluded_days": 0.0,
-      "cost_egp": 0.0,
-      "is_complete": false,
-      "num_spans": 0
-    },
-    {
-      "key": "NLP-4226",
-      "summary": "[Web] Dynamic downpayments for payment plans",
-      "status": "Done",
-      "net_days": 10.75,
-      "gross_days": 17.94,
-      "excluded_days": 7.19,
-      "cost_egp": 37625.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
-    {
-      "key": "ER-2134",
-      "summary": "Filter Displayed Payment Plans and hence offers count [Dev Only]",
-      "status": "Done",
-      "net_days": 0.05,
-      "gross_days": 0.05,
-      "excluded_days": 0.0,
-      "cost_egp": 175.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
-    {
-      "key": "NLP-4206",
-      "summary": "[BE] Bulk Payments - Payment Plans",
-      "status": "Code Review",
-      "net_days": 0.69,
-      "gross_days": 0.69,
-      "excluded_days": 0.0,
-      "cost_egp": 2415.0,
-      "is_complete": false,
-      "num_spans": 1
-    },
     {
       "key": "NLP-3540",
       "summary": "[App] Handle resale units payment plans (with no installments)",
       "status": "On-hold",
       "net_days": 10.98,
-      "gross_days": 68.92,
-      "excluded_days": 57.94,
+      "gross_days": 73.01,
+      "excluded_days": 62.03,
       "cost_egp": 38430.0,
       "is_complete": false,
       "num_spans": 1
     },
     {
-      "key": "NLP-4225",
-      "summary": "[Web][Desktop] Dynamic sizes for payment plan cards",
+      "key": "NLP-3545",
+      "summary": "[Web] Handle resale units payment plans (with no monthly installments)",
       "status": "Done",
-      "net_days": 19.93,
-      "gross_days": 35.49,
-      "excluded_days": 15.56,
-      "cost_egp": 69755.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
-    {
-      "key": "NLP-4028",
-      "summary": "[Web] Escalating Payment Plans - \"Starting From\"",
-      "status": "Done",
-      "net_days": 5.69,
-      "gross_days": 9.72,
-      "excluded_days": 4.03,
-      "cost_egp": 19915.0,
+      "net_days": 5.06,
+      "gross_days": 6.77,
+      "excluded_days": 1.71,
+      "cost_egp": 17710.0,
       "is_complete": true,
       "num_spans": 1
     },
@@ -134,14 +46,69 @@
       "num_spans": 1
     },
     {
-      "key": "NLP-4241",
-      "summary": "[BE] Payment plans enhancements",
+      "key": "NLP-4027",
+      "summary": "[App] Escalating Payment Plans - \"Starting From\"",
+      "status": "Done",
+      "net_days": 2.51,
+      "gross_days": 4.49,
+      "excluded_days": 1.98,
+      "cost_egp": 8785.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NLP-4028",
+      "summary": "[Web] Escalating Payment Plans - \"Starting From\"",
+      "status": "Done",
+      "net_days": 5.69,
+      "gross_days": 9.72,
+      "excluded_days": 4.03,
+      "cost_egp": 19915.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NLP-4113",
+      "summary": "[BE] Property payment plans ranking (based on least price)",
       "status": "Done",
       "net_days": 0.0,
       "gross_days": 0.0,
       "excluded_days": 0.0,
       "cost_egp": 0.0,
       "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "NLP-4205",
+      "summary": "[App] Bulk Payments - Payment Plans - Dev only",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "NLP-4206",
+      "summary": "[BE] Bulk Payments - Payment Plans",
+      "status": "Code Review",
+      "net_days": 3.32,
+      "gross_days": 3.32,
+      "excluded_days": 0.0,
+      "cost_egp": 11620.0,
+      "is_complete": false,
+      "num_spans": 1
+    },
+    {
+      "key": "NLP-4207",
+      "summary": "[Web] Bulk Payments - Payment Plans",
+      "status": "In Progress",
+      "net_days": 3.32,
+      "gross_days": 3.32,
+      "excluded_days": 0.0,
+      "cost_egp": 11620.0,
+      "is_complete": false,
       "num_spans": 1
     },
     {
@@ -156,19 +123,8 @@
       "num_spans": 0
     },
     {
-      "key": "NLP-4027",
-      "summary": "[App] Escalating Payment Plans - \"Starting From\"",
-      "status": "Done",
-      "net_days": 2.51,
-      "gross_days": 4.49,
-      "excluded_days": 1.98,
-      "cost_egp": 8785.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
-    {
-      "key": "NLP-4205",
-      "summary": "[App] Bulk Payments - Payment Plans - Dev only",
+      "key": "NLP-4221",
+      "summary": "[Web] Cash discounts - Payment plans",
       "status": "To Do",
       "net_days": 0.0,
       "gross_days": 0.0,
@@ -178,13 +134,90 @@
       "num_spans": 0
     },
     {
-      "key": "NLP-3545",
-      "summary": "[Web] Handle resale units payment plans (with no monthly installments)",
+      "key": "NLP-4223",
+      "summary": "[Web][UI Enhancement] Handle resale units payment plans (with no monthly installments)",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "NLP-4224",
+      "summary": "[Web][Desktop] Payment Plans - Scrollable Popup",
       "status": "Done",
-      "net_days": 5.06,
-      "gross_days": 6.77,
-      "excluded_days": 1.71,
-      "cost_egp": 17710.0,
+      "net_days": 9.0,
+      "gross_days": 15.41,
+      "excluded_days": 6.4,
+      "cost_egp": 31500.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NLP-4225",
+      "summary": "[Web][Desktop] Dynamic sizes for payment plan cards",
+      "status": "Done",
+      "net_days": 19.93,
+      "gross_days": 35.49,
+      "excluded_days": 15.56,
+      "cost_egp": 69755.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NLP-4226",
+      "summary": "[Web] Dynamic downpayments for payment plans",
+      "status": "Done",
+      "net_days": 10.75,
+      "gross_days": 17.94,
+      "excluded_days": 7.19,
+      "cost_egp": 37625.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NLP-4227",
+      "summary": "[App] Dynamic downpayments for payment plans",
+      "status": "Released",
+      "net_days": 0.09,
+      "gross_days": 0.74,
+      "excluded_days": 0.65,
+      "cost_egp": 315.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NLP-4241",
+      "summary": "[BE] Payment plans enhancements",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-2134",
+      "summary": "Filter Displayed Payment Plans and hence offers count [Dev Only]",
+      "status": "Done",
+      "net_days": 0.05,
+      "gross_days": 0.05,
+      "excluded_days": 0.0,
+      "cost_egp": 175.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-2245",
+      "summary": "Filter Displayed Payment Plans and hence offers count [Testing Only]",
+      "status": "Ready for Deployment",
+      "net_days": 15.82,
+      "gross_days": 20.46,
+      "excluded_days": 4.64,
+      "cost_egp": 55370.0,
       "is_complete": true,
       "num_spans": 1
     },
@@ -200,19 +233,8 @@
       "num_spans": 1
     },
     {
-      "key": "NLP-4207",
-      "summary": "[Web] Bulk Payments - Payment Plans",
-      "status": "In Progress",
-      "net_days": 2.75,
-      "gross_days": 2.75,
-      "excluded_days": 0.0,
-      "cost_egp": 9625.0,
-      "is_complete": false,
-      "num_spans": 1
-    },
-    {
-      "key": "NLP-5070",
-      "summary": "[BE] Cash discounts - Payment plans",
+      "key": "NLP-4334",
+      "summary": "[BE] Show payment plan validity in compound page",
       "status": "To Do",
       "net_days": 0.0,
       "gross_days": 0.0,
@@ -233,8 +255,8 @@
       "num_spans": 0
     },
     {
-      "key": "NLP-4334",
-      "summary": "[BE] Show payment plan validity in compound page",
+      "key": "NLP-5070",
+      "summary": "[BE] Cash discounts - Payment plans",
       "status": "To Do",
       "net_days": 0.0,
       "gross_days": 0.0,
@@ -242,28 +264,6 @@
       "cost_egp": 0.0,
       "is_complete": false,
       "num_spans": 0
-    },
-    {
-      "key": "NLP-4113",
-      "summary": "[BE] Property payment plans ranking (based on least price)",
-      "status": "Done",
-      "net_days": 0.0,
-      "gross_days": 0.0,
-      "excluded_days": 0.0,
-      "cost_egp": 0.0,
-      "is_complete": true,
-      "num_spans": 0
-    },
-    {
-      "key": "NLP-4224",
-      "summary": "[Web][Desktop] Payment Plans - Scrollable Popup",
-      "status": "Done",
-      "net_days": 9.0,
-      "gross_days": 15.41,
-      "excluded_days": 6.4,
-      "cost_egp": 31500.0,
-      "is_complete": true,
-      "num_spans": 1
     }
   ]
 }

@@ -4,13 +4,13 @@
   "project_key": "ER",
   "project_name": "eRealty",
   "epic_created": "2026-06-09T11:28:30.737+0300",
-  "generated_at": "2026-07-23T12:11:50.135033+00:00",
+  "generated_at": "2026-07-26T10:36:44.975813+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 10,
   "complete_tickets": 9,
   "in_progress_tickets": 1,
-  "total_net_days": 52.15,
-  "total_cost_egp": 182525.0,
+  "total_net_days": 52.73,
+  "total_cost_egp": 184555.0,
   "tickets": [
     {
       "key": "ER-3040",
@@ -24,23 +24,23 @@
       "num_spans": 1
     },
     {
-      "key": "ER-3082",
-      "summary": "[FE] On Hold Projects \u2014 Table",
+      "key": "ER-3042",
+      "summary": "[FE] On Hold Projects \u2014 Favorited projects",
       "status": "Ready for Deployment",
-      "net_days": 2.35,
+      "net_days": 2.33,
       "gross_days": 9.55,
-      "excluded_days": 7.21,
-      "cost_egp": 8225.0,
+      "excluded_days": 7.23,
+      "cost_egp": 8155.0,
       "is_complete": true,
       "num_spans": 1
     },
     {
-      "key": "ER-3056",
-      "summary": "[FE] On Hold Units \u2014 Units in comparison",
+      "key": "ER-3044",
+      "summary": "[FE] On Hold Projects \u2014 Shareable Comparison project links",
       "status": "Ready for Deployment",
       "net_days": 8.51,
       "gross_days": 9.55,
-      "excluded_days": 1.04,
+      "excluded_days": 1.05,
       "cost_egp": 29785.0,
       "is_complete": true,
       "num_spans": 1
@@ -57,28 +57,6 @@
       "num_spans": 1
     },
     {
-      "key": "ER-3044",
-      "summary": "[FE] On Hold Projects \u2014 Shareable Comparison project links",
-      "status": "Ready for Deployment",
-      "net_days": 8.51,
-      "gross_days": 9.55,
-      "excluded_days": 1.05,
-      "cost_egp": 29785.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
-    {
-      "key": "ER-3194",
-      "summary": "Fix the detailed summary endpoint issue due to the is publish flag",
-      "status": "Ready for Testing",
-      "net_days": 0.0,
-      "gross_days": 0.0,
-      "excluded_days": 0.0,
-      "cost_egp": 0.0,
-      "is_complete": false,
-      "num_spans": 1
-    },
-    {
       "key": "ER-3052",
       "summary": "[FE] On Hold Units \u2014 Favorited units",
       "status": "Ready for Deployment",
@@ -90,13 +68,35 @@
       "num_spans": 1
     },
     {
-      "key": "ER-3042",
-      "summary": "[FE] On Hold Projects \u2014 Favorited projects",
+      "key": "ER-3054",
+      "summary": "[FE] On Hold Units \u2014 Shareable unit links",
       "status": "Ready for Deployment",
-      "net_days": 2.33,
+      "net_days": 8.51,
+      "gross_days": 10.55,
+      "excluded_days": 2.05,
+      "cost_egp": 29785.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-3056",
+      "summary": "[FE] On Hold Units \u2014 Units in comparison",
+      "status": "Ready for Deployment",
+      "net_days": 8.51,
       "gross_days": 9.55,
-      "excluded_days": 7.23,
-      "cost_egp": 8155.0,
+      "excluded_days": 1.04,
+      "cost_egp": 29785.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-3082",
+      "summary": "[FE] On Hold Projects \u2014 Table",
+      "status": "Ready for Deployment",
+      "net_days": 2.35,
+      "gross_days": 9.55,
+      "excluded_days": 7.21,
+      "cost_egp": 8225.0,
       "is_complete": true,
       "num_spans": 1
     },
@@ -112,14 +112,14 @@
       "num_spans": 1
     },
     {
-      "key": "ER-3054",
-      "summary": "[FE] On Hold Units \u2014 Shareable unit links",
-      "status": "Ready for Deployment",
-      "net_days": 8.51,
-      "gross_days": 10.55,
-      "excluded_days": 2.05,
-      "cost_egp": 29785.0,
-      "is_complete": true,
+      "key": "ER-3194",
+      "summary": "Fix the detailed summary endpoint issue due to the is publish flag",
+      "status": "Ready for Testing",
+      "net_days": 0.58,
+      "gross_days": 0.58,
+      "excluded_days": 0.0,
+      "cost_egp": 2030.0,
+      "is_complete": false,
       "num_spans": 1
     }
   ]

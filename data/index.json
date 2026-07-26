@@ -10,7 +10,7 @@
       "total_cost_egp": 509915.0,
       "total_tickets": 8,
       "complete_tickets": 8,
-      "generated_at": "2026-07-19T09:47:09.059814+00:00"
+      "generated_at": "2026-07-26T10:32:54.987552+00:00"
     },
     {
       "epic_key": "CM-407",
@@ -22,7 +22,7 @@
       "total_cost_egp": 1226155.0,
       "total_tickets": 15,
       "complete_tickets": 15,
-      "generated_at": "2026-07-19T09:47:14.437267+00:00"
+      "generated_at": "2026-07-26T10:33:00.913054+00:00"
     },
     {
       "epic_key": "CM-443",
@@ -34,7 +34,7 @@
       "total_cost_egp": 707315.0,
       "total_tickets": 5,
       "complete_tickets": 5,
-      "generated_at": "2026-07-19T09:47:18.113206+00:00"
+      "generated_at": "2026-07-26T10:33:03.034356+00:00"
     },
     {
       "epic_key": "CM-669",
@@ -46,7 +46,7 @@
       "total_cost_egp": 0.0,
       "total_tickets": 5,
       "complete_tickets": 5,
-      "generated_at": "2026-07-19T09:47:19.941113+00:00"
+      "generated_at": "2026-07-26T10:33:04.888981+00:00"
     },
     {
       "epic_key": "CM-739",
@@ -274,7 +274,7 @@
       "total_cost_egp": 0.0,
       "total_tickets": 4,
       "complete_tickets": 0,
-      "generated_at": "2026-07-19T09:47:21.318671+00:00"
+      "generated_at": "2026-07-26T10:33:06.684915+00:00"
     },
     {
       "epic_key": "CM-862",
@@ -310,7 +310,7 @@
       "total_cost_egp": 0,
       "total_tickets": 0,
       "complete_tickets": 0,
-      "generated_at": "2026-07-19T09:47:21.742571+00:00"
+      "generated_at": "2026-07-26T10:33:06.984817+00:00"
     },
     {
       "epic_key": "ER-1278",
@@ -322,7 +322,7 @@
       "total_cost_egp": 59500.0,
       "total_tickets": 1,
       "complete_tickets": 1,
-      "generated_at": "2026-07-19T09:49:38.696227+00:00"
+      "generated_at": "2026-07-26T10:35:36.425173+00:00"
     },
     {
       "epic_key": "ER-1353",
@@ -334,7 +334,7 @@
       "total_cost_egp": 155505.0,
       "total_tickets": 4,
       "complete_tickets": 4,
-      "generated_at": "2026-07-19T09:49:40.641162+00:00"
+      "generated_at": "2026-07-26T10:35:38.055421+00:00"
     },
     {
       "epic_key": "ER-1364",
@@ -346,7 +346,7 @@
       "total_cost_egp": 346850.0,
       "total_tickets": 23,
       "complete_tickets": 20,
-      "generated_at": "2026-07-19T09:49:47.926911+00:00"
+      "generated_at": "2026-07-26T10:35:45.830720+00:00"
     },
     {
       "epic_key": "ER-1367",
@@ -354,11 +354,11 @@
       "project_key": "ER",
       "project_name": "eRealty",
       "epic_created": "2025-07-15T11:43:36.201+0300",
-      "total_net_days": 164.62,
-      "total_cost_egp": 576170.0,
+      "total_net_days": 168.71,
+      "total_cost_egp": 590485.0,
       "total_tickets": 4,
       "complete_tickets": 3,
-      "generated_at": "2026-07-19T09:49:49.424825+00:00"
+      "generated_at": "2026-07-26T10:35:47.733809+00:00"
     },
     {
       "epic_key": "ER-1374",
@@ -370,7 +370,7 @@
       "total_cost_egp": 37205.0,
       "total_tickets": 1,
       "complete_tickets": 1,
-      "generated_at": "2026-07-19T09:49:50.086963+00:00"
+      "generated_at": "2026-07-26T10:35:48.345954+00:00"
     },
     {
       "epic_key": "ER-1375",
@@ -382,7 +382,7 @@
       "total_cost_egp": 246015.0,
       "total_tickets": 7,
       "complete_tickets": 5,
-      "generated_at": "2026-07-19T09:49:52.275148+00:00"
+      "generated_at": "2026-07-26T10:35:51.171282+00:00"
     },
     {
       "epic_key": "ER-1378",
@@ -394,7 +394,7 @@
       "total_cost_egp": 63455.0,
       "total_tickets": 7,
       "complete_tickets": 6,
-      "generated_at": "2026-07-19T09:49:54.582628+00:00"
+      "generated_at": "2026-07-26T10:35:53.566154+00:00"
     },
     {
       "epic_key": "ER-1379",
@@ -406,7 +406,7 @@
       "total_cost_egp": 0.0,
       "total_tickets": 3,
       "complete_tickets": 0,
-      "generated_at": "2026-07-19T09:49:56.115223+00:00"
+      "generated_at": "2026-07-26T10:35:54.899921+00:00"
     },
     {
       "epic_key": "ER-1380",
@@ -418,7 +418,7 @@
       "total_cost_egp": 96775.0,
       "total_tickets": 3,
       "complete_tickets": 3,
-      "generated_at": "2026-07-19T09:49:57.465315+00:00"
+      "generated_at": "2026-07-26T10:35:56.495643+00:00"
     },
     {
       "epic_key": "ER-1381",
@@ -430,7 +430,7 @@
       "total_cost_egp": 0,
       "total_tickets": 0,
       "complete_tickets": 0,
-      "generated_at": "2026-07-19T09:49:57.790585+00:00"
+      "generated_at": "2026-07-26T10:35:56.735142+00:00"
     },
     {
       "epic_key": "ER-1400",
@@ -442,7 +442,7 @@
       "total_cost_egp": 0,
       "total_tickets": 0,
       "complete_tickets": 0,
-      "generated_at": "2026-07-19T09:49:58.042697+00:00"
+      "generated_at": "2026-07-26T10:35:57.254361+00:00"
     },
     {
       "epic_key": "ER-1435",
@@ -454,7 +454,7 @@
       "total_cost_egp": 0.0,
       "total_tickets": 1,
       "complete_tickets": 1,
-      "generated_at": "2026-07-19T09:49:58.590358+00:00"
+      "generated_at": "2026-07-26T10:35:57.895391+00:00"
     },
     {
       "epic_key": "ER-1436",
@@ -466,7 +466,7 @@
       "total_cost_egp": 26040.0,
       "total_tickets": 3,
       "complete_tickets": 2,
-      "generated_at": "2026-07-19T09:49:59.723774+00:00"
+      "generated_at": "2026-07-26T10:35:59.081563+00:00"
     },
     {
       "epic_key": "ER-1437",
@@ -478,7 +478,7 @@
       "total_cost_egp": 93660.0,
       "total_tickets": 2,
       "complete_tickets": 2,
-      "generated_at": "2026-07-19T09:50:00.664968+00:00"
+      "generated_at": "2026-07-26T10:35:59.974728+00:00"
     },
     {
       "epic_key": "ER-1438",
@@ -490,7 +490,7 @@
       "total_cost_egp": 74480.0,
       "total_tickets": 2,
       "complete_tickets": 2,
-      "generated_at": "2026-07-19T09:50:01.625484+00:00"
+      "generated_at": "2026-07-26T10:36:00.943108+00:00"
     },
     {
       "epic_key": "ER-2121",
@@ -502,7 +502,7 @@
       "total_cost_egp": 372365.0,
       "total_tickets": 23,
       "complete_tickets": 20,
-      "generated_at": "2026-07-19T09:50:09.212903+00:00"
+      "generated_at": "2026-07-26T10:36:08.692342+00:00"
     },
     {
       "epic_key": "ER-2122",
@@ -514,7 +514,7 @@
       "total_cost_egp": 57190.0,
       "total_tickets": 8,
       "complete_tickets": 8,
-      "generated_at": "2026-07-19T09:50:11.930357+00:00"
+      "generated_at": "2026-07-26T10:36:11.512459+00:00"
     },
     {
       "epic_key": "ER-2123",
@@ -526,7 +526,7 @@
       "total_cost_egp": 130865.0,
       "total_tickets": 11,
       "complete_tickets": 11,
-      "generated_at": "2026-07-19T09:50:15.965767+00:00"
+      "generated_at": "2026-07-26T10:36:15.704241+00:00"
     },
     {
       "epic_key": "ER-2124",
@@ -538,7 +538,7 @@
       "total_cost_egp": 98560.0,
       "total_tickets": 2,
       "complete_tickets": 2,
-      "generated_at": "2026-07-19T09:50:17.292626+00:00"
+      "generated_at": "2026-07-26T10:36:16.683881+00:00"
     },
     {
       "epic_key": "ER-2125",
@@ -550,7 +550,7 @@
       "total_cost_egp": 433510.0,
       "total_tickets": 11,
       "complete_tickets": 11,
-      "generated_at": "2026-07-19T09:50:21.136692+00:00"
+      "generated_at": "2026-07-26T10:36:20.791909+00:00"
     },
     {
       "epic_key": "ER-2126",
@@ -562,7 +562,7 @@
       "total_cost_egp": 201285.0,
       "total_tickets": 6,
       "complete_tickets": 5,
-      "generated_at": "2026-07-19T09:50:23.131962+00:00"
+      "generated_at": "2026-07-26T10:36:23.031868+00:00"
     },
     {
       "epic_key": "ER-215",
@@ -574,7 +574,7 @@
       "total_cost_egp": 0,
       "total_tickets": 0,
       "complete_tickets": 0,
-      "generated_at": "2026-07-19T09:49:28.900103+00:00"
+      "generated_at": "2026-07-26T10:35:25.893771+00:00"
     },
     {
       "epic_key": "ER-2181",
@@ -586,7 +586,7 @@
       "total_cost_egp": 92400.0,
       "total_tickets": 5,
       "complete_tickets": 5,
-      "generated_at": "2026-07-19T09:50:24.953652+00:00"
+      "generated_at": "2026-07-26T10:36:24.854784+00:00"
     },
     {
       "epic_key": "ER-2182",
@@ -598,7 +598,7 @@
       "total_cost_egp": 261205.0,
       "total_tickets": 7,
       "complete_tickets": 7,
-      "generated_at": "2026-07-19T09:50:27.602548+00:00"
+      "generated_at": "2026-07-26T10:36:27.329259+00:00"
     },
     {
       "epic_key": "ER-2334",
@@ -610,7 +610,7 @@
       "total_cost_egp": 238840.0,
       "total_tickets": 7,
       "complete_tickets": 7,
-      "generated_at": "2026-07-19T09:50:29.969889+00:00"
+      "generated_at": "2026-07-26T10:36:29.837416+00:00"
     },
     {
       "epic_key": "ER-2335",
@@ -622,7 +622,7 @@
       "total_cost_egp": 67095.0,
       "total_tickets": 5,
       "complete_tickets": 4,
-      "generated_at": "2026-07-19T09:50:31.999835+00:00"
+      "generated_at": "2026-07-26T10:36:31.711815+00:00"
     },
     {
       "epic_key": "ER-2336",
@@ -634,7 +634,7 @@
       "total_cost_egp": 51835.0,
       "total_tickets": 5,
       "complete_tickets": 5,
-      "generated_at": "2026-07-19T09:50:33.729099+00:00"
+      "generated_at": "2026-07-26T10:36:33.544245+00:00"
     },
     {
       "epic_key": "ER-2337",
@@ -646,7 +646,7 @@
       "total_cost_egp": 0.0,
       "total_tickets": 1,
       "complete_tickets": 0,
-      "generated_at": "2026-07-19T09:50:34.485443+00:00"
+      "generated_at": "2026-07-26T10:36:34.122340+00:00"
     },
     {
       "epic_key": "ER-2338",
@@ -658,7 +658,7 @@
       "total_cost_egp": 9695.0,
       "total_tickets": 3,
       "complete_tickets": 3,
-      "generated_at": "2026-07-19T09:50:35.715833+00:00"
+      "generated_at": "2026-07-26T10:36:35.260805+00:00"
     },
     {
       "epic_key": "ER-2353",
@@ -670,7 +670,7 @@
       "total_cost_egp": 3955.0,
       "total_tickets": 1,
       "complete_tickets": 1,
-      "generated_at": "2026-07-19T09:50:36.368643+00:00"
+      "generated_at": "2026-07-26T10:36:35.887500+00:00"
     },
     {
       "epic_key": "ER-239",
@@ -682,7 +682,7 @@
       "total_cost_egp": 2922570.0,
       "total_tickets": 12,
       "complete_tickets": 12,
-      "generated_at": "2026-07-19T09:49:32.875603+00:00"
+      "generated_at": "2026-07-26T10:35:30.413742+00:00"
     },
     {
       "epic_key": "ER-2426",
@@ -694,7 +694,7 @@
       "total_cost_egp": 155400.0,
       "total_tickets": 4,
       "complete_tickets": 4,
-      "generated_at": "2026-07-19T09:50:38.161056+00:00"
+      "generated_at": "2026-07-26T10:36:37.412492+00:00"
     },
     {
       "epic_key": "ER-2429",
@@ -706,7 +706,7 @@
       "total_cost_egp": 87220.0,
       "total_tickets": 7,
       "complete_tickets": 7,
-      "generated_at": "2026-07-19T09:50:40.533915+00:00"
+      "generated_at": "2026-07-26T10:36:39.826593+00:00"
     },
     {
       "epic_key": "ER-2441",
@@ -718,7 +718,7 @@
       "total_cost_egp": 4480.0,
       "total_tickets": 1,
       "complete_tickets": 1,
-      "generated_at": "2026-07-19T09:50:41.158633+00:00"
+      "generated_at": "2026-07-26T10:36:40.392663+00:00"
     },
     {
       "epic_key": "ER-2487",
@@ -730,7 +730,7 @@
       "total_cost_egp": 45710.0,
       "total_tickets": 3,
       "complete_tickets": 3,
-      "generated_at": "2026-07-19T09:50:42.418158+00:00"
+      "generated_at": "2026-07-26T10:36:41.719269+00:00"
     },
     {
       "epic_key": "ER-25",
@@ -742,7 +742,7 @@
       "total_cost_egp": 31220.0,
       "total_tickets": 3,
       "complete_tickets": 3,
-      "generated_at": "2026-07-19T09:48:48.469665+00:00"
+      "generated_at": "2026-07-26T10:34:39.633887+00:00"
     },
     {
       "epic_key": "ER-28",
@@ -754,7 +754,7 @@
       "total_cost_egp": 928165.0,
       "total_tickets": 13,
       "complete_tickets": 13,
-      "generated_at": "2026-07-19T09:48:52.494961+00:00"
+      "generated_at": "2026-07-26T10:34:43.611925+00:00"
     },
     {
       "epic_key": "ER-3000",
@@ -762,11 +762,11 @@
       "project_key": "ER",
       "project_name": "eRealty",
       "epic_created": "2026-06-09T11:28:30.737+0300",
-      "total_net_days": 52.15,
-      "total_cost_egp": 182525.0,
+      "total_net_days": 52.73,
+      "total_cost_egp": 184555.0,
       "total_tickets": 10,
       "complete_tickets": 9,
-      "generated_at": "2026-07-23T12:11:50.135033+00:00"
+      "generated_at": "2026-07-26T10:36:44.975813+00:00"
     },
     {
       "epic_key": "ER-3010",
@@ -802,7 +802,7 @@
       "total_cost_egp": 0,
       "total_tickets": 0,
       "complete_tickets": 0,
-      "generated_at": "2026-07-19T09:50:46.534854+00:00"
+      "generated_at": "2026-07-26T10:36:45.215072+00:00"
     },
     {
       "epic_key": "ER-3133",
@@ -838,7 +838,7 @@
       "total_cost_egp": 0,
       "total_tickets": 0,
       "complete_tickets": 0,
-      "generated_at": "2026-07-19T09:50:46.823827+00:00"
+      "generated_at": "2026-07-26T10:36:45.460085+00:00"
     },
     {
       "epic_key": "ER-3168",
@@ -850,7 +850,7 @@
       "total_cost_egp": 0,
       "total_tickets": 0,
       "complete_tickets": 0,
-      "generated_at": "2026-07-19T09:50:47.101030+00:00"
+      "generated_at": "2026-07-26T10:36:45.687369+00:00"
     },
     {
       "epic_key": "ER-39",
@@ -862,7 +862,7 @@
       "total_cost_egp": 174195.0,
       "total_tickets": 8,
       "complete_tickets": 8,
-      "generated_at": "2026-07-19T09:48:55.292717+00:00"
+      "generated_at": "2026-07-26T10:34:46.242437+00:00"
     },
     {
       "epic_key": "ER-5",
@@ -874,7 +874,7 @@
       "total_cost_egp": 152390.0,
       "total_tickets": 14,
       "complete_tickets": 14,
-      "generated_at": "2026-07-19T09:48:47.340907+00:00"
+      "generated_at": "2026-07-26T10:34:38.416755+00:00"
     },
     {
       "epic_key": "ER-50",
@@ -886,7 +886,7 @@
       "total_cost_egp": 438830.0,
       "total_tickets": 14,
       "complete_tickets": 14,
-      "generated_at": "2026-07-19T09:49:00.105230+00:00"
+      "generated_at": "2026-07-26T10:34:50.836102+00:00"
     },
     {
       "epic_key": "ER-65",
@@ -898,7 +898,7 @@
       "total_cost_egp": 3396750.0,
       "total_tickets": 11,
       "complete_tickets": 11,
-      "generated_at": "2026-07-19T09:49:03.905644+00:00"
+      "generated_at": "2026-07-26T10:34:54.867530+00:00"
     },
     {
       "epic_key": "ER-74",
@@ -910,7 +910,7 @@
       "total_cost_egp": 0.0,
       "total_tickets": 19,
       "complete_tickets": 19,
-      "generated_at": "2026-07-19T09:49:09.904768+00:00"
+      "generated_at": "2026-07-26T10:35:01.675463+00:00"
     },
     {
       "epic_key": "ER-939",
@@ -922,7 +922,7 @@
       "total_cost_egp": 337820.0,
       "total_tickets": 16,
       "complete_tickets": 16,
-      "generated_at": "2026-07-19T09:49:38.066240+00:00"
+      "generated_at": "2026-07-26T10:35:35.784661+00:00"
     },
     {
       "epic_key": "ER-99",
@@ -934,7 +934,7 @@
       "total_cost_egp": 2110815.0,
       "total_tickets": 61,
       "complete_tickets": 61,
-      "generated_at": "2026-07-19T09:49:28.643584+00:00"
+      "generated_at": "2026-07-26T10:35:25.592957+00:00"
     },
     {
       "epic_key": "IMS-1000",
@@ -942,11 +942,11 @@
       "project_key": "IMS",
       "project_name": "Inventory Management System ",
       "epic_created": "2026-01-14T13:17:29.240+0200",
-      "total_net_days": 161.7,
-      "total_cost_egp": 565950.0,
+      "total_net_days": 165.8,
+      "total_cost_egp": 580300.0,
       "total_tickets": 9,
       "complete_tickets": 2,
-      "generated_at": "2026-07-19T09:42:26.847640+00:00"
+      "generated_at": "2026-07-26T10:27:53.563970+00:00"
     },
     {
       "epic_key": "IMS-1001",
@@ -958,7 +958,7 @@
       "total_cost_egp": 261765.0,
       "total_tickets": 9,
       "complete_tickets": 6,
-      "generated_at": "2026-07-19T09:42:30.280826+00:00"
+      "generated_at": "2026-07-26T10:27:56.991620+00:00"
     },
     {
       "epic_key": "IMS-1002",
@@ -970,7 +970,7 @@
       "total_cost_egp": 25795.0,
       "total_tickets": 1,
       "complete_tickets": 1,
-      "generated_at": "2026-07-19T09:42:30.950406+00:00"
+      "generated_at": "2026-07-26T10:27:57.608389+00:00"
     },
     {
       "epic_key": "IMS-1003",
@@ -982,7 +982,7 @@
       "total_cost_egp": 0.0,
       "total_tickets": 4,
       "complete_tickets": 0,
-      "generated_at": "2026-07-19T09:42:32.302586+00:00"
+      "generated_at": "2026-07-26T10:27:58.994945+00:00"
     },
     {
       "epic_key": "IMS-1004",
@@ -994,7 +994,7 @@
       "total_cost_egp": 42000.0,
       "total_tickets": 1,
       "complete_tickets": 1,
-      "generated_at": "2026-07-19T09:42:32.933464+00:00"
+      "generated_at": "2026-07-26T10:27:59.626854+00:00"
     },
     {
       "epic_key": "IMS-1005",
@@ -1002,11 +1002,11 @@
       "project_key": "IMS",
       "project_name": "Inventory Management System ",
       "epic_created": "2026-01-14T13:24:36.473+0200",
-      "total_net_days": 38.74,
-      "total_cost_egp": 135590.0,
+      "total_net_days": 40.53,
+      "total_cost_egp": 141855.0,
       "total_tickets": 11,
       "complete_tickets": 6,
-      "generated_at": "2026-07-21T12:11:58.056495+00:00"
+      "generated_at": "2026-07-26T10:28:04.282946+00:00"
     },
     {
       "epic_key": "IMS-1035",
@@ -1018,7 +1018,7 @@
       "total_cost_egp": 0.0,
       "total_tickets": 1,
       "complete_tickets": 0,
-      "generated_at": "2026-07-19T09:42:37.534496+00:00"
+      "generated_at": "2026-07-26T10:28:04.925423+00:00"
     },
     {
       "epic_key": "IMS-1052",
@@ -1030,7 +1030,7 @@
       "total_cost_egp": 234745.0,
       "total_tickets": 14,
       "complete_tickets": 13,
-      "generated_at": "2026-07-20T13:27:17.102324+00:00"
+      "generated_at": "2026-07-26T10:28:10.379302+00:00"
     },
     {
       "epic_key": "IMS-111",
@@ -1038,11 +1038,11 @@
       "project_key": "IMS",
       "project_name": "Inventory Management System ",
       "epic_created": "2025-05-02T16:09:20.008+0300",
-      "total_net_days": 360.07,
-      "total_cost_egp": 1260245.0,
+      "total_net_days": 373.1,
+      "total_cost_egp": 1305850.0,
       "total_tickets": 62,
       "complete_tickets": 50,
-      "generated_at": "2026-07-25T10:53:44.791161+00:00"
+      "generated_at": "2026-07-26T10:26:55.100836+00:00"
     },
     {
       "epic_key": "IMS-1219",
@@ -1050,11 +1050,11 @@
       "project_key": "IMS",
       "project_name": "Inventory Management System ",
       "epic_created": "2026-02-11T21:14:06.373+0200",
-      "total_net_days": 35.84,
-      "total_cost_egp": 125440.0,
+      "total_net_days": 37.62,
+      "total_cost_egp": 131670.0,
       "total_tickets": 5,
       "complete_tickets": 1,
-      "generated_at": "2026-07-21T12:10:59.521651+00:00"
+      "generated_at": "2026-07-26T10:28:12.498541+00:00"
     },
     {
       "epic_key": "IMS-1252",
@@ -1066,7 +1066,7 @@
       "total_cost_egp": 0.0,
       "total_tickets": 4,
       "complete_tickets": 0,
-      "generated_at": "2026-07-19T09:42:45.085247+00:00"
+      "generated_at": "2026-07-26T10:28:13.969638+00:00"
     },
     {
       "epic_key": "IMS-1331",
@@ -1078,7 +1078,7 @@
       "total_cost_egp": 20615.0,
       "total_tickets": 5,
       "complete_tickets": 5,
-      "generated_at": "2026-07-19T09:42:46.795128+00:00"
+      "generated_at": "2026-07-26T10:28:15.991976+00:00"
     },
     {
       "epic_key": "IMS-1377",
@@ -1090,7 +1090,7 @@
       "total_cost_egp": 11865.0,
       "total_tickets": 3,
       "complete_tickets": 1,
-      "generated_at": "2026-07-19T09:42:47.988201+00:00"
+      "generated_at": "2026-07-26T10:28:17.361637+00:00"
     },
     {
       "epic_key": "IMS-1378",
@@ -1102,7 +1102,7 @@
       "total_cost_egp": 0,
       "total_tickets": 0,
       "complete_tickets": 0,
-      "generated_at": "2026-07-19T09:42:48.248796+00:00"
+      "generated_at": "2026-07-26T10:28:17.658526+00:00"
     },
     {
       "epic_key": "IMS-1379",
@@ -1114,7 +1114,7 @@
       "total_cost_egp": 101955.0,
       "total_tickets": 4,
       "complete_tickets": 4,
-      "generated_at": "2026-07-19T09:42:50.050610+00:00"
+      "generated_at": "2026-07-26T10:28:19.248352+00:00"
     },
     {
       "epic_key": "IMS-1380",
@@ -1126,7 +1126,7 @@
       "total_cost_egp": 0.0,
       "total_tickets": 1,
       "complete_tickets": 0,
-      "generated_at": "2026-07-19T09:42:50.904457+00:00"
+      "generated_at": "2026-07-26T10:28:19.845905+00:00"
     },
     {
       "epic_key": "IMS-1386",
@@ -1138,7 +1138,7 @@
       "total_cost_egp": 379785.0,
       "total_tickets": 30,
       "complete_tickets": 15,
-      "generated_at": "2026-07-25T10:53:55.653242+00:00"
+      "generated_at": "2026-07-26T10:28:29.276684+00:00"
     },
     {
       "epic_key": "IMS-1415",
@@ -1146,11 +1146,11 @@
       "project_key": "IMS",
       "project_name": "Inventory Management System ",
       "epic_created": "2026-04-10T18:45:27.706+0200",
-      "total_net_days": 88.77,
-      "total_cost_egp": 310695.0,
+      "total_net_days": 100.08,
+      "total_cost_egp": 350280.0,
       "total_tickets": 21,
       "complete_tickets": 7,
-      "generated_at": "2026-07-23T12:11:48.278901+00:00"
+      "generated_at": "2026-07-26T10:28:35.927757+00:00"
     },
     {
       "epic_key": "IMS-1426",
@@ -1162,7 +1162,7 @@
       "total_cost_egp": 0.0,
       "total_tickets": 7,
       "complete_tickets": 0,
-      "generated_at": "2026-07-19T09:43:09.460533+00:00"
+      "generated_at": "2026-07-26T10:28:38.195608+00:00"
     },
     {
       "epic_key": "IMS-156",
@@ -1170,11 +1170,11 @@
       "project_key": "IMS",
       "project_name": "Inventory Management System ",
       "epic_created": "2025-06-01T13:39:52.533+0300",
-      "total_net_days": 132.44,
-      "total_cost_egp": 463540.0,
+      "total_net_days": 137.69,
+      "total_cost_egp": 481915.0,
       "total_tickets": 20,
       "complete_tickets": 15,
-      "generated_at": "2026-07-20T13:27:04.671854+00:00"
+      "generated_at": "2026-07-26T10:27:02.257699+00:00"
     },
     {
       "epic_key": "IMS-1564",
@@ -1194,11 +1194,11 @@
       "project_key": "IMS",
       "project_name": "Inventory Management System ",
       "epic_created": "2026-05-10T20:26:38.909+0300",
-      "total_net_days": 8.9,
-      "total_cost_egp": 31150.0,
+      "total_net_days": 15.0,
+      "total_cost_egp": 52500.0,
       "total_tickets": 6,
       "complete_tickets": 0,
-      "generated_at": "2026-07-25T10:53:43.143667+00:00"
+      "generated_at": "2026-07-26T10:28:40.202833+00:00"
     },
     {
       "epic_key": "IMS-1702",
@@ -1242,11 +1242,11 @@
       "project_key": "IMS",
       "project_name": "Inventory Management System ",
       "epic_created": "2026-07-11T20:07:44.216+0300",
-      "total_net_days": 5.81,
-      "total_cost_egp": 20335.0,
+      "total_net_days": 9.37,
+      "total_cost_egp": 32795.0,
       "total_tickets": 2,
       "complete_tickets": 0,
-      "generated_at": "2026-07-19T14:55:38.657778+00:00"
+      "generated_at": "2026-07-26T10:28:41.127261+00:00"
     },
     {
       "epic_key": "IMS-193",
@@ -1254,11 +1254,11 @@
       "project_key": "IMS",
       "project_name": "Inventory Management System ",
       "epic_created": "2025-07-02T15:11:38.855+0300",
-      "total_net_days": 371.39,
-      "total_cost_egp": 1299865.0,
+      "total_net_days": 383.67,
+      "total_cost_egp": 1342845.0,
       "total_tickets": 21,
       "complete_tickets": 17,
-      "generated_at": "2026-07-19T09:41:39.826587+00:00"
+      "generated_at": "2026-07-26T10:27:09.538859+00:00"
     },
     {
       "epic_key": "IMS-25",
@@ -1270,7 +1270,7 @@
       "total_cost_egp": 947905.0,
       "total_tickets": 119,
       "complete_tickets": 92,
-      "generated_at": "2026-07-25T10:53:51.581189+00:00"
+      "generated_at": "2026-07-26T10:26:17.253105+00:00"
     },
     {
       "epic_key": "IMS-305",
@@ -1282,7 +1282,7 @@
       "total_cost_egp": 67480.0,
       "total_tickets": 5,
       "complete_tickets": 4,
-      "generated_at": "2026-07-19T09:41:41.872603+00:00"
+      "generated_at": "2026-07-26T10:27:11.410347+00:00"
     },
     {
       "epic_key": "IMS-397",
@@ -1294,7 +1294,7 @@
       "total_cost_egp": 404600.0,
       "total_tickets": 24,
       "complete_tickets": 19,
-      "generated_at": "2026-07-25T10:53:41.819002+00:00"
+      "generated_at": "2026-07-26T10:27:18.820434+00:00"
     },
     {
       "epic_key": "IMS-71",
@@ -1306,7 +1306,7 @@
       "total_cost_egp": 115430.0,
       "total_tickets": 5,
       "complete_tickets": 5,
-      "generated_at": "2026-07-19T09:40:49.420076+00:00"
+      "generated_at": "2026-07-26T10:26:19.158051+00:00"
     },
     {
       "epic_key": "IMS-73",
@@ -1318,7 +1318,7 @@
       "total_cost_egp": 43750.0,
       "total_tickets": 1,
       "complete_tickets": 1,
-      "generated_at": "2026-07-19T09:40:50.072247+00:00"
+      "generated_at": "2026-07-26T10:26:19.807897+00:00"
     },
     {
       "epic_key": "IMS-74",
@@ -1330,7 +1330,7 @@
       "total_cost_egp": 482930.0,
       "total_tickets": 21,
       "complete_tickets": 19,
-      "generated_at": "2026-07-19T09:40:57.368781+00:00"
+      "generated_at": "2026-07-26T10:26:26.373687+00:00"
     },
     {
       "epic_key": "IMS-740",
@@ -1342,7 +1342,7 @@
       "total_cost_egp": 462455.0,
       "total_tickets": 6,
       "complete_tickets": 6,
-      "generated_at": "2026-07-19T09:41:52.005057+00:00"
+      "generated_at": "2026-07-26T10:27:20.982497+00:00"
     },
     {
       "epic_key": "IMS-78",
@@ -1354,7 +1354,7 @@
       "total_cost_egp": 541170.0,
       "total_tickets": 16,
       "complete_tickets": 10,
-      "generated_at": "2026-07-25T10:53:39.251127+00:00"
+      "generated_at": "2026-07-26T10:26:31.458942+00:00"
     },
     {
       "epic_key": "IMS-797",
@@ -1362,11 +1362,11 @@
       "project_key": "IMS",
       "project_name": "Inventory Management System ",
       "epic_created": "2025-11-26T13:30:27.671+0200",
-      "total_net_days": 127.31,
-      "total_cost_egp": 445585.0,
+      "total_net_days": 128.09,
+      "total_cost_egp": 448315.0,
       "total_tickets": 20,
       "complete_tickets": 17,
-      "generated_at": "2026-07-22T12:14:52.293145+00:00"
+      "generated_at": "2026-07-26T10:27:27.681106+00:00"
     },
     {
       "epic_key": "IMS-823",
@@ -1374,11 +1374,11 @@
       "project_key": "IMS",
       "project_name": "Inventory Management System ",
       "epic_created": "2025-12-03T12:28:47.821+0200",
-      "total_net_days": 254.24,
-      "total_cost_egp": 889840.0,
+      "total_net_days": 258.34,
+      "total_cost_egp": 904190.0,
       "total_tickets": 28,
       "complete_tickets": 22,
-      "generated_at": "2026-07-23T12:11:24.450469+00:00"
+      "generated_at": "2026-07-26T10:27:37.150075+00:00"
     },
     {
       "epic_key": "IMS-9",
@@ -1386,11 +1386,11 @@
       "project_key": "IMS",
       "project_name": "Inventory Management System ",
       "epic_created": "2025-02-18T12:36:31.717+0200",
-      "total_net_days": 1923.08,
-      "total_cost_egp": 6730780.0,
+      "total_net_days": 1935.66,
+      "total_cost_egp": 6774810.0,
       "total_tickets": 190,
       "complete_tickets": 180,
-      "generated_at": "2026-07-21T12:11:11.343622+00:00"
+      "generated_at": "2026-07-26T10:25:40.483365+00:00"
     },
     {
       "epic_key": "IMS-91",
@@ -1398,11 +1398,11 @@
       "project_key": "IMS",
       "project_name": "Inventory Management System ",
       "epic_created": "2025-03-18T01:45:24.516+0200",
-      "total_net_days": 304.43,
-      "total_cost_egp": 1065505.0,
+      "total_net_days": 308.52,
+      "total_cost_egp": 1079820.0,
       "total_tickets": 13,
       "complete_tickets": 10,
-      "generated_at": "2026-07-23T12:11:49.208017+00:00"
+      "generated_at": "2026-07-26T10:26:35.620495+00:00"
     },
     {
       "epic_key": "IMS-959",
@@ -1410,11 +1410,11 @@
       "project_key": "IMS",
       "project_name": "Inventory Management System ",
       "epic_created": "2026-01-05T19:25:02.564+0200",
-      "total_net_days": 143.81,
-      "total_cost_egp": 503335.0,
+      "total_net_days": 145.6,
+      "total_cost_egp": 509600.0,
       "total_tickets": 21,
       "complete_tickets": 19,
-      "generated_at": "2026-07-21T12:11:13.152589+00:00"
+      "generated_at": "2026-07-26T10:27:44.362150+00:00"
     },
     {
       "epic_key": "IMS-997",
@@ -1426,7 +1426,7 @@
       "total_cost_egp": 21910.0,
       "total_tickets": 6,
       "complete_tickets": 1,
-      "generated_at": "2026-07-19T09:42:20.401771+00:00"
+      "generated_at": "2026-07-26T10:27:46.739261+00:00"
     },
     {
       "epic_key": "IMS-998",
@@ -1438,7 +1438,7 @@
       "total_cost_egp": 247345.0,
       "total_tickets": 6,
       "complete_tickets": 5,
-      "generated_at": "2026-07-19T09:42:22.913891+00:00"
+      "generated_at": "2026-07-26T10:27:49.271007+00:00"
     },
     {
       "epic_key": "IMS-999",
@@ -1450,7 +1450,7 @@
       "total_cost_egp": 0.0,
       "total_tickets": 2,
       "complete_tickets": 0,
-      "generated_at": "2026-07-19T09:42:23.942978+00:00"
+      "generated_at": "2026-07-26T10:27:50.479657+00:00"
     },
     {
       "epic_key": "NCRM-1",
@@ -1462,7 +1462,7 @@
       "total_cost_egp": 454545.0,
       "total_tickets": 4,
       "complete_tickets": 4,
-      "generated_at": "2026-07-19T09:34:32.143077+00:00"
+      "generated_at": "2026-07-26T10:19:40.693137+00:00"
     },
     {
       "epic_key": "NCRM-1349",
@@ -1474,7 +1474,7 @@
       "total_cost_egp": 385.0,
       "total_tickets": 1,
       "complete_tickets": 1,
-      "generated_at": "2026-07-19T09:35:24.480536+00:00"
+      "generated_at": "2026-07-26T10:20:34.137602+00:00"
     },
     {
       "epic_key": "NCRM-1350",
@@ -1486,7 +1486,7 @@
       "total_cost_egp": 0.0,
       "total_tickets": 1,
       "complete_tickets": 1,
-      "generated_at": "2026-07-19T09:35:25.123546+00:00"
+      "generated_at": "2026-07-26T10:20:34.740846+00:00"
     },
     {
       "epic_key": "NCRM-1351",
@@ -1498,7 +1498,7 @@
       "total_cost_egp": 0,
       "total_tickets": 0,
       "complete_tickets": 0,
-      "generated_at": "2026-07-19T09:35:25.392373+00:00"
+      "generated_at": "2026-07-26T10:20:34.999103+00:00"
     },
     {
       "epic_key": "NCRM-1352",
@@ -1510,7 +1510,7 @@
       "total_cost_egp": 33950.0,
       "total_tickets": 2,
       "complete_tickets": 2,
-      "generated_at": "2026-07-19T09:35:26.309044+00:00"
+      "generated_at": "2026-07-26T10:20:35.920516+00:00"
     },
     {
       "epic_key": "NCRM-1353",
@@ -1522,7 +1522,7 @@
       "total_cost_egp": 0.0,
       "total_tickets": 1,
       "complete_tickets": 1,
-      "generated_at": "2026-07-19T09:35:26.901864+00:00"
+      "generated_at": "2026-07-26T10:20:36.530480+00:00"
     },
     {
       "epic_key": "NCRM-1354",
@@ -1534,7 +1534,7 @@
       "total_cost_egp": 25690.0,
       "total_tickets": 2,
       "complete_tickets": 2,
-      "generated_at": "2026-07-19T09:35:27.797526+00:00"
+      "generated_at": "2026-07-26T10:20:37.512142+00:00"
     },
     {
       "epic_key": "NCRM-1355",
@@ -1546,7 +1546,7 @@
       "total_cost_egp": 21315.0,
       "total_tickets": 1,
       "complete_tickets": 1,
-      "generated_at": "2026-07-19T09:35:28.423717+00:00"
+      "generated_at": "2026-07-26T10:20:38.485287+00:00"
     },
     {
       "epic_key": "NCRM-1357",
@@ -1558,7 +1558,7 @@
       "total_cost_egp": 0.0,
       "total_tickets": 1,
       "complete_tickets": 1,
-      "generated_at": "2026-07-19T09:35:29.276782+00:00"
+      "generated_at": "2026-07-26T10:20:39.080880+00:00"
     },
     {
       "epic_key": "NCRM-1364",
@@ -1570,7 +1570,7 @@
       "total_cost_egp": 0,
       "total_tickets": 0,
       "complete_tickets": 0,
-      "generated_at": "2026-07-19T09:35:29.602705+00:00"
+      "generated_at": "2026-07-26T10:20:39.356981+00:00"
     },
     {
       "epic_key": "NCRM-1412",
@@ -1582,7 +1582,7 @@
       "total_cost_egp": 2135.0,
       "total_tickets": 1,
       "complete_tickets": 1,
-      "generated_at": "2026-07-19T09:35:30.302370+00:00"
+      "generated_at": "2026-07-26T10:20:40.134482+00:00"
     },
     {
       "epic_key": "NCRM-173",
@@ -1594,7 +1594,7 @@
       "total_cost_egp": 36680.0,
       "total_tickets": 4,
       "complete_tickets": 4,
-      "generated_at": "2026-07-19T09:34:41.612201+00:00"
+      "generated_at": "2026-07-26T10:19:51.096998+00:00"
     },
     {
       "epic_key": "NCRM-177",
@@ -1606,7 +1606,7 @@
       "total_cost_egp": 733880.0,
       "total_tickets": 14,
       "complete_tickets": 14,
-      "generated_at": "2026-07-19T09:34:46.043359+00:00"
+      "generated_at": "2026-07-26T10:19:56.132627+00:00"
     },
     {
       "epic_key": "NCRM-18",
@@ -1618,7 +1618,7 @@
       "total_cost_egp": 954730.0,
       "total_tickets": 2,
       "complete_tickets": 2,
-      "generated_at": "2026-07-19T09:34:37.612235+00:00"
+      "generated_at": "2026-07-26T10:19:46.661853+00:00"
     },
     {
       "epic_key": "NCRM-1864",
@@ -1626,11 +1626,11 @@
       "project_key": "NCRM",
       "project_name": "NawyCRM",
       "epic_created": "2025-09-02T15:02:26.095+0300",
-      "total_net_days": 359.84,
-      "total_cost_egp": 1259440.0,
+      "total_net_days": 363.93,
+      "total_cost_egp": 1273755.0,
       "total_tickets": 39,
       "complete_tickets": 21,
-      "generated_at": "2026-07-19T09:35:41.936247+00:00"
+      "generated_at": "2026-07-26T10:20:52.246162+00:00"
     },
     {
       "epic_key": "NCRM-1974",
@@ -1638,11 +1638,11 @@
       "project_key": "NCRM",
       "project_name": "NawyCRM",
       "epic_created": "2025-09-18T13:50:01.824+0300",
-      "total_net_days": 509.29,
-      "total_cost_egp": 1782515.0,
+      "total_net_days": 519.1,
+      "total_cost_egp": 1816850.0,
       "total_tickets": 109,
       "complete_tickets": 85,
-      "generated_at": "2026-07-23T12:12:48.945687+00:00"
+      "generated_at": "2026-07-26T10:21:26.528847+00:00"
     },
     {
       "epic_key": "NCRM-1975",
@@ -1654,7 +1654,7 @@
       "total_cost_egp": 406945.0,
       "total_tickets": 57,
       "complete_tickets": 26,
-      "generated_at": "2026-07-23T12:12:17.125340+00:00"
+      "generated_at": "2026-07-26T10:21:44.955068+00:00"
     },
     {
       "epic_key": "NCRM-2",
@@ -1666,7 +1666,7 @@
       "total_cost_egp": 1010240.0,
       "total_tickets": 7,
       "complete_tickets": 7,
-      "generated_at": "2026-07-19T09:34:34.372605+00:00"
+      "generated_at": "2026-07-26T10:19:43.222314+00:00"
     },
     {
       "epic_key": "NCRM-2392",
@@ -1678,7 +1678,7 @@
       "total_cost_egp": 0,
       "total_tickets": 0,
       "complete_tickets": 0,
-      "generated_at": "2026-07-19T09:36:33.873203+00:00"
+      "generated_at": "2026-07-26T10:21:45.227440+00:00"
     },
     {
       "epic_key": "NCRM-2393",
@@ -1690,7 +1690,7 @@
       "total_cost_egp": 44205.0,
       "total_tickets": 4,
       "complete_tickets": 3,
-      "generated_at": "2026-07-19T09:36:35.290230+00:00"
+      "generated_at": "2026-07-26T10:21:46.781341+00:00"
     },
     {
       "epic_key": "NCRM-2394",
@@ -1702,7 +1702,7 @@
       "total_cost_egp": 0.0,
       "total_tickets": 1,
       "complete_tickets": 1,
-      "generated_at": "2026-07-19T09:36:36.177281+00:00"
+      "generated_at": "2026-07-26T10:21:47.408556+00:00"
     },
     {
       "epic_key": "NCRM-2398",
@@ -1714,7 +1714,7 @@
       "total_cost_egp": 0.0,
       "total_tickets": 1,
       "complete_tickets": 1,
-      "generated_at": "2026-07-19T09:36:36.763984+00:00"
+      "generated_at": "2026-07-26T10:21:48.002079+00:00"
     },
     {
       "epic_key": "NCRM-2418",
@@ -1726,7 +1726,7 @@
       "total_cost_egp": 28840.0,
       "total_tickets": 3,
       "complete_tickets": 3,
-      "generated_at": "2026-07-19T09:36:38.258407+00:00"
+      "generated_at": "2026-07-26T10:21:49.636991+00:00"
     },
     {
       "epic_key": "NCRM-2420",
@@ -1738,7 +1738,7 @@
       "total_cost_egp": 0.0,
       "total_tickets": 1,
       "complete_tickets": 0,
-      "generated_at": "2026-07-19T09:36:38.881010+00:00"
+      "generated_at": "2026-07-26T10:21:50.243389+00:00"
     },
     {
       "epic_key": "NCRM-2475",
@@ -1750,7 +1750,7 @@
       "total_cost_egp": 66675.0,
       "total_tickets": 5,
       "complete_tickets": 3,
-      "generated_at": "2026-07-19T09:36:40.910663+00:00"
+      "generated_at": "2026-07-26T10:21:52.187193+00:00"
     },
     {
       "epic_key": "NCRM-2476",
@@ -1762,7 +1762,7 @@
       "total_cost_egp": 19880.0,
       "total_tickets": 2,
       "complete_tickets": 2,
-      "generated_at": "2026-07-19T09:36:41.857527+00:00"
+      "generated_at": "2026-07-26T10:21:53.176701+00:00"
     },
     {
       "epic_key": "NCRM-2477",
@@ -1774,7 +1774,7 @@
       "total_cost_egp": 121450.0,
       "total_tickets": 12,
       "complete_tickets": 8,
-      "generated_at": "2026-07-19T09:36:46.474138+00:00"
+      "generated_at": "2026-07-26T10:21:57.505028+00:00"
     },
     {
       "epic_key": "NCRM-2478",
@@ -1786,7 +1786,7 @@
       "total_cost_egp": 39480.0,
       "total_tickets": 3,
       "complete_tickets": 3,
-      "generated_at": "2026-07-19T09:36:47.669653+00:00"
+      "generated_at": "2026-07-26T10:21:58.807572+00:00"
     },
     {
       "epic_key": "NCRM-2480",
@@ -1798,7 +1798,7 @@
       "total_cost_egp": 0.0,
       "total_tickets": 1,
       "complete_tickets": 0,
-      "generated_at": "2026-07-19T09:36:48.296175+00:00"
+      "generated_at": "2026-07-26T10:21:59.463420+00:00"
     },
     {
       "epic_key": "NCRM-2563",
@@ -1810,7 +1810,7 @@
       "total_cost_egp": 128555.0,
       "total_tickets": 13,
       "complete_tickets": 12,
-      "generated_at": "2026-07-19T09:36:52.947669+00:00"
+      "generated_at": "2026-07-26T10:22:03.832667+00:00"
     },
     {
       "epic_key": "NCRM-2667",
@@ -1818,11 +1818,11 @@
       "project_key": "NCRM",
       "project_name": "NawyCRM",
       "epic_created": "2026-02-08T22:26:29.925+0200",
-      "total_net_days": 55.91,
-      "total_cost_egp": 195685.0,
+      "total_net_days": 56.45,
+      "total_cost_egp": 197575.0,
       "total_tickets": 17,
       "complete_tickets": 3,
-      "generated_at": "2026-07-23T12:11:39.629622+00:00"
+      "generated_at": "2026-07-26T10:22:09.540867+00:00"
     },
     {
       "epic_key": "NCRM-2668",
@@ -1834,7 +1834,7 @@
       "total_cost_egp": 181545.0,
       "total_tickets": 15,
       "complete_tickets": 14,
-      "generated_at": "2026-07-22T12:16:03.579252+00:00"
+      "generated_at": "2026-07-26T10:22:14.954708+00:00"
     },
     {
       "epic_key": "NCRM-2669",
@@ -1846,7 +1846,7 @@
       "total_cost_egp": 0.0,
       "total_tickets": 1,
       "complete_tickets": 0,
-      "generated_at": "2026-07-19T09:37:03.874573+00:00"
+      "generated_at": "2026-07-26T10:22:15.601431+00:00"
     },
     {
       "epic_key": "NCRM-2675",
@@ -1858,7 +1858,7 @@
       "total_cost_egp": 39130.0,
       "total_tickets": 5,
       "complete_tickets": 5,
-      "generated_at": "2026-07-19T09:37:05.817468+00:00"
+      "generated_at": "2026-07-26T10:22:17.600534+00:00"
     },
     {
       "epic_key": "NCRM-2707",
@@ -1870,7 +1870,7 @@
       "total_cost_egp": 0.0,
       "total_tickets": 5,
       "complete_tickets": 0,
-      "generated_at": "2026-07-19T09:37:07.533403+00:00"
+      "generated_at": "2026-07-26T10:22:19.329768+00:00"
     },
     {
       "epic_key": "NCRM-2727",
@@ -1882,7 +1882,7 @@
       "total_cost_egp": 22575.0,
       "total_tickets": 2,
       "complete_tickets": 2,
-      "generated_at": "2026-07-19T09:37:08.580698+00:00"
+      "generated_at": "2026-07-26T10:22:20.363229+00:00"
     },
     {
       "epic_key": "NCRM-2816",
@@ -1894,7 +1894,7 @@
       "total_cost_egp": 62125.0,
       "total_tickets": 5,
       "complete_tickets": 3,
-      "generated_at": "2026-07-19T09:37:10.703944+00:00"
+      "generated_at": "2026-07-26T10:22:22.271181+00:00"
     },
     {
       "epic_key": "NCRM-2942",
@@ -1906,7 +1906,7 @@
       "total_cost_egp": 30940.0,
       "total_tickets": 2,
       "complete_tickets": 2,
-      "generated_at": "2026-07-19T09:37:11.584331+00:00"
+      "generated_at": "2026-07-26T10:22:23.250738+00:00"
     },
     {
       "epic_key": "NCRM-3007",
@@ -1930,7 +1930,7 @@
       "total_cost_egp": 0.0,
       "total_tickets": 4,
       "complete_tickets": 0,
-      "generated_at": "2026-07-19T09:37:12.954245+00:00"
+      "generated_at": "2026-07-26T10:22:24.814978+00:00"
     },
     {
       "epic_key": "NCRM-3016",
@@ -2110,7 +2110,7 @@
       "total_cost_egp": 0.0,
       "total_tickets": 7,
       "complete_tickets": 0,
-      "generated_at": "2026-07-23T12:12:02.288411+00:00"
+      "generated_at": "2026-07-26T10:22:27.110759+00:00"
     },
     {
       "epic_key": "NCRM-333",
@@ -2118,11 +2118,11 @@
       "project_key": "NCRM",
       "project_name": "NawyCRM",
       "epic_created": "2024-03-05T15:12:09.736+0200",
-      "total_net_days": 698.6,
-      "total_cost_egp": 2445100.0,
+      "total_net_days": 702.69,
+      "total_cost_egp": 2459415.0,
       "total_tickets": 17,
       "complete_tickets": 16,
-      "generated_at": "2026-07-19T09:34:51.499862+00:00"
+      "generated_at": "2026-07-26T10:20:01.951073+00:00"
     },
     {
       "epic_key": "NCRM-3345",
@@ -2146,7 +2146,7 @@
       "total_cost_egp": 769580.0,
       "total_tickets": 19,
       "complete_tickets": 19,
-      "generated_at": "2026-07-19T09:34:57.618759+00:00"
+      "generated_at": "2026-07-26T10:20:07.947958+00:00"
     },
     {
       "epic_key": "NCRM-416",
@@ -2158,7 +2158,7 @@
       "total_cost_egp": 149450.0,
       "total_tickets": 11,
       "complete_tickets": 11,
-      "generated_at": "2026-07-19T09:35:01.394959+00:00"
+      "generated_at": "2026-07-26T10:20:11.505296+00:00"
     },
     {
       "epic_key": "NCRM-5",
@@ -2170,7 +2170,7 @@
       "total_cost_egp": 529340.0,
       "total_tickets": 8,
       "complete_tickets": 8,
-      "generated_at": "2026-07-19T09:34:36.723703+00:00"
+      "generated_at": "2026-07-26T10:19:45.813381+00:00"
     },
     {
       "epic_key": "NCRM-503",
@@ -2182,7 +2182,7 @@
       "total_cost_egp": 32655.0,
       "total_tickets": 1,
       "complete_tickets": 1,
-      "generated_at": "2026-07-19T09:35:02.040307+00:00"
+      "generated_at": "2026-07-26T10:20:12.155982+00:00"
     },
     {
       "epic_key": "NCRM-520",
@@ -2194,7 +2194,7 @@
       "total_cost_egp": 447720.0,
       "total_tickets": 17,
       "complete_tickets": 15,
-      "generated_at": "2026-07-19T09:35:08.041037+00:00"
+      "generated_at": "2026-07-26T10:20:18.079808+00:00"
     },
     {
       "epic_key": "NCRM-529",
@@ -2206,7 +2206,7 @@
       "total_cost_egp": 0.0,
       "total_tickets": 39,
       "complete_tickets": 39,
-      "generated_at": "2026-07-19T09:35:20.322086+00:00"
+      "generated_at": "2026-07-26T10:20:29.890026+00:00"
     },
     {
       "epic_key": "NCRM-531",
@@ -2218,7 +2218,7 @@
       "total_cost_egp": 0,
       "total_tickets": 0,
       "complete_tickets": 0,
-      "generated_at": "2026-07-19T09:35:20.652569+00:00"
+      "generated_at": "2026-07-26T10:20:30.176082+00:00"
     },
     {
       "epic_key": "NCRM-537",
@@ -2230,7 +2230,7 @@
       "total_cost_egp": 0,
       "total_tickets": 0,
       "complete_tickets": 0,
-      "generated_at": "2026-07-19T09:35:20.938677+00:00"
+      "generated_at": "2026-07-26T10:20:30.458564+00:00"
     },
     {
       "epic_key": "NCRM-538",
@@ -2242,7 +2242,7 @@
       "total_cost_egp": 0,
       "total_tickets": 0,
       "complete_tickets": 0,
-      "generated_at": "2026-07-19T09:35:21.201769+00:00"
+      "generated_at": "2026-07-26T10:20:30.765471+00:00"
     },
     {
       "epic_key": "NCRM-539",
@@ -2254,7 +2254,7 @@
       "total_cost_egp": 0,
       "total_tickets": 0,
       "complete_tickets": 0,
-      "generated_at": "2026-07-19T09:35:21.470034+00:00"
+      "generated_at": "2026-07-26T10:20:31.037192+00:00"
     },
     {
       "epic_key": "NCRM-540",
@@ -2266,7 +2266,7 @@
       "total_cost_egp": 0,
       "total_tickets": 0,
       "complete_tickets": 0,
-      "generated_at": "2026-07-19T09:35:21.731129+00:00"
+      "generated_at": "2026-07-26T10:20:31.312529+00:00"
     },
     {
       "epic_key": "NCRM-541",
@@ -2278,7 +2278,7 @@
       "total_cost_egp": 0,
       "total_tickets": 0,
       "complete_tickets": 0,
-      "generated_at": "2026-07-19T09:35:21.996522+00:00"
+      "generated_at": "2026-07-26T10:20:31.581273+00:00"
     },
     {
       "epic_key": "NCRM-542",
@@ -2290,7 +2290,7 @@
       "total_cost_egp": 0,
       "total_tickets": 0,
       "complete_tickets": 0,
-      "generated_at": "2026-07-19T09:35:22.333782+00:00"
+      "generated_at": "2026-07-26T10:20:31.847294+00:00"
     },
     {
       "epic_key": "NCRM-543",
@@ -2302,7 +2302,7 @@
       "total_cost_egp": 0,
       "total_tickets": 0,
       "complete_tickets": 0,
-      "generated_at": "2026-07-19T09:35:22.601458+00:00"
+      "generated_at": "2026-07-26T10:20:32.161640+00:00"
     },
     {
       "epic_key": "NCRM-544",
@@ -2314,7 +2314,7 @@
       "total_cost_egp": 0,
       "total_tickets": 0,
       "complete_tickets": 0,
-      "generated_at": "2026-07-19T09:35:22.884134+00:00"
+      "generated_at": "2026-07-26T10:20:32.436379+00:00"
     },
     {
       "epic_key": "NCRM-545",
@@ -2326,7 +2326,7 @@
       "total_cost_egp": 0,
       "total_tickets": 0,
       "complete_tickets": 0,
-      "generated_at": "2026-07-19T09:35:23.141213+00:00"
+      "generated_at": "2026-07-26T10:20:32.690560+00:00"
     },
     {
       "epic_key": "NCRM-550",
@@ -2338,7 +2338,7 @@
       "total_cost_egp": 0,
       "total_tickets": 0,
       "complete_tickets": 0,
-      "generated_at": "2026-07-19T09:35:23.386205+00:00"
+      "generated_at": "2026-07-26T10:20:32.962228+00:00"
     },
     {
       "epic_key": "NCRM-57",
@@ -2350,7 +2350,7 @@
       "total_cost_egp": 407470.0,
       "total_tickets": 8,
       "complete_tickets": 8,
-      "generated_at": "2026-07-19T09:34:40.214769+00:00"
+      "generated_at": "2026-07-26T10:19:49.500721+00:00"
     },
     {
       "epic_key": "NCRM-714",
@@ -2362,7 +2362,7 @@
       "total_cost_egp": 0,
       "total_tickets": 0,
       "complete_tickets": 0,
-      "generated_at": "2026-07-19T09:35:23.632113+00:00"
+      "generated_at": "2026-07-26T10:20:33.225545+00:00"
     },
     {
       "epic_key": "NCRM-715",
@@ -2374,7 +2374,7 @@
       "total_cost_egp": 0,
       "total_tickets": 0,
       "complete_tickets": 0,
-      "generated_at": "2026-07-19T09:35:23.875954+00:00"
+      "generated_at": "2026-07-26T10:20:33.515401+00:00"
     },
     {
       "epic_key": "NLP-107",
@@ -2386,7 +2386,7 @@
       "total_cost_egp": 2552900.0,
       "total_tickets": 17,
       "complete_tickets": 17,
-      "generated_at": "2026-07-19T09:43:20.155560+00:00"
+      "generated_at": "2026-07-26T10:28:46.433759+00:00"
     },
     {
       "epic_key": "NLP-133",
@@ -2398,7 +2398,7 @@
       "total_cost_egp": 465080.0,
       "total_tickets": 7,
       "complete_tickets": 7,
-      "generated_at": "2026-07-19T09:43:23.202073+00:00"
+      "generated_at": "2026-07-26T10:28:49.081933+00:00"
     },
     {
       "epic_key": "NLP-169",
@@ -2410,7 +2410,7 @@
       "total_cost_egp": 0,
       "total_tickets": 0,
       "complete_tickets": 0,
-      "generated_at": "2026-07-19T09:43:23.508278+00:00"
+      "generated_at": "2026-07-26T10:28:49.349314+00:00"
     },
     {
       "epic_key": "NLP-1907",
@@ -2418,11 +2418,11 @@
       "project_key": "NLP",
       "project_name": "Nawy Listing Platform ",
       "epic_created": "2024-07-09T17:15:16.334+0300",
-      "total_net_days": 800.78,
-      "total_cost_egp": 2802730.0,
+      "total_net_days": 805.43,
+      "total_cost_egp": 2819005.0,
       "total_tickets": 78,
       "complete_tickets": 63,
-      "generated_at": "2026-07-23T12:12:19.148889+00:00"
+      "generated_at": "2026-07-26T10:29:18.205467+00:00"
     },
     {
       "epic_key": "NLP-1955",
@@ -2434,7 +2434,7 @@
       "total_cost_egp": 218575.0,
       "total_tickets": 8,
       "complete_tickets": 7,
-      "generated_at": "2026-07-19T09:43:54.489035+00:00"
+      "generated_at": "2026-07-26T10:29:21.119456+00:00"
     },
     {
       "epic_key": "NLP-1988",
@@ -2442,11 +2442,11 @@
       "project_key": "NLP",
       "project_name": "Nawy Listing Platform ",
       "epic_created": "2024-07-30T15:50:49.706+0300",
-      "total_net_days": 542.81,
-      "total_cost_egp": 1899835.0,
+      "total_net_days": 543.59,
+      "total_cost_egp": 1902565.0,
       "total_tickets": 30,
       "complete_tickets": 17,
-      "generated_at": "2026-07-22T12:15:39.961742+00:00"
+      "generated_at": "2026-07-26T10:29:30.902618+00:00"
     },
     {
       "epic_key": "NLP-2012",
@@ -2458,7 +2458,7 @@
       "total_cost_egp": 13055.0,
       "total_tickets": 17,
       "complete_tickets": 2,
-      "generated_at": "2026-07-19T09:44:10.700829+00:00"
+      "generated_at": "2026-07-26T10:29:36.439750+00:00"
     },
     {
       "epic_key": "NLP-2069",
@@ -2466,11 +2466,11 @@
       "project_key": "NLP",
       "project_name": "Nawy Listing Platform ",
       "epic_created": "2024-08-11T12:30:05.851+0300",
-      "total_net_days": 822.47,
-      "total_cost_egp": 2878645.0,
+      "total_net_days": 853.68,
+      "total_cost_egp": 2987880.0,
       "total_tickets": 47,
       "complete_tickets": 26,
-      "generated_at": "2026-07-22T12:15:42.061462+00:00"
+      "generated_at": "2026-07-26T10:29:52.491103+00:00"
     },
     {
       "epic_key": "NLP-2073",
@@ -2482,7 +2482,7 @@
       "total_cost_egp": 26250.0,
       "total_tickets": 1,
       "complete_tickets": 1,
-      "generated_at": "2026-07-19T09:44:27.315619+00:00"
+      "generated_at": "2026-07-26T10:29:53.235227+00:00"
     },
     {
       "epic_key": "NLP-2088",
@@ -2490,11 +2490,11 @@
       "project_key": "NLP",
       "project_name": "Nawy Listing Platform ",
       "epic_created": "2024-08-14T15:06:42.717+0300",
-      "total_net_days": 2107.71,
-      "total_cost_egp": 7376985.0,
+      "total_net_days": 2121.81,
+      "total_cost_egp": 7426335.0,
       "total_tickets": 73,
       "complete_tickets": 55,
-      "generated_at": "2026-07-23T12:12:12.172907+00:00"
+      "generated_at": "2026-07-26T10:30:22.881919+00:00"
     },
     {
       "epic_key": "NLP-2294",
@@ -2502,11 +2502,11 @@
       "project_key": "NLP",
       "project_name": "Nawy Listing Platform ",
       "epic_created": "2024-09-22T15:28:26.388+0300",
-      "total_net_days": 563.49,
-      "total_cost_egp": 1972215.0,
+      "total_net_days": 567.58,
+      "total_cost_egp": 1986530.0,
       "total_tickets": 36,
       "complete_tickets": 34,
-      "generated_at": "2026-07-19T09:45:00.946246+00:00"
+      "generated_at": "2026-07-26T10:30:35.999047+00:00"
     },
     {
       "epic_key": "NLP-2295",
@@ -2518,7 +2518,7 @@
       "total_cost_egp": 418180.0,
       "total_tickets": 6,
       "complete_tickets": 6,
-      "generated_at": "2026-07-19T09:45:03.886540+00:00"
+      "generated_at": "2026-07-26T10:30:38.246869+00:00"
     },
     {
       "epic_key": "NLP-2332",
@@ -2530,7 +2530,7 @@
       "total_cost_egp": 13370.0,
       "total_tickets": 2,
       "complete_tickets": 2,
-      "generated_at": "2026-07-19T09:45:04.828668+00:00"
+      "generated_at": "2026-07-26T10:30:39.229117+00:00"
     },
     {
       "epic_key": "NLP-2571",
@@ -2542,7 +2542,7 @@
       "total_cost_egp": 48055.0,
       "total_tickets": 2,
       "complete_tickets": 2,
-      "generated_at": "2026-07-19T09:45:05.801117+00:00"
+      "generated_at": "2026-07-26T10:30:40.463429+00:00"
     },
     {
       "epic_key": "NLP-2727",
@@ -2554,7 +2554,7 @@
       "total_cost_egp": 5600.0,
       "total_tickets": 2,
       "complete_tickets": 2,
-      "generated_at": "2026-07-19T09:45:06.695489+00:00"
+      "generated_at": "2026-07-26T10:30:41.471240+00:00"
     },
     {
       "epic_key": "NLP-2822",
@@ -2566,7 +2566,7 @@
       "total_cost_egp": 5505150.0,
       "total_tickets": 106,
       "complete_tickets": 90,
-      "generated_at": "2026-07-23T12:12:44.075903+00:00"
+      "generated_at": "2026-07-26T10:31:22.383179+00:00"
     },
     {
       "epic_key": "NLP-2823",
@@ -2574,11 +2574,11 @@
       "project_key": "NLP",
       "project_name": "Nawy Listing Platform ",
       "epic_created": "2024-12-04T11:16:48.560+0200",
-      "total_net_days": 1404.91,
-      "total_cost_egp": 4917185.0,
+      "total_net_days": 1414.44,
+      "total_cost_egp": 4950540.0,
       "total_tickets": 109,
       "complete_tickets": 95,
-      "generated_at": "2026-07-23T12:12:28.189943+00:00"
+      "generated_at": "2026-07-26T10:31:57.784208+00:00"
     },
     {
       "epic_key": "NLP-2824",
@@ -2590,7 +2590,7 @@
       "total_cost_egp": 77210.0,
       "total_tickets": 2,
       "complete_tickets": 2,
-      "generated_at": "2026-07-19T09:46:17.391315+00:00"
+      "generated_at": "2026-07-26T10:31:58.851655+00:00"
     },
     {
       "epic_key": "NLP-3210",
@@ -2602,7 +2602,7 @@
       "total_cost_egp": 106960.0,
       "total_tickets": 8,
       "complete_tickets": 6,
-      "generated_at": "2026-07-19T09:46:20.370350+00:00"
+      "generated_at": "2026-07-26T10:32:01.655824+00:00"
     },
     {
       "epic_key": "NLP-3473",
@@ -2614,7 +2614,7 @@
       "total_cost_egp": 139510.0,
       "total_tickets": 11,
       "complete_tickets": 11,
-      "generated_at": "2026-07-19T09:46:23.895566+00:00"
+      "generated_at": "2026-07-26T10:32:05.508454+00:00"
     },
     {
       "epic_key": "NLP-3559",
@@ -2622,11 +2622,11 @@
       "project_key": "NLP",
       "project_name": "Nawy Listing Platform ",
       "epic_created": "2025-02-25T16:50:54.072+0200",
-      "total_net_days": 120.29,
-      "total_cost_egp": 421015.0,
+      "total_net_days": 123.49,
+      "total_cost_egp": 432215.0,
       "total_tickets": 23,
       "complete_tickets": 13,
-      "generated_at": "2026-07-23T12:11:33.847990+00:00"
+      "generated_at": "2026-07-26T10:32:13.662183+00:00"
     },
     {
       "epic_key": "NLP-3684",
@@ -2658,11 +2658,11 @@
       "project_key": "NLP",
       "project_name": "Nawy Listing Platform ",
       "epic_created": "2025-07-01T10:33:08.066+0300",
-      "total_net_days": 773.98,
-      "total_cost_egp": 2708930.0,
+      "total_net_days": 777.55,
+      "total_cost_egp": 2721425.0,
       "total_tickets": 24,
       "complete_tickets": 23,
-      "generated_at": "2026-07-19T14:55:57.426096+00:00"
+      "generated_at": "2026-07-26T10:32:22.247086+00:00"
     },
     {
       "epic_key": "NLP-3905",
@@ -2694,11 +2694,11 @@
       "project_key": "NLP",
       "project_name": "Nawy Listing Platform ",
       "epic_created": "2025-08-04T14:36:42.048+0300",
-      "total_net_days": 490.01,
-      "total_cost_egp": 1715035.0,
+      "total_net_days": 490.24,
+      "total_cost_egp": 1715840.0,
       "total_tickets": 33,
       "complete_tickets": 26,
-      "generated_at": "2026-07-23T12:12:41.264512+00:00"
+      "generated_at": "2026-07-26T10:32:35.101007+00:00"
     },
     {
       "epic_key": "NLP-3958",
@@ -2710,7 +2710,7 @@
       "total_cost_egp": 524755.0,
       "total_tickets": 2,
       "complete_tickets": 0,
-      "generated_at": "2026-07-19T09:46:50.583464+00:00"
+      "generated_at": "2026-07-26T10:32:36.130372+00:00"
     },
     {
       "epic_key": "NLP-3959",
@@ -2722,7 +2722,7 @@
       "total_cost_egp": 0,
       "total_tickets": 0,
       "complete_tickets": 0,
-      "generated_at": "2026-07-19T09:46:50.866412+00:00"
+      "generated_at": "2026-07-26T10:32:36.436899+00:00"
     },
     {
       "epic_key": "NLP-4041",
@@ -2734,7 +2734,7 @@
       "total_cost_egp": 460180.0,
       "total_tickets": 5,
       "complete_tickets": 5,
-      "generated_at": "2026-07-19T09:46:52.639810+00:00"
+      "generated_at": "2026-07-26T10:32:38.586818+00:00"
     },
     {
       "epic_key": "NLP-4100",
@@ -2758,7 +2758,7 @@
       "total_cost_egp": 1527155.0,
       "total_tickets": 21,
       "complete_tickets": 18,
-      "generated_at": "2026-07-23T12:11:43.571741+00:00"
+      "generated_at": "2026-07-26T10:32:45.201828+00:00"
     },
     {
       "epic_key": "NLP-4205",
@@ -2806,7 +2806,7 @@
       "total_cost_egp": 581420.0,
       "total_tickets": 3,
       "complete_tickets": 2,
-      "generated_at": "2026-07-19T09:47:01.454844+00:00"
+      "generated_at": "2026-07-26T10:32:46.533498+00:00"
     },
     {
       "epic_key": "NLP-4387",
@@ -2818,7 +2818,7 @@
       "total_cost_egp": 0,
       "total_tickets": 0,
       "complete_tickets": 0,
-      "generated_at": "2026-07-19T09:47:01.732527+00:00"
+      "generated_at": "2026-07-26T10:32:46.793778+00:00"
     },
     {
       "epic_key": "NLP-4411",
@@ -2830,7 +2830,7 @@
       "total_cost_egp": 141120.0,
       "total_tickets": 2,
       "complete_tickets": 2,
-      "generated_at": "2026-07-19T09:47:02.840961+00:00"
+      "generated_at": "2026-07-26T10:32:47.996478+00:00"
     },
     {
       "epic_key": "NLP-4497",
@@ -2842,7 +2842,7 @@
       "total_cost_egp": 91980.0,
       "total_tickets": 4,
       "complete_tickets": 1,
-      "generated_at": "2026-07-19T09:47:04.248938+00:00"
+      "generated_at": "2026-07-26T10:32:49.562082+00:00"
     },
     {
       "epic_key": "NLP-4498",
@@ -3058,7 +3058,7 @@
       "total_cost_egp": 0.0,
       "total_tickets": 2,
       "complete_tickets": 0,
-      "generated_at": "2026-07-19T09:47:05.066162+00:00"
+      "generated_at": "2026-07-26T10:32:50.443782+00:00"
     },
     {
       "epic_key": "NLP-4986",
@@ -3142,7 +3142,7 @@
       "total_cost_egp": 0.0,
       "total_tickets": 1,
       "complete_tickets": 0,
-      "generated_at": "2026-07-19T09:47:05.629895+00:00"
+      "generated_at": "2026-07-26T10:32:51.085767+00:00"
     },
     {
       "epic_key": "NLP-5066",
@@ -3154,7 +3154,7 @@
       "total_cost_egp": 0.0,
       "total_tickets": 1,
       "complete_tickets": 1,
-      "generated_at": "2026-07-22T12:15:20.659391+00:00"
+      "generated_at": "2026-07-26T10:32:51.795298+00:00"
     },
     {
       "epic_key": "NLP-5091",
@@ -3178,7 +3178,7 @@
       "total_cost_egp": 444325.0,
       "total_tickets": 5,
       "complete_tickets": 5,
-      "generated_at": "2026-07-19T09:43:25.628067+00:00"
+      "generated_at": "2026-07-26T10:28:51.422161+00:00"
     },
     {
       "epic_key": "PAR-1",
@@ -3190,7 +3190,7 @@
       "total_cost_egp": 220430.0,
       "total_tickets": 1,
       "complete_tickets": 1,
-      "generated_at": "2026-07-19T09:37:13.664595+00:00"
+      "generated_at": "2026-07-26T10:22:28.144953+00:00"
     },
     {
       "epic_key": "PAR-140",
@@ -3202,7 +3202,7 @@
       "total_cost_egp": 0,
       "total_tickets": 0,
       "complete_tickets": 0,
-      "generated_at": "2026-07-19T09:37:31.081536+00:00"
+      "generated_at": "2026-07-26T10:22:43.371503+00:00"
     },
     {
       "epic_key": "PAR-193",
@@ -3214,7 +3214,7 @@
       "total_cost_egp": 0,
       "total_tickets": 0,
       "complete_tickets": 0,
-      "generated_at": "2026-07-19T09:37:31.362943+00:00"
+      "generated_at": "2026-07-26T10:22:43.665851+00:00"
     },
     {
       "epic_key": "PAR-194",
@@ -3226,7 +3226,7 @@
       "total_cost_egp": 0,
       "total_tickets": 0,
       "complete_tickets": 0,
-      "generated_at": "2026-07-19T09:37:31.618361+00:00"
+      "generated_at": "2026-07-26T10:22:43.929610+00:00"
     },
     {
       "epic_key": "PAR-2",
@@ -3238,7 +3238,7 @@
       "total_cost_egp": 11375.0,
       "total_tickets": 1,
       "complete_tickets": 1,
-      "generated_at": "2026-07-19T09:37:14.300390+00:00"
+      "generated_at": "2026-07-26T10:22:28.813918+00:00"
     },
     {
       "epic_key": "PAR-256",
@@ -3250,7 +3250,7 @@
       "total_cost_egp": 458115.0,
       "total_tickets": 10,
       "complete_tickets": 7,
-      "generated_at": "2026-07-19T09:37:34.896338+00:00"
+      "generated_at": "2026-07-26T10:22:47.226412+00:00"
     },
     {
       "epic_key": "PAR-2880",
@@ -3262,7 +3262,7 @@
       "total_cost_egp": 478415.0,
       "total_tickets": 41,
       "complete_tickets": 37,
-      "generated_at": "2026-07-19T09:37:54.816852+00:00"
+      "generated_at": "2026-07-26T10:23:10.003774+00:00"
     },
     {
       "epic_key": "PAR-2916",
@@ -3274,7 +3274,7 @@
       "total_cost_egp": 662585.0,
       "total_tickets": 39,
       "complete_tickets": 32,
-      "generated_at": "2026-07-19T09:38:07.432678+00:00"
+      "generated_at": "2026-07-26T10:23:24.299321+00:00"
     },
     {
       "epic_key": "PAR-3",
@@ -3286,7 +3286,7 @@
       "total_cost_egp": 600950.0,
       "total_tickets": 9,
       "complete_tickets": 7,
-      "generated_at": "2026-07-19T09:37:19.192846+00:00"
+      "generated_at": "2026-07-26T10:22:32.029047+00:00"
     },
     {
       "epic_key": "PAR-314",
@@ -3298,7 +3298,7 @@
       "total_cost_egp": 0.0,
       "total_tickets": 1,
       "complete_tickets": 0,
-      "generated_at": "2026-07-19T09:37:35.457607+00:00"
+      "generated_at": "2026-07-26T10:22:47.861096+00:00"
     },
     {
       "epic_key": "PAR-345",
@@ -3310,7 +3310,7 @@
       "total_cost_egp": 247135.0,
       "total_tickets": 4,
       "complete_tickets": 4,
-      "generated_at": "2026-07-19T09:37:37.246262+00:00"
+      "generated_at": "2026-07-26T10:22:49.817074+00:00"
     },
     {
       "epic_key": "PAR-377",
@@ -3322,7 +3322,7 @@
       "total_cost_egp": 4690.0,
       "total_tickets": 4,
       "complete_tickets": 4,
-      "generated_at": "2026-07-19T09:37:38.700832+00:00"
+      "generated_at": "2026-07-26T10:22:51.585389+00:00"
     },
     {
       "epic_key": "PAR-4",
@@ -3334,7 +3334,7 @@
       "total_cost_egp": 62300.0,
       "total_tickets": 2,
       "complete_tickets": 2,
-      "generated_at": "2026-07-19T09:37:20.384181+00:00"
+      "generated_at": "2026-07-26T10:22:32.984618+00:00"
     },
     {
       "epic_key": "PAR-403",
@@ -3346,7 +3346,7 @@
       "total_cost_egp": 0.0,
       "total_tickets": 1,
       "complete_tickets": 1,
-      "generated_at": "2026-07-19T09:37:39.245478+00:00"
+      "generated_at": "2026-07-26T10:22:52.287312+00:00"
     },
     {
       "epic_key": "PAR-4052",
@@ -3358,7 +3358,7 @@
       "total_cost_egp": 0.0,
       "total_tickets": 5,
       "complete_tickets": 0,
-      "generated_at": "2026-07-19T09:38:09.560848+00:00"
+      "generated_at": "2026-07-26T10:23:26.063442+00:00"
     },
     {
       "epic_key": "PAR-4070",
@@ -3370,7 +3370,7 @@
       "total_cost_egp": 0.0,
       "total_tickets": 3,
       "complete_tickets": 0,
-      "generated_at": "2026-07-19T09:38:10.621211+00:00"
+      "generated_at": "2026-07-26T10:23:27.275896+00:00"
     },
     {
       "epic_key": "PAR-4075",
@@ -3382,7 +3382,7 @@
       "total_cost_egp": 16835.0,
       "total_tickets": 6,
       "complete_tickets": 1,
-      "generated_at": "2026-07-19T09:38:12.525698+00:00"
+      "generated_at": "2026-07-26T10:23:29.395098+00:00"
     },
     {
       "epic_key": "PAR-4137",
@@ -3394,7 +3394,7 @@
       "total_cost_egp": 103215.0,
       "total_tickets": 5,
       "complete_tickets": 3,
-      "generated_at": "2026-07-19T09:38:15.450116+00:00"
+      "generated_at": "2026-07-26T10:23:31.430000+00:00"
     },
     {
       "epic_key": "PAR-4139",
@@ -3406,7 +3406,7 @@
       "total_cost_egp": 582680.0,
       "total_tickets": 26,
       "complete_tickets": 20,
-      "generated_at": "2026-07-19T09:38:24.394851+00:00"
+      "generated_at": "2026-07-26T10:23:41.128977+00:00"
     },
     {
       "epic_key": "PAR-4142",
@@ -3418,7 +3418,7 @@
       "total_cost_egp": 99890.0,
       "total_tickets": 5,
       "complete_tickets": 2,
-      "generated_at": "2026-07-19T09:38:26.250136+00:00"
+      "generated_at": "2026-07-26T10:23:43.118638+00:00"
     },
     {
       "epic_key": "PAR-4145",
@@ -3426,11 +3426,11 @@
       "project_key": "PAR",
       "project_name": "Partners",
       "epic_created": "2026-02-25T15:05:53.385+0200",
-      "total_net_days": 199.76,
-      "total_cost_egp": 699160.0,
+      "total_net_days": 207.95,
+      "total_cost_egp": 727825.0,
       "total_tickets": 6,
       "complete_tickets": 1,
-      "generated_at": "2026-07-19T09:38:28.801607+00:00"
+      "generated_at": "2026-07-26T10:23:45.451678+00:00"
     },
     {
       "epic_key": "PAR-4148",
@@ -3442,7 +3442,7 @@
       "total_cost_egp": 0,
       "total_tickets": 0,
       "complete_tickets": 0,
-      "generated_at": "2026-07-19T09:38:29.065674+00:00"
+      "generated_at": "2026-07-26T10:23:46.009410+00:00"
     },
     {
       "epic_key": "PAR-4151",
@@ -3450,11 +3450,11 @@
       "project_key": "PAR",
       "project_name": "Partners",
       "epic_created": "2026-02-25T15:10:59.621+0200",
-      "total_net_days": 246.06,
-      "total_cost_egp": 861210.0,
+      "total_net_days": 254.24,
+      "total_cost_egp": 889840.0,
       "total_tickets": 33,
       "complete_tickets": 25,
-      "generated_at": "2026-07-19T09:38:39.907616+00:00"
+      "generated_at": "2026-07-26T10:23:57.198812+00:00"
     },
     {
       "epic_key": "PAR-4155",
@@ -3466,7 +3466,7 @@
       "total_cost_egp": 118510.0,
       "total_tickets": 7,
       "complete_tickets": 6,
-      "generated_at": "2026-07-19T09:38:42.479911+00:00"
+      "generated_at": "2026-07-26T10:23:59.946475+00:00"
     },
     {
       "epic_key": "PAR-4157",
@@ -3478,7 +3478,7 @@
       "total_cost_egp": 251160.0,
       "total_tickets": 11,
       "complete_tickets": 11,
-      "generated_at": "2026-07-19T09:38:46.530347+00:00"
+      "generated_at": "2026-07-26T10:24:03.926403+00:00"
     },
     {
       "epic_key": "PAR-4158",
@@ -3490,7 +3490,7 @@
       "total_cost_egp": 0.0,
       "total_tickets": 8,
       "complete_tickets": 0,
-      "generated_at": "2026-07-22T12:15:28.868543+00:00"
+      "generated_at": "2026-07-26T10:24:06.772930+00:00"
     },
     {
       "epic_key": "PAR-4161",
@@ -3502,7 +3502,7 @@
       "total_cost_egp": 0.0,
       "total_tickets": 5,
       "complete_tickets": 0,
-      "generated_at": "2026-07-19T09:38:51.136446+00:00"
+      "generated_at": "2026-07-26T10:24:08.954245+00:00"
     },
     {
       "epic_key": "PAR-4166",
@@ -3514,7 +3514,7 @@
       "total_cost_egp": 0.0,
       "total_tickets": 3,
       "complete_tickets": 0,
-      "generated_at": "2026-07-19T09:38:52.258968+00:00"
+      "generated_at": "2026-07-26T10:24:10.142473+00:00"
     },
     {
       "epic_key": "PAR-417",
@@ -3526,7 +3526,7 @@
       "total_cost_egp": 154140.0,
       "total_tickets": 6,
       "complete_tickets": 6,
-      "generated_at": "2026-07-19T09:37:41.139929+00:00"
+      "generated_at": "2026-07-26T10:22:54.854366+00:00"
     },
     {
       "epic_key": "PAR-4180",
@@ -3538,7 +3538,7 @@
       "total_cost_egp": 26600.0,
       "total_tickets": 1,
       "complete_tickets": 1,
-      "generated_at": "2026-07-19T09:38:52.845341+00:00"
+      "generated_at": "2026-07-26T10:24:10.759507+00:00"
     },
     {
       "epic_key": "PAR-451",
@@ -3550,7 +3550,7 @@
       "total_cost_egp": 0,
       "total_tickets": 0,
       "complete_tickets": 0,
-      "generated_at": "2026-07-19T09:37:41.390824+00:00"
+      "generated_at": "2026-07-26T10:22:55.129578+00:00"
     },
     {
       "epic_key": "PAR-4610",
@@ -3594,11 +3594,11 @@
       "project_key": "PAR",
       "project_name": "Partners",
       "epic_created": "2026-05-20T14:13:00.688+0300",
-      "total_net_days": 36.66,
-      "total_cost_egp": 128310.0,
+      "total_net_days": 44.69,
+      "total_cost_egp": 156415.0,
       "total_tickets": 14,
       "complete_tickets": 4,
-      "generated_at": "2026-07-23T12:11:38.271127+00:00"
+      "generated_at": "2026-07-26T10:24:16.070387+00:00"
     },
     {
       "epic_key": "PAR-4762",
@@ -3622,7 +3622,7 @@
       "total_cost_egp": 0.0,
       "total_tickets": 6,
       "complete_tickets": 0,
-      "generated_at": "2026-07-23T12:12:22.742765+00:00"
+      "generated_at": "2026-07-26T10:24:18.297374+00:00"
     },
     {
       "epic_key": "PAR-4978",
@@ -3654,11 +3654,11 @@
       "project_key": "PAR",
       "project_name": "Partners",
       "epic_created": "2026-07-15T13:56:32.866+0300",
-      "total_net_days": 0.83,
-      "total_cost_egp": 2905.0,
+      "total_net_days": 3.45,
+      "total_cost_egp": 12075.0,
       "total_tickets": 1,
       "complete_tickets": 0,
-      "generated_at": "2026-07-20T13:27:00.625849+00:00"
+      "generated_at": "2026-07-26T10:24:18.918955+00:00"
     },
     {
       "epic_key": "PAR-5041",
@@ -3670,7 +3670,7 @@
       "total_cost_egp": 0.0,
       "total_tickets": 4,
       "complete_tickets": 0,
-      "generated_at": "2026-07-23T12:11:52.421596+00:00"
+      "generated_at": "2026-07-26T10:24:20.446895+00:00"
     },
     {
       "epic_key": "PAR-53",
@@ -3682,7 +3682,7 @@
       "total_cost_egp": 462210.0,
       "total_tickets": 15,
       "complete_tickets": 15,
-      "generated_at": "2026-07-19T09:37:25.128191+00:00"
+      "generated_at": "2026-07-26T10:22:37.872679+00:00"
     },
     {
       "epic_key": "PAR-54",
@@ -3694,7 +3694,7 @@
       "total_cost_egp": 164010.0,
       "total_tickets": 5,
       "complete_tickets": 5,
-      "generated_at": "2026-07-19T09:37:27.178700+00:00"
+      "generated_at": "2026-07-26T10:22:39.667737+00:00"
     },
     {
       "epic_key": "PAR-65",
@@ -3706,7 +3706,7 @@
       "total_cost_egp": 0.0,
       "total_tickets": 1,
       "complete_tickets": 1,
-      "generated_at": "2026-07-19T09:37:28.049596+00:00"
+      "generated_at": "2026-07-26T10:22:40.454728+00:00"
     },
     {
       "epic_key": "PAR-71",
@@ -3718,7 +3718,7 @@
       "total_cost_egp": 0,
       "total_tickets": 0,
       "complete_tickets": 0,
-      "generated_at": "2026-07-19T09:37:28.325254+00:00"
+      "generated_at": "2026-07-26T10:22:40.718611+00:00"
     },
     {
       "epic_key": "PAR-91",
@@ -3730,7 +3730,7 @@
       "total_cost_egp": 222810.0,
       "total_tickets": 7,
       "complete_tickets": 7,
-      "generated_at": "2026-07-19T09:37:30.822681+00:00"
+      "generated_at": "2026-07-26T10:22:43.101440+00:00"
     },
     {
       "epic_key": "PSQ-137",
@@ -3742,7 +3742,7 @@
       "total_cost_egp": 74235.0,
       "total_tickets": 9,
       "complete_tickets": 7,
-      "generated_at": "2026-07-22T12:15:36.962227+00:00"
+      "generated_at": "2026-07-26T10:24:25.573822+00:00"
     },
     {
       "epic_key": "PSQ-170",
@@ -3754,7 +3754,7 @@
       "total_cost_egp": 40635.0,
       "total_tickets": 5,
       "complete_tickets": 5,
-      "generated_at": "2026-07-19T09:39:06.826581+00:00"
+      "generated_at": "2026-07-26T10:24:27.462739+00:00"
     },
     {
       "epic_key": "PSQ-228",
@@ -3766,7 +3766,7 @@
       "total_cost_egp": 99470.0,
       "total_tickets": 4,
       "complete_tickets": 4,
-      "generated_at": "2026-07-19T09:39:08.314019+00:00"
+      "generated_at": "2026-07-26T10:24:29.036199+00:00"
     },
     {
       "epic_key": "PSQ-263",
@@ -3790,7 +3790,7 @@
       "total_cost_egp": 0.0,
       "total_tickets": 6,
       "complete_tickets": 0,
-      "generated_at": "2026-07-19T09:39:10.266415+00:00"
+      "generated_at": "2026-07-26T10:24:31.098300+00:00"
     },
     {
       "epic_key": "PSQ-281",
@@ -3802,7 +3802,7 @@
       "total_cost_egp": 0,
       "total_tickets": 0,
       "complete_tickets": 0,
-      "generated_at": "2026-07-19T09:39:10.488835+00:00"
+      "generated_at": "2026-07-26T10:24:31.373637+00:00"
     },
     {
       "epic_key": "PSQ-344",
@@ -3814,7 +3814,7 @@
       "total_cost_egp": 26705.0,
       "total_tickets": 4,
       "complete_tickets": 4,
-      "generated_at": "2026-07-19T09:39:11.900088+00:00"
+      "generated_at": "2026-07-26T10:24:32.913811+00:00"
     },
     {
       "epic_key": "PSQ-362",
@@ -3826,7 +3826,7 @@
       "total_cost_egp": 32095.0,
       "total_tickets": 5,
       "complete_tickets": 5,
-      "generated_at": "2026-07-19T09:39:13.582030+00:00"
+      "generated_at": "2026-07-26T10:24:34.719214+00:00"
     },
     {
       "epic_key": "PSQ-4",
@@ -3834,11 +3834,11 @@
       "project_key": "PSQ",
       "project_name": "Platform Squad",
       "epic_created": "2025-11-19T12:51:37.894+0200",
-      "total_net_days": 168.96,
-      "total_cost_egp": 591360.0,
+      "total_net_days": 173.06,
+      "total_cost_egp": 605710.0,
       "total_tickets": 5,
       "complete_tickets": 4,
-      "generated_at": "2026-07-19T09:39:02.175911+00:00"
+      "generated_at": "2026-07-26T10:24:22.525696+00:00"
     },
     {
       "epic_key": "PSQ-424",
@@ -3874,7 +3874,7 @@
       "total_cost_egp": 0,
       "total_tickets": 0,
       "complete_tickets": 0,
-      "generated_at": "2026-07-19T09:39:14.109009+00:00"
+      "generated_at": "2026-07-26T10:24:34.987651+00:00"
     },
     {
       "epic_key": "PSQ-618",
@@ -3886,7 +3886,7 @@
       "total_cost_egp": 0.0,
       "total_tickets": 3,
       "complete_tickets": 3,
-      "generated_at": "2026-07-19T09:39:15.365207+00:00"
+      "generated_at": "2026-07-26T10:24:36.152498+00:00"
     },
     {
       "epic_key": "PSQ-725",
@@ -3958,7 +3958,7 @@
       "total_cost_egp": 34370.0,
       "total_tickets": 4,
       "complete_tickets": 3,
-      "generated_at": "2026-07-19T09:32:05.688932+00:00"
+      "generated_at": "2026-07-26T10:17:15.984428+00:00"
     },
     {
       "epic_key": "SC-1325",
@@ -3970,7 +3970,7 @@
       "total_cost_egp": 173390.0,
       "total_tickets": 7,
       "complete_tickets": 5,
-      "generated_at": "2026-07-19T09:33:46.083038+00:00"
+      "generated_at": "2026-07-26T10:18:52.367641+00:00"
     },
     {
       "epic_key": "SC-1326",
@@ -3982,7 +3982,7 @@
       "total_cost_egp": 101150.0,
       "total_tickets": 4,
       "complete_tickets": 4,
-      "generated_at": "2026-07-19T09:33:47.802762+00:00"
+      "generated_at": "2026-07-26T10:18:54.277771+00:00"
     },
     {
       "epic_key": "SC-1327",
@@ -3994,7 +3994,7 @@
       "total_cost_egp": 0.0,
       "total_tickets": 1,
       "complete_tickets": 0,
-      "generated_at": "2026-07-23T12:12:50.909340+00:00"
+      "generated_at": "2026-07-26T10:18:54.959575+00:00"
     },
     {
       "epic_key": "SC-1328",
@@ -4006,7 +4006,7 @@
       "total_cost_egp": 31045.0,
       "total_tickets": 2,
       "complete_tickets": 1,
-      "generated_at": "2026-07-19T09:33:49.629337+00:00"
+      "generated_at": "2026-07-26T10:18:55.998349+00:00"
     },
     {
       "epic_key": "SC-1329",
@@ -4018,7 +4018,7 @@
       "total_cost_egp": 0.0,
       "total_tickets": 2,
       "complete_tickets": 2,
-      "generated_at": "2026-07-19T09:33:50.784302+00:00"
+      "generated_at": "2026-07-26T10:18:56.968755+00:00"
     },
     {
       "epic_key": "SC-1331",
@@ -4030,7 +4030,7 @@
       "total_cost_egp": 0.0,
       "total_tickets": 1,
       "complete_tickets": 0,
-      "generated_at": "2026-07-19T09:33:51.362061+00:00"
+      "generated_at": "2026-07-26T10:18:57.554877+00:00"
     },
     {
       "epic_key": "SC-1332",
@@ -4042,7 +4042,7 @@
       "total_cost_egp": 0.0,
       "total_tickets": 1,
       "complete_tickets": 0,
-      "generated_at": "2026-07-19T09:33:51.960961+00:00"
+      "generated_at": "2026-07-26T10:18:58.135940+00:00"
     },
     {
       "epic_key": "SC-1333",
@@ -4054,7 +4054,7 @@
       "total_cost_egp": 0.0,
       "total_tickets": 1,
       "complete_tickets": 0,
-      "generated_at": "2026-07-19T09:33:52.551236+00:00"
+      "generated_at": "2026-07-26T10:18:58.865003+00:00"
     },
     {
       "epic_key": "SC-1334",
@@ -4066,7 +4066,7 @@
       "total_cost_egp": 12810.0,
       "total_tickets": 3,
       "complete_tickets": 1,
-      "generated_at": "2026-07-19T09:33:53.733399+00:00"
+      "generated_at": "2026-07-26T10:19:00.178472+00:00"
     },
     {
       "epic_key": "SC-1335",
@@ -4078,7 +4078,7 @@
       "total_cost_egp": 90895.0,
       "total_tickets": 7,
       "complete_tickets": 1,
-      "generated_at": "2026-07-19T09:33:56.269372+00:00"
+      "generated_at": "2026-07-26T10:19:02.943894+00:00"
     },
     {
       "epic_key": "SC-1336",
@@ -4090,7 +4090,7 @@
       "total_cost_egp": 0.0,
       "total_tickets": 2,
       "complete_tickets": 0,
-      "generated_at": "2026-07-23T12:11:58.156724+00:00"
+      "generated_at": "2026-07-26T10:19:03.944844+00:00"
     },
     {
       "epic_key": "SC-1337",
@@ -4102,7 +4102,7 @@
       "total_cost_egp": 0,
       "total_tickets": 0,
       "complete_tickets": 0,
-      "generated_at": "2026-07-19T09:33:57.456929+00:00"
+      "generated_at": "2026-07-26T10:19:04.261697+00:00"
     },
     {
       "epic_key": "SC-1370",
@@ -4114,7 +4114,7 @@
       "total_cost_egp": 176330.0,
       "total_tickets": 11,
       "complete_tickets": 9,
-      "generated_at": "2026-07-19T09:34:01.259126+00:00"
+      "generated_at": "2026-07-26T10:19:08.304560+00:00"
     },
     {
       "epic_key": "SC-1384",
@@ -4126,7 +4126,7 @@
       "total_cost_egp": 61985.0,
       "total_tickets": 5,
       "complete_tickets": 4,
-      "generated_at": "2026-07-19T09:34:03.127853+00:00"
+      "generated_at": "2026-07-26T10:19:10.288365+00:00"
     },
     {
       "epic_key": "SC-1479",
@@ -4134,11 +4134,11 @@
       "project_key": "SC",
       "project_name": "Suite Control ",
       "epic_created": "2026-03-30T22:13:10.881+0200",
-      "total_net_days": 504.15,
-      "total_cost_egp": 1764525.0,
+      "total_net_days": 528.73,
+      "total_cost_egp": 1850555.0,
       "total_tickets": 35,
       "complete_tickets": 22,
-      "generated_at": "2026-07-19T09:34:14.199272+00:00"
+      "generated_at": "2026-07-26T10:19:21.982560+00:00"
     },
     {
       "epic_key": "SC-15",
@@ -4150,7 +4150,7 @@
       "total_cost_egp": 27895.0,
       "total_tickets": 6,
       "complete_tickets": 4,
-      "generated_at": "2026-07-19T09:32:09.194707+00:00"
+      "generated_at": "2026-07-26T10:17:18.257830+00:00"
     },
     {
       "epic_key": "SC-1525",
@@ -4162,7 +4162,7 @@
       "total_cost_egp": 44275.0,
       "total_tickets": 10,
       "complete_tickets": 10,
-      "generated_at": "2026-07-21T12:10:52.271193+00:00"
+      "generated_at": "2026-07-26T10:19:26.092239+00:00"
     },
     {
       "epic_key": "SC-1545",
@@ -4174,7 +4174,7 @@
       "total_cost_egp": 47075.0,
       "total_tickets": 7,
       "complete_tickets": 6,
-      "generated_at": "2026-07-19T09:34:20.302599+00:00"
+      "generated_at": "2026-07-26T10:19:28.633860+00:00"
     },
     {
       "epic_key": "SC-17",
@@ -4186,7 +4186,7 @@
       "total_cost_egp": 28175.0,
       "total_tickets": 2,
       "complete_tickets": 2,
-      "generated_at": "2026-07-19T09:32:10.223639+00:00"
+      "generated_at": "2026-07-26T10:17:19.687724+00:00"
     },
     {
       "epic_key": "SC-1866",
@@ -4270,7 +4270,7 @@
       "total_cost_egp": 73850.0,
       "total_tickets": 15,
       "complete_tickets": 10,
-      "generated_at": "2026-07-22T12:14:27.855523+00:00"
+      "generated_at": "2026-07-26T10:19:33.497705+00:00"
     },
     {
       "epic_key": "SC-1917",
@@ -4318,7 +4318,7 @@
       "total_cost_egp": 0.0,
       "total_tickets": 19,
       "complete_tickets": 0,
-      "generated_at": "2026-07-22T12:14:07.587970+00:00"
+      "generated_at": "2026-07-26T10:19:38.884864+00:00"
     },
     {
       "epic_key": "SC-1971",
@@ -4426,7 +4426,7 @@
       "total_cost_egp": 46165.0,
       "total_tickets": 19,
       "complete_tickets": 12,
-      "generated_at": "2026-07-19T09:32:19.130476+00:00"
+      "generated_at": "2026-07-26T10:17:27.377927+00:00"
     },
     {
       "epic_key": "SC-28",
@@ -4438,7 +4438,7 @@
       "total_cost_egp": 102865.0,
       "total_tickets": 7,
       "complete_tickets": 6,
-      "generated_at": "2026-07-19T09:32:22.338842+00:00"
+      "generated_at": "2026-07-26T10:17:30.916443+00:00"
     },
     {
       "epic_key": "SC-30",
@@ -4450,7 +4450,7 @@
       "total_cost_egp": 169225.0,
       "total_tickets": 19,
       "complete_tickets": 16,
-      "generated_at": "2026-07-19T09:32:29.831490+00:00"
+      "generated_at": "2026-07-26T10:17:39.175887+00:00"
     },
     {
       "epic_key": "SC-32",
@@ -4462,7 +4462,7 @@
       "total_cost_egp": 85575.0,
       "total_tickets": 5,
       "complete_tickets": 5,
-      "generated_at": "2026-07-19T09:32:32.565664+00:00"
+      "generated_at": "2026-07-26T10:17:41.563395+00:00"
     },
     {
       "epic_key": "SC-377",
@@ -4474,7 +4474,7 @@
       "total_cost_egp": 802760.0,
       "total_tickets": 52,
       "complete_tickets": 43,
-      "generated_at": "2026-07-23T12:12:06.652090+00:00"
+      "generated_at": "2026-07-26T10:18:14.511311+00:00"
     },
     {
       "epic_key": "SC-386",
@@ -4486,7 +4486,7 @@
       "total_cost_egp": 606235.0,
       "total_tickets": 31,
       "complete_tickets": 27,
-      "generated_at": "2026-07-23T12:12:04.393210+00:00"
+      "generated_at": "2026-07-26T10:18:26.761575+00:00"
     },
     {
       "epic_key": "SC-438",
@@ -4498,7 +4498,7 @@
       "total_cost_egp": 263445.0,
       "total_tickets": 9,
       "complete_tickets": 9,
-      "generated_at": "2026-07-19T09:33:25.945861+00:00"
+      "generated_at": "2026-07-26T10:18:30.298655+00:00"
     },
     {
       "epic_key": "SC-452",
@@ -4510,7 +4510,7 @@
       "total_cost_egp": 0,
       "total_tickets": 0,
       "complete_tickets": 0,
-      "generated_at": "2026-07-19T09:33:26.218736+00:00"
+      "generated_at": "2026-07-26T10:18:30.668058+00:00"
     },
     {
       "epic_key": "SC-58",
@@ -4518,11 +4518,11 @@
       "project_key": "SC",
       "project_name": "Suite Control ",
       "epic_created": "2025-04-07T09:32:55.040+0200",
-      "total_net_days": 462.19,
-      "total_cost_egp": 1617665.0,
+      "total_net_days": 466.29,
+      "total_cost_egp": 1632015.0,
       "total_tickets": 38,
       "complete_tickets": 35,
-      "generated_at": "2026-07-19T09:32:46.071726+00:00"
+      "generated_at": "2026-07-26T10:17:54.543746+00:00"
     },
     {
       "epic_key": "SC-65",
@@ -4534,7 +4534,7 @@
       "total_cost_egp": 0,
       "total_tickets": 0,
       "complete_tickets": 0,
-      "generated_at": "2026-07-19T09:32:46.661602+00:00"
+      "generated_at": "2026-07-26T10:17:54.811148+00:00"
     },
     {
       "epic_key": "SC-820",
@@ -4546,7 +4546,7 @@
       "total_cost_egp": 0.0,
       "total_tickets": 1,
       "complete_tickets": 0,
-      "generated_at": "2026-07-19T09:33:27.108204+00:00"
+      "generated_at": "2026-07-26T10:18:31.375520+00:00"
     },
     {
       "epic_key": "SC-867",
@@ -4558,7 +4558,7 @@
       "total_cost_egp": 304500.0,
       "total_tickets": 19,
       "complete_tickets": 12,
-      "generated_at": "2026-07-19T09:33:33.982701+00:00"
+      "generated_at": "2026-07-26T10:18:38.597163+00:00"
     },
     {
       "epic_key": "SC-874",
@@ -4570,7 +4570,7 @@
       "total_cost_egp": 99155.0,
       "total_tickets": 4,
       "complete_tickets": 3,
-      "generated_at": "2026-07-19T09:33:35.615187+00:00"
+      "generated_at": "2026-07-26T10:18:40.362014+00:00"
     },
     {
       "epic_key": "SC-878",
@@ -4578,11 +4578,11 @@
       "project_key": "SC",
       "project_name": "Suite Control ",
       "epic_created": "2025-11-24T19:24:06.118+0200",
-      "total_net_days": 36.17,
-      "total_cost_egp": 126595.0,
+      "total_net_days": 36.71,
+      "total_cost_egp": 128485.0,
       "total_tickets": 14,
       "complete_tickets": 7,
-      "generated_at": "2026-07-23T12:11:35.211661+00:00"
+      "generated_at": "2026-07-26T10:18:45.555052+00:00"
     },
     {
       "epic_key": "SC-892",
@@ -4594,7 +4594,7 @@
       "total_cost_egp": 178570.0,
       "total_tickets": 9,
       "complete_tickets": 3,
-      "generated_at": "2026-07-19T09:33:43.484324+00:00"
+      "generated_at": "2026-07-26T10:18:48.976858+00:00"
     },
     {
       "epic_key": "SP-1081",
@@ -4606,7 +4606,7 @@
       "total_cost_egp": 941605.0,
       "total_tickets": 19,
       "complete_tickets": 17,
-      "generated_at": "2026-07-19T09:47:44.590860+00:00"
+      "generated_at": "2026-07-26T10:33:30.398077+00:00"
     },
     {
       "epic_key": "SP-1333",
@@ -4618,7 +4618,7 @@
       "total_cost_egp": 339395.0,
       "total_tickets": 18,
       "complete_tickets": 12,
-      "generated_at": "2026-07-19T09:47:50.402048+00:00"
+      "generated_at": "2026-07-26T10:33:36.563243+00:00"
     },
     {
       "epic_key": "SP-1390",
@@ -4630,7 +4630,7 @@
       "total_cost_egp": 542325.0,
       "total_tickets": 1,
       "complete_tickets": 0,
-      "generated_at": "2026-07-22T12:14:10.650702+00:00"
+      "generated_at": "2026-07-26T10:33:37.262462+00:00"
     },
     {
       "epic_key": "SP-1393",
@@ -4642,7 +4642,7 @@
       "total_cost_egp": 557340.0,
       "total_tickets": 6,
       "complete_tickets": 6,
-      "generated_at": "2026-07-19T09:47:53.252031+00:00"
+      "generated_at": "2026-07-26T10:33:39.810571+00:00"
     },
     {
       "epic_key": "SP-1395",
@@ -4654,7 +4654,7 @@
       "total_cost_egp": 886235.0,
       "total_tickets": 18,
       "complete_tickets": 15,
-      "generated_at": "2026-07-19T09:47:59.000415+00:00"
+      "generated_at": "2026-07-26T10:33:46.134436+00:00"
     },
     {
       "epic_key": "SP-1396",
@@ -4666,7 +4666,7 @@
       "total_cost_egp": 100380.0,
       "total_tickets": 3,
       "complete_tickets": 3,
-      "generated_at": "2026-07-19T09:48:00.196840+00:00"
+      "generated_at": "2026-07-26T10:33:47.449433+00:00"
     },
     {
       "epic_key": "SP-1397",
@@ -4678,7 +4678,7 @@
       "total_cost_egp": 152705.0,
       "total_tickets": 5,
       "complete_tickets": 5,
-      "generated_at": "2026-07-19T09:48:01.864232+00:00"
+      "generated_at": "2026-07-26T10:33:49.242771+00:00"
     },
     {
       "epic_key": "SP-14",
@@ -4690,7 +4690,7 @@
       "total_cost_egp": 0,
       "total_tickets": 0,
       "complete_tickets": 0,
-      "generated_at": "2026-07-19T09:47:22.316093+00:00"
+      "generated_at": "2026-07-26T10:33:07.280236+00:00"
     },
     {
       "epic_key": "SP-1400",
@@ -4702,7 +4702,7 @@
       "total_cost_egp": 968730.0,
       "total_tickets": 5,
       "complete_tickets": 5,
-      "generated_at": "2026-07-19T09:48:03.781669+00:00"
+      "generated_at": "2026-07-26T10:33:51.214641+00:00"
     },
     {
       "epic_key": "SP-1441",
@@ -4714,7 +4714,7 @@
       "total_cost_egp": 1277325.0,
       "total_tickets": 21,
       "complete_tickets": 20,
-      "generated_at": "2026-07-19T09:48:10.357092+00:00"
+      "generated_at": "2026-07-26T10:33:58.282867+00:00"
     },
     {
       "epic_key": "SP-1442",
@@ -4726,7 +4726,7 @@
       "total_cost_egp": 0.0,
       "total_tickets": 1,
       "complete_tickets": 0,
-      "generated_at": "2026-07-19T09:48:10.936352+00:00"
+      "generated_at": "2026-07-26T10:33:59.188788+00:00"
     },
     {
       "epic_key": "SP-1443",
@@ -4738,7 +4738,7 @@
       "total_cost_egp": 73815.0,
       "total_tickets": 4,
       "complete_tickets": 3,
-      "generated_at": "2026-07-23T12:11:46.625309+00:00"
+      "generated_at": "2026-07-26T10:34:00.717208+00:00"
     },
     {
       "epic_key": "SP-1487",
@@ -4750,7 +4750,7 @@
       "total_cost_egp": 173845.0,
       "total_tickets": 3,
       "complete_tickets": 2,
-      "generated_at": "2026-07-19T09:48:14.115621+00:00"
+      "generated_at": "2026-07-26T10:34:01.928002+00:00"
     },
     {
       "epic_key": "SP-1674",
@@ -4758,11 +4758,11 @@
       "project_key": "SP",
       "project_name": "Sales Portal",
       "epic_created": "2026-02-02T11:23:12.625+0200",
-      "total_net_days": 111.96,
-      "total_cost_egp": 391860.0,
+      "total_net_days": 116.05,
+      "total_cost_egp": 406175.0,
       "total_tickets": 1,
       "complete_tickets": 0,
-      "generated_at": "2026-07-19T09:48:14.751164+00:00"
+      "generated_at": "2026-07-26T10:34:02.567768+00:00"
     },
     {
       "epic_key": "SP-1676",
@@ -4774,7 +4774,7 @@
       "total_cost_egp": 0.0,
       "total_tickets": 1,
       "complete_tickets": 1,
-      "generated_at": "2026-07-19T09:48:15.392882+00:00"
+      "generated_at": "2026-07-26T10:34:03.171699+00:00"
     },
     {
       "epic_key": "SP-1710",
@@ -4786,7 +4786,7 @@
       "total_cost_egp": 0.0,
       "total_tickets": 7,
       "complete_tickets": 0,
-      "generated_at": "2026-07-19T09:48:17.822472+00:00"
+      "generated_at": "2026-07-26T10:34:05.365093+00:00"
     },
     {
       "epic_key": "SP-1718",
@@ -4798,7 +4798,7 @@
       "total_cost_egp": 0.0,
       "total_tickets": 1,
       "complete_tickets": 0,
-      "generated_at": "2026-07-19T09:48:18.509196+00:00"
+      "generated_at": "2026-07-26T10:34:05.968426+00:00"
     },
     {
       "epic_key": "SP-1720",
@@ -4810,7 +4810,7 @@
       "total_cost_egp": 0,
       "total_tickets": 0,
       "complete_tickets": 0,
-      "generated_at": "2026-07-19T09:48:18.778841+00:00"
+      "generated_at": "2026-07-26T10:34:06.347271+00:00"
     },
     {
       "epic_key": "SP-1721",
@@ -4822,7 +4822,7 @@
       "total_cost_egp": 0,
       "total_tickets": 0,
       "complete_tickets": 0,
-      "generated_at": "2026-07-19T09:48:19.076343+00:00"
+      "generated_at": "2026-07-26T10:34:06.618639+00:00"
     },
     {
       "epic_key": "SP-1776",
@@ -4834,7 +4834,7 @@
       "total_cost_egp": 80500.0,
       "total_tickets": 1,
       "complete_tickets": 1,
-      "generated_at": "2026-07-19T09:48:19.929606+00:00"
+      "generated_at": "2026-07-26T10:34:07.698843+00:00"
     },
     {
       "epic_key": "SP-1832",
@@ -4858,7 +4858,7 @@
       "total_cost_egp": 56875.0,
       "total_tickets": 34,
       "complete_tickets": 13,
-      "generated_at": "2026-07-24T11:58:13.630343+00:00"
+      "generated_at": "2026-07-26T10:34:18.817380+00:00"
     },
     {
       "epic_key": "SP-1883",
@@ -4894,7 +4894,7 @@
       "total_cost_egp": 40810.0,
       "total_tickets": 4,
       "complete_tickets": 1,
-      "generated_at": "2026-07-19T14:55:29.435087+00:00"
+      "generated_at": "2026-07-26T10:34:20.271207+00:00"
     },
     {
       "epic_key": "SP-1964",
@@ -4906,7 +4906,7 @@
       "total_cost_egp": 33460.0,
       "total_tickets": 1,
       "complete_tickets": 1,
-      "generated_at": "2026-07-19T09:48:32.843857+00:00"
+      "generated_at": "2026-07-26T10:34:20.896556+00:00"
     },
     {
       "epic_key": "SP-1965",
@@ -4918,7 +4918,7 @@
       "total_cost_egp": 7980.0,
       "total_tickets": 1,
       "complete_tickets": 1,
-      "generated_at": "2026-07-19T09:48:33.392604+00:00"
+      "generated_at": "2026-07-26T10:34:21.536771+00:00"
     },
     {
       "epic_key": "SP-1966",
@@ -4930,7 +4930,7 @@
       "total_cost_egp": 70000.0,
       "total_tickets": 2,
       "complete_tickets": 1,
-      "generated_at": "2026-07-21T12:10:39.801285+00:00"
+      "generated_at": "2026-07-26T10:34:22.671368+00:00"
     },
     {
       "epic_key": "SP-1967",
@@ -4942,7 +4942,7 @@
       "total_cost_egp": 0.0,
       "total_tickets": 1,
       "complete_tickets": 0,
-      "generated_at": "2026-07-19T09:48:34.873385+00:00"
+      "generated_at": "2026-07-26T10:34:23.230538+00:00"
     },
     {
       "epic_key": "SP-1968",
@@ -4954,7 +4954,7 @@
       "total_cost_egp": 0.0,
       "total_tickets": 1,
       "complete_tickets": 1,
-      "generated_at": "2026-07-19T09:48:35.479413+00:00"
+      "generated_at": "2026-07-26T10:34:23.853963+00:00"
     },
     {
       "epic_key": "SP-20",
@@ -4966,7 +4966,7 @@
       "total_cost_egp": 0.0,
       "total_tickets": 4,
       "complete_tickets": 4,
-      "generated_at": "2026-07-19T09:47:23.781301+00:00"
+      "generated_at": "2026-07-26T10:33:09.101266+00:00"
     },
     {
       "epic_key": "SP-2012",
@@ -4978,7 +4978,7 @@
       "total_cost_egp": 8995.0,
       "total_tickets": 12,
       "complete_tickets": 9,
-      "generated_at": "2026-07-23T12:12:09.817173+00:00"
+      "generated_at": "2026-07-26T10:34:27.571808+00:00"
     },
     {
       "epic_key": "SP-2030",
@@ -4990,7 +4990,7 @@
       "total_cost_egp": 0.0,
       "total_tickets": 2,
       "complete_tickets": 0,
-      "generated_at": "2026-07-20T13:27:47.280639+00:00"
+      "generated_at": "2026-07-26T10:34:28.482010+00:00"
     },
     {
       "epic_key": "SP-2033",
@@ -5002,7 +5002,7 @@
       "total_cost_egp": 0.0,
       "total_tickets": 1,
       "complete_tickets": 0,
-      "generated_at": "2026-07-19T09:48:40.478398+00:00"
+      "generated_at": "2026-07-26T10:34:29.059503+00:00"
     },
     {
       "epic_key": "SP-2034",
@@ -5010,11 +5010,11 @@
       "project_key": "SP",
       "project_name": "Sales Portal",
       "epic_created": "2026-07-14T12:27:24.533+0300",
-      "total_net_days": 1.44,
-      "total_cost_egp": 5040.0,
+      "total_net_days": 2.23,
+      "total_cost_egp": 7805.0,
       "total_tickets": 2,
       "complete_tickets": 0,
-      "generated_at": "2026-07-22T12:14:30.471400+00:00"
+      "generated_at": "2026-07-26T10:34:29.960365+00:00"
     },
     {
       "epic_key": "SP-2042",
@@ -5026,7 +5026,7 @@
       "total_cost_egp": 0.0,
       "total_tickets": 1,
       "complete_tickets": 0,
-      "generated_at": "2026-07-23T12:11:55.967844+00:00"
+      "generated_at": "2026-07-26T10:34:30.535932+00:00"
     },
     {
       "epic_key": "SP-2050",
@@ -5050,7 +5050,7 @@
       "total_cost_egp": 0.0,
       "total_tickets": 1,
       "complete_tickets": 0,
-      "generated_at": "2026-07-19T09:48:42.725490+00:00"
+      "generated_at": "2026-07-26T10:34:31.125681+00:00"
     },
     {
       "epic_key": "SP-2074",
@@ -5062,7 +5062,7 @@
       "total_cost_egp": 0.0,
       "total_tickets": 1,
       "complete_tickets": 0,
-      "generated_at": "2026-07-21T12:10:56.030353+00:00"
+      "generated_at": "2026-07-26T10:34:31.684691+00:00"
     },
     {
       "epic_key": "SP-2078",
@@ -5074,7 +5074,7 @@
       "total_cost_egp": 0.0,
       "total_tickets": 2,
       "complete_tickets": 0,
-      "generated_at": "2026-07-21T12:11:09.611238+00:00"
+      "generated_at": "2026-07-26T10:34:32.588696+00:00"
     },
     {
       "epic_key": "SP-2079",
@@ -5086,7 +5086,7 @@
       "total_cost_egp": 0.0,
       "total_tickets": 1,
       "complete_tickets": 0,
-      "generated_at": "2026-07-21T12:10:55.191636+00:00"
+      "generated_at": "2026-07-26T10:34:33.161075+00:00"
     },
     {
       "epic_key": "SP-2085",
@@ -5098,7 +5098,7 @@
       "total_cost_egp": 0.0,
       "total_tickets": 2,
       "complete_tickets": 0,
-      "generated_at": "2026-07-23T12:12:07.748333+00:00"
+      "generated_at": "2026-07-26T10:34:34.004066+00:00"
     },
     {
       "epic_key": "SP-21",
@@ -5106,11 +5106,11 @@
       "project_key": "SP",
       "project_name": "Sales Portal",
       "epic_created": "2023-08-15T15:26:17.378+0300",
-      "total_net_days": 160.6,
-      "total_cost_egp": 562100.0,
+      "total_net_days": 161.17,
+      "total_cost_egp": 564095.0,
       "total_tickets": 12,
       "complete_tickets": 9,
-      "generated_at": "2026-07-23T12:12:36.311424+00:00"
+      "generated_at": "2026-07-26T10:33:13.592212+00:00"
     },
     {
       "epic_key": "SP-240",
@@ -5122,7 +5122,7 @@
       "total_cost_egp": 73955.0,
       "total_tickets": 6,
       "complete_tickets": 6,
-      "generated_at": "2026-07-19T09:47:32.815099+00:00"
+      "generated_at": "2026-07-26T10:33:18.419835+00:00"
     },
     {
       "epic_key": "SP-308",
@@ -5134,7 +5134,7 @@
       "total_cost_egp": 337575.0,
       "total_tickets": 16,
       "complete_tickets": 16,
-      "generated_at": "2026-07-19T09:47:38.117704+00:00"
+      "generated_at": "2026-07-26T10:33:24.007316+00:00"
     },
     {
       "epic_key": "SP-40",
@@ -5146,7 +5146,7 @@
       "total_cost_egp": 66500.0,
       "total_tickets": 3,
       "complete_tickets": 3,
-      "generated_at": "2026-07-19T09:47:28.998149+00:00"
+      "generated_at": "2026-07-26T10:33:14.836665+00:00"
     },
     {
       "epic_key": "SP-64",
@@ -5158,8 +5158,8 @@
       "total_cost_egp": 214935.0,
       "total_tickets": 4,
       "complete_tickets": 4,
-      "generated_at": "2026-07-19T09:47:30.705400+00:00"
+      "generated_at": "2026-07-26T10:33:16.356993+00:00"
     }
   ],
-  "updated_at": "2026-07-25T10:53:55.671738+00:00"
+  "updated_at": "2026-07-26T10:36:45.704084+00:00"
 }

@@ -4,7 +4,7 @@
   "project_key": "PAR",
   "project_name": "Partners",
   "epic_created": "2026-07-13T13:01:38.924+0300",
-  "generated_at": "2026-07-23T12:12:22.742765+00:00",
+  "generated_at": "2026-07-26T10:24:18.297374+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 6,
   "complete_tickets": 0,
@@ -35,28 +35,6 @@
       "num_spans": 0
     },
     {
-      "key": "PAR-4959",
-      "summary": "[Partners List][AM] Manual dropping block, un-assignment risk flagging & comms",
-      "status": "Open",
-      "net_days": 0.0,
-      "gross_days": 0.0,
-      "excluded_days": 0.0,
-      "cost_egp": 0.0,
-      "is_complete": false,
-      "num_spans": 0
-    },
-    {
-      "key": "PAR-5038",
-      "summary": "[Partners List][TL] Manual dropping block, un-assignment risk flagging & comms",
-      "status": "Open",
-      "net_days": 0.0,
-      "gross_days": 0.0,
-      "excluded_days": 0.0,
-      "cost_egp": 0.0,
-      "is_complete": false,
-      "num_spans": 0
-    },
-    {
       "key": "PAR-4958",
       "summary": "Lock partner-AM relationship",
       "status": "Open",
@@ -68,8 +46,30 @@
       "num_spans": 0
     },
     {
+      "key": "PAR-4959",
+      "summary": "[Partners List][AM] Manual dropping block, un-assignment risk flagging & comms",
+      "status": "Open",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
       "key": "PAR-4960",
       "summary": "[Partners pool][Team Leader/Managers Flow] Filtering, insights and un-assignment reasons surfacing",
+      "status": "Open",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "PAR-5038",
+      "summary": "[Partners List][TL] Manual dropping block, un-assignment risk flagging & comms",
       "status": "Open",
       "net_days": 0.0,
       "gross_days": 0.0,

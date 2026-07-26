@@ -4,7 +4,7 @@
   "project_key": "IMS",
   "project_name": "Inventory Management System ",
   "epic_created": "2025-09-16T15:49:00.235+0300",
-  "generated_at": "2026-07-25T10:53:41.819002+00:00",
+  "generated_at": "2026-07-26T10:27:18.820434+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 24,
   "complete_tickets": 19,
@@ -13,6 +13,39 @@
   "total_cost_egp": 404600.0,
   "tickets": [
     {
+      "key": "IMS-392",
+      "summary": "Developers Table",
+      "status": "Done",
+      "net_days": 4.2,
+      "gross_days": 7.52,
+      "excluded_days": 3.32,
+      "cost_egp": 14700.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "IMS-393",
+      "summary": "Developers Assignee by Entry Type",
+      "status": "Done",
+      "net_days": 11.78,
+      "gross_days": 16.03,
+      "excluded_days": 4.25,
+      "cost_egp": 41230.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "IMS-394",
+      "summary": "Developers Contacts",
+      "status": "Done",
+      "net_days": 17.38,
+      "gross_days": 19.18,
+      "excluded_days": 1.79,
+      "cost_egp": 60830.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
       "key": "IMS-395",
       "summary": "Developers Creation Form",
       "status": "Done",
@@ -20,6 +53,17 @@
       "gross_days": 12.29,
       "excluded_days": 1.0,
       "cost_egp": 39515.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "IMS-396",
+      "summary": "Developers Projects",
+      "status": "Done",
+      "net_days": 11.01,
+      "gross_days": 12.48,
+      "excluded_days": 1.47,
+      "cost_egp": 38535.0,
       "is_complete": true,
       "num_spans": 1
     },
@@ -35,91 +79,14 @@
       "num_spans": 1
     },
     {
-      "key": "IMS-1731",
-      "summary": "Developers enhancement [Testing Only]",
-      "status": "Released",
-      "net_days": 7.72,
-      "gross_days": 12.38,
-      "excluded_days": 4.66,
-      "cost_egp": 27020.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
-    {
-      "key": "IMS-701",
-      "summary": "(Developers Creation Form) Change \u201cListing Status\u201d field to a toggle switch",
+      "key": "IMS-642",
+      "summary": "(Developers Table) Table does not reset after clearing Status = Inactive filter",
       "status": "Done",
       "net_days": 0.0,
       "gross_days": 0.0,
       "excluded_days": 0.0,
       "cost_egp": 0.0,
       "is_complete": true,
-      "num_spans": 0
-    },
-    {
-      "key": "IMS-396",
-      "summary": "Developers Projects",
-      "status": "Done",
-      "net_days": 11.01,
-      "gross_days": 12.48,
-      "excluded_days": 1.47,
-      "cost_egp": 38535.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
-    {
-      "key": "IMS-1847",
-      "summary": "Developers Organization change action",
-      "status": "Open",
-      "net_days": 0.0,
-      "gross_days": 0.0,
-      "excluded_days": 0.0,
-      "cost_egp": 0.0,
-      "is_complete": false,
-      "num_spans": 0
-    },
-    {
-      "key": "IMS-644",
-      "summary": "(Developers Table) Rank field allows negative values \u2014 must only accept positive numbers",
-      "status": "Done",
-      "net_days": 0.0,
-      "gross_days": 0.0,
-      "excluded_days": 0.0,
-      "cost_egp": 0.0,
-      "is_complete": true,
-      "num_spans": 0
-    },
-    {
-      "key": "IMS-646",
-      "summary": "(Developers Table) Export table ",
-      "status": "Done",
-      "net_days": 0.0,
-      "gross_days": 0.0,
-      "excluded_days": 0.0,
-      "cost_egp": 0.0,
-      "is_complete": true,
-      "num_spans": 0
-    },
-    {
-      "key": "IMS-1649",
-      "summary": "Developers Attachments",
-      "status": "Open",
-      "net_days": 0.0,
-      "gross_days": 0.0,
-      "excluded_days": 0.0,
-      "cost_egp": 0.0,
-      "is_complete": false,
-      "num_spans": 0
-    },
-    {
-      "key": "IMS-1720",
-      "summary": "Developers Details Page enhancements",
-      "status": "Open",
-      "net_days": 0.0,
-      "gross_days": 0.0,
-      "excluded_days": 0.0,
-      "cost_egp": 0.0,
-      "is_complete": false,
       "num_spans": 0
     },
     {
@@ -134,30 +101,8 @@
       "num_spans": 0
     },
     {
-      "key": "IMS-1846",
-      "summary": "Developer Listing status change action",
-      "status": "Open",
-      "net_days": 0.0,
-      "gross_days": 0.0,
-      "excluded_days": 0.0,
-      "cost_egp": 0.0,
-      "is_complete": false,
-      "num_spans": 0
-    },
-    {
-      "key": "IMS-859",
-      "summary": "Developers contacts Partners Migration",
-      "status": "Done",
-      "net_days": 16.66,
-      "gross_days": 16.66,
-      "excluded_days": 0.0,
-      "cost_egp": 58310.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
-    {
-      "key": "IMS-702",
-      "summary": "(Developers Creation Form) Validation errors should be shown to the user",
+      "key": "IMS-644",
+      "summary": "(Developers Table) Rank field allows negative values \u2014 must only accept positive numbers",
       "status": "Done",
       "net_days": 0.0,
       "gross_days": 0.0,
@@ -178,6 +123,61 @@
       "num_spans": 0
     },
     {
+      "key": "IMS-646",
+      "summary": "(Developers Table) Export table ",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "IMS-701",
+      "summary": "(Developers Creation Form) Change \u201cListing Status\u201d field to a toggle switch",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "IMS-702",
+      "summary": "(Developers Creation Form) Validation errors should be shown to the user",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "IMS-704",
+      "summary": "(Developers Contacts) Make Email field optional in the creation and Edit form",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "IMS-859",
+      "summary": "Developers contacts Partners Migration",
+      "status": "Done",
+      "net_days": 16.66,
+      "gross_days": 16.66,
+      "excluded_days": 0.0,
+      "cost_egp": 58310.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
       "key": "IMS-885",
       "summary": "Developers SEO Tab",
       "status": "Done",
@@ -189,28 +189,6 @@
       "num_spans": 1
     },
     {
-      "key": "IMS-1214",
-      "summary": "Developers' enhancement [Dev Only]",
-      "status": "Done",
-      "net_days": 3.47,
-      "gross_days": 3.47,
-      "excluded_days": 0.0,
-      "cost_egp": 12145.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
-    {
-      "key": "IMS-642",
-      "summary": "(Developers Table) Table does not reset after clearing Status = Inactive filter",
-      "status": "Done",
-      "net_days": 0.0,
-      "gross_days": 0.0,
-      "excluded_days": 0.0,
-      "cost_egp": 0.0,
-      "is_complete": true,
-      "num_spans": 0
-    },
-    {
       "key": "IMS-886",
       "summary": "Developers FAQs Tab",
       "status": "Done",
@@ -218,28 +196,6 @@
       "gross_days": 20.23,
       "excluded_days": 9.25,
       "cost_egp": 38430.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
-    {
-      "key": "IMS-394",
-      "summary": "Developers Contacts",
-      "status": "Done",
-      "net_days": 17.38,
-      "gross_days": 19.18,
-      "excluded_days": 1.79,
-      "cost_egp": 60830.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
-    {
-      "key": "IMS-392",
-      "summary": "Developers Table",
-      "status": "Done",
-      "net_days": 4.2,
-      "gross_days": 7.52,
-      "excluded_days": 3.32,
-      "cost_egp": 14700.0,
       "is_complete": true,
       "num_spans": 1
     },
@@ -255,26 +211,70 @@
       "num_spans": 1
     },
     {
-      "key": "IMS-704",
-      "summary": "(Developers Contacts) Make Email field optional in the creation and Edit form",
+      "key": "IMS-1214",
+      "summary": "Developers' enhancement [Dev Only]",
       "status": "Done",
+      "net_days": 3.47,
+      "gross_days": 3.47,
+      "excluded_days": 0.0,
+      "cost_egp": 12145.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "IMS-1649",
+      "summary": "Developers Attachments",
+      "status": "Open",
       "net_days": 0.0,
       "gross_days": 0.0,
       "excluded_days": 0.0,
       "cost_egp": 0.0,
-      "is_complete": true,
+      "is_complete": false,
       "num_spans": 0
     },
     {
-      "key": "IMS-393",
-      "summary": "Developers Assignee by Entry Type",
-      "status": "Done",
-      "net_days": 11.78,
-      "gross_days": 16.03,
-      "excluded_days": 4.25,
-      "cost_egp": 41230.0,
+      "key": "IMS-1720",
+      "summary": "Developers Details Page enhancements",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "IMS-1731",
+      "summary": "Developers enhancement [Testing Only]",
+      "status": "Released",
+      "net_days": 7.72,
+      "gross_days": 12.38,
+      "excluded_days": 4.66,
+      "cost_egp": 27020.0,
       "is_complete": true,
       "num_spans": 1
+    },
+    {
+      "key": "IMS-1846",
+      "summary": "Developer Listing status change action",
+      "status": "Open",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "IMS-1847",
+      "summary": "Developers Organization change action",
+      "status": "Open",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
     }
   ]
 }
