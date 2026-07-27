@@ -1,0 +1,38 @@
+{
+  "epic_key": "PSQ-777",
+  "epic_name": "[ZOOMKEEPER] Frontend: Zoom Keeper module in Platform Backoffice",
+  "project_key": "PSQ",
+  "project_name": "Platform Squad",
+  "epic_created": "2026-07-14T14:02:24.056+0300",
+  "generated_at": "2026-07-27T15:58:21.128299+00:00",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 2,
+  "complete_tickets": 0,
+  "in_progress_tickets": 2,
+  "total_net_days": 0.0,
+  "total_cost_egp": 0.0,
+  "tickets": [
+    {
+      "key": "PSQ-785",
+      "summary": "Testing: [ZOOMKEEPER] Frontend: Zoom Keeper module in Platform Backoffice",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "PSQ-817",
+      "summary": "Code Review: [ZOOMKEEPER] Frontend: Zoom Keeper module in Platform Backoffice",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    }
+  ]
+}

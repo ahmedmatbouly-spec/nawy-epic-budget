@@ -1,0 +1,27 @@
+{
+  "epic_key": "PSQ-757",
+  "epic_name": "[TECH DEBT][YMIR] Add Testcontainers-based end-to-end (e2e) test setup",
+  "project_key": "PSQ",
+  "project_name": "Platform Squad",
+  "epic_created": "2026-07-14T12:40:47.466+0300",
+  "generated_at": "2026-07-27T15:58:02.621259+00:00",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 1,
+  "complete_tickets": 0,
+  "in_progress_tickets": 1,
+  "total_net_days": 0.0,
+  "total_cost_egp": 0.0,
+  "tickets": [
+    {
+      "key": "PSQ-818",
+      "summary": "Code Review: [TECH DEBT][YMIR] Add Testcontainers-based end-to-end (e2e) test setup",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    }
+  ]
+}

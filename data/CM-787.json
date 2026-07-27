@@ -4,23 +4,23 @@
   "project_key": "CM",
   "project_name": "Campaigns Management",
   "epic_created": "2026-05-04T05:27:25.138+0300",
-  "generated_at": "2026-07-21T12:10:54.449909+00:00",
+  "generated_at": "2026-07-27T15:57:46.356578+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 1,
-  "complete_tickets": 0,
-  "in_progress_tickets": 1,
+  "complete_tickets": 1,
+  "in_progress_tickets": 0,
   "total_net_days": 0.0,
   "total_cost_egp": 0.0,
   "tickets": [
     {
       "key": "CM-869",
       "summary": "Code Review: [FE][Edit Campaign] \"Lead type\" locked field has a different background color than other locked fields",
-      "status": "To Do",
+      "status": "Done",
       "net_days": 0.0,
       "gross_days": 0.0,
       "excluded_days": 0.0,
       "cost_egp": 0.0,
-      "is_complete": false,
+      "is_complete": true,
       "num_spans": 0
     }
   ]

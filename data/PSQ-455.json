@@ -4,13 +4,13 @@
   "project_key": "PSQ",
   "project_name": "Platform Squad",
   "epic_created": "2026-04-14T14:04:17.075+0200",
-  "generated_at": "2026-07-26T11:10:16.205656+00:00",
+  "generated_at": "2026-07-27T15:56:50.252054+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 2,
   "complete_tickets": 0,
   "in_progress_tickets": 2,
-  "total_net_days": 0.0,
-  "total_cost_egp": 0.0,
+  "total_net_days": 0.17,
+  "total_cost_egp": 595.0,
   "tickets": [
     {
       "key": "PSQ-811",
@@ -26,13 +26,13 @@
     {
       "key": "PSQ-550",
       "summary": "Testing: [New Service] Extract and Link Cellular Invoice Data to Users via AI",
-      "status": "To Do",
-      "net_days": 0.0,
-      "gross_days": 0.0,
+      "status": "In Progress",
+      "net_days": 0.17,
+      "gross_days": 0.17,
       "excluded_days": 0.0,
-      "cost_egp": 0.0,
+      "cost_egp": 595.0,
       "is_complete": false,
-      "num_spans": 0
+      "num_spans": 1
     }
   ]
 }

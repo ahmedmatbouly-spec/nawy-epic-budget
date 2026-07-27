@@ -4,7 +4,7 @@
   "project_key": "NCRM",
   "project_name": "NawyCRM",
   "epic_created": "2026-07-21T15:30:20.205+0300",
-  "generated_at": "2026-07-26T10:22:27.110759+00:00",
+  "generated_at": "2026-07-27T15:57:21.658055+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 7,
   "complete_tickets": 0,
@@ -24,19 +24,8 @@
       "num_spans": 0
     },
     {
-      "key": "NCRM-3329",
-      "summary": "Phase 1B: Didn't Reach Loop",
-      "status": "To Do",
-      "net_days": 0.0,
-      "gross_days": 0.0,
-      "excluded_days": 0.0,
-      "cost_egp": 0.0,
-      "is_complete": false,
-      "num_spans": 0
-    },
-    {
-      "key": "NCRM-3330",
-      "summary": "Phase 2: Answered Leads Routing",
+      "key": "NCRM-3332",
+      "summary": "Path B: Client Not Available",
       "status": "To Do",
       "net_days": 0.0,
       "gross_days": 0.0,
@@ -57,8 +46,19 @@
       "num_spans": 0
     },
     {
-      "key": "NCRM-3332",
-      "summary": "Path B: Client Not Available",
+      "key": "NCRM-3330",
+      "summary": "Phase 2: Answered Leads Routing",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "NCRM-3329",
+      "summary": "Phase 1B: Didn't Reach Loop",
       "status": "To Do",
       "net_days": 0.0,
       "gross_days": 0.0,

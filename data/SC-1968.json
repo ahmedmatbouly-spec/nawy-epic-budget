@@ -1,0 +1,27 @@
+{
+  "epic_key": "SC-1968",
+  "epic_name": "On Call",
+  "project_key": "SC",
+  "project_name": "Suite Control ",
+  "epic_created": "2026-07-14T15:29:37.020+0300",
+  "generated_at": "2026-07-27T15:57:45.454971+00:00",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 1,
+  "complete_tickets": 1,
+  "in_progress_tickets": 0,
+  "total_net_days": 0.0,
+  "total_cost_egp": 0.0,
+  "tickets": [
+    {
+      "key": "SC-2033",
+      "summary": "Blocked users can open a lead profile via deep link over the \"coming soon\" screen",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 1
+    }
+  ]
+}

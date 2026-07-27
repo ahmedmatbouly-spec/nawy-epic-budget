@@ -4,34 +4,34 @@
   "project_key": "SC",
   "project_name": "Suite Control ",
   "epic_created": "2026-07-14T15:27:52.435+0300",
-  "generated_at": "2026-07-19T14:56:06.991180+00:00",
+  "generated_at": "2026-07-27T15:57:10.999775+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 2,
-  "complete_tickets": 0,
-  "in_progress_tickets": 2,
+  "complete_tickets": 2,
+  "in_progress_tickets": 0,
   "total_net_days": 0.0,
   "total_cost_egp": 0.0,
   "tickets": [
     {
       "key": "SC-1975",
       "summary": "Testing: [App] Freelancers Referrals changes - eligibility flag",
-      "status": "To Do",
+      "status": "Done",
       "net_days": 0.0,
       "gross_days": 0.0,
       "excluded_days": 0.0,
       "cost_egp": 0.0,
-      "is_complete": false,
+      "is_complete": true,
       "num_spans": 0
     },
     {
       "key": "SC-1985",
       "summary": "Code Review: [App] Freelancers Referrals changes - eligibility flag",
-      "status": "To Do",
+      "status": "Done",
       "net_days": 0.0,
       "gross_days": 0.0,
       "excluded_days": 0.0,
       "cost_egp": 0.0,
-      "is_complete": false,
+      "is_complete": true,
       "num_spans": 0
     }
   ]
