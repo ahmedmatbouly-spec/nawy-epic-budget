@@ -4,7 +4,7 @@
   "project_key": "IMS",
   "project_name": "Inventory Management System ",
   "epic_created": "2026-04-08T16:49:22.048+0200",
-  "generated_at": "2026-07-26T10:28:17.361637+00:00",
+  "generated_at": "2026-07-28T12:25:23.409181+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 3,
   "complete_tickets": 1,
@@ -24,9 +24,9 @@
       "num_spans": 1
     },
     {
-      "key": "IMS-1381",
-      "summary": "Projects Table Enhancements and Data Coverage Progress",
-      "status": "To Do",
+      "key": "IMS-1411",
+      "summary": "Projects Masterplans Global Page",
+      "status": "Open",
       "net_days": 0.0,
       "gross_days": 0.0,
       "excluded_days": 0.0,
@@ -35,9 +35,9 @@
       "num_spans": 0
     },
     {
-      "key": "IMS-1411",
-      "summary": "Projects Masterplans Global Page",
-      "status": "Open",
+      "key": "IMS-1381",
+      "summary": "Projects Table Enhancements and Data Coverage Progress",
+      "status": "To Do",
       "net_days": 0.0,
       "gross_days": 0.0,
       "excluded_days": 0.0,

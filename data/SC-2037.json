@@ -1,0 +1,38 @@
+{
+  "epic_key": "SC-2037",
+  "epic_name": "Updates on some components in design system ",
+  "project_key": "SC",
+  "project_name": "Suite Control ",
+  "epic_created": "2026-07-28T12:08:23.522+0300",
+  "generated_at": "2026-07-28T12:26:21.444897+00:00",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 2,
+  "complete_tickets": 2,
+  "in_progress_tickets": 0,
+  "total_net_days": 0.0,
+  "total_cost_egp": 0.0,
+  "tickets": [
+    {
+      "key": "SC-2038",
+      "summary": "Testing: Updates on some components in design system ",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "SC-2041",
+      "summary": "Code Review: Updates on some components in design system ",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    }
+  ]
+}

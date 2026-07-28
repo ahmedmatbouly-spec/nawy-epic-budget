@@ -1,0 +1,71 @@
+{
+  "epic_key": "CM-903",
+  "epic_name": "Audience Manager \u2014 CRM-to-Meta Custom Audience sync (v1)",
+  "project_key": "CM",
+  "project_name": "Campaigns Management",
+  "epic_created": "2026-07-28T00:41:45.989+0300",
+  "generated_at": "2026-07-28T12:26:34.186318+00:00",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 5,
+  "complete_tickets": 0,
+  "in_progress_tickets": 5,
+  "total_net_days": 0.0,
+  "total_cost_egp": 0.0,
+  "tickets": [
+    {
+      "key": "CM-904",
+      "summary": "Audience data model + CRM filter evaluation",
+      "status": "Open",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "CM-905",
+      "summary": "Sync engine \u2014 full mirror + scheduler",
+      "status": "Open",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "CM-906",
+      "summary": "Snapshot store + drift/staleness compare",
+      "status": "Open",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "CM-907",
+      "summary": "Audiences landing page \u2014 table, filters, layout, actions",
+      "status": "Open",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "CM-908",
+      "summary": "Audience create/edit/duplicate + detail flow \u2014 CRM filters + in-audience actions",
+      "status": "Open",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    }
+  ]
+}

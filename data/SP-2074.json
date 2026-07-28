@@ -4,7 +4,7 @@
   "project_key": "SP",
   "project_name": "Sales Portal",
   "epic_created": "2026-07-20T14:15:36.630+0300",
-  "generated_at": "2026-07-26T10:34:31.684691+00:00",
+  "generated_at": "2026-07-28T12:25:38.384472+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 1,
   "complete_tickets": 0,
@@ -14,7 +14,7 @@
   "tickets": [
     {
       "key": "SP-2044",
-      "summary": "Bonus Module Quarterly Ach. Hanlding",
+      "summary": "Bonus Module Quarterly Ach. Handling",
       "status": "To Do",
       "net_days": 0.0,
       "gross_days": 0.0,

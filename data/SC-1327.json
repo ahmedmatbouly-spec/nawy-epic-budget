@@ -4,7 +4,7 @@
   "project_key": "SC",
   "project_name": "Suite Control ",
   "epic_created": "2026-02-19T12:49:07.124+0200",
-  "generated_at": "2026-07-26T10:18:54.959575+00:00",
+  "generated_at": "2026-07-28T12:25:30.642239+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 1,
   "complete_tickets": 0,
@@ -14,7 +14,7 @@
   "tickets": [
     {
       "key": "SC-1242",
-      "summary": "E-reality Presentation Form",
+      "summary": "[Lead Page] E-reality Presentation Form",
       "status": "To Do",
       "net_days": 0.0,
       "gross_days": 0.0,

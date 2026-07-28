@@ -1,0 +1,27 @@
+{
+  "epic_key": "NLP-5067",
+  "epic_name": "[FE] Filters in back office [Testing only]",
+  "project_key": "NLP",
+  "project_name": "Nawy Listing Platform ",
+  "epic_created": "2026-07-15T14:11:23.386+0300",
+  "generated_at": "2026-07-28T12:26:19.534544+00:00",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 1,
+  "complete_tickets": 1,
+  "in_progress_tickets": 0,
+  "total_net_days": 6.57,
+  "total_cost_egp": 22995.0,
+  "tickets": [
+    {
+      "key": "NLP-5068",
+      "summary": "Code Review: [FE] Filters in back office [Testing only]",
+      "status": "Done",
+      "net_days": 6.57,
+      "gross_days": 6.57,
+      "excluded_days": 0.0,
+      "cost_egp": 22995.0,
+      "is_complete": true,
+      "num_spans": 1
+    }
+  ]
+}

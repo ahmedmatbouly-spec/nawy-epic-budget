@@ -4,34 +4,34 @@
   "project_key": "SC",
   "project_name": "Suite Control ",
   "epic_created": "2026-06-29T12:40:17.607+0300",
-  "generated_at": "2026-07-27T15:57:56.076648+00:00",
+  "generated_at": "2026-07-28T12:28:46.901658+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 2,
-  "complete_tickets": 0,
-  "in_progress_tickets": 2,
+  "complete_tickets": 2,
+  "in_progress_tickets": 0,
   "total_net_days": 0.0,
   "total_cost_egp": 0.0,
   "tickets": [
     {
       "key": "SC-1885",
       "summary": "Testing: [Lead Profile] Activity Timeline Design Enhancement",
-      "status": "To Do",
+      "status": "Done",
       "net_days": 0.0,
       "gross_days": 0.0,
       "excluded_days": 0.0,
       "cost_egp": 0.0,
-      "is_complete": false,
+      "is_complete": true,
       "num_spans": 0
     },
     {
       "key": "SC-2030",
       "summary": "Code Review: [Lead Profile] Activity Timeline Design Enhancement",
-      "status": "To Do",
+      "status": "Done",
       "net_days": 0.0,
       "gross_days": 0.0,
       "excluded_days": 0.0,
       "cost_egp": 0.0,
-      "is_complete": false,
+      "is_complete": true,
       "num_spans": 0
     }
   ]

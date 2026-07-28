@@ -1,0 +1,27 @@
+{
+  "epic_key": "CM-914",
+  "epic_name": "Audience manager home page FE + BE (data model)",
+  "project_key": "CM",
+  "project_name": "Campaigns Management",
+  "epic_created": "2026-07-28T14:38:16.039+0300",
+  "generated_at": "2026-07-28T12:27:26.239353+00:00",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 1,
+  "complete_tickets": 0,
+  "in_progress_tickets": 1,
+  "total_net_days": 0.0,
+  "total_cost_egp": 0.0,
+  "tickets": [
+    {
+      "key": "CM-919",
+      "summary": "Testing: Audience manager home page FE + BE (data model)",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    }
+  ]
+}

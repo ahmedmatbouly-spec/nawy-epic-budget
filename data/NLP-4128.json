@@ -1,0 +1,27 @@
+{
+  "epic_key": "NLP-4128",
+  "epic_name": "[App] Progress Tracker - Rating Popup",
+  "project_key": "NLP",
+  "project_name": "Nawy Listing Platform ",
+  "epic_created": "2025-10-25T16:43:07.519+0300",
+  "generated_at": "2026-07-28T12:26:49.140690+00:00",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 1,
+  "complete_tickets": 0,
+  "in_progress_tickets": 1,
+  "total_net_days": 0.0,
+  "total_cost_egp": 0.0,
+  "tickets": [
+    {
+      "key": "NLP-4552",
+      "summary": "Testing: [App] Progress Tracker - Rating Popup",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    }
+  ]
+}

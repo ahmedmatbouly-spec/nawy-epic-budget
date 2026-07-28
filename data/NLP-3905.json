@@ -4,7 +4,7 @@
   "project_key": "NLP",
   "project_name": "Nawy Listing Platform ",
   "epic_created": "2025-07-16T12:02:38.977+0300",
-  "generated_at": "2026-07-20T13:27:53.788707+00:00",
+  "generated_at": "2026-07-28T12:27:35.391309+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 2,
   "complete_tickets": 0,
@@ -13,8 +13,8 @@
   "total_cost_egp": 0.0,
   "tickets": [
     {
-      "key": "NLP-3922",
-      "summary": "[Testing & Reviewing][App] Progress Tracker - Not Interested (Agent)",
+      "key": "NLP-5085",
+      "summary": "Code Review: [App] Progress Tracker - Not Interested (Agent)",
       "status": "To Do",
       "net_days": 0.0,
       "gross_days": 0.0,
@@ -24,8 +24,8 @@
       "num_spans": 0
     },
     {
-      "key": "NLP-5085",
-      "summary": "Code Review: [App] Progress Tracker - Not Interested (Agent)",
+      "key": "NLP-3922",
+      "summary": "[Testing & Reviewing][App] Progress Tracker - Not Interested (Agent)",
       "status": "To Do",
       "net_days": 0.0,
       "gross_days": 0.0,

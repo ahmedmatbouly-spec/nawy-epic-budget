@@ -1,0 +1,27 @@
+{
+  "epic_key": "CM-916",
+  "epic_name": "Audience creation on Meta endpoints",
+  "project_key": "CM",
+  "project_name": "Campaigns Management",
+  "epic_created": "2026-07-28T14:41:00.522+0300",
+  "generated_at": "2026-07-28T12:26:58.395325+00:00",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 1,
+  "complete_tickets": 0,
+  "in_progress_tickets": 1,
+  "total_net_days": 0.0,
+  "total_cost_egp": 0.0,
+  "tickets": [
+    {
+      "key": "CM-922",
+      "summary": "Testing: Audience creation on Meta endpoints",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    }
+  ]
+}

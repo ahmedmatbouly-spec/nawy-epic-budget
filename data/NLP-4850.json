@@ -1,0 +1,38 @@
+{
+  "epic_key": "NLP-4850",
+  "epic_name": "[FE][BE][SEO] Widget for static links in area page",
+  "project_key": "NLP",
+  "project_name": "Nawy Listing Platform ",
+  "epic_created": "2026-06-10T11:16:41.182+0300",
+  "generated_at": "2026-07-28T12:27:59.769853+00:00",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 2,
+  "complete_tickets": 2,
+  "in_progress_tickets": 0,
+  "total_net_days": 0.0,
+  "total_cost_egp": 0.0,
+  "tickets": [
+    {
+      "key": "NLP-4994",
+      "summary": "Testing: [FE][BE][SEO] Widget for static links in area page",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "NLP-5040",
+      "summary": "Code Review: [FE][BE][SEO] Widget for static links in area page",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    }
+  ]
+}
