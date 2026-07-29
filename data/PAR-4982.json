@@ -4,7 +4,7 @@
   "project_key": "PAR",
   "project_name": "Partners",
   "epic_created": "2026-07-14T15:32:31.389+0300",
-  "generated_at": "2026-07-28T12:28:01.239863+00:00",
+  "generated_at": "2026-07-29T13:14:50.900098+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 2,
   "complete_tickets": 0,
@@ -13,8 +13,8 @@
   "total_cost_egp": 0.0,
   "tickets": [
     {
-      "key": "PAR-4990",
-      "summary": "Testing: [Web][NN Agent Access] Organization profile changes",
+      "key": "PAR-5049",
+      "summary": "Code Review: [Web][NN Agent Access] Organization profile changes",
       "status": "To Do",
       "net_days": 0.0,
       "gross_days": 0.0,
@@ -24,8 +24,8 @@
       "num_spans": 0
     },
     {
-      "key": "PAR-5049",
-      "summary": "Code Review: [Web][NN Agent Access] Organization profile changes",
+      "key": "PAR-4990",
+      "summary": "Testing: [Web][NN Agent Access] Organization profile changes",
       "status": "To Do",
       "net_days": 0.0,
       "gross_days": 0.0,

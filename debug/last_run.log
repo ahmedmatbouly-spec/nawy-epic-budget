@@ -1,447 +1,462 @@
-=== INCREMENTAL SYNC since 2026-07-27T15:51:33.781847 ===
-Found 474 issue(s) updated since last sync.
-Epics needing an update this run: 156
-    SP-1487: refetching 1 changed/new ticket(s)
-  SP-1487: patched (49.67d, 173,845 EGP)
-    NLP-1907: refetching 13 changed/new ticket(s)
-  NLP-1907: patched (807.41d, 2,825,935 EGP)
-    NCRM-3345: refetching 1 changed/new ticket(s)
-  NCRM-3345: patched (0.0d, 0 EGP)
-    IMS-1377: refetching 1 changed/new ticket(s)
-  IMS-1377: patched (3.39d, 11,865 EGP)
-    SP-2034: refetching 2 changed/new ticket(s)
-  SP-2034: patched (3.66d, 12,810 EGP)
-    CM-794: refetching 1 changed/new ticket(s)
-  CM-794: patched (0.0d, 0 EGP)
-  NCRM-3337: new epic, full fetch
-Fetching NCRM-3337 (Add Lead State Filter (Active / Inactive) in Leads Table) ...
-  NCRM-3353: 0.0d
-Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/NCRM-3337.json: 0.0 days, 0 EGP
-    NLP-4206: refetching 2 changed/new ticket(s)
-  NLP-4206: patched (0.0d, 0 EGP)
-    SC-1327: refetching 1 changed/new ticket(s)
-  SC-1327: patched (0.0d, 0 EGP)
-    IMS-823: refetching 1 changed/new ticket(s)
-  IMS-823: patched (260.58d, 912,030 EGP)
-    NLP-2823: refetching 10 changed/new ticket(s)
-  NLP-2823: patched (1415.42d, 4,953,970 EGP)
-    SP-2074: refetching 1 changed/new ticket(s)
-  SP-2074: patched (0.0d, 0 EGP)
-    NLP-5095: refetching 1 changed/new ticket(s)
-  NLP-5095: patched (0.0d, 0 EGP)
-  NCRM-3332: new epic, full fetch
-Fetching NCRM-3332 (Path B: Client Not Available) ...
-  NCRM-3352: 0.0d
-Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/NCRM-3332.json: 0.0 days, 0 EGP
-  NLP-4859: new epic, full fetch
-Fetching NLP-4859 ([FE] Lead Type Assignment Handling - Nawy Now [UAT Only]) ...
-  NLP-4892: 0.0d
-Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/NLP-4859.json: 0.0 days, 0 EGP
-  NLP-4220: new epic, full fetch
-Fetching NLP-4220 ([App] Cash discounts - Payment plans) ...
-  NLP-4796: 0.0d
-Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/NLP-4220.json: 0.0 days, 0 EGP
-  SC-1590: new epic, full fetch
-Fetching SC-1590 ([Lead Profile] WhatsApp Flow) ...
-  SC-1834: 0.0d
-Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/SC-1590.json: 0.0 days, 0 EGP
-    SP-2042: refetching 1 changed/new ticket(s)
-  SP-2042: patched (1.27d, 4,445 EGP)
-    NLP-5066: refetching 1 changed/new ticket(s)
-  NLP-5066: patched (0.0d, 0 EGP)
-    SP-2030: removing 1 ticket(s) no longer children here
-    SP-2030: refetching 1 changed/new ticket(s)
-  SP-2030: patched (0.0d, 0 EGP)
-  NLP-4178: new epic, full fetch
-Fetching NLP-4178 ([BE][Mixpanel] Abilty to know the search queries that did not generate any results in Search / Filter functions) ...
-  NLP-4755: 0.0d
-Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/NLP-4178.json: 0.0 days, 0 EGP
-    NLP-3957: refetching 4 changed/new ticket(s)
-  NLP-3957: patched (490.24d, 1,715,840 EGP)
-    IMS-1588: refetching 4 changed/new ticket(s)
-  IMS-1588: patched (23.96d, 83,860 EGP)
-    NLP-4944: refetching 1 changed/new ticket(s)
-  NLP-4944: patched (0.0d, 0 EGP)
-  CM-917: new epic, full fetch
-Fetching CM-917 (scheduler logic FE + BE) ...
-  CM-921: 0.0d
-Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/CM-917.json: 0.0 days, 0 EGP
-    PAR-4729: refetching 8 changed/new ticket(s)
-  PAR-4729: patched (53.69d, 187,915 EGP)
-    NLP-5100: refetching 1 changed/new ticket(s)
-  NLP-5100: patched (0.0d, 0 EGP)
-    SP-1333: refetching 1 changed/new ticket(s)
-  SP-1333: patched (96.97d, 339,395 EGP)
-    CM-790: refetching 1 changed/new ticket(s)
-  CM-790: patched (0.0d, 0 EGP)
-    SP-1840: refetching 1 changed/new ticket(s)
-  SP-1840: patched (16.25d, 56,875 EGP)
-    CM-795: refetching 1 changed/new ticket(s)
-  CM-795: patched (0.0d, 0 EGP)
-  NLP-4855: new epic, full fetch
-Fetching NLP-4855 ([App][Map] Map Enhancements - Search Experience (Areas & Developers) [UAT Only]) ...
-  NLP-4896: 0.0d
-Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/NLP-4855.json: 0.0 days, 0 EGP
-    CM-862: refetching 1 changed/new ticket(s)
-  CM-862: patched (0.0d, 0 EGP)
-  CM-865: new epic, full fetch
-Fetching CM-865 ([BE] Security fixes) ...
-  CM-911: 0.0d
-Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/CM-865.json: 0.0 days, 0 EGP
-    SP-2078: refetching 2 changed/new ticket(s)
-  SP-2078: patched (0.0d, 0 EGP)
-  CM-855: new epic, full fetch
-Fetching CM-855 ([FE - mobile View] Top up button does not function in the Campaign creation and partner transaction  ) ...
-  CM-910: 0.0d
-Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/CM-855.json: 0.0 days, 0 EGP
-    NLP-5098: refetching 1 changed/new ticket(s)
-  NLP-5098: patched (0.0d, 0 EGP)
-    NLP-4100: refetching 1 changed/new ticket(s)
-  NLP-4100: patched (0.0d, 0 EGP)
-    NLP-4969: refetching 1 changed/new ticket(s)
-  NLP-4969: patched (0.0d, 0 EGP)
-    PAR-4986: refetching 1 changed/new ticket(s)
-  PAR-4986: patched (5.7d, 19,950 EGP)
+=== INCREMENTAL SYNC since 2026-07-28T12:20:05.926227 ===
+Found 652 issue(s) updated since last sync.
+Epics needing an update this run: 184
+    NLP-4175: refetching 2 changed/new ticket(s)
+  NLP-4175: patched (0.0d, 0 EGP)
+    PSQ-741: refetching 1 changed/new ticket(s)
+  PSQ-741: patched (0.0d, 0 EGP)
+    NLP-4841: refetching 2 changed/new ticket(s)
+  NLP-4841: patched (0.0d, 0 EGP)
     NLP-4852: refetching 2 changed/new ticket(s)
   NLP-4852: patched (0.0d, 0 EGP)
-  NLP-5067: new epic, full fetch
-Fetching NLP-5067 ([FE] Filters in back office [Testing only]) ...
-  NLP-5068: 6.57d
-Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/NLP-5067.json: 6.57 days, 22,995 EGP
-  SC-2037: new epic, full fetch
-Fetching SC-2037 (Updates on some components in design system ) ...
-  SC-2038: 0.0d
-  SC-2041: 0.0d
-Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/SC-2037.json: 0.0 days, 0 EGP
-    CM-792: refetching 1 changed/new ticket(s)
-  CM-792: patched (0.0d, 0 EGP)
-    SP-1947: refetching 1 changed/new ticket(s)
-  SP-1947: patched (0.0d, 0 EGP)
+  IMS-1706: new epic, full fetch
+Fetching IMS-1706 (Grouped Property Details Page Enhancements - Additional info and Detailed Properties tab) ...
+  IMS-1753: 0.0d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/IMS-1706.json: 0.0 days, 0 EGP
+    IMS-1676: refetching 1 changed/new ticket(s)
+  IMS-1676: patched (0.0d, 0 EGP)
+    SP-1952: refetching 1 changed/new ticket(s)
+  SP-1952: patched (0.0d, 0 EGP)
+  NLP-3934: new epic, full fetch
+Fetching NLP-3934 ([BE][Web] Category / property type handling) ...
+  NLP-4118: 124.9d
+  NLP-4251: 0.0d
+  NLP-4663: 0.0d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/NLP-3934.json: 124.9 days, 437,150 EGP
+    NLP-4205: refetching 1 changed/new ticket(s)
+  NLP-4205: patched (0.0d, 0 EGP)
+  PAR-4595: new epic, full fetch
+Fetching PAR-4595 ([Web][NN Agent Access][First Iteration] Financing CIL form) ...
+  PAR-4996: 0.3d
+  PAR-4998: 0.0d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/PAR-4595.json: 0.3 days, 1,050 EGP
+    IMS-111: refetching 5 changed/new ticket(s)
+  IMS-111: patched (386.69d, 1,353,415 EGP)
+    CM-917: refetching 1 changed/new ticket(s)
+  CM-917: patched (0.0d, 0 EGP)
+    IMS-1379: refetching 1 changed/new ticket(s)
+  IMS-1379: patched (29.13d, 101,955 EGP)
+    NLP-5098: refetching 1 changed/new ticket(s)
+  NLP-5098: patched (0.0d, 0 EGP)
     SC-2016: refetching 1 changed/new ticket(s)
   SC-2016: patched (0.0d, 0 EGP)
-  NLP-4294: new epic, full fetch
-Fetching NLP-4294 ([App] Progress Tracker - Homepage Popup (Phase 2)) ...
-  NLP-4513: 0.0d
-  NLP-4540: 0.0d
-Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/NLP-4294.json: 0.0 days, 0 EGP
-    CM-788: refetching 1 changed/new ticket(s)
-  CM-788: patched (0.0d, 0 EGP)
-  SP-1993: new epic, full fetch
-Fetching SP-1993 (Primary Team | Nawy Shares) ...
-  SP-2105: 0.0d
-Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/SP-1993.json: 0.0 days, 0 EGP
-  NCRM-3329: new epic, full fetch
-Fetching NCRM-3329 (Phase 1B: Didn't Reach Loop) ...
-  NCRM-3351: 0.0d
-Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/NCRM-3329.json: 0.0 days, 0 EGP
-    NLP-3881: refetching 1 changed/new ticket(s)
-  NLP-3881: patched (779.79d, 2,729,265 EGP)
-    CM-861: refetching 1 changed/new ticket(s)
-  CM-861: patched (0.0d, 0 EGP)
-  CM-903: new epic, full fetch
-Fetching CM-903 (Audience Manager — CRM-to-Meta Custom Audience sync (v1)) ...
-  CM-904: 0.0d
-  CM-905: 0.0d
-  CM-906: 0.0d
-  CM-907: 0.0d
-  CM-908: 0.0d
-Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/CM-903.json: 0.0 days, 0 EGP
-  NCRM-3200: new epic, full fetch
-Fetching NCRM-3200 (Increase the amount of lead selection) ...
-  NCRM-3360: 0.0d
-Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/NCRM-3200.json: 0.0 days, 0 EGP
-  SP-2097: new epic, full fetch
-Fetching SP-2097 (Take Rates - Prod Issues Revisit) ...
-  SP-2099: 0.0d
-Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/SP-2097.json: 0.0 days, 0 EGP
-    NLP-4970: refetching 2 changed/new ticket(s)
-  NLP-4970: patched (0.0d, 0 EGP)
-    PAR-4610: refetching 4 changed/new ticket(s)
-  PAR-4610: patched (20.34d, 71,190 EGP)
-    PAR-4978: refetching 2 changed/new ticket(s)
-  PAR-4978: patched (0.0d, 0 EGP)
-    NLP-5091: refetching 1 changed/new ticket(s)
-  NLP-5091: patched (0.0d, 0 EGP)
-    NLP-5055: refetching 1 changed/new ticket(s)
-  NLP-5055: patched (0.0d, 0 EGP)
-  SP-2018: new epic, full fetch
-Fetching SP-2018 (filters returning all data) ...
-  SP-2103: 0.0d
-Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/SP-2018.json: 0.0 days, 0 EGP
-    SC-1525: refetching 4 changed/new ticket(s)
-  SC-1525: patched (20.61d, 72,135 EGP)
-    CM-822: refetching 2 changed/new ticket(s)
-  CM-822: patched (0.0d, 0 EGP)
-    SC-878: refetching 1 changed/new ticket(s)
-  SC-878: patched (37.09d, 129,815 EGP)
-  NLP-4128: new epic, full fetch
-Fetching NLP-4128 ([App] Progress Tracker - Rating Popup) ...
-  NLP-4552: 0.0d
-Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/NLP-4128.json: 0.0 days, 0 EGP
-  NLP-5023: new epic, full fetch
-Fetching NLP-5023 ([BE] Do not display sub compounds if not a launch / do not have manual ranking) ...
-  NLP-5024: 0.0d
-Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/NLP-5023.json: 0.0 days, 0 EGP
-    PSQ-424: refetching 1 changed/new ticket(s)
-  PSQ-424: patched (0.15d, 525 EGP)
-    NLP-3559: refetching 8 changed/new ticket(s)
-  NLP-3559: patched (129.05d, 451,675 EGP)
-    NCRM-3238: refetching 1 changed/new ticket(s)
-  NCRM-3238: patched (0.0d, 0 EGP)
-  CM-916: new epic, full fetch
-Fetching CM-916 (Audience creation on Meta endpoints) ...
-  CM-922: 0.0d
-Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/CM-916.json: 0.0 days, 0 EGP
-  SP-1995: new epic, full fetch
-Fetching SP-1995 (Bonus Module Edits) ...
-  SP-2047: 0.0d
-Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/SP-1995.json: 0.0 days, 0 EGP
-  PSQ-798: new epic, full fetch
-Fetching PSQ-798 ([PAR] Add Nawy Now agents filter to users dropdown) ...
-  PSQ-822: 0.0d
-  PSQ-823: 0.0d
-Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/PSQ-798.json: 0.0 days, 0 EGP
-    SP-2085: refetching 2 changed/new ticket(s)
-  SP-2085: patched (0.0d, 0 EGP)
-    SP-2012: refetching 4 changed/new ticket(s)
-  SP-2012: patched (2.57d, 8,995 EGP)
-    SP-1390: refetching 1 changed/new ticket(s)
-  SP-1390: patched (154.95d, 542,325 EGP)
-    SP-1967: refetching 1 changed/new ticket(s)
-  SP-1967: patched (0.0d, 0 EGP)
-  NCRM-3349: new epic, full fetch
-Fetching NCRM-3349 (dashboards redesign) ...
-  NCRM-3354: 0.0d
-Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/NCRM-3349.json: 0.0 days, 0 EGP
-    NLP-4857: refetching 1 changed/new ticket(s)
-  NLP-4857: patched (0.0d, 0 EGP)
-    NLP-5030: refetching 1 changed/new ticket(s)
-  NLP-5030: patched (0.0d, 0 EGP)
-    PAR-4956: refetching 6 changed/new ticket(s)
-  PAR-4956: patched (0.0d, 0 EGP)
-    SP-1883: refetching 1 changed/new ticket(s)
-  SP-1883: patched (3.11d, 10,885 EGP)
-  NLP-3540: new epic, full fetch
-Fetching NLP-3540 ([App] Handle resale units payment plans (with no installments)) ...
-  NLP-4560: 0.0d
-Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/NLP-3540.json: 0.0 days, 0 EGP
-  NCRM-3328: new epic, full fetch
-Fetching NCRM-3328 (Phase 1: Initial Contact) ...
-  NCRM-3356: 0.0d
-Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/NCRM-3328.json: 0.0 days, 0 EGP
-    IMS-1415: refetching 2 changed/new ticket(s)
-  IMS-1415: patched (104.58d, 366,030 EGP)
+  NLP-4387: patched (0d, 0 EGP)
+    IMS-1377: refetching 1 changed/new ticket(s)
+  IMS-1377: patched (3.39d, 11,865 EGP)
+    SP-2078: refetching 2 changed/new ticket(s)
+  SP-2078: patched (0.0d, 0 EGP)
+    NLP-707: refetching 2 changed/new ticket(s)
+  NLP-707: patched (126.95d, 444,325 EGP)
     NLP-5044: refetching 1 changed/new ticket(s)
   NLP-5044: patched (0.0d, 0 EGP)
-  PAR-4180: patched (7.6d, 26,600 EGP)
-    NLP-2069: refetching 9 changed/new ticket(s)
-  NLP-2069: patched (864.92d, 3,027,220 EGP)
-  CM-914: new epic, full fetch
-Fetching CM-914 (Audience manager home page FE + BE (data model)) ...
-  CM-919: 0.0d
-Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/CM-914.json: 0.0 days, 0 EGP
-    SP-2049: refetching 1 changed/new ticket(s)
-  SP-2049: patched (0.47d, 1,645 EGP)
-  CM-918: new epic, full fetch
-Fetching CM-918 (Open audiences + summary) ...
-  CM-923: 0.0d
-Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/CM-918.json: 0.0 days, 0 EGP
-  SP-1952: new epic, full fetch
-Fetching SP-1952 (Dynamic Developer Collection Rules) ...
-  SP-2098: 0.0d
-Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/SP-1952.json: 0.0 days, 0 EGP
+    SP-1390: refetching 1 changed/new ticket(s)
+  SP-1390: patched (154.95d, 542,325 EGP)
+    NLP-2823: refetching 12 changed/new ticket(s)
+  NLP-2823: patched (1418.37d, 4,964,295 EGP)
+    SP-1995: refetching 1 changed/new ticket(s)
+  SP-1995: patched (0.0d, 0 EGP)
+  IMS-1732: new epic, full fetch
+Fetching IMS-1732 (Grouped Properties Advanced view and filters [Testing Only]) ...
+  IMS-1744: 0.0d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/IMS-1732.json: 0.0 days, 0 EGP
+    SC-878: refetching 1 changed/new ticket(s)
+  SC-878: patched (37.09d, 129,815 EGP)
+    SP-1487: refetching 1 changed/new ticket(s)
+  SP-1487: patched (49.67d, 173,845 EGP)
+  CM-860: new epic, full fetch
+Fetching CM-860 (Buffer average CPL as a range in Home page analytics) ...
+  CM-935: 0.0d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/CM-860.json: 0.0 days, 0 EGP
+    SC-1479: refetching 1 changed/new ticket(s)
+  SC-1479: patched (528.73d, 1,850,555 EGP)
+    CM-916: refetching 1 changed/new ticket(s)
+  CM-916: patched (0.0d, 0 EGP)
+  NLP-5122: new epic, full fetch
+Fetching NLP-5122 ([BE] Summer Promo) ...
+  NLP-5123: 0.0d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/NLP-5122.json: 0.0 days, 0 EGP
+    IMS-9: refetching 2 changed/new ticket(s)
+  IMS-9: patched (1944.62d, 6,806,170 EGP)
+    SP-2079: refetching 1 changed/new ticket(s)
+  SP-2079: patched (0.0d, 0 EGP)
+  IMS-1645: new epic, full fetch
+Fetching IMS-1645 (Primary Manual Property Creation Form and edit flow enhancement) ...
+  IMS-1829: 0.0d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/IMS-1645.json: 0.0 days, 0 EGP
+  CM-896: new epic, full fetch
+Fetching CM-896 (Opening AI chat pushes page content instead of overlaying) ...
+  CM-926: 0.0d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/CM-896.json: 0.0 days, 0 EGP
+    SC-377: refetching 2 changed/new ticket(s)
+  SC-377: patched (230.82d, 807,870 EGP)
+    NLP-4124: refetching 2 changed/new ticket(s)
+  NLP-4124: patched (0.0d, 0 EGP)
+    PSQ-757: refetching 1 changed/new ticket(s)
+  PSQ-757: patched (0.0d, 0 EGP)
+    SP-2033: refetching 1 changed/new ticket(s)
+  SP-2033: patched (0.0d, 0 EGP)
+  CM-936: new epic, full fetch
+Fetching CM-936 (On-call week 1) ...
+  CM-938: 0.0d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/CM-936.json: 0.0 days, 0 EGP
+    NLP-4854: refetching 1 changed/new ticket(s)
+  NLP-4854: patched (0.0d, 0 EGP)
+    NLP-4212: refetching 1 changed/new ticket(s)
+  NLP-4212: patched (0.0d, 0 EGP)
+    NLP-4207: refetching 1 changed/new ticket(s)
+  NLP-4207: patched (0.0d, 0 EGP)
+    IMS-397: refetching 1 changed/new ticket(s)
+  IMS-397: patched (115.6d, 404,600 EGP)
     NLP-4141: refetching 1 changed/new ticket(s)
   NLP-4141: patched (436.33d, 1,527,155 EGP)
-    SP-2080: refetching 2 changed/new ticket(s)
-  SP-2080: patched (0.49d, 1,715 EGP)
-  NLP-4360: new epic, full fetch
-Fetching NLP-4360 ([App] Progress tracker rating deep link navigate App) ...
-  NLP-4530: 0.0d
-Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/NLP-4360.json: 0.0 days, 0 EGP
+    NLP-5030: refetching 1 changed/new ticket(s)
+  NLP-5030: patched (0.0d, 0 EGP)
+  CM-901: new epic, full fetch
+Fetching CM-901 ([SPIKE] AI chat — persistence model: save on close vs. maintain session history) ...
+  CM-931: 0.0d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/CM-901.json: 0.0 days, 0 EGP
+    PAR-4610: refetching 4 changed/new ticket(s)
+  PAR-4610: patched (22.52d, 78,820 EGP)
+    NLP-4206: refetching 2 changed/new ticket(s)
+  NLP-4206: patched (0.0d, 0 EGP)
+    NLP-5091: refetching 1 changed/new ticket(s)
+  NLP-5091: patched (0.0d, 0 EGP)
+    IMS-1415: refetching 7 changed/new ticket(s)
+  IMS-1415: patched (116.38d, 407,330 EGP)
+    SP-21: refetching 1 changed/new ticket(s)
+  SP-21: patched (163.03d, 570,605 EGP)
+    NLP-1988: refetching 1 changed/new ticket(s)
+  NLP-1988: patched (546.88d, 1,914,080 EGP)
+    SP-1081: refetching 1 changed/new ticket(s)
+  SP-1081: patched (269.03d, 941,605 EGP)
+    SP-2026: refetching 1 changed/new ticket(s)
+  SP-2026: patched (0.47d, 1,645 EGP)
+    NLP-5095: refetching 1 changed/new ticket(s)
+  NLP-5095: patched (0.0d, 0 EGP)
+    SP-1991: refetching 1 changed/new ticket(s)
+  SP-1991: patched (0.0d, 0 EGP)
+    NLP-2822: refetching 25 changed/new ticket(s)
+  NLP-2822: patched (1572.9d, 5,505,150 EGP)
+    NLP-4971: refetching 1 changed/new ticket(s)
+  NLP-4971: patched (0.0d, 0 EGP)
+  SC-1993: new epic, full fetch
+Fetching SC-1993 (Technical setup to support instances creation) ...
+  SC-2039: 0.0d
+  SC-2047: 0.0d
+  SC-2049: 0.0d
+  SC-2051: 0.0d
+  SC-2052: 0.0d
+  SC-2054: 0.0d
+  SC-2055: 0.0d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/SC-1993.json: 0.0 days, 0 EGP
+    NLP-4100: refetching 1 changed/new ticket(s)
+  NLP-4100: patched (0.0d, 0 EGP)
+  PAR-5046: new epic, full fetch
+Fetching PAR-5046 (Remove Partner commission percentage from approved sale claims) ...
+  PAR-5057: 0.0d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/PAR-5046.json: 0.0 days, 0 EGP
+    NLP-5067: refetching 1 changed/new ticket(s)
+  NLP-5067: patched (6.57d, 22,995 EGP)
+    SC-1327: refetching 1 changed/new ticket(s)
+  SC-1327: patched (0.0d, 0 EGP)
+  IMS-1733: new epic, full fetch
+Fetching IMS-1733 (Separate Properties pages by Sale Type [Testing Only]) ...
+  IMS-1746: 0.0d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/IMS-1733.json: 0.0 days, 0 EGP
+    NLP-5041: refetching 2 changed/new ticket(s)
+  NLP-5041: patched (0.0d, 0 EGP)
+    CM-855: refetching 1 changed/new ticket(s)
+  CM-855: patched (0.0d, 0 EGP)
+  PAR-4697: new epic, full fetch
+Fetching PAR-4697 ([Web][NN Agent Access] Associated partners) ...
+  PAR-4995: 0.0d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/PAR-4697.json: 0.0 days, 0 EGP
+  SC-1242: new epic, full fetch
+Fetching SC-1242 ([Lead Page] E-reality Presentation Form) ...
+  SC-2059: 0.0d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/SC-1242.json: 0.0 days, 0 EGP
+    PAR-4979: refetching 2 changed/new ticket(s)
+  PAR-4979: patched (2.95d, 10,325 EGP)
+    NLP-4821: refetching 6 changed/new ticket(s)
+  NLP-4821: patched (0.0d, 0 EGP)
+    NLP-5055: refetching 1 changed/new ticket(s)
+  NLP-5055: patched (0.0d, 0 EGP)
+    NLP-1907: refetching 14 changed/new ticket(s)
+  NLP-1907: patched (807.41d, 2,825,935 EGP)
+    NLP-4879: refetching 1 changed/new ticket(s)
+  NLP-4879: patched (0.0d, 0 EGP)
+    IMS-1588: refetching 3 changed/new ticket(s)
+  IMS-1588: patched (27.26d, 95,410 EGP)
+    SC-2037: refetching 2 changed/new ticket(s)
+  SC-2037: patched (0.0d, 0 EGP)
+    PSQ-674: refetching 2 changed/new ticket(s)
+  PSQ-674: patched (2.07d, 7,245 EGP)
+    PSQ-777: refetching 2 changed/new ticket(s)
+  PSQ-777: patched (0.0d, 0 EGP)
+    CM-765: refetching 1 changed/new ticket(s)
+  CM-765: patched (0.0d, 0 EGP)
+    SP-1966: refetching 3 changed/new ticket(s)
+  SP-1966: patched (20.53d, 71,855 EGP)
+    PSQ-798: refetching 2 changed/new ticket(s)
+  PSQ-798: patched (0.0d, 0 EGP)
+    NLP-4855: refetching 1 changed/new ticket(s)
+  NLP-4855: patched (0.0d, 0 EGP)
+  CM-858: new epic, full fetch
+Fetching CM-858 (Buffer CPL as a range in Create Campaign wizard) ...
+  CM-934: 0.0d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/CM-858.json: 0.0 days, 0 EGP
+    NLP-5006: refetching 1 changed/new ticket(s)
+  NLP-5006: patched (0.0d, 0 EGP)
+    NLP-4845: refetching 1 changed/new ticket(s)
+  NLP-4845: patched (0.0d, 0 EGP)
+    IMS-25: refetching 2 changed/new ticket(s)
+  IMS-25: patched (270.83d, 947,905 EGP)
+    SP-1840: refetching 1 changed/new ticket(s)
+  SP-1840: patched (16.25d, 56,875 EGP)
+  IMS-1647: new epic, full fetch
+Fetching IMS-1647 (Resale Manual Property Creation Form and edit flow enhancement) ...
+  IMS-1826: 0.0d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/IMS-1647.json: 0.0 days, 0 EGP
+    IMS-1386: refetching 2 changed/new ticket(s)
+  IMS-1386: patched (108.51d, 379,785 EGP)
+    SP-1994: refetching 1 changed/new ticket(s)
+  SP-1994: patched (0.0d, 0 EGP)
+    NLP-4850: refetching 2 changed/new ticket(s)
+  NLP-4850: patched (0.0d, 0 EGP)
+  PSQ-781: new epic, full fetch
+Fetching PSQ-781 ([YMIR] WhatsApp template management) ...
+  PSQ-784: 0.0d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/PSQ-781.json: 0.0 days, 0 EGP
+    NLP-4360: refetching 1 changed/new ticket(s)
+  NLP-4360: patched (0.0d, 0 EGP)
+  PAR-5039: new epic, full fetch
+Fetching PAR-5039 (Summer partners competition) ...
+  PAR-5056: 0.0d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/PAR-5039.json: 0.0 days, 0 EGP
+    NLP-5100: refetching 1 changed/new ticket(s)
+  NLP-5100: patched (0.0d, 0 EGP)
+    SP-2097: refetching 1 changed/new ticket(s)
+  SP-2097: patched (0.0d, 0 EGP)
+    PAR-5041: refetching 4 changed/new ticket(s)
+  PAR-5041: patched (0.0d, 0 EGP)
+    PSQ-455: refetching 2 changed/new ticket(s)
+  PSQ-455: patched (2.07d, 7,245 EGP)
+    PAR-4978: refetching 2 changed/new ticket(s)
+  PAR-4978: patched (0.0d, 0 EGP)
+  NLP-4045: new epic, full fetch
+Fetching NLP-4045 ([BE] Progress Tracker Notifications - Enhancements #2) ...
+  NLP-4759: 0.0d
+  NLP-4784: 0.0d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/NLP-4045.json: 0.0 days, 0 EGP
+  PAR-4180: patched (7.6d, 26,600 EGP)
+  SC-1918: new epic, full fetch
+Fetching SC-1918 (Design System should be unified across suite and partners) ...
+  SC-2061: 0.0d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/SC-1918.json: 0.0 days, 0 EGP
+    NLP-4128: refetching 1 changed/new ticket(s)
+  NLP-4128: patched (0.0d, 0 EGP)
+    SP-2085: refetching 2 changed/new ticket(s)
+  SP-2085: patched (0.06d, 210 EGP)
+    IMS-91: refetching 1 changed/new ticket(s)
+  IMS-91: patched (308.52d, 1,079,820 EGP)
+    CM-857: refetching 1 changed/new ticket(s)
+  CM-857: patched (0.0d, 0 EGP)
+    SP-1963: refetching 4 changed/new ticket(s)
+  SP-1963: patched (11.66d, 40,810 EGP)
+  PAR-5045: new epic, full fetch
+Fetching PAR-5045 (EOI store take rate upon creation) ...
+  PAR-5055: 0.0d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/PAR-5045.json: 0.0 days, 0 EGP
+    NLP-4220: refetching 1 changed/new ticket(s)
+  NLP-4220: patched (0.0d, 0 EGP)
+    SC-1848: refetching 2 changed/new ticket(s)
+  SC-1848: patched (0.0d, 0 EGP)
+  SC-1987: new epic, full fetch
+Fetching SC-1987 ([Partners] switch login from password to otp) ...
+  SC-2060: 0.0d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/SC-1987.json: 0.0 days, 0 EGP
+    NLP-4857: refetching 1 changed/new ticket(s)
+  NLP-4857: patched (0.0d, 0 EGP)
+    SC-386: refetching 1 changed/new ticket(s)
+  SC-386: patched (173.21d, 606,235 EGP)
+  CM-899: new epic, full fetch
+Fetching CM-899 ([SPIKE] AI chat — artifact hosting) ...
+  CM-929: 0.0d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/CM-899.json: 0.0 days, 0 EGP
+    PAR-4986: refetching 1 changed/new ticket(s)
+  PAR-4986: patched (6.8d, 23,800 EGP)
+    NLP-3684: refetching 2 changed/new ticket(s)
+  NLP-3684: patched (0.0d, 0 EGP)
+  CM-559: new epic, full fetch
+Fetching CM-559 (Circuit breaker for routing) ...
+  CM-933: 0.0d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/CM-559.json: 0.0 days, 0 EGP
+  CM-937: new epic, full fetch
+Fetching CM-937 (On-call week 2) ...
+  CM-939: 0.0d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/CM-937.json: 0.0 days, 0 EGP
+    NLP-4843: refetching 2 changed/new ticket(s)
+  NLP-4843: patched (0.0d, 0 EGP)
+    NLP-3559: refetching 12 changed/new ticket(s)
+  NLP-3559: patched (131.66d, 460,810 EGP)
+    SP-2030: refetching 1 changed/new ticket(s)
+  SP-2030: patched (0.0d, 0 EGP)
+    NLP-4986: refetching 2 changed/new ticket(s)
+  NLP-4986: patched (0.0d, 0 EGP)
+    SC-1874: refetching 1 changed/new ticket(s)
+  SC-1874: patched (21.1d, 73,850 EGP)
+    PAR-4956: refetching 5 changed/new ticket(s)
+  PAR-4956: patched (0.0d, 0 EGP)
+    CM-914: refetching 1 changed/new ticket(s)
+  CM-914: patched (0.0d, 0 EGP)
+    SP-2084: refetching 1 changed/new ticket(s)
+  SP-2084: patched (0.0d, 0 EGP)
+    IMS-998: refetching 1 changed/new ticket(s)
+  IMS-998: patched (70.67d, 247,345 EGP)
+  CM-898: new epic, full fetch
+Fetching CM-898 (Strip internal IDs from chatbot answers) ...
+  CM-928: 0.0d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/CM-898.json: 0.0 days, 0 EGP
+    IMS-1005: refetching 1 changed/new ticket(s)
+  IMS-1005: patched (43.87d, 153,545 EGP)
+  IMS-1646: new epic, full fetch
+Fetching IMS-1646 (Primary Launch Property Creation Form and edit flow enhancement) ...
+  IMS-1827: 0.0d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/IMS-1646.json: 0.0 days, 0 EGP
+    PSQ-776: refetching 1 changed/new ticket(s)
+  PSQ-776: patched (0.0d, 0 EGP)
+    NLP-3540: refetching 1 changed/new ticket(s)
+  NLP-3540: patched (0.0d, 0 EGP)
+    SP-2049: refetching 1 changed/new ticket(s)
+  SP-2049: patched (0.47d, 1,645 EGP)
+    NLP-5065: refetching 1 changed/new ticket(s)
+  NLP-5065: patched (0.0d, 0 EGP)
+    ER-3192: refetching 1 changed/new ticket(s)
+  ER-3192: patched (0.0d, 0 EGP)
+    NLP-3881: refetching 1 changed/new ticket(s)
+  NLP-3881: patched (780.66d, 2,732,310 EGP)
+    CM-865: refetching 1 changed/new ticket(s)
+  CM-865: patched (0.0d, 0 EGP)
+    SP-2018: refetching 1 changed/new ticket(s)
+  SP-2018: patched (0.0d, 0 EGP)
+  IMS-1734: new epic, full fetch
+Fetching IMS-1734 (Properties tab under each project [Testing Only]) ...
+  IMS-1743: 0.0d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/IMS-1734.json: 0.0 days, 0 EGP
+    NLP-5023: refetching 1 changed/new ticket(s)
+  NLP-5023: patched (0.0d, 0 EGP)
+    SC-58: refetching 1 changed/new ticket(s)
+  SC-58: patched (466.29d, 1,632,015 EGP)
+  PSQ-779: new epic, full fetch
+Fetching PSQ-779 ([SUPPORT] [PAR] Review Replicated Tasks) ...
+  PSQ-786: 0.0d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/PSQ-779.json: 0.0 days, 0 EGP
+    NLP-3957: refetching 6 changed/new ticket(s)
+  NLP-3957: patched (490.24d, 1,715,840 EGP)
+    NLP-4497: refetching 1 changed/new ticket(s)
+  NLP-4497: patched (26.28d, 91,980 EGP)
+    CM-822: refetching 1 changed/new ticket(s)
+  CM-822: patched (0.0d, 0 EGP)
+  CM-895: new epic, full fetch
+Fetching CM-895 (AI chat button — consistent placement across all pages) ...
+  CM-925: 0.0d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/CM-895.json: 0.0 days, 0 EGP
+  SC-1991: new epic, full fetch
+Fetching SC-1991 (Chatbot default state) ...
+  SC-2057: 0.0d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/SC-1991.json: 0.0 days, 0 EGP
+    SC-1866: refetching 2 changed/new ticket(s)
+  SC-1866: patched (0.0d, 0 EGP)
+  CM-897: new epic, full fetch
+Fetching CM-897 ([SPIKE] AI chat — maintaining page context in the prompt) ...
+  CM-927: 0.0d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/CM-897.json: 0.0 days, 0 EGP
+  CM-900: new epic, full fetch
+Fetching CM-900 (Persist chat sessions server-side for troubleshooting) ...
+  CM-930: 0.0d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/CM-900.json: 0.0 days, 0 EGP
+    SP-2074: refetching 1 changed/new ticket(s)
+  SP-2074: patched (0.0d, 0 EGP)
+  CM-859: new epic, full fetch
+Fetching CM-859 (Add non-refundable notice to Top-Up dialog) ...
+  CM-932: 0.0d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/CM-859.json: 0.0 days, 0 EGP
+  PAR-5054: new epic, full fetch
+Fetching PAR-5054 (on-call) ...
+  PAR-5058: 0.0d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/PAR-5054.json: 0.0 days, 0 EGP
+    SC-1590: refetching 1 changed/new ticket(s)
+  SC-1590: patched (0.0d, 0 EGP)
+    NLP-4969: refetching 1 changed/new ticket(s)
+  NLP-4969: patched (0.0d, 0 EGP)
+  NLP-4880: new epic, full fetch
+Fetching NLP-4880 ([BE] Progress tracker - Report a problem) ...
+  NLP-4991: 0.0d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/NLP-4880.json: 0.0 days, 0 EGP
+    NLP-2069: refetching 12 changed/new ticket(s)
+  NLP-2069: patched (872.89d, 3,055,115 EGP)
+    NLP-3913: refetching 2 changed/new ticket(s)
+  NLP-3913: patched (0.0d, 0 EGP)
+    NLP-2088: refetching 14 changed/new ticket(s)
+  NLP-2088: patched (2129.33d, 7,452,655 EGP)
+    NLP-3947: refetching 1 changed/new ticket(s)
+  NLP-3947: patched (0.0d, 0 EGP)
+    SP-1993: refetching 1 changed/new ticket(s)
+  SP-1993: patched (0.0d, 0 EGP)
+    NLP-4970: refetching 2 changed/new ticket(s)
+  NLP-4970: patched (0.0d, 0 EGP)
+    NLP-4178: refetching 1 changed/new ticket(s)
+  NLP-4178: patched (0.0d, 0 EGP)
+    CM-918: refetching 1 changed/new ticket(s)
+  CM-918: patched (0.0d, 0 EGP)
+    NLP-4944: refetching 1 changed/new ticket(s)
+  NLP-4944: patched (0.0d, 0 EGP)
+    PAR-4982: refetching 2 changed/new ticket(s)
+  PAR-4982: patched (0.0d, 0 EGP)
+    NLP-4170: refetching 1 changed/new ticket(s)
+  NLP-4170: patched (0.0d, 0 EGP)
+    PSQ-726: refetching 1 changed/new ticket(s)
+  PSQ-726: patched (0.0d, 0 EGP)
+    SC-1525: removing 3 ticket(s) no longer children here
+    SC-1525: refetching 1 changed/new ticket(s)
+  SC-1525: patched (20.72d, 72,520 EGP)
+  SC-1992: new epic, full fetch
+Fetching SC-1992 ([Developer tracks] Developer agent should be optional) ...
+  SC-2056: 0.0d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/SC-1992.json: 0.0 days, 0 EGP
+    NLP-4846: refetching 1 changed/new ticket(s)
+  NLP-4846: patched (0.0d, 0 EGP)
+    NLP-4294: refetching 2 changed/new ticket(s)
+  NLP-4294: patched (0.0d, 0 EGP)
+    IMS-823: refetching 3 changed/new ticket(s)
+  IMS-823: patched (260.58d, 912,030 EGP)
+  SC-1849: new epic, full fetch
+Fetching SC-1849 (Lead Profile Design Enhancement) ...
+  SC-2058: 0.0d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/SC-1849.json: 0.0 days, 0 EGP
+    NLP-4983: refetching 2 changed/new ticket(s)
+  NLP-4983: patched (0.0d, 0 EGP)
+    CM-915: refetching 1 changed/new ticket(s)
+  CM-915: patched (0.0d, 0 EGP)
+    SP-2034: refetching 2 changed/new ticket(s)
+  SP-2034: patched (4.09d, 14,315 EGP)
+    NLP-5066: refetching 1 changed/new ticket(s)
+  NLP-5066: patched (0.0d, 0 EGP)
+    PAR-4729: refetching 6 changed/new ticket(s)
+  PAR-4729: patched (58.11d, 203,385 EGP)
+    CM-832: refetching 1 changed/new ticket(s)
+  CM-832: patched (0.0d, 0 EGP)
+    SP-1967: refetching 1 changed/new ticket(s)
+  SP-1967: patched (0.0d, 0 EGP)
     SC-2031: refetching 1 changed/new ticket(s)
   SC-2031: patched (0.0d, 0 EGP)
     NLP-3905: refetching 2 changed/new ticket(s)
   NLP-3905: patched (0.0d, 0 EGP)
-  CM-915: new epic, full fetch
-Fetching CM-915 (Create new audience + filteration logic + CSV export + snapshot store) ...
-  CM-920: 0.0d
-Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/CM-915.json: 0.0 days, 0 EGP
-    NLP-4497: refetching 1 changed/new ticket(s)
-  NLP-4497: patched (26.28d, 91,980 EGP)
-    SP-1901: refetching 1 changed/new ticket(s)
-  SP-1901: patched (1.0d, 3,500 EGP)
-    IMS-1052: refetching 1 changed/new ticket(s)
-  IMS-1052: patched (67.07d, 234,745 EGP)
-    PAR-4979: refetching 2 changed/new ticket(s)
-  PAR-4979: patched (2.95d, 10,325 EGP)
-    SP-1832: refetching 1 changed/new ticket(s)
-  SP-1832: patched (5.39d, 18,865 EGP)
-  NLP-5006: new epic, full fetch
-Fetching NLP-5006 ([BE] Make top compounds ranking in Website to read from Manual ranking field) ...
-  NLP-5007: 0.0d
-Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/NLP-5006.json: 0.0 days, 0 EGP
-  NCRM-3333: new epic, full fetch
-Fetching NCRM-3333 (Path D1: Qualified (Presentation Stage)) ...
-  NCRM-3355: 0.0d
-Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/NCRM-3333.json: 0.0 days, 0 EGP
-    SP-2079: refetching 1 changed/new ticket(s)
-  SP-2079: patched (0.0d, 0 EGP)
-    IMS-111: refetching 5 changed/new ticket(s)
-  IMS-111: patched (384.35d, 1,345,225 EGP)
-  SP-2026: new epic, full fetch
-Fetching SP-2026 (Daily Email Notifications to Developer relations head for compound requests) ...
-  SP-2052: 0.47d
-Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/SP-2026.json: 0.47 days, 1,645 EGP
-    CM-796: refetching 1 changed/new ticket(s)
-  CM-796: patched (0.0d, 0 EGP)
-    NLP-4846: refetching 1 changed/new ticket(s)
-  NLP-4846: patched (0.0d, 0 EGP)
-    SC-377: refetching 2 changed/new ticket(s)
-  SC-377: patched (230.82d, 807,870 EGP)
-  NLP-4843: new epic, full fetch
-Fetching NLP-4843 ([App][Android] Back button experience) ...
-  NLP-4903: 0.0d
-  NLP-5103: 0.0d
-Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/NLP-4843.json: 0.0 days, 0 EGP
-    SP-2050: refetching 4 changed/new ticket(s)
-  SP-2050: patched (0.0d, 0 EGP)
-    SP-1081: refetching 1 changed/new ticket(s)
-  SP-1081: patched (269.03d, 941,605 EGP)
-  NLP-4850: new epic, full fetch
-Fetching NLP-4850 ([FE][BE][SEO] Widget for static links in area page) ...
-  NLP-4994: 0.0d
-  NLP-5040: 0.0d
-Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/NLP-4850.json: 0.0 days, 0 EGP
-  PAR-4982: new epic, full fetch
-Fetching PAR-4982 ([Web][NN Agent Access] Organization profile changes) ...
-  PAR-4990: 0.0d
-  PAR-5049: 0.0d
-Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/PAR-4982.json: 0.0 days, 0 EGP
-    NLP-4841: refetching 2 changed/new ticket(s)
-  NLP-4841: patched (0.0d, 0 EGP)
-    SP-1443: refetching 1 changed/new ticket(s)
-  SP-1443: patched (21.09d, 73,815 EGP)
-    ER-3000: refetching 1 changed/new ticket(s)
-  ER-3000: patched (54.36d, 190,260 EGP)
-    NLP-1988: refetching 2 changed/new ticket(s)
-  NLP-1988: patched (545.84d, 1,910,440 EGP)
-  SC-1848: new epic, full fetch
-Fetching SC-1848 (Zoom call details: enhanced view permissions) ...
-  SC-2040: 0.0d
-  SC-2042: 0.0d
-Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/SC-1848.json: 0.0 days, 0 EGP
-    SP-1963: refetching 4 changed/new ticket(s)
-  SP-1963: patched (11.66d, 40,810 EGP)
-  NCRM-3330: new epic, full fetch
-Fetching NCRM-3330 (Phase 2: Answered Leads Routing) ...
-  NCRM-3358: 0.0d
-Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/NCRM-3330.json: 0.0 days, 0 EGP
-  SP-1994: new epic, full fetch
-Fetching SP-1994 (Bonus Module Deleted Sales Impact) ...
-  SP-2104: 0.0d
-Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/SP-1994.json: 0.0 days, 0 EGP
-  NLP-4983: new epic, full fetch
-Fetching NLP-4983 ([BE] Nawy Now - Activity [Phase 02][Dev & Testing]) ...
-  NLP-4987: 0.0d
-  NLP-5001: 0.0d
-Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/NLP-4983.json: 0.0 days, 0 EGP
-    PAR-5041: refetching 3 changed/new ticket(s)
-  PAR-5041: patched (0.0d, 0 EGP)
-  CM-765: new epic, full fetch
-Fetching CM-765 ([Home Page] Sidebar: "Campaign metrics" renamed to "Campaign Performance") ...
-  CM-909: 0.0d
-Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/CM-765.json: 0.0 days, 0 EGP
-  NLP-4124: new epic, full fetch
-Fetching NLP-4124 ([BE] Download Compound Brochure) ...
-  NLP-4364: 0.0d
-  NLP-4555: 0.0d
-Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/NLP-4124.json: 0.0 days, 0 EGP
-  NLP-4212: new epic, full fetch
-Fetching NLP-4212 ([BE] Progress Tracker popup in Homepage [Dev & Test Only]) ...
-  NLP-4549: 0.0d
-Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/NLP-4212.json: 0.0 days, 0 EGP
-    NLP-2088: refetching 8 changed/new ticket(s)
-  NLP-2088: patched (2125.27d, 7,438,445 EGP)
-  NLP-4854: new epic, full fetch
-Fetching NLP-4854 ([App][Map] Map Enhancements - Search Experience (Search Bar) [UAT Only]) ...
-  NLP-4891: 0.0d
-Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/NLP-4854.json: 0.0 days, 0 EGP
-    NLP-3684: refetching 2 changed/new ticket(s)
-  NLP-3684: patched (0.0d, 0 EGP)
-  NCRM-3331: new epic, full fetch
-Fetching NCRM-3331 (Path A: Disqualified) ...
-  NCRM-3357: 0.0d
-Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/NCRM-3331.json: 0.0 days, 0 EGP
-    SP-21: refetching 1 changed/new ticket(s)
-  SP-21: patched (163.03d, 570,605 EGP)
-    NLP-4845: refetching 1 changed/new ticket(s)
-  NLP-4845: patched (0.0d, 0 EGP)
-  SP-1991: new epic, full fetch
-Fetching SP-1991 (Developers Contracts Impact on Partners Take Rates) ...
-  SP-2005: 0.0d
-Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/SP-1991.json: 0.0 days, 0 EGP
-    CM-797: refetching 1 changed/new ticket(s)
-  CM-797: patched (0.0d, 0 EGP)
-  NLP-4821: new epic, full fetch
-Fetching NLP-4821 ([App] Nawy Now - Requirements) ...
-  NLP-4978: 0.0d
-  NLP-4979: 0.0d
-  NLP-4981: 0.0d
-  NLP-4982: 0.0d
-  NLP-4985: 0.0d
-  NLP-4993: 0.0d
-Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/NLP-4821.json: 0.0 days, 0 EGP
-    SC-1874: refetching 1 changed/new ticket(s)
-  SC-1874: patched (21.1d, 73,850 EGP)
-  NLP-4175: new epic, full fetch
-Fetching NLP-4175 ([BE] MMP - Developer Price History (Threshold for Updates)) ...
-  NLP-4268: 0.0d
-  NLP-4554: 0.0d
-Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/NLP-4175.json: 0.0 days, 0 EGP
-    NCRM-3281: refetching 1 changed/new ticket(s)
-  NCRM-3281: patched (0.0d, 0 EGP)
-  NLP-4879: new epic, full fetch
-Fetching NLP-4879 ([BE] Progress Tracker - Not Interested) ...
-  NLP-4989: 0.0d
-Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/NLP-4879.json: 0.0 days, 0 EGP
-    CM-832: refetching 2 changed/new ticket(s)
-  CM-832: patched (0.0d, 0 EGP)
-    SP-2033: refetching 1 changed/new ticket(s)
-  SP-2033: patched (0.0d, 0 EGP)
-    SP-1966: refetching 3 changed/new ticket(s)
-  SP-1966: patched (20.0d, 70,000 EGP)
-  NLP-4170: new epic, full fetch
-Fetching NLP-4170 ([BE] Progress Tracker - Rating Popup [Dev & Test Only]) ...
-  NLP-4756: 0.0d
-Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/NLP-4170.json: 0.0 days, 0 EGP
-    NCRM-3323: refetching 1 changed/new ticket(s)
-  NCRM-3323: patched (0.0d, 0 EGP)
-    SC-1866: refetching 2 changed/new ticket(s)
-  SC-1866: patched (0.0d, 0 EGP)
-    NLP-4207: refetching 1 changed/new ticket(s)
-  NLP-4207: patched (0.0d, 0 EGP)
-    CM-793: refetching 1 changed/new ticket(s)
-  CM-793: patched (0.0d, 0 EGP)
-    SP-2037: refetching 1 changed/new ticket(s)
-  SP-2037: patched (0.0d, 0 EGP)
-    NLP-3913: refetching 2 changed/new ticket(s)
-  NLP-3913: patched (0.0d, 0 EGP)
-    NLP-4986: refetching 2 changed/new ticket(s)
-  NLP-4986: patched (0.0d, 0 EGP)
-  SP-2084: new epic, full fetch
-Fetching SP-2084 (Bulk Generate Claims) ...
-  SP-2100: 0.0d
-Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/SP-2084.json: 0.0 days, 0 EGP
-  NLP-3947: new epic, full fetch
-Fetching NLP-3947 ([Web] Generate links with filtered map (e.g. nawy now, specific area)) ...
-  NLP-4254: 0.0d
-  NLP-4995: 0.0d
-Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/NLP-3947.json: 0.0 days, 0 EGP
-    IMS-9: refetching 3 changed/new ticket(s)
-  IMS-9: patched (1942.44d, 6,798,540 EGP)
-    NLP-2822: refetching 13 changed/new ticket(s)
-  NLP-2822: patched (1572.9d, 5,505,150 EGP)
+    PSQ-137: refetching 1 changed/new ticket(s)
+  PSQ-137: patched (21.21d, 74,235 EGP)
+    NLP-5047: refetching 2 changed/new ticket(s)
+  NLP-5047: patched (0.0d, 0 EGP)
 
-Done. Incremental sync touched 156 epic(s), 516 epic(s) total tracked.
-Portfolio: 31970.0 days, 111,894,965 EGP across 516 epics
+Done. Incremental sync touched 184 epic(s), 555 epic(s) total tracked.
+Portfolio: 32150.3 days, 112,525,980 EGP across 555 epics
 SCRIPT_EXIT_CODE=0

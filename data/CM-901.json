@@ -1,0 +1,27 @@
+{
+  "epic_key": "CM-901",
+  "epic_name": "[SPIKE] AI chat \u2014 persistence model: save on close vs. maintain session history",
+  "project_key": "CM",
+  "project_name": "Campaigns Management",
+  "epic_created": "2026-07-27T22:21:49.554+0300",
+  "generated_at": "2026-07-29T13:11:51.748490+00:00",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 1,
+  "complete_tickets": 0,
+  "in_progress_tickets": 1,
+  "total_net_days": 0.0,
+  "total_cost_egp": 0.0,
+  "tickets": [
+    {
+      "key": "CM-931",
+      "summary": "Testing: [SPIKE] AI chat \u2014 persistence model: save on close vs. maintain session history",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    }
+  ]
+}

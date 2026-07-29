@@ -4,23 +4,23 @@
   "project_key": "IMS",
   "project_name": "Inventory Management System ",
   "epic_created": "2026-06-08T14:12:27.902+0300",
-  "generated_at": "2026-07-27T15:57:07.807165+00:00",
+  "generated_at": "2026-07-29T13:10:55.649557+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 1,
-  "complete_tickets": 0,
-  "in_progress_tickets": 1,
+  "complete_tickets": 1,
+  "in_progress_tickets": 0,
   "total_net_days": 0.0,
   "total_cost_egp": 0.0,
   "tickets": [
     {
       "key": "IMS-1685",
       "summary": "Testing: Detailed Properties Advanced View, and filters [Testing Only]",
-      "status": "To Do",
+      "status": "Done",
       "net_days": 0.0,
       "gross_days": 0.0,
       "excluded_days": 0.0,
       "cost_egp": 0.0,
-      "is_complete": false,
+      "is_complete": true,
       "num_spans": 0
     }
   ]

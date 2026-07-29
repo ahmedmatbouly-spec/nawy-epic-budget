@@ -4,7 +4,7 @@
   "project_key": "IMS",
   "project_name": "Inventory Management System ",
   "epic_created": "2026-04-08T16:49:22.048+0200",
-  "generated_at": "2026-07-28T12:25:23.409181+00:00",
+  "generated_at": "2026-07-29T13:11:12.644328+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 3,
   "complete_tickets": 1,
@@ -12,17 +12,6 @@
   "total_net_days": 3.39,
   "total_cost_egp": 11865.0,
   "tickets": [
-    {
-      "key": "IMS-957",
-      "summary": "Advanced Unified Table Component",
-      "status": "Done",
-      "net_days": 3.39,
-      "gross_days": 3.91,
-      "excluded_days": 0.52,
-      "cost_egp": 11865.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
     {
       "key": "IMS-1411",
       "summary": "Projects Masterplans Global Page",
@@ -33,6 +22,17 @@
       "cost_egp": 0.0,
       "is_complete": false,
       "num_spans": 0
+    },
+    {
+      "key": "IMS-957",
+      "summary": "Advanced Unified Table Component",
+      "status": "Done",
+      "net_days": 3.39,
+      "gross_days": 3.91,
+      "excluded_days": 0.52,
+      "cost_egp": 11865.0,
+      "is_complete": true,
+      "num_spans": 1
     },
     {
       "key": "IMS-1381",

@@ -4,7 +4,7 @@
   "project_key": "NLP",
   "project_name": "Nawy Listing Platform ",
   "epic_created": "2025-04-09T12:13:27.086+0200",
-  "generated_at": "2026-07-28T12:28:25.845249+00:00",
+  "generated_at": "2026-07-29T13:13:37.342169+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 2,
   "complete_tickets": 2,
@@ -13,8 +13,8 @@
   "total_cost_egp": 0.0,
   "tickets": [
     {
-      "key": "NLP-3721",
-      "summary": "[Review] [Web][Map] Map Enhancements - Polygons",
+      "key": "NLP-4998",
+      "summary": "Testing: [Web][Map] Map Enhancements - Polygons",
       "status": "Done",
       "net_days": 0.0,
       "gross_days": 0.0,
@@ -24,8 +24,8 @@
       "num_spans": 0
     },
     {
-      "key": "NLP-4998",
-      "summary": "Testing: [Web][Map] Map Enhancements - Polygons",
+      "key": "NLP-3721",
+      "summary": "[Review] [Web][Map] Map Enhancements - Polygons",
       "status": "Done",
       "net_days": 0.0,
       "gross_days": 0.0,

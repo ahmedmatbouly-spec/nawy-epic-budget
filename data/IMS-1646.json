@@ -1,0 +1,27 @@
+{
+  "epic_key": "IMS-1646",
+  "epic_name": "Primary Launch Property Creation Form and edit flow enhancement",
+  "project_key": "IMS",
+  "project_name": "Inventory Management System ",
+  "epic_created": "2026-06-01T16:00:54.300+0300",
+  "generated_at": "2026-07-29T13:13:58.904980+00:00",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 1,
+  "complete_tickets": 1,
+  "in_progress_tickets": 0,
+  "total_net_days": 0.0,
+  "total_cost_egp": 0.0,
+  "tickets": [
+    {
+      "key": "IMS-1827",
+      "summary": "Testing: Primary Launch Property Creation Form and edit flow enhancement",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    }
+  ]
+}

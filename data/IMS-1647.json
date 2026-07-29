@@ -1,0 +1,27 @@
+{
+  "epic_key": "IMS-1647",
+  "epic_name": "Resale Manual Property Creation Form and edit flow enhancement",
+  "project_key": "IMS",
+  "project_name": "Inventory Management System ",
+  "epic_created": "2026-06-01T16:00:59.954+0300",
+  "generated_at": "2026-07-29T13:13:03.188210+00:00",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 1,
+  "complete_tickets": 1,
+  "in_progress_tickets": 0,
+  "total_net_days": 0.0,
+  "total_cost_egp": 0.0,
+  "tickets": [
+    {
+      "key": "IMS-1826",
+      "summary": "Testing: Resale Manual Property Creation Form and edit flow enhancement",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    }
+  ]
+}

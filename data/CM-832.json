@@ -4,7 +4,7 @@
   "project_key": "CM",
   "project_name": "Campaigns Management",
   "epic_created": "2026-06-12T17:00:40.997+0300",
-  "generated_at": "2026-07-28T12:28:40.606092+00:00",
+  "generated_at": "2026-07-29T13:15:10.191022+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 2,
   "complete_tickets": 0,
@@ -13,8 +13,8 @@
   "total_cost_egp": 0.0,
   "tickets": [
     {
-      "key": "CM-893",
-      "summary": "Testing: CMS Agent Chat Box (Home Page) \u2014 Admin-Tech Only",
+      "key": "CM-913",
+      "summary": "Code Review: CMS Agent Chat Box (Home Page) \u2014 Admin-Tech Only",
       "status": "To Do",
       "net_days": 0.0,
       "gross_days": 0.0,
@@ -24,8 +24,8 @@
       "num_spans": 0
     },
     {
-      "key": "CM-913",
-      "summary": "Code Review: CMS Agent Chat Box (Home Page) \u2014 Admin-Tech Only",
+      "key": "CM-893",
+      "summary": "Testing: CMS Agent Chat Box (Home Page) \u2014 Admin-Tech Only",
       "status": "To Do",
       "net_days": 0.0,
       "gross_days": 0.0,

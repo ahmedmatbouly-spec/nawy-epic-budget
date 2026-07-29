@@ -4,7 +4,7 @@
   "project_key": "IMS",
   "project_name": "Inventory Management System ",
   "epic_created": "2026-01-14T13:17:02.449+0200",
-  "generated_at": "2026-07-26T10:27:49.271007+00:00",
+  "generated_at": "2026-07-29T13:13:55.404328+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 6,
   "complete_tickets": 5,
@@ -12,28 +12,6 @@
   "total_net_days": 70.67,
   "total_cost_egp": 247345.0,
   "tickets": [
-    {
-      "key": "IMS-1046",
-      "summary": "Properties Historical Prices Cleanup Logic Phase 1",
-      "status": "Done",
-      "net_days": 11.58,
-      "gross_days": 11.58,
-      "excluded_days": 0.0,
-      "cost_egp": 40530.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
-    {
-      "key": "IMS-1091",
-      "summary": "Properties Historical Prices Aggregated Views",
-      "status": "Done",
-      "net_days": 28.53,
-      "gross_days": 30.58,
-      "excluded_days": 2.04,
-      "cost_egp": 99855.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
     {
       "key": "IMS-1168",
       "summary": "Prices NPV and Calc Price Calculations",
@@ -57,13 +35,13 @@
       "num_spans": 1
     },
     {
-      "key": "IMS-1229",
-      "summary": "Properties Historical Prices Cleanup Logic Phase 2",
+      "key": "IMS-1091",
+      "summary": "Properties Historical Prices Aggregated Views",
       "status": "Done",
-      "net_days": 17.02,
-      "gross_days": 17.09,
-      "excluded_days": 0.07,
-      "cost_egp": 59570.0,
+      "net_days": 28.53,
+      "gross_days": 30.58,
+      "excluded_days": 2.04,
+      "cost_egp": 99855.0,
       "is_complete": true,
       "num_spans": 1
     },
@@ -75,6 +53,28 @@
       "gross_days": 5.25,
       "excluded_days": 0.0,
       "cost_egp": 18375.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "IMS-1229",
+      "summary": "Properties Historical Prices Cleanup Logic Phase 2",
+      "status": "Done",
+      "net_days": 17.02,
+      "gross_days": 17.09,
+      "excluded_days": 0.07,
+      "cost_egp": 59570.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "IMS-1046",
+      "summary": "Properties Historical Prices Cleanup Logic Phase 1",
+      "status": "Done",
+      "net_days": 11.58,
+      "gross_days": 11.58,
+      "excluded_days": 0.0,
+      "cost_egp": 40530.0,
       "is_complete": true,
       "num_spans": 1
     }

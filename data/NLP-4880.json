@@ -1,0 +1,27 @@
+{
+  "epic_key": "NLP-4880",
+  "epic_name": "[BE] Progress tracker - Report a problem",
+  "project_key": "NLP",
+  "project_name": "Nawy Listing Platform ",
+  "epic_created": "2026-06-15T17:15:26.173+0300",
+  "generated_at": "2026-07-29T13:14:29.728779+00:00",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 1,
+  "complete_tickets": 0,
+  "in_progress_tickets": 1,
+  "total_net_days": 0.0,
+  "total_cost_egp": 0.0,
+  "tickets": [
+    {
+      "key": "NLP-4991",
+      "summary": "Testing: [BE] Progress tracker - Report a problem",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    }
+  ]
+}

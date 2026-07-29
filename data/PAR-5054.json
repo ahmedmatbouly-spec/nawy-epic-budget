@@ -1,0 +1,27 @@
+{
+  "epic_key": "PAR-5054",
+  "epic_name": "on-call",
+  "project_key": "PAR",
+  "project_name": "Partners",
+  "epic_created": "2026-07-29T12:22:02.204+0300",
+  "generated_at": "2026-07-29T13:14:26.495643+00:00",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 1,
+  "complete_tickets": 0,
+  "in_progress_tickets": 1,
+  "total_net_days": 0.0,
+  "total_cost_egp": 0.0,
+  "tickets": [
+    {
+      "key": "PAR-5058",
+      "summary": "Testing: on-call",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    }
+  ]
+}
