@@ -4,13 +4,13 @@
   "project_key": "PSQ",
   "project_name": "Platform Squad",
   "epic_created": "2026-06-24T12:26:21.695+0300",
-  "generated_at": "2026-07-29T13:12:49.969073+00:00",
+  "generated_at": "2026-07-30T12:14:44.768857+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 2,
   "complete_tickets": 0,
   "in_progress_tickets": 2,
-  "total_net_days": 2.07,
-  "total_cost_egp": 7245.0,
+  "total_net_days": 2.95,
+  "total_cost_egp": 10325.0,
   "tickets": [
     {
       "key": "PSQ-810",
@@ -27,10 +27,10 @@
       "key": "PSQ-732",
       "summary": "Testing: [New Service] Back Office: Set up dashboard + Fatoura invoice UI",
       "status": "In Progress",
-      "net_days": 2.07,
-      "gross_days": 2.07,
+      "net_days": 2.95,
+      "gross_days": 2.95,
       "excluded_days": 0.0,
-      "cost_egp": 7245.0,
+      "cost_egp": 10325.0,
       "is_complete": false,
       "num_spans": 1
     }

@@ -4,7 +4,7 @@
   "project_key": "IMS",
   "project_name": "Inventory Management System ",
   "epic_created": "2026-01-27T16:46:06.757+0200",
-  "generated_at": "2026-07-28T12:27:39.557585+00:00",
+  "generated_at": "2026-07-30T12:15:03.416184+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 14,
   "complete_tickets": 13,
@@ -12,6 +12,17 @@
   "total_net_days": 67.07,
   "total_cost_egp": 234745.0,
   "tickets": [
+    {
+      "key": "IMS-1158",
+      "summary": "Payment Plans installments calculation and validations",
+      "status": "Done",
+      "net_days": 8.72,
+      "gross_days": 10.72,
+      "excluded_days": 2.0,
+      "cost_egp": 30520.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
     {
       "key": "IMS-1603",
       "summary": "Payment Plans Bulk Installments [UAT Only]",
@@ -24,15 +35,26 @@
       "num_spans": 1
     },
     {
-      "key": "IMS-1783",
-      "summary": "Payment Plans global page and tab enhancements",
-      "status": "To Do",
-      "net_days": 0.0,
-      "gross_days": 0.0,
+      "key": "IMS-1043",
+      "summary": "Payment Plans Bulk Installments [Dev only]",
+      "status": "Done",
+      "net_days": 2.32,
+      "gross_days": 2.32,
       "excluded_days": 0.0,
-      "cost_egp": 0.0,
-      "is_complete": false,
-      "num_spans": 0
+      "cost_egp": 8120.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "IMS-1385",
+      "summary": "Payment Plan Creation / Edit form UI Enhancement [Dev only]",
+      "status": "Done",
+      "net_days": 2.51,
+      "gross_days": 2.51,
+      "excluded_days": 0.0,
+      "cost_egp": 8785.0,
+      "is_complete": true,
+      "num_spans": 1
     },
     {
       "key": "IMS-1546",
@@ -46,35 +68,13 @@
       "num_spans": 1
     },
     {
-      "key": "IMS-1384",
-      "summary": "Prices and Payment Plans on Detailed Properties Table",
+      "key": "IMS-1604",
+      "summary": "Payment Plan Creation / Edit form UI Enhancement [UAT only]",
       "status": "Done",
-      "net_days": 0.0,
-      "gross_days": 0.0,
-      "excluded_days": 0.0,
-      "cost_egp": 0.0,
-      "is_complete": true,
-      "num_spans": 0
-    },
-    {
-      "key": "IMS-1383",
-      "summary": "Prices and Payment Plans on Grouped Properties",
-      "status": "Done",
-      "net_days": 0.0,
-      "gross_days": 0.0,
-      "excluded_days": 0.0,
-      "cost_egp": 0.0,
-      "is_complete": true,
-      "num_spans": 0
-    },
-    {
-      "key": "IMS-1385",
-      "summary": "Payment Plan Creation / Edit form UI Enhancement [Dev only]",
-      "status": "Done",
-      "net_days": 2.51,
-      "gross_days": 2.51,
-      "excluded_days": 0.0,
-      "cost_egp": 8785.0,
+      "net_days": 11.39,
+      "gross_days": 13.6,
+      "excluded_days": 2.21,
+      "cost_egp": 39865.0,
       "is_complete": true,
       "num_spans": 1
     },
@@ -112,17 +112,6 @@
       "num_spans": 1
     },
     {
-      "key": "IMS-1604",
-      "summary": "Payment Plan Creation / Edit form UI Enhancement [UAT only]",
-      "status": "Done",
-      "net_days": 11.39,
-      "gross_days": 13.6,
-      "excluded_days": 2.21,
-      "cost_egp": 39865.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
-    {
       "key": "IMS-1048",
       "summary": "Payment plan delete from side drawer in unit detailed view",
       "status": "Done",
@@ -134,26 +123,26 @@
       "num_spans": 1
     },
     {
-      "key": "IMS-1043",
-      "summary": "Payment Plans Bulk Installments [Dev only]",
-      "status": "Done",
-      "net_days": 2.32,
-      "gross_days": 2.32,
+      "key": "IMS-1783",
+      "summary": "Payment Plans global page and tab enhancements",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
       "excluded_days": 0.0,
-      "cost_egp": 8120.0,
-      "is_complete": true,
-      "num_spans": 1
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
     },
     {
-      "key": "IMS-1158",
-      "summary": "Payment Plans installments calculation and validations",
+      "key": "IMS-1383",
+      "summary": "Prices and Payment Plans on Grouped Properties",
       "status": "Done",
-      "net_days": 8.72,
-      "gross_days": 10.72,
-      "excluded_days": 2.0,
-      "cost_egp": 30520.0,
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
       "is_complete": true,
-      "num_spans": 1
+      "num_spans": 0
     },
     {
       "key": "IMS-1382",
@@ -165,6 +154,17 @@
       "cost_egp": 7525.0,
       "is_complete": true,
       "num_spans": 1
+    },
+    {
+      "key": "IMS-1384",
+      "summary": "Prices and Payment Plans on Detailed Properties Table",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
     }
   ]
 }

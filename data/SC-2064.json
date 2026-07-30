@@ -1,0 +1,27 @@
+{
+  "epic_key": "SC-2064",
+  "epic_name": "[Commissions Visibility] \u2014 Search & filters on the commissions list (suite + partners)",
+  "project_key": "SC",
+  "project_name": "Suite Control ",
+  "epic_created": "2026-07-29T17:19:02.372+0300",
+  "generated_at": "2026-07-30T12:14:26.807436+00:00",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 1,
+  "complete_tickets": 0,
+  "in_progress_tickets": 1,
+  "total_net_days": 0.0,
+  "total_cost_egp": 0.0,
+  "tickets": [
+    {
+      "key": "SC-2065",
+      "summary": "Testing: [Commissions Visibility] \u2014 Search & filters on the commissions list (suite + partners)",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    }
+  ]
+}

@@ -4,7 +4,7 @@
   "project_key": "NLP",
   "project_name": "Nawy Listing Platform ",
   "epic_created": "2026-06-09T10:14:58.228+0300",
-  "generated_at": "2026-07-29T13:12:36.645163+00:00",
+  "generated_at": "2026-07-30T12:14:07.932310+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 6,
   "complete_tickets": 6,
@@ -13,8 +13,8 @@
   "total_cost_egp": 0.0,
   "tickets": [
     {
-      "key": "NLP-4993",
-      "summary": "Testing: [App] Nawy Now - Requirements",
+      "key": "NLP-4978",
+      "summary": "Request",
       "status": "Done",
       "net_days": 0.0,
       "gross_days": 0.0,
@@ -35,8 +35,8 @@
       "num_spans": 0
     },
     {
-      "key": "NLP-4981",
-      "summary": "Eligibility - Part 1 (Client Eligibility)",
+      "key": "NLP-4993",
+      "summary": "Testing: [App] Nawy Now - Requirements",
       "status": "Done",
       "net_days": 0.0,
       "gross_days": 0.0,
@@ -68,8 +68,8 @@
       "num_spans": 0
     },
     {
-      "key": "NLP-4978",
-      "summary": "Request",
+      "key": "NLP-4981",
+      "summary": "Eligibility - Part 1 (Client Eligibility)",
       "status": "Done",
       "net_days": 0.0,
       "gross_days": 0.0,

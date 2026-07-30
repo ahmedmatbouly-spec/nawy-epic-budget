@@ -4,23 +4,23 @@
   "project_key": "SC",
   "project_name": "Suite Control ",
   "epic_created": "2026-07-21T15:39:05.386+0300",
-  "generated_at": "2026-07-29T13:12:21.333086+00:00",
+  "generated_at": "2026-07-30T12:14:22.192135+00:00",
   "rate_per_day_egp": 3500.0,
-  "total_tickets": 7,
+  "total_tickets": 9,
   "complete_tickets": 2,
-  "in_progress_tickets": 5,
-  "total_net_days": 0.0,
-  "total_cost_egp": 0.0,
+  "in_progress_tickets": 7,
+  "total_net_days": 5.46,
+  "total_cost_egp": 19110.0,
   "tickets": [
     {
-      "key": "SC-2039",
-      "summary": "UMS SDK Phase 1 \u2014 PR 1: Scaffold ums_sdk package (module, capabilities, events)",
-      "status": "Done",
-      "net_days": 0.0,
-      "gross_days": 0.0,
+      "key": "SC-2052",
+      "summary": "UMS SDK Phase 1 \u2014 PR 4: Auth services + domain controllers into ums_sdk",
+      "status": "In Progress",
+      "net_days": 0.78,
+      "gross_days": 0.78,
       "excluded_days": 0.0,
-      "cost_egp": 0.0,
-      "is_complete": true,
+      "cost_egp": 2730.0,
+      "is_complete": false,
       "num_spans": 1
     },
     {
@@ -35,59 +35,81 @@
       "num_spans": 1
     },
     {
-      "key": "SC-2049",
-      "summary": "UMS SDK Phase 1 \u2014 PR 3a: UMS session core (Cognito service, hooks, session controller)",
-      "status": "Open",
+      "key": "SC-2055",
+      "summary": "UMS SDK \u2014 PR 6: Route SDK Crashlytics reporting through ObservabilityCapability; adopt engine observability in partners",
+      "status": "In Progress",
+      "net_days": 0.78,
+      "gross_days": 0.78,
+      "excluded_days": 0.0,
+      "cost_egp": 2730.0,
+      "is_complete": false,
+      "num_spans": 1
+    },
+    {
+      "key": "SC-2039",
+      "summary": "UMS SDK Phase 1 \u2014 PR 1: Scaffold ums_sdk package (module, capabilities, events)",
+      "status": "Done",
       "net_days": 0.0,
       "gross_days": 0.0,
       "excluded_days": 0.0,
       "cost_egp": 0.0,
-      "is_complete": false,
-      "num_spans": 0
+      "is_complete": true,
+      "num_spans": 1
     },
     {
       "key": "SC-2051",
       "summary": "UMS SDK Phase 1 \u2014 PR 3b: Auth data layer into ums_sdk (API, repository, storage)",
-      "status": "Open",
-      "net_days": 0.0,
-      "gross_days": 0.0,
+      "status": "In Progress",
+      "net_days": 0.78,
+      "gross_days": 0.78,
       "excluded_days": 0.0,
-      "cost_egp": 0.0,
+      "cost_egp": 2730.0,
       "is_complete": false,
-      "num_spans": 0
-    },
-    {
-      "key": "SC-2052",
-      "summary": "UMS SDK Phase 1 \u2014 PR 4: Auth services + domain controllers into ums_sdk",
-      "status": "Open",
-      "net_days": 0.0,
-      "gross_days": 0.0,
-      "excluded_days": 0.0,
-      "cost_egp": 0.0,
-      "is_complete": false,
-      "num_spans": 0
+      "num_spans": 1
     },
     {
       "key": "SC-2054",
       "summary": "UMS SDK Phase 1 \u2014 PR 5: Cleanup + architecture guard test",
-      "status": "Open",
-      "net_days": 0.0,
-      "gross_days": 0.0,
+      "status": "In Progress",
+      "net_days": 0.78,
+      "gross_days": 0.78,
       "excluded_days": 0.0,
-      "cost_egp": 0.0,
+      "cost_egp": 2730.0,
       "is_complete": false,
-      "num_spans": 0
+      "num_spans": 1
     },
     {
-      "key": "SC-2055",
-      "summary": "UMS SDK \u2014 PR 6: Route SDK Crashlytics reporting through ObservabilityCapability; adopt engine observability in partners",
-      "status": "Open",
-      "net_days": 0.0,
-      "gross_days": 0.0,
+      "key": "SC-2063",
+      "summary": "UMS SDK \u2014 PR 8: Narrow session hooks to SDK-owned UmsSession (drop Amplify from capability interfaces)",
+      "status": "In Progress",
+      "net_days": 0.78,
+      "gross_days": 0.78,
       "excluded_days": 0.0,
-      "cost_egp": 0.0,
+      "cost_egp": 2730.0,
       "is_complete": false,
-      "num_spans": 0
+      "num_spans": 1
+    },
+    {
+      "key": "SC-2049",
+      "summary": "UMS SDK Phase 1 \u2014 PR 3a: UMS session core (Cognito service, hooks, session controller)",
+      "status": "In Progress",
+      "net_days": 0.78,
+      "gross_days": 0.78,
+      "excluded_days": 0.0,
+      "cost_egp": 2730.0,
+      "is_complete": false,
+      "num_spans": 1
+    },
+    {
+      "key": "SC-2062",
+      "summary": "UMS SDK \u2014 PR 7: Store a real UmsInvalidPasswordException instance (drop the AsyncError(Type) pattern)",
+      "status": "In Progress",
+      "net_days": 0.78,
+      "gross_days": 0.78,
+      "excluded_days": 0.0,
+      "cost_egp": 2730.0,
+      "is_complete": false,
+      "num_spans": 1
     }
   ]
 }

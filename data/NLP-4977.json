@@ -4,7 +4,7 @@
   "project_key": "NLP",
   "project_name": "Nawy Listing Platform ",
   "epic_created": "2026-07-01T10:49:47.277+0300",
-  "generated_at": "2026-07-26T10:32:50.443782+00:00",
+  "generated_at": "2026-07-30T12:15:00.045451+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 2,
   "complete_tickets": 0,
@@ -13,8 +13,8 @@
   "total_cost_egp": 0.0,
   "tickets": [
     {
-      "key": "NLP-4974",
-      "summary": "[BE] Allow push notifications from BE to be displayed in notification center",
+      "key": "NLP-4975",
+      "summary": "[BE] Send automatic notification for launch inventory updates",
       "status": "To Do",
       "net_days": 0.0,
       "gross_days": 0.0,
@@ -24,8 +24,8 @@
       "num_spans": 0
     },
     {
-      "key": "NLP-4975",
-      "summary": "[BE] Send automatic notification for launch inventory updates",
+      "key": "NLP-4974",
+      "summary": "[BE] Allow push notifications from BE to be displayed in notification center",
       "status": "To Do",
       "net_days": 0.0,
       "gross_days": 0.0,
