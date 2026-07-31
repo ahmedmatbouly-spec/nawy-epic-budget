@@ -4,7 +4,7 @@
   "project_key": "IMS",
   "project_name": "Inventory Management System ",
   "epic_created": "2026-01-14T13:22:12.045+0200",
-  "generated_at": "2026-07-30T12:15:23.661685+00:00",
+  "generated_at": "2026-07-31T12:32:03.637166+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 4,
   "complete_tickets": 0,
@@ -13,8 +13,8 @@
   "total_cost_egp": 0.0,
   "tickets": [
     {
-      "key": "IMS-1446",
-      "summary": "Sold Units Ownership History",
+      "key": "IMS-1448",
+      "summary": "Ownership List Importing",
       "status": "Open",
       "net_days": 0.0,
       "gross_days": 0.0,
@@ -46,8 +46,8 @@
       "num_spans": 0
     },
     {
-      "key": "IMS-1448",
-      "summary": "Ownership List Importing",
+      "key": "IMS-1446",
+      "summary": "Sold Units Ownership History",
       "status": "Open",
       "net_days": 0.0,
       "gross_days": 0.0,
