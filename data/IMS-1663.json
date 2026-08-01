@@ -1,0 +1,27 @@
+{
+  "epic_key": "IMS-1663",
+  "epic_name": "Grouped Properties Page Details Page Enhancements - Floor Plans and Images",
+  "project_key": "IMS",
+  "project_name": "Inventory Management System ",
+  "epic_created": "2026-06-07T16:28:28.951+0300",
+  "generated_at": "2026-08-01T11:07:29.293834+00:00",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 1,
+  "complete_tickets": 0,
+  "in_progress_tickets": 1,
+  "total_net_days": 0.0,
+  "total_cost_egp": 0.0,
+  "tickets": [
+    {
+      "key": "IMS-1759",
+      "summary": "Testing: Grouped Properties Page Details Page Enhancements - Floor Plans and Images",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    }
+  ]
+}

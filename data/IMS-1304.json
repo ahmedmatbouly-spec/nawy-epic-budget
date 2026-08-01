@@ -1,0 +1,27 @@
+{
+  "epic_key": "IMS-1304",
+  "epic_name": "Ai Launches / Releases Whatsapp Detection and Structering [Testing only]",
+  "project_key": "IMS",
+  "project_name": "Inventory Management System ",
+  "epic_created": "2026-02-26T12:42:15.489+0200",
+  "generated_at": "2026-08-01T11:07:33.445141+00:00",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 1,
+  "complete_tickets": 0,
+  "in_progress_tickets": 1,
+  "total_net_days": 0.0,
+  "total_cost_egp": 0.0,
+  "tickets": [
+    {
+      "key": "IMS-1479",
+      "summary": "Testing: Ai Launches / Releases Whatsapp Detection and Structering [Testing only]",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    }
+  ]
+}

@@ -1,53 +1,57 @@
-=== INCREMENTAL SYNC since 2026-07-30T12:08:24.089618 ===
-Found 63 issue(s) updated since last sync.
-Epics needing an update this run: 23
-    NLP-3957: refetching 1 changed/new ticket(s)
-  NLP-3957: patched (490.24d, 1,715,840 EGP)
-    SP-1966: refetching 2 changed/new ticket(s)
-  SP-1966: patched (21.63d, 75,705 EGP)
-    IMS-823: refetching 1 changed/new ticket(s)
-  IMS-823: patched (262.78d, 919,730 EGP)
-    IMS-1588: refetching 4 changed/new ticket(s)
-  IMS-1588: patched (32.76d, 114,660 EGP)
-    IMS-397: refetching 3 changed/new ticket(s)
-  IMS-397: patched (115.6d, 404,600 EGP)
-    IMS-1052: refetching 1 changed/new ticket(s)
-  IMS-1052: patched (67.07d, 234,745 EGP)
-    IMS-1415: refetching 1 changed/new ticket(s)
-  IMS-1415: patched (116.38d, 407,330 EGP)
-    IMS-1035: refetching 1 changed/new ticket(s)
-  IMS-1035: patched (0.0d, 0 EGP)
-    NLP-3934: refetching 2 changed/new ticket(s)
-  NLP-3934: patched (124.9d, 437,150 EGP)
-    IMS-1003: refetching 1 changed/new ticket(s)
-  IMS-1003: patched (0.0d, 0 EGP)
-    PAR-4729: refetching 1 changed/new ticket(s)
-  PAR-4729: patched (60.15d, 210,525 EGP)
-    NCRM-1975: refetching 1 changed/new ticket(s)
-  NCRM-1975: patched (119.87d, 419,545 EGP)
-    NCRM-3281: refetching 1 changed/new ticket(s)
-  NCRM-3281: patched (0.0d, 0 EGP)
-    NLP-2088: refetching 1 changed/new ticket(s)
-  NLP-2088: patched (2130.21d, 7,455,735 EGP)
-    NCRM-3323: refetching 2 changed/new ticket(s)
-  NCRM-3323: patched (0.0d, 0 EGP)
-    SP-2034: refetching 1 changed/new ticket(s)
-  SP-2034: patched (5.18d, 18,130 EGP)
-    PAR-5045: refetching 1 changed/new ticket(s)
-  PAR-5045: patched (0.49d, 1,715 EGP)
-    NLP-2822: refetching 1 changed/new ticket(s)
-  NLP-2822: patched (1572.9d, 5,505,150 EGP)
-    IMS-1005: refetching 1 changed/new ticket(s)
-  IMS-1005: patched (44.97d, 157,395 EGP)
-    NCRM-3337: refetching 1 changed/new ticket(s)
-  NCRM-3337: patched (0.0d, 0 EGP)
-    IMS-25: refetching 6 changed/new ticket(s)
+=== INCREMENTAL SYNC since 2026-07-31T12:26:44.487731 ===
+Found 27 issue(s) updated since last sync.
+Epics needing an update this run: 17
+    IMS-797: refetching 1 changed/new ticket(s)
+  IMS-797: patched (128.09d, 448,315 EGP)
+  IMS-1457: new epic, full fetch
+Fetching IMS-1457 (Projects Primary Organization configurations) ...
+  IMS-1475: 0.0d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/IMS-1457.json: 0.0 days, 0 EGP
+    IMS-1377: refetching 1 changed/new ticket(s)
+  IMS-1377: patched (3.39d, 11,865 EGP)
+    IMS-999: refetching 1 changed/new ticket(s)
+  IMS-999: patched (0.0d, 0 EGP)
+  IMS-1610: new epic, full fetch
+Fetching IMS-1610 (Endpoint for Floor plans Metadata extraction) ...
+  IMS-1622: 0.0d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/IMS-1610.json: 0.0 days, 0 EGP
+    IMS-1816: refetching 1 changed/new ticket(s)
+  IMS-1816: patched (9.37d, 32,795 EGP)
+    IMS-1426: refetching 2 changed/new ticket(s)
+  IMS-1426: patched (0.0d, 0 EGP)
+    IMS-25: refetching 1 changed/new ticket(s)
   IMS-25: patched (270.83d, 947,905 EGP)
-    IMS-9: refetching 2 changed/new ticket(s)
-  IMS-9: patched (1947.91d, 6,817,685 EGP)
-    NLP-2823: refetching 2 changed/new ticket(s)
-  NLP-2823: patched (1418.37d, 4,964,295 EGP)
+  IMS-1663: new epic, full fetch
+Fetching IMS-1663 (Grouped Properties Page Details Page Enhancements - Floor Plans and Images) ...
+  IMS-1759: 0.0d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/IMS-1663.json: 0.0 days, 0 EGP
+  IMS-1737: new epic, full fetch
+Fetching IMS-1737 (Grouped Properties Page Details Page Enhancements - Payment Plans and Price History) ...
+  IMS-1741: 0.0d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/IMS-1737.json: 0.0 days, 0 EGP
+  IMS-1304: new epic, full fetch
+Fetching IMS-1304 (Ai Launches / Releases Whatsapp Detection and Structering [Testing only]) ...
+  IMS-1479: 0.0d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/IMS-1304.json: 0.0 days, 0 EGP
+    IMS-74: refetching 1 changed/new ticket(s)
+  IMS-74: patched (137.98d, 482,930 EGP)
+  IMS-1664: new epic, full fetch
+Fetching IMS-1664 (Grouped Properties Bulk actions (Export , Status)) ...
+  IMS-1760: 0.0d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/IMS-1664.json: 0.0 days, 0 EGP
+    IMS-997: refetching 5 changed/new ticket(s)
+  IMS-997: patched (6.26d, 21,910 EGP)
+  IMS-1665: new epic, full fetch
+Fetching IMS-1665 (Detailed Properties Bulk Export) ...
+  IMS-1750: 0.0d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/IMS-1665.json: 0.0 days, 0 EGP
+  IMS-1611: new epic, full fetch
+Fetching IMS-1611 (Endpoint for Render images Captioning) ...
+  IMS-1627: 0.0d
+Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/IMS-1611.json: 0.0 days, 0 EGP
+    IMS-1415: refetching 4 changed/new ticket(s)
+  IMS-1415: patched (116.38d, 407,330 EGP)
 
-Done. Incremental sync touched 23 epic(s), 557 epic(s) total tracked.
-Portfolio: 32121.6 days, 112,425,495 EGP across 557 epics
+Done. Incremental sync touched 17 epic(s), 565 epic(s) total tracked.
+Portfolio: 32121.6 days, 112,425,495 EGP across 565 epics
 SCRIPT_EXIT_CODE=0

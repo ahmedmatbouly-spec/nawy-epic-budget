@@ -1513,6 +1513,18 @@
       "generated_at": "2026-07-26T10:28:13.969638+00:00"
     },
     {
+      "epic_key": "IMS-1304",
+      "epic_name": "Ai Launches / Releases Whatsapp Detection and Structering [Testing only]",
+      "project_key": "IMS",
+      "project_name": "Inventory Management System ",
+      "epic_created": "2026-02-26T12:42:15.489+0200",
+      "total_net_days": 0.0,
+      "total_cost_egp": 0.0,
+      "total_tickets": 1,
+      "complete_tickets": 0,
+      "generated_at": "2026-08-01T11:07:33.445141+00:00"
+    },
+    {
       "epic_key": "IMS-1331",
       "epic_name": "Technical Debt 26.1",
       "project_key": "IMS",
@@ -1534,7 +1546,7 @@
       "total_cost_egp": 11865.0,
       "total_tickets": 3,
       "complete_tickets": 1,
-      "generated_at": "2026-07-29T13:11:12.644328+00:00"
+      "generated_at": "2026-08-01T11:07:17.239318+00:00"
     },
     {
       "epic_key": "IMS-1378",
@@ -1594,7 +1606,7 @@
       "total_cost_egp": 407330.0,
       "total_tickets": 21,
       "complete_tickets": 14,
-      "generated_at": "2026-07-31T12:31:59.764071+00:00"
+      "generated_at": "2026-08-01T11:07:47.598169+00:00"
     },
     {
       "epic_key": "IMS-1426",
@@ -1606,7 +1618,19 @@
       "total_cost_egp": 0.0,
       "total_tickets": 7,
       "complete_tickets": 0,
-      "generated_at": "2026-07-26T10:28:38.195608+00:00"
+      "generated_at": "2026-08-01T11:07:24.909202+00:00"
+    },
+    {
+      "epic_key": "IMS-1457",
+      "epic_name": "Projects Primary Organization configurations",
+      "project_key": "IMS",
+      "project_name": "Inventory Management System ",
+      "epic_created": "2026-04-15T18:00:02.236+0200",
+      "total_net_days": 0.0,
+      "total_cost_egp": 0.0,
+      "total_tickets": 1,
+      "complete_tickets": 0,
+      "generated_at": "2026-08-01T11:07:15.502796+00:00"
     },
     {
       "epic_key": "IMS-156",
@@ -1645,6 +1669,30 @@
       "generated_at": "2026-07-31T12:31:55.167892+00:00"
     },
     {
+      "epic_key": "IMS-1610",
+      "epic_name": "Endpoint for Floor plans Metadata extraction",
+      "project_key": "IMS",
+      "project_name": "Inventory Management System ",
+      "epic_created": "2026-05-17T14:14:09.212+0300",
+      "total_net_days": 0.0,
+      "total_cost_egp": 0.0,
+      "total_tickets": 1,
+      "complete_tickets": 0,
+      "generated_at": "2026-08-01T11:07:21.578821+00:00"
+    },
+    {
+      "epic_key": "IMS-1611",
+      "epic_name": "Endpoint for Render images Captioning",
+      "project_key": "IMS",
+      "project_name": "Inventory Management System ",
+      "epic_created": "2026-05-17T14:14:16.702+0300",
+      "total_net_days": 0.0,
+      "total_cost_egp": 0.0,
+      "total_tickets": 1,
+      "complete_tickets": 0,
+      "generated_at": "2026-08-01T11:07:45.097575+00:00"
+    },
+    {
       "epic_key": "IMS-1645",
       "epic_name": "Primary Manual Property Creation Form and edit flow enhancement",
       "project_key": "IMS",
@@ -1679,6 +1727,42 @@
       "total_tickets": 1,
       "complete_tickets": 1,
       "generated_at": "2026-07-29T13:13:03.188210+00:00"
+    },
+    {
+      "epic_key": "IMS-1663",
+      "epic_name": "Grouped Properties Page Details Page Enhancements - Floor Plans and Images",
+      "project_key": "IMS",
+      "project_name": "Inventory Management System ",
+      "epic_created": "2026-06-07T16:28:28.951+0300",
+      "total_net_days": 0.0,
+      "total_cost_egp": 0.0,
+      "total_tickets": 1,
+      "complete_tickets": 0,
+      "generated_at": "2026-08-01T11:07:29.293834+00:00"
+    },
+    {
+      "epic_key": "IMS-1664",
+      "epic_name": "Grouped Properties Bulk actions (Export , Status)",
+      "project_key": "IMS",
+      "project_name": "Inventory Management System ",
+      "epic_created": "2026-06-07T16:28:34.576+0300",
+      "total_net_days": 0.0,
+      "total_cost_egp": 0.0,
+      "total_tickets": 1,
+      "complete_tickets": 0,
+      "generated_at": "2026-08-01T11:07:39.521570+00:00"
+    },
+    {
+      "epic_key": "IMS-1665",
+      "epic_name": "Detailed Properties Bulk Export",
+      "project_key": "IMS",
+      "project_name": "Inventory Management System ",
+      "epic_created": "2026-06-07T16:28:39.694+0300",
+      "total_net_days": 0.0,
+      "total_cost_egp": 0.0,
+      "total_tickets": 1,
+      "complete_tickets": 0,
+      "generated_at": "2026-08-01T11:07:43.181765+00:00"
     },
     {
       "epic_key": "IMS-1676",
@@ -1789,6 +1873,18 @@
       "generated_at": "2026-07-29T13:14:07.661184+00:00"
     },
     {
+      "epic_key": "IMS-1737",
+      "epic_name": "Grouped Properties Page Details Page Enhancements - Payment Plans and Price History",
+      "project_key": "IMS",
+      "project_name": "Inventory Management System ",
+      "epic_created": "2026-06-26T17:49:21.820+0300",
+      "total_net_days": 0.0,
+      "total_cost_egp": 0.0,
+      "total_tickets": 1,
+      "complete_tickets": 0,
+      "generated_at": "2026-08-01T11:07:31.511013+00:00"
+    },
+    {
       "epic_key": "IMS-1816",
       "epic_name": "Render Images",
       "project_key": "IMS",
@@ -1798,7 +1894,7 @@
       "total_cost_egp": 32795.0,
       "total_tickets": 2,
       "complete_tickets": 0,
-      "generated_at": "2026-07-26T10:28:41.127261+00:00"
+      "generated_at": "2026-08-01T11:07:22.904436+00:00"
     },
     {
       "epic_key": "IMS-193",
@@ -1822,7 +1918,7 @@
       "total_cost_egp": 947905.0,
       "total_tickets": 119,
       "complete_tickets": 92,
-      "generated_at": "2026-07-31T12:32:19.854934+00:00"
+      "generated_at": "2026-08-01T11:07:27.389587+00:00"
     },
     {
       "epic_key": "IMS-305",
@@ -1882,7 +1978,7 @@
       "total_cost_egp": 482930.0,
       "total_tickets": 21,
       "complete_tickets": 19,
-      "generated_at": "2026-07-26T10:26:26.373687+00:00"
+      "generated_at": "2026-08-01T11:07:34.719962+00:00"
     },
     {
       "epic_key": "IMS-740",
@@ -1918,7 +2014,7 @@
       "total_cost_egp": 448315.0,
       "total_tickets": 20,
       "complete_tickets": 17,
-      "generated_at": "2026-07-26T10:27:27.681106+00:00"
+      "generated_at": "2026-08-01T11:07:13.004617+00:00"
     },
     {
       "epic_key": "IMS-823",
@@ -1978,7 +2074,7 @@
       "total_cost_egp": 21910.0,
       "total_tickets": 6,
       "complete_tickets": 1,
-      "generated_at": "2026-07-26T10:27:46.739261+00:00"
+      "generated_at": "2026-08-01T11:07:41.834676+00:00"
     },
     {
       "epic_key": "IMS-998",
@@ -2002,7 +2098,7 @@
       "total_cost_egp": 0.0,
       "total_tickets": 2,
       "complete_tickets": 0,
-      "generated_at": "2026-07-26T10:27:50.479657+00:00"
+      "generated_at": "2026-08-01T11:07:18.996844+00:00"
     },
     {
       "epic_key": "NCRM-1",
@@ -6685,5 +6781,5 @@
       "generated_at": "2026-07-26T10:33:16.356993+00:00"
     }
   ],
-  "updated_at": "2026-07-31T12:32:24.000443+00:00"
+  "updated_at": "2026-08-01T11:07:47.620521+00:00"
 }
