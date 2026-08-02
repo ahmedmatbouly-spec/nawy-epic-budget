@@ -4,7 +4,7 @@
   "project_key": "CM",
   "project_name": "Campaigns Management",
   "epic_created": "2026-07-27T22:20:53.500+0300",
-  "generated_at": "2026-08-02T11:07:55.435417+00:00",
+  "generated_at": "2026-08-02T14:17:17.438578+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 2,
   "complete_tickets": 0,
@@ -13,8 +13,8 @@
   "total_cost_egp": 0.0,
   "tickets": [
     {
-      "key": "CM-948",
-      "summary": "Code Review: AI chat button \u2014 consistent placement across all pages",
+      "key": "CM-925",
+      "summary": "Testing: AI chat button \u2014 consistent placement across all pages",
       "status": "To Do",
       "net_days": 0.0,
       "gross_days": 0.0,
@@ -24,8 +24,8 @@
       "num_spans": 0
     },
     {
-      "key": "CM-925",
-      "summary": "Testing: AI chat button \u2014 consistent placement across all pages",
+      "key": "CM-948",
+      "summary": "Code Review: AI chat button \u2014 consistent placement across all pages",
       "status": "To Do",
       "net_days": 0.0,
       "gross_days": 0.0,

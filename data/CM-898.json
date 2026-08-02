@@ -4,7 +4,7 @@
   "project_key": "CM",
   "project_name": "Campaigns Management",
   "epic_created": "2026-07-27T22:21:19.010+0300",
-  "generated_at": "2026-08-02T11:07:35.346420+00:00",
+  "generated_at": "2026-08-02T14:17:55.289781+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 2,
   "complete_tickets": 0,
@@ -13,8 +13,8 @@
   "total_cost_egp": 0.0,
   "tickets": [
     {
-      "key": "CM-928",
-      "summary": "Testing: Strip internal IDs from chatbot answers",
+      "key": "CM-949",
+      "summary": "Code Review: Strip internal IDs from chatbot answers",
       "status": "To Do",
       "net_days": 0.0,
       "gross_days": 0.0,
@@ -24,8 +24,8 @@
       "num_spans": 0
     },
     {
-      "key": "CM-949",
-      "summary": "Code Review: Strip internal IDs from chatbot answers",
+      "key": "CM-928",
+      "summary": "Testing: Strip internal IDs from chatbot answers",
       "status": "To Do",
       "net_days": 0.0,
       "gross_days": 0.0,

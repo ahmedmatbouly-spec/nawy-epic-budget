@@ -4,14 +4,25 @@
   "project_key": "CM",
   "project_name": "Campaigns Management",
   "epic_created": "2026-07-14T00:44:28.161+0300",
-  "generated_at": "2026-07-30T12:14:03.334950+00:00",
+  "generated_at": "2026-08-02T14:18:18.183976+00:00",
   "rate_per_day_egp": 3500.0,
-  "total_tickets": 1,
+  "total_tickets": 2,
   "complete_tickets": 0,
-  "in_progress_tickets": 1,
+  "in_progress_tickets": 2,
   "total_net_days": 0.0,
   "total_cost_egp": 0.0,
   "tickets": [
+    {
+      "key": "CM-951",
+      "summary": "Code Review: Add non-refundable notice to Top-Up dialog",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
     {
       "key": "CM-932",
       "summary": "Testing: Add non-refundable notice to Top-Up dialog",

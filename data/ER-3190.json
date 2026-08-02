@@ -4,24 +4,24 @@
   "project_key": "ER",
   "project_name": "eRealty",
   "epic_created": "2026-07-21T16:47:43.950+0300",
-  "generated_at": "2026-07-27T15:57:41.694014+00:00",
+  "generated_at": "2026-08-02T14:17:58.898480+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 1,
   "complete_tickets": 0,
   "in_progress_tickets": 1,
-  "total_net_days": 0.0,
-  "total_cost_egp": 0.0,
+  "total_net_days": 0.1,
+  "total_cost_egp": 350.0,
   "tickets": [
     {
       "key": "ER-3203",
       "summary": "Testing: Insights - Projects Heatmap",
-      "status": "To Do",
-      "net_days": 0.0,
-      "gross_days": 0.0,
+      "status": "In Progress",
+      "net_days": 0.1,
+      "gross_days": 0.1,
       "excluded_days": 0.0,
-      "cost_egp": 0.0,
+      "cost_egp": 350.0,
       "is_complete": false,
-      "num_spans": 0
+      "num_spans": 1
     }
   ]
 }
