@@ -4,7 +4,7 @@
   "project_key": "IMS",
   "project_name": "Inventory Management System ",
   "epic_created": "2025-08-20T13:27:11.584+0300",
-  "generated_at": "2026-07-26T10:27:11.410347+00:00",
+  "generated_at": "2026-08-02T10:17:51.457826+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 5,
   "complete_tickets": 4,
@@ -59,7 +59,7 @@
     {
       "key": "IMS-1814",
       "summary": "IMS UI design system implementation",
-      "status": "Open",
+      "status": "To Do",
       "net_days": 0.0,
       "gross_days": 0.0,
       "excluded_days": 0.0,

@@ -4,7 +4,7 @@
   "project_key": "SC",
   "project_name": "Suite Control ",
   "epic_created": "2026-04-14T18:14:57.133+0200",
-  "generated_at": "2026-07-29T13:14:53.335367+00:00",
+  "generated_at": "2026-08-02T10:10:11.759349+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 11,
   "complete_tickets": 11,
@@ -13,9 +13,9 @@
   "total_cost_egp": 72520.0,
   "tickets": [
     {
-      "key": "SC-1683",
-      "summary": "e_realty PR4 \u2014 Phase 3: Integration & Polish (Barrel + Events + Guard + Verification)",
-      "status": "Done",
+      "key": "SC-1550",
+      "summary": "CRM integration tests: codebase discovery",
+      "status": "Released",
       "net_days": 0.0,
       "gross_days": 0.0,
       "excluded_days": 0.0,
@@ -24,24 +24,13 @@
       "num_spans": 1
     },
     {
-      "key": "SC-1681",
-      "summary": "e_realty PR4 \u2014 Phase 1: Foundation (Scaffold + Data Layer + Domain)",
-      "status": "Done",
+      "key": "SC-1551",
+      "summary": "CRM integration tests: harness",
+      "status": "Released",
       "net_days": 0.0,
       "gross_days": 0.0,
       "excluded_days": 0.0,
       "cost_egp": 0.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
-    {
-      "key": "SC-1969",
-      "summary": "Automation Testing",
-      "status": "Done",
-      "net_days": 8.07,
-      "gross_days": 8.07,
-      "excluded_days": 0.0,
-      "cost_egp": 28245.0,
       "is_complete": true,
       "num_spans": 1
     },
@@ -57,9 +46,53 @@
       "num_spans": 1
     },
     {
-      "key": "SC-1551",
-      "summary": "CRM integration tests: harness",
+      "key": "SC-1553",
+      "summary": "CRM integration tests: CI workflow and cleanup",
       "status": "Released",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "SC-1654",
+      "summary": "Phase 0: Platform Foundations \u2014 Module, EventBus, Capabilities & Adapters in suite_core",
+      "status": "Ready for Deployment",
+      "net_days": 4.84,
+      "gross_days": 4.85,
+      "excluded_days": 0.0,
+      "cost_egp": 16940.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "SC-1681",
+      "summary": "e_realty PR4 \u2014 Phase 1: Foundation (Scaffold + Data Layer + Domain)",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "SC-1682",
+      "summary": "e_realty PR4 \u2014 Phase 2: Code Migration (Controllers + Screens + Widgets)",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "SC-1683",
+      "summary": "e_realty PR4 \u2014 Phase 3: Integration & Polish (Barrel + Events + Guard + Verification)",
+      "status": "Done",
       "net_days": 0.0,
       "gross_days": 0.0,
       "excluded_days": 0.0,
@@ -90,46 +123,13 @@
       "num_spans": 1
     },
     {
-      "key": "SC-1550",
-      "summary": "CRM integration tests: codebase discovery",
-      "status": "Released",
-      "net_days": 0.0,
-      "gross_days": 0.0,
-      "excluded_days": 0.0,
-      "cost_egp": 0.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
-    {
-      "key": "SC-1682",
-      "summary": "e_realty PR4 \u2014 Phase 2: Code Migration (Controllers + Screens + Widgets)",
+      "key": "SC-1969",
+      "summary": "Automation Testing",
       "status": "Done",
-      "net_days": 0.0,
-      "gross_days": 0.0,
+      "net_days": 8.07,
+      "gross_days": 8.07,
       "excluded_days": 0.0,
-      "cost_egp": 0.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
-    {
-      "key": "SC-1553",
-      "summary": "CRM integration tests: CI workflow and cleanup",
-      "status": "Released",
-      "net_days": 0.0,
-      "gross_days": 0.0,
-      "excluded_days": 0.0,
-      "cost_egp": 0.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
-    {
-      "key": "SC-1654",
-      "summary": "Phase 0: Platform Foundations \u2014 Module, EventBus, Capabilities & Adapters in suite_core",
-      "status": "Ready for Deployment",
-      "net_days": 4.84,
-      "gross_days": 4.85,
-      "excluded_days": 0.0,
-      "cost_egp": 16940.0,
+      "cost_egp": 28245.0,
       "is_complete": true,
       "num_spans": 1
     }

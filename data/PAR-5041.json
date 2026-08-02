@@ -4,7 +4,7 @@
   "project_key": "PAR",
   "project_name": "Partners",
   "epic_created": "2026-07-22T16:14:43.460+0300",
-  "generated_at": "2026-07-29T13:13:14.542805+00:00",
+  "generated_at": "2026-08-02T10:15:08.848117+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 4,
   "complete_tickets": 0,
@@ -13,8 +13,8 @@
   "total_cost_egp": 0.0,
   "tickets": [
     {
-      "key": "PAR-4869",
-      "summary": "Partner termination flow",
+      "key": "PAR-4753",
+      "summary": "[BE] Soft delete empty organizations",
       "status": "Open",
       "net_days": 0.0,
       "gross_days": 0.0,
@@ -35,8 +35,8 @@
       "num_spans": 0
     },
     {
-      "key": "PAR-4753",
-      "summary": "[BE] Soft delete empty organizations",
+      "key": "PAR-4869",
+      "summary": "Partner termination flow",
       "status": "Open",
       "net_days": 0.0,
       "gross_days": 0.0,

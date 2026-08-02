@@ -4,7 +4,7 @@
   "project_key": "NLP",
   "project_name": "Nawy Listing Platform ",
   "epic_created": "2023-06-18T07:25:54.299+0300",
-  "generated_at": "2026-07-30T12:15:20.832011+00:00",
+  "generated_at": "2026-08-02T10:19:24.779703+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 7,
   "complete_tickets": 5,
@@ -13,24 +13,13 @@
   "total_cost_egp": 444325.0,
   "tickets": [
     {
-      "key": "NLP-5105",
-      "summary": "[Web] Display EOI amount in launches",
-      "status": "To Do",
+      "key": "NLP-736",
+      "summary": " As a user, I want to have visibility of the latest launches and actively perform necessary actions as needed.",
+      "status": "Done",
       "net_days": 0.0,
       "gross_days": 0.0,
       "excluded_days": 0.0,
       "cost_egp": 0.0,
-      "is_complete": false,
-      "num_spans": 0
-    },
-    {
-      "key": "NLP-2224",
-      "summary": "[BE] Launches shouldn't appear in search results page",
-      "status": "Done",
-      "net_days": 23.9,
-      "gross_days": 23.9,
-      "excluded_days": 0.0,
-      "cost_egp": 83650.0,
       "is_complete": true,
       "num_spans": 1
     },
@@ -46,6 +35,28 @@
       "num_spans": 1
     },
     {
+      "key": "NLP-2224",
+      "summary": "[BE] Launches shouldn't appear in search results page",
+      "status": "Done",
+      "net_days": 23.9,
+      "gross_days": 23.9,
+      "excluded_days": 0.0,
+      "cost_egp": 83650.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NLP-2510",
+      "summary": "[Web][FE] Launches - Links wrong re-direction",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
       "key": "NLP-3772",
       "summary": "[BE][Web] Display developer name for launches",
       "status": "Done",
@@ -53,17 +64,6 @@
       "gross_days": 32.84,
       "excluded_days": 11.2,
       "cost_egp": 75740.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
-    {
-      "key": "NLP-736",
-      "summary": " As a user, I want to have visibility of the latest launches and actively perform necessary actions as needed.",
-      "status": "Done",
-      "net_days": 0.0,
-      "gross_days": 0.0,
-      "excluded_days": 0.0,
-      "cost_egp": 0.0,
       "is_complete": true,
       "num_spans": 1
     },
@@ -79,14 +79,14 @@
       "num_spans": 0
     },
     {
-      "key": "NLP-2510",
-      "summary": "[Web][FE] Launches - Links wrong re-direction",
-      "status": "Done",
+      "key": "NLP-5105",
+      "summary": "[Web] Display EOI amount in launches",
+      "status": "To Do",
       "net_days": 0.0,
       "gross_days": 0.0,
       "excluded_days": 0.0,
       "cost_egp": 0.0,
-      "is_complete": true,
+      "is_complete": false,
       "num_spans": 0
     }
   ]

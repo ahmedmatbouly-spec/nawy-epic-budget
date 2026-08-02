@@ -4,7 +4,7 @@
   "project_key": "IMS",
   "project_name": "Inventory Management System ",
   "epic_created": "2026-04-09T16:28:39.211+0200",
-  "generated_at": "2026-07-30T12:15:37.455480+00:00",
+  "generated_at": "2026-08-02T10:18:52.923346+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 4,
   "complete_tickets": 4,
@@ -24,15 +24,15 @@
       "num_spans": 1
     },
     {
-      "key": "IMS-1735",
-      "summary": "Projects Data Coverage Report Daily Email [Testing Only]",
+      "key": "IMS-1489",
+      "summary": "Projects Data Coverage Report Daily Email [Dev Only]",
       "status": "Done",
-      "net_days": 0.0,
-      "gross_days": 0.0,
+      "net_days": 28.09,
+      "gross_days": 28.09,
       "excluded_days": 0.0,
-      "cost_egp": 0.0,
+      "cost_egp": 98315.0,
       "is_complete": true,
-      "num_spans": 0
+      "num_spans": 1
     },
     {
       "key": "IMS-1667",
@@ -46,15 +46,15 @@
       "num_spans": 0
     },
     {
-      "key": "IMS-1489",
-      "summary": "Projects Data Coverage Report Daily Email [Dev Only]",
+      "key": "IMS-1735",
+      "summary": "Projects Data Coverage Report Daily Email [Testing Only]",
       "status": "Done",
-      "net_days": 28.09,
-      "gross_days": 28.09,
+      "net_days": 0.0,
+      "gross_days": 0.0,
       "excluded_days": 0.0,
-      "cost_egp": 98315.0,
+      "cost_egp": 0.0,
       "is_complete": true,
-      "num_spans": 1
+      "num_spans": 0
     }
   ]
 }

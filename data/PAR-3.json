@@ -4,7 +4,7 @@
   "project_key": "PAR",
   "project_name": "Partners",
   "epic_created": "2023-06-04T12:44:14.028+0300",
-  "generated_at": "2026-07-26T10:22:32.029047+00:00",
+  "generated_at": "2026-08-02T10:13:25.538820+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 9,
   "complete_tickets": 7,
@@ -92,7 +92,7 @@
     {
       "key": "SRE-1276",
       "summary": "Revisit terragrunt setup to limit refactoring hardcoded values",
-      "status": "Canceled",
+      "status": "Cancelled",
       "net_days": 0.0,
       "gross_days": 0.0,
       "excluded_days": 0.0,
@@ -103,7 +103,7 @@
     {
       "key": "SRE-1347",
       "summary": "Explore setting up argocd dev env to avoid pushing directly to main when deploying a new app",
-      "status": "Canceled",
+      "status": "Cancelled",
       "net_days": 0.0,
       "gross_days": 0.0,
       "excluded_days": 0.0,

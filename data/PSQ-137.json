@@ -4,7 +4,7 @@
   "project_key": "PSQ",
   "project_name": "Platform Squad",
   "epic_created": "2026-01-05T13:51:10.410+0200",
-  "generated_at": "2026-07-30T12:15:24.324759+00:00",
+  "generated_at": "2026-08-02T10:15:13.683090+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 9,
   "complete_tickets": 7,
@@ -12,39 +12,6 @@
   "total_net_days": 21.21,
   "total_cost_egp": 74235.0,
   "tickets": [
-    {
-      "key": "PSQ-7",
-      "summary": "[UMS]: Utilize Reader Database",
-      "status": "Released",
-      "net_days": 11.88,
-      "gross_days": 12.38,
-      "excluded_days": 0.5,
-      "cost_egp": 41580.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
-    {
-      "key": "PSQ-610",
-      "summary": "[YMIR] Introduce structured JSON logging & observability telemetry",
-      "status": "Open",
-      "net_days": 0.0,
-      "gross_days": 0.0,
-      "excluded_days": 0.0,
-      "cost_egp": 0.0,
-      "is_complete": false,
-      "num_spans": 0
-    },
-    {
-      "key": "PSQ-611",
-      "summary": "[YMIR] Inject mock external-service providers on non-prod via DI",
-      "status": "Open",
-      "net_days": 0.0,
-      "gross_days": 0.0,
-      "excluded_days": 0.0,
-      "cost_egp": 0.0,
-      "is_complete": false,
-      "num_spans": 0
-    },
     {
       "key": "PSQ-2",
       "summary": "[PKG]: JSON Logging",
@@ -57,13 +24,24 @@
       "num_spans": 1
     },
     {
-      "key": "PSQ-394",
-      "summary": "Migrate frontend build tooling from Create React App to Vite",
+      "key": "PSQ-7",
+      "summary": "[UMS]: Utilize Reader Database",
+      "status": "Released",
+      "net_days": 11.88,
+      "gross_days": 12.38,
+      "excluded_days": 0.5,
+      "cost_egp": 41580.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "PSQ-138",
+      "summary": "[TECH DEPT] Health Checks Improvements",
       "status": "Done",
-      "net_days": 1.05,
-      "gross_days": 1.16,
-      "excluded_days": 0.11,
-      "cost_egp": 3675.0,
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
       "is_complete": true,
       "num_spans": 1
     },
@@ -90,15 +68,37 @@
       "num_spans": 1
     },
     {
-      "key": "PSQ-138",
-      "summary": "[TECH DEPT] Health Checks Improvements",
+      "key": "PSQ-394",
+      "summary": "Migrate frontend build tooling from Create React App to Vite",
       "status": "Done",
+      "net_days": 1.05,
+      "gross_days": 1.16,
+      "excluded_days": 0.11,
+      "cost_egp": 3675.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "PSQ-610",
+      "summary": "[YMIR] Introduce structured JSON logging & observability telemetry",
+      "status": "Open",
       "net_days": 0.0,
       "gross_days": 0.0,
       "excluded_days": 0.0,
       "cost_egp": 0.0,
-      "is_complete": true,
-      "num_spans": 1
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "PSQ-611",
+      "summary": "[YMIR] Inject mock external-service providers on non-prod via DI",
+      "status": "Open",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
     },
     {
       "key": "PSQ-659",

@@ -4,7 +4,7 @@
   "project_key": "IMS",
   "project_name": "Inventory Management System ",
   "epic_created": "2025-03-09T11:49:50.586+0200",
-  "generated_at": "2026-07-27T15:56:53.018085+00:00",
+  "generated_at": "2026-08-02T10:17:11.461602+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 16,
   "complete_tickets": 10,
@@ -12,6 +12,28 @@
   "total_net_days": 154.62,
   "total_cost_egp": 541170.0,
   "tickets": [
+    {
+      "key": "IMS-81",
+      "summary": "Automated message flagging and alerts",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "IMS-82",
+      "summary": "Automated reminders messages",
+      "status": "Open",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
     {
       "key": "IMS-86",
       "summary": "Bulk fetch and update Developers whatsapp groups labeling and custom properties",
@@ -24,8 +46,8 @@
       "num_spans": 0
     },
     {
-      "key": "IMS-1848",
-      "summary": "Developers Create whatsapp Group Action",
+      "key": "IMS-87",
+      "summary": "Whatsapp creation with new developer creation",
       "status": "Open",
       "net_days": 0.0,
       "gross_days": 0.0,
@@ -35,37 +57,26 @@
       "num_spans": 0
     },
     {
-      "key": "IMS-592",
-      "summary": "Whatsapp Messages Daily Mongo Collection",
+      "key": "IMS-88",
+      "summary": "Periskope workspace setup",
       "status": "Done",
-      "net_days": 1.63,
-      "gross_days": 1.63,
-      "excluded_days": 0.0,
-      "cost_egp": 5705.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
-    {
-      "key": "IMS-1387",
-      "summary": "Whatsapp Groups Page Enhancement",
-      "status": "Done",
-      "net_days": 3.67,
-      "gross_days": 4.67,
-      "excluded_days": 1.0,
-      "cost_egp": 12845.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
-    {
-      "key": "IMS-1857",
-      "summary": "Whatsapp configurations Contacts",
-      "status": "Open",
       "net_days": 0.0,
       "gross_days": 0.0,
       "excluded_days": 0.0,
       "cost_egp": 0.0,
-      "is_complete": false,
+      "is_complete": true,
       "num_spans": 0
+    },
+    {
+      "key": "IMS-249",
+      "summary": "Fetch and update Developers whatsapp groups labeling and custom properties",
+      "status": "Done",
+      "net_days": 58.69,
+      "gross_days": 58.69,
+      "excluded_days": 0.0,
+      "cost_egp": 205415.0,
+      "is_complete": true,
+      "num_spans": 1
     },
     {
       "key": "IMS-253",
@@ -79,24 +90,24 @@
       "num_spans": 1
     },
     {
-      "key": "IMS-81",
-      "summary": "Automated message flagging and alerts",
+      "key": "IMS-592",
+      "summary": "Whatsapp Messages Daily Mongo Collection",
       "status": "Done",
-      "net_days": 0.0,
-      "gross_days": 0.0,
+      "net_days": 1.63,
+      "gross_days": 1.63,
       "excluded_days": 0.0,
-      "cost_egp": 0.0,
+      "cost_egp": 5705.0,
       "is_complete": true,
-      "num_spans": 0
+      "num_spans": 1
     },
     {
-      "key": "IMS-1207",
-      "summary": "Joining Missing Developers whatsapp groups",
+      "key": "IMS-1072",
+      "summary": "Whatsapp Text daily summary and insights [Testing & UAT]",
       "status": "Done",
-      "net_days": 0.0,
-      "gross_days": 0.0,
+      "net_days": 5.05,
+      "gross_days": 5.05,
       "excluded_days": 0.0,
-      "cost_egp": 0.0,
+      "cost_egp": 17675.0,
       "is_complete": true,
       "num_spans": 1
     },
@@ -112,14 +123,36 @@
       "num_spans": 1
     },
     {
-      "key": "IMS-88",
-      "summary": "Periskope workspace setup",
+      "key": "IMS-1207",
+      "summary": "Joining Missing Developers whatsapp groups",
       "status": "Done",
       "net_days": 0.0,
       "gross_days": 0.0,
       "excluded_days": 0.0,
       "cost_egp": 0.0,
       "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "IMS-1387",
+      "summary": "Whatsapp Groups Page Enhancement",
+      "status": "Done",
+      "net_days": 3.67,
+      "gross_days": 4.67,
+      "excluded_days": 1.0,
+      "cost_egp": 12845.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "IMS-1388",
+      "summary": "Whatsapp Configurations Page - Contacts tab",
+      "status": "Open",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
       "num_spans": 0
     },
     {
@@ -134,19 +167,8 @@
       "num_spans": 0
     },
     {
-      "key": "IMS-1072",
-      "summary": "Whatsapp Text daily summary and insights [Testing & UAT]",
-      "status": "Done",
-      "net_days": 5.05,
-      "gross_days": 5.05,
-      "excluded_days": 0.0,
-      "cost_egp": 17675.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
-    {
-      "key": "IMS-82",
-      "summary": "Automated reminders messages",
+      "key": "IMS-1848",
+      "summary": "Developers Create whatsapp Group Action",
       "status": "Open",
       "net_days": 0.0,
       "gross_days": 0.0,
@@ -156,30 +178,8 @@
       "num_spans": 0
     },
     {
-      "key": "IMS-87",
-      "summary": "Whatsapp creation with new developer creation",
-      "status": "Open",
-      "net_days": 0.0,
-      "gross_days": 0.0,
-      "excluded_days": 0.0,
-      "cost_egp": 0.0,
-      "is_complete": false,
-      "num_spans": 0
-    },
-    {
-      "key": "IMS-249",
-      "summary": "Fetch and update Developers whatsapp groups labeling and custom properties",
-      "status": "Done",
-      "net_days": 58.69,
-      "gross_days": 58.69,
-      "excluded_days": 0.0,
-      "cost_egp": 205415.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
-    {
-      "key": "IMS-1388",
-      "summary": "Whatsapp Configurations Page - Contacts tab",
+      "key": "IMS-1857",
+      "summary": "Whatsapp configurations Contacts",
       "status": "Open",
       "net_days": 0.0,
       "gross_days": 0.0,
