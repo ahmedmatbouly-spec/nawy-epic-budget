@@ -1,10 +1,10 @@
 {
-  "epic_key": "CM-900",
-  "epic_name": "Persist chat sessions server-side for troubleshooting",
-  "project_key": "CM",
-  "project_name": "Campaigns Management",
-  "epic_created": "2026-07-27T22:21:36.387+0300",
-  "generated_at": "2026-08-02T11:08:30.481406+00:00",
+  "epic_key": "NLP-5133",
+  "epic_name": "[BE][V2] MMP Bugs / Enhancements",
+  "project_key": "NLP",
+  "project_name": "Nawy Listing Platform ",
+  "epic_created": "2026-07-29T15:36:13.348+0300",
+  "generated_at": "2026-08-02T11:08:00.349326+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 2,
   "complete_tickets": 0,
@@ -13,8 +13,8 @@
   "total_cost_egp": 0.0,
   "tickets": [
     {
-      "key": "CM-943",
-      "summary": "Code Review: Persist chat sessions server-side for troubleshooting",
+      "key": "NLP-5136",
+      "summary": "Code Review: [BE][V2] MMP Bugs / Enhancements",
       "status": "To Do",
       "net_days": 0.0,
       "gross_days": 0.0,
@@ -24,8 +24,8 @@
       "num_spans": 0
     },
     {
-      "key": "CM-930",
-      "summary": "Testing: Persist chat sessions server-side for troubleshooting",
+      "key": "NLP-5138",
+      "summary": "Testing: [BE][V2] MMP Bugs / Enhancements",
       "status": "To Do",
       "net_days": 0.0,
       "gross_days": 0.0,

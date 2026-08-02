@@ -1,10 +1,10 @@
 {
-  "epic_key": "NCRM-3290",
-  "epic_name": "Nawy now partners integration APIs",
-  "project_key": "NCRM",
-  "project_name": "NawyCRM",
-  "epic_created": "2026-07-08T11:53:42.322+0300",
-  "generated_at": "2026-08-02T11:07:56.350132+00:00",
+  "epic_key": "PSQ-827",
+  "epic_name": "[ZOOMKEEPER] Frontend: Zoom Keeper Enhancement",
+  "project_key": "PSQ",
+  "project_name": "Platform Squad",
+  "epic_created": "2026-07-29T13:29:17.509+0300",
+  "generated_at": "2026-08-02T11:08:25.827228+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 1,
   "complete_tickets": 0,
@@ -13,8 +13,8 @@
   "total_cost_egp": 0.0,
   "tickets": [
     {
-      "key": "NCRM-3303",
-      "summary": "Testing: Nawy now partners integration APIs",
+      "key": "PSQ-835",
+      "summary": "Testing: [ZOOMKEEPER] Frontend: Zoom Keeper Enhancement",
       "status": "To Do",
       "net_days": 0.0,
       "gross_days": 0.0,

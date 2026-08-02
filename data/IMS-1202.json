@@ -1,0 +1,38 @@
+{
+  "epic_key": "IMS-1202",
+  "epic_name": "Payment Plans Cleanup and migration",
+  "project_key": "IMS",
+  "project_name": "Inventory Management System ",
+  "epic_created": "2026-02-11T20:59:05.824+0200",
+  "generated_at": "2026-08-02T11:07:52.316363+00:00",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 2,
+  "complete_tickets": 2,
+  "in_progress_tickets": 0,
+  "total_net_days": 0.0,
+  "total_cost_egp": 0.0,
+  "tickets": [
+    {
+      "key": "IMS-1695",
+      "summary": "Testing: Payment Plans Cleanup and migration",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "IMS-1707",
+      "summary": "Code Review: Payment Plans Cleanup and migration",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    }
+  ]
+}

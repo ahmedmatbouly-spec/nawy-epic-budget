@@ -1,10 +1,10 @@
 {
-  "epic_key": "NCRM-3290",
-  "epic_name": "Nawy now partners integration APIs",
-  "project_key": "NCRM",
-  "project_name": "NawyCRM",
-  "epic_created": "2026-07-08T11:53:42.322+0300",
-  "generated_at": "2026-08-02T11:07:56.350132+00:00",
+  "epic_key": "NLP-5070",
+  "epic_name": "[BE] Cash discounts - Payment plans",
+  "project_key": "NLP",
+  "project_name": "Nawy Listing Platform ",
+  "epic_created": "2026-07-15T15:56:04.613+0300",
+  "generated_at": "2026-08-02T11:08:11.032626+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 1,
   "complete_tickets": 0,
@@ -13,8 +13,8 @@
   "total_cost_egp": 0.0,
   "tickets": [
     {
-      "key": "NCRM-3303",
-      "summary": "Testing: Nawy now partners integration APIs",
+      "key": "NLP-5154",
+      "summary": "Testing: [BE] Cash discounts - Payment plans",
       "status": "To Do",
       "net_days": 0.0,
       "gross_days": 0.0,

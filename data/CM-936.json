@@ -4,14 +4,25 @@
   "project_key": "CM",
   "project_name": "Campaigns Management",
   "epic_created": "2026-07-29T12:58:52.319+0300",
-  "generated_at": "2026-07-29T13:11:45.400585+00:00",
+  "generated_at": "2026-08-02T11:07:41.800576+00:00",
   "rate_per_day_egp": 3500.0,
-  "total_tickets": 1,
+  "total_tickets": 2,
   "complete_tickets": 0,
-  "in_progress_tickets": 1,
+  "in_progress_tickets": 2,
   "total_net_days": 0.0,
   "total_cost_egp": 0.0,
   "tickets": [
+    {
+      "key": "CM-942",
+      "summary": "Code Review: On-call week 1",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
     {
       "key": "CM-938",
       "summary": "Testing: On-call week 1",

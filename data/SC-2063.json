@@ -1,0 +1,27 @@
+{
+  "epic_key": "SC-2063",
+  "epic_name": "UMS SDK \u2014 PR 8: Narrow session hooks to SDK-owned UmsSession (drop Amplify from capability interfaces)",
+  "project_key": "SC",
+  "project_name": "Suite Control ",
+  "epic_created": "2026-07-29T13:34:40.641+0300",
+  "generated_at": "2026-08-02T11:07:58.928367+00:00",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 1,
+  "complete_tickets": 0,
+  "in_progress_tickets": 1,
+  "total_net_days": 0.0,
+  "total_cost_egp": 0.0,
+  "tickets": [
+    {
+      "key": "SC-2072",
+      "summary": "Code Review: UMS SDK \u2014 PR 8: Narrow session hooks to SDK-owned UmsSession (drop Amplify from capability interfaces)",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    }
+  ]
+}

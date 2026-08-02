@@ -1,0 +1,27 @@
+{
+  "epic_key": "PSQ-782",
+  "epic_name": "[UMS] Organization and Users Module records access Fixes",
+  "project_key": "PSQ",
+  "project_name": "Platform Squad",
+  "epic_created": "2026-07-15T13:35:42.451+0300",
+  "generated_at": "2026-08-02T11:08:29.951457+00:00",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 1,
+  "complete_tickets": 0,
+  "in_progress_tickets": 1,
+  "total_net_days": 0.0,
+  "total_cost_egp": 0.0,
+  "tickets": [
+    {
+      "key": "PSQ-833",
+      "summary": "Testing: [UMS] Organization and Users Module records access Fixes",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    }
+  ]
+}

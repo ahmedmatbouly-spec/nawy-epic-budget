@@ -1,10 +1,10 @@
 {
-  "epic_key": "CM-900",
-  "epic_name": "Persist chat sessions server-side for troubleshooting",
+  "epic_key": "CM-851",
+  "epic_name": "Ads actions for marketing dashboard",
   "project_key": "CM",
   "project_name": "Campaigns Management",
-  "epic_created": "2026-07-27T22:21:36.387+0300",
-  "generated_at": "2026-08-02T11:08:30.481406+00:00",
+  "epic_created": "2026-06-30T12:16:05.878+0300",
+  "generated_at": "2026-08-02T11:08:08.532193+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 2,
   "complete_tickets": 0,
@@ -13,8 +13,8 @@
   "total_cost_egp": 0.0,
   "tickets": [
     {
-      "key": "CM-943",
-      "summary": "Code Review: Persist chat sessions server-side for troubleshooting",
+      "key": "CM-888",
+      "summary": "Testing: Ads actions for marketing dashboard",
       "status": "To Do",
       "net_days": 0.0,
       "gross_days": 0.0,
@@ -24,8 +24,8 @@
       "num_spans": 0
     },
     {
-      "key": "CM-930",
-      "summary": "Testing: Persist chat sessions server-side for troubleshooting",
+      "key": "CM-940",
+      "summary": "Code Review: Ads actions for marketing dashboard",
       "status": "To Do",
       "net_days": 0.0,
       "gross_days": 0.0,
