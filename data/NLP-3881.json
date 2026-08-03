@@ -4,7 +4,7 @@
   "project_key": "NLP",
   "project_name": "Nawy Listing Platform ",
   "epic_created": "2025-07-01T10:33:08.066+0300",
-  "generated_at": "2026-08-02T10:22:38.547524+00:00",
+  "generated_at": "2026-08-03T16:00:33.985674+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 24,
   "complete_tickets": 23,
@@ -12,39 +12,6 @@
   "total_net_days": 780.66,
   "total_cost_egp": 2732310.0,
   "tickets": [
-    {
-      "key": "NLP-3625",
-      "summary": "Submit Form Phase 3",
-      "status": "Done",
-      "net_days": 219.23,
-      "gross_days": 219.23,
-      "excluded_days": 0.0,
-      "cost_egp": 767305.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
-    {
-      "key": "NLP-3757",
-      "summary": "[Web] Compound details migration",
-      "status": "Done",
-      "net_days": 0.0,
-      "gross_days": 0.0,
-      "excluded_days": 0.0,
-      "cost_egp": 0.0,
-      "is_complete": true,
-      "num_spans": 0
-    },
-    {
-      "key": "NLP-3798",
-      "summary": "[Web] Property details migration (Property page)",
-      "status": "Done",
-      "net_days": 55.11,
-      "gross_days": 134.79,
-      "excluded_days": 79.68,
-      "cost_egp": 192885.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
     {
       "key": "NLP-3809",
       "summary": "[BE] Search page properties view - New BE migration",
@@ -57,58 +24,25 @@
       "num_spans": 1
     },
     {
-      "key": "NLP-3820",
-      "summary": "[Web] Search page properties view - New BE migration",
+      "key": "NLP-4788",
+      "summary": "[Web] BE Migration Tasks [Submit Form]",
       "status": "Done",
-      "net_days": 50.75,
-      "gross_days": 98.05,
-      "excluded_days": 47.3,
-      "cost_egp": 177625.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
-    {
-      "key": "NLP-3821",
-      "summary": "[App] Search page properties view - New BE migration",
-      "status": "Done",
-      "net_days": 0.0,
-      "gross_days": 0.0,
+      "net_days": 0.01,
+      "gross_days": 0.01,
       "excluded_days": 0.0,
-      "cost_egp": 0.0,
-      "is_complete": true,
-      "num_spans": 0
-    },
-    {
-      "key": "NLP-4101",
-      "summary": "[Web] Get Filter Options Migration",
-      "status": "Done",
-      "net_days": 8.3,
-      "gross_days": 9.33,
-      "excluded_days": 1.04,
-      "cost_egp": 29050.0,
+      "cost_egp": 35.0,
       "is_complete": true,
       "num_spans": 1
     },
     {
-      "key": "NLP-4105",
-      "summary": "[App] Offers Api migration",
-      "status": "Done",
-      "net_days": 7.79,
-      "gross_days": 9.16,
-      "excluded_days": 1.37,
-      "cost_egp": 27265.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
-    {
-      "key": "NLP-4171",
-      "summary": "[BE] New Back Office (Part 2)",
-      "status": "Done",
-      "net_days": 73.49,
-      "gross_days": 118.68,
-      "excluded_days": 45.19,
-      "cost_egp": 257215.0,
-      "is_complete": true,
+      "key": "NLP-4877",
+      "summary": "[App] BE Migration Tasks [Submit Form] [Testing only]",
+      "status": "Product UAT",
+      "net_days": 27.14,
+      "gross_days": 33.16,
+      "excluded_days": 6.02,
+      "cost_egp": 94990.0,
+      "is_complete": false,
       "num_spans": 1
     },
     {
@@ -119,17 +53,6 @@
       "gross_days": 11.03,
       "excluded_days": 0.23,
       "cost_egp": 37800.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
-    {
-      "key": "NLP-4229",
-      "summary": "[FE][BE] WA + Track Activity",
-      "status": "Ready for Deployment",
-      "net_days": 42.32,
-      "gross_days": 43.41,
-      "excluded_days": 1.1,
-      "cost_egp": 148120.0,
       "is_complete": true,
       "num_spans": 1
     },
@@ -145,6 +68,17 @@
       "num_spans": 1
     },
     {
+      "key": "NLP-4370",
+      "summary": "[App] Property Details - New BE Migration [UAT Only]",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
       "key": "NLP-4258",
       "summary": "[Web] BE Migration Tasks [Map Properties]",
       "status": "Done",
@@ -152,6 +86,39 @@
       "gross_days": 52.02,
       "excluded_days": 9.29,
       "cost_egp": 149555.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NLP-4789",
+      "summary": "[App] BE Migration Tasks [Submit Form] [Dev only]",
+      "status": "Done",
+      "net_days": 3.51,
+      "gross_days": 3.51,
+      "excluded_days": 0.0,
+      "cost_egp": 12285.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NLP-4105",
+      "summary": "[App] Offers Api migration",
+      "status": "Done",
+      "net_days": 7.79,
+      "gross_days": 9.16,
+      "excluded_days": 1.37,
+      "cost_egp": 27265.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NLP-3820",
+      "summary": "[Web] Search page properties view - New BE migration",
+      "status": "Done",
+      "net_days": 50.75,
+      "gross_days": 98.05,
+      "excluded_days": 47.3,
+      "cost_egp": 177625.0,
       "is_complete": true,
       "num_spans": 1
     },
@@ -167,13 +134,68 @@
       "num_spans": 1
     },
     {
-      "key": "NLP-4272",
-      "summary": "[Web] BE Migration Tasks [Get offers] [Dev only]",
+      "key": "NLP-4171",
+      "summary": "[BE] New Back Office (Part 2)",
       "status": "Done",
-      "net_days": 4.83,
-      "gross_days": 12.24,
-      "excluded_days": 7.41,
-      "cost_egp": 16905.0,
+      "net_days": 73.49,
+      "gross_days": 118.68,
+      "excluded_days": 45.19,
+      "cost_egp": 257215.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NLP-4642",
+      "summary": "[BE] BE Migration Tasks [Submit Form]",
+      "status": "Done",
+      "net_days": 27.57,
+      "gross_days": 27.57,
+      "excluded_days": 0.0,
+      "cost_egp": 96495.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NLP-3798",
+      "summary": "[Web] Property details migration (Property page)",
+      "status": "Done",
+      "net_days": 55.11,
+      "gross_days": 134.79,
+      "excluded_days": 79.68,
+      "cost_egp": 192885.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NLP-4401",
+      "summary": "[BE] Filter options sort",
+      "status": "Done",
+      "net_days": 2.67,
+      "gross_days": 2.67,
+      "excluded_days": 0.0,
+      "cost_egp": 9345.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NLP-3757",
+      "summary": "[Web] Compound details migration",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "NLP-3625",
+      "summary": "Submit Form Phase 3",
+      "status": "Done",
+      "net_days": 219.23,
+      "gross_days": 219.23,
+      "excluded_days": 0.0,
+      "cost_egp": 767305.0,
       "is_complete": true,
       "num_spans": 1
     },
@@ -200,15 +222,26 @@
       "num_spans": 1
     },
     {
-      "key": "NLP-4370",
-      "summary": "[App] Property Details - New BE Migration [UAT Only]",
-      "status": "Done",
-      "net_days": 0.0,
-      "gross_days": 0.0,
-      "excluded_days": 0.0,
-      "cost_egp": 0.0,
+      "key": "NLP-4229",
+      "summary": "[FE][BE] WA + Track Activity",
+      "status": "Ready for Deployment",
+      "net_days": 42.32,
+      "gross_days": 43.41,
+      "excluded_days": 1.1,
+      "cost_egp": 148120.0,
       "is_complete": true,
-      "num_spans": 0
+      "num_spans": 1
+    },
+    {
+      "key": "NLP-4101",
+      "summary": "[Web] Get Filter Options Migration",
+      "status": "Done",
+      "net_days": 8.3,
+      "gross_days": 9.33,
+      "excluded_days": 1.04,
+      "cost_egp": 29050.0,
+      "is_complete": true,
+      "num_spans": 1
     },
     {
       "key": "NLP-4372",
@@ -222,59 +255,26 @@
       "num_spans": 1
     },
     {
-      "key": "NLP-4401",
-      "summary": "[BE] Filter options sort",
+      "key": "NLP-4272",
+      "summary": "[Web] BE Migration Tasks [Get offers] [Dev only]",
       "status": "Done",
-      "net_days": 2.67,
-      "gross_days": 2.67,
-      "excluded_days": 0.0,
-      "cost_egp": 9345.0,
+      "net_days": 4.83,
+      "gross_days": 12.24,
+      "excluded_days": 7.41,
+      "cost_egp": 16905.0,
       "is_complete": true,
       "num_spans": 1
     },
     {
-      "key": "NLP-4642",
-      "summary": "[BE] BE Migration Tasks [Submit Form]",
+      "key": "NLP-3821",
+      "summary": "[App] Search page properties view - New BE migration",
       "status": "Done",
-      "net_days": 27.57,
-      "gross_days": 27.57,
+      "net_days": 0.0,
+      "gross_days": 0.0,
       "excluded_days": 0.0,
-      "cost_egp": 96495.0,
+      "cost_egp": 0.0,
       "is_complete": true,
-      "num_spans": 1
-    },
-    {
-      "key": "NLP-4788",
-      "summary": "[Web] BE Migration Tasks [Submit Form]",
-      "status": "Done",
-      "net_days": 0.01,
-      "gross_days": 0.01,
-      "excluded_days": 0.0,
-      "cost_egp": 35.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
-    {
-      "key": "NLP-4789",
-      "summary": "[App] BE Migration Tasks [Submit Form] [Dev only]",
-      "status": "Done",
-      "net_days": 3.51,
-      "gross_days": 3.51,
-      "excluded_days": 0.0,
-      "cost_egp": 12285.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
-    {
-      "key": "NLP-4877",
-      "summary": "[App] BE Migration Tasks [Submit Form] [Testing only]",
-      "status": "Ready for UAT",
-      "net_days": 27.14,
-      "gross_days": 31.7,
-      "excluded_days": 4.57,
-      "cost_egp": 94990.0,
-      "is_complete": false,
-      "num_spans": 1
+      "num_spans": 0
     }
   ]
 }

@@ -4,11 +4,11 @@
   "project_key": "ER",
   "project_name": "eRealty",
   "epic_created": "2026-07-08T14:01:43.585+0300",
-  "generated_at": "2026-07-26T11:10:20.136787+00:00",
+  "generated_at": "2026-08-03T15:59:59.811919+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 2,
-  "complete_tickets": 1,
-  "in_progress_tickets": 1,
+  "complete_tickets": 2,
+  "in_progress_tickets": 0,
   "total_net_days": 0.93,
   "total_cost_egp": 3255.0,
   "tickets": [
@@ -26,12 +26,12 @@
     {
       "key": "ER-3175",
       "summary": "Code Review: Display Construction Update Date instead of the creation date",
-      "status": "To Do",
+      "status": "Done",
       "net_days": 0.0,
       "gross_days": 0.0,
       "excluded_days": 0.0,
       "cost_egp": 0.0,
-      "is_complete": false,
+      "is_complete": true,
       "num_spans": 0
     }
   ]

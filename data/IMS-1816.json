@@ -4,25 +4,14 @@
   "project_key": "IMS",
   "project_name": "Inventory Management System ",
   "epic_created": "2026-07-11T20:07:44.216+0300",
-  "generated_at": "2026-08-02T14:17:41.520662+00:00",
+  "generated_at": "2026-08-03T16:00:01.973601+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 2,
   "complete_tickets": 0,
   "in_progress_tickets": 2,
-  "total_net_days": 14.27,
-  "total_cost_egp": 49945.0,
+  "total_net_days": 14.63,
+  "total_cost_egp": 51205.0,
   "tickets": [
-    {
-      "key": "IMS-1669",
-      "summary": "Render Images Global Page",
-      "status": "Product UAT",
-      "net_days": 14.27,
-      "gross_days": 14.81,
-      "excluded_days": 0.54,
-      "cost_egp": 49945.0,
-      "is_complete": false,
-      "num_spans": 1
-    },
     {
       "key": "IMS-1611",
       "summary": "Endpoint for Render images Captioning",
@@ -33,6 +22,17 @@
       "cost_egp": 0.0,
       "is_complete": false,
       "num_spans": 0
+    },
+    {
+      "key": "IMS-1669",
+      "summary": "Render Images Global Page",
+      "status": "Returned for Fix",
+      "net_days": 14.63,
+      "gross_days": 15.81,
+      "excluded_days": 1.18,
+      "cost_egp": 51205.0,
+      "is_complete": false,
+      "num_spans": 1
     }
   ]
 }
