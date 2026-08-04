@@ -4,7 +4,7 @@
   "project_key": "PAR",
   "project_name": "Partners",
   "epic_created": "2026-05-03T14:55:54.818+0300",
-  "generated_at": "2026-08-03T16:00:44.715450+00:00",
+  "generated_at": "2026-08-04T12:31:20.212313+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 2,
   "complete_tickets": 2,
@@ -12,17 +12,6 @@
   "total_net_days": 0.34,
   "total_cost_egp": 1190.0,
   "tickets": [
-    {
-      "key": "PAR-4996",
-      "summary": "Testing: [Web][NN Agent Access][First Iteration] Financing CIL form",
-      "status": "Done",
-      "net_days": 0.34,
-      "gross_days": 0.34,
-      "excluded_days": 0.0,
-      "cost_egp": 1190.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
     {
       "key": "PAR-4998",
       "summary": "Code Review: [Web][NN Agent Access][First Iteration] Financing CIL form",
@@ -33,6 +22,17 @@
       "cost_egp": 0.0,
       "is_complete": true,
       "num_spans": 0
+    },
+    {
+      "key": "PAR-4996",
+      "summary": "Testing: [Web][NN Agent Access][First Iteration] Financing CIL form",
+      "status": "Done",
+      "net_days": 0.34,
+      "gross_days": 0.34,
+      "excluded_days": 0.0,
+      "cost_egp": 1190.0,
+      "is_complete": true,
+      "num_spans": 1
     }
   ]
 }

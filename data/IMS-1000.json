@@ -4,7 +4,7 @@
   "project_key": "IMS",
   "project_name": "Inventory Management System ",
   "epic_created": "2026-01-14T13:17:29.240+0200",
-  "generated_at": "2026-08-02T10:18:30.601563+00:00",
+  "generated_at": "2026-08-04T12:30:47.758618+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 9,
   "complete_tickets": 2,
@@ -12,6 +12,17 @@
   "total_net_days": 170.78,
   "total_cost_egp": 597730.0,
   "tickets": [
+    {
+      "key": "IMS-1351",
+      "summary": "Audit logs (Global Page) [Dev Only]",
+      "status": "Done",
+      "net_days": 4.65,
+      "gross_days": 4.65,
+      "excluded_days": 0.0,
+      "cost_egp": 16275.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
     {
       "key": "IMS-839",
       "summary": "IMS Audit Service",
@@ -35,19 +46,8 @@
       "num_spans": 0
     },
     {
-      "key": "IMS-1211",
-      "summary": "Audit logs UI (Projects)",
-      "status": "Open",
-      "net_days": 0.0,
-      "gross_days": 0.0,
-      "excluded_days": 0.0,
-      "cost_egp": 0.0,
-      "is_complete": false,
-      "num_spans": 0
-    },
-    {
-      "key": "IMS-1216",
-      "summary": "Audit Logs (Property Lookups)",
+      "key": "IMS-1218",
+      "summary": "Audit Logs (Areas)",
       "status": "Open",
       "net_days": 0.0,
       "gross_days": 0.0,
@@ -68,8 +68,8 @@
       "num_spans": 0
     },
     {
-      "key": "IMS-1218",
-      "summary": "Audit Logs (Areas)",
+      "key": "IMS-1211",
+      "summary": "Audit logs UI (Projects)",
       "status": "Open",
       "net_days": 0.0,
       "gross_days": 0.0,
@@ -90,19 +90,19 @@
       "num_spans": 1
     },
     {
-      "key": "IMS-1351",
-      "summary": "Audit logs (Global Page) [Dev Only]",
-      "status": "Done",
-      "net_days": 4.65,
-      "gross_days": 4.65,
-      "excluded_days": 0.0,
-      "cost_egp": 16275.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
-    {
       "key": "IMS-1408",
       "summary": "Audit Logs (Developers)",
+      "status": "Open",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "IMS-1216",
+      "summary": "Audit Logs (Property Lookups)",
       "status": "Open",
       "net_days": 0.0,
       "gross_days": 0.0,

@@ -4,14 +4,25 @@
   "project_key": "PAR",
   "project_name": "Partners",
   "epic_created": "2026-07-22T16:03:17.341+0300",
-  "generated_at": "2026-08-03T16:00:22.056375+00:00",
+  "generated_at": "2026-08-04T12:30:14.354618+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 2,
   "complete_tickets": 0,
   "in_progress_tickets": 2,
-  "total_net_days": 0.0,
-  "total_cost_egp": 0.0,
+  "total_net_days": 0.42,
+  "total_cost_egp": 1470.0,
   "tickets": [
+    {
+      "key": "PAR-5056",
+      "summary": "Testing: Summer partners competition",
+      "status": "In Progress",
+      "net_days": 0.42,
+      "gross_days": 0.81,
+      "excluded_days": 0.4,
+      "cost_egp": 1470.0,
+      "is_complete": false,
+      "num_spans": 1
+    },
     {
       "key": "PAR-5071",
       "summary": "Code Review: Summer partners competition",
@@ -22,17 +33,6 @@
       "cost_egp": 0.0,
       "is_complete": false,
       "num_spans": 0
-    },
-    {
-      "key": "PAR-5056",
-      "summary": "Testing: Summer partners competition",
-      "status": "To Do",
-      "net_days": 0.0,
-      "gross_days": 0.0,
-      "excluded_days": 0.0,
-      "cost_egp": 0.0,
-      "is_complete": false,
-      "num_spans": 1
     }
   ]
 }

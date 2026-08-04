@@ -1,10 +1,10 @@
 {
-  "epic_key": "IMS-1610",
-  "epic_name": "Endpoint for Floor plans Metadata extraction",
+  "epic_key": "IMS-1607",
+  "epic_name": "Whatsapp media classifications to consider Filename and message content and rank",
   "project_key": "IMS",
   "project_name": "Inventory Management System ",
-  "epic_created": "2026-05-17T14:14:09.212+0300",
-  "generated_at": "2026-08-04T12:31:07.135461+00:00",
+  "epic_created": "2026-05-17T14:11:16.817+0300",
+  "generated_at": "2026-08-04T12:31:28.912374+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 1,
   "complete_tickets": 0,
@@ -13,8 +13,8 @@
   "total_cost_egp": 0.0,
   "tickets": [
     {
-      "key": "IMS-1622",
-      "summary": "Testing: Endpoint for Floor plans Metadata extraction",
+      "key": "IMS-1623",
+      "summary": "Testing: Whatsapp media classifications to consider Filename",
       "status": "To Do",
       "net_days": 0.0,
       "gross_days": 0.0,
