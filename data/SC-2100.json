@@ -1,10 +1,10 @@
 {
-  "epic_key": "SC-1991",
-  "epic_name": "Chatbot default state",
+  "epic_key": "SC-2100",
+  "epic_name": "Migrate AI_chat to the shared NetworkCapability / StreamingCapability from suite_core",
   "project_key": "SC",
   "project_name": "Suite Control ",
-  "epic_created": "2026-07-21T15:14:26.430+0300",
-  "generated_at": "2026-08-05T12:27:30.904574+00:00",
+  "epic_created": "2026-08-04T14:05:57.661+0300",
+  "generated_at": "2026-08-05T12:27:42.080817+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 1,
   "complete_tickets": 0,
@@ -13,8 +13,8 @@
   "total_cost_egp": 0.0,
   "tickets": [
     {
-      "key": "SC-2057",
-      "summary": "Testing: Chatbot default state",
+      "key": "SC-2113",
+      "summary": "Code Review: Migrate AI_chat to the shared NetworkCapability / StreamingCapability from suite_core",
       "status": "To Do",
       "net_days": 0.0,
       "gross_days": 0.0,

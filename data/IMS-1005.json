@@ -4,14 +4,47 @@
   "project_key": "IMS",
   "project_name": "Inventory Management System ",
   "epic_created": "2026-01-14T13:24:36.473+0200",
-  "generated_at": "2026-08-04T12:30:56.953807+00:00",
+  "generated_at": "2026-08-05T12:28:49.892815+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 11,
   "complete_tickets": 6,
   "in_progress_tickets": 5,
-  "total_net_days": 45.51,
-  "total_cost_egp": 159285.0,
+  "total_net_days": 48.78,
+  "total_cost_egp": 170730.0,
   "tickets": [
+    {
+      "key": "IMS-1422",
+      "summary": "Nawy Space Construction Updates (Free Images Archive) [Dev Only]",
+      "status": "Done",
+      "net_days": 6.75,
+      "gross_days": 6.75,
+      "excluded_days": 0.0,
+      "cost_egp": 23625.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "IMS-973",
+      "summary": "Ai Market Updates Posts Whatsapp Detection and Structering",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "IMS-1212",
+      "summary": "Ai extracted Project Construction Updates approval flow",
+      "status": "Done",
+      "net_days": 4.58,
+      "gross_days": 8.56,
+      "excluded_days": 3.98,
+      "cost_egp": 16030.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
     {
       "key": "IMS-1420",
       "summary": "Construction Updates Global Page",
@@ -46,9 +79,9 @@
       "num_spans": 1
     },
     {
-      "key": "IMS-973",
-      "summary": "Ai Market Updates Posts Whatsapp Detection and Structering",
-      "status": "To Do",
+      "key": "IMS-1671",
+      "summary": "Nawy Space Each Image Analysis vs Masterplan",
+      "status": "Open",
       "net_days": 0.0,
       "gross_days": 0.0,
       "excluded_days": 0.0,
@@ -57,15 +90,26 @@
       "num_spans": 0
     },
     {
-      "key": "IMS-1422",
-      "summary": "Nawy Space Construction Updates (Free Images Archive) [Dev Only]",
-      "status": "Done",
-      "net_days": 6.75,
-      "gross_days": 6.75,
+      "key": "IMS-1736",
+      "summary": "Nawy Space Construction Updates (Free Images Archive) [Testing Only]",
+      "status": "Ready for Deployment",
+      "net_days": 12.32,
+      "gross_days": 12.32,
       "excluded_days": 0.0,
-      "cost_egp": 23625.0,
+      "cost_egp": 43120.0,
       "is_complete": true,
       "num_spans": 1
+    },
+    {
+      "key": "IMS-1878",
+      "summary": "Ai Construction updates matching and duplicate detection/merging",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
     },
     {
       "key": "IMS-972",
@@ -81,57 +125,13 @@
     {
       "key": "IMS-1724",
       "summary": "Construction updates enhancements",
-      "status": "Ready for Re-test",
-      "net_days": 8.54,
-      "gross_days": 8.54,
+      "status": "Ready For Staging",
+      "net_days": 11.81,
+      "gross_days": 11.81,
       "excluded_days": 0.0,
-      "cost_egp": 29890.0,
+      "cost_egp": 41335.0,
       "is_complete": false,
       "num_spans": 1
-    },
-    {
-      "key": "IMS-1736",
-      "summary": "Nawy Space Construction Updates (Free Images Archive) [Testing Only]",
-      "status": "Ready for Deployment",
-      "net_days": 12.32,
-      "gross_days": 12.32,
-      "excluded_days": 0.0,
-      "cost_egp": 43120.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
-    {
-      "key": "IMS-1671",
-      "summary": "Nawy Space Each Image Analysis vs Masterplan",
-      "status": "Open",
-      "net_days": 0.0,
-      "gross_days": 0.0,
-      "excluded_days": 0.0,
-      "cost_egp": 0.0,
-      "is_complete": false,
-      "num_spans": 0
-    },
-    {
-      "key": "IMS-1212",
-      "summary": "Ai extracted Project Construction Updates approval flow",
-      "status": "Done",
-      "net_days": 4.58,
-      "gross_days": 8.56,
-      "excluded_days": 3.98,
-      "cost_egp": 16030.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
-    {
-      "key": "IMS-1878",
-      "summary": "Ai Construction updates matching and duplicate detection/merging",
-      "status": "To Do",
-      "net_days": 0.0,
-      "gross_days": 0.0,
-      "excluded_days": 0.0,
-      "cost_egp": 0.0,
-      "is_complete": false,
-      "num_spans": 0
     }
   ]
 }

@@ -4,11 +4,11 @@
   "project_key": "SP",
   "project_name": "Sales Portal",
   "epic_created": "2026-06-23T14:49:47.245+0300",
-  "generated_at": "2026-08-03T16:01:09.245247+00:00",
+  "generated_at": "2026-08-05T12:27:52.368195+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 5,
-  "complete_tickets": 1,
-  "in_progress_tickets": 4,
+  "complete_tickets": 5,
+  "in_progress_tickets": 0,
   "total_net_days": 11.66,
   "total_cost_egp": 40810.0,
   "tickets": [
@@ -24,47 +24,47 @@
       "num_spans": 1
     },
     {
-      "key": "SP-2102",
-      "summary": "Add Expected payout Dates to the Dispute detailed view",
-      "status": "To Do",
-      "net_days": 0.0,
-      "gross_days": 0.0,
-      "excluded_days": 0.0,
-      "cost_egp": 0.0,
-      "is_complete": false,
-      "num_spans": 0
-    },
-    {
-      "key": "SP-2072",
-      "summary": "Add Dispute Link to the Dispute Communication emails",
-      "status": "Ready For Testing",
-      "net_days": 0.0,
-      "gross_days": 0.0,
-      "excluded_days": 0.0,
-      "cost_egp": 0.0,
-      "is_complete": false,
-      "num_spans": 0
-    },
-    {
       "key": "SP-2070",
       "summary": "Add Sale Link to the detailed issue view on Disputes",
-      "status": "Ready For Testing",
+      "status": "Ready For Production",
       "net_days": 0.0,
       "gross_days": 0.0,
       "excluded_days": 0.0,
       "cost_egp": 0.0,
-      "is_complete": false,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "SP-2102",
+      "summary": "Add Expected payout Dates to the Dispute detailed view",
+      "status": "Ready For Production",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
       "num_spans": 0
     },
     {
       "key": "SP-2071",
       "summary": "Add Developer Three Months Rule status to the detailed view on Disputes",
-      "status": "Ready For Testing",
+      "status": "Ready For Production",
       "net_days": 0.0,
       "gross_days": 0.0,
       "excluded_days": 0.0,
       "cost_egp": 0.0,
-      "is_complete": false,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "SP-2072",
+      "summary": "Add Dispute Link to the Dispute Communication emails",
+      "status": "Ready For Production",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
       "num_spans": 0
     }
   ]

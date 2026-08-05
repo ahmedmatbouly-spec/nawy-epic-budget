@@ -1,0 +1,38 @@
+{
+  "epic_key": "PAR-5079",
+  "epic_name": "Financing CILs NN Agents Dropdown",
+  "project_key": "PAR",
+  "project_name": "Partners",
+  "epic_created": "2026-08-04T15:20:29.420+0300",
+  "generated_at": "2026-08-05T12:27:49.045776+00:00",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 2,
+  "complete_tickets": 0,
+  "in_progress_tickets": 2,
+  "total_net_days": 0.01,
+  "total_cost_egp": 35.0,
+  "tickets": [
+    {
+      "key": "PAR-5082",
+      "summary": "Testing: Financing CILs NN Agents Dropdown",
+      "status": "In Progress",
+      "net_days": 0.01,
+      "gross_days": 0.01,
+      "excluded_days": 0.0,
+      "cost_egp": 35.0,
+      "is_complete": false,
+      "num_spans": 1
+    },
+    {
+      "key": "PAR-5085",
+      "summary": "Code Review: Financing CILs NN Agents Dropdown",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    }
+  ]
+}

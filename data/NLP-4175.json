@@ -4,7 +4,7 @@
   "project_key": "NLP",
   "project_name": "Nawy Listing Platform ",
   "epic_created": "2025-12-01T16:08:10.277+0200",
-  "generated_at": "2026-08-04T12:31:27.272804+00:00",
+  "generated_at": "2026-08-05T12:28:45.386561+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 2,
   "complete_tickets": 0,
@@ -13,8 +13,8 @@
   "total_cost_egp": 0.0,
   "tickets": [
     {
-      "key": "NLP-4554",
-      "summary": "Testing: [BE] MMP - Developer Price History (Threshold for Updates)",
+      "key": "NLP-4268",
+      "summary": "Code Review: [BE] MMP - Developer Price History (Threshold for Updates)",
       "status": "To Do",
       "net_days": 0.0,
       "gross_days": 0.0,
@@ -24,8 +24,8 @@
       "num_spans": 0
     },
     {
-      "key": "NLP-4268",
-      "summary": "Code Review: [BE] MMP - Developer Price History (Threshold for Updates)",
+      "key": "NLP-4554",
+      "summary": "Testing: [BE] MMP - Developer Price History (Threshold for Updates)",
       "status": "To Do",
       "net_days": 0.0,
       "gross_days": 0.0,

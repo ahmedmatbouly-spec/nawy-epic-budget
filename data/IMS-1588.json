@@ -4,14 +4,25 @@
   "project_key": "IMS",
   "project_name": "Inventory Management System ",
   "epic_created": "2026-05-10T20:26:38.909+0300",
-  "generated_at": "2026-08-04T12:31:31.802582+00:00",
+  "generated_at": "2026-08-05T12:28:12.108620+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 6,
   "complete_tickets": 0,
   "in_progress_tickets": 6,
-  "total_net_days": 46.5,
-  "total_cost_egp": 162750.0,
+  "total_net_days": 48.18,
+  "total_cost_egp": 168630.0,
   "tickets": [
+    {
+      "key": "IMS-1722",
+      "summary": "Areas and districts calculate area from polygons",
+      "status": "Product UAT",
+      "net_days": 12.0,
+      "gross_days": 13.0,
+      "excluded_days": 1.0,
+      "cost_egp": 42000.0,
+      "is_complete": false,
+      "num_spans": 1
+    },
     {
       "key": "IMS-1727",
       "summary": "Draw on map basemap on IMS to have masterplan layer (Same as prod)",
@@ -24,13 +35,13 @@
       "num_spans": 1
     },
     {
-      "key": "IMS-1587",
-      "summary": "Draw on Map for All Areas",
-      "status": "Ready for Re-test",
-      "net_days": 7.11,
-      "gross_days": 7.92,
-      "excluded_days": 0.8,
-      "cost_egp": 24885.0,
+      "key": "IMS-1586",
+      "summary": "Draw on Map Per Area",
+      "status": "Product UAT",
+      "net_days": 7.95,
+      "gross_days": 8.91,
+      "excluded_days": 0.95,
+      "cost_egp": 27825.0,
       "is_complete": false,
       "num_spans": 1
     },
@@ -46,13 +57,13 @@
       "num_spans": 1
     },
     {
-      "key": "IMS-1722",
-      "summary": "Areas and districts calculate area from polygons",
+      "key": "IMS-1587",
+      "summary": "Draw on Map for All Areas",
       "status": "Product UAT",
-      "net_days": 12.0,
-      "gross_days": 13.0,
-      "excluded_days": 1.0,
-      "cost_egp": 42000.0,
+      "net_days": 7.95,
+      "gross_days": 8.91,
+      "excluded_days": 0.95,
+      "cost_egp": 27825.0,
       "is_complete": false,
       "num_spans": 1
     },
@@ -64,17 +75,6 @@
       "gross_days": 13.0,
       "excluded_days": 0.72,
       "cost_egp": 42980.0,
-      "is_complete": false,
-      "num_spans": 1
-    },
-    {
-      "key": "IMS-1586",
-      "summary": "Draw on Map Per Area",
-      "status": "Ready For Staging",
-      "net_days": 7.11,
-      "gross_days": 7.92,
-      "excluded_days": 0.8,
-      "cost_egp": 24885.0,
       "is_complete": false,
       "num_spans": 1
     }

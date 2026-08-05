@@ -1,0 +1,27 @@
+{
+  "epic_key": "ER-3224",
+  "epic_name": "Meeting Mode - Favorites & Sharing Behavior [Testing Only]",
+  "project_key": "ER",
+  "project_name": "eRealty",
+  "epic_created": "2026-08-03T14:19:08.832+0300",
+  "generated_at": "2026-08-05T12:28:44.293087+00:00",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 1,
+  "complete_tickets": 0,
+  "in_progress_tickets": 1,
+  "total_net_days": 0.0,
+  "total_cost_egp": 0.0,
+  "tickets": [
+    {
+      "key": "ER-3235",
+      "summary": "Testing: Meeting Mode - Favorites & Sharing Behavior [Testing Only]",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    }
+  ]
+}

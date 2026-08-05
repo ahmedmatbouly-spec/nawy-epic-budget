@@ -4,7 +4,7 @@
   "project_key": "NLP",
   "project_name": "Nawy Listing Platform ",
   "epic_created": "2026-07-28T15:49:59.415+0300",
-  "generated_at": "2026-08-04T12:30:54.047145+00:00",
+  "generated_at": "2026-08-05T12:28:25.616180+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 2,
   "complete_tickets": 0,
@@ -13,8 +13,8 @@
   "total_cost_egp": 0.0,
   "tickets": [
     {
-      "key": "NLP-5148",
-      "summary": "Testing: [BE] Resale VIP 2",
+      "key": "NLP-5160",
+      "summary": "Code Review: [BE] Resale VIP 2",
       "status": "To Do",
       "net_days": 0.0,
       "gross_days": 0.0,
@@ -24,8 +24,8 @@
       "num_spans": 0
     },
     {
-      "key": "NLP-5160",
-      "summary": "Code Review: [BE] Resale VIP 2",
+      "key": "NLP-5148",
+      "summary": "Testing: [BE] Resale VIP 2",
       "status": "To Do",
       "net_days": 0.0,
       "gross_days": 0.0,

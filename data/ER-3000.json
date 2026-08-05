@@ -4,7 +4,7 @@
   "project_key": "ER",
   "project_name": "eRealty",
   "epic_created": "2026-06-09T11:28:30.737+0300",
-  "generated_at": "2026-08-02T10:26:42.460470+00:00",
+  "generated_at": "2026-08-05T12:28:21.294515+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 10,
   "complete_tickets": 10,
@@ -13,9 +13,31 @@
   "total_cost_egp": 190260.0,
   "tickets": [
     {
+      "key": "ER-3054",
+      "summary": "[FE] On Hold Units \u2014 Shareable unit links",
+      "status": "Released",
+      "net_days": 8.51,
+      "gross_days": 10.55,
+      "excluded_days": 2.05,
+      "cost_egp": 29785.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-3044",
+      "summary": "[FE] On Hold Projects \u2014 Shareable Comparison project links",
+      "status": "Released",
+      "net_days": 8.51,
+      "gross_days": 9.55,
+      "excluded_days": 1.05,
+      "cost_egp": 29785.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
       "key": "ER-3040",
       "summary": "[FE] On Hold Projects \u2014 Project card & compound/phase drawers",
-      "status": "Ready for Deployment",
+      "status": "Released",
       "net_days": 8.51,
       "gross_days": 9.55,
       "excluded_days": 1.05,
@@ -26,7 +48,7 @@
     {
       "key": "ER-3042",
       "summary": "[FE] On Hold Projects \u2014 Favorited projects",
-      "status": "Ready for Deployment",
+      "status": "Released",
       "net_days": 2.33,
       "gross_days": 9.55,
       "excluded_days": 7.23,
@@ -35,53 +57,9 @@
       "num_spans": 1
     },
     {
-      "key": "ER-3044",
-      "summary": "[FE] On Hold Projects \u2014 Shareable Comparison project links",
-      "status": "Ready for Deployment",
-      "net_days": 8.51,
-      "gross_days": 9.55,
-      "excluded_days": 1.05,
-      "cost_egp": 29785.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
-    {
-      "key": "ER-3048",
-      "summary": "[FE] On Hold Projects \u2014 Map",
-      "status": "Ready for Deployment",
-      "net_days": 2.31,
-      "gross_days": 9.55,
-      "excluded_days": 7.24,
-      "cost_egp": 8085.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
-    {
-      "key": "ER-3052",
-      "summary": "[FE] On Hold Units \u2014 Favorited units",
-      "status": "Ready for Deployment",
-      "net_days": 1.17,
-      "gross_days": 9.55,
-      "excluded_days": 8.38,
-      "cost_egp": 4095.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
-    {
-      "key": "ER-3054",
-      "summary": "[FE] On Hold Units \u2014 Shareable unit links",
-      "status": "Ready for Deployment",
-      "net_days": 8.51,
-      "gross_days": 10.55,
-      "excluded_days": 2.05,
-      "cost_egp": 29785.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
-    {
       "key": "ER-3056",
       "summary": "[FE] On Hold Units \u2014 Units in comparison",
-      "status": "Ready for Deployment",
+      "status": "Released",
       "net_days": 8.51,
       "gross_days": 9.55,
       "excluded_days": 1.04,
@@ -90,9 +68,20 @@
       "num_spans": 1
     },
     {
+      "key": "ER-3194",
+      "summary": "Fix the detailed summary endpoint issue due to the is publish flag",
+      "status": "Done",
+      "net_days": 2.21,
+      "gross_days": 2.21,
+      "excluded_days": 0.0,
+      "cost_egp": 7735.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
       "key": "ER-3082",
       "summary": "[FE] On Hold Projects \u2014 Table",
-      "status": "Ready for Deployment",
+      "status": "Released",
       "net_days": 2.35,
       "gross_days": 9.55,
       "excluded_days": 7.21,
@@ -112,13 +101,24 @@
       "num_spans": 1
     },
     {
-      "key": "ER-3194",
-      "summary": "Fix the detailed summary endpoint issue due to the is publish flag",
-      "status": "Done",
-      "net_days": 2.21,
-      "gross_days": 2.21,
-      "excluded_days": 0.0,
-      "cost_egp": 7735.0,
+      "key": "ER-3048",
+      "summary": "[FE] On Hold Projects \u2014 Map",
+      "status": "Released",
+      "net_days": 2.31,
+      "gross_days": 9.55,
+      "excluded_days": 7.24,
+      "cost_egp": 8085.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "ER-3052",
+      "summary": "[FE] On Hold Units \u2014 Favorited units",
+      "status": "Released",
+      "net_days": 1.17,
+      "gross_days": 9.55,
+      "excluded_days": 8.38,
+      "cost_egp": 4095.0,
       "is_complete": true,
       "num_spans": 1
     }

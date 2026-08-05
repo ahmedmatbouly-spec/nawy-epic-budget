@@ -4,23 +4,23 @@
   "project_key": "NCRM",
   "project_name": "NawyCRM",
   "epic_created": "2026-07-08T17:20:45.353+0300",
-  "generated_at": "2026-07-23T12:11:40.952803+00:00",
+  "generated_at": "2026-08-05T12:28:28.232353+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 1,
-  "complete_tickets": 0,
-  "in_progress_tickets": 1,
+  "complete_tickets": 1,
+  "in_progress_tickets": 0,
   "total_net_days": 0.0,
   "total_cost_egp": 0.0,
   "tickets": [
     {
       "key": "NCRM-3311",
       "summary": "Testing: resync rule engine with auto assign",
-      "status": "To Do",
+      "status": "Done",
       "net_days": 0.0,
       "gross_days": 0.0,
       "excluded_days": 0.0,
       "cost_egp": 0.0,
-      "is_complete": false,
+      "is_complete": true,
       "num_spans": 0
     }
   ]
