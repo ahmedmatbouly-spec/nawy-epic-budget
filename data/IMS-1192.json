@@ -1,10 +1,10 @@
 {
-  "epic_key": "IMS-1724",
-  "epic_name": "Construction updates enhancements",
+  "epic_key": "IMS-1192",
+  "epic_name": "Sheets Enhancements - Table",
   "project_key": "IMS",
   "project_name": "Inventory Management System ",
-  "epic_created": "2026-06-24T23:34:12.137+0300",
-  "generated_at": "2026-08-06T12:31:56.587780+00:00",
+  "epic_created": "2026-02-11T20:45:21.107+0200",
+  "generated_at": "2026-08-06T12:31:19.979777+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 1,
   "complete_tickets": 1,
@@ -13,8 +13,8 @@
   "total_cost_egp": 0.0,
   "tickets": [
     {
-      "key": "IMS-1823",
-      "summary": "Testing: Construction updates enhancements",
+      "key": "IMS-1761",
+      "summary": "Testing: Sheets Enhancements - Table",
       "status": "Done",
       "net_days": 0.0,
       "gross_days": 0.0,

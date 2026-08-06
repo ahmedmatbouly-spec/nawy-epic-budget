@@ -4,7 +4,7 @@
   "project_key": "NLP",
   "project_name": "Nawy Listing Platform ",
   "epic_created": "2025-10-29T11:50:35.512+0300",
-  "generated_at": "2026-08-03T16:00:54.723522+00:00",
+  "generated_at": "2026-08-06T12:31:42.197401+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 21,
   "complete_tickets": 18,
@@ -13,15 +13,59 @@
   "total_cost_egp": 1527155.0,
   "tickets": [
     {
-      "key": "NLP-5067",
-      "summary": "[FE] Filters in back office [Testing only]",
-      "status": "Code Review",
+      "key": "NLP-4570",
+      "summary": "[BO] Web API - Developer Page",
+      "status": "Done",
+      "net_days": 28.24,
+      "gross_days": 28.24,
+      "excluded_days": 0.0,
+      "cost_egp": 98840.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NLP-4582",
+      "summary": "[BO] Web API - Dynamic Banners",
+      "status": "Done",
+      "net_days": 28.24,
+      "gross_days": 28.24,
+      "excluded_days": 0.0,
+      "cost_egp": 98840.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NLP-4574",
+      "summary": "[BO] Web API  - Neighboring Areas",
+      "status": "Done",
+      "net_days": 22.03,
+      "gross_days": 22.03,
+      "excluded_days": 0.0,
+      "cost_egp": 77105.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NLP-4973",
+      "summary": "[BE][Back Office] Display custom location name in landing page table",
+      "status": "To Do",
       "net_days": 0.0,
       "gross_days": 0.0,
       "excluded_days": 0.0,
       "cost_egp": 0.0,
       "is_complete": false,
       "num_spans": 0
+    },
+    {
+      "key": "NLP-4578",
+      "summary": "[BO] Web API - News",
+      "status": "Done",
+      "net_days": 25.3,
+      "gross_days": 26.92,
+      "excluded_days": 1.62,
+      "cost_egp": 88550.0,
+      "is_complete": true,
+      "num_spans": 1
     },
     {
       "key": "NLP-4778",
@@ -46,72 +90,6 @@
       "num_spans": 1
     },
     {
-      "key": "NLP-4571",
-      "summary": "[BO] Web API - Area Page",
-      "status": "Done",
-      "net_days": 28.24,
-      "gross_days": 28.24,
-      "excluded_days": 0.0,
-      "cost_egp": 98840.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
-    {
-      "key": "NLP-4573",
-      "summary": "[BO] Web API - Property Page",
-      "status": "Done",
-      "net_days": 28.24,
-      "gross_days": 28.24,
-      "excluded_days": 0.0,
-      "cost_egp": 98840.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
-    {
-      "key": "NLP-4579",
-      "summary": "[BO] Web API - Pathways",
-      "status": "Done",
-      "net_days": 26.74,
-      "gross_days": 26.74,
-      "excluded_days": 0.0,
-      "cost_egp": 93590.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
-    {
-      "key": "NLP-4574",
-      "summary": "[BO] Web API  - Neighboring Areas",
-      "status": "Done",
-      "net_days": 22.03,
-      "gross_days": 22.03,
-      "excluded_days": 0.0,
-      "cost_egp": 77105.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
-    {
-      "key": "NLP-4576",
-      "summary": "[BO] Web API - Badges",
-      "status": "Done",
-      "net_days": 27.35,
-      "gross_days": 27.35,
-      "excluded_days": 0.0,
-      "cost_egp": 95725.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
-    {
-      "key": "NLP-4973",
-      "summary": "[BE][Back Office] Display custom location name in landing page table",
-      "status": "To Do",
-      "net_days": 0.0,
-      "gross_days": 0.0,
-      "excluded_days": 0.0,
-      "cost_egp": 0.0,
-      "is_complete": false,
-      "num_spans": 0
-    },
-    {
       "key": "NLP-4577",
       "summary": "[BO] Web API - Expos",
       "status": "Done",
@@ -119,72 +97,6 @@
       "gross_days": 31.93,
       "excluded_days": 16.9,
       "cost_egp": 52605.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
-    {
-      "key": "NLP-4572",
-      "summary": "[BO] Web API - Compound Page",
-      "status": "Done",
-      "net_days": 28.24,
-      "gross_days": 28.24,
-      "excluded_days": 0.0,
-      "cost_egp": 98840.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
-    {
-      "key": "NLP-4585",
-      "summary": "[BO] Availability - Landing Pages",
-      "status": "Done",
-      "net_days": 28.24,
-      "gross_days": 28.24,
-      "excluded_days": 0.0,
-      "cost_egp": 98840.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
-    {
-      "key": "NLP-4578",
-      "summary": "[BO] Web API - News",
-      "status": "Done",
-      "net_days": 25.3,
-      "gross_days": 26.92,
-      "excluded_days": 1.62,
-      "cost_egp": 88550.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
-    {
-      "key": "NLP-4581",
-      "summary": "[BO] Web API - Dynamic Popups",
-      "status": "Done",
-      "net_days": 28.24,
-      "gross_days": 28.24,
-      "excluded_days": 0.0,
-      "cost_egp": 98840.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
-    {
-      "key": "NLP-4575",
-      "summary": "[BO] Web API - Ranking Settings",
-      "status": "Done",
-      "net_days": 27.68,
-      "gross_days": 27.68,
-      "excluded_days": 0.0,
-      "cost_egp": 96880.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
-    {
-      "key": "NLP-4583",
-      "summary": "[BO] Availability - Launches",
-      "status": "Done",
-      "net_days": 28.24,
-      "gross_days": 28.24,
-      "excluded_days": 0.0,
-      "cost_egp": 98840.0,
       "is_complete": true,
       "num_spans": 1
     },
@@ -211,8 +123,19 @@
       "num_spans": 1
     },
     {
-      "key": "NLP-4582",
-      "summary": "[BO] Web API - Dynamic Banners",
+      "key": "NLP-5067",
+      "summary": "[FE] Filters in back office [Testing only]",
+      "status": "Ready For Testing",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "NLP-4581",
+      "summary": "[BO] Web API - Dynamic Popups",
       "status": "Done",
       "net_days": 28.24,
       "gross_days": 28.24,
@@ -222,8 +145,30 @@
       "num_spans": 1
     },
     {
-      "key": "NLP-4570",
-      "summary": "[BO] Web API - Developer Page",
+      "key": "NLP-4573",
+      "summary": "[BO] Web API - Property Page",
+      "status": "Done",
+      "net_days": 28.24,
+      "gross_days": 28.24,
+      "excluded_days": 0.0,
+      "cost_egp": 98840.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NLP-4575",
+      "summary": "[BO] Web API - Ranking Settings",
+      "status": "Done",
+      "net_days": 27.68,
+      "gross_days": 27.68,
+      "excluded_days": 0.0,
+      "cost_egp": 96880.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NLP-4585",
+      "summary": "[BO] Availability - Landing Pages",
       "status": "Done",
       "net_days": 28.24,
       "gross_days": 28.24,
@@ -242,6 +187,61 @@
       "cost_egp": 0.0,
       "is_complete": false,
       "num_spans": 0
+    },
+    {
+      "key": "NLP-4572",
+      "summary": "[BO] Web API - Compound Page",
+      "status": "Done",
+      "net_days": 28.24,
+      "gross_days": 28.24,
+      "excluded_days": 0.0,
+      "cost_egp": 98840.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NLP-4583",
+      "summary": "[BO] Availability - Launches",
+      "status": "Done",
+      "net_days": 28.24,
+      "gross_days": 28.24,
+      "excluded_days": 0.0,
+      "cost_egp": 98840.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NLP-4571",
+      "summary": "[BO] Web API - Area Page",
+      "status": "Done",
+      "net_days": 28.24,
+      "gross_days": 28.24,
+      "excluded_days": 0.0,
+      "cost_egp": 98840.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NLP-4579",
+      "summary": "[BO] Web API - Pathways",
+      "status": "Done",
+      "net_days": 26.74,
+      "gross_days": 26.74,
+      "excluded_days": 0.0,
+      "cost_egp": 93590.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NLP-4576",
+      "summary": "[BO] Web API - Badges",
+      "status": "Done",
+      "net_days": 27.35,
+      "gross_days": 27.35,
+      "excluded_days": 0.0,
+      "cost_egp": 95725.0,
+      "is_complete": true,
+      "num_spans": 1
     }
   ]
 }

@@ -1,0 +1,27 @@
+{
+  "epic_key": "IMS-1669",
+  "epic_name": "Render Images Global Page",
+  "project_key": "IMS",
+  "project_name": "Inventory Management System ",
+  "epic_created": "2026-06-08T11:17:52.193+0300",
+  "generated_at": "2026-08-06T12:31:51.382759+00:00",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 1,
+  "complete_tickets": 0,
+  "in_progress_tickets": 1,
+  "total_net_days": 0.0,
+  "total_cost_egp": 0.0,
+  "tickets": [
+    {
+      "key": "IMS-1828",
+      "summary": "Testing: Render Images Global Page",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    }
+  ]
+}

@@ -4,7 +4,7 @@
   "project_key": "NLP",
   "project_name": "Nawy Listing Platform ",
   "epic_created": "2026-06-10T11:13:19.065+0300",
-  "generated_at": "2026-08-05T12:28:04.406580+00:00",
+  "generated_at": "2026-08-06T12:31:09.250680+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 2,
   "complete_tickets": 2,
@@ -13,8 +13,8 @@
   "total_cost_egp": 0.0,
   "tickets": [
     {
-      "key": "NLP-4903",
-      "summary": "Testing: [App][Android] Back button experience",
+      "key": "NLP-5103",
+      "summary": "Code Review: [App][Android] Back button experience",
       "status": "Done",
       "net_days": 0.0,
       "gross_days": 0.0,
@@ -24,8 +24,8 @@
       "num_spans": 0
     },
     {
-      "key": "NLP-5103",
-      "summary": "Code Review: [App][Android] Back button experience",
+      "key": "NLP-4903",
+      "summary": "Testing: [App][Android] Back button experience",
       "status": "Done",
       "net_days": 0.0,
       "gross_days": 0.0,

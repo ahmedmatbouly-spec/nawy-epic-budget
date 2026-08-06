@@ -1,10 +1,10 @@
 {
-  "epic_key": "IMS-1724",
-  "epic_name": "Construction updates enhancements",
+  "epic_key": "IMS-1586",
+  "epic_name": "Draw on Map Per Area",
   "project_key": "IMS",
   "project_name": "Inventory Management System ",
-  "epic_created": "2026-06-24T23:34:12.137+0300",
-  "generated_at": "2026-08-06T12:31:56.587780+00:00",
+  "epic_created": "2026-05-10T20:25:52.473+0300",
+  "generated_at": "2026-08-06T12:31:55.805561+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 1,
   "complete_tickets": 1,
@@ -13,15 +13,15 @@
   "total_cost_egp": 0.0,
   "tickets": [
     {
-      "key": "IMS-1823",
-      "summary": "Testing: Construction updates enhancements",
+      "key": "IMS-1833",
+      "summary": "Testing: Draw on Map Per Area",
       "status": "Done",
       "net_days": 0.0,
       "gross_days": 0.0,
       "excluded_days": 0.0,
       "cost_egp": 0.0,
       "is_complete": true,
-      "num_spans": 0
+      "num_spans": 1
     }
   ]
 }

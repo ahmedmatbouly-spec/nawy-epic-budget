@@ -1,10 +1,10 @@
 {
-  "epic_key": "NLP-5135",
-  "epic_name": "[Web] Display phases on  map scenarios",
-  "project_key": "NLP",
-  "project_name": "Nawy Listing Platform ",
-  "epic_created": "2026-07-29T15:56:09.598+0300",
-  "generated_at": "2026-08-06T12:31:26.888002+00:00",
+  "epic_key": "SC-2098",
+  "epic_name": "Add date of last request, date of last contact in the lead card",
+  "project_key": "SC",
+  "project_name": "Suite Control ",
+  "epic_created": "2026-08-04T13:43:33.021+0300",
+  "generated_at": "2026-08-06T12:30:59.486176+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 2,
   "complete_tickets": 0,
@@ -13,8 +13,8 @@
   "total_cost_egp": 0.0,
   "tickets": [
     {
-      "key": "NLP-5145",
-      "summary": "Testing: [Web] Display phases on  map scenarios",
+      "key": "SC-2115",
+      "summary": "Testing: Add date of last request, date of last contact in the lead card",
       "status": "To Do",
       "net_days": 0.0,
       "gross_days": 0.0,
@@ -24,8 +24,8 @@
       "num_spans": 0
     },
     {
-      "key": "NLP-5163",
-      "summary": "Code Review: [Web] Display phases on  map scenarios",
+      "key": "SC-2116",
+      "summary": "Code Review: Add date of last request, date of last contact in the lead card",
       "status": "To Do",
       "net_days": 0.0,
       "gross_days": 0.0,
