@@ -4,7 +4,7 @@
   "project_key": "SP",
   "project_name": "Sales Portal",
   "epic_created": "2026-06-23T15:06:11.512+0300",
-  "generated_at": "2026-08-03T16:00:49.445877+00:00",
+  "generated_at": "2026-08-07T09:37:41.460881+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 3,
   "complete_tickets": 3,
@@ -15,7 +15,7 @@
     {
       "key": "SP-1947",
       "summary": "Developers contracts slabs over different sub contracts",
-      "status": "Ready For Production",
+      "status": "Done",
       "net_days": 20.0,
       "gross_days": 20.0,
       "excluded_days": 0.0,

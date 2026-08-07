@@ -1,10 +1,10 @@
 {
-  "epic_key": "IMS-1594",
-  "epic_name": "Properties Sale type column",
-  "project_key": "IMS",
-  "project_name": "Inventory Management System ",
-  "epic_created": "2026-05-13T14:31:58.904+0300",
-  "generated_at": "2026-08-07T09:37:12.248656+00:00",
+  "epic_key": "SC-2101",
+  "epic_name": "[Resale] Add property to the lead",
+  "project_key": "SC",
+  "project_name": "Suite Control ",
+  "epic_created": "2026-08-04T14:19:29.925+0300",
+  "generated_at": "2026-08-07T09:37:47.869329+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 1,
   "complete_tickets": 0,
@@ -13,8 +13,8 @@
   "total_cost_egp": 0.0,
   "tickets": [
     {
-      "key": "IMS-1830",
-      "summary": "Testing: Properties Sale type column",
+      "key": "SC-2120",
+      "summary": "Testing: [Resale] Add property to the lead",
       "status": "To Do",
       "net_days": 0.0,
       "gross_days": 0.0,

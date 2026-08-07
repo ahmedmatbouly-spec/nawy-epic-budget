@@ -1,10 +1,10 @@
 {
-  "epic_key": "NCRM-3326",
-  "epic_name": "The CRM is still storing the ambassador data even if the method of contact is changed",
+  "epic_key": "NCRM-3214",
+  "epic_name": "Listing dashboard is not updated with the new assigned agent - Multi selection re assignment",
   "project_key": "NCRM",
   "project_name": "NawyCRM",
-  "epic_created": "2026-07-21T12:32:48.076+0300",
-  "generated_at": "2026-08-07T09:37:42.716122+00:00",
+  "epic_created": "2026-06-16T15:22:48.989+0300",
+  "generated_at": "2026-08-07T09:37:08.310468+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 1,
   "complete_tickets": 0,
@@ -13,8 +13,8 @@
   "total_cost_egp": 0.0,
   "tickets": [
     {
-      "key": "NCRM-3342",
-      "summary": "Code Review: The CRM is still storing the ambassador data even if the method of contact is changed",
+      "key": "NCRM-3382",
+      "summary": "Code Review: Listing dashboard is not updated with the new assigned agent - Multi selection re assignment",
       "status": "To Do",
       "net_days": 0.0,
       "gross_days": 0.0,

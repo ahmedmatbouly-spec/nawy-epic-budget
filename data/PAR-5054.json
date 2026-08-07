@@ -4,22 +4,22 @@
   "project_key": "PAR",
   "project_name": "Partners",
   "epic_created": "2026-07-29T12:22:02.204+0300",
-  "generated_at": "2026-08-06T12:31:46.652705+00:00",
+  "generated_at": "2026-08-07T09:37:17.211591+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 1,
   "complete_tickets": 0,
   "in_progress_tickets": 1,
-  "total_net_days": 0.34,
-  "total_cost_egp": 1190.0,
+  "total_net_days": 0.52,
+  "total_cost_egp": 1820.0,
   "tickets": [
     {
       "key": "PAR-5058",
       "summary": "Testing: on-call",
       "status": "In Progress",
-      "net_days": 0.34,
-      "gross_days": 0.34,
+      "net_days": 0.52,
+      "gross_days": 0.52,
       "excluded_days": 0.0,
-      "cost_egp": 1190.0,
+      "cost_egp": 1820.0,
       "is_complete": false,
       "num_spans": 1
     }

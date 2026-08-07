@@ -4,7 +4,7 @@
   "project_key": "SP",
   "project_name": "Sales Portal",
   "epic_created": "2026-07-14T11:53:10.617+0300",
-  "generated_at": "2026-08-02T10:24:35.431836+00:00",
+  "generated_at": "2026-08-07T09:37:45.556197+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 1,
   "complete_tickets": 1,
@@ -15,7 +15,7 @@
     {
       "key": "SP-2026",
       "summary": "Daily Email Notifications to Developer relations head for compound requests",
-      "status": "Ready For Production",
+      "status": "Done",
       "net_days": 0.0,
       "gross_days": 0.0,
       "excluded_days": 0.0,

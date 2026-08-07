@@ -4,7 +4,7 @@
   "project_key": "NCRM",
   "project_name": "NawyCRM",
   "epic_created": "2026-07-19T16:23:46.337+0300",
-  "generated_at": "2026-08-05T12:27:39.993765+00:00",
+  "generated_at": "2026-08-07T09:37:44.025653+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 2,
   "complete_tickets": 2,
@@ -13,8 +13,8 @@
   "total_cost_egp": 0.0,
   "tickets": [
     {
-      "key": "NCRM-3359",
-      "summary": "Testing - Adding an exclude filters in home page",
+      "key": "NCRM-3350",
+      "summary": "Code Review: Adding an exclude filters in home page",
       "status": "Done",
       "net_days": 0.0,
       "gross_days": 0.0,
@@ -24,8 +24,8 @@
       "num_spans": 0
     },
     {
-      "key": "NCRM-3350",
-      "summary": "Code Review: Adding an exclude filters in home page",
+      "key": "NCRM-3359",
+      "summary": "Testing - Adding an exclude filters in home page",
       "status": "Done",
       "net_days": 0.0,
       "gross_days": 0.0,
