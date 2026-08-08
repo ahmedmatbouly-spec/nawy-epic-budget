@@ -1,92 +1,9 @@
-=== INCREMENTAL SYNC since 2026-08-06T12:25:37.840558 ===
-Found 111 issue(s) updated since last sync.
-Epics needing an update this run: 39
-    IMS-25: refetching 7 changed/new ticket(s)
-  IMS-25: patched (277.05d, 969,675 EGP)
-    NCRM-3290: refetching 1 changed/new ticket(s)
-  NCRM-3290: patched (0.0d, 0 EGP)
-    IMS-397: refetching 1 changed/new ticket(s)
-  IMS-397: patched (116.66d, 408,310 EGP)
-    NLP-2822: refetching 2 changed/new ticket(s)
-  NLP-2822: patched (1577.0d, 5,519,500 EGP)
-    IMS-1728: refetching 1 changed/new ticket(s)
-  IMS-1728: patched (0.0d, 0 EGP)
-    IMS-1722: refetching 1 changed/new ticket(s)
-  IMS-1722: patched (0.0d, 0 EGP)
-    NCRM-3337: refetching 1 changed/new ticket(s)
-  NCRM-3337: patched (0.0d, 0 EGP)
-  NCRM-3214: new epic, full fetch
-Fetching NCRM-3214 (Listing dashboard is not updated with the new assigned agent - Multi selection re assignment) ...
-  NCRM-3382: 0.0d
-Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/NCRM-3214.json: 0.0 days, 0 EGP
-    IMS-797: refetching 2 changed/new ticket(s)
-  IMS-797: patched (134.1d, 469,350 EGP)
-    IMS-1669: refetching 1 changed/new ticket(s)
-  IMS-1669: patched (0.0d, 0 EGP)
-    IMS-1594: refetching 1 changed/new ticket(s)
-  IMS-1594: patched (0.0d, 0 EGP)
-    IMS-1415: removing 2 ticket(s) no longer children here
-    IMS-1415: refetching 5 changed/new ticket(s)
-  IMS-1415: patched (116.88d, 409,080 EGP)
-    NCRM-3294: refetching 1 changed/new ticket(s)
-  NCRM-3294: patched (0.0d, 0 EGP)
-    PAR-5054: refetching 1 changed/new ticket(s)
-  PAR-5054: patched (0.52d, 1,820 EGP)
-    IMS-1386: refetching 1 changed/new ticket(s)
-  IMS-1386: patched (109.02d, 381,570 EGP)
-    IMS-1601: refetching 1 changed/new ticket(s)
-  IMS-1601: patched (0.0d, 0 EGP)
-    IMS-959: refetching 1 changed/new ticket(s)
-  IMS-959: patched (154.95d, 542,325 EGP)
-    IMS-111: refetching 2 changed/new ticket(s)
-  IMS-111: patched (398.89d, 1,396,115 EGP)
-    NCRM-3200: refetching 1 changed/new ticket(s)
-  NCRM-3200: patched (0.0d, 0 EGP)
-    IMS-1588: refetching 4 changed/new ticket(s)
-  IMS-1588: patched (55.99d, 195,965 EGP)
-    NCRM-1975: refetching 5 changed/new ticket(s)
-  NCRM-1975: patched (121.47d, 425,145 EGP)
-    IMS-156: refetching 2 changed/new ticket(s)
-  IMS-156: patched (153.04d, 535,640 EGP)
-    NCRM-3007: refetching 2 changed/new ticket(s)
-  NCRM-3007: patched (0.0d, 0 EGP)
-  IMS-1781: new epic, full fetch
-Fetching IMS-1781 (Masterplan Global Page) ...
-  IMS-1822: 0.0d
-Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/IMS-1781.json: 0.0 days, 0 EGP
-    SP-2085: refetching 1 changed/new ticket(s)
-  SP-2085: patched (0.61d, 2,135 EGP)
-    IMS-1564: refetching 1 changed/new ticket(s)
-  IMS-1564: patched (0.0d, 0 EGP)
-    SP-1947: refetching 1 changed/new ticket(s)
-  SP-1947: patched (0.0d, 0 EGP)
-    NCRM-1974: refetching 1 changed/new ticket(s)
-  NCRM-1974: patched (548.49d, 1,919,715 EGP)
-    NCRM-3281: refetching 1 changed/new ticket(s)
-  NCRM-3281: patched (0.0d, 0 EGP)
-    NCRM-3349: refetching 2 changed/new ticket(s)
-  NCRM-3349: patched (0.0d, 0 EGP)
-    IMS-1005: refetching 1 changed/new ticket(s)
-  IMS-1005: patched (49.51d, 173,285 EGP)
-    SP-1966: refetching 1 changed/new ticket(s)
-  SP-1966: patched (22.53d, 78,855 EGP)
-    NCRM-3326: refetching 1 changed/new ticket(s)
-  NCRM-3326: patched (0.0d, 0 EGP)
-    NCRM-3323: refetching 2 changed/new ticket(s)
-  NCRM-3323: patched (0.0d, 0 EGP)
-    IMS-1816: refetching 1 changed/new ticket(s)
-  IMS-1816: patched (17.63d, 61,705 EGP)
-    SP-2030: refetching 1 changed/new ticket(s)
-  SP-2030: patched (0.0d, 0 EGP)
-    SP-2034: refetching 1 changed/new ticket(s)
-  SP-2034: patched (5.18d, 18,130 EGP)
-  SC-2101: new epic, full fetch
-Fetching SC-2101 ([Resale] Add property to the lead) ...
-  SC-2120: 0.0d
-Wrote /home/runner/work/nawy-epic-budget/nawy-epic-budget/scripts/../data/SC-2101.json: 0.0 days, 0 EGP
-    IMS-1724: refetching 1 changed/new ticket(s)
-  IMS-1724: patched (0.0d, 0 EGP)
+=== INCREMENTAL SYNC since 2026-08-07T09:31:48.713559 ===
+Found 7 issue(s) updated since last sync.
+Epics needing an update this run: 1
+    PAR-5079: refetching 1 changed/new ticket(s)
+  PAR-5079: patched (0.42d, 1,470 EGP)
 
-Done. Incremental sync touched 39 epic(s), 637 epic(s) total tracked.
+Done. Incremental sync touched 1 epic(s), 637 epic(s) total tracked.
 Portfolio: 32473.5 days, 113,657,320 EGP across 637 epics
 SCRIPT_EXIT_CODE=0

@@ -5565,8 +5565,8 @@
       "total_net_days": 0.42,
       "total_cost_egp": 1470.0,
       "total_tickets": 2,
-      "complete_tickets": 1,
-      "generated_at": "2026-08-06T12:31:30.612929+00:00"
+      "complete_tickets": 2,
+      "generated_at": "2026-08-08T08:07:10.706236+00:00"
     },
     {
       "epic_key": "PAR-53",
@@ -7645,5 +7645,5 @@
       "generated_at": "2026-08-02T10:23:27.953262+00:00"
     }
   ],
-  "updated_at": "2026-08-07T09:37:48.562019+00:00"
+  "updated_at": "2026-08-08T08:07:10.730487+00:00"
 }
