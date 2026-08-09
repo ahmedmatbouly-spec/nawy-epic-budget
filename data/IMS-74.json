@@ -4,7 +4,7 @@
   "project_key": "IMS",
   "project_name": "Inventory Management System ",
   "epic_created": "2025-03-03T23:39:22.246+0200",
-  "generated_at": "2026-08-04T12:31:08.500343+00:00",
+  "generated_at": "2026-08-09T05:48:53.127417+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 22,
   "complete_tickets": 19,
@@ -12,6 +12,204 @@
   "total_net_days": 137.98,
   "total_cost_egp": 482930.0,
   "tickets": [
+    {
+      "key": "IMS-126",
+      "summary": "Brochures Ai Extractions Floor Plans",
+      "status": "Done",
+      "net_days": 16.09,
+      "gross_days": 16.09,
+      "excluded_days": 0.0,
+      "cost_egp": 56315.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "IMS-127",
+      "summary": "Brochures Ai Extractions Render Images",
+      "status": "Done",
+      "net_days": 16.09,
+      "gross_days": 16.09,
+      "excluded_days": 0.0,
+      "cost_egp": 56315.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "IMS-150",
+      "summary": "All Brochures Tables",
+      "status": "Done",
+      "net_days": 16.09,
+      "gross_days": 16.09,
+      "excluded_days": 0.0,
+      "cost_egp": 56315.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "IMS-151",
+      "summary": "Brochures Ai Extraction Processing Logic",
+      "status": "Done",
+      "net_days": 16.09,
+      "gross_days": 16.09,
+      "excluded_days": 0.0,
+      "cost_egp": 56315.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "IMS-152",
+      "summary": "Brochures Ai Extractions Master Plans",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "IMS-180",
+      "summary": "Do not Omit has_plan Key from the object if answer is no",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "IMS-182",
+      "summary": "Headers Mapping endpoint for Feedback",
+      "status": "Done",
+      "net_days": 0.36,
+      "gross_days": 0.36,
+      "excluded_days": 0.0,
+      "cost_egp": 1260.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "IMS-183",
+      "summary": "Initial Steup Feedback endpoint",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "IMS-184",
+      "summary": "Splitting Initial Setup endpoints into two endpoints",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "IMS-186",
+      "summary": "Normalization Feedback endpoint",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "IMS-188",
+      "summary": "Factorization and Code Cleanup for Python Server",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "IMS-201",
+      "summary": "Saving Data to Vector Database",
+      "status": "Done",
+      "net_days": 71.41,
+      "gross_days": 86.56,
+      "excluded_days": 15.14,
+      "cost_egp": 249935.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "IMS-202",
+      "summary": "Brochures Floor Plans Normalization",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "IMS-250",
+      "summary": "Brochures Ai Extraction for Projects Metadata ",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "IMS-299",
+      "summary": "fix undefined attachement in brochure testing",
+      "status": "Done",
+      "net_days": 1.85,
+      "gross_days": 1.85,
+      "excluded_days": 0.0,
+      "cost_egp": 6475.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "IMS-320",
+      "summary": "Multiselect for approval and rejection for brochures extracted",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "IMS-381",
+      "summary": "Brochures table changes (Versions , free filter by project , Delete Option)",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "IMS-401",
+      "summary": "Option to Delete Brochures",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
     {
       "key": "IMS-483",
       "summary": "Brochures page icon in Navbar",
@@ -35,61 +233,6 @@
       "num_spans": 0
     },
     {
-      "key": "IMS-186",
-      "summary": "Normalization Feedback endpoint",
-      "status": "Done",
-      "net_days": 0.0,
-      "gross_days": 0.0,
-      "excluded_days": 0.0,
-      "cost_egp": 0.0,
-      "is_complete": true,
-      "num_spans": 0
-    },
-    {
-      "key": "IMS-320",
-      "summary": "Multiselect for approval and rejection for brochures extracted",
-      "status": "Done",
-      "net_days": 0.0,
-      "gross_days": 0.0,
-      "excluded_days": 0.0,
-      "cost_egp": 0.0,
-      "is_complete": true,
-      "num_spans": 0
-    },
-    {
-      "key": "IMS-150",
-      "summary": "All Brochures Tables",
-      "status": "Done",
-      "net_days": 16.09,
-      "gross_days": 16.09,
-      "excluded_days": 0.0,
-      "cost_egp": 56315.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
-    {
-      "key": "IMS-182",
-      "summary": "Headers Mapping endpoint for Feedback",
-      "status": "Done",
-      "net_days": 0.36,
-      "gross_days": 0.36,
-      "excluded_days": 0.0,
-      "cost_egp": 1260.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
-    {
-      "key": "IMS-127",
-      "summary": "Brochures Ai Extractions Render Images",
-      "status": "Done",
-      "net_days": 16.09,
-      "gross_days": 16.09,
-      "excluded_days": 0.0,
-      "cost_egp": 56315.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
-    {
       "key": "IMS-1163",
       "summary": "Brochures Flow Enhancements",
       "status": "Open",
@@ -101,61 +244,6 @@
       "num_spans": 0
     },
     {
-      "key": "IMS-184",
-      "summary": "Splitting Initial Setup endpoints into two endpoints",
-      "status": "Done",
-      "net_days": 0.0,
-      "gross_days": 0.0,
-      "excluded_days": 0.0,
-      "cost_egp": 0.0,
-      "is_complete": true,
-      "num_spans": 0
-    },
-    {
-      "key": "IMS-202",
-      "summary": "Brochures Floor Plans Normalization",
-      "status": "Done",
-      "net_days": 0.0,
-      "gross_days": 0.0,
-      "excluded_days": 0.0,
-      "cost_egp": 0.0,
-      "is_complete": true,
-      "num_spans": 0
-    },
-    {
-      "key": "IMS-188",
-      "summary": "Factorization and Code Cleanup for Python Server",
-      "status": "Done",
-      "net_days": 0.0,
-      "gross_days": 0.0,
-      "excluded_days": 0.0,
-      "cost_egp": 0.0,
-      "is_complete": true,
-      "num_spans": 0
-    },
-    {
-      "key": "IMS-299",
-      "summary": "fix undefined attachement in brochure testing",
-      "status": "Done",
-      "net_days": 1.85,
-      "gross_days": 1.85,
-      "excluded_days": 0.0,
-      "cost_egp": 6475.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
-    {
-      "key": "IMS-401",
-      "summary": "Option to Delete Brochures",
-      "status": "Done",
-      "net_days": 0.0,
-      "gross_days": 0.0,
-      "excluded_days": 0.0,
-      "cost_egp": 0.0,
-      "is_complete": true,
-      "num_spans": 0
-    },
-    {
       "key": "IMS-1880",
       "summary": "Brochures Extraction enhancements",
       "status": "To Do",
@@ -164,94 +252,6 @@
       "excluded_days": 0.0,
       "cost_egp": 0.0,
       "is_complete": false,
-      "num_spans": 0
-    },
-    {
-      "key": "IMS-201",
-      "summary": "Saving Data to Vector Database",
-      "status": "Done",
-      "net_days": 71.41,
-      "gross_days": 86.56,
-      "excluded_days": 15.14,
-      "cost_egp": 249935.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
-    {
-      "key": "IMS-151",
-      "summary": "Brochures Ai Extraction Processing Logic",
-      "status": "Done",
-      "net_days": 16.09,
-      "gross_days": 16.09,
-      "excluded_days": 0.0,
-      "cost_egp": 56315.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
-    {
-      "key": "IMS-126",
-      "summary": "Brochures Ai Extractions Floor Plans",
-      "status": "Done",
-      "net_days": 16.09,
-      "gross_days": 16.09,
-      "excluded_days": 0.0,
-      "cost_egp": 56315.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
-    {
-      "key": "IMS-381",
-      "summary": "Brochures table changes (Versions , free filter by project , Delete Option)",
-      "status": "Done",
-      "net_days": 0.0,
-      "gross_days": 0.0,
-      "excluded_days": 0.0,
-      "cost_egp": 0.0,
-      "is_complete": true,
-      "num_spans": 0
-    },
-    {
-      "key": "IMS-152",
-      "summary": "Brochures Ai Extractions Master Plans",
-      "status": "Done",
-      "net_days": 0.0,
-      "gross_days": 0.0,
-      "excluded_days": 0.0,
-      "cost_egp": 0.0,
-      "is_complete": true,
-      "num_spans": 0
-    },
-    {
-      "key": "IMS-183",
-      "summary": "Initial Steup Feedback endpoint",
-      "status": "Done",
-      "net_days": 0.0,
-      "gross_days": 0.0,
-      "excluded_days": 0.0,
-      "cost_egp": 0.0,
-      "is_complete": true,
-      "num_spans": 0
-    },
-    {
-      "key": "IMS-250",
-      "summary": "Brochures Ai Extraction for Projects Metadata ",
-      "status": "Done",
-      "net_days": 0.0,
-      "gross_days": 0.0,
-      "excluded_days": 0.0,
-      "cost_egp": 0.0,
-      "is_complete": true,
-      "num_spans": 0
-    },
-    {
-      "key": "IMS-180",
-      "summary": "Do not Omit has_plan Key from the object if answer is no",
-      "status": "Done",
-      "net_days": 0.0,
-      "gross_days": 0.0,
-      "excluded_days": 0.0,
-      "cost_egp": 0.0,
-      "is_complete": true,
       "num_spans": 0
     }
   ]

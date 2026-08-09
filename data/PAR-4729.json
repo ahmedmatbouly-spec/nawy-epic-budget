@@ -4,14 +4,25 @@
   "project_key": "PAR",
   "project_name": "Partners",
   "epic_created": "2026-05-20T14:13:00.688+0300",
-  "generated_at": "2026-08-05T12:27:23.773905+00:00",
+  "generated_at": "2026-08-09T05:46:10.004184+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 14,
   "complete_tickets": 5,
   "in_progress_tickets": 9,
-  "total_net_days": 62.85,
-  "total_cost_egp": 219975.0,
+  "total_net_days": 71.79,
+  "total_cost_egp": 251265.0,
   "tickets": [
+    {
+      "key": "PAR-4544",
+      "summary": "[Web][NN Agent Access] Partners pool - Excluding requests",
+      "status": "Ready for Deployment",
+      "net_days": 2.66,
+      "gross_days": 5.64,
+      "excluded_days": 2.97,
+      "cost_egp": 9310.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
     {
       "key": "SC-1965",
       "summary": "[App][NN Agent Access][First Iteration] Financing CIL form - NN agent attribution",
@@ -24,13 +35,13 @@
       "num_spans": 0
     },
     {
-      "key": "PAR-4761",
-      "summary": "[Web][NN Agent Access] Nawy Now interest setting organization profile",
-      "status": "Ready for Deployment",
-      "net_days": 6.0,
-      "gross_days": 6.6,
-      "excluded_days": 0.6,
-      "cost_egp": 21000.0,
+      "key": "PAR-4595",
+      "summary": "[Web][NN Agent Access][First Iteration] Financing CIL form",
+      "status": "Done",
+      "net_days": 9.23,
+      "gross_days": 12.23,
+      "excluded_days": 3.0,
+      "cost_egp": 32305.0,
       "is_complete": true,
       "num_spans": 1
     },
@@ -46,25 +57,58 @@
       "num_spans": 0
     },
     {
-      "key": "PAR-4762",
-      "summary": "[Web][NN Agent Access] Requests management account manager flow - Approval flow",
-      "status": "Product UAT",
-      "net_days": 1.5,
-      "gross_days": 9.03,
-      "excluded_days": 7.53,
-      "cost_egp": 5250.0,
+      "key": "PAR-4697",
+      "summary": "[Web][NN Agent Access] Associated partners",
+      "status": "In Progress",
+      "net_days": 10.45,
+      "gross_days": 10.45,
+      "excluded_days": 0.0,
+      "cost_egp": 36575.0,
       "is_complete": false,
       "num_spans": 1
     },
     {
-      "key": "PAR-4544",
-      "summary": "[Web][NN Agent Access] Partners pool - Excluding requests",
+      "key": "PAR-4707",
+      "summary": "[Web][NN Agent Access] Requests management account manager flow - Rejection flow",
+      "status": "Product UAT",
+      "net_days": 2.0,
+      "gross_days": 14.0,
+      "excluded_days": 12.0,
+      "cost_egp": 7000.0,
+      "is_complete": false,
+      "num_spans": 1
+    },
+    {
+      "key": "PAR-4715",
+      "summary": "[Web][NN Agent Access] Partners pool - Insights, Filters & Requests ",
+      "status": "Product UAT",
+      "net_days": 17.86,
+      "gross_days": 22.53,
+      "excluded_days": 4.67,
+      "cost_egp": 62510.0,
+      "is_complete": false,
+      "num_spans": 1
+    },
+    {
+      "key": "PAR-4761",
+      "summary": "[Web][NN Agent Access] Nawy Now interest setting organization profile",
       "status": "Ready for Deployment",
-      "net_days": 2.66,
-      "gross_days": 5.64,
-      "excluded_days": 2.97,
-      "cost_egp": 9310.0,
+      "net_days": 6.0,
+      "gross_days": 6.6,
+      "excluded_days": 0.6,
+      "cost_egp": 21000.0,
       "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "PAR-4762",
+      "summary": "[Web][NN Agent Access] Requests management account manager flow - Approval flow",
+      "status": "Product UAT",
+      "net_days": 1.5,
+      "gross_days": 13.5,
+      "excluded_days": 12.0,
+      "cost_egp": 5250.0,
+      "is_complete": false,
       "num_spans": 1
     },
     {
@@ -76,17 +120,6 @@
       "excluded_days": 0.0,
       "cost_egp": 30030.0,
       "is_complete": true,
-      "num_spans": 1
-    },
-    {
-      "key": "PAR-4982",
-      "summary": "[Web][NN Agent Access] Organization profile changes",
-      "status": "Code Review",
-      "net_days": 9.03,
-      "gross_days": 9.03,
-      "excluded_days": 0.0,
-      "cost_egp": 31605.0,
-      "is_complete": false,
       "num_spans": 1
     },
     {
@@ -112,39 +145,6 @@
       "num_spans": 0
     },
     {
-      "key": "PAR-4707",
-      "summary": "[Web][NN Agent Access] Requests management account manager flow - Rejection flow",
-      "status": "Product UAT",
-      "net_days": 2.0,
-      "gross_days": 9.53,
-      "excluded_days": 7.53,
-      "cost_egp": 7000.0,
-      "is_complete": false,
-      "num_spans": 1
-    },
-    {
-      "key": "PAR-4715",
-      "summary": "[Web][NN Agent Access] Partners pool - Insights, Filters & Requests ",
-      "status": "Product UAT",
-      "net_days": 17.86,
-      "gross_days": 18.53,
-      "excluded_days": 0.67,
-      "cost_egp": 62510.0,
-      "is_complete": false,
-      "num_spans": 1
-    },
-    {
-      "key": "PAR-4697",
-      "summary": "[Web][NN Agent Access] Associated partners",
-      "status": "In Progress",
-      "net_days": 5.98,
-      "gross_days": 5.98,
-      "excluded_days": 0.0,
-      "cost_egp": 20930.0,
-      "is_complete": false,
-      "num_spans": 1
-    },
-    {
       "key": "PAR-4972",
       "summary": "[Web][NN Agent Access][Second Iteration] Financing CIL form",
       "status": "Open",
@@ -156,14 +156,14 @@
       "num_spans": 0
     },
     {
-      "key": "PAR-4595",
-      "summary": "[Web][NN Agent Access][First Iteration] Financing CIL form",
-      "status": "Done",
-      "net_days": 9.23,
-      "gross_days": 12.23,
-      "excluded_days": 3.0,
-      "cost_egp": 32305.0,
-      "is_complete": true,
+      "key": "PAR-4982",
+      "summary": "[Web][NN Agent Access] Organization profile changes",
+      "status": "Code Review",
+      "net_days": 13.5,
+      "gross_days": 13.5,
+      "excluded_days": 0.0,
+      "cost_egp": 47250.0,
+      "is_complete": false,
       "num_spans": 1
     }
   ]

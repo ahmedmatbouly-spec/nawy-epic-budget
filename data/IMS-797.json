@@ -4,7 +4,7 @@
   "project_key": "IMS",
   "project_name": "Inventory Management System ",
   "epic_created": "2025-11-26T13:30:27.671+0200",
-  "generated_at": "2026-08-07T09:37:10.178616+00:00",
+  "generated_at": "2026-08-09T05:50:12.651182+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 23,
   "complete_tickets": 18,
@@ -13,28 +13,6 @@
   "total_cost_egp": 469350.0,
   "tickets": [
     {
-      "key": "IMS-1419",
-      "summary": "Launches Automatic Closing with Notifications",
-      "status": "Done",
-      "net_days": 2.97,
-      "gross_days": 2.97,
-      "excluded_days": 0.0,
-      "cost_egp": 10395.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
-    {
-      "key": "IMS-1349",
-      "summary": "Launch Management System - Detailed Page [Project Details]",
-      "status": "Done",
-      "net_days": 8.44,
-      "gross_days": 8.73,
-      "excluded_days": 0.29,
-      "cost_egp": 29540.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
-    {
       "key": "IMS-974",
       "summary": "Ai Launches / Releases Whatsapp Detection and Structering",
       "status": "Done",
@@ -42,94 +20,6 @@
       "gross_days": 7.98,
       "excluded_days": 0.0,
       "cost_egp": 27930.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
-    {
-      "key": "IMS-1352",
-      "summary": "Launch Management System - Detailed Page [Whatsapp Messages]",
-      "status": "Done",
-      "net_days": 10.19,
-      "gross_days": 10.19,
-      "excluded_days": 0.0,
-      "cost_egp": 35665.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
-    {
-      "key": "IMS-1339",
-      "summary": "Launch Management System - Table",
-      "status": "Done",
-      "net_days": 10.15,
-      "gross_days": 10.44,
-      "excluded_days": 0.29,
-      "cost_egp": 35525.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
-    {
-      "key": "IMS-1877",
-      "summary": "Launches detection and matching enhancements",
-      "status": "To Do",
-      "net_days": 0.0,
-      "gross_days": 0.0,
-      "excluded_days": 0.0,
-      "cost_egp": 0.0,
-      "is_complete": false,
-      "num_spans": 0
-    },
-    {
-      "key": "IMS-1874",
-      "summary": "Launches flow changes - phase 3",
-      "status": "Open",
-      "net_days": 0.0,
-      "gross_days": 0.0,
-      "excluded_days": 0.0,
-      "cost_egp": 0.0,
-      "is_complete": false,
-      "num_spans": 0
-    },
-    {
-      "key": "IMS-1416",
-      "summary": "Launches Preview and Listing Database",
-      "status": "Done",
-      "net_days": 2.97,
-      "gross_days": 2.97,
-      "excluded_days": 0.0,
-      "cost_egp": 10395.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
-    {
-      "key": "IMS-1460",
-      "summary": "Launches Project details extra info",
-      "status": "Done",
-      "net_days": 12.97,
-      "gross_days": 12.97,
-      "excluded_days": 0.0,
-      "cost_egp": 45395.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
-    {
-      "key": "IMS-1873",
-      "summary": "Launches new data structure",
-      "status": "In Progress",
-      "net_days": 0.25,
-      "gross_days": 0.25,
-      "excluded_days": 0.0,
-      "cost_egp": 875.0,
-      "is_complete": false,
-      "num_spans": 1
-    },
-    {
-      "key": "IMS-1450",
-      "summary": "Launches Duplicates Detection and Cleanup",
-      "status": "Done",
-      "net_days": 10.28,
-      "gross_days": 10.28,
-      "excluded_days": 0.0,
-      "cost_egp": 35980.0,
       "is_complete": true,
       "num_spans": 1
     },
@@ -145,57 +35,13 @@
       "num_spans": 0
     },
     {
-      "key": "IMS-1417",
-      "summary": "Launch AI Re-extract from Array of Messages and Media Endpoint",
-      "status": "Open",
-      "net_days": 0.0,
-      "gross_days": 0.0,
-      "excluded_days": 0.0,
-      "cost_egp": 0.0,
-      "is_complete": false,
-      "num_spans": 0
-    },
-    {
-      "key": "IMS-1418",
-      "summary": "Launches Data Completeness and statuses before Ingestion",
+      "key": "IMS-1339",
+      "summary": "Launch Management System - Table",
       "status": "Done",
-      "net_days": 10.28,
-      "gross_days": 10.28,
-      "excluded_days": 0.0,
-      "cost_egp": 35980.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
-    {
-      "key": "IMS-1782",
-      "summary": "Launches Finalization",
-      "status": "Released",
-      "net_days": 7.32,
-      "gross_days": 7.32,
-      "excluded_days": 0.0,
-      "cost_egp": 25620.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
-    {
-      "key": "IMS-1461",
-      "summary": "Launches stauses time logging",
-      "status": "Done",
-      "net_days": 0.0,
-      "gross_days": 0.0,
-      "excluded_days": 0.0,
-      "cost_egp": 0.0,
-      "is_complete": true,
-      "num_spans": 0
-    },
-    {
-      "key": "IMS-1449",
-      "summary": "Launch Management System - Detailed Page [Incentives tab]",
-      "status": "Done",
-      "net_days": 1.07,
-      "gross_days": 1.59,
-      "excluded_days": 0.52,
-      "cost_egp": 3745.0,
+      "net_days": 10.15,
+      "gross_days": 10.44,
+      "excluded_days": 0.29,
+      "cost_egp": 35525.0,
       "is_complete": true,
       "num_spans": 1
     },
@@ -207,17 +53,6 @@
       "gross_days": 2.74,
       "excluded_days": 0.29,
       "cost_egp": 8575.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
-    {
-      "key": "IMS-1371",
-      "summary": "Launches Ai extraction Fixes",
-      "status": "Done",
-      "net_days": 6.75,
-      "gross_days": 6.76,
-      "excluded_days": 0.0,
-      "cost_egp": 23625.0,
       "is_complete": true,
       "num_spans": 1
     },
@@ -244,6 +79,138 @@
       "num_spans": 1
     },
     {
+      "key": "IMS-1344",
+      "summary": "Launch Management System - Detailed Page [Main Container]",
+      "status": "Done",
+      "net_days": 8.44,
+      "gross_days": 8.73,
+      "excluded_days": 0.29,
+      "cost_egp": 29540.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "IMS-1349",
+      "summary": "Launch Management System - Detailed Page [Project Details]",
+      "status": "Done",
+      "net_days": 8.44,
+      "gross_days": 8.73,
+      "excluded_days": 0.29,
+      "cost_egp": 29540.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "IMS-1352",
+      "summary": "Launch Management System - Detailed Page [Whatsapp Messages]",
+      "status": "Done",
+      "net_days": 10.19,
+      "gross_days": 10.19,
+      "excluded_days": 0.0,
+      "cost_egp": 35665.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "IMS-1371",
+      "summary": "Launches Ai extraction Fixes",
+      "status": "Done",
+      "net_days": 6.75,
+      "gross_days": 6.76,
+      "excluded_days": 0.0,
+      "cost_egp": 23625.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "IMS-1416",
+      "summary": "Launches Preview and Listing Database",
+      "status": "Done",
+      "net_days": 2.97,
+      "gross_days": 2.97,
+      "excluded_days": 0.0,
+      "cost_egp": 10395.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "IMS-1417",
+      "summary": "Launch AI Re-extract from Array of Messages and Media Endpoint",
+      "status": "Open",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "IMS-1418",
+      "summary": "Launches Data Completeness and statuses before Ingestion",
+      "status": "Done",
+      "net_days": 10.28,
+      "gross_days": 10.28,
+      "excluded_days": 0.0,
+      "cost_egp": 35980.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "IMS-1419",
+      "summary": "Launches Automatic Closing with Notifications",
+      "status": "Done",
+      "net_days": 2.97,
+      "gross_days": 2.97,
+      "excluded_days": 0.0,
+      "cost_egp": 10395.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "IMS-1449",
+      "summary": "Launch Management System - Detailed Page [Incentives tab]",
+      "status": "Done",
+      "net_days": 1.07,
+      "gross_days": 1.59,
+      "excluded_days": 0.52,
+      "cost_egp": 3745.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "IMS-1450",
+      "summary": "Launches Duplicates Detection and Cleanup",
+      "status": "Done",
+      "net_days": 10.28,
+      "gross_days": 10.28,
+      "excluded_days": 0.0,
+      "cost_egp": 35980.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "IMS-1460",
+      "summary": "Launches Project details extra info",
+      "status": "Done",
+      "net_days": 12.97,
+      "gross_days": 12.97,
+      "excluded_days": 0.0,
+      "cost_egp": 45395.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "IMS-1461",
+      "summary": "Launches stauses time logging",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
       "key": "IMS-1492",
       "summary": "Order the Launches Details Tabs",
       "status": "Done",
@@ -255,15 +222,48 @@
       "num_spans": 1
     },
     {
-      "key": "IMS-1344",
-      "summary": "Launch Management System - Detailed Page [Main Container]",
-      "status": "Done",
-      "net_days": 8.44,
-      "gross_days": 8.73,
-      "excluded_days": 0.29,
-      "cost_egp": 29540.0,
+      "key": "IMS-1782",
+      "summary": "Launches Finalization",
+      "status": "Released",
+      "net_days": 7.32,
+      "gross_days": 7.32,
+      "excluded_days": 0.0,
+      "cost_egp": 25620.0,
       "is_complete": true,
       "num_spans": 1
+    },
+    {
+      "key": "IMS-1873",
+      "summary": "Launches new data structure",
+      "status": "In Progress",
+      "net_days": 0.25,
+      "gross_days": 0.25,
+      "excluded_days": 0.0,
+      "cost_egp": 875.0,
+      "is_complete": false,
+      "num_spans": 1
+    },
+    {
+      "key": "IMS-1874",
+      "summary": "Launches flow changes - phase 3",
+      "status": "Open",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "IMS-1877",
+      "summary": "Launches detection and matching enhancements",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
     }
   ]
 }

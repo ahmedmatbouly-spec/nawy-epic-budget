@@ -4,7 +4,7 @@
   "project_key": "SP",
   "project_name": "Sales Portal",
   "epic_created": "2026-06-23T14:49:47.245+0300",
-  "generated_at": "2026-08-06T12:31:29.521025+00:00",
+  "generated_at": "2026-08-09T05:58:27.825243+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 5,
   "complete_tickets": 5,
@@ -12,17 +12,6 @@
   "total_net_days": 11.66,
   "total_cost_egp": 40810.0,
   "tickets": [
-    {
-      "key": "SP-2102",
-      "summary": "Add Expected payout Dates to the Dispute detailed view",
-      "status": "Ready For Production",
-      "net_days": 0.0,
-      "gross_days": 0.0,
-      "excluded_days": 0.0,
-      "cost_egp": 0.0,
-      "is_complete": true,
-      "num_spans": 0
-    },
     {
       "key": "SP-1951",
       "summary": "Commissions Disputes Management",
@@ -59,6 +48,17 @@
     {
       "key": "SP-2072",
       "summary": "Add Dispute Link to the Dispute Communication emails",
+      "status": "Ready For Production",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "SP-2102",
+      "summary": "Add Expected payout Dates to the Dispute detailed view",
       "status": "Ready For Production",
       "net_days": 0.0,
       "gross_days": 0.0,

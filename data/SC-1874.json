@@ -4,11 +4,11 @@
   "project_key": "SC",
   "project_name": "Suite Control ",
   "epic_created": "2026-06-29T13:58:19.030+0300",
-  "generated_at": "2026-08-02T10:10:19.753684+00:00",
+  "generated_at": "2026-08-09T05:40:12.767384+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 15,
-  "complete_tickets": 9,
-  "in_progress_tickets": 6,
+  "complete_tickets": 10,
+  "in_progress_tickets": 5,
   "total_net_days": 21.1,
   "total_cost_egp": 73850.0,
   "tickets": [
@@ -115,9 +115,12 @@
       "key": "SC-1903",
       "summary": "[Commissions Visibility] \u2014 Commission payouts hub / entry-point screen",
       "status": "Ready for Deployment",
-      "net_days": 0,
-      "cost_egp": 0,
-      "error": "Remote end closed connection without response"
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 1
     },
     {
       "key": "SC-1904",

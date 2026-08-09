@@ -4,7 +4,7 @@
   "project_key": "IMS",
   "project_name": "Inventory Management System ",
   "epic_created": "2026-01-14T13:16:47.115+0200",
-  "generated_at": "2026-08-04T12:30:44.951194+00:00",
+  "generated_at": "2026-08-09T05:50:34.853744+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 3,
   "complete_tickets": 1,
@@ -13,15 +13,15 @@
   "total_cost_egp": 21910.0,
   "tickets": [
     {
-      "key": "IMS-1436",
-      "summary": "Properties Data Issues Form Submission",
-      "status": "Open",
-      "net_days": 0.0,
-      "gross_days": 0.0,
+      "key": "IMS-1042",
+      "summary": "Dynamic Properties Validation Rules builder",
+      "status": "Done",
+      "net_days": 6.26,
+      "gross_days": 6.26,
       "excluded_days": 0.0,
-      "cost_egp": 0.0,
-      "is_complete": false,
-      "num_spans": 0
+      "cost_egp": 21910.0,
+      "is_complete": true,
+      "num_spans": 1
     },
     {
       "key": "IMS-1435",
@@ -35,15 +35,15 @@
       "num_spans": 0
     },
     {
-      "key": "IMS-1042",
-      "summary": "Dynamic Properties Validation Rules builder",
-      "status": "Done",
-      "net_days": 6.26,
-      "gross_days": 6.26,
+      "key": "IMS-1436",
+      "summary": "Properties Data Issues Form Submission",
+      "status": "Open",
+      "net_days": 0.0,
+      "gross_days": 0.0,
       "excluded_days": 0.0,
-      "cost_egp": 21910.0,
-      "is_complete": true,
-      "num_spans": 1
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
     }
   ]
 }
