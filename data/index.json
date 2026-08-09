@@ -3754,7 +3754,7 @@
       "total_cost_egp": 5520760.0,
       "total_tickets": 114,
       "complete_tickets": 91,
-      "generated_at": "2026-08-09T05:54:53.615464+00:00"
+      "generated_at": "2026-08-09T08:09:51.217440+00:00"
     },
     {
       "epic_key": "NLP-2823",
@@ -5865,8 +5865,8 @@
       "total_net_days": 0.0,
       "total_cost_egp": 0.0,
       "total_tickets": 1,
-      "complete_tickets": 0,
-      "generated_at": "2026-07-30T12:15:31.655393+00:00"
+      "complete_tickets": 1,
+      "generated_at": "2026-08-09T08:09:46.313640+00:00"
     },
     {
       "epic_key": "PSQ-776",
@@ -5946,11 +5946,11 @@
       "project_key": "PSQ",
       "project_name": "Platform Squad",
       "epic_created": "2026-07-21T19:26:27.362+0300",
-      "total_net_days": 0.0,
-      "total_cost_egp": 0.0,
+      "total_net_days": 0.01,
+      "total_cost_egp": 35.0,
       "total_tickets": 1,
       "complete_tickets": 0,
-      "generated_at": "2026-08-03T16:00:35.472341+00:00"
+      "generated_at": "2026-08-09T08:09:47.856977+00:00"
     },
     {
       "epic_key": "PSQ-825",
@@ -7645,5 +7645,5 @@
       "generated_at": "2026-08-09T05:57:13.210080+00:00"
     }
   ],
-  "updated_at": "2026-08-09T06:01:26.420508+00:00"
+  "updated_at": "2026-08-09T08:09:51.242328+00:00"
 }
