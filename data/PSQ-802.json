@@ -4,23 +4,23 @@
   "project_key": "PSQ",
   "project_name": "Platform Squad",
   "epic_created": "2026-07-21T19:26:27.362+0300",
-  "generated_at": "2026-08-09T08:09:47.856977+00:00",
+  "generated_at": "2026-08-10T10:41:44.213022+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 1,
-  "complete_tickets": 0,
-  "in_progress_tickets": 1,
-  "total_net_days": 0.01,
-  "total_cost_egp": 35.0,
+  "complete_tickets": 1,
+  "in_progress_tickets": 0,
+  "total_net_days": 0.3,
+  "total_cost_egp": 1050.0,
   "tickets": [
     {
       "key": "PSQ-839",
       "summary": "Code Review: [Sonder] Configurable post-completion event on task type (replace create_tasks post-action)",
-      "status": "In Progress",
-      "net_days": 0.01,
-      "gross_days": 0.01,
+      "status": "Done",
+      "net_days": 0.3,
+      "gross_days": 0.3,
       "excluded_days": 0.0,
-      "cost_egp": 35.0,
-      "is_complete": false,
+      "cost_egp": 1050.0,
+      "is_complete": true,
       "num_spans": 1
     }
   ]

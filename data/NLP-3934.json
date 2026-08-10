@@ -4,7 +4,7 @@
   "project_key": "NLP",
   "project_name": "Nawy Listing Platform ",
   "epic_created": "2025-07-27T10:48:16.902+0300",
-  "generated_at": "2026-07-31T12:32:02.588764+00:00",
+  "generated_at": "2026-08-10T10:43:10.979337+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 3,
   "complete_tickets": 0,
@@ -12,6 +12,17 @@
   "total_net_days": 124.9,
   "total_cost_egp": 437150.0,
   "tickets": [
+    {
+      "key": "NLP-4251",
+      "summary": "Code Review: [Web] Property type / sub-property type handling",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
     {
       "key": "NLP-4663",
       "summary": "Testing: [Web] Property type / sub-property type handling",
@@ -33,17 +44,6 @@
       "cost_egp": 437150.0,
       "is_complete": false,
       "num_spans": 1
-    },
-    {
-      "key": "NLP-4251",
-      "summary": "Code Review: [Web] Property type / sub-property type handling",
-      "status": "To Do",
-      "net_days": 0.0,
-      "gross_days": 0.0,
-      "excluded_days": 0.0,
-      "cost_egp": 0.0,
-      "is_complete": false,
-      "num_spans": 0
     }
   ]
 }

@@ -1,0 +1,27 @@
+{
+  "epic_key": "IMS-1671",
+  "epic_name": "Nawy Space Each Image Analysis vs Masterplan",
+  "project_key": "IMS",
+  "project_name": "Inventory Management System ",
+  "epic_created": "2026-06-08T11:49:16.861+0300",
+  "generated_at": "2026-08-10T10:42:35.581752+00:00",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 1,
+  "complete_tickets": 0,
+  "in_progress_tickets": 1,
+  "total_net_days": 0.0,
+  "total_cost_egp": 0.0,
+  "tickets": [
+    {
+      "key": "IMS-1752",
+      "summary": "Testing: Nawy Space Each Image Analysis vs Masterplan",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    }
+  ]
+}

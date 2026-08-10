@@ -1,0 +1,27 @@
+{
+  "epic_key": "NCRM-3386",
+  "epic_name": "[App] Support attachments (PDF/docs) on internal comment API",
+  "project_key": "NCRM",
+  "project_name": "NawyCRM",
+  "epic_created": "2026-08-09T13:42:57.622+0300",
+  "generated_at": "2026-08-10T10:42:47.578117+00:00",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 1,
+  "complete_tickets": 0,
+  "in_progress_tickets": 1,
+  "total_net_days": 0.0,
+  "total_cost_egp": 0.0,
+  "tickets": [
+    {
+      "key": "NCRM-3399",
+      "summary": "Testing: [App] Support attachments (PDF/docs) on internal comment API",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    }
+  ]
+}

@@ -4,7 +4,7 @@
   "project_key": "IMS",
   "project_name": "Inventory Management System ",
   "epic_created": "2026-01-14T13:22:12.045+0200",
-  "generated_at": "2026-08-09T05:50:49.228550+00:00",
+  "generated_at": "2026-08-10T10:41:30.938823+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 4,
   "complete_tickets": 0,
@@ -15,6 +15,17 @@
     {
       "key": "IMS-1445",
       "summary": "Resale Property Management Ownership History",
+      "status": "Open",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "IMS-1448",
+      "summary": "Ownership List Importing",
       "status": "Open",
       "net_days": 0.0,
       "gross_days": 0.0,
@@ -37,17 +48,6 @@
     {
       "key": "IMS-1447",
       "summary": "Ownership Tab under Properties",
-      "status": "Open",
-      "net_days": 0.0,
-      "gross_days": 0.0,
-      "excluded_days": 0.0,
-      "cost_egp": 0.0,
-      "is_complete": false,
-      "num_spans": 0
-    },
-    {
-      "key": "IMS-1448",
-      "summary": "Ownership List Importing",
       "status": "Open",
       "net_days": 0.0,
       "gross_days": 0.0,

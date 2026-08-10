@@ -1,0 +1,27 @@
+{
+  "epic_key": "NCRM-3334",
+  "epic_name": "Path D3: Meeting Happened",
+  "project_key": "NCRM",
+  "project_name": "NawyCRM",
+  "epic_created": "2026-07-21T15:34:42.611+0300",
+  "generated_at": "2026-08-10T10:41:48.802365+00:00",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 1,
+  "complete_tickets": 0,
+  "in_progress_tickets": 1,
+  "total_net_days": 0.0,
+  "total_cost_egp": 0.0,
+  "tickets": [
+    {
+      "key": "NCRM-3401",
+      "summary": "Testing: Path D3: Meeting Happened",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "epic_key": "NCRM-3374",
+  "epic_name": "Prevent Primary Developer pool from taking active Primary-team leads on developer-exclusive-location requests",
+  "project_key": "NCRM",
+  "project_name": "NawyCRM",
+  "epic_created": "2026-08-05T10:33:21.372+0300",
+  "generated_at": "2026-08-10T10:43:06.291793+00:00",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 1,
+  "complete_tickets": 0,
+  "in_progress_tickets": 1,
+  "total_net_days": 0.0,
+  "total_cost_egp": 0.0,
+  "tickets": [
+    {
+      "key": "NCRM-3392",
+      "summary": "Testing: Prevent Primary Developer pool from taking active Primary-team leads on developer-exclusive-location requests",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    }
+  ]
+}
