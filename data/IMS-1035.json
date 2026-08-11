@@ -4,7 +4,7 @@
   "project_key": "IMS",
   "project_name": "Inventory Management System ",
   "epic_created": "2026-01-20T15:03:16.993+0200",
-  "generated_at": "2026-08-10T10:42:27.722826+00:00",
+  "generated_at": "2026-08-11T09:38:10.309698+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 1,
   "complete_tickets": 0,
@@ -15,7 +15,7 @@
     {
       "key": "IMS-1595",
       "summary": "Permission and Roles Setup",
-      "status": "To Do",
+      "status": "Open",
       "net_days": 0.0,
       "gross_days": 0.0,
       "excluded_days": 0.0,

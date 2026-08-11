@@ -4,36 +4,14 @@
   "project_key": "SP",
   "project_name": "Sales Portal",
   "epic_created": "2025-11-12T10:36:54.038+0200",
-  "generated_at": "2026-08-09T05:58:04.432157+00:00",
+  "generated_at": "2026-08-11T09:37:26.844400+00:00",
   "rate_per_day_egp": 3500.0,
-  "total_tickets": 4,
-  "complete_tickets": 3,
+  "total_tickets": 5,
+  "complete_tickets": 4,
   "in_progress_tickets": 1,
-  "total_net_days": 21.09,
-  "total_cost_egp": 73815.0,
+  "total_net_days": 37.79,
+  "total_cost_egp": 132265.0,
   "tickets": [
-    {
-      "key": "SP-1424",
-      "summary": "[BE] Shares Sale Edits, Approval and Unification Handling",
-      "status": "Done",
-      "net_days": 9.56,
-      "gross_days": 22.75,
-      "excluded_days": 13.19,
-      "cost_egp": 33460.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
-    {
-      "key": "SP-1528",
-      "summary": "Nawy Shares Enhancement",
-      "status": "Done",
-      "net_days": 11.53,
-      "gross_days": 36.77,
-      "excluded_days": 25.24,
-      "cost_egp": 40355.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
     {
       "key": "SP-1532",
       "summary": "[Spike] Add Nawy Share as Seperate Entity \"Between sales portal & Odoo\"",
@@ -55,6 +33,39 @@
       "cost_egp": 0.0,
       "is_complete": true,
       "num_spans": 0
+    },
+    {
+      "key": "SP-1528",
+      "summary": "Nawy Shares Enhancement",
+      "status": "Done",
+      "net_days": 11.53,
+      "gross_days": 36.77,
+      "excluded_days": 25.24,
+      "cost_egp": 40355.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "SP-1993",
+      "summary": "Primary Team | Nawy Shares",
+      "status": "Done",
+      "net_days": 16.7,
+      "gross_days": 16.8,
+      "excluded_days": 0.1,
+      "cost_egp": 58450.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "SP-1424",
+      "summary": "[BE] Shares Sale Edits, Approval and Unification Handling",
+      "status": "Done",
+      "net_days": 9.56,
+      "gross_days": 22.75,
+      "excluded_days": 13.19,
+      "cost_egp": 33460.0,
+      "is_complete": true,
+      "num_spans": 1
     }
   ]
 }
