@@ -4,7 +4,7 @@
   "project_key": "NLP",
   "project_name": "Nawy Listing Platform ",
   "epic_created": "2025-12-29T10:50:45.131+0200",
-  "generated_at": "2026-07-30T12:14:39.913926+00:00",
+  "generated_at": "2026-08-12T09:49:20.462055+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 2,
   "complete_tickets": 0,
@@ -13,8 +13,8 @@
   "total_cost_egp": 0.0,
   "tickets": [
     {
-      "key": "NLP-5087",
-      "summary": "Code Review: [BE] Bulk Payments - Payment Plans",
+      "key": "NLP-5081",
+      "summary": "Testing: [BE] Bulk Payments - Payment Plans",
       "status": "To Do",
       "net_days": 0.0,
       "gross_days": 0.0,
@@ -24,8 +24,8 @@
       "num_spans": 0
     },
     {
-      "key": "NLP-5081",
-      "summary": "Testing: [BE] Bulk Payments - Payment Plans",
+      "key": "NLP-5087",
+      "summary": "Code Review: [BE] Bulk Payments - Payment Plans",
       "status": "To Do",
       "net_days": 0.0,
       "gross_days": 0.0,

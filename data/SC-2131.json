@@ -4,23 +4,23 @@
   "project_key": "SC",
   "project_name": "Suite Control ",
   "epic_created": "2026-08-10T18:12:11.562+0300",
-  "generated_at": "2026-08-11T09:37:37.832079+00:00",
+  "generated_at": "2026-08-12T09:47:33.358363+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 1,
-  "complete_tickets": 0,
-  "in_progress_tickets": 1,
+  "complete_tickets": 1,
+  "in_progress_tickets": 0,
   "total_net_days": 0.0,
   "total_cost_egp": 0.0,
   "tickets": [
     {
       "key": "SC-2145",
       "summary": "Code Review: CRM SDK Phase 0 \u2014 Scaffold CrmModule + per-backend NetworkCapability wiring",
-      "status": "To Do",
+      "status": "Done",
       "net_days": 0.0,
       "gross_days": 0.0,
       "excluded_days": 0.0,
       "cost_egp": 0.0,
-      "is_complete": false,
+      "is_complete": true,
       "num_spans": 0
     }
   ]

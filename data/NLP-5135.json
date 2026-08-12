@@ -4,34 +4,34 @@
   "project_key": "NLP",
   "project_name": "Nawy Listing Platform ",
   "epic_created": "2026-07-29T15:56:09.598+0300",
-  "generated_at": "2026-08-06T12:31:26.888002+00:00",
+  "generated_at": "2026-08-12T09:48:58.129293+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 2,
-  "complete_tickets": 0,
-  "in_progress_tickets": 2,
+  "complete_tickets": 2,
+  "in_progress_tickets": 0,
   "total_net_days": 0.0,
   "total_cost_egp": 0.0,
   "tickets": [
     {
       "key": "NLP-5145",
       "summary": "Testing: [Web] Display phases on  map scenarios",
-      "status": "To Do",
+      "status": "Done",
       "net_days": 0.0,
       "gross_days": 0.0,
       "excluded_days": 0.0,
       "cost_egp": 0.0,
-      "is_complete": false,
+      "is_complete": true,
       "num_spans": 0
     },
     {
       "key": "NLP-5163",
       "summary": "Code Review: [Web] Display phases on  map scenarios",
-      "status": "To Do",
+      "status": "Done",
       "net_days": 0.0,
       "gross_days": 0.0,
       "excluded_days": 0.0,
       "cost_egp": 0.0,
-      "is_complete": false,
+      "is_complete": true,
       "num_spans": 0
     }
   ]

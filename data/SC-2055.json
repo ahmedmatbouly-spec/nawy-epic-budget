@@ -4,23 +4,23 @@
   "project_key": "SC",
   "project_name": "Suite Control ",
   "epic_created": "2026-07-29T12:16:05.302+0300",
-  "generated_at": "2026-08-02T14:17:40.458539+00:00",
+  "generated_at": "2026-08-12T09:46:57.003310+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 1,
-  "complete_tickets": 0,
-  "in_progress_tickets": 1,
+  "complete_tickets": 1,
+  "in_progress_tickets": 0,
   "total_net_days": 0.0,
   "total_cost_egp": 0.0,
   "tickets": [
     {
       "key": "SC-2070",
       "summary": "Code Review: UMS SDK \u2014 PR 6: Route SDK Crashlytics reporting through ObservabilityCapability; adopt engine observability in partners",
-      "status": "To Do",
+      "status": "Done",
       "net_days": 0.0,
       "gross_days": 0.0,
       "excluded_days": 0.0,
       "cost_egp": 0.0,
-      "is_complete": false,
+      "is_complete": true,
       "num_spans": 0
     }
   ]

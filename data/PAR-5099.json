@@ -1,0 +1,27 @@
+{
+  "epic_key": "PAR-5099",
+  "epic_name": "Summer partners competition",
+  "project_key": "PAR",
+  "project_name": "Partners",
+  "epic_created": "2026-08-11T15:18:44.551+0300",
+  "generated_at": "2026-08-12T09:49:10.241089+00:00",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 1,
+  "complete_tickets": 0,
+  "in_progress_tickets": 1,
+  "total_net_days": 0.0,
+  "total_cost_egp": 0.0,
+  "tickets": [
+    {
+      "key": "PAR-5100",
+      "summary": "Code Review: Summer partners competition",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    }
+  ]
+}

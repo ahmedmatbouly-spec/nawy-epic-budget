@@ -4,7 +4,7 @@
   "project_key": "NLP",
   "project_name": "Nawy Listing Platform ",
   "epic_created": "2026-02-25T10:50:00.490+0200",
-  "generated_at": "2026-08-09T05:56:39.405795+00:00",
+  "generated_at": "2026-08-12T09:49:08.114233+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 3,
   "complete_tickets": 2,
@@ -12,6 +12,17 @@
   "total_net_days": 166.12,
   "total_cost_egp": 581420.0,
   "tickets": [
+    {
+      "key": "NLP-4414",
+      "summary": "[BE] Back office - Search fuzzy aliases",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
     {
       "key": "NLP-4139",
       "summary": "[Web API][FE] New Back Office",
@@ -33,17 +44,6 @@
       "cost_egp": 269465.0,
       "is_complete": true,
       "num_spans": 1
-    },
-    {
-      "key": "NLP-4414",
-      "summary": "[BE] Back office - Search fuzzy aliases",
-      "status": "To Do",
-      "net_days": 0.0,
-      "gross_days": 0.0,
-      "excluded_days": 0.0,
-      "cost_egp": 0.0,
-      "is_complete": false,
-      "num_spans": 0
     }
   ]
 }

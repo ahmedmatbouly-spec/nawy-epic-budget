@@ -4,25 +4,14 @@
   "project_key": "SP",
   "project_name": "Sales Portal",
   "epic_created": "2026-07-20T14:31:01.059+0300",
-  "generated_at": "2026-08-11T09:38:47.756554+00:00",
+  "generated_at": "2026-08-12T09:48:44.430849+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 5,
-  "complete_tickets": 1,
-  "in_progress_tickets": 4,
-  "total_net_days": 1.75,
-  "total_cost_egp": 6125.0,
+  "complete_tickets": 2,
+  "in_progress_tickets": 3,
+  "total_net_days": 2.23,
+  "total_cost_egp": 7805.0,
   "tickets": [
-    {
-      "key": "SP-2112",
-      "summary": "Handle Changing Compounds parent developer and the reflection of Sales",
-      "status": "To Do",
-      "net_days": 0.0,
-      "gross_days": 0.0,
-      "excluded_days": 0.0,
-      "cost_egp": 0.0,
-      "is_complete": false,
-      "num_spans": 0
-    },
     {
       "key": "SP-2113",
       "summary": "[Migration] 2026 Sales for Arkan Palm to follow BadrelDin Sub contracts",
@@ -35,26 +24,15 @@
       "num_spans": 0
     },
     {
-      "key": "SP-2116",
-      "summary": "Add Developer Profile Link in the daily maker-checker Email sent to developer relations",
-      "status": "Testing on testing",
-      "net_days": 0.0,
-      "gross_days": 0.0,
-      "excluded_days": 0.0,
-      "cost_egp": 0.0,
-      "is_complete": false,
-      "num_spans": 0
-    },
-    {
       "key": "SP-2111",
       "summary": "[Investigate] Sales without Contract",
-      "status": "To Do",
-      "net_days": 0.0,
-      "gross_days": 0.0,
+      "status": "In Progress",
+      "net_days": 0.48,
+      "gross_days": 0.48,
       "excluded_days": 0.0,
-      "cost_egp": 0.0,
+      "cost_egp": 1680.0,
       "is_complete": false,
-      "num_spans": 0
+      "num_spans": 1
     },
     {
       "key": "SP-2077",
@@ -66,6 +44,28 @@
       "cost_egp": 6125.0,
       "is_complete": true,
       "num_spans": 1
+    },
+    {
+      "key": "SP-2112",
+      "summary": "Handle Changing Compounds parent developer and the reflection of Sales",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "SP-2116",
+      "summary": "Add Developer Profile Link in the daily maker-checker Email sent to developer relations",
+      "status": "Ready For Production",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
     }
   ]
 }

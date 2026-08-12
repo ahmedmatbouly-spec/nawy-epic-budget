@@ -1,0 +1,60 @@
+{
+  "epic_key": "PAR-4736",
+  "epic_name": "Approved sale-claim flows are force-rejected (and get stuck) when their Sales Portal sale is deleted/restored",
+  "project_key": "PAR",
+  "project_name": "Partners",
+  "epic_created": "2026-05-21T13:34:33.778+0300",
+  "generated_at": "2026-08-12T09:47:29.239462+00:00",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 4,
+  "complete_tickets": 0,
+  "in_progress_tickets": 4,
+  "total_net_days": 0.0,
+  "total_cost_egp": 0.0,
+  "tickets": [
+    {
+      "key": "PAR-4737",
+      "summary": "Bug 1: Approved\u2192Rejected guard is bypassed on the Sales Portal integration path",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "PAR-4738",
+      "summary": "Bug 2: restore() publishes a delete-sale-claim event, re-rejecting the flow instead of recovering it",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "PAR-4739",
+      "summary": "Bug 3: delete-sale-claim is claim-level, so deleting one sale (e.g. a duplicate) rejects the whole flow",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "PAR-4740",
+      "summary": "Bug 4: duplicate Rejected rows every ~5 min \u2014 no idempotency + SQS message not acked on partial failure",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    }
+  ]
+}

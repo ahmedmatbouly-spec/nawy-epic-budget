@@ -4,7 +4,7 @@
   "project_key": "IMS",
   "project_name": "Inventory Management System ",
   "epic_created": "2026-05-10T20:26:38.909+0300",
-  "generated_at": "2026-08-11T09:37:09.031777+00:00",
+  "generated_at": "2026-08-12T09:46:56.311744+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 6,
   "complete_tickets": 5,
@@ -24,31 +24,9 @@
       "num_spans": 1
     },
     {
-      "key": "IMS-1564",
-      "summary": "New Areas Page",
-      "status": "Ready for Deployment",
-      "net_days": 15.09,
-      "gross_days": 15.81,
-      "excluded_days": 0.72,
-      "cost_egp": 52815.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
-    {
-      "key": "IMS-1727",
-      "summary": "Draw on map basemap on IMS to have masterplan layer (Same as prod)",
-      "status": "Ready for Deployment",
-      "net_days": 9.0,
-      "gross_days": 9.54,
-      "excluded_days": 0.54,
-      "cost_egp": 31500.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
-    {
       "key": "IMS-1722",
       "summary": "Areas and districts calculate area from polygons",
-      "status": "Ready for Deployment",
+      "status": "Released",
       "net_days": 12.0,
       "gross_days": 15.52,
       "excluded_days": 3.52,
@@ -57,9 +35,9 @@
       "num_spans": 1
     },
     {
-      "key": "IMS-1587",
-      "summary": "Draw on Map for All Areas",
-      "status": "Ready for Deployment",
+      "key": "IMS-1586",
+      "summary": "Draw on Map Per Area",
+      "status": "Done",
       "net_days": 7.95,
       "gross_days": 9.1,
       "excluded_days": 1.15,
@@ -68,13 +46,35 @@
       "num_spans": 1
     },
     {
-      "key": "IMS-1586",
-      "summary": "Draw on Map Per Area",
-      "status": "Ready for Deployment",
+      "key": "IMS-1587",
+      "summary": "Draw on Map for All Areas",
+      "status": "Done",
       "net_days": 7.95,
       "gross_days": 9.1,
       "excluded_days": 1.15,
       "cost_egp": 27825.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "IMS-1727",
+      "summary": "Draw on map basemap on IMS to have masterplan layer (Same as prod)",
+      "status": "Released",
+      "net_days": 9.0,
+      "gross_days": 9.54,
+      "excluded_days": 0.54,
+      "cost_egp": 31500.0,
+      "is_complete": true,
+      "num_spans": 2
+    },
+    {
+      "key": "IMS-1564",
+      "summary": "New Areas Page",
+      "status": "Done",
+      "net_days": 15.09,
+      "gross_days": 15.81,
+      "excluded_days": 0.72,
+      "cost_egp": 52815.0,
       "is_complete": true,
       "num_spans": 1
     }

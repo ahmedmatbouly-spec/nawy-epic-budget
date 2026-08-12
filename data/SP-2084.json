@@ -4,7 +4,7 @@
   "project_key": "SP",
   "project_name": "Sales Portal",
   "epic_created": "2026-07-22T12:08:31.121+0300",
-  "generated_at": "2026-07-29T13:13:54.451592+00:00",
+  "generated_at": "2026-08-12T09:48:14.277728+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 1,
   "complete_tickets": 0,
@@ -14,7 +14,7 @@
   "tickets": [
     {
       "key": "SP-2100",
-      "summary": "[Testing]",
+      "summary": "[Testing] Bulk Generate Claims",
       "status": "To Do",
       "net_days": 0.0,
       "gross_days": 0.0,

@@ -4,7 +4,7 @@
   "project_key": "NLP",
   "project_name": "Nawy Listing Platform ",
   "epic_created": "2025-08-27T16:37:54.129+0300",
-  "generated_at": "2026-07-30T12:13:58.283523+00:00",
+  "generated_at": "2026-08-12T09:49:01.368173+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 2,
   "complete_tickets": 0,
@@ -13,8 +13,8 @@
   "total_cost_egp": 0.0,
   "tickets": [
     {
-      "key": "NLP-4759",
-      "summary": "Testing: [BE] Progress Tracker Notifications - Enhancements #2",
+      "key": "NLP-4784",
+      "summary": "Code Review: [BE] Progress Tracker Notifications - Enhancements #2",
       "status": "To Do",
       "net_days": 0.0,
       "gross_days": 0.0,
@@ -24,8 +24,8 @@
       "num_spans": 0
     },
     {
-      "key": "NLP-4784",
-      "summary": "Code Review: [BE] Progress Tracker Notifications - Enhancements #2",
+      "key": "NLP-4759",
+      "summary": "Testing: [BE] Progress Tracker Notifications - Enhancements #2",
       "status": "To Do",
       "net_days": 0.0,
       "gross_days": 0.0,

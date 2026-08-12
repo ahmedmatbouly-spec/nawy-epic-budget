@@ -4,23 +4,23 @@
   "project_key": "SP",
   "project_name": "Sales Portal",
   "epic_created": "2026-08-09T12:53:43.839+0300",
-  "generated_at": "2026-08-10T10:42:04.296111+00:00",
+  "generated_at": "2026-08-12T09:50:16.479308+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 1,
-  "complete_tickets": 0,
-  "in_progress_tickets": 1,
+  "complete_tickets": 1,
+  "in_progress_tickets": 0,
   "total_net_days": 0.0,
   "total_cost_egp": 0.0,
   "tickets": [
     {
       "key": "SP-2128",
       "summary": "[Migration] Freelancers Promo units",
-      "status": "To Do",
+      "status": "Done",
       "net_days": 0.0,
       "gross_days": 0.0,
       "excluded_days": 0.0,
       "cost_egp": 0.0,
-      "is_complete": false,
+      "is_complete": true,
       "num_spans": 0
     }
   ]
