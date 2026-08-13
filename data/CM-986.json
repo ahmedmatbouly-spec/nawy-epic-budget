@@ -1,10 +1,10 @@
 {
-  "epic_key": "NCRM-3373",
-  "epic_name": "Sort sales pipeline results latest to oldest",
-  "project_key": "NCRM",
-  "project_name": "NawyCRM",
-  "epic_created": "2026-08-05T10:20:58.443+0300",
-  "generated_at": "2026-08-13T09:48:42.180016+00:00",
+  "epic_key": "CM-986",
+  "epic_name": "On-Call Week 2",
+  "project_key": "CM",
+  "project_name": "Campaigns Management",
+  "epic_created": "2026-08-13T11:33:48.487+0300",
+  "generated_at": "2026-08-13T09:48:39.506115+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 1,
   "complete_tickets": 0,
@@ -13,8 +13,8 @@
   "total_cost_egp": 0.0,
   "tickets": [
     {
-      "key": "NCRM-3394",
-      "summary": "Testing: Sort sales pipeline results latest to oldest",
+      "key": "CM-988",
+      "summary": "Testing: On-Call Week 2",
       "status": "To Do",
       "net_days": 0.0,
       "gross_days": 0.0,

@@ -4,7 +4,7 @@
   "project_key": "SC",
   "project_name": "Suite Control ",
   "epic_created": "2026-04-19T10:24:03.399+0200",
-  "generated_at": "2026-08-09T05:40:06.331746+00:00",
+  "generated_at": "2026-08-13T09:49:03.530871+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 7,
   "complete_tickets": 6,
@@ -13,13 +13,24 @@
   "total_cost_egp": 47075.0,
   "tickets": [
     {
-      "key": "SC-1543",
-      "summary": "[Dev Only] Click-to-call button on lead profile",
+      "key": "SC-1817",
+      "summary": "WhatsApp Sync Banner",
       "status": "Done",
-      "net_days": 3.07,
-      "gross_days": 11.56,
-      "excluded_days": 8.5,
-      "cost_egp": 10745.0,
+      "net_days": 0.11,
+      "gross_days": 16.61,
+      "excluded_days": 16.49,
+      "cost_egp": 385.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "SC-1824",
+      "summary": "Analysis tab in the zoom call details ",
+      "status": "Released",
+      "net_days": 0.0,
+      "gross_days": 1.75,
+      "excluded_days": 1.75,
+      "cost_egp": 0.0,
       "is_complete": true,
       "num_spans": 1
     },
@@ -68,24 +79,13 @@
       "num_spans": 1
     },
     {
-      "key": "SC-1817",
-      "summary": "WhatsApp Sync Banner",
-      "status": "Ready for Deployment",
-      "net_days": 0.11,
-      "gross_days": 16.61,
-      "excluded_days": 16.49,
-      "cost_egp": 385.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
-    {
-      "key": "SC-1824",
-      "summary": "Analysis tab in the zoom call details ",
-      "status": "Released",
-      "net_days": 0.0,
-      "gross_days": 1.75,
-      "excluded_days": 1.75,
-      "cost_egp": 0.0,
+      "key": "SC-1543",
+      "summary": "[Dev Only] Click-to-call button on lead profile",
+      "status": "Done",
+      "net_days": 3.07,
+      "gross_days": 11.56,
+      "excluded_days": 8.5,
+      "cost_egp": 10745.0,
       "is_complete": true,
       "num_spans": 1
     }

@@ -4,23 +4,23 @@
   "project_key": "IMS",
   "project_name": "Inventory Management System ",
   "epic_created": "2026-05-17T14:11:16.817+0300",
-  "generated_at": "2026-08-11T09:38:07.934958+00:00",
+  "generated_at": "2026-08-13T09:48:23.784004+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 1,
-  "complete_tickets": 0,
-  "in_progress_tickets": 1,
+  "complete_tickets": 1,
+  "in_progress_tickets": 0,
   "total_net_days": 0.0,
   "total_cost_egp": 0.0,
   "tickets": [
     {
       "key": "IMS-1623",
       "summary": "Testing: Whatsapp media classifications to consider Filename",
-      "status": "To Do",
+      "status": "Done",
       "net_days": 0.0,
       "gross_days": 0.0,
       "excluded_days": 0.0,
       "cost_egp": 0.0,
-      "is_complete": false,
+      "is_complete": true,
       "num_spans": 0
     }
   ]

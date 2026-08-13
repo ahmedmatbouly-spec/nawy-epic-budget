@@ -1,0 +1,27 @@
+{
+  "epic_key": "PSQ-686",
+  "epic_name": "[UMS-Partners Phase 2] [Invitations and Self Signup]",
+  "project_key": "PSQ",
+  "project_name": "Platform Squad",
+  "epic_created": "2026-06-24T19:45:43.841+0300",
+  "generated_at": "2026-08-13T09:47:45.487533+00:00",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 1,
+  "complete_tickets": 0,
+  "in_progress_tickets": 1,
+  "total_net_days": 33.84,
+  "total_cost_egp": 118440.0,
+  "tickets": [
+    {
+      "key": "PSQ-687",
+      "summary": "Testing: [UMS-Partners Phase 2] [Invitations and Self Signup]",
+      "status": "In Progress",
+      "net_days": 33.84,
+      "gross_days": 33.84,
+      "excluded_days": 0.0,
+      "cost_egp": 118440.0,
+      "is_complete": false,
+      "num_spans": 1
+    }
+  ]
+}

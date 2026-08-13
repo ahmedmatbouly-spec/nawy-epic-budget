@@ -4,7 +4,7 @@
   "project_key": "NLP",
   "project_name": "Nawy Listing Platform ",
   "epic_created": "2026-03-29T16:16:29.661+0200",
-  "generated_at": "2026-08-12T09:47:54.355669+00:00",
+  "generated_at": "2026-08-13T09:48:40.201236+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 4,
   "complete_tickets": 1,
@@ -12,6 +12,17 @@
   "total_net_days": 26.28,
   "total_cost_egp": 91980.0,
   "tickets": [
+    {
+      "key": "NLP-4723",
+      "summary": "[App][Mixpanel] Abilty to know the search queries that did not generate any results in Search / Filter functions",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
     {
       "key": "NLP-4412",
       "summary": "[POC] Mixpanel - Differentiate traffic from google / AI & see funnel",
@@ -24,9 +35,9 @@
       "num_spans": 0
     },
     {
-      "key": "NLP-4723",
-      "summary": "[App][Mixpanel] Abilty to know the search queries that did not generate any results in Search / Filter functions",
-      "status": "To Do",
+      "key": "NLP-4444",
+      "summary": "[POC] Send user Mixpanel events to AI engine",
+      "status": "Open",
       "net_days": 0.0,
       "gross_days": 0.0,
       "excluded_days": 0.0,
@@ -44,17 +55,6 @@
       "cost_egp": 91980.0,
       "is_complete": true,
       "num_spans": 1
-    },
-    {
-      "key": "NLP-4444",
-      "summary": "[POC] Send user Mixpanel events to AI engine",
-      "status": "Open",
-      "net_days": 0.0,
-      "gross_days": 0.0,
-      "excluded_days": 0.0,
-      "cost_egp": 0.0,
-      "is_complete": false,
-      "num_spans": 0
     }
   ]
 }
