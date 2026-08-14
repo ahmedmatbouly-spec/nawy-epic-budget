@@ -4,25 +4,14 @@
   "project_key": "IMS",
   "project_name": "Inventory Management System ",
   "epic_created": "2025-08-20T13:27:11.584+0300",
-  "generated_at": "2026-08-13T09:47:47.429813+00:00",
+  "generated_at": "2026-08-14T07:38:19.586716+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 5,
   "complete_tickets": 4,
   "in_progress_tickets": 1,
-  "total_net_days": 19.97,
-  "total_cost_egp": 69895.0,
+  "total_net_days": 20.5,
+  "total_cost_egp": 71750.0,
   "tickets": [
-    {
-      "key": "IMS-734",
-      "summary": "Floor Plans Full screen in all properties and Projects management flow",
-      "status": "Done",
-      "net_days": 1.94,
-      "gross_days": 3.45,
-      "excluded_days": 1.51,
-      "cost_egp": 6790.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
     {
       "key": "IMS-1201",
       "summary": "Floor plans Delete option",
@@ -31,28 +20,6 @@
       "gross_days": 11.0,
       "excluded_days": 4.36,
       "cost_egp": 23240.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
-    {
-      "key": "IMS-1814",
-      "summary": "IMS UI design system implementation",
-      "status": "Ready For Testing",
-      "net_days": 0.69,
-      "gross_days": 0.69,
-      "excluded_days": 0.0,
-      "cost_egp": 2415.0,
-      "is_complete": false,
-      "num_spans": 1
-    },
-    {
-      "key": "IMS-864",
-      "summary": "IMS Navbar Enhancement",
-      "status": "Done",
-      "net_days": 10.7,
-      "gross_days": 19.81,
-      "excluded_days": 9.11,
-      "cost_egp": 37450.0,
       "is_complete": true,
       "num_spans": 1
     },
@@ -66,6 +33,39 @@
       "cost_egp": 0.0,
       "is_complete": true,
       "num_spans": 0
+    },
+    {
+      "key": "IMS-864",
+      "summary": "IMS Navbar Enhancement",
+      "status": "Done",
+      "net_days": 10.7,
+      "gross_days": 19.81,
+      "excluded_days": 9.11,
+      "cost_egp": 37450.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "IMS-734",
+      "summary": "Floor Plans Full screen in all properties and Projects management flow",
+      "status": "Done",
+      "net_days": 1.94,
+      "gross_days": 3.45,
+      "excluded_days": 1.51,
+      "cost_egp": 6790.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "IMS-1814",
+      "summary": "IMS UI design system implementation",
+      "status": "In Testing",
+      "net_days": 1.22,
+      "gross_days": 1.22,
+      "excluded_days": 0.0,
+      "cost_egp": 4270.0,
+      "is_complete": false,
+      "num_spans": 1
     }
   ]
 }

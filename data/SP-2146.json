@@ -4,7 +4,7 @@
   "project_key": "SP",
   "project_name": "Sales Portal",
   "epic_created": "2026-08-12T10:25:33.095+0300",
-  "generated_at": "2026-08-13T09:48:53.858276+00:00",
+  "generated_at": "2026-08-14T07:38:45.711406+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 2,
   "complete_tickets": 0,
@@ -13,8 +13,8 @@
   "total_cost_egp": 0.0,
   "tickets": [
     {
-      "key": "SP-2148",
-      "summary": "[Task Manager] Create task via SNS",
+      "key": "SP-2147",
+      "summary": "Delete invoiced unit",
       "status": "To Do",
       "net_days": 0.0,
       "gross_days": 0.0,
@@ -24,8 +24,8 @@
       "num_spans": 0
     },
     {
-      "key": "SP-2147",
-      "summary": "Delete invoiced unit",
+      "key": "SP-2148",
+      "summary": "[Task Manager] Create task via SNS",
       "status": "To Do",
       "net_days": 0.0,
       "gross_days": 0.0,

@@ -4,7 +4,7 @@
   "project_key": "NLP",
   "project_name": "Nawy Listing Platform ",
   "epic_created": "2023-06-18T07:25:54.299+0300",
-  "generated_at": "2026-08-13T09:48:43.808398+00:00",
+  "generated_at": "2026-08-14T07:38:07.731301+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 8,
   "complete_tickets": 5,
@@ -13,15 +13,15 @@
   "total_cost_egp": 444325.0,
   "tickets": [
     {
-      "key": "NLP-2510",
-      "summary": "[Web][FE] Launches - Links wrong re-direction",
+      "key": "NLP-3772",
+      "summary": "[BE][Web] Display developer name for launches",
       "status": "Done",
-      "net_days": 0.0,
-      "gross_days": 0.0,
-      "excluded_days": 0.0,
-      "cost_egp": 0.0,
+      "net_days": 21.64,
+      "gross_days": 32.84,
+      "excluded_days": 11.2,
+      "cost_egp": 75740.0,
       "is_complete": true,
-      "num_spans": 0
+      "num_spans": 1
     },
     {
       "key": "NLP-736",
@@ -35,37 +35,15 @@
       "num_spans": 1
     },
     {
-      "key": "NLP-5105",
-      "summary": "[Web] Display EOI amount in launches",
-      "status": "To Do",
-      "net_days": 0.0,
-      "gross_days": 0.0,
-      "excluded_days": 0.0,
-      "cost_egp": 0.0,
-      "is_complete": false,
-      "num_spans": 0
-    },
-    {
-      "key": "NLP-5248",
-      "summary": "[BE] Display EOI amount in launches",
-      "status": "Open",
-      "net_days": 0.0,
-      "gross_days": 0.0,
-      "excluded_days": 0.0,
-      "cost_egp": 0.0,
-      "is_complete": false,
-      "num_spans": 0
-    },
-    {
-      "key": "NLP-3772",
-      "summary": "[BE][Web] Display developer name for launches",
+      "key": "NLP-2510",
+      "summary": "[Web][FE] Launches - Links wrong re-direction",
       "status": "Done",
-      "net_days": 21.64,
-      "gross_days": 32.84,
-      "excluded_days": 11.2,
-      "cost_egp": 75740.0,
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
       "is_complete": true,
-      "num_spans": 1
+      "num_spans": 0
     },
     {
       "key": "NLP-2224",
@@ -79,6 +57,28 @@
       "num_spans": 1
     },
     {
+      "key": "NLP-5248",
+      "summary": "[BE] Display EOI amount in launches",
+      "status": "Open",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "NLP-5104",
+      "summary": "[App] Display EOI amount in launches",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
       "key": "NLP-1796",
       "summary": "[App] Handle NEW LAUNCHES experience card",
       "status": "Done",
@@ -90,8 +90,8 @@
       "num_spans": 1
     },
     {
-      "key": "NLP-5104",
-      "summary": "[App] Display EOI amount in launches",
+      "key": "NLP-5105",
+      "summary": "[Web] Display EOI amount in launches",
       "status": "To Do",
       "net_days": 0.0,
       "gross_days": 0.0,

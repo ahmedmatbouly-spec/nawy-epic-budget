@@ -1,0 +1,27 @@
+{
+  "epic_key": "NLP-5245",
+  "epic_name": "[BE] Make offers ranked at the beginning in payment plans section (property & compound pages) [UAT Only]",
+  "project_key": "NLP",
+  "project_name": "Nawy Listing Platform ",
+  "epic_created": "2026-08-12T14:18:12.226+0300",
+  "generated_at": "2026-08-14T07:38:44.884100+00:00",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 1,
+  "complete_tickets": 0,
+  "in_progress_tickets": 1,
+  "total_net_days": 0.0,
+  "total_cost_egp": 0.0,
+  "tickets": [
+    {
+      "key": "NLP-5256",
+      "summary": "Testing: [BE] Make offers ranked at the beginning in payment plans section (property & compound pages) [UAT Only]",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    }
+  ]
+}

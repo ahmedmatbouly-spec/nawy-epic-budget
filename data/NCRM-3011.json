@@ -4,7 +4,7 @@
   "project_key": "NCRM",
   "project_name": "NawyCRM",
   "epic_created": "2026-04-19T10:43:48.481+0200",
-  "generated_at": "2026-08-13T09:48:34.970163+00:00",
+  "generated_at": "2026-08-14T07:38:43.347648+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 4,
   "complete_tickets": 0,
@@ -13,8 +13,8 @@
   "total_cost_egp": 0.0,
   "tickets": [
     {
-      "key": "NCRM-3014",
-      "summary": "WhatsApp conversation session management and AI trigger",
+      "key": "NCRM-3010",
+      "summary": "WhatsApp Business QR linking \u2014 agent onboarding flow",
       "status": "Discarded",
       "net_days": 0.0,
       "gross_days": 0.0,
@@ -35,9 +35,9 @@
       "num_spans": 0
     },
     {
-      "key": "NCRM-3010",
-      "summary": "WhatsApp Business QR linking \u2014 agent onboarding flow",
-      "status": "Discarded",
+      "key": "NCRM-3012",
+      "summary": "WhatsApp sync disconnection \u2014 full-screen blocker on CRM web",
+      "status": "To Do",
       "net_days": 0.0,
       "gross_days": 0.0,
       "excluded_days": 0.0,
@@ -46,9 +46,9 @@
       "num_spans": 0
     },
     {
-      "key": "NCRM-3012",
-      "summary": "WhatsApp sync disconnection \u2014 full-screen blocker on CRM web",
-      "status": "To Do",
+      "key": "NCRM-3014",
+      "summary": "WhatsApp conversation session management and AI trigger",
+      "status": "Discarded",
       "net_days": 0.0,
       "gross_days": 0.0,
       "excluded_days": 0.0,

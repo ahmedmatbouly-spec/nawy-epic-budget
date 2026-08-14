@@ -1,10 +1,10 @@
 {
-  "epic_key": "CM-985",
-  "epic_name": "On-Call Week 1",
-  "project_key": "CM",
-  "project_name": "Campaigns Management",
-  "epic_created": "2026-08-13T11:33:40.320+0300",
-  "generated_at": "2026-08-14T07:38:08.877449+00:00",
+  "epic_key": "NLP-5244",
+  "epic_name": "[Web] Web signup [UAT Only]",
+  "project_key": "NLP",
+  "project_name": "Nawy Listing Platform ",
+  "epic_created": "2026-08-12T14:17:49.475+0300",
+  "generated_at": "2026-08-14T07:38:06.351551+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 1,
   "complete_tickets": 0,
@@ -13,8 +13,8 @@
   "total_cost_egp": 0.0,
   "tickets": [
     {
-      "key": "CM-987",
-      "summary": "Testing: On-Call Week 1",
+      "key": "NLP-5254",
+      "summary": "Testing: [Web] Web signup [UAT Only]",
       "status": "To Do",
       "net_days": 0.0,
       "gross_days": 0.0,
