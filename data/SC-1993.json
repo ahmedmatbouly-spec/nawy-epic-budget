@@ -4,7 +4,7 @@
   "project_key": "SC",
   "project_name": "Suite Control ",
   "epic_created": "2026-07-21T15:39:05.386+0300",
-  "generated_at": "2026-08-12T09:48:07.351633+00:00",
+  "generated_at": "2026-08-16T04:54:36.984577+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 9,
   "complete_tickets": 9,
@@ -12,6 +12,28 @@
   "total_net_days": 61.01,
   "total_cost_egp": 213535.0,
   "tickets": [
+    {
+      "key": "SC-2039",
+      "summary": "UMS SDK Phase 1 \u2014 PR 1: Scaffold ums_sdk package (module, capabilities, events)",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "SC-2047",
+      "summary": "UMS SDK Phase 1 \u2014 PR 2: Move auth domain layer into ums_sdk (partner_auth capsule)",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
     {
       "key": "SC-2049",
       "summary": "UMS SDK Phase 1 \u2014 PR 3a: UMS session core (Cognito service, hooks, session controller)",
@@ -46,30 +68,8 @@
       "num_spans": 1
     },
     {
-      "key": "SC-2047",
-      "summary": "UMS SDK Phase 1 \u2014 PR 2: Move auth domain layer into ums_sdk (partner_auth capsule)",
-      "status": "Done",
-      "net_days": 0.0,
-      "gross_days": 0.0,
-      "excluded_days": 0.0,
-      "cost_egp": 0.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
-    {
-      "key": "SC-2039",
-      "summary": "UMS SDK Phase 1 \u2014 PR 1: Scaffold ums_sdk package (module, capabilities, events)",
-      "status": "Done",
-      "net_days": 0.0,
-      "gross_days": 0.0,
-      "excluded_days": 0.0,
-      "cost_egp": 0.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
-    {
-      "key": "SC-2062",
-      "summary": "UMS SDK \u2014 PR 7: Store a real UmsInvalidPasswordException instance (drop the AsyncError(Type) pattern)",
+      "key": "SC-2054",
+      "summary": "UMS SDK Phase 1 \u2014 PR 5: Cleanup + architecture guard test",
       "status": "Done",
       "net_days": 8.72,
       "gross_days": 8.72,
@@ -90,8 +90,8 @@
       "num_spans": 1
     },
     {
-      "key": "SC-2063",
-      "summary": "UMS SDK \u2014 PR 8: Narrow session hooks to SDK-owned UmsSession (drop Amplify from capability interfaces)",
+      "key": "SC-2062",
+      "summary": "UMS SDK \u2014 PR 7: Store a real UmsInvalidPasswordException instance (drop the AsyncError(Type) pattern)",
       "status": "Done",
       "net_days": 8.72,
       "gross_days": 8.72,
@@ -101,8 +101,8 @@
       "num_spans": 1
     },
     {
-      "key": "SC-2054",
-      "summary": "UMS SDK Phase 1 \u2014 PR 5: Cleanup + architecture guard test",
+      "key": "SC-2063",
+      "summary": "UMS SDK \u2014 PR 8: Narrow session hooks to SDK-owned UmsSession (drop Amplify from capability interfaces)",
       "status": "Done",
       "net_days": 8.72,
       "gross_days": 8.72,

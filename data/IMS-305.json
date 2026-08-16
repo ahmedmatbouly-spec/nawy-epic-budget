@@ -4,7 +4,7 @@
   "project_key": "IMS",
   "project_name": "Inventory Management System ",
   "epic_created": "2025-08-20T13:27:11.584+0300",
-  "generated_at": "2026-08-14T07:38:19.586716+00:00",
+  "generated_at": "2026-08-16T05:03:33.296844+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 5,
   "complete_tickets": 4,
@@ -12,17 +12,6 @@
   "total_net_days": 20.5,
   "total_cost_egp": 71750.0,
   "tickets": [
-    {
-      "key": "IMS-1201",
-      "summary": "Floor plans Delete option",
-      "status": "Done",
-      "net_days": 6.64,
-      "gross_days": 11.0,
-      "excluded_days": 4.36,
-      "cost_egp": 23240.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
     {
       "key": "IMS-475",
       "summary": "Refresh token",
@@ -33,6 +22,17 @@
       "cost_egp": 0.0,
       "is_complete": true,
       "num_spans": 0
+    },
+    {
+      "key": "IMS-734",
+      "summary": "Floor Plans Full screen in all properties and Projects management flow",
+      "status": "Done",
+      "net_days": 1.94,
+      "gross_days": 3.45,
+      "excluded_days": 1.51,
+      "cost_egp": 6790.0,
+      "is_complete": true,
+      "num_spans": 1
     },
     {
       "key": "IMS-864",
@@ -46,13 +46,13 @@
       "num_spans": 1
     },
     {
-      "key": "IMS-734",
-      "summary": "Floor Plans Full screen in all properties and Projects management flow",
+      "key": "IMS-1201",
+      "summary": "Floor plans Delete option",
       "status": "Done",
-      "net_days": 1.94,
-      "gross_days": 3.45,
-      "excluded_days": 1.51,
-      "cost_egp": 6790.0,
+      "net_days": 6.64,
+      "gross_days": 11.0,
+      "excluded_days": 4.36,
+      "cost_egp": 23240.0,
       "is_complete": true,
       "num_spans": 1
     },

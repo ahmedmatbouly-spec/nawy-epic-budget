@@ -4,7 +4,7 @@
   "project_key": "SP",
   "project_name": "Sales Portal",
   "epic_created": "2025-10-28T11:15:57.444+0300",
-  "generated_at": "2026-08-12T09:48:24.176661+00:00",
+  "generated_at": "2026-08-16T05:11:03.320243+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 21,
   "complete_tickets": 15,
@@ -24,6 +24,39 @@
       "num_spans": 1
     },
     {
+      "key": "SP-1171",
+      "summary": "Freelancers Commissions on Inventory difference",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "SP-1220",
+      "summary": "Get Partners\u2019 National ID to Differentiate Between Employees and Non-Employees",
+      "status": "Done",
+      "net_days": 8.95,
+      "gross_days": 14.23,
+      "excluded_days": 5.29,
+      "cost_egp": 31325.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "SP-1302",
+      "summary": "[BE] \u2060Automate Partners Take Rates Express Calculation",
+      "status": "Done",
+      "net_days": 5.65,
+      "gross_days": 14.46,
+      "excluded_days": 8.81,
+      "cost_egp": 19775.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
       "key": "SP-1303",
       "summary": "[BE] Automate Partners Take Rates Freelancers Calculation",
       "status": "Done",
@@ -35,13 +68,46 @@
       "num_spans": 1
     },
     {
-      "key": "SP-1615",
-      "summary": "Referral Organizations Sizing",
+      "key": "SP-1369",
+      "summary": "Referral Organization Update & Deletion Handling",
       "status": "Done",
-      "net_days": 8.31,
-      "gross_days": 8.31,
+      "net_days": 37.31,
+      "gross_days": 47.65,
+      "excluded_days": 10.34,
+      "cost_egp": 130585.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "SP-1401",
+      "summary": "Partners Take Rates Finance Approvals Feature Flag",
+      "status": "Done",
+      "net_days": 9.05,
+      "gross_days": 16.64,
+      "excluded_days": 7.59,
+      "cost_egp": 31675.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "SP-1402",
+      "summary": "[Dev] Referral Handling for Partner Sales",
+      "status": "Done",
+      "net_days": 16.27,
+      "gross_days": 16.27,
       "excluded_days": 0.0,
-      "cost_egp": 29085.0,
+      "cost_egp": 56945.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "SP-1437",
+      "summary": "[BE] [FE] Enable Direct Editing of Partners\u2019 Take Rates & Automate Incentive-Based Updates",
+      "status": "Done",
+      "net_days": 19.31,
+      "gross_days": 52.12,
+      "excluded_days": 32.81,
+      "cost_egp": 67585.0,
       "is_complete": true,
       "num_spans": 1
     },
@@ -68,35 +134,24 @@
       "num_spans": 0
     },
     {
-      "key": "SP-1437",
-      "summary": "[BE] [FE] Enable Direct Editing of Partners\u2019 Take Rates & Automate Incentive-Based Updates",
+      "key": "SP-1610",
+      "summary": "[Partners] Preview Take Rate for Sale Claim - Endpoint",
       "status": "Done",
-      "net_days": 19.31,
-      "gross_days": 52.12,
-      "excluded_days": 32.81,
-      "cost_egp": 67585.0,
+      "net_days": 45.23,
+      "gross_days": 55.0,
+      "excluded_days": 9.77,
+      "cost_egp": 158305.0,
       "is_complete": true,
       "num_spans": 1
     },
     {
-      "key": "SP-1401",
-      "summary": "Partners Take Rates Finance Approvals Feature Flag",
+      "key": "SP-1615",
+      "summary": "Referral Organizations Sizing",
       "status": "Done",
-      "net_days": 9.05,
-      "gross_days": 16.64,
-      "excluded_days": 7.59,
-      "cost_egp": 31675.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
-    {
-      "key": "SP-1220",
-      "summary": "Get Partners\u2019 National ID to Differentiate Between Employees and Non-Employees",
-      "status": "Done",
-      "net_days": 8.95,
-      "gross_days": 14.23,
-      "excluded_days": 5.29,
-      "cost_egp": 31325.0,
+      "net_days": 8.31,
+      "gross_days": 8.31,
+      "excluded_days": 0.0,
+      "cost_egp": 29085.0,
       "is_complete": true,
       "num_spans": 1
     },
@@ -112,61 +167,6 @@
       "num_spans": 0
     },
     {
-      "key": "SP-2137",
-      "summary": "Partners Take rates Backend revamp",
-      "status": "To Do",
-      "net_days": 0.0,
-      "gross_days": 0.0,
-      "excluded_days": 0.0,
-      "cost_egp": 0.0,
-      "is_complete": false,
-      "num_spans": 0
-    },
-    {
-      "key": "SP-1171",
-      "summary": "Freelancers Commissions on Inventory difference",
-      "status": "To Do",
-      "net_days": 0.0,
-      "gross_days": 0.0,
-      "excluded_days": 0.0,
-      "cost_egp": 0.0,
-      "is_complete": false,
-      "num_spans": 0
-    },
-    {
-      "key": "SP-1788",
-      "summary": "Partner Revenue Scheme History",
-      "status": "Done",
-      "net_days": 25.77,
-      "gross_days": 40.93,
-      "excluded_days": 15.15,
-      "cost_egp": 90195.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
-    {
-      "key": "SP-1402",
-      "summary": "[Dev] Referral Handling for Partner Sales",
-      "status": "Done",
-      "net_days": 16.27,
-      "gross_days": 16.27,
-      "excluded_days": 0.0,
-      "cost_egp": 56945.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
-    {
-      "key": "SP-1369",
-      "summary": "Referral Organization Update & Deletion Handling",
-      "status": "Done",
-      "net_days": 37.31,
-      "gross_days": 47.65,
-      "excluded_days": 10.34,
-      "cost_egp": 130585.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
-    {
       "key": "SP-1682",
       "summary": "[BE] Retroactive Zone Recalculation for Partners Plus Module",
       "status": "Done",
@@ -178,24 +178,24 @@
       "num_spans": 1
     },
     {
-      "key": "SP-2114",
-      "summary": "Partners Take Rates edits on Sale Revenue Change",
-      "status": "To Do",
+      "key": "SP-1767",
+      "summary": "Configure Freelancers Take Rate Percentage via System Configuration",
+      "status": "Done",
       "net_days": 0.0,
-      "gross_days": 0.0,
-      "excluded_days": 0.0,
+      "gross_days": 9.69,
+      "excluded_days": 9.69,
       "cost_egp": 0.0,
-      "is_complete": false,
-      "num_spans": 0
+      "is_complete": true,
+      "num_spans": 1
     },
     {
-      "key": "SP-1302",
-      "summary": "[BE] \u2060Automate Partners Take Rates Express Calculation",
+      "key": "SP-1788",
+      "summary": "Partner Revenue Scheme History",
       "status": "Done",
-      "net_days": 5.65,
-      "gross_days": 14.46,
-      "excluded_days": 8.81,
-      "cost_egp": 19775.0,
+      "net_days": 25.77,
+      "gross_days": 40.93,
+      "excluded_days": 15.15,
+      "cost_egp": 90195.0,
       "is_complete": true,
       "num_spans": 1
     },
@@ -211,6 +211,17 @@
       "num_spans": 1
     },
     {
+      "key": "SP-2114",
+      "summary": "Partners Take Rates edits on Sale Revenue Change",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
       "key": "SP-2135",
       "summary": "[Migration] Partners Take Rates Expired Incentives",
       "status": "To Do",
@@ -222,26 +233,15 @@
       "num_spans": 0
     },
     {
-      "key": "SP-1610",
-      "summary": "[Partners] Preview Take Rate for Sale Claim - Endpoint",
-      "status": "Done",
-      "net_days": 45.23,
-      "gross_days": 55.0,
-      "excluded_days": 9.77,
-      "cost_egp": 158305.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
-    {
-      "key": "SP-1767",
-      "summary": "Configure Freelancers Take Rate Percentage via System Configuration",
-      "status": "Done",
+      "key": "SP-2137",
+      "summary": "Partners Take rates Backend revamp",
+      "status": "To Do",
       "net_days": 0.0,
-      "gross_days": 9.69,
-      "excluded_days": 9.69,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
       "cost_egp": 0.0,
-      "is_complete": true,
-      "num_spans": 1
+      "is_complete": false,
+      "num_spans": 0
     }
   ]
 }

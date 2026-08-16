@@ -4,7 +4,7 @@
   "project_key": "SP",
   "project_name": "Sales Portal",
   "epic_created": "2026-06-23T14:49:47.245+0300",
-  "generated_at": "2026-08-11T09:36:42.782952+00:00",
+  "generated_at": "2026-08-16T05:11:42.466098+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 5,
   "complete_tickets": 5,
@@ -13,15 +13,15 @@
   "total_cost_egp": 40810.0,
   "tickets": [
     {
-      "key": "SP-2102",
-      "summary": "Add Expected payout Dates to the Dispute detailed view",
+      "key": "SP-1951",
+      "summary": "Commissions Disputes Management",
       "status": "Done",
-      "net_days": 0.0,
-      "gross_days": 0.0,
+      "net_days": 11.66,
+      "gross_days": 11.66,
       "excluded_days": 0.0,
-      "cost_egp": 0.0,
+      "cost_egp": 40810.0,
       "is_complete": true,
-      "num_spans": 0
+      "num_spans": 1
     },
     {
       "key": "SP-2070",
@@ -35,15 +35,15 @@
       "num_spans": 0
     },
     {
-      "key": "SP-1951",
-      "summary": "Commissions Disputes Management",
+      "key": "SP-2071",
+      "summary": "Add Developer Three Months Rule status to the detailed view on Disputes",
       "status": "Done",
-      "net_days": 11.66,
-      "gross_days": 11.66,
+      "net_days": 0.0,
+      "gross_days": 0.0,
       "excluded_days": 0.0,
-      "cost_egp": 40810.0,
+      "cost_egp": 0.0,
       "is_complete": true,
-      "num_spans": 1
+      "num_spans": 0
     },
     {
       "key": "SP-2072",
@@ -57,8 +57,8 @@
       "num_spans": 0
     },
     {
-      "key": "SP-2071",
-      "summary": "Add Developer Three Months Rule status to the detailed view on Disputes",
+      "key": "SP-2102",
+      "summary": "Add Expected payout Dates to the Dispute detailed view",
       "status": "Done",
       "net_days": 0.0,
       "gross_days": 0.0,

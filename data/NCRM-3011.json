@@ -4,7 +4,7 @@
   "project_key": "NCRM",
   "project_name": "NawyCRM",
   "epic_created": "2026-04-19T10:43:48.481+0200",
-  "generated_at": "2026-08-14T07:38:43.347648+00:00",
+  "generated_at": "2026-08-16T04:57:52.376082+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 4,
   "complete_tickets": 0,
@@ -24,9 +24,9 @@
       "num_spans": 0
     },
     {
-      "key": "NCRM-3013",
-      "summary": "WhatsApp message sync and lead matching",
-      "status": "Discarded",
+      "key": "NCRM-3012",
+      "summary": "WhatsApp sync disconnection \u2014 full-screen blocker on CRM web",
+      "status": "To Do",
       "net_days": 0.0,
       "gross_days": 0.0,
       "excluded_days": 0.0,
@@ -35,9 +35,9 @@
       "num_spans": 0
     },
     {
-      "key": "NCRM-3012",
-      "summary": "WhatsApp sync disconnection \u2014 full-screen blocker on CRM web",
-      "status": "To Do",
+      "key": "NCRM-3013",
+      "summary": "WhatsApp message sync and lead matching",
+      "status": "Discarded",
       "net_days": 0.0,
       "gross_days": 0.0,
       "excluded_days": 0.0,

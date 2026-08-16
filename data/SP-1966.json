@@ -4,7 +4,7 @@
   "project_key": "SP",
   "project_name": "Sales Portal",
   "epic_created": "2026-06-23T15:06:11.512+0300",
-  "generated_at": "2026-08-12T09:47:24.497748+00:00",
+  "generated_at": "2026-08-16T05:11:45.918880+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 4,
   "complete_tickets": 3,
@@ -24,17 +24,6 @@
       "num_spans": 1
     },
     {
-      "key": "SP-2101",
-      "summary": "[SPIKE] Add 'No Retro' Action on Slab creation",
-      "status": "Done",
-      "net_days": 1.19,
-      "gross_days": 1.19,
-      "excluded_days": 0.0,
-      "cost_egp": 4165.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
-    {
       "key": "SP-2073",
       "summary": "[SPIKE] Add Slab type when creating slabs under the same slab section",
       "status": "Done",
@@ -44,6 +33,17 @@
       "cost_egp": 4690.0,
       "is_complete": true,
       "num_spans": 2
+    },
+    {
+      "key": "SP-2101",
+      "summary": "[SPIKE] Add 'No Retro' Action on Slab creation",
+      "status": "Done",
+      "net_days": 1.19,
+      "gross_days": 1.19,
+      "excluded_days": 0.0,
+      "cost_egp": 4165.0,
+      "is_complete": true,
+      "num_spans": 1
     },
     {
       "key": "SP-2109",

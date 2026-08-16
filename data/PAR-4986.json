@@ -4,7 +4,7 @@
   "project_key": "PAR",
   "project_name": "Partners",
   "epic_created": "2026-07-15T13:56:32.866+0300",
-  "generated_at": "2026-08-13T09:49:06.317065+00:00",
+  "generated_at": "2026-08-16T05:00:01.519785+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 2,
   "complete_tickets": 1,
@@ -12,17 +12,6 @@
   "total_net_days": 15.35,
   "total_cost_egp": 53725.0,
   "tickets": [
-    {
-      "key": "PAR-5102",
-      "summary": "Tech Debt",
-      "status": "Open",
-      "net_days": 0.0,
-      "gross_days": 0.0,
-      "excluded_days": 0.0,
-      "cost_egp": 0.0,
-      "is_complete": false,
-      "num_spans": 0
-    },
     {
       "key": "PAR-4983",
       "summary": "Tech debt",
@@ -33,6 +22,17 @@
       "cost_egp": 53725.0,
       "is_complete": true,
       "num_spans": 1
+    },
+    {
+      "key": "PAR-5102",
+      "summary": "Tech Debt",
+      "status": "Open",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
     }
   ]
 }

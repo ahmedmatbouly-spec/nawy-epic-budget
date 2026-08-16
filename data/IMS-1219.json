@@ -4,7 +4,7 @@
   "project_key": "IMS",
   "project_name": "Inventory Management System ",
   "epic_created": "2026-02-11T21:14:06.373+0200",
-  "generated_at": "2026-08-13T09:49:04.250296+00:00",
+  "generated_at": "2026-08-16T05:04:39.364359+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 2,
   "complete_tickets": 2,
@@ -13,17 +13,6 @@
   "total_cost_egp": 148435.0,
   "tickets": [
     {
-      "key": "IMS-1202",
-      "summary": "Payment Plans Cleanup and migration",
-      "status": "Done",
-      "net_days": 30.98,
-      "gross_days": 35.87,
-      "excluded_days": 4.9,
-      "cost_egp": 108430.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
-    {
       "key": "IMS-1160",
       "summary": "Brochures Cleanup and duplicates validation",
       "status": "Done",
@@ -31,6 +20,17 @@
       "gross_days": 12.0,
       "excluded_days": 0.57,
       "cost_egp": 40005.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "IMS-1202",
+      "summary": "Payment Plans Cleanup and migration",
+      "status": "Done",
+      "net_days": 30.98,
+      "gross_days": 35.87,
+      "excluded_days": 4.9,
+      "cost_egp": 108430.0,
       "is_complete": true,
       "num_spans": 1
     }
