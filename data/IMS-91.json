@@ -4,7 +4,7 @@
   "project_key": "IMS",
   "project_name": "Inventory Management System ",
   "epic_created": "2025-03-18T01:45:24.516+0200",
-  "generated_at": "2026-08-16T05:02:51.448249+00:00",
+  "generated_at": "2026-08-17T07:03:28.542763+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 13,
   "complete_tickets": 10,
@@ -13,13 +13,24 @@
   "total_cost_egp": 1130395.0,
   "tickets": [
     {
-      "key": "IMS-120",
-      "summary": "Detailed Properties Table",
+      "key": "IMS-422",
+      "summary": "(Detailed Properties Table) Property Category in missing in filter bar ",
       "status": "Done",
-      "net_days": 65.6,
-      "gross_days": 65.6,
+      "net_days": 0.0,
+      "gross_days": 0.0,
       "excluded_days": 0.0,
-      "cost_egp": 229600.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "IMS-430",
+      "summary": "(Detailed Properties Table) Delivery data values in the table are incorrect",
+      "status": "Done",
+      "net_days": 5.72,
+      "gross_days": 5.72,
+      "excluded_days": 0.0,
+      "cost_egp": 20020.0,
       "is_complete": true,
       "num_spans": 1
     },
@@ -33,50 +44,6 @@
       "cost_egp": 24500.0,
       "is_complete": true,
       "num_spans": 1
-    },
-    {
-      "key": "IMS-422",
-      "summary": "(Detailed Properties Table) Property Category in missing in filter bar ",
-      "status": "Done",
-      "net_days": 0.0,
-      "gross_days": 0.0,
-      "excluded_days": 0.0,
-      "cost_egp": 0.0,
-      "is_complete": true,
-      "num_spans": 0
-    },
-    {
-      "key": "IMS-423",
-      "summary": "(Detailed Properties Table) Some table columns are not sortable",
-      "status": "Invalid",
-      "net_days": 215.21,
-      "gross_days": 217.0,
-      "excluded_days": 1.79,
-      "cost_egp": 753235.0,
-      "is_complete": false,
-      "num_spans": 1
-    },
-    {
-      "key": "IMS-424",
-      "summary": "((Detailed Properties Table) Delivery Date data is missing from the API response.",
-      "status": "To Do",
-      "net_days": 0.0,
-      "gross_days": 0.0,
-      "excluded_days": 0.0,
-      "cost_egp": 0.0,
-      "is_complete": false,
-      "num_spans": 0
-    },
-    {
-      "key": "IMS-425",
-      "summary": "(Detailed Properties Table) Max monthly payment in advanced filter ",
-      "status": "Invalid",
-      "net_days": 0.0,
-      "gross_days": 0.0,
-      "excluded_days": 0.0,
-      "cost_egp": 0.0,
-      "is_complete": false,
-      "num_spans": 0
     },
     {
       "key": "IMS-426",
@@ -112,14 +79,14 @@
       "num_spans": 1
     },
     {
-      "key": "IMS-430",
-      "summary": "(Detailed Properties Table) Delivery data values in the table are incorrect",
-      "status": "Done",
-      "net_days": 5.72,
-      "gross_days": 5.72,
-      "excluded_days": 0.0,
-      "cost_egp": 20020.0,
-      "is_complete": true,
+      "key": "IMS-423",
+      "summary": "(Detailed Properties Table) Some table columns are not sortable",
+      "status": "Invalid",
+      "net_days": 215.21,
+      "gross_days": 217.0,
+      "excluded_days": 1.79,
+      "cost_egp": 753235.0,
+      "is_complete": false,
       "num_spans": 1
     },
     {
@@ -134,14 +101,25 @@
       "num_spans": 0
     },
     {
-      "key": "IMS-464",
-      "summary": "(Primary Properties Creation flow) Storage Area and Outdoor Area placed in wrong section",
+      "key": "IMS-120",
+      "summary": "Detailed Properties Table",
       "status": "Done",
+      "net_days": 65.6,
+      "gross_days": 65.6,
+      "excluded_days": 0.0,
+      "cost_egp": 229600.0,
+      "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "IMS-425",
+      "summary": "(Detailed Properties Table) Max monthly payment in advanced filter ",
+      "status": "Invalid",
       "net_days": 0.0,
       "gross_days": 0.0,
       "excluded_days": 0.0,
       "cost_egp": 0.0,
-      "is_complete": true,
+      "is_complete": false,
       "num_spans": 0
     },
     {
@@ -154,6 +132,28 @@
       "cost_egp": 28140.0,
       "is_complete": true,
       "num_spans": 1
+    },
+    {
+      "key": "IMS-464",
+      "summary": "(Primary Properties Creation flow) Storage Area and Outdoor Area placed in wrong section",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
+      "key": "IMS-424",
+      "summary": "((Detailed Properties Table) Delivery Date data is missing from the API response.",
+      "status": "Deferred",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
     }
   ]
 }

@@ -1,10 +1,10 @@
 {
-  "epic_key": "NLP-5070",
-  "epic_name": "[BE] Cash discounts - Payment plans",
-  "project_key": "NLP",
-  "project_name": "Nawy Listing Platform ",
-  "epic_created": "2026-07-15T15:56:04.613+0300",
-  "generated_at": "2026-08-17T07:02:43.799228+00:00",
+  "epic_key": "SC-2169",
+  "epic_name": "AI chat module enhancements",
+  "project_key": "SC",
+  "project_name": "Suite Control ",
+  "epic_created": "2026-08-16T11:31:08.615+0300",
+  "generated_at": "2026-08-17T07:02:38.931514+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 1,
   "complete_tickets": 0,
@@ -13,8 +13,8 @@
   "total_cost_egp": 0.0,
   "tickets": [
     {
-      "key": "NLP-5154",
-      "summary": "Testing: [BE] Cash discounts - Payment plans",
+      "key": "SC-2172",
+      "summary": "Code Review: AI chat module enhancements",
       "status": "To Do",
       "net_days": 0.0,
       "gross_days": 0.0,

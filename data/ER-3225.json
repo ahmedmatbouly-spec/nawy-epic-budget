@@ -4,22 +4,22 @@
   "project_key": "ER",
   "project_name": "eRealty",
   "epic_created": "2026-08-03T14:20:08.406+0300",
-  "generated_at": "2026-08-12T09:48:45.157387+00:00",
+  "generated_at": "2026-08-17T07:02:41.586812+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 1,
   "complete_tickets": 0,
   "in_progress_tickets": 1,
-  "total_net_days": 0.56,
-  "total_cost_egp": 1960.0,
+  "total_net_days": 3.21,
+  "total_cost_egp": 11235.0,
   "tickets": [
     {
       "key": "ER-3240",
       "summary": "Testing: Meeting Mode End Meeting & Summary FE",
       "status": "In Progress",
-      "net_days": 0.56,
-      "gross_days": 0.56,
+      "net_days": 3.21,
+      "gross_days": 3.21,
       "excluded_days": 0.0,
-      "cost_egp": 1960.0,
+      "cost_egp": 11235.0,
       "is_complete": false,
       "num_spans": 1
     }

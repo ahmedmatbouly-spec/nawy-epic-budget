@@ -4,25 +4,14 @@
   "project_key": "NCRM",
   "project_name": "NawyCRM",
   "epic_created": "2026-07-21T15:30:20.205+0300",
-  "generated_at": "2026-08-16T04:57:55.231792+00:00",
+  "generated_at": "2026-08-17T07:03:36.117870+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 7,
   "complete_tickets": 5,
   "in_progress_tickets": 2,
-  "total_net_days": 20.0,
-  "total_cost_egp": 70000.0,
+  "total_net_days": 21.0,
+  "total_cost_egp": 73500.0,
   "tickets": [
-    {
-      "key": "NCRM-3328",
-      "summary": "Phase 1: Initial Contact",
-      "status": "Done",
-      "net_days": 5.33,
-      "gross_days": 5.33,
-      "excluded_days": 0.0,
-      "cost_egp": 18655.0,
-      "is_complete": true,
-      "num_spans": 1
-    },
     {
       "key": "NCRM-3329",
       "summary": "Phase 1B: Didn't Reach Loop",
@@ -32,6 +21,17 @@
       "excluded_days": 0.0,
       "cost_egp": 10220.0,
       "is_complete": true,
+      "num_spans": 1
+    },
+    {
+      "key": "NCRM-3333",
+      "summary": "Path D1: Qualified (Presentation Stage)",
+      "status": "Product UAT",
+      "net_days": 4.0,
+      "gross_days": 4.13,
+      "excluded_days": 0.13,
+      "cost_egp": 14000.0,
+      "is_complete": false,
       "num_spans": 1
     },
     {
@@ -46,13 +46,13 @@
       "num_spans": 1
     },
     {
-      "key": "NCRM-3331",
-      "summary": "Path A: Disqualified",
+      "key": "NCRM-3328",
+      "summary": "Phase 1: Initial Contact",
       "status": "Done",
-      "net_days": 2.92,
-      "gross_days": 2.92,
+      "net_days": 5.33,
+      "gross_days": 5.33,
       "excluded_days": 0.0,
-      "cost_egp": 10220.0,
+      "cost_egp": 18655.0,
       "is_complete": true,
       "num_spans": 1
     },
@@ -68,17 +68,6 @@
       "num_spans": 1
     },
     {
-      "key": "NCRM-3333",
-      "summary": "Path D1: Qualified (Presentation Stage)",
-      "status": "In Testing",
-      "net_days": 3.0,
-      "gross_days": 3.0,
-      "excluded_days": 0.0,
-      "cost_egp": 10500.0,
-      "is_complete": false,
-      "num_spans": 1
-    },
-    {
       "key": "NCRM-3334",
       "summary": "Path D3: Meeting Happened",
       "status": "To Do",
@@ -88,6 +77,17 @@
       "cost_egp": 0.0,
       "is_complete": false,
       "num_spans": 0
+    },
+    {
+      "key": "NCRM-3331",
+      "summary": "Path A: Disqualified",
+      "status": "Done",
+      "net_days": 2.92,
+      "gross_days": 2.92,
+      "excluded_days": 0.0,
+      "cost_egp": 10220.0,
+      "is_complete": true,
+      "num_spans": 1
     }
   ]
 }

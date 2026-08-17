@@ -4,23 +4,23 @@
   "project_key": "ER",
   "project_name": "eRealty",
   "epic_created": "2026-08-03T14:54:26.623+0300",
-  "generated_at": "2026-08-12T09:47:25.383080+00:00",
+  "generated_at": "2026-08-17T07:03:17.437131+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 1,
-  "complete_tickets": 0,
-  "in_progress_tickets": 1,
-  "total_net_days": 0.75,
-  "total_cost_egp": 2625.0,
+  "complete_tickets": 1,
+  "in_progress_tickets": 0,
+  "total_net_days": 2.91,
+  "total_cost_egp": 10185.0,
   "tickets": [
     {
       "key": "ER-3233",
       "summary": "Testing: Search Lead and view their meetings",
-      "status": "In Progress",
-      "net_days": 0.75,
-      "gross_days": 0.75,
+      "status": "Done",
+      "net_days": 2.91,
+      "gross_days": 2.91,
       "excluded_days": 0.0,
-      "cost_egp": 2625.0,
-      "is_complete": false,
+      "cost_egp": 10185.0,
+      "is_complete": true,
       "num_spans": 1
     }
   ]

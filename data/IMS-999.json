@@ -4,7 +4,7 @@
   "project_key": "IMS",
   "project_name": "Inventory Management System ",
   "epic_created": "2026-01-14T13:17:10.169+0200",
-  "generated_at": "2026-08-16T05:04:17.342432+00:00",
+  "generated_at": "2026-08-17T07:03:05.918114+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 2,
   "complete_tickets": 0,
@@ -13,8 +13,8 @@
   "total_cost_egp": 0.0,
   "tickets": [
     {
-      "key": "IMS-1197",
-      "summary": "Nawy Now and financing Auto-tagging",
+      "key": "IMS-1656",
+      "summary": "Nawy Now creation linkage to Resale units",
       "status": "Open",
       "net_days": 0.0,
       "gross_days": 0.0,
@@ -24,8 +24,8 @@
       "num_spans": 0
     },
     {
-      "key": "IMS-1656",
-      "summary": "Nawy Now creation out of Resale units",
+      "key": "IMS-1197",
+      "summary": "Nawy Now and financing Auto-tagging",
       "status": "Open",
       "net_days": 0.0,
       "gross_days": 0.0,

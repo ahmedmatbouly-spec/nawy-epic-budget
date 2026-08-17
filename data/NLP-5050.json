@@ -4,17 +4,17 @@
   "project_key": "NLP",
   "project_name": "Nawy Listing Platform ",
   "epic_created": "2026-07-14T14:00:42.430+0300",
-  "generated_at": "2026-08-13T09:47:58.421302+00:00",
+  "generated_at": "2026-08-17T07:03:39.801370+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 2,
-  "complete_tickets": 1,
-  "in_progress_tickets": 1,
+  "complete_tickets": 2,
+  "in_progress_tickets": 0,
   "total_net_days": 0.0,
   "total_cost_egp": 0.0,
   "tickets": [
     {
-      "key": "NLP-5186",
-      "summary": "Code Review: [Web][SEO] New sahel map link & new search static link not added in sitemap",
+      "key": "NLP-5151",
+      "summary": "Testing: [Web][SEO] New sahel map link & new search static link not added in sitemap",
       "status": "Done",
       "net_days": 0.0,
       "gross_days": 0.0,
@@ -24,14 +24,14 @@
       "num_spans": 0
     },
     {
-      "key": "NLP-5151",
-      "summary": "Testing: [Web][SEO] New sahel map link & new search static link not added in sitemap",
-      "status": "To Do",
+      "key": "NLP-5186",
+      "summary": "Code Review: [Web][SEO] New sahel map link & new search static link not added in sitemap",
+      "status": "Done",
       "net_days": 0.0,
       "gross_days": 0.0,
       "excluded_days": 0.0,
       "cost_egp": 0.0,
-      "is_complete": false,
+      "is_complete": true,
       "num_spans": 0
     }
   ]

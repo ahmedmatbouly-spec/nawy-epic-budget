@@ -1,10 +1,10 @@
 {
-  "epic_key": "NLP-5070",
-  "epic_name": "[BE] Cash discounts - Payment plans",
+  "epic_key": "NLP-5052",
+  "epic_name": "[Web][SEO] Contact page meta tags",
   "project_key": "NLP",
   "project_name": "Nawy Listing Platform ",
-  "epic_created": "2026-07-15T15:56:04.613+0300",
-  "generated_at": "2026-08-17T07:02:43.799228+00:00",
+  "epic_created": "2026-07-14T14:01:12.200+0300",
+  "generated_at": "2026-08-17T07:03:08.181141+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 1,
   "complete_tickets": 0,
@@ -13,8 +13,8 @@
   "total_cost_egp": 0.0,
   "tickets": [
     {
-      "key": "NLP-5154",
-      "summary": "Testing: [BE] Cash discounts - Payment plans",
+      "key": "NLP-5263",
+      "summary": "Code Review: [Web][SEO] Contact page meta tags",
       "status": "To Do",
       "net_days": 0.0,
       "gross_days": 0.0,

@@ -4,23 +4,23 @@
   "project_key": "ER",
   "project_name": "eRealty",
   "epic_created": "2026-07-22T11:37:24.316+0300",
-  "generated_at": "2026-08-13T09:49:05.606082+00:00",
+  "generated_at": "2026-08-17T07:03:16.375629+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 1,
-  "complete_tickets": 0,
-  "in_progress_tickets": 1,
-  "total_net_days": 0.48,
-  "total_cost_egp": 1680.0,
+  "complete_tickets": 1,
+  "in_progress_tickets": 0,
+  "total_net_days": 1.84,
+  "total_cost_egp": 6440.0,
   "tickets": [
     {
       "key": "ER-3205",
       "summary": "Testing: Meeting Mode Mixpanel",
-      "status": "In Progress",
-      "net_days": 0.48,
-      "gross_days": 0.48,
+      "status": "Done",
+      "net_days": 1.84,
+      "gross_days": 1.84,
       "excluded_days": 0.0,
-      "cost_egp": 1680.0,
-      "is_complete": false,
+      "cost_egp": 6440.0,
+      "is_complete": true,
       "num_spans": 1
     }
   ]
