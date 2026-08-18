@@ -4,22 +4,22 @@
   "project_key": "SC",
   "project_name": "Suite Control ",
   "epic_created": "2026-02-19T12:49:07.124+0200",
-  "generated_at": "2026-08-16T04:53:43.724703+00:00",
+  "generated_at": "2026-08-18T06:50:49.803106+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 1,
   "complete_tickets": 0,
   "in_progress_tickets": 1,
-  "total_net_days": 5.37,
-  "total_cost_egp": 18795.0,
+  "total_net_days": 7.48,
+  "total_cost_egp": 26180.0,
   "tickets": [
     {
       "key": "SC-1242",
       "summary": "[Lead Page] E-reality Presentation Form",
       "status": "Returned for Fix",
-      "net_days": 5.37,
-      "gross_days": 11.0,
+      "net_days": 7.48,
+      "gross_days": 13.11,
       "excluded_days": 5.63,
-      "cost_egp": 18795.0,
+      "cost_egp": 26180.0,
       "is_complete": false,
       "num_spans": 1
     }

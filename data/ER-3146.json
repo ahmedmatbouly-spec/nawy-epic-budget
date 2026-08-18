@@ -1,10 +1,10 @@
 {
-  "epic_key": "ER-3230",
-  "epic_name": "Primary Statuses transition Notification - Projects (Favorited)",
+  "epic_key": "ER-3146",
+  "epic_name": "Log PDFs Events In Database",
   "project_key": "ER",
   "project_name": "eRealty",
-  "epic_created": "2026-08-03T16:04:14.515+0300",
-  "generated_at": "2026-08-18T06:50:10.455293+00:00",
+  "epic_created": "2026-07-09T14:29:00.489+0300",
+  "generated_at": "2026-08-18T06:51:04.667424+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 1,
   "complete_tickets": 1,
@@ -13,8 +13,8 @@
   "total_cost_egp": 0.0,
   "tickets": [
     {
-      "key": "ER-3242",
-      "summary": "Testing: Primary Statuses transition Notification - Projects (Favorited)",
+      "key": "ER-3155",
+      "summary": "Testing: Log PDFs Events In Database",
       "status": "Done",
       "net_days": 0.0,
       "gross_days": 0.0,

@@ -1,10 +1,10 @@
 {
-  "epic_key": "NLP-3540",
-  "epic_name": "[App] Handle resale units payment plans (with no installments)",
+  "epic_key": "NLP-5222",
+  "epic_name": "[BE] Rename sorting (lowest to highest price)",
   "project_key": "NLP",
   "project_name": "Nawy Listing Platform ",
-  "epic_created": "2025-02-20T15:31:33.668+0200",
-  "generated_at": "2026-08-18T06:51:10.603313+00:00",
+  "epic_created": "2026-08-11T14:32:21.402+0300",
+  "generated_at": "2026-08-18T06:50:59.353417+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 1,
   "complete_tickets": 0,
@@ -13,8 +13,8 @@
   "total_cost_egp": 0.0,
   "tickets": [
     {
-      "key": "NLP-4560",
-      "summary": "Testing: [App] Handle resale units payment plans (with no monthly installments)",
+      "key": "NLP-5271",
+      "summary": "Code Review: [BE] Rename sorting (lowest to highest price)",
       "status": "To Do",
       "net_days": 0.0,
       "gross_days": 0.0,

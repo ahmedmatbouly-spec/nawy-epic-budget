@@ -1,10 +1,10 @@
 {
-  "epic_key": "SC-1987",
-  "epic_name": "[Partners] switch login from password to otp",
-  "project_key": "SC",
-  "project_name": "Suite Control ",
-  "epic_created": "2026-07-21T11:12:56.326+0300",
-  "generated_at": "2026-08-18T06:50:50.661822+00:00",
+  "epic_key": "PAR-4777",
+  "epic_name": "[BE] Automatic Un-Assignment Rules Engine",
+  "project_key": "PAR",
+  "project_name": "Partners",
+  "epic_created": "2026-06-08T12:54:16.273+0300",
+  "generated_at": "2026-08-18T06:50:31.718591+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 1,
   "complete_tickets": 0,
@@ -13,8 +13,8 @@
   "total_cost_egp": 0.0,
   "tickets": [
     {
-      "key": "SC-2060",
-      "summary": "Testing: [Partners] switch login from password to otp",
+      "key": "PAR-5117",
+      "summary": "Testing: [BE] Automatic Un-Assignment Rules Engine",
       "status": "To Do",
       "net_days": 0.0,
       "gross_days": 0.0,

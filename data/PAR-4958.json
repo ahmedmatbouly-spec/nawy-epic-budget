@@ -1,10 +1,10 @@
 {
-  "epic_key": "PAR-5108",
-  "epic_name": "Organizations Managers Table Migration",
+  "epic_key": "PAR-4958",
+  "epic_name": "[BE] Admin: Lock/Unlock Account Manager on Organization",
   "project_key": "PAR",
   "project_name": "Partners",
-  "epic_created": "2026-08-11T16:50:10.987+0300",
-  "generated_at": "2026-08-18T06:50:36.551980+00:00",
+  "epic_created": "2026-07-13T13:04:19.073+0300",
+  "generated_at": "2026-08-18T06:51:21.165766+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 2,
   "complete_tickets": 0,
@@ -13,8 +13,8 @@
   "total_cost_egp": 0.0,
   "tickets": [
     {
-      "key": "PAR-5122",
-      "summary": "Testing: Organizations Managers Table Migration",
+      "key": "PAR-5116",
+      "summary": "Testing: [BE] Admin: Lock/Unlock Account Manager on Organization",
       "status": "To Do",
       "net_days": 0.0,
       "gross_days": 0.0,
@@ -24,8 +24,8 @@
       "num_spans": 0
     },
     {
-      "key": "PAR-5111",
-      "summary": "Code Review: Organizations Managers Table Migration",
+      "key": "PAR-5126",
+      "summary": "Code Review: [BE] Admin: Lock/Unlock Account Manager on Organization",
       "status": "To Do",
       "net_days": 0.0,
       "gross_days": 0.0,

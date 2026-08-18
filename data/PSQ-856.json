@@ -1,0 +1,27 @@
+{
+  "epic_key": "PSQ-856",
+  "epic_name": "[PLATFORM][UMS] Move users table to frontend hub with bulk functionality",
+  "project_key": "PSQ",
+  "project_name": "Platform Squad",
+  "epic_created": "2026-08-11T15:38:52.849+0300",
+  "generated_at": "2026-08-18T06:50:48.572203+00:00",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 1,
+  "complete_tickets": 0,
+  "in_progress_tickets": 1,
+  "total_net_days": 0.0,
+  "total_cost_egp": 0.0,
+  "tickets": [
+    {
+      "key": "PSQ-878",
+      "summary": "Testing: [PLATFORM][UMS] Move users table to frontend hub with bulk functionality",
+      "status": "To Do",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    }
+  ]
+}
