@@ -697,6 +697,66 @@
       "generated_at": "2026-08-12T09:49:54.423918+00:00"
     },
     {
+      "epic_key": "CM-955",
+      "epic_name": "[FE] Library header is not the same as the design i",
+      "project_key": "CM",
+      "project_name": "Campaigns Management",
+      "epic_created": "2026-08-11T04:02:29.867+0300",
+      "total_net_days": 0.0,
+      "total_cost_egp": 0.0,
+      "total_tickets": 1,
+      "complete_tickets": 0,
+      "generated_at": "2026-08-19T06:51:34.867979+00:00"
+    },
+    {
+      "epic_key": "CM-957",
+      "epic_name": "Campaign Metrics page need to be revisited",
+      "project_key": "CM",
+      "project_name": "Campaigns Management",
+      "epic_created": "2026-08-11T04:12:01.490+0300",
+      "total_net_days": 0.0,
+      "total_cost_egp": 0.0,
+      "total_tickets": 1,
+      "complete_tickets": 0,
+      "generated_at": "2026-08-19T06:52:33.386546+00:00"
+    },
+    {
+      "epic_key": "CM-959",
+      "epic_name": "Remove Shadow from action Columns ",
+      "project_key": "CM",
+      "project_name": "Campaigns Management",
+      "epic_created": "2026-08-11T04:19:59.557+0300",
+      "total_net_days": 0.0,
+      "total_cost_egp": 0.0,
+      "total_tickets": 1,
+      "complete_tickets": 0,
+      "generated_at": "2026-08-19T06:52:11.870766+00:00"
+    },
+    {
+      "epic_key": "CM-960",
+      "epic_name": "Padding after the header must be 16px",
+      "project_key": "CM",
+      "project_name": "Campaigns Management",
+      "epic_created": "2026-08-11T04:25:09.311+0300",
+      "total_net_days": 0.0,
+      "total_cost_egp": 0.0,
+      "total_tickets": 1,
+      "complete_tickets": 0,
+      "generated_at": "2026-08-19T06:52:13.456172+00:00"
+    },
+    {
+      "epic_key": "CM-961",
+      "epic_name": "No need for all of this space in action section in locations pages",
+      "project_key": "CM",
+      "project_name": "Campaigns Management",
+      "epic_created": "2026-08-11T04:27:50.552+0300",
+      "total_net_days": 0.0,
+      "total_cost_egp": 0.0,
+      "total_tickets": 1,
+      "complete_tickets": 0,
+      "generated_at": "2026-08-19T06:51:36.310097+00:00"
+    },
+    {
       "epic_key": "CM-963",
       "epic_name": "Header is not as the design in partner transaction page",
       "project_key": "CM",
@@ -707,6 +767,18 @@
       "total_tickets": 1,
       "complete_tickets": 0,
       "generated_at": "2026-08-17T07:03:33.549587+00:00"
+    },
+    {
+      "epic_key": "CM-964",
+      "epic_name": "Add More partners per page in Partners transaction Page",
+      "project_key": "CM",
+      "project_name": "Campaigns Management",
+      "epic_created": "2026-08-11T04:38:24.226+0300",
+      "total_net_days": 0.0,
+      "total_cost_egp": 0.0,
+      "total_tickets": 1,
+      "complete_tickets": 0,
+      "generated_at": "2026-08-19T06:51:52.712340+00:00"
     },
     {
       "epic_key": "CM-970",
@@ -1530,11 +1602,11 @@
       "project_key": "ER",
       "project_name": "eRealty",
       "epic_created": "2026-08-03T14:18:13.556+0300",
-      "total_net_days": 0.97,
-      "total_cost_egp": 3395.0,
+      "total_net_days": 5.11,
+      "total_cost_egp": 17885.0,
       "total_tickets": 1,
-      "complete_tickets": 0,
-      "generated_at": "2026-08-12T09:50:12.600201+00:00"
+      "complete_tickets": 1,
+      "generated_at": "2026-08-19T06:51:32.391556+00:00"
     },
     {
       "epic_key": "ER-3223",
@@ -1566,11 +1638,11 @@
       "project_key": "ER",
       "project_name": "eRealty",
       "epic_created": "2026-08-03T14:20:08.406+0300",
-      "total_net_days": 4.19,
-      "total_cost_egp": 14665.0,
+      "total_net_days": 4.62,
+      "total_cost_egp": 16170.0,
       "total_tickets": 1,
-      "complete_tickets": 0,
-      "generated_at": "2026-08-18T06:51:02.727064+00:00"
+      "complete_tickets": 1,
+      "generated_at": "2026-08-19T06:52:06.444663+00:00"
     },
     {
       "epic_key": "ER-3227",
@@ -1590,11 +1662,11 @@
       "project_key": "ER",
       "project_name": "eRealty",
       "epic_created": "2026-08-03T14:54:43.430+0300",
-      "total_net_days": 2.13,
-      "total_cost_egp": 7455.0,
+      "total_net_days": 3.62,
+      "total_cost_egp": 12670.0,
       "total_tickets": 1,
-      "complete_tickets": 0,
-      "generated_at": "2026-08-17T07:03:32.169008+00:00"
+      "complete_tickets": 1,
+      "generated_at": "2026-08-19T06:52:18.169623+00:00"
     },
     {
       "epic_key": "ER-3229",
@@ -1798,7 +1870,7 @@
       "total_cost_egp": 173285.0,
       "total_tickets": 11,
       "complete_tickets": 7,
-      "generated_at": "2026-08-16T05:04:31.956629+00:00"
+      "generated_at": "2026-08-19T06:52:00.859158+00:00"
     },
     {
       "epic_key": "IMS-1035",
@@ -1986,11 +2058,11 @@
       "project_key": "IMS",
       "project_name": "Inventory Management System ",
       "epic_created": "2026-04-10T18:45:27.706+0200",
-      "total_net_days": 126.49,
-      "total_cost_egp": 442715.0,
+      "total_net_days": 127.0,
+      "total_cost_egp": 444500.0,
       "total_tickets": 25,
       "complete_tickets": 17,
-      "generated_at": "2026-08-18T06:50:28.238939+00:00"
+      "generated_at": "2026-08-19T06:52:17.283339+00:00"
     },
     {
       "epic_key": "IMS-1426",
@@ -2022,11 +2094,11 @@
       "project_key": "IMS",
       "project_name": "Inventory Management System ",
       "epic_created": "2025-06-01T13:39:52.533+0300",
-      "total_net_days": 158.62,
-      "total_cost_egp": 555170.0,
+      "total_net_days": 161.73,
+      "total_cost_egp": 566055.0,
       "total_tickets": 21,
       "complete_tickets": 16,
-      "generated_at": "2026-08-17T07:03:15.665526+00:00"
+      "generated_at": "2026-08-19T06:51:51.325788+00:00"
     },
     {
       "epic_key": "IMS-1564",
@@ -2074,7 +2146,7 @@
       "total_cost_egp": 209405.0,
       "total_tickets": 6,
       "complete_tickets": 6,
-      "generated_at": "2026-08-17T07:02:34.506617+00:00"
+      "generated_at": "2026-08-19T06:52:26.275559+00:00"
     },
     {
       "epic_key": "IMS-1594",
@@ -2430,11 +2502,11 @@
       "project_key": "IMS",
       "project_name": "Inventory Management System ",
       "epic_created": "2026-07-11T20:07:44.216+0300",
-      "total_net_days": 22.63,
-      "total_cost_egp": 79205.0,
+      "total_net_days": 24.96,
+      "total_cost_egp": 87360.0,
       "total_tickets": 2,
       "complete_tickets": 0,
-      "generated_at": "2026-08-16T05:05:15.689918+00:00"
+      "generated_at": "2026-08-19T06:52:07.269347+00:00"
     },
     {
       "epic_key": "IMS-193",
@@ -2454,11 +2526,11 @@
       "project_key": "IMS",
       "project_name": "Inventory Management System ",
       "epic_created": "2025-02-18T12:45:41.822+0200",
-      "total_net_days": 289.24,
-      "total_cost_egp": 1012340.0,
+      "total_net_days": 290.48,
+      "total_cost_egp": 1016680.0,
       "total_tickets": 123,
       "complete_tickets": 97,
-      "generated_at": "2026-08-17T07:02:55.466979+00:00"
+      "generated_at": "2026-08-19T06:52:03.003873+00:00"
     },
     {
       "epic_key": "IMS-305",
@@ -2478,11 +2550,11 @@
       "project_key": "IMS",
       "project_name": "Inventory Management System ",
       "epic_created": "2025-09-16T15:49:00.235+0300",
-      "total_net_days": 121.37,
-      "total_cost_egp": 424795.0,
+      "total_net_days": 122.78,
+      "total_cost_egp": 429730.0,
       "total_tickets": 26,
-      "complete_tickets": 21,
-      "generated_at": "2026-08-18T06:51:08.787544+00:00"
+      "complete_tickets": 23,
+      "generated_at": "2026-08-19T06:52:21.276178+00:00"
     },
     {
       "epic_key": "IMS-71",
@@ -2581,16 +2653,28 @@
       "generated_at": "2026-08-17T07:03:26.390010+00:00"
     },
     {
+      "epic_key": "IMS-835",
+      "epic_name": "Ordering (Ranking) Floor plans and images in grouping (old/new groups)",
+      "project_key": "IMS",
+      "project_name": "Inventory Management System ",
+      "epic_created": "2025-12-03T12:52:07.776+0200",
+      "total_net_days": 0.0,
+      "total_cost_egp": 0.0,
+      "total_tickets": 2,
+      "complete_tickets": 1,
+      "generated_at": "2026-08-19T06:51:31.297185+00:00"
+    },
+    {
       "epic_key": "IMS-9",
       "epic_name": "Primary Sheets Processing & Ingestion",
       "project_key": "IMS",
       "project_name": "Inventory Management System ",
       "epic_created": "2025-02-18T12:36:31.717+0200",
-      "total_net_days": 1970.54,
-      "total_cost_egp": 6896890.0,
+      "total_net_days": 1973.65,
+      "total_cost_egp": 6907775.0,
       "total_tickets": 191,
       "complete_tickets": 183,
-      "generated_at": "2026-08-16T05:01:43.495837+00:00"
+      "generated_at": "2026-08-19T06:52:31.383539+00:00"
     },
     {
       "epic_key": "IMS-91",
@@ -2614,7 +2698,7 @@
       "total_cost_egp": 542325.0,
       "total_tickets": 20,
       "complete_tickets": 20,
-      "generated_at": "2026-08-16T05:04:12.662186+00:00"
+      "generated_at": "2026-08-19T06:52:15.348637+00:00"
     },
     {
       "epic_key": "IMS-973",
@@ -2862,11 +2946,11 @@
       "project_key": "NCRM",
       "project_name": "NawyCRM",
       "epic_created": "2025-09-18T13:54:29.504+0300",
-      "total_net_days": 121.47,
-      "total_cost_egp": 425145.0,
-      "total_tickets": 61,
+      "total_net_days": 121.66,
+      "total_cost_egp": 425810.0,
+      "total_tickets": 63,
       "complete_tickets": 30,
-      "generated_at": "2026-08-18T06:51:00.408600+00:00"
+      "generated_at": "2026-08-19T06:52:35.392025+00:00"
     },
     {
       "epic_key": "NCRM-2",
@@ -3162,11 +3246,11 @@
       "project_key": "NCRM",
       "project_name": "NawyCRM",
       "epic_created": "2026-06-10T12:02:31.048+0300",
-      "total_net_days": 0.0,
-      "total_cost_egp": 0.0,
+      "total_net_days": 0.11,
+      "total_cost_egp": 385.0,
       "total_tickets": 1,
       "complete_tickets": 0,
-      "generated_at": "2026-08-13T09:47:49.632590+00:00"
+      "generated_at": "2026-08-19T06:52:14.452150+00:00"
     },
     {
       "epic_key": "NCRM-3214",
@@ -3370,7 +3454,7 @@
       "total_cost_egp": 73500.0,
       "total_tickets": 7,
       "complete_tickets": 5,
-      "generated_at": "2026-08-17T07:03:36.117870+00:00"
+      "generated_at": "2026-08-19T06:51:54.675512+00:00"
     },
     {
       "epic_key": "NCRM-3328",
@@ -3534,11 +3618,11 @@
       "project_key": "NCRM",
       "project_name": "NawyCRM",
       "epic_created": "2026-08-05T10:20:58.443+0300",
-      "total_net_days": 0.0,
-      "total_cost_egp": 0.0,
+      "total_net_days": 0.11,
+      "total_cost_egp": 385.0,
       "total_tickets": 1,
       "complete_tickets": 0,
-      "generated_at": "2026-08-13T09:48:42.180016+00:00"
+      "generated_at": "2026-08-19T06:51:28.640754+00:00"
     },
     {
       "epic_key": "NCRM-3374",
@@ -3994,7 +4078,7 @@
       "total_cost_egp": 3022670.0,
       "total_tickets": 47,
       "complete_tickets": 26,
-      "generated_at": "2026-08-16T05:06:42.288492+00:00"
+      "generated_at": "2026-08-19T06:52:10.507737+00:00"
     },
     {
       "epic_key": "NLP-2073",
@@ -4018,7 +4102,7 @@
       "total_cost_egp": 7551425.0,
       "total_tickets": 78,
       "complete_tickets": 61,
-      "generated_at": "2026-08-18T06:50:46.034253+00:00"
+      "generated_at": "2026-08-19T06:51:50.373468+00:00"
     },
     {
       "epic_key": "NLP-2294",
@@ -4086,11 +4170,11 @@
       "project_key": "NLP",
       "project_name": "Nawy Listing Platform ",
       "epic_created": "2024-12-04T11:16:05.464+0200",
-      "total_net_days": 1587.96,
-      "total_cost_egp": 5557860.0,
+      "total_net_days": 1423.35,
+      "total_cost_egp": 4981725.0,
       "total_tickets": 119,
       "complete_tickets": 96,
-      "generated_at": "2026-08-18T06:51:12.823503+00:00"
+      "generated_at": "2026-08-19T06:51:21.337718+00:00"
     },
     {
       "epic_key": "NLP-2823",
@@ -4098,11 +4182,11 @@
       "project_key": "NLP",
       "project_name": "Nawy Listing Platform ",
       "epic_created": "2024-12-04T11:16:48.560+0200",
-      "total_net_days": 1450.94,
-      "total_cost_egp": 5078290.0,
+      "total_net_days": 1452.45,
+      "total_cost_egp": 5083575.0,
       "total_tickets": 110,
-      "complete_tickets": 102,
-      "generated_at": "2026-08-18T06:50:57.414601+00:00"
+      "complete_tickets": 103,
+      "generated_at": "2026-08-19T06:51:42.000899+00:00"
     },
     {
       "epic_key": "NLP-2824",
@@ -4158,11 +4242,11 @@
       "project_key": "NLP",
       "project_name": "Nawy Listing Platform ",
       "epic_created": "2025-02-25T16:50:54.072+0200",
-      "total_net_days": 145.83,
-      "total_cost_egp": 510405.0,
+      "total_net_days": 147.81,
+      "total_cost_egp": 517335.0,
       "total_tickets": 32,
       "complete_tickets": 19,
-      "generated_at": "2026-08-18T06:50:41.530495+00:00"
+      "generated_at": "2026-08-19T06:51:49.069202+00:00"
     },
     {
       "epic_key": "NLP-3684",
@@ -4258,7 +4342,7 @@
       "total_cost_egp": 1724345.0,
       "total_tickets": 34,
       "complete_tickets": 27,
-      "generated_at": "2026-08-17T07:02:58.190343+00:00"
+      "generated_at": "2026-08-19T06:51:26.834448+00:00"
     },
     {
       "epic_key": "NLP-3958",
@@ -5109,8 +5193,8 @@
       "total_net_days": 0.0,
       "total_cost_egp": 0.0,
       "total_tickets": 1,
-      "complete_tickets": 0,
-      "generated_at": "2026-08-17T07:03:08.181141+00:00"
+      "complete_tickets": 1,
+      "generated_at": "2026-08-19T06:51:44.468959+00:00"
     },
     {
       "epic_key": "NLP-5055",
@@ -6080,9 +6164,9 @@
       "epic_created": "2026-06-08T12:54:16.273+0300",
       "total_net_days": 0.0,
       "total_cost_egp": 0.0,
-      "total_tickets": 1,
+      "total_tickets": 2,
       "complete_tickets": 0,
-      "generated_at": "2026-08-18T06:50:31.718591+00:00"
+      "generated_at": "2026-08-19T06:51:43.729438+00:00"
     },
     {
       "epic_key": "PAR-4956",
@@ -6090,11 +6174,11 @@
       "project_key": "PAR",
       "project_name": "Partners",
       "epic_created": "2026-07-13T13:01:38.924+0300",
-      "total_net_days": 5.41,
-      "total_cost_egp": 18935.0,
+      "total_net_days": 11.27,
+      "total_cost_egp": 39445.0,
       "total_tickets": 9,
       "complete_tickets": 0,
-      "generated_at": "2026-08-18T06:51:17.987552+00:00"
+      "generated_at": "2026-08-19T06:52:29.165576+00:00"
     },
     {
       "epic_key": "PAR-4958",
@@ -6102,11 +6186,11 @@
       "project_key": "PAR",
       "project_name": "Partners",
       "epic_created": "2026-07-13T13:04:19.073+0300",
-      "total_net_days": 0.0,
-      "total_cost_egp": 0.0,
+      "total_net_days": 0.11,
+      "total_cost_egp": 385.0,
       "total_tickets": 2,
       "complete_tickets": 0,
-      "generated_at": "2026-08-18T06:51:21.165766+00:00"
+      "generated_at": "2026-08-19T06:52:22.943527+00:00"
     },
     {
       "epic_key": "PAR-4976",
@@ -6296,9 +6380,9 @@
       "epic_created": "2026-08-11T16:48:01.517+0300",
       "total_net_days": 0.0,
       "total_cost_egp": 0.0,
-      "total_tickets": 1,
+      "total_tickets": 2,
       "complete_tickets": 0,
-      "generated_at": "2026-08-18T06:50:39.707828+00:00"
+      "generated_at": "2026-08-19T06:51:59.605755+00:00"
     },
     {
       "epic_key": "PAR-5108",
@@ -6690,11 +6774,11 @@
       "project_key": "PSQ",
       "project_name": "Platform Squad",
       "epic_created": "2026-07-15T13:35:42.451+0300",
-      "total_net_days": 1.03,
-      "total_cost_egp": 3605.0,
+      "total_net_days": 4.53,
+      "total_cost_egp": 15855.0,
       "total_tickets": 2,
-      "complete_tickets": 1,
-      "generated_at": "2026-08-18T06:51:09.706156+00:00"
+      "complete_tickets": 2,
+      "generated_at": "2026-08-19T06:51:53.520373+00:00"
     },
     {
       "epic_key": "PSQ-798",
@@ -6990,11 +7074,11 @@
       "project_key": "SC",
       "project_name": "Suite Control ",
       "epic_created": "2026-03-30T22:13:10.881+0200",
-      "total_net_days": 615.49,
-      "total_cost_egp": 2154215.0,
+      "total_net_days": 618.23,
+      "total_cost_egp": 2163805.0,
       "total_tickets": 37,
       "complete_tickets": 22,
-      "generated_at": "2026-08-16T04:54:14.621767+00:00"
+      "generated_at": "2026-08-19T06:52:32.148391+00:00"
     },
     {
       "epic_key": "SC-15",
@@ -7030,7 +7114,7 @@
       "total_cost_egp": 47075.0,
       "total_tickets": 7,
       "complete_tickets": 6,
-      "generated_at": "2026-08-16T04:54:21.789513+00:00"
+      "generated_at": "2026-08-19T06:52:22.207401+00:00"
     },
     {
       "epic_key": "SC-1590",
@@ -7040,9 +7124,9 @@
       "epic_created": "2026-04-28T03:54:43.236+0300",
       "total_net_days": 0.0,
       "total_cost_egp": 0.0,
-      "total_tickets": 1,
+      "total_tickets": 2,
       "complete_tickets": 0,
-      "generated_at": "2026-08-12T09:47:22.829859+00:00"
+      "generated_at": "2026-08-19T06:52:24.663804+00:00"
     },
     {
       "epic_key": "SC-17",
@@ -7784,9 +7868,9 @@
       "epic_created": "2026-08-13T18:21:51.189+0300",
       "total_net_days": 0.0,
       "total_cost_egp": 0.0,
-      "total_tickets": 1,
+      "total_tickets": 2,
       "complete_tickets": 0,
-      "generated_at": "2026-08-18T06:50:16.073182+00:00"
+      "generated_at": "2026-08-19T06:52:23.698606+00:00"
     },
     {
       "epic_key": "SC-2169",
@@ -7854,11 +7938,11 @@
       "project_key": "SC",
       "project_name": "Suite Control ",
       "epic_created": "2025-08-13T12:27:00.697+0300",
-      "total_net_days": 230.93,
-      "total_cost_egp": 808255.0,
+      "total_net_days": 231.93,
+      "total_cost_egp": 811755.0,
       "total_tickets": 52,
       "complete_tickets": 44,
-      "generated_at": "2026-08-18T06:51:15.521512+00:00"
+      "generated_at": "2026-08-19T06:52:19.408962+00:00"
     },
     {
       "epic_key": "SC-386",
@@ -7990,7 +8074,7 @@
       "total_cost_egp": 941605.0,
       "total_tickets": 19,
       "complete_tickets": 17,
-      "generated_at": "2026-08-16T05:10:45.802252+00:00"
+      "generated_at": "2026-08-19T06:51:38.105200+00:00"
     },
     {
       "epic_key": "SP-1333",
@@ -8134,7 +8218,7 @@
       "total_cost_egp": 173845.0,
       "total_tickets": 3,
       "complete_tickets": 2,
-      "generated_at": "2026-08-16T05:11:21.241618+00:00"
+      "generated_at": "2026-08-19T06:52:05.467598+00:00"
     },
     {
       "epic_key": "SP-1674",
@@ -8142,11 +8226,11 @@
       "project_key": "SP",
       "project_name": "Sales Portal",
       "epic_created": "2026-02-02T11:23:12.625+0200",
-      "total_net_days": 132.27,
-      "total_cost_egp": 462945.0,
+      "total_net_days": 135.38,
+      "total_cost_egp": 473830.0,
       "total_tickets": 2,
       "complete_tickets": 0,
-      "generated_at": "2026-08-16T05:11:22.446952+00:00"
+      "generated_at": "2026-08-19T06:51:45.933432+00:00"
     },
     {
       "epic_key": "SP-1676",
@@ -8242,7 +8326,7 @@
       "total_cost_egp": 60095.0,
       "total_tickets": 35,
       "complete_tickets": 15,
-      "generated_at": "2026-08-16T05:11:40.363339+00:00"
+      "generated_at": "2026-08-19T06:52:16.370069+00:00"
     },
     {
       "epic_key": "SP-1883",
@@ -8338,7 +8422,7 @@
       "total_cost_egp": 78855.0,
       "total_tickets": 4,
       "complete_tickets": 3,
-      "generated_at": "2026-08-16T05:11:45.918880+00:00"
+      "generated_at": "2026-08-19T06:51:42.958348+00:00"
     },
     {
       "epic_key": "SP-1967",
@@ -8494,7 +8578,7 @@
       "total_cost_egp": 33880.0,
       "total_tickets": 2,
       "complete_tickets": 1,
-      "generated_at": "2026-08-16T05:11:55.405133+00:00"
+      "generated_at": "2026-08-19T06:51:38.992629+00:00"
     },
     {
       "epic_key": "SP-2037",
@@ -8586,11 +8670,11 @@
       "project_key": "SP",
       "project_name": "Sales Portal",
       "epic_created": "2026-07-20T14:31:01.059+0300",
-      "total_net_days": 3.75,
-      "total_cost_egp": 13125.0,
+      "total_net_days": 6.01,
+      "total_cost_egp": 21035.0,
       "total_tickets": 5,
-      "complete_tickets": 2,
-      "generated_at": "2026-08-16T05:12:01.146599+00:00"
+      "complete_tickets": 3,
+      "generated_at": "2026-08-19T06:51:47.657255+00:00"
     },
     {
       "epic_key": "SP-2080",
@@ -8602,7 +8686,7 @@
       "total_cost_egp": 1715.0,
       "total_tickets": 2,
       "complete_tickets": 1,
-      "generated_at": "2026-08-06T12:31:57.667459+00:00"
+      "generated_at": "2026-08-19T06:52:04.352733+00:00"
     },
     {
       "epic_key": "SP-2084",
@@ -8622,11 +8706,11 @@
       "project_key": "SP",
       "project_name": "Sales Portal",
       "epic_created": "2026-07-22T12:09:04.672+0300",
-      "total_net_days": 6.8,
-      "total_cost_egp": 23800.0,
+      "total_net_days": 9.91,
+      "total_cost_egp": 34685.0,
       "total_tickets": 2,
       "complete_tickets": 1,
-      "generated_at": "2026-08-16T05:12:02.167597+00:00"
+      "generated_at": "2026-08-19T06:52:08.813515+00:00"
     },
     {
       "epic_key": "SP-2096",
@@ -8662,7 +8746,7 @@
       "total_cost_egp": 570605.0,
       "total_tickets": 12,
       "complete_tickets": 9,
-      "generated_at": "2026-08-16T05:10:26.668241+00:00"
+      "generated_at": "2026-08-19T06:51:58.682215+00:00"
     },
     {
       "epic_key": "SP-2109",
@@ -8694,11 +8778,11 @@
       "project_key": "SP",
       "project_name": "Sales Portal",
       "epic_created": "2026-08-11T14:04:15.761+0300",
-      "total_net_days": 25.96,
-      "total_cost_egp": 90860.0,
+      "total_net_days": 26.97,
+      "total_cost_egp": 94395.0,
       "total_tickets": 1,
       "complete_tickets": 0,
-      "generated_at": "2026-08-18T06:50:37.741052+00:00"
+      "generated_at": "2026-08-19T06:52:08.064041+00:00"
     },
     {
       "epic_key": "SP-2146",
@@ -8708,9 +8792,9 @@
       "epic_created": "2026-08-12T10:25:33.095+0300",
       "total_net_days": 0.0,
       "total_cost_egp": 0.0,
-      "total_tickets": 2,
-      "complete_tickets": 0,
-      "generated_at": "2026-08-14T07:38:45.711406+00:00"
+      "total_tickets": 6,
+      "complete_tickets": 5,
+      "generated_at": "2026-08-19T06:51:57.635370+00:00"
     },
     {
       "epic_key": "SP-240",
@@ -8761,5 +8845,5 @@
       "generated_at": "2026-08-16T05:10:29.677112+00:00"
     }
   ],
-  "updated_at": "2026-08-18T06:51:21.192545+00:00"
+  "updated_at": "2026-08-19T06:52:35.417806+00:00"
 }
