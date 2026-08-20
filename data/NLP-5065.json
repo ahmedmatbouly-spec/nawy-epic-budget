@@ -4,7 +4,7 @@
   "project_key": "NLP",
   "project_name": "Nawy Listing Platform ",
   "epic_created": "2026-07-15T11:18:24.507+0300",
-  "generated_at": "2026-08-16T05:10:00.000191+00:00",
+  "generated_at": "2026-08-20T06:53:36.537553+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 3,
   "complete_tickets": 1,
@@ -12,17 +12,6 @@
   "total_net_days": 0.0,
   "total_cost_egp": 0.0,
   "tickets": [
-    {
-      "key": "NLP-5062",
-      "summary": "[Web] Web signup [Dev & Test]",
-      "status": "Done",
-      "net_days": 0.0,
-      "gross_days": 0.0,
-      "excluded_days": 0.0,
-      "cost_egp": 0.0,
-      "is_complete": true,
-      "num_spans": 0
-    },
     {
       "key": "NLP-5224",
       "summary": "[BE] Make search history saved on signed up user level",
@@ -35,9 +24,20 @@
       "num_spans": 0
     },
     {
+      "key": "NLP-5062",
+      "summary": "[Web] Web signup [Dev & Test]",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    },
+    {
       "key": "NLP-5244",
       "summary": "[Web] Web signup [UAT Only]",
-      "status": "Ready for UAT",
+      "status": "Product UAT",
       "net_days": 0.0,
       "gross_days": 0.0,
       "excluded_days": 0.0,

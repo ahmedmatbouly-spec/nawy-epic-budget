@@ -1,0 +1,27 @@
+{
+  "epic_key": "CM-995",
+  "epic_name": "campaignsCount always returns 0 on /organization-campaigns/analytics",
+  "project_key": "CM",
+  "project_name": "Campaigns Management",
+  "epic_created": "2026-08-16T13:43:56.532+0300",
+  "generated_at": "2026-08-20T06:52:38.043688+00:00",
+  "rate_per_day_egp": 3500.0,
+  "total_tickets": 1,
+  "complete_tickets": 1,
+  "in_progress_tickets": 0,
+  "total_net_days": 0.0,
+  "total_cost_egp": 0.0,
+  "tickets": [
+    {
+      "key": "CM-1007",
+      "summary": "Code Review: campaignsCount always returns 0 on /organization-campaigns/analytics",
+      "status": "Done",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": true,
+      "num_spans": 0
+    }
+  ]
+}

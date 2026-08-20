@@ -1,10 +1,10 @@
 {
-  "epic_key": "CM-918",
-  "epic_name": "Open audiences + summary",
-  "project_key": "CM",
-  "project_name": "Campaigns Management",
-  "epic_created": "2026-07-28T14:45:40.825+0300",
-  "generated_at": "2026-08-20T06:53:34.745074+00:00",
+  "epic_key": "SP-2167",
+  "epic_name": "MISC Requests",
+  "project_key": "SP",
+  "project_name": "Sales Portal",
+  "epic_created": "2026-08-19T13:56:15.513+0300",
+  "generated_at": "2026-08-20T06:53:45.909266+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 2,
   "complete_tickets": 0,
@@ -13,9 +13,9 @@
   "total_cost_egp": 0.0,
   "tickets": [
     {
-      "key": "CM-1009",
-      "summary": "Code Review: Open audiences + summary",
-      "status": "To Do",
+      "key": "SP-2169",
+      "summary": "Add Email Recipients to Sale Update Email",
+      "status": "Open",
       "net_days": 0.0,
       "gross_days": 0.0,
       "excluded_days": 0.0,
@@ -24,9 +24,9 @@
       "num_spans": 0
     },
     {
-      "key": "CM-923",
-      "summary": "Testing: Open audiences + summary",
-      "status": "To Do",
+      "key": "SP-2171",
+      "summary": "Add Payments tab URL to the Collection issues email sent to the primary team",
+      "status": "Open",
       "net_days": 0.0,
       "gross_days": 0.0,
       "excluded_days": 0.0,

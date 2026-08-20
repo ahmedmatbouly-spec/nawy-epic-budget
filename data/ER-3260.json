@@ -1,10 +1,10 @@
 {
-  "epic_key": "NLP-5248",
-  "epic_name": "[BE] Display EOI amount in launches",
-  "project_key": "NLP",
-  "project_name": "Nawy Listing Platform ",
-  "epic_created": "2026-08-12T18:02:37.268+0300",
-  "generated_at": "2026-08-20T06:52:48.770203+00:00",
+  "epic_key": "ER-3260",
+  "epic_name": "Localization - Send PDFs in Arabic",
+  "project_key": "ER",
+  "project_name": "eRealty",
+  "epic_created": "2026-08-09T13:41:47.021+0300",
+  "generated_at": "2026-08-20T06:53:06.168348+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 1,
   "complete_tickets": 0,
@@ -13,8 +13,8 @@
   "total_cost_egp": 0.0,
   "tickets": [
     {
-      "key": "NLP-5250",
-      "summary": "Testing: [BE] Display EOI amount in launches",
+      "key": "ER-3286",
+      "summary": "Testing: Localization - Send PDFs in Arabic",
       "status": "To Do",
       "net_days": 0.0,
       "gross_days": 0.0,
