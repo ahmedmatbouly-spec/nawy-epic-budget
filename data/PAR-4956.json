@@ -4,17 +4,28 @@
   "project_key": "PAR",
   "project_name": "Partners",
   "epic_created": "2026-07-13T13:01:38.924+0300",
-  "generated_at": "2026-08-20T06:53:27.013439+00:00",
+  "generated_at": "2026-08-21T06:53:52.160872+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 9,
   "complete_tickets": 0,
   "in_progress_tickets": 9,
-  "total_net_days": 12.28,
-  "total_cost_egp": 42980.0,
+  "total_net_days": 12.83,
+  "total_cost_egp": 44905.0,
   "tickets": [
     {
-      "key": "PAR-4957",
-      "summary": "[Partners pool][AM Flow] Filtering, insights and un-assignment reasons surfacing",
+      "key": "PAR-4777",
+      "summary": "[BE] Automatic Un-Assignment Rules Engine",
+      "status": "Code Review",
+      "net_days": 2.58,
+      "gross_days": 2.58,
+      "excluded_days": 0.0,
+      "cost_egp": 9030.0,
+      "is_complete": false,
+      "num_spans": 1
+    },
+    {
+      "key": "PAR-4960",
+      "summary": "[Partners pool][Team Leader/Managers Flow] Filtering, insights and un-assignment reasons surfacing",
       "status": "Open",
       "net_days": 0.0,
       "gross_days": 0.0,
@@ -22,17 +33,6 @@
       "cost_egp": 0.0,
       "is_complete": false,
       "num_spans": 0
-    },
-    {
-      "key": "PAR-4958",
-      "summary": "[BE] Admin: Lock/Unlock Account Manager on Organization",
-      "status": "Ready for Re-test",
-      "net_days": 5.23,
-      "gross_days": 5.23,
-      "excluded_days": 0.0,
-      "cost_egp": 18305.0,
-      "is_complete": false,
-      "num_spans": 1
     },
     {
       "key": "PAR-5106",
@@ -57,13 +57,35 @@
       "num_spans": 1
     },
     {
-      "key": "PAR-4777",
-      "summary": "[BE] Automatic Un-Assignment Rules Engine",
-      "status": "Code Review",
-      "net_days": 2.58,
-      "gross_days": 2.58,
+      "key": "PAR-4957",
+      "summary": "[Partners pool][AM Flow] Filtering, insights and un-assignment reasons surfacing",
+      "status": "Open",
+      "net_days": 0.0,
+      "gross_days": 0.0,
       "excluded_days": 0.0,
-      "cost_egp": 9030.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "PAR-4959",
+      "summary": "[Partners List][AM] Manual dropping block, un-assignment risk flagging & comms",
+      "status": "Open",
+      "net_days": 0.0,
+      "gross_days": 0.0,
+      "excluded_days": 0.0,
+      "cost_egp": 0.0,
+      "is_complete": false,
+      "num_spans": 0
+    },
+    {
+      "key": "PAR-4958",
+      "summary": "[BE] Admin: Lock/Unlock Account Manager on Organization",
+      "status": "Product UAT",
+      "net_days": 5.78,
+      "gross_days": 6.11,
+      "excluded_days": 0.34,
+      "cost_egp": 20230.0,
       "is_complete": false,
       "num_spans": 1
     },
@@ -88,28 +110,6 @@
       "cost_egp": 10885.0,
       "is_complete": false,
       "num_spans": 1
-    },
-    {
-      "key": "PAR-4959",
-      "summary": "[Partners List][AM] Manual dropping block, un-assignment risk flagging & comms",
-      "status": "Open",
-      "net_days": 0.0,
-      "gross_days": 0.0,
-      "excluded_days": 0.0,
-      "cost_egp": 0.0,
-      "is_complete": false,
-      "num_spans": 0
-    },
-    {
-      "key": "PAR-4960",
-      "summary": "[Partners pool][Team Leader/Managers Flow] Filtering, insights and un-assignment reasons surfacing",
-      "status": "Open",
-      "net_days": 0.0,
-      "gross_days": 0.0,
-      "excluded_days": 0.0,
-      "cost_egp": 0.0,
-      "is_complete": false,
-      "num_spans": 0
     }
   ]
 }

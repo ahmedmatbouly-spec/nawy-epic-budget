@@ -4,25 +4,14 @@
   "project_key": "PAR",
   "project_name": "Partners",
   "epic_created": "2026-07-14T14:27:53.825+0300",
-  "generated_at": "2026-08-20T06:53:11.191404+00:00",
+  "generated_at": "2026-08-21T06:53:49.208839+00:00",
   "rate_per_day_egp": 3500.0,
   "total_tickets": 2,
   "complete_tickets": 1,
   "in_progress_tickets": 1,
-  "total_net_days": 0.0,
-  "total_cost_egp": 0.0,
+  "total_net_days": 0.79,
+  "total_cost_egp": 2765.0,
   "tickets": [
-    {
-      "key": "PAR-5118",
-      "summary": "Testing: [Issues Reporting][Web][Freshworks] Issues preview and details page - commenting experience and comms",
-      "status": "To Do",
-      "net_days": 0.0,
-      "gross_days": 0.0,
-      "excluded_days": 0.0,
-      "cost_egp": 0.0,
-      "is_complete": false,
-      "num_spans": 0
-    },
     {
       "key": "PAR-5142",
       "summary": "Code Review: [Issues Reporting][Web][Freshworks] Issues preview and details page - commenting experience and comms",
@@ -33,6 +22,17 @@
       "cost_egp": 0.0,
       "is_complete": true,
       "num_spans": 0
+    },
+    {
+      "key": "PAR-5118",
+      "summary": "Testing: [Issues Reporting][Web][Freshworks] Issues preview and details page - commenting experience and comms",
+      "status": "In Progress",
+      "net_days": 0.79,
+      "gross_days": 0.79,
+      "excluded_days": 0.0,
+      "cost_egp": 2765.0,
+      "is_complete": false,
+      "num_spans": 1
     }
   ]
 }
